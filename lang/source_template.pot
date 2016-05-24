@@ -4,105 +4,61 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Project-Id-Version: \n"
 
+#: views/modal/dropbox.html:18
+msgid "- add your comments to transactions"
+msgstr ""
+
+#: views/modal/dropbox.html:19
+msgid "- label addresses"
+msgstr ""
+
+#: views/modal/dropbox.html:17
+msgid "- rename accounts"
+msgstr ""
+
+#: views/modal/dropbox.html:20
+msgid "- use the full-text search"
+msgstr ""
+
+#. connection to the server been lost ...
+#: views/alertbars/offline.html:5
+msgid ", but don't worry, your bitcoins are safe."
+msgstr ""
+
+#: views/account/sign/index.html:55
+msgid ""
+"\"{{accountSignCtrl.signMessage.nonAsciiCharacter()}}\"\n"
+"                            in your message is not an ASCII character."
+msgstr ""
+
+#: views/account/sign/index.html:176
+msgid "\"{{accountSignCtrl.verifyMessage.nonAsciiCharacter()}}\" in your message is not an ASCII character."
+msgstr ""
+
 #: views/import.html:31
 #: views/import.html:40
 msgid "(1 per row)"
+msgstr ""
+
+#: views/device/load.html:44
+msgid "(leave empty to keep PIN protection disabled)"
 msgstr ""
 
 #: views/nav.html:65
 msgid "(loading)"
 msgstr ""
 
-#: views/account/send/txPrepared.html:33
-msgid "{{output.path | bip32Path}} (the change address)"
+#: views/account/send/txPrepared.html:34
+msgid "(the change address)"
 msgstr ""
 
-#: views/modal/dropbox.html:10
-msgid ""
-"<b>1. Click 'Connect to Dropbox' and log in.</b><br>\n"
-"        <span>If you don't have a Dropbox account yet, create one before you log in.</span>"
-msgstr ""
-
-#: views/modal/dropbox.html:15
-msgid ""
-"<b>2. Allow access of your TREZOR device to your Dropbox folder.</b><br>From that moment on you can:<br>\n"
-"        <span>- rename accounts </span><br>\n"
-"        <span>- add your comments to transactions </span><br>\n"
-"        <span>- label addresses </span><br>\n"
-"        <span>- use the full-text search</span>"
-msgstr ""
-
-#: views/modal/dropbox.html:23
-msgid ""
-"<b>3. Enjoy ultimate TREZOR security and privacy.</b> <br>\n"
-"        <span>All labels and comments that you add on myTREZOR.com are automatically encrypted by a key derived from TREZOR device and synchronized with your Dropbox folder ensuring a 100% secure and always available service. Even if your Dropbox account gets compromised, your private data stay safe.</span><br>\n"
-"        <a href=\"https://doc.satoshilabs.com/trezor-user/labeling.html\" target=\"_blank\">Learn more about myTREZOR labeling.</a>"
-msgstr ""
-
-#: views/device/index.basic.html:147
-#: views/device/index.basic.html:182
-msgid ""
-"<b>Be careful with your XPUBs.</b> When you give them\n"
-"                to a third party, you allow it to see your whole\n"
-"                transaction history.\n"
-"                <a href=\"\" ng-click=\"deviceInfoCtrl.learnMoreXpub()\" ng-hide=\"deviceInfoCtrl.learnMoreXpubDisplayed\">\n"
-"                    Learn more\n"
-"                </a>"
+#. please try to reload and ...
+#: views/alertbars/offline.html:6
+msgid "<br>Please try to"
 msgstr ""
 
 #: views/device/advanced.html:72
-msgid ""
-"<b>If you disable the passphrase encryption, your current\n"
-"                            funds will not appear.</b> You will have to enable the\n"
-"                        passphrase encryption again to see your current wallet."
-msgstr ""
-
-#: views/device/homescreen.html:123
-msgid ""
-"<br><br>\n"
-"                <a href=\"https://www.flickr.com/photos/blu_pineappl3/14028754235\" target=\"_blank\">coffee</a>\n"
-"                by <a href=\"https://www.flickr.com/photos/blu_pineappl3/\" target=\"_blank\">jen</a>\n"
-"                is licenced under\n"
-"                <a href=\"https://creativecommons.org/licenses/by/2.0/\">CC BY 2.0</a>\n"
-"                <br>\n"
-"                <a href=\"https://www.flickr.com/photos/blu_pineappl3/14028754235\" target=\"_blank\">Flower Close Up In Darkness</a>\n"
-"                by <a href=\"https://www.flickr.com/photos/blu_pineappl3/\" target=\"_blank\">A Guy</a>\n"
-"                is licenced under \n"
-"                <a href=\"https://creativecommons.org/licenses/by/2.0/\">CC BY 2.0</a>"
-msgstr ""
-
-#: views/device/load.html:44
-msgid "<label for=\"pin\" class=\"control-label\">PIN</label>&nbsp;(leave empty to keep PIN protection disabled)"
-msgstr ""
-
-#: views/account/send/index.html:25
-msgid ""
-"<p>\n"
-"                                    <strong>\n"
-"                                        You're about to send a lot of money!\n"
-"                                    </strong>\n"
-"                                </p>\n"
-"                                <p>\n"
-"                                    Unlike your TREZOR, computers are not safe. \n"
-"                                    Malware might replace bitcoin addresses you see.\n"
-"                                </p>\n"
-"                                <p>\n"
-"                                    We recommend you to verify the payment address \n"
-"                                    through independent communication channels\n"
-"                                    such as a phone call or a text message.\n"
-"                                </p>\n"
-"                                <p>\n"
-"                                    <a href=\"http://doc.satoshilabs.com/trezor-faq/threats.html#phishing\" target=\"_blank\">\n"
-"                                        Read more about phishing…\n"
-"                                    </a>\n"
-"                                </p>"
-msgstr ""
-
-#: views/alertbars/offline.html:4
-msgid ""
-"<strong>Connection to the server has been lost</strong>,\n"
-"    but don't worry, your bitcoins\n"
-"    are safe. <br>Please try to <a href=\"\" onclick=\"window.location.reload()\" class=\"btn btn-danger btn-xs\" style=\"margin-left: 5px\">Reload</a> this page or choose another server in <a ng-href=\"#/settings\" class=\"btn btn-danger btn-xs\" style=\"margin-left: 5px\">Application Settings</a>"
+msgid "<strong>If you disable the passphrase encryption, your current funds will not appear.</strong> You will have to enable the passphrase encryption again to see your current wallet."
 msgstr ""
 
 #: views/device/load.html:3
@@ -110,23 +66,14 @@ msgstr ""
 msgid "<strong>Please connect your device</strong> to access this section."
 msgstr ""
 
-#: views/modal/firmware.html:20
-msgid ""
-"<strong>To update the firmware:\n"
-"      <ol>\n"
-"        <li>disconnect the device</li>\n"
-"        <li>plug it in while holding both device buttons pressed</li>\n"
-"      </ol>\n"
-"      </strong>"
-msgstr ""
-
 #: views/account/receive/index.html:7
-msgid "<strong>Warning!</strong>  Account balance information is inconsistent."
-msgstr ""
-
 #: views/account/send/index.html:7
 #: views/account/transactions/index.html:1
 msgid "<strong>Warning!</strong> Account balance information is inconsistent."
+msgstr ""
+
+#: views/modal/dropbox.html:11
+msgid "1. Click 'Connect to Dropbox' and log in."
 msgstr ""
 
 #: views/device/recovery.html:107
@@ -137,8 +84,16 @@ msgstr ""
 msgid "18 words"
 msgstr ""
 
+#: views/modal/dropbox.html:16
+msgid "2. Allow access of your TREZOR device to your Dropbox folder."
+msgstr ""
+
 #: views/device/recovery.html:113
 msgid "24 words"
+msgstr ""
+
+#: views/modal/dropbox.html:24
+msgid "3. Enjoy ultimate TREZOR security and privacy."
 msgstr ""
 
 #: views/device/index.basic.html:116
@@ -163,8 +118,8 @@ msgid "Additional passphrase encryption"
 msgstr ""
 
 #: views/account/send/txAddress.html:4
-#: views/account/sign/index.html:190
-#: views/account/sign/index.html:66
+#: views/account/sign/index.html:181
+#: views/account/sign/index.html:62
 msgid "Address"
 msgstr ""
 
@@ -174,6 +129,10 @@ msgstr ""
 
 #: views/modal/button.html:80
 msgid "All data on your device will be deleted."
+msgstr ""
+
+#: views/modal/dropbox.html:25
+msgid "All labels and comments that you add on myTREZOR.com are automatically encrypted by a key derived from TREZOR device and synchronized with your Dropbox folder ensuring a 100% secure and always available service. Even if your Dropbox account gets compromised, your private data stay safe."
 msgstr ""
 
 #: views/modal/button.html:108
@@ -196,6 +155,7 @@ msgstr ""
 msgid "API keys are useful if you want to import a watch-only wallet."
 msgstr ""
 
+#: views/alertbars/offline.html:12
 #: views/settings.html:13
 msgid "Application Settings"
 msgstr ""
@@ -208,6 +168,11 @@ msgstr ""
 msgid "Basic"
 msgstr ""
 
+#: views/device/index.basic.html:148
+#: views/device/index.basic.html:183
+msgid "Be careful with your XPUBs."
+msgstr ""
+
 #: views/account/receive/index.html:119
 msgid "BIP32 Path:"
 msgstr ""
@@ -218,6 +183,12 @@ msgstr ""
 
 #: views/device/homescreen.html:14
 msgid "Browse"
+msgstr ""
+
+#. [something] by [somebody] - in licensing term
+#: views/device/homescreen.html:124
+#: views/device/homescreen.html:130
+msgid "by"
 msgstr ""
 
 #: views/device/load.html:60
@@ -270,8 +241,8 @@ msgstr ""
 msgid "Check address on TREZOR display"
 msgstr ""
 
-#: views/account/sign/index.html:120
-#: views/account/sign/index.html:225
+#: views/account/sign/index.html:116
+#: views/account/sign/index.html:216
 msgid "Clear"
 msgstr ""
 
@@ -339,6 +310,10 @@ msgstr ""
 msgid "Connected"
 msgstr ""
 
+#: views/alertbars/offline.html:5
+msgid "Connection to the server has been lost"
+msgstr ""
+
 #: views/device/index.setup.html:22
 #: views/device/load.html:57
 #: views/device/recovery.html:131
@@ -379,17 +354,21 @@ msgstr ""
 msgid "Device label"
 msgstr ""
 
-#: views/device/advanced.html:107
+#: views/device/advanced.html:105
 msgid "Disable passphrase encryption"
 msgstr ""
 
-#: views/device/advanced.html:120
-#: views/device/advanced.html:137
+#: views/device/advanced.html:118
+#: views/device/advanced.html:135
 msgid "Disable PIN"
 msgstr ""
 
 #: views/device/index.basic.html:46
 msgid "Disabled"
+msgstr ""
+
+#: views/modal/firmware.html:22
+msgid "disconnect the device"
 msgstr ""
 
 #: views/modal/disconnect.html:7
@@ -410,13 +389,10 @@ msgstr ""
 msgid "Disconnected"
 msgstr ""
 
-#: views/install/main.html:79
+#: views/install/main.html:80
 msgid ""
 "Do you use Google Chrome on\n"
-"                    this computer? With\n"
-"            <a target=\"_blank\" href=\"https://chrome.google.com/webstore/detail/{{installCtrl.chromeExtensionId}}\">TREZOR Chrome Extension</a>\n"
-"                    you can use myTREZOR in Chrome without installing any\n"
-"                    other software."
+"                    this computer?"
 msgstr ""
 
 #: views/install/main.html:25
@@ -570,6 +546,11 @@ msgstr ""
 msgid "from history"
 msgstr ""
 
+#. write description what can you doo when active labeling
+#: views/modal/dropbox.html:16
+msgid "From that moment on you can:"
+msgstr ""
+
 #: views/jumbotrons/start.html:4
 msgid "Get started!"
 msgstr ""
@@ -620,6 +601,10 @@ msgid ""
 "    you this question next time you disconnect the device."
 msgstr ""
 
+#: views/modal/dropbox.html:12
+msgid "If you don't have a Dropbox account yet, create one before you log in."
+msgstr ""
+
 #: views/modal/button.html:92
 msgid "If you forget your passphrase, you will lose your coins."
 msgstr ""
@@ -630,18 +615,21 @@ msgid ""
 "                            good. There is no way to recover your funds."
 msgstr ""
 
+#: views/device/homescreen.html:68
+msgid ""
+"If you want to make a homescreen picture from a photo or a logo, use\n"
+"                    <a href=\"https://trezor.github.io/homescreen-editor/\" target=\"_blank\">our homescreen editor</a>."
+msgstr ""
+
 #: views/modal/firmware.html:181
 #: views/modal/firmware.html:228
 msgid "If your TREZOR is already initialized, always have your Recovery seed with you before updating the firmware!"
 msgstr ""
 
-#: views/device/homescreen.html:61
+#: views/device/homescreen.html:65
 msgid ""
 "Image must be 128 px wide and 64 px high, and using only black and white\n"
-"                    (not grayscale).\n"
-"                    <br><br>\n"
-"                    If you want to make a homescreen picture from a photo or a logo, use\n"
-"                    <a href=\"https://trezor.github.io/homescreen-editor/\" target=\"_blank\">our homescreen editor</a>."
+"                    (not grayscale)."
 msgstr ""
 
 #: views/modal/csv.html:44
@@ -680,6 +668,11 @@ msgstr ""
 msgid "Install for Chrome"
 msgstr ""
 
+#: views/device/homescreen.html:125
+#: views/device/homescreen.html:131
+msgid "is licenced under"
+msgstr ""
+
 #: views/device/index.basic.html:19
 msgid "Label"
 msgstr ""
@@ -691,6 +684,15 @@ msgstr ""
 #: views/modal/firmware.html:261
 #: views/modal/firmware.html:82
 msgid "Latest"
+msgstr ""
+
+#: views/device/index.basic.html:151
+#: views/device/index.basic.html:186
+msgid "Learn more"
+msgstr ""
+
+#: views/modal/dropbox.html:26
+msgid "Learn more about myTREZOR labeling."
 msgstr ""
 
 #: views/jumbotrons/loading.html:4
@@ -739,22 +741,12 @@ msgstr ""
 msgid "Make sure you don't have myTREZOR running in another tab or browser window."
 msgstr ""
 
-#: views/account/sign/index.html:163
-msgid ""
-"Maximal message length is 255 letters long.\n"
-"                            Your message is\n"
-"                            {{accountSignCtrl.verifyMessage.message.length}} \n"
-"                             letters long."
-msgstr ""
-
+#: views/account/sign/index.html:159
 #: views/account/sign/index.html:39
-msgid ""
-"Maximal message length is 255 letters long.\n"
-"                            Your message is {{accountSignCtrl.signMessage.message.length}} \n"
-"                            letters long."
+msgid "Maximal message length is 255 letters long."
 msgstr ""
 
-#: views/account/sign/index.html:145
+#: views/account/sign/index.html:141
 #: views/account/sign/index.html:24
 msgid "Message"
 msgstr ""
@@ -792,7 +784,7 @@ msgstr ""
 msgid "myTREZOR labeling"
 msgstr ""
 
-#: views/install/main.html:90
+#: views/install/main.html:93
 #: views/install/udev.html:63
 msgid ""
 "myTREZOR Web Wallet is a free service provided exclusively to\n"
@@ -865,7 +857,7 @@ msgid "Number of words in your recovery seed"
 msgstr ""
 
 #: views/device/advanced.html:43
-#: views/device/advanced.html:87
+#: views/device/advanced.html:85
 msgid "OK, I understand"
 msgstr ""
 
@@ -890,6 +882,10 @@ msgstr ""
 
 #: views/modal/csv.html:35
 msgid "Paste the CSV here:"
+msgstr ""
+
+#: views/device/load.html:44
+msgid "PIN"
 msgstr ""
 
 #: views/device/index.basic.html:41
@@ -997,7 +993,7 @@ msgstr ""
 msgid "Please wait"
 msgstr ""
 
-#: views/account/sign/index.html:91
+#: views/account/sign/index.html:87
 msgid "Please wait..."
 msgstr ""
 
@@ -1015,6 +1011,10 @@ msgstr ""
 
 #: views/modal/button.html:51
 msgid "Please write down the recovery seed from your device."
+msgstr ""
+
+#: views/modal/firmware.html:23
+msgid "plug it in while holding both device buttons pressed"
 msgstr ""
 
 #: views/settings.html:29
@@ -1038,7 +1038,12 @@ msgstr ""
 msgid "Re-type for control"
 msgstr ""
 
-#: views/device/advanced.html:78
+#: views/account/send/index.html:42
+msgid "Read more about phishing…"
+msgstr ""
+
+#: views/device/advanced.html:37
+#: views/device/advanced.html:76
 msgid "Read more in user manual"
 msgstr ""
 
@@ -1061,6 +1066,10 @@ msgstr ""
 #: views/modal/firmware.html:240
 #: views/modal/firmware.html:53
 msgid "Release notes"
+msgstr ""
+
+#: views/alertbars/offline.html:7
+msgid "Reload"
 msgstr ""
 
 #: views/modal/forget.disconnected.html:16
@@ -1105,7 +1114,7 @@ msgstr ""
 msgid "Seed recovery"
 msgstr ""
 
-#: views/device/homescreen.html:80
+#: views/device/homescreen.html:78
 msgid "Select an image"
 msgstr ""
 
@@ -1161,7 +1170,7 @@ msgstr ""
 msgid "Show XPUBs"
 msgstr ""
 
-#: views/account/sign/index.html:112
+#: views/account/sign/index.html:108
 msgid "Sign"
 msgstr ""
 
@@ -1173,8 +1182,8 @@ msgstr ""
 msgid "Sign message"
 msgstr ""
 
-#: views/account/sign/index.html:200
-#: views/account/sign/index.html:98
+#: views/account/sign/index.html:191
+#: views/account/sign/index.html:94
 msgid "Signature"
 msgstr ""
 
@@ -1226,6 +1235,11 @@ msgid ""
 "      This is useful if you have more than one device."
 msgstr ""
 
+#. please try to reload this page or ...
+#: views/alertbars/offline.html:11
+msgid "this page or choose another server in"
+msgstr ""
+
 #: views/install/udev.html:54
 msgid ""
 "This step is needed only on Linux.\n"
@@ -1260,6 +1274,10 @@ msgid ""
 "            before connecting TREZOR."
 msgstr ""
 
+#: views/modal/firmware.html:20
+msgid "To update the firmware:"
+msgstr ""
+
 #: views/modal/pin.html:87
 msgid "Too Long"
 msgstr ""
@@ -1276,33 +1294,17 @@ msgstr ""
 msgid "TREZOR Bridge update"
 msgstr ""
 
-#: views/account/sign/index.html:174
-msgid ""
-"TREZOR can show only 64 letters on the display.\n"
-"                            Your message is\n"
-"                            {{accountSignCtrl.verifyMessage.message.length}} \n"
-"                            letters long."
+#: views/account/sign/index.html:168
+#: views/account/sign/index.html:47
+msgid "TREZOR can show only 64 letters on the display."
 msgstr ""
 
-#: views/account/sign/index.html:50
-msgid ""
-"TREZOR can show only 64 letters on the display.\n"
-"                            Your message is {{accountSignCtrl.signMessage.message.length}}\n"
-"                            letters long."
+#: views/account/sign/index.html:54
+msgid "TREZOR cannot sign non-ASCII characters."
 msgstr ""
 
-#: views/account/sign/index.html:58
-msgid ""
-"TREZOR cannot sign non-ASCII characters.\n"
-"                            \"{{accountSignCtrl.signMessage.nonAsciiCharacter()}}\" \n"
-"                            in your message is not an ASCII character."
-msgstr ""
-
-#: views/account/sign/index.html:183
-msgid ""
-"TREZOR cannot verify non-ASCII characters.\n"
-"                            \"{{accountSignCtrl.verifyMessage.nonAsciiCharacter()}}\" \n"
-"                             in your message is not an ASCII character."
+#: views/account/sign/index.html:175
+msgid "TREZOR cannot verify non-ASCII characters."
 msgstr ""
 
 #: views/error.html:5
@@ -1327,6 +1329,12 @@ msgstr ""
 
 #: views/account/transactions/txAddress.html:33
 msgid "Unknown"
+msgstr ""
+
+#: views/account/send/index.html:32
+msgid ""
+"Unlike your TREZOR, computers are not safe. \n"
+"                                    Malware might replace bitcoin addresses you see."
 msgstr ""
 
 #: views/account/receive/address.html:97
@@ -1374,25 +1382,18 @@ msgstr ""
 msgid "URL needs to start with https://"
 msgstr ""
 
-#: views/device/advanced.html:166
+#: views/device/advanced.html:164
 msgid ""
 "Use this feature only if you have your Recovery Seed or\n"
 "                        you don't have any coins on your device."
 msgstr ""
 
 #: views/nav.html:23
+#: views/nav.html:69
 msgid "Used in other window"
 msgstr ""
 
-#: views/nav.html:68
-msgid ""
-"Used in other window\n"
-"                            <span class=\"btn btn-xs btn-default\" tooltip=\"{{'Click to renew session' | translate}}\" tooltip-placement=\"right\" tooltip-append-to-body=\"true\" tooltip-trigger=\"mouseenter\" ng-click=\"navCtrl.steal(device); $event.stopPropagation();\">\n"
-"                                <span class=\"glyphicon glyphicon-refresh\"></span>\n"
-"                            </span>"
-msgstr ""
-
-#: views/device/advanced.html:146
+#: views/device/advanced.html:144
 msgid ""
 "Using PIN protection is highly recommended. PIN prevents\n"
 "                    unauthorized persons from stealing your bitcoins even when\n"
@@ -1405,11 +1406,11 @@ msgid ""
 "            your bitcoins even when they get physical access to your device."
 msgstr ""
 
-#: views/account/sign/index.html:216
+#: views/account/sign/index.html:207
 msgid "Verify"
 msgstr ""
 
-#: views/account/sign/index.html:136
+#: views/account/sign/index.html:132
 msgid "Verify message"
 msgstr ""
 
@@ -1434,10 +1435,10 @@ msgstr ""
 msgid "Want to restore your wallet from recovery seed?"
 msgstr ""
 
-#: views/account/sign/index.html:162
-#: views/account/sign/index.html:173
+#: views/account/sign/index.html:158
+#: views/account/sign/index.html:167
 #: views/account/sign/index.html:38
-#: views/account/sign/index.html:49
+#: views/account/sign/index.html:46
 msgid "Warning:"
 msgstr ""
 
@@ -1450,6 +1451,13 @@ msgstr ""
 
 #: views/install/mobile.html:4
 msgid "We are sorry, myTREZOR is not yet supported on phones and tablets. Please use a computer with Windows, OS X or Linux operating system."
+msgstr ""
+
+#: views/account/send/index.html:36
+msgid ""
+"We recommend you to verify the payment address \n"
+"                                    through independent communication channels\n"
+"                                    such as a phone call or a text message."
 msgstr ""
 
 #: views/alertbars/restore_metadata.html:5
@@ -1489,8 +1497,16 @@ msgstr ""
 msgid "What is TREZOR?"
 msgstr ""
 
-#: views/device/advanced.html:160
-#: views/device/advanced.html:184
+#: views/device/index.basic.html:148
+#: views/device/index.basic.html:183
+msgid ""
+"When you give them\n"
+"                to a third party, you allow it to see your whole\n"
+"                transaction history."
+msgstr ""
+
+#: views/device/advanced.html:158
+#: views/device/advanced.html:182
 msgid "Wipe device"
 msgstr ""
 
@@ -1499,8 +1515,18 @@ msgstr ""
 msgid "Wipe finished"
 msgstr ""
 
-#: views/device/advanced.html:165
+#: views/device/advanced.html:163
 msgid "Wiping the device <b>removes all its information.</b>"
+msgstr ""
+
+#. Do you use Google Chrome on
+                    this computer? [[[With]]] TREZOR Chrome extension you can ...
+#: views/install/main.html:82
+msgid ""
+"With\n"
+"            <a target=\"_blank\" href=\"https://chrome.google.com/webstore/detail/{{installCtrl.chromeExtensionId}}\">TREZOR Chrome Extension</a>\n"
+"                    you can use myTREZOR in Chrome without installing any\n"
+"                    other software."
 msgstr ""
 
 #: views/modal/forget.disconnected.html:7
@@ -1518,6 +1544,10 @@ msgstr ""
 msgid "Yes, update"
 msgstr ""
 
+#: views/account/send/index.html:28
+msgid "You're about to send a lot of money!"
+msgstr ""
+
 #: views/account/send/txTypeAhead.html:21
 msgid "your account"
 msgstr ""
@@ -1533,7 +1563,7 @@ msgstr ""
 msgid "Your device is not fully loaded. Reconnect it to use it."
 msgstr ""
 
-#: views/device/homescreen.html:101
+#: views/device/homescreen.html:99
 msgid "Your images"
 msgstr ""
 
@@ -1541,6 +1571,16 @@ msgstr ""
 #: views/modal/firmware.html:276
 #: views/modal/firmware.html:97
 msgid "Your installation of TREZOR Bridge needs to be upgraded first."
+msgstr ""
+
+#: views/account/sign/index.html:40
+#: views/account/sign/index.html:48
+msgid "Your message is {{accountSignCtrl.signMessage.message.length}} letters long."
+msgstr ""
+
+#: views/account/sign/index.html:160
+#: views/account/sign/index.html:169
+msgid "Your message is {{accountSignCtrl.verifyMessage.message.length}} letters long."
 msgstr ""
 
 #: views/modal/firmware.html:41
