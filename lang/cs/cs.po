@@ -4,8 +4,8 @@ msgstr ""
 "POT-Creation-Date: \n"
 "PO-Revision-Date: 2016-06-01 12:35+0000\n"
 "Last-Translator: Jan Pecinovsky <jan.pecinovsky@braiins.cz>\n"
-"Language-Team: Czech "
-"<https://hosted.weblate.org/projects/satoshilabs/mytrezor/cs/>\n"
+"Language-Team: Czech <https://hosted.weblate.org/projects/satoshilabs/"
+"mytrezor/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -46,9 +46,34 @@ msgstr "(ponechejte prázdne pro zrušení PINu)"
 msgid "(loading)"
 msgstr "(načítání)"
 
-#: views/account/send/txPrepared.html:34
+#: views/account/send/txPrepared.html:42
 msgid "(the change address)"
 msgstr "(zmenená adresa)"
+
+#: views/account/send/index.html:26
+msgid ""
+"<p>\n"
+"                                    <strong translate=\"\">\n"
+"                                        You're about to send a lot of "
+"money!\n"
+"                                    </strong>\n"
+"                                </p>\n"
+"                                <p translate=\"\">\n"
+"                                    Unlike your TREZOR, computers are not "
+"safe. Malware might replace bitcoin addresses you see.\n"
+"                                </p>\n"
+"                                <p translate=\"\">\n"
+"                                    We recommend you to verify the payment "
+"address through independent communication channels such as a phone call or a "
+"text message.\n"
+"                                </p>\n"
+"                                <p>\n"
+"                                    <a href=\"http://doc.satoshilabs.com/"
+"trezor-faq/threats.html#phishing\" target=\"_blank\" translate=\"\">\n"
+"                                        Read more about phishing…\n"
+"                                    </a>\n"
+"                                </p>"
+msgstr ""
 
 #: views/device/advanced.html:66
 msgid ""
@@ -109,7 +134,7 @@ msgstr "Přidat účet"
 msgid "Add comment"
 msgstr "Přidat komentář"
 
-#: views/account/send/buttonBar.html:44
+#: views/account/send/buttonBar.html:16
 msgid "Add recipient"
 msgstr "Přidat příjemce"
 
@@ -200,11 +225,11 @@ msgstr "podle"
 #: views/device/load.html:58 views/device/recovery.html:130
 #: views/import.html:54 views/modal/csv.html:42 views/modal/disconnect.html:17
 #: views/modal/disconnect.passphrase_disable.html:14
-#: views/modal/disconnect.passphrase_enable.html:14 views/modal/dropbox.html:30
-#: views/modal/firmware.html:106 views/modal/firmware.html:131
-#: views/modal/firmware.html:155 views/modal/firmware.html:197
-#: views/modal/firmware.html:278 views/modal/firmware.html:299
-#: views/modal/qr.html:17 views/settings.html:40
+#: views/modal/disconnect.passphrase_enable.html:14
+#: views/modal/dropbox.html:30 views/modal/firmware.html:106
+#: views/modal/firmware.html:131 views/modal/firmware.html:155
+#: views/modal/firmware.html:197 views/modal/firmware.html:278
+#: views/modal/firmware.html:299 views/modal/qr.html:17 views/settings.html:44
 msgid "Cancel"
 msgstr "Zrušiť"
 
@@ -445,6 +470,10 @@ msgstr "Stahování firmware..."
 msgid "Dropbox connected. Click to disconnect it."
 msgstr "Dropbox připojen. Kliknutím jej odpojíte."
 
+#: views/account/send/fees.html:13
+msgid "Economy"
+msgstr ""
+
 #: views/modal/button.html:4 views/modal/dropbox.html:7
 msgid "Enable labeling"
 msgstr "Povolit značkování"
@@ -473,10 +502,6 @@ msgstr "Zadejte slovo seedu"
 msgid "Example:"
 msgstr "Příklad:"
 
-#: views/account/send/buttonBar.html:6
-msgid "Expected confirmation time:"
-msgstr "Očekávaný čas potvrzení:"
-
 #: views/install/udev.html:7
 msgid "Extension installed successfully"
 msgstr "Rozšírení úspěšně nainstalováno"
@@ -485,11 +510,11 @@ msgstr "Rozšírení úspěšně nainstalováno"
 msgid "Fee is over threshold."
 msgstr "Poplatek je přes limit."
 
-#: views/account/send/buttonBar.html:9 views/account/send/txPrepared.html:10
+#: views/account/send/txPrepared.html:19
 msgid "Fee:"
 msgstr "Poplatek:"
 
-#: views/account/send/txPrepared.html:11
+#: views/account/send/txPrepared.html:10
 msgid "Fee/kB:"
 msgstr "Poplatek/kB:"
 
@@ -515,11 +540,11 @@ msgid ""
 "For more information, <a href=\"http://doc.satoshilabs.com/trezor-user/"
 "updatingfirmware.html\" target=\"_blank\">visit the user manual</a>."
 msgstr ""
-"Pro více informací, <a href=“http://doc.satoshilabs.com/trezor-"
-"user/updatingfirmware.html” target=“_blank”>navštivte uživatelskou "
-"příručku.</a>"
+"Pro více informací, <a href=“http://doc.satoshilabs.com/trezor-user/"
+"updatingfirmware.html” target=“_blank”>navštivte uživatelskou příručku.</a>"
 
-#: views/modal/forget.disconnected.html:13 views/modal/forget.requested.html:12
+#: views/modal/forget.disconnected.html:13
+#: views/modal/forget.requested.html:12
 msgid "Forget"
 msgstr "Zapomenout"
 
@@ -576,9 +601,22 @@ msgstr "Skrýt předcházející"
 msgid "Hide this account"
 msgstr "Skrýt tenhle účet"
 
+#: views/account/send/fees.html:11
+msgid "High"
+msgstr ""
+
 #: views/device/nav.html:11
 msgid "Homescreen"
 msgstr "Obrazovka"
+
+#. Used when estimating transaction time (Expected time: less than 5 *minutes*)
+#: views/account/send/fees.html:38 views/account/send/fees.html:82
+msgctxt "transaction-time"
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
 #: views/modal/firmware.html:316
 msgid "If asked, please confirm the update on your device."
@@ -663,7 +701,7 @@ msgstr "Importovat"
 msgid "Import addresses from CSV"
 msgstr "Importovat adresy z CSV"
 
-#: views/account/send/buttonBar.html:52
+#: views/account/send/buttonBar.html:24
 msgid "Import from CSV"
 msgstr "Importovat z CSV"
 
@@ -707,6 +745,12 @@ msgstr "Přečtěte si více"
 #: views/modal/dropbox.html:26
 msgid "Learn more about myTREZOR labeling."
 msgstr "Přečtěte si více o označování v myTREZOR."
+
+#. Used when estimating transaction time (Expected time: *less than* 5 minutes)
+#: views/account/send/fees.html:71
+msgctxt "transaction-time"
+msgid "less than"
+msgstr ""
 
 #: views/jumbotrons/loading.html:4 views/nav.html:167
 msgid "Loading"
@@ -752,6 +796,10 @@ msgstr ""
 "Ztracený? Podívejte se do našeho <a href=\"http://doc.satoshilabs.com/trezor-"
 "user/enteringyourpin.html\" target=\"_blank\">uživatelského manuálu</a>."
 
+#: views/account/send/fees.html:14
+msgid "Low"
+msgstr ""
+
 #: views/modal/firmware.html:326
 msgid "Make sure the same fingerprint is displayed on the device screen."
 msgstr "Ujistěte se, že stejný otisk se zobrazí na displeji zařízení."
@@ -787,6 +835,15 @@ msgstr ""
 #: views/device/nav.html:26
 msgid "Metadata setup"
 msgstr "Nastavení metadat"
+
+#. Used when estimating transaction time (Expected time: less than 5 *minutes*)
+#: views/account/send/fees.html:51 views/account/send/fees.html:95
+msgctxt "transaction-time"
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
 #: views/account/receive/index.html:81
 msgid "More please"
@@ -861,6 +918,10 @@ msgstr ""
 #: views/account/transactions/index.html:40
 msgid "No transactions to display"
 msgstr "Žádné transakce k zobrazení"
+
+#: views/account/send/fees.html:12
+msgid "Normal"
+msgstr ""
 
 #. matadata metaapikey not set ...
 #: views/device/metadata.html:24
@@ -1052,18 +1113,13 @@ msgid "plug it in while holding both device buttons pressed"
 msgstr ""
 "Ztiskněte obě tlačítka a podržte, zatímco zařízení připojíte k počítači."
 
-#: views/settings.html:29
+#: views/settings.html:33
 msgid "Prefill from following choices:"
 msgstr "Vyberte z následujících možností:"
 
 #: views/account/receive/index.html:44
 msgid "Previous addresses"
 msgstr "Předchozí adresy"
-
-#: views/account/send/buttonBar.html:33
-#, fuzzy
-msgid "Priority miner fee"
-msgstr "Prioritní transakce"
 
 #: views/device/recovery.html:43
 #, fuzzy
@@ -1074,7 +1130,7 @@ msgstr "Pracuji na tom ..."
 msgid "Re-type for control"
 msgstr "Zadejte znovu pro kontrolu"
 
-#: views/account/send/index.html:39
+#: views/account/send/index.html:42
 msgid "Read more about phishing…"
 msgstr "Přečtěte si více o phishingu…"
 
@@ -1114,7 +1170,7 @@ msgstr "Zapamatovat"
 msgid "Remove"
 msgstr "Odstranit"
 
-#: views/account/send/buttonBar.html:57
+#: views/account/send/buttonBar.html:29
 msgid "Remove all recipients"
 msgstr "Odstranit všechny příjemce"
 
@@ -1126,7 +1182,7 @@ msgstr "Přejmenovat účet"
 msgid "Rename this account"
 msgstr "Přejmenovat tento účet"
 
-#: views/settings.html:37
+#: views/settings.html:41
 msgid "Save & Reload"
 msgstr "Uložit a Obnovit"
 
@@ -1162,7 +1218,7 @@ msgstr "Vybrat obrázek"
 msgid "Select platform..."
 msgstr "Vybrat platformu ..."
 
-#: views/account/nav.html:15 views/account/send/buttonBar.html:24
+#: views/account/nav.html:15 views/account/send/buttonBar.html:6
 msgid "Send"
 msgstr "Odeslat"
 
@@ -1226,7 +1282,7 @@ msgstr "Podepsat zprávu"
 msgid "Signature"
 msgstr "Podpis"
 
-#: views/account/send/index.html:69
+#: views/account/send/index.html:72
 msgid "Signing and sending transaction&hellip;"
 msgstr "Podepsání a odeslání transakce &hellip;"
 
@@ -1251,6 +1307,12 @@ msgstr "Podpora"
 #: views/modal/firmware.html:265
 msgid "Support needed?"
 msgstr "Zapotřebí pomoc?"
+
+#: views/account/send/txPrepared.html:12
+msgid ""
+"The final size can differ a few bytes, since the transaction is created on "
+"TREZOR."
+msgstr ""
 
 #: views/device/index.basic.html:165 views/device/index.basic.html:193
 msgid ""
@@ -1351,10 +1413,6 @@ msgstr ""
 msgid "TREZOR loading failed"
 msgstr ""
 
-#: views/account/send/buttonBar.html:35
-msgid "TREZOR might ask for<br> an extra confirmation."
-msgstr ""
-
 #: views/device/index.basic.html:7
 msgid "Try again"
 msgstr "Zkus znovu"
@@ -1371,7 +1429,7 @@ msgstr "Nepotvrzená"
 msgid "Unknown"
 msgstr "Neznámá"
 
-#: views/account/send/index.html:32
+#: views/account/send/index.html:35
 msgid ""
 "Unlike your TREZOR, computers are not safe. Malware might replace bitcoin "
 "addresses you see."
@@ -1423,6 +1481,10 @@ msgstr "Nahrávání firmware..."
 #: views/settings.html:24
 msgid "URL needs to start with https://"
 msgstr "Adresa URL musí začínat \"https: //\""
+
+#: views/settings.html:28
+msgid "URL needs to start with https:// or http://"
+msgstr ""
 
 #: views/device/advanced.html:151
 msgid ""
@@ -1486,7 +1548,7 @@ msgid ""
 "use a computer with Windows, OS X or Linux operating system."
 msgstr ""
 
-#: views/account/send/index.html:35
+#: views/account/send/index.html:38
 msgid ""
 "We recommend you to verify the payment address through independent "
 "communication channels such as a phone call or a text message."
@@ -1569,7 +1631,7 @@ msgid ""
 "seed.<br>"
 msgstr ""
 
-#: views/account/send/index.html:28
+#: views/account/send/index.html:31
 msgid "You're about to send a lot of money!"
 msgstr ""
 
@@ -1619,3 +1681,10 @@ msgstr ""
 #: views/modal/disconnect.wipe.html:7 views/modal/forget.wipe.html:7
 msgid "Your TREZOR was successfully wiped."
 msgstr ""
+
+#~ msgid "Expected confirmation time:"
+#~ msgstr "Očekávaný čas potvrzení:"
+
+#, fuzzy
+#~ msgid "Priority miner fee"
+#~ msgstr "Prioritní transakce"

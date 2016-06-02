@@ -26,8 +26,7 @@ msgstr ""
 msgid ", but don't worry, your bitcoins are safe."
 msgstr ""
 
-#: views/import.html:31
-#: views/import.html:40
+#: views/import.html:31 views/import.html:40
 msgid "(1 per row)"
 msgstr ""
 
@@ -39,21 +38,47 @@ msgstr ""
 msgid "(loading)"
 msgstr ""
 
-#: views/account/send/txPrepared.html:34
+#: views/account/send/txPrepared.html:42
 msgid "(the change address)"
 msgstr ""
 
-#: views/device/advanced.html:66
-msgid "<strong>If you disable the passphrase encryption, your current funds will not appear.</strong> You will have to enable the passphrase encryption again to see your current wallet."
+#: views/account/send/index.html:26
+msgid ""
+"<p>\n"
+"                                    <strong translate=\"\">\n"
+"                                        You're about to send a lot of "
+"money!\n"
+"                                    </strong>\n"
+"                                </p>\n"
+"                                <p translate=\"\">\n"
+"                                    Unlike your TREZOR, computers are not "
+"safe. Malware might replace bitcoin addresses you see.\n"
+"                                </p>\n"
+"                                <p translate=\"\">\n"
+"                                    We recommend you to verify the payment "
+"address through independent communication channels such as a phone call or a "
+"text message.\n"
+"                                </p>\n"
+"                                <p>\n"
+"                                    <a href=\"http://doc.satoshilabs.com/"
+"trezor-faq/threats.html#phishing\" target=\"_blank\" translate=\"\">\n"
+"                                        Read more about phishing…\n"
+"                                    </a>\n"
+"                                </p>"
 msgstr ""
 
-#: views/device/load.html:3
-#: views/device/recovery.html:3
+#: views/device/advanced.html:66
+msgid ""
+"<strong>If you disable the passphrase encryption, your current funds will "
+"not appear.</strong> You will have to enable the passphrase encryption again "
+"to see your current wallet."
+msgstr ""
+
+#: views/device/load.html:3 views/device/recovery.html:3
 msgid "<strong>Please connect your device</strong> to access this section."
 msgstr ""
 
-#: views/account/receive/index.html:7
-#: views/account/send/index.html:7
+#: views/account/receive/index.html:7 views/account/send/index.html:7
 #: views/account/transactions/index.html:1
 msgid "<strong>Warning!</strong> Account balance information is inconsistent."
 msgstr ""
@@ -90,8 +115,7 @@ msgstr ""
 msgid "Account XPUBs"
 msgstr ""
 
-#: views/nav.html:204
-#: views/nav.html:211
+#: views/nav.html:204 views/nav.html:211
 msgid "Add account"
 msgstr ""
 
@@ -99,7 +123,7 @@ msgstr ""
 msgid "Add comment"
 msgstr ""
 
-#: views/account/send/buttonBar.html:44
+#: views/account/send/buttonBar.html:16
 msgid "Add recipient"
 msgstr ""
 
@@ -111,8 +135,7 @@ msgstr ""
 msgid "Additional passphrase encryption"
 msgstr ""
 
-#: views/account/send/txAddress.html:4
-#: views/account/sign/index.html:180
+#: views/account/send/txAddress.html:4 views/account/sign/index.html:180
 #: views/account/sign/index.html:61
 msgid "Address"
 msgstr ""
@@ -126,13 +149,15 @@ msgid "All data on your device will be deleted."
 msgstr ""
 
 #: views/modal/dropbox.html:25
-msgid "All labels and comments that you add on myTREZOR.com are automatically encrypted by a key derived from TREZOR device and synchronized with your Dropbox folder ensuring a 100% secure and always available service. Even if your Dropbox account gets compromised, your private data stay safe."
+msgid ""
+"All labels and comments that you add on myTREZOR.com are automatically "
+"encrypted by a key derived from TREZOR device and synchronized with your "
+"Dropbox folder ensuring a 100% secure and always available service. Even if "
+"your Dropbox account gets compromised, your private data stay safe."
 msgstr ""
 
-#: views/modal/button.html:103
-#: views/modal/button.html:108
-#: views/modal/button.html:120
-#: views/modal/button.html:126
+#: views/modal/button.html:103 views/modal/button.html:108
+#: views/modal/button.html:120 views/modal/button.html:126
 msgid "Allow labeling for current accounts?"
 msgstr ""
 
@@ -140,8 +165,7 @@ msgstr ""
 msgid "Allow labeling for this account?"
 msgstr ""
 
-#: views/account/send/txAmount.html:5
-#: views/account/transactions/table.html:11
+#: views/account/send/txAmount.html:5 views/account/transactions/table.html:11
 msgid "Amount"
 msgstr ""
 
@@ -149,8 +173,7 @@ msgstr ""
 msgid "API keys are useful if you want to import a watch-only wallet."
 msgstr ""
 
-#: views/alertbars/offline.html:12
-#: views/settings.html:13
+#: views/alertbars/offline.html:12 views/settings.html:13
 msgid "Application Settings"
 msgstr ""
 
@@ -162,8 +185,7 @@ msgstr ""
 msgid "Basic"
 msgstr ""
 
-#: views/device/index.basic.html:155
-#: views/device/index.basic.html:183
+#: views/device/index.basic.html:155 views/device/index.basic.html:183
 msgid "Be careful with your XPUBs."
 msgstr ""
 
@@ -180,32 +202,22 @@ msgid "Browse"
 msgstr ""
 
 #. [something] by [somebody] - in licensing term
-#: views/device/homescreen.html:119
-#: views/device/homescreen.html:125
+#: views/device/homescreen.html:119 views/device/homescreen.html:125
 msgid "by"
 msgstr ""
 
-#: views/device/load.html:58
-#: views/device/recovery.html:130
-#: views/import.html:54
-#: views/modal/csv.html:42
-#: views/modal/disconnect.html:17
+#: views/device/load.html:58 views/device/recovery.html:130
+#: views/import.html:54 views/modal/csv.html:42 views/modal/disconnect.html:17
 #: views/modal/disconnect.passphrase_disable.html:14
 #: views/modal/disconnect.passphrase_enable.html:14
-#: views/modal/dropbox.html:30
-#: views/modal/firmware.html:106
-#: views/modal/firmware.html:131
-#: views/modal/firmware.html:155
-#: views/modal/firmware.html:197
-#: views/modal/firmware.html:278
-#: views/modal/firmware.html:299
-#: views/modal/qr.html:17
-#: views/settings.html:40
+#: views/modal/dropbox.html:30 views/modal/firmware.html:106
+#: views/modal/firmware.html:131 views/modal/firmware.html:155
+#: views/modal/firmware.html:197 views/modal/firmware.html:278
+#: views/modal/firmware.html:299 views/modal/qr.html:17 views/settings.html:44
 msgid "Cancel"
 msgstr ""
 
-#: views/modal/firmware.html:170
-#: views/modal/firmware.html:212
+#: views/modal/firmware.html:170 views/modal/firmware.html:212
 #: views/modal/firmware.html:39
 msgid "Caution!"
 msgstr ""
@@ -230,8 +242,7 @@ msgstr ""
 msgid "Change PIN"
 msgstr ""
 
-#: views/modal/firmware.html:221
-#: views/modal/firmware.html:48
+#: views/modal/firmware.html:221 views/modal/firmware.html:48
 msgid "Changelog"
 msgstr ""
 
@@ -239,13 +250,11 @@ msgstr ""
 msgid "Check address on TREZOR display"
 msgstr ""
 
-#: views/account/sign/index.html:115
-#: views/account/sign/index.html:215
+#: views/account/sign/index.html:115 views/account/sign/index.html:215
 msgid "Clear"
 msgstr ""
 
-#: views/device/index.basic.html:163
-#: views/device/index.basic.html:191
+#: views/device/index.basic.html:163 views/device/index.basic.html:191
 msgid "Click on XPUB to show its QR code."
 msgstr ""
 
@@ -253,9 +262,7 @@ msgstr ""
 msgid "Click to renew session"
 msgstr ""
 
-#: views/debug.html:18
-#: views/debug.html:7
-#: views/debug.log.html:8
+#: views/debug.html:18 views/debug.html:7 views/debug.log.html:8
 #: views/modal/firmware.html:362
 msgid "Close"
 msgstr ""
@@ -309,7 +316,9 @@ msgid "Connect to Dropbox"
 msgstr ""
 
 #: views/top.bar.html:21
-msgid "Connect to Dropbox to enable:<br>- renaming accounts<br>- commenting transactions<br>- labeling addresses and more..."
+msgid ""
+"Connect to Dropbox to enable:<br>- renaming accounts<br>- commenting "
+"transactions<br>- labeling addresses and more..."
 msgstr ""
 
 #: views/install/udev.html:40
@@ -332,15 +341,12 @@ msgstr ""
 msgid "Connection to the server has been lost"
 msgstr ""
 
-#: views/device/index.setup.html:20
-#: views/device/load.html:55
-#: views/device/recovery.html:127
-#: views/import.html:52
+#: views/device/index.setup.html:20 views/device/load.html:55
+#: views/device/recovery.html:127 views/import.html:52
 msgid "Continue"
 msgstr ""
 
-#: views/account/send/txAmount.html:18
-#: views/account/send/txAmount.html:55
+#: views/account/send/txAmount.html:18 views/account/send/txAmount.html:55
 msgid "counting..."
 msgstr ""
 
@@ -360,15 +366,12 @@ msgstr ""
 msgid "Device ID"
 msgstr ""
 
-#: views/modal/firmware.html:191
-#: views/modal/firmware.html:272
+#: views/modal/firmware.html:191 views/modal/firmware.html:272
 msgid "Device is updated in other window"
 msgstr ""
 
-#: views/device/index.setup.html:9
-#: views/device/load.html:22
-#: views/device/recovery.html:85
-#: views/import.html:22
+#: views/device/index.setup.html:9 views/device/load.html:22
+#: views/device/recovery.html:85 views/import.html:22
 msgid "Device label"
 msgstr ""
 
@@ -380,8 +383,7 @@ msgstr ""
 msgid "Disable passphrase encryption"
 msgstr ""
 
-#: views/device/advanced.html:109
-#: views/device/advanced.html:124
+#: views/device/advanced.html:109 views/device/advanced.html:124
 msgid "Disable PIN"
 msgstr ""
 
@@ -416,15 +418,17 @@ msgid "Do you use Google Chrome on this computer?"
 msgstr ""
 
 #: views/install/main.html:22
-msgid "Do you use other browsers on this computer? Install the TREZOR Bridge, a standalone application that works the same way &mdash; but with every browser."
+msgid ""
+"Do you use other browsers on this computer? Install the TREZOR Bridge, a "
+"standalone application that works the same way &mdash; but with every "
+"browser."
 msgstr ""
 
 #: views/modal/forget.requested.html:7
 msgid "Do you want to forget your device?"
 msgstr ""
 
-#: views/modal/firmware.html:166
-#: views/modal/firmware.html:207
+#: views/modal/firmware.html:166 views/modal/firmware.html:207
 msgid "Do you want to update the device firmware?"
 msgstr ""
 
@@ -432,10 +436,8 @@ msgstr ""
 msgid "Don't forget"
 msgstr ""
 
-#: views/install/bridge.force.html:19
-#: views/install/main.html:26
-#: views/install/main.html:55
-#: views/install/udev.html:21
+#: views/install/bridge.force.html:19 views/install/main.html:26
+#: views/install/main.html:55 views/install/udev.html:21
 msgid "Download"
 msgstr ""
 
@@ -447,8 +449,11 @@ msgstr ""
 msgid "Dropbox connected. Click to disconnect it."
 msgstr ""
 
-#: views/modal/button.html:4
-#: views/modal/dropbox.html:7
+#: views/account/send/fees.html:13
+msgid "Economy"
+msgstr ""
+
+#: views/modal/button.html:4 views/modal/dropbox.html:7
 msgid "Enable labeling"
 msgstr ""
 
@@ -464,8 +469,7 @@ msgstr ""
 msgid "Enabled"
 msgstr ""
 
-#: views/modal/passphrase.html:60
-#: views/modal/pin.html:97
+#: views/modal/passphrase.html:60 views/modal/pin.html:97
 msgid "Enter"
 msgstr ""
 
@@ -477,10 +481,6 @@ msgstr ""
 msgid "Example:"
 msgstr ""
 
-#: views/account/send/buttonBar.html:6
-msgid "Expected confirmation time:"
-msgstr ""
-
 #: views/install/udev.html:7
 msgid "Extension installed successfully"
 msgstr ""
@@ -489,12 +489,11 @@ msgstr ""
 msgid "Fee is over threshold."
 msgstr ""
 
-#: views/account/send/buttonBar.html:9
-#: views/account/send/txPrepared.html:10
+#: views/account/send/txPrepared.html:19
 msgid "Fee:"
 msgstr ""
 
-#: views/account/send/txPrepared.html:11
+#: views/account/send/txPrepared.html:10
 msgid "Fee/kB:"
 msgstr ""
 
@@ -514,10 +513,11 @@ msgstr ""
 msgid "For more information,"
 msgstr ""
 
-#: views/modal/firmware.html:121
-#: views/modal/firmware.html:147
+#: views/modal/firmware.html:121 views/modal/firmware.html:147
 #: views/modal/firmware.html:173
-msgid "For more information, <a href=\"http://doc.satoshilabs.com/trezor-user/updatingfirmware.html\" target=\"_blank\">visit the user manual</a>."
+msgid ""
+"For more information, <a href=\"http://doc.satoshilabs.com/trezor-user/"
+"updatingfirmware.html\" target=\"_blank\">visit the user manual</a>."
 msgstr ""
 
 #: views/modal/forget.disconnected.html:13
@@ -529,8 +529,7 @@ msgstr ""
 msgid "Forget (recommended)"
 msgstr ""
 
-#: views/modal/forget.disconnected.html:4
-#: views/modal/forget.requested.html:4
+#: views/modal/forget.disconnected.html:4 views/modal/forget.requested.html:4
 msgid "Forget device?"
 msgstr ""
 
@@ -538,9 +537,10 @@ msgstr ""
 msgid "Forget this device"
 msgstr ""
 
-#: views/modal/forget.disconnected.html:9
-#: views/modal/forget.requested.html:8
-msgid "Forgetting only removes the device from the list on the left, your bitcoins are still safe and you can access them by reconnecting your TREZOR again."
+#: views/modal/forget.disconnected.html:9 views/modal/forget.requested.html:8
+msgid ""
+"Forgetting only removes the device from the list on the left, your bitcoins "
+"are still safe and you can access them by reconnecting your TREZOR again."
 msgstr ""
 
 #: views/account/receive/index.html:55
@@ -576,16 +576,29 @@ msgstr ""
 msgid "Hide this account"
 msgstr ""
 
+#: views/account/send/fees.html:11
+msgid "High"
+msgstr ""
+
 #: views/device/nav.html:11
 msgid "Homescreen"
 msgstr ""
+
+#. Used when estimating transaction time (Expected time: less than 5 *minutes*)
+#: views/account/send/fees.html:38 views/account/send/fees.html:82
+msgctxt "transaction-time"
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] ""
+msgstr[1] ""
 
 #: views/modal/firmware.html:316
 msgid "If asked, please confirm the update on your device."
 msgstr ""
 
 #: views/modal/button.html:57
-msgid "If the address matches your TREZOR display, you can be sure it is genuine."
+msgid ""
+"If the address matches your TREZOR display, you can be sure it is genuine."
 msgstr ""
 
 #: views/install/udev.html:46
@@ -593,11 +606,16 @@ msgid "If you already have the package installed, just reconnect your TREZOR."
 msgstr ""
 
 #: views/device/load.html:10
-msgid "If you are a common user and want to setup or recover your TREZOR device, please continue to <a href=\"#/device/{{deviceCtrl.device.id}}/setup\">TREZOR Setup</a>."
+msgid ""
+"If you are a common user and want to setup or recover your TREZOR device, "
+"please continue to <a href=\"#/device/{{deviceCtrl.device.id}}/setup"
+"\">TREZOR Setup</a>."
 msgstr ""
 
 #: views/modal/forget.disconnected.html:8
-msgid "If you choose to remember the device, we will not ask you this question next time you disconnect the device."
+msgid ""
+"If you choose to remember the device, we will not ask you this question next "
+"time you disconnect the device."
 msgstr ""
 
 #: views/modal/dropbox.html:12
@@ -609,20 +627,28 @@ msgid "If you forget your passphrase, you will lose your coins."
 msgstr ""
 
 #: views/device/advanced.html:31
-msgid "If you forget your passphrase, your wallet is lost for good. There is no way to recover your funds."
+msgid ""
+"If you forget your passphrase, your wallet is lost for good. There is no way "
+"to recover your funds."
 msgstr ""
 
 #: views/device/homescreen.html:66
-msgid "If you want to make a homescreen picture from a photo or a logo, use <a href=\"https://trezor.github.io/homescreen-editor/\" target=\"_blank\">our homescreen editor</a>."
+msgid ""
+"If you want to make a homescreen picture from a photo or a logo, use <a href="
+"\"https://trezor.github.io/homescreen-editor/\" target=\"_blank\">our "
+"homescreen editor</a>."
 msgstr ""
 
-#: views/modal/firmware.html:171
-#: views/modal/firmware.html:213
-msgid "If your TREZOR is already initialized, always have your Recovery seed with you before updating the firmware!"
+#: views/modal/firmware.html:171 views/modal/firmware.html:213
+msgid ""
+"If your TREZOR is already initialized, always have your Recovery seed with "
+"you before updating the firmware!"
 msgstr ""
 
 #: views/device/homescreen.html:64
-msgid "Image must be 128 px wide and 64 px high, and using only black and white (not grayscale)."
+msgid ""
+"Image must be 128 px wide and 64 px high, and using only black and white "
+"(not grayscale)."
 msgstr ""
 
 #: views/modal/csv.html:44
@@ -633,18 +659,18 @@ msgstr ""
 msgid "Import addresses from CSV"
 msgstr ""
 
-#: views/account/send/buttonBar.html:52
+#: views/account/send/buttonBar.html:24
 msgid "Import from CSV"
 msgstr ""
 
-#: views/modal/firmware.html:172
-#: views/modal/firmware.html:214
+#: views/modal/firmware.html:172 views/modal/firmware.html:214
 #: views/modal/firmware.html:41
-msgid "In very rare cases, a firmware update might result in the need to recover the wallet from Recovery seed."
+msgid ""
+"In very rare cases, a firmware update might result in the need to recover "
+"the wallet from Recovery seed."
 msgstr ""
 
-#: views/account/sign/index.html:175
-#: views/account/sign/index.html:55
+#: views/account/sign/index.html:175 views/account/sign/index.html:55
 msgid "in your message is not an ASCII character."
 msgstr ""
 
@@ -652,8 +678,7 @@ msgstr ""
 msgid "Install for Chrome"
 msgstr ""
 
-#: views/device/homescreen.html:120
-#: views/device/homescreen.html:126
+#: views/device/homescreen.html:120 views/device/homescreen.html:126
 msgid "is licenced under"
 msgstr ""
 
@@ -665,13 +690,11 @@ msgstr ""
 msgid "Label this address"
 msgstr ""
 
-#: views/modal/firmware.html:244
-#: views/modal/firmware.html:79
+#: views/modal/firmware.html:244 views/modal/firmware.html:79
 msgid "Latest"
 msgstr ""
 
-#: views/device/index.basic.html:156
-#: views/device/index.basic.html:184
+#: views/device/index.basic.html:156 views/device/index.basic.html:184
 msgid "Learn more"
 msgstr ""
 
@@ -679,8 +702,13 @@ msgstr ""
 msgid "Learn more about myTREZOR labeling."
 msgstr ""
 
-#: views/jumbotrons/loading.html:4
-#: views/nav.html:167
+#. Used when estimating transaction time (Expected time: *less than* 5 minutes)
+#: views/account/send/fees.html:71
+msgctxt "transaction-time"
+msgid "less than"
+msgstr ""
+
+#: views/jumbotrons/loading.html:4 views/nav.html:167
 msgid "Loading"
 msgstr ""
 
@@ -712,13 +740,18 @@ msgstr ""
 msgid "Log"
 msgstr ""
 
-#: views/modal/pin.html:15
-#: views/modal/pin.html:19
+#: views/modal/pin.html:15 views/modal/pin.html:19
 msgid "Look at the device for number positions."
 msgstr ""
 
 #: views/modal/pin.html:100
-msgid "Lost? Check our <a href=\"http://doc.satoshilabs.com/trezor-user/enteringyourpin.html\" target=\"_blank\">user manual</a>."
+msgid ""
+"Lost? Check our <a href=\"http://doc.satoshilabs.com/trezor-user/"
+"enteringyourpin.html\" target=\"_blank\">user manual</a>."
+msgstr ""
+
+#: views/account/send/fees.html:14
+msgid "Low"
 msgstr ""
 
 #: views/modal/firmware.html:326
@@ -726,16 +759,15 @@ msgid "Make sure the same fingerprint is displayed on the device screen."
 msgstr ""
 
 #: views/nav.html:97
-msgid "Make sure you don't have myTREZOR running in another tab or browser window."
+msgid ""
+"Make sure you don't have myTREZOR running in another tab or browser window."
 msgstr ""
 
-#: views/account/sign/index.html:158
-#: views/account/sign/index.html:39
+#: views/account/sign/index.html:158 views/account/sign/index.html:39
 msgid "Maximal message length is 255 letters long."
 msgstr ""
 
-#: views/account/sign/index.html:140
-#: views/account/sign/index.html:24
+#: views/account/sign/index.html:140 views/account/sign/index.html:24
 msgid "Message"
 msgstr ""
 
@@ -748,21 +780,28 @@ msgid "Metadata keys"
 msgstr ""
 
 #: views/import.html:46
-msgid "Metadata keys are necessary only if you want to enable labels and comments."
+msgid ""
+"Metadata keys are necessary only if you want to enable labels and comments."
 msgstr ""
 
 #: views/device/nav.html:26
 msgid "Metadata setup"
 msgstr ""
 
+#. Used when estimating transaction time (Expected time: less than 5 *minutes*)
+#: views/account/send/fees.html:51 views/account/send/fees.html:95
+msgctxt "transaction-time"
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] ""
+msgstr[1] ""
+
 #: views/account/receive/index.html:81
 msgid "More please"
 msgstr ""
 
-#: views/device/index.setup.html:11
-#: views/device/load.html:24
-#: views/device/recovery.html:87
-#: views/import.html:24
+#: views/device/index.setup.html:11 views/device/load.html:24
+#: views/device/recovery.html:87 views/import.html:24
 msgid "My TREZOR"
 msgstr ""
 
@@ -774,9 +813,10 @@ msgstr ""
 msgid "myTREZOR labeling"
 msgstr ""
 
-#: views/install/main.html:78
-#: views/install/udev.html:58
-msgid "myTREZOR Web Wallet is a free service provided exclusively to <a href=\"http://www.bitcointrezor.com\">TREZOR hardware wallet</a> owners."
+#: views/install/main.html:78 views/install/udev.html:58
+msgid ""
+"myTREZOR Web Wallet is a free service provided exclusively to <a href="
+"\"http://www.bitcointrezor.com\">TREZOR hardware wallet</a> owners."
 msgstr ""
 
 #: views/modal/disconnect.html:9
@@ -784,7 +824,9 @@ msgid "myTREZOR will forget your TREZOR right after you disconnect it."
 msgstr ""
 
 #: views/modal/button.html:81
-msgid "Never do this action with TREZOR holding coins unless you have your recovery seed at hand."
+msgid ""
+"Never do this action with TREZOR holding coins unless you have your recovery "
+"seed at hand."
 msgstr ""
 
 #: views/import.html:12
@@ -812,11 +854,18 @@ msgid "No accounts"
 msgstr ""
 
 #: views/device/load.html:12
-msgid "No checks are performed on the provided seed, so it can be binary sequence, dice-throw sequence or a random sentence. Valid BIP32 XPRV keys are interpreted prior loading to the device."
+msgid ""
+"No checks are performed on the provided seed, so it can be binary sequence, "
+"dice-throw sequence or a random sentence. Valid BIP32 XPRV keys are "
+"interpreted prior loading to the device."
 msgstr ""
 
 #: views/account/transactions/index.html:40
 msgid "No transactions to display"
+msgstr ""
+
+#: views/account/send/fees.html:12
+msgid "Normal"
 msgstr ""
 
 #. matadata metaapikey not set ...
@@ -833,15 +882,15 @@ msgid "Note that the positions of numbers shown on the device have changed!"
 msgstr ""
 
 #: views/modal/firmware.html:119
-msgid "Now plug your device in with <strong>both device buttons pressed</strong>."
+msgid ""
+"Now plug your device in with <strong>both device buttons pressed</strong>."
 msgstr ""
 
 #: views/device/recovery.html:91
 msgid "Number of words in your recovery seed"
 msgstr ""
 
-#: views/device/advanced.html:40
-#: views/device/advanced.html:79
+#: views/device/advanced.html:40 views/device/advanced.html:79
 msgid "OK, I understand"
 msgstr ""
 
@@ -850,7 +899,10 @@ msgid "Passphrase"
 msgstr ""
 
 #: views/device/advanced.html:27
-msgid "Passphrase encryption allows you to access new wallets, each hidden behind a particular passphrase. Your old accounts will be accessible behind an empty passphrase."
+msgid ""
+"Passphrase encryption allows you to access new wallets, each hidden behind a "
+"particular passphrase. Your old accounts will be accessible behind an empty "
+"passphrase."
 msgstr ""
 
 #: views/modal/passphrase.html:53
@@ -878,20 +930,22 @@ msgid "Please <strong>disconnect</strong> it now."
 msgstr ""
 
 #: views/device/recovery.html:28
-msgid "Please <strong>follow the instructions on your device.</strong> <br>Words are going to be entered in shuffled order."
+msgid ""
+"Please <strong>follow the instructions on your device.</strong> <br>Words "
+"are going to be entered in shuffled order."
 msgstr ""
 
-#: views/modal/setup.html:28
-#: views/modal/setup.html:36
-msgid "Please check the {{deviceSetupCtrl.recoveryCurrentWord | ordinal}} word of your recovery seed."
+#: views/modal/setup.html:28 views/modal/setup.html:36
+msgid ""
+"Please check the {{deviceSetupCtrl.recoveryCurrentWord | ordinal}} word of "
+"your recovery seed."
 msgstr ""
 
 #: views/alertbars/restore_metadata.html:6
 msgid "Please click here to continue using previous labels and comments."
 msgstr ""
 
-#: views/modal/button.html:13
-#: views/modal/button.html:138
+#: views/modal/button.html:13 views/modal/button.html:138
 #: views/modal/button.html:96
 msgid "Please confirm the action on your device."
 msgstr ""
@@ -925,11 +979,14 @@ msgid "Please enter your passphrase"
 msgstr ""
 
 #: views/install/main.html:47
-msgid "Please install TREZOR Bridge to allow myTREZOR to talk with your device."
+msgid ""
+"Please install TREZOR Bridge to allow myTREZOR to talk with your device."
 msgstr ""
 
 #: views/install/main.html:8
-msgid "Please install TREZOR Chrome Extension to allow myTREZOR to talk with your device."
+msgid ""
+"Please install TREZOR Chrome Extension to allow myTREZOR to talk with your "
+"device."
 msgstr ""
 
 #: views/modal/pin.html:22
@@ -937,15 +994,22 @@ msgid "Please re-enter new PIN:"
 msgstr ""
 
 #: views/modal/firmware.html:294
-msgid "Please reconnect it <strong>while pressing both buttons simultaneously.</strong>"
+msgid ""
+"Please reconnect it <strong>while pressing both buttons simultaneously.</"
+"strong>"
 msgstr ""
 
 #: views/device/index.setup.html:4
-msgid "Please take your time to read all of the instructions. Setting up your TREZOR will take only a few minutes. When you're done, you can start using your TREZOR."
+msgid ""
+"Please take your time to read all of the instructions. Setting up your "
+"TREZOR will take only a few minutes. When you're done, you can start using "
+"your TREZOR."
 msgstr ""
 
 #: views/modal/firmware.html:145
-msgid "Please try again. You need to make sure<strong>both device buttons are pressed, as you plug in the device.</strong>"
+msgid ""
+"Please try again. You need to make sure<strong>both device buttons are "
+"pressed, as you plug in the device.</strong>"
 msgstr ""
 
 #. please try to reload and ...
@@ -953,8 +1017,7 @@ msgstr ""
 msgid "Please try to"
 msgstr ""
 
-#: views/modal/firmware.html:346
-#: views/modal/firmware.html:356
+#: views/modal/firmware.html:346 views/modal/firmware.html:356
 msgid "Please unplug the device now."
 msgstr ""
 
@@ -966,9 +1029,10 @@ msgstr ""
 msgid "Please wait..."
 msgstr ""
 
-#: views/modal/setup.html:13
-#: views/modal/setup.html:21
-msgid "Please write down the {{deviceSetupCtrl.recoveryCurrentWord | ordinal}} word of your recovery seed."
+#: views/modal/setup.html:13 views/modal/setup.html:21
+msgid ""
+"Please write down the {{deviceSetupCtrl.recoveryCurrentWord | ordinal}} word "
+"of your recovery seed."
 msgstr ""
 
 #: views/modal/button.html:51
@@ -979,7 +1043,7 @@ msgstr ""
 msgid "plug it in while holding both device buttons pressed"
 msgstr ""
 
-#: views/settings.html:29
+#: views/settings.html:33
 msgid "Prefill from following choices:"
 msgstr ""
 
@@ -987,25 +1051,19 @@ msgstr ""
 msgid "Previous addresses"
 msgstr ""
 
-#: views/account/send/buttonBar.html:33
-msgid "Priority miner fee"
-msgstr ""
-
 #: views/device/recovery.html:43
 msgid "Processing..."
 msgstr ""
 
-#: views/modal/passphrase.html:27
-#: views/modal/passphrase.html:32
+#: views/modal/passphrase.html:27 views/modal/passphrase.html:32
 msgid "Re-type for control"
 msgstr ""
 
-#: views/account/send/index.html:39
+#: views/account/send/index.html:42
 msgid "Read more about phishing…"
 msgstr ""
 
-#: views/device/advanced.html:34
-#: views/device/advanced.html:70
+#: views/device/advanced.html:34 views/device/advanced.html:70
 msgid "Read more in user manual"
 msgstr ""
 
@@ -1025,8 +1083,7 @@ msgstr ""
 msgid "Recovery seed setup"
 msgstr ""
 
-#: views/modal/firmware.html:223
-#: views/modal/firmware.html:50
+#: views/modal/firmware.html:223 views/modal/firmware.html:50
 msgid "Release notes"
 msgstr ""
 
@@ -1034,8 +1091,7 @@ msgstr ""
 msgid "Reload"
 msgstr ""
 
-#: views/modal/forget.disconnected.html:12
-#: views/modal/forget.wipe.html:12
+#: views/modal/forget.disconnected.html:12 views/modal/forget.wipe.html:12
 msgid "Remember"
 msgstr ""
 
@@ -1043,7 +1099,7 @@ msgstr ""
 msgid "Remove"
 msgstr ""
 
-#: views/account/send/buttonBar.html:57
+#: views/account/send/buttonBar.html:29
 msgid "Remove all recipients"
 msgstr ""
 
@@ -1055,7 +1111,7 @@ msgstr ""
 msgid "Rename this account"
 msgstr ""
 
-#: views/settings.html:37
+#: views/settings.html:41
 msgid "Save & Reload"
 msgstr ""
 
@@ -1063,17 +1119,19 @@ msgstr ""
 msgid "Scan address from a QR code"
 msgstr ""
 
-#: views/device/index.basic.html:164
-#: views/device/index.basic.html:192
-msgid "Scan it into an application that supports XPUBs such as <a target=\"_blank\" href=\"https://play.google.com/store/apps/details?id=com.mycelium.wallet\">Mycelium</a> or <a target=\"_blank\" href=\"https://play.google.com/store/apps/details?id=com.samourai.sentinel\">Sentinel</a> for Android."
+#: views/device/index.basic.html:164 views/device/index.basic.html:192
+msgid ""
+"Scan it into an application that supports XPUBs such as <a target=\"_blank\" "
+"href=\"https://play.google.com/store/apps/details?id=com.mycelium.wallet"
+"\">Mycelium</a> or <a target=\"_blank\" href=\"https://play.google.com/store/"
+"apps/details?id=com.samourai.sentinel\">Sentinel</a> for Android."
 msgstr ""
 
 #: views/account/send/txAddress.html:27
 msgid "Scan QR code"
 msgstr ""
 
-#: views/account/nav.html:34
-#: views/account/transactions/index.html:28
+#: views/account/nav.html:34 views/account/transactions/index.html:28
 msgid "Search for address, date or amount"
 msgstr ""
 
@@ -1085,13 +1143,11 @@ msgstr ""
 msgid "Select an image"
 msgstr ""
 
-#: views/install/main.html:29
-#: views/install/main.html:58
+#: views/install/main.html:29 views/install/main.html:58
 msgid "Select platform..."
 msgstr ""
 
-#: views/account/nav.html:15
-#: views/account/send/buttonBar.html:24
+#: views/account/nav.html:15 views/account/send/buttonBar.html:6
 msgid "Send"
 msgstr ""
 
@@ -1111,13 +1167,11 @@ msgstr ""
 msgid "Show changes"
 msgstr ""
 
-#: views/alertbars/bridge.html:6
-#: views/alertbars/firmware.html:32
+#: views/alertbars/bridge.html:6 views/alertbars/firmware.html:32
 msgid "Show details"
 msgstr ""
 
-#: views/debug.button.html:7
-#: views/debug.link.html:3
+#: views/debug.button.html:7 views/debug.link.html:3
 msgid "Show log"
 msgstr ""
 
@@ -1153,12 +1207,11 @@ msgstr ""
 msgid "Sign message"
 msgstr ""
 
-#: views/account/sign/index.html:190
-#: views/account/sign/index.html:93
+#: views/account/sign/index.html:190 views/account/sign/index.html:93
 msgid "Signature"
 msgstr ""
 
-#: views/account/send/index.html:69
+#: views/account/send/index.html:72
 msgid "Signing and sending transaction&hellip;"
 msgstr ""
 
@@ -1178,21 +1231,27 @@ msgstr ""
 msgid "Support"
 msgstr ""
 
-#: views/modal/firmware.html:103
-#: views/modal/firmware.html:128
-#: views/modal/firmware.html:152
-#: views/modal/firmware.html:184
+#: views/modal/firmware.html:103 views/modal/firmware.html:128
+#: views/modal/firmware.html:152 views/modal/firmware.html:184
 #: views/modal/firmware.html:265
 msgid "Support needed?"
 msgstr ""
 
-#: views/device/index.basic.html:165
-#: views/device/index.basic.html:193
-msgid "Then, you can watch your transactions and receive payments everywhere without carrying your TREZOR."
+#: views/account/send/txPrepared.html:12
+msgid ""
+"The final size can differ a few bytes, since the transaction is created on "
+"TREZOR."
+msgstr ""
+
+#: views/device/index.basic.html:165 views/device/index.basic.html:193
+msgid ""
+"Then, you can watch your transactions and receive payments everywhere "
+"without carrying your TREZOR."
 msgstr ""
 
 #: views/modal/button.html:80
-msgid "This action cannot be undone. Please <strong>confirm on your device</strong>."
+msgid ""
+"This action cannot be undone. Please <strong>confirm on your device</strong>."
 msgstr ""
 
 #: views/import.html:11
@@ -1204,7 +1263,9 @@ msgid "This is an advanced interface intended for EXPERT use only!"
 msgstr ""
 
 #: views/device/index.setup.html:14
-msgid "This label will be shown on the display when you plug your TREZOR in. This is useful if you have more than one device."
+msgid ""
+"This label will be shown on the display when you plug your TREZOR in. This "
+"is useful if you have more than one device."
 msgstr ""
 
 #. please try to reload this page or ...
@@ -1213,7 +1274,11 @@ msgid "this page or choose another server in"
 msgstr ""
 
 #: views/install/udev.html:52
-msgid "This step is needed only on Linux. If you can't or don't want to install the package, <a href=\"http://doc.satoshilabs.com/trezor-user/settingupchromeonlinux.html\">you can set the correct permissions yourself</a>."
+msgid ""
+"This step is needed only on Linux. If you can't or don't want to install the "
+"package, <a href=\"http://doc.satoshilabs.com/trezor-user/"
+"settingupchromeonlinux.html\">you can set the correct permissions yourself</"
+"a>."
 msgstr ""
 
 #: views/account/transactions/table.html:9
@@ -1224,17 +1289,21 @@ msgstr ""
 msgid "To / Comment"
 msgstr ""
 
-#: views/account/receive/index.html:71
-#: views/account/receive/index.html:89
-msgid "To access subsequent addresses, please use some of the listed addresses in a transaction."
+#: views/account/receive/index.html:71 views/account/receive/index.html:89
+msgid ""
+"To access subsequent addresses, please use some of the listed addresses in a "
+"transaction."
 msgstr ""
 
 #: views/modal/firmware.html:34
-msgid "To enjoy full functionality and security of your device, we strongly recommend you to update."
+msgid ""
+"To enjoy full functionality and security of your device, we strongly "
+"recommend you to update."
 msgstr ""
 
 #: views/install/udev.html:10
-msgid "To finish the installation, install a small package before connecting TREZOR."
+msgid ""
+"To finish the installation, install a small package before connecting TREZOR."
 msgstr ""
 
 #: views/modal/firmware.html:20
@@ -1257,8 +1326,7 @@ msgstr ""
 msgid "TREZOR Bridge update"
 msgstr ""
 
-#: views/account/sign/index.html:167
-#: views/account/sign/index.html:47
+#: views/account/sign/index.html:167 views/account/sign/index.html:47
 msgid "TREZOR can show only 64 letters on the display."
 msgstr ""
 
@@ -1272,10 +1340,6 @@ msgstr ""
 
 #: views/error.html:5
 msgid "TREZOR loading failed"
-msgstr ""
-
-#: views/account/send/buttonBar.html:35
-msgid "TREZOR might ask for<br> an extra confirmation."
 msgstr ""
 
 #: views/device/index.basic.html:7
@@ -1294,8 +1358,10 @@ msgstr ""
 msgid "Unknown"
 msgstr ""
 
-#: views/account/send/index.html:32
-msgid "Unlike your TREZOR, computers are not safe. Malware might replace bitcoin addresses you see."
+#: views/account/send/index.html:35
+msgid ""
+"Unlike your TREZOR, computers are not safe. Malware might replace bitcoin "
+"addresses you see."
 msgstr ""
 
 #: views/account/receive/address.html:98
@@ -1303,7 +1369,9 @@ msgid "Unused address"
 msgstr ""
 
 #: views/install/bridge.force.html:10
-msgid "Update contains bug-fixes for all platforms and performance improvements for Linux users."
+msgid ""
+"Update contains bug-fixes for all platforms and performance improvements for "
+"Linux users."
 msgstr ""
 
 #: views/modal/firmware.html:354
@@ -1314,14 +1382,12 @@ msgstr ""
 msgid "Update was successful"
 msgstr ""
 
-#: views/modal/firmware.html:180
-#: views/modal/firmware.html:261
+#: views/modal/firmware.html:180 views/modal/firmware.html:261
 #: views/modal/firmware.html:96
 msgid "Upgrade"
 msgstr ""
 
-#: views/alertbars/bridge.html:5
-#: views/alertbars/firmware.html:31
+#: views/alertbars/bridge.html:5 views/alertbars/firmware.html:31
 msgid "Upgrade for the newest features and bug fixes."
 msgstr ""
 
@@ -1341,18 +1407,25 @@ msgstr ""
 msgid "URL needs to start with https://"
 msgstr ""
 
-#: views/device/advanced.html:151
-msgid "Use this feature only if you have your Recovery Seed or you don't have any coins on your device."
+#: views/settings.html:28
+msgid "URL needs to start with https:// or http://"
 msgstr ""
 
-#: views/nav.html:23
-#: views/nav.html:69
+#: views/device/advanced.html:151
+msgid ""
+"Use this feature only if you have your Recovery Seed or you don't have any "
+"coins on your device."
+msgstr ""
+
+#: views/nav.html:23 views/nav.html:69
 msgid "Used in other window"
 msgstr ""
 
-#: views/device/advanced.html:133
-#: views/device/index.basic.html:87
-msgid "Using PIN protection is highly recommended. PIN prevents unauthorized persons from stealing your bitcoins even when they get physical access to your device."
+#: views/device/advanced.html:133 views/device/index.basic.html:87
+msgid ""
+"Using PIN protection is highly recommended. PIN prevents unauthorized "
+"persons from stealing your bitcoins even when they get physical access to "
+"your device."
 msgstr ""
 
 #: views/account/sign/index.html:206
@@ -1363,8 +1436,7 @@ msgstr ""
 msgid "Verify message"
 msgstr ""
 
-#: views/modal/firmware.html:239
-#: views/modal/firmware.html:67
+#: views/modal/firmware.html:239 views/modal/firmware.html:67
 msgid "Versions"
 msgstr ""
 
@@ -1384,37 +1456,44 @@ msgstr ""
 msgid "Want to restore your wallet from recovery seed?"
 msgstr ""
 
-#: views/account/sign/index.html:157
-#: views/account/sign/index.html:166
-#: views/account/sign/index.html:38
-#: views/account/sign/index.html:46
+#: views/account/sign/index.html:157 views/account/sign/index.html:166
+#: views/account/sign/index.html:38 views/account/sign/index.html:46
 msgid "Warning:"
 msgstr ""
 
 #: views/debug.log.html:13
-msgid "Warning: This log can contain your XPUB. When you give it to a third party, you allow it to see your whole transaction history."
+msgid ""
+"Warning: This log can contain your XPUB. When you give it to a third party, "
+"you allow it to see your whole transaction history."
 msgstr ""
 
 #: views/install/mobile.html:4
-msgid "We are sorry, myTREZOR is not yet supported on phones and tablets. Please use a computer with Windows, OS X or Linux operating system."
+msgid ""
+"We are sorry, myTREZOR is not yet supported on phones and tablets. Please "
+"use a computer with Windows, OS X or Linux operating system."
 msgstr ""
 
-#: views/account/send/index.html:35
-msgid "We recommend you to verify the payment address through independent communication channels such as a phone call or a text message."
+#: views/account/send/index.html:38
+msgid ""
+"We recommend you to verify the payment address through independent "
+"communication channels such as a phone call or a text message."
 msgstr ""
 
 #: views/alertbars/restore_metadata.html:5
 msgid "We released an update to the Labeling."
 msgstr ""
 
-#: views/modal/setup.html:11
-#: views/modal/setup.html:18
-msgid "We will now show you {{deviceSetupCtrl.recoveryWords()}} words that will allow you to recover your accounts in case you lose your device. <strong>Please write down all these words carefully.</strong>"
+#: views/modal/setup.html:11 views/modal/setup.html:18
+msgid ""
+"We will now show you {{deviceSetupCtrl.recoveryWords()}} words that will "
+"allow you to recover your accounts in case you lose your device. "
+"<strong>Please write down all these words carefully.</strong>"
 msgstr ""
 
-#: views/modal/setup.html:26
-#: views/modal/setup.html:33
-msgid "We will now show you the {{deviceSetupCtrl.recoveryWords()}} words again. <strong>Please check carefully that you wrote them down correctly.</strong>"
+#: views/modal/setup.html:26 views/modal/setup.html:33
+msgid ""
+"We will now show you the {{deviceSetupCtrl.recoveryWords()}} words again. "
+"<strong>Please check carefully that you wrote them down correctly.</strong>"
 msgstr ""
 
 #: views/modal/pin.html:88
@@ -1429,18 +1508,17 @@ msgstr ""
 msgid "What is TREZOR?"
 msgstr ""
 
-#: views/device/index.basic.html:155
-#: views/device/index.basic.html:183
-msgid "When you give them to a third party, you allow it to see your whole transaction history."
+#: views/device/index.basic.html:155 views/device/index.basic.html:183
+msgid ""
+"When you give them to a third party, you allow it to see your whole "
+"transaction history."
 msgstr ""
 
-#: views/device/advanced.html:145
-#: views/device/advanced.html:166
+#: views/device/advanced.html:145 views/device/advanced.html:166
 msgid "Wipe device"
 msgstr ""
 
-#: views/modal/disconnect.wipe.html:4
-#: views/modal/forget.wipe.html:4
+#: views/modal/disconnect.wipe.html:4 views/modal/forget.wipe.html:4
 msgid "Wipe finished"
 msgstr ""
 
@@ -1450,27 +1528,35 @@ msgstr ""
 
 #. Do you use Google Chrome on this computer? [[[With]]] TREZOR Chrome extension you can ...
 #: views/install/main.html:73
-msgid "With <a target=\"_blank\" href=\"https://chrome.google.com/webstore/detail/{{installCtrl.chromeExtensionId}}\">TREZOR Chrome Extension</a> you can use myTREZOR in Chrome without installing any other software."
+msgid ""
+"With <a target=\"_blank\" href=\"https://chrome.google.com/webstore/detail/"
+"{{installCtrl.chromeExtensionId}}\">TREZOR Chrome Extension</a> you can use "
+"myTREZOR in Chrome without installing any other software."
 msgstr ""
 
 #: views/modal/forget.disconnected.html:7
-msgid "Would you like myTREZOR to forget your device or to remember it, so that it is still visible even while disconnected?"
+msgid ""
+"Would you like myTREZOR to forget your device or to remember it, so that it "
+"is still visible even while disconnected?"
 msgstr ""
 
 #: views/modal/forget.wipe.html:9
-msgid "Would you like myTREZOR to forget your old device with the old data or to remember it?"
+msgid ""
+"Would you like myTREZOR to forget your old device with the old data or to "
+"remember it?"
 msgstr ""
 
-#: views/modal/firmware.html:186
-#: views/modal/firmware.html:267
+#: views/modal/firmware.html:186 views/modal/firmware.html:267
 msgid "Yes, update"
 msgstr ""
 
 #: views/device/recovery.html:29
-msgid "You might be asked to retype some words that are not part of your recovery seed.<br>"
+msgid ""
+"You might be asked to retype some words that are not part of your recovery "
+"seed.<br>"
 msgstr ""
 
-#: views/account/send/index.html:28
+#: views/account/send/index.html:31
 msgid "You're about to send a lot of money!"
 msgstr ""
 
@@ -1478,10 +1564,8 @@ msgstr ""
 msgid "your account"
 msgstr ""
 
-#: views/modal/firmware.html:116
-#: views/modal/firmware.html:142
-#: views/modal/firmware.html:17
-#: views/modal/firmware.html:288
+#: views/modal/firmware.html:116 views/modal/firmware.html:142
+#: views/modal/firmware.html:17 views/modal/firmware.html:288
 msgid "Your device firmware is outdated"
 msgstr ""
 
@@ -1493,31 +1577,32 @@ msgstr ""
 msgid "Your images"
 msgstr ""
 
-#: views/modal/firmware.html:178
-#: views/modal/firmware.html:259
+#: views/modal/firmware.html:178 views/modal/firmware.html:259
 #: views/modal/firmware.html:94
 msgid "Your installation of TREZOR Bridge needs to be upgraded first."
 msgstr ""
 
-#: views/account/sign/index.html:40
-#: views/account/sign/index.html:48
-msgid "Your message is {{accountSignCtrl.signMessage.message.length}} letters long."
+#: views/account/sign/index.html:40 views/account/sign/index.html:48
+msgid ""
+"Your message is {{accountSignCtrl.signMessage.message.length}} letters long."
 msgstr ""
 
-#: views/account/sign/index.html:159
-#: views/account/sign/index.html:168
-msgid "Your message is {{accountSignCtrl.verifyMessage.message.length}} letters long."
+#: views/account/sign/index.html:159 views/account/sign/index.html:168
+msgid ""
+"Your message is {{accountSignCtrl.verifyMessage.message.length}} letters "
+"long."
 msgstr ""
 
 #: views/modal/firmware.html:40
-msgid "Your TREZOR is already initialized. Check that you have your Recovery seed with you before updating the firmware!"
+msgid ""
+"Your TREZOR is already initialized. Check that you have your Recovery seed "
+"with you before updating the firmware!"
 msgstr ""
 
 #: views/modal/firmware.html:293
 msgid "Your TREZOR is not in the firmware update mode."
 msgstr ""
 
-#: views/modal/disconnect.wipe.html:7
-#: views/modal/forget.wipe.html:7
+#: views/modal/disconnect.wipe.html:7 views/modal/forget.wipe.html:7
 msgid "Your TREZOR was successfully wiped."
 msgstr ""
