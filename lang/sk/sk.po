@@ -45,8 +45,33 @@ msgstr ""
 msgid "(loading)"
 msgstr "(načítavanie)"
 
-#: views/account/send/txPrepared.html:34
+#: views/account/send/txPrepared.html:42
 msgid "(the change address)"
+msgstr ""
+
+#: views/account/send/index.html:26
+msgid ""
+"<p>\n"
+"                                    <strong translate=\"\">\n"
+"                                        You're about to send a lot of "
+"money!\n"
+"                                    </strong>\n"
+"                                </p>\n"
+"                                <p translate=\"\">\n"
+"                                    Unlike your TREZOR, computers are not "
+"safe. Malware might replace bitcoin addresses you see.\n"
+"                                </p>\n"
+"                                <p translate=\"\">\n"
+"                                    We recommend you to verify the payment "
+"address through independent communication channels such as a phone call or a "
+"text message.\n"
+"                                </p>\n"
+"                                <p>\n"
+"                                    <a href=\"http://doc.satoshilabs.com/"
+"trezor-faq/threats.html#phishing\" target=\"_blank\" translate=\"\">\n"
+"                                        Read more about phishing…\n"
+"                                    </a>\n"
+"                                </p>"
 msgstr ""
 
 #: views/device/advanced.html:66
@@ -105,7 +130,7 @@ msgstr "Pridaj účet"
 msgid "Add comment"
 msgstr ""
 
-#: views/account/send/buttonBar.html:44
+#: views/account/send/buttonBar.html:16
 msgid "Add recipient"
 msgstr "Pridaj príjemcu"
 
@@ -191,11 +216,11 @@ msgstr ""
 #: views/device/load.html:58 views/device/recovery.html:130
 #: views/import.html:54 views/modal/csv.html:42 views/modal/disconnect.html:17
 #: views/modal/disconnect.passphrase_disable.html:14
-#: views/modal/disconnect.passphrase_enable.html:14 views/modal/dropbox.html:30
-#: views/modal/firmware.html:106 views/modal/firmware.html:131
-#: views/modal/firmware.html:155 views/modal/firmware.html:197
-#: views/modal/firmware.html:278 views/modal/firmware.html:299
-#: views/modal/qr.html:17 views/settings.html:40
+#: views/modal/disconnect.passphrase_enable.html:14
+#: views/modal/dropbox.html:30 views/modal/firmware.html:106
+#: views/modal/firmware.html:131 views/modal/firmware.html:155
+#: views/modal/firmware.html:197 views/modal/firmware.html:278
+#: views/modal/firmware.html:299 views/modal/qr.html:17 views/settings.html:44
 msgid "Cancel"
 msgstr "Zrušiť"
 
@@ -431,6 +456,10 @@ msgstr ""
 msgid "Dropbox connected. Click to disconnect it."
 msgstr ""
 
+#: views/account/send/fees.html:13
+msgid "Economy"
+msgstr ""
+
 #: views/modal/button.html:4 views/modal/dropbox.html:7
 msgid "Enable labeling"
 msgstr "Povoliť štítkovanie"
@@ -459,10 +488,6 @@ msgstr ""
 msgid "Example:"
 msgstr "Príklad:"
 
-#: views/account/send/buttonBar.html:6
-msgid "Expected confirmation time:"
-msgstr ""
-
 #: views/install/udev.html:7
 msgid "Extension installed successfully"
 msgstr ""
@@ -471,11 +496,11 @@ msgstr ""
 msgid "Fee is over threshold."
 msgstr ""
 
-#: views/account/send/buttonBar.html:9 views/account/send/txPrepared.html:10
+#: views/account/send/txPrepared.html:19
 msgid "Fee:"
 msgstr ""
 
-#: views/account/send/txPrepared.html:11
+#: views/account/send/txPrepared.html:10
 msgid "Fee/kB:"
 msgstr ""
 
@@ -502,7 +527,8 @@ msgid ""
 "updatingfirmware.html\" target=\"_blank\">visit the user manual</a>."
 msgstr ""
 
-#: views/modal/forget.disconnected.html:13 views/modal/forget.requested.html:12
+#: views/modal/forget.disconnected.html:13
+#: views/modal/forget.requested.html:12
 msgid "Forget"
 msgstr ""
 
@@ -557,9 +583,22 @@ msgstr ""
 msgid "Hide this account"
 msgstr ""
 
+#: views/account/send/fees.html:11
+msgid "High"
+msgstr ""
+
 #: views/device/nav.html:11
 msgid "Homescreen"
 msgstr ""
+
+#. Used when estimating transaction time (Expected time: less than 5 *minutes*)
+#: views/account/send/fees.html:38 views/account/send/fees.html:82
+msgctxt "transaction-time"
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
 #: views/modal/firmware.html:316
 msgid "If asked, please confirm the update on your device."
@@ -628,7 +667,7 @@ msgstr ""
 msgid "Import addresses from CSV"
 msgstr ""
 
-#: views/account/send/buttonBar.html:52
+#: views/account/send/buttonBar.html:24
 msgid "Import from CSV"
 msgstr ""
 
@@ -669,6 +708,12 @@ msgstr ""
 
 #: views/modal/dropbox.html:26
 msgid "Learn more about myTREZOR labeling."
+msgstr ""
+
+#. Used when estimating transaction time (Expected time: *less than* 5 minutes)
+#: views/account/send/fees.html:71
+msgctxt "transaction-time"
+msgid "less than"
 msgstr ""
 
 #: views/jumbotrons/loading.html:4 views/nav.html:167
@@ -713,6 +758,10 @@ msgid ""
 "enteringyourpin.html\" target=\"_blank\">user manual</a>."
 msgstr ""
 
+#: views/account/send/fees.html:14
+msgid "Low"
+msgstr ""
+
 #: views/modal/firmware.html:326
 msgid "Make sure the same fingerprint is displayed on the device screen."
 msgstr ""
@@ -746,6 +795,15 @@ msgstr ""
 #: views/device/nav.html:26
 msgid "Metadata setup"
 msgstr ""
+
+#. Used when estimating transaction time (Expected time: less than 5 *minutes*)
+#: views/account/send/fees.html:51 views/account/send/fees.html:95
+msgctxt "transaction-time"
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
 #: views/account/receive/index.html:81
 msgid "More please"
@@ -813,6 +871,10 @@ msgstr ""
 
 #: views/account/transactions/index.html:40
 msgid "No transactions to display"
+msgstr ""
+
+#: views/account/send/fees.html:12
+msgid "Normal"
 msgstr ""
 
 #. matadata metaapikey not set ...
@@ -990,16 +1052,12 @@ msgstr ""
 msgid "plug it in while holding both device buttons pressed"
 msgstr ""
 
-#: views/settings.html:29
+#: views/settings.html:33
 msgid "Prefill from following choices:"
 msgstr ""
 
 #: views/account/receive/index.html:44
 msgid "Previous addresses"
-msgstr ""
-
-#: views/account/send/buttonBar.html:33
-msgid "Priority miner fee"
 msgstr ""
 
 #: views/device/recovery.html:43
@@ -1010,7 +1068,7 @@ msgstr ""
 msgid "Re-type for control"
 msgstr ""
 
-#: views/account/send/index.html:39
+#: views/account/send/index.html:42
 msgid "Read more about phishing…"
 msgstr ""
 
@@ -1050,7 +1108,7 @@ msgstr ""
 msgid "Remove"
 msgstr ""
 
-#: views/account/send/buttonBar.html:57
+#: views/account/send/buttonBar.html:29
 msgid "Remove all recipients"
 msgstr ""
 
@@ -1062,7 +1120,7 @@ msgstr ""
 msgid "Rename this account"
 msgstr ""
 
-#: views/settings.html:37
+#: views/settings.html:41
 msgid "Save & Reload"
 msgstr ""
 
@@ -1098,7 +1156,7 @@ msgstr ""
 msgid "Select platform..."
 msgstr ""
 
-#: views/account/nav.html:15 views/account/send/buttonBar.html:24
+#: views/account/nav.html:15 views/account/send/buttonBar.html:6
 msgid "Send"
 msgstr ""
 
@@ -1162,7 +1220,7 @@ msgstr ""
 msgid "Signature"
 msgstr ""
 
-#: views/account/send/index.html:69
+#: views/account/send/index.html:72
 msgid "Signing and sending transaction&hellip;"
 msgstr ""
 
@@ -1186,6 +1244,12 @@ msgstr ""
 #: views/modal/firmware.html:152 views/modal/firmware.html:184
 #: views/modal/firmware.html:265
 msgid "Support needed?"
+msgstr ""
+
+#: views/account/send/txPrepared.html:12
+msgid ""
+"The final size can differ a few bytes, since the transaction is created on "
+"TREZOR."
 msgstr ""
 
 #: views/device/index.basic.html:165 views/device/index.basic.html:193
@@ -1287,10 +1351,6 @@ msgstr ""
 msgid "TREZOR loading failed"
 msgstr ""
 
-#: views/account/send/buttonBar.html:35
-msgid "TREZOR might ask for<br> an extra confirmation."
-msgstr ""
-
 #: views/device/index.basic.html:7
 msgid "Try again"
 msgstr ""
@@ -1307,7 +1367,7 @@ msgstr ""
 msgid "Unknown"
 msgstr ""
 
-#: views/account/send/index.html:32
+#: views/account/send/index.html:35
 msgid ""
 "Unlike your TREZOR, computers are not safe. Malware might replace bitcoin "
 "addresses you see."
@@ -1354,6 +1414,10 @@ msgstr ""
 
 #: views/settings.html:24
 msgid "URL needs to start with https://"
+msgstr ""
+
+#: views/settings.html:28
+msgid "URL needs to start with https:// or http://"
 msgstr ""
 
 #: views/device/advanced.html:151
@@ -1418,7 +1482,7 @@ msgid ""
 "use a computer with Windows, OS X or Linux operating system."
 msgstr ""
 
-#: views/account/send/index.html:35
+#: views/account/send/index.html:38
 msgid ""
 "We recommend you to verify the payment address through independent "
 "communication channels such as a phone call or a text message."
@@ -1501,7 +1565,7 @@ msgid ""
 "seed.<br>"
 msgstr ""
 
-#: views/account/send/index.html:28
+#: views/account/send/index.html:31
 msgid "You're about to send a lot of money!"
 msgstr ""
 
