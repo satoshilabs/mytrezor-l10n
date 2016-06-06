@@ -13,153 +13,118 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Weblate 2.7-dev\n"
 
-#: views/modal/dropbox.html:18
-msgid "- add your comments to transactions"
-msgstr "- přidat komentář k transakcím"
-
-#: views/modal/dropbox.html:19
-msgid "- label addresses"
-msgstr "- označení adresy"
-
-#: views/modal/dropbox.html:17
-msgid "- rename accounts"
-msgstr "- přejmenování účtů"
-
-#: views/modal/dropbox.html:20
-msgid "- use the full-text search"
-msgstr "- použít full-text vyhledávaní"
-
-#. connection to the server been lost ...
-#: views/alertbars/offline.html:5
+#. The whole text: Connection to the server has been lost*, but don't worry, your bitcoins are safe.* Please try to reload this page or choose another server in application settings.
+#: views/alertbars/offline.html:8
 msgid ", but don't worry, your bitcoins are safe."
 msgstr ", nebojte se, vaše bitcoiny jsou v bezpečí."
 
-#: views/import.html:31 views/import.html:40
-msgid "(1 per row)"
-msgstr "(1 na řádek)"
-
-#: views/device/load.html:42
-msgid "(leave empty to keep PIN protection disabled)"
-msgstr "(ponechejte prázdne pro zrušení PINu)"
-
-#: views/nav.html:65
-msgid "(loading)"
-msgstr "(načítání)"
-
-#: views/account/send/txPrepared.html:42
-msgid "(the change address)"
-msgstr "(zmenená adresa)"
-
-#: views/account/send/index.html:26
-msgid ""
-"<p>\n"
-"                                    <strong translate=\"\">\n"
-"                                        You're about to send a lot of "
-"money!\n"
-"                                    </strong>\n"
-"                                </p>\n"
-"                                <p translate=\"\">\n"
-"                                    Unlike your TREZOR, computers are not "
-"safe. Malware might replace bitcoin addresses you see.\n"
-"                                </p>\n"
-"                                <p translate=\"\">\n"
-"                                    We recommend you to verify the payment "
-"address through independent communication channels such as a phone call or a "
-"text message.\n"
-"                                </p>\n"
-"                                <p>\n"
-"                                    <a href=\"http://doc.satoshilabs.com/"
-"trezor-faq/threats.html#phishing\" target=\"_blank\" translate=\"\">\n"
-"                                        Read more about phishing…\n"
-"                                    </a>\n"
-"                                </p>"
+#. The number refer to XPUBs
+#: views/import.html:32 views/import.html:41
+msgid "1 per row"
 msgstr ""
 
-#: views/device/advanced.html:66
-msgid ""
-"<strong>If you disable the passphrase encryption, your current funds will "
-"not appear.</strong> You will have to enable the passphrase encryption again "
-"to see your current wallet."
-msgstr ""
-"<b>Pokud nyní deaktivujete přístupové heslo, nezobrazí se fondy, které jste "
-"dříve na TREZOR uložil/a pod heslem.</b> Pro zobrazení heslem chráněné "
-"peněženky budete muset opětovně aktivovat použití přístupového hesla."
-
-#: views/device/load.html:3 views/device/recovery.html:3
-msgid "<strong>Please connect your device</strong> to access this section."
-msgstr "<strong>Pripojte prosím zařízení</strong> k prístupu k tyhle sekci."
-
-#: views/account/receive/index.html:7 views/account/send/index.html:7
-#: views/account/transactions/index.html:1
-msgid "<strong>Warning!</strong> Account balance information is inconsistent."
-msgstr "<strong>Upozornení!</strong>  Stav zústatku je nekonzistentní."
-
+#. Part of a long text about Dropbox and labeling
 #: views/modal/dropbox.html:11
 msgid "1. Click 'Connect to Dropbox' and log in."
 msgstr "1. Kliknite ‘Připojit k Dropboxu’ a přihlašte se."
 
-#: views/device/recovery.html:103
+#. Number of words in a recovery seed
+#: views/device/recovery.html:111
 msgid "12 words"
 msgstr "12 slov"
 
-#: views/device/recovery.html:106
+#. Number of words in a recovery seed
+#: views/device/recovery.html:116
 msgid "18 words"
 msgstr "18 slov"
 
-#: views/modal/dropbox.html:16
+#. Part of a long text about Dropbox and labeling
+#: views/modal/dropbox.html:20
 msgid "2. Allow access of your TREZOR device to your Dropbox folder."
 msgstr "2. Povolit přístup vašeho TREZORu k Dropboxu."
 
-#: views/device/recovery.html:109
+#. Number of words in a recovery seed
+#: views/device/recovery.html:121
 msgid "24 words"
 msgstr "24 slov"
 
-#: views/modal/dropbox.html:24
+#. Part of a long text about Dropbox and labeling
+#: views/modal/dropbox.html:42
 msgid "3. Enjoy ultimate TREZOR security and privacy."
 msgstr "3. Využívejte ultimátní bezpečnost a soukromí TREZORu."
 
-#: views/device/index.basic.html:123
-msgid "Account public keys (XPUB)"
-msgstr "Verejný klíč účtu (XPUB)"
+#. Used as a default account name. The accounts are named *Account* #1, *Account* #2 etc.
+#: views/otherStrings.html:20
+msgctxt "default-name"
+msgid "Account"
+msgstr ""
 
-#: views/import.html:30
+#. This warning is very rarely shown and practically isn't shown at all.
+#: views/account/nav.html:57
+msgid "Account balance information is inconsistent."
+msgstr ""
+
+#. This is a short label in the device Basic page
+#: views/device/index.basic.html:141
+msgctxt "basic-label"
+msgid "Account public keys (XPUB)"
+msgstr ""
+
+#: views/import.html:31
 msgid "Account XPUBs"
 msgstr "XPUBy účtu"
 
-#: views/nav.html:204 views/nav.html:211
+#: views/nav.html:219 views/nav.html:226
 msgid "Add account"
 msgstr "Přidat účet"
 
-#: views/account/transactions/txAddressLabel.html:25
+#: views/account/transactions/txAddressLabel.html:26
 msgid "Add comment"
 msgstr "Přidat komentář"
 
-#: views/account/send/buttonBar.html:16
+#: views/account/send/buttonBar.html:19
 msgid "Add recipient"
 msgstr "Přidat příjemce"
 
-#: views/account/transactions/txLabelEdit.html:15
+#. Part of a long text about Dropbox and labeling
+#: views/modal/dropbox.html:30
+msgid "add your comments to transactions"
+msgstr ""
+
+#: views/account/transactions/txLabelEdit.html:12
 msgid "Add your own label"
 msgstr "Přidejte vlastní označení"
 
-#: views/device/load.html:50
+#. This is a label to a checkbox in the device recovery page
+#: views/device/load.html:54 views/device/recovery.html:146
+msgctxt "recovery-label"
 msgid "Additional passphrase encryption"
-msgstr "Dodateční passphrase šifrování"
+msgstr ""
 
-#: views/account/send/txAddress.html:4 views/account/sign/index.html:180
-#: views/account/sign/index.html:61
+#. This is a label to the sending form. (Address/amount/comment)
+#: views/account/send/txAddress.html:4
+msgctxt "send"
 msgid "Address"
-msgstr "Adresa"
+msgstr ""
 
-#: views/device/nav.html:17
+#. This is a label to the sign/verify form.
+#: views/account/sign/index.html:197 views/account/sign/index.html:65
+msgctxt "sign"
+msgid "Address"
+msgstr ""
+
+#. This is shown on the header Basic/Homescreen/Advanced
+#: views/device/nav.html:23
+msgctxt "header"
 msgid "Advanced"
-msgstr "Pokročilé"
+msgstr ""
 
 #: views/modal/button.html:79
 msgid "All data on your device will be deleted."
 msgstr "Všechny data na vašem zařízení budou smazána."
 
-#: views/modal/dropbox.html:25
+#. Part of a long text about Dropbox and labeling
+#: views/modal/dropbox.html:45
 msgid ""
 "All labels and comments that you add on myTREZOR.com are automatically "
 "encrypted by a key derived from TREZOR device and synchronized with your "
@@ -181,31 +146,61 @@ msgstr "Povolit označení pro aktuálni účet?"
 msgid "Allow labeling for this account?"
 msgstr "Povolit označování pro aktuálni účet?"
 
-#: views/account/send/txAmount.html:5 views/account/transactions/table.html:11
+#. This is a label to the sending form. (Address/amount/comment)
+#: views/account/send/txAmount.html:5
 msgid "Amount"
 msgstr "Částka"
 
-#: views/device/metadata.html:39
+#. This is shown in the header in the transaction list
+#: views/account/transactions/table.html:17
+msgctxt "transaction-list"
+msgid "Amount"
+msgstr ""
+
+#: views/account/send/txAmount.html:40
+msgid "Amount has too many decimals"
+msgstr ""
+
+#: views/account/send/txAmount.html:43
+msgid "Amount is not a number"
+msgstr ""
+
+#: views/account/send/txAmount.html:46
+msgid "Amount is too low"
+msgstr ""
+
+#. This is on a hidden site, 99.99% of people will not see it
+#: views/device/metadata.html:43
 msgid "API keys are useful if you want to import a watch-only wallet."
 msgstr "API klíč je užitečný pokud chcete přidat “watch-only” peňeženku."
 
-#: views/alertbars/offline.html:12 views/settings.html:13
+#: views/footer.right.html:3 views/settings.html:13
 msgid "Application Settings"
 msgstr "Aplikační nastavení"
 
-#: views/account/transactions/table.html:12
+#. The whole text: Connection to the server has been lost, but don't worry, your bitcoins are safe. Please try to reload this page or choose another server in *application settings* (without the dot)
+#: views/alertbars/offline.html:32
+msgctxt "offline-header"
+msgid "Application Settings"
+msgstr ""
+
+#. This is shown in the header in the transaction list
+#: views/account/transactions/table.html:21
+msgctxt "transaction-list"
 msgid "Balance"
-msgstr "Zůstatek"
+msgstr ""
 
+#. This is shown on the header Basic/Homescreen/Advanced
 #: views/device/nav.html:5
+msgctxt "header"
 msgid "Basic"
-msgstr "Základní"
+msgstr ""
 
-#: views/device/index.basic.html:155 views/device/index.basic.html:183
+#: views/device/index.basic.html:176 views/device/index.basic.html:225
 msgid "Be careful with your XPUBs."
 msgstr "Buďte opatrný s vašim XPUBem."
 
-#: views/account/receive/index.html:116
+#: views/account/receive/index.html:110
 msgid "BIP32 Path:"
 msgstr "BIP32 Cesta:"
 
@@ -213,32 +208,33 @@ msgstr "BIP32 Cesta:"
 msgid "Bitcore Server URL"
 msgstr "URL Bitcore servru"
 
-#: views/device/homescreen.html:14
+#: views/modal/_header.html:4
+msgid "Bootloader mode"
+msgstr ""
+
+#. This is on a button, for browsing images for homescreen tab
+#: views/device/homescreen.html:17
+msgctxt "button"
 msgid "Browse"
-msgstr "Prohlížet"
+msgstr ""
 
-#. [something] by [somebody] - in licensing term
-#: views/device/homescreen.html:119 views/device/homescreen.html:125
-msgid "by"
-msgstr "podle"
-
-#: views/device/load.html:58 views/device/recovery.html:130
-#: views/import.html:54 views/modal/csv.html:42 views/modal/disconnect.html:17
+#: views/device/load.html:65 views/device/recovery.html:157
+#: views/import.html:55 views/modal/csv.html:44 views/modal/disconnect.html:14
 #: views/modal/disconnect.passphrase_disable.html:14
 #: views/modal/disconnect.passphrase_enable.html:14
-#: views/modal/dropbox.html:30 views/modal/firmware.html:106
-#: views/modal/firmware.html:131 views/modal/firmware.html:155
-#: views/modal/firmware.html:197 views/modal/firmware.html:278
-#: views/modal/firmware.html:299 views/modal/qr.html:17 views/settings.html:44
+#: views/modal/dropbox.html:55 views/modal/firmware.html:107
+#: views/modal/firmware.html:135 views/modal/firmware.html:164
+#: views/modal/firmware.html:211 views/modal/firmware.html:292
+#: views/modal/firmware.html:313 views/modal/qr.html:17 views/settings.html:44
 msgid "Cancel"
 msgstr "Zrušiť"
 
-#: views/modal/firmware.html:170 views/modal/firmware.html:212
-#: views/modal/firmware.html:39
+#: views/modal/firmware.html:179 views/modal/firmware.html:226
+#: views/modal/firmware.html:40
 msgid "Caution!"
 msgstr "Pozor!"
 
-#: views/modal/csv.html:22
+#: views/modal/csv.html:24
 msgid "Cell delimiter"
 msgstr "Oddelovač buňky"
 
@@ -250,15 +246,19 @@ msgstr "Změniť"
 msgid "Change comment"
 msgstr "Změniť komentář"
 
-#: views/device/index.basic.html:36
+#. This is on a button, that will change the label once clicked
+#: views/device/index.basic.html:39
+msgctxt "button"
 msgid "Change label"
-msgstr "Změna označení"
+msgstr ""
 
-#: views/device/index.basic.html:60
+#. This is on a button, that will change the PIN once clicked
+#: views/device/index.basic.html:69
+msgctxt "button"
 msgid "Change PIN"
-msgstr "Změna PIN"
+msgstr ""
 
-#: views/modal/firmware.html:221 views/modal/firmware.html:48
+#: views/modal/firmware.html:235 views/modal/firmware.html:49
 msgid "Changelog"
 msgstr "Changelog"
 
@@ -266,28 +266,44 @@ msgstr "Changelog"
 msgid "Check address on TREZOR display"
 msgstr "Zkontrolujte adresu na displeji TREZORu"
 
-#: views/account/sign/index.html:115 views/account/sign/index.html:215
+#. This is on a button in the sign/verify form.
+#: views/account/sign/index.html:127 views/account/sign/index.html:238
+msgctxt "button"
 msgid "Clear"
-msgstr "Vymazat"
+msgstr ""
 
-#: views/device/index.basic.html:163 views/device/index.basic.html:191
+#: views/device/index.basic.html:184 views/device/index.basic.html:234
 msgid "Click on XPUB to show its QR code."
 msgstr "Klikni na XPUB pro zobrazení jeho QR kódu."
 
-#: views/nav.html:72
+#: views/account/transactions/txAddressLabel.html:54
+msgid "Click to hide address"
+msgstr ""
+
+#: views/nav.html:26 views/nav.html:72
 msgid "Click to renew session"
 msgstr "Klikni pro obnovení session"
 
+#: views/account/transactions/txAddressLabel.html:68
+msgid "Click to show address"
+msgstr ""
+
 #: views/debug.html:18 views/debug.html:7 views/debug.log.html:8
-#: views/modal/firmware.html:362
+#: views/modal/firmware.html:376
 msgid "Close"
 msgstr "Zavřít"
 
+#. Attribution of picture, in the footer of Homepage. Don't translate the name of the picture or the author.
+#: views/device/homescreen.html:127
+msgid "coffee by jen is licenced under CC BY 2.0"
+msgstr ""
+
+#. This is a label to the sending form. (Address/amount/comment)
 #: views/account/send/txLabel.html:5
 msgid "Comment"
 msgstr "Komentář"
 
-#: views/device/recovery.html:55
+#: views/device/recovery.html:57
 msgid "Confirm choice by pressing enter."
 msgstr "Potvrdte volbu stlačením enter."
 
@@ -299,35 +315,35 @@ msgstr "Potvrde šifrováni pomoci passphrase"
 msgid "Confirm the action on your device."
 msgstr "Potvrdte akci na zařízení."
 
-#: views/device/index.basic.html:50
+#: views/device/index.basic.html:59
 msgid "Connect the device to change PIN."
 msgstr "Připojte zařízení pro změnu PINu."
 
-#: views/device/index.basic.html:26
+#: views/device/index.basic.html:29
 msgid "Connect the device to change the label."
 msgstr "Připojte zařítení pro změnu označení."
 
-#: views/device/advanced.html:82
+#: views/device/advanced.html:99
 msgid "Connect the device to disable passphrase."
 msgstr "Připojte zařízení pro zrušní passphrase."
 
-#: views/device/advanced.html:114
+#: views/device/advanced.html:137
 msgid "Connect the device to disable PIN."
 msgstr "Připojte zařízení pro zrušní PINu."
 
-#: views/device/advanced.html:43
+#: views/device/advanced.html:49
 msgid "Connect the device to enable passphrase."
 msgstr "Připojte zařízení pro povolení passphrase."
 
-#: views/device/index.basic.html:65
+#: views/device/index.basic.html:77
 msgid "Connect the device to enable PIN."
 msgstr "Připojte zařízení pro povolení PINu."
 
-#: views/device/homescreen.html:30
+#: views/device/homescreen.html:36
 msgid "Connect the device to set its homescreen."
 msgstr "Připojte zařízení pro nastavení obrazovky."
 
-#: views/modal/dropbox.html:31
+#: views/modal/dropbox.html:56
 msgid "Connect to Dropbox"
 msgstr "Připojit k Dropboxu"
 
@@ -347,7 +363,7 @@ msgstr "Připojte váš TREZOR"
 msgid "Connect your TREZOR device to the computer."
 msgstr "Připojte váš TREZOR zařízení k počitači."
 
-#: views/account/receive/address.html:76
+#: views/account/receive/address.html:77
 msgid "Connect your TREZOR to display this address"
 msgstr "Připojte váš TREZOR pro zobrazení adresy"
 
@@ -355,20 +371,21 @@ msgstr "Připojte váš TREZOR pro zobrazení adresy"
 msgid "Connected"
 msgstr "Připojeno"
 
+#. The whole text: *Connection to the server has been lost*, but don't worry, your bitcoins are safe. Please try to reload this page or choose another server in application settings.
 #: views/alertbars/offline.html:5
 msgid "Connection to the server has been lost"
 msgstr "Připojení k servru zlyhalo"
 
-#: views/device/index.setup.html:20 views/device/load.html:55
-#: views/device/recovery.html:127 views/import.html:52
+#: views/device/index.setup.html:21 views/device/load.html:62
+#: views/device/recovery.html:154 views/import.html:53
 msgid "Continue"
 msgstr "Pokračovat"
 
-#: views/account/send/txAmount.html:18 views/account/send/txAmount.html:55
+#: views/account/send/txAmount.html:20 views/account/send/txAmount.html:72
 msgid "counting..."
 msgstr "přepočítavam…"
 
-#: views/modal/firmware.html:71
+#: views/modal/firmware.html:72
 msgid "Device"
 msgstr "Zařizení"
 
@@ -376,7 +393,7 @@ msgstr "Zařizení"
 msgid "Device could not be opened."
 msgstr "Zařizení nelze otevřít."
 
-#: views/device/recovery.html:79
+#: views/device/recovery.html:81
 msgid "Device has to be wiped before recovery."
 msgstr "Zařizení musí být vymazáno před obnovením."
 
@@ -384,30 +401,53 @@ msgstr "Zařizení musí být vymazáno před obnovením."
 msgid "Device ID"
 msgstr "ID Zařizení"
 
-#: views/modal/firmware.html:191 views/modal/firmware.html:272
+#: views/modal/firmware.html:205 views/modal/firmware.html:286
 msgid "Device is updated in other window"
 msgstr "Zařizení je obnoveno v jiném okňe"
 
-#: views/device/index.setup.html:9 views/device/load.html:22
-#: views/device/recovery.html:85 views/import.html:22
+#. This is a short label in the normally hidden, advanced Load page
+#: views/device/load.html:22
+msgctxt "load-label"
+msgid "Device label"
+msgstr ""
+
+#: views/device/index.setup.html:9 views/import.html:22
 msgid "Device label"
 msgstr "Označení zařízení"
 
-#: views/device/advanced.html:155
+#. This is a short label in the device recovery page
+#: views/device/recovery.html:87
+msgctxt "recovery-label"
+msgid "Device label"
+msgstr ""
+
+#: views/device/advanced.html:184
 msgid "Device needs to be connected in order to wipe it."
 msgstr "K vymazání musíte připojit zařízení."
 
-#: views/device/advanced.html:96
+#. This is written on a button, clicking it will disable passphrase
+#: views/device/advanced.html:113
+msgctxt "button"
 msgid "Disable passphrase encryption"
-msgstr "Zakázat šifrování pomoci passphrase"
+msgstr ""
 
-#: views/device/advanced.html:109 views/device/advanced.html:124
+#. This is a short label in the device Advanced page
+#: views/device/advanced.html:129
+msgctxt "advanced-label"
 msgid "Disable PIN"
-msgstr "Zakázat PIN"
+msgstr ""
 
-#: views/device/index.basic.html:47
+#. This is written on a button, clicking it will disable PIN
+#: views/device/advanced.html:147
+msgctxt "button"
+msgid "Disable PIN"
+msgstr ""
+
+#. Refers to PIN
+#: views/device/index.basic.html:56
+msgctxt "pin"
 msgid "Disabled"
-msgstr "Zakázat"
+msgstr ""
 
 #: views/modal/firmware.html:22
 msgid "disconnect the device"
@@ -431,11 +471,11 @@ msgstr "Odpojte váš TREZOR pro povolení passphrase."
 msgid "Disconnected"
 msgstr "Odpojeno"
 
-#: views/install/main.html:72
+#: views/install/main.html:74
 msgid "Do you use Google Chrome on this computer?"
 msgstr "Používáte Google Chrome na tomto počítači?"
 
-#: views/install/main.html:22
+#: views/install/main.html:24
 msgid ""
 "Do you use other browsers on this computer? Install the TREZOR Bridge, a "
 "standalone application that works the same way &mdash; but with every "
@@ -449,20 +489,22 @@ msgstr ""
 msgid "Do you want to forget your device?"
 msgstr "Chcete zapomenout vaše zařízení?"
 
-#: views/modal/firmware.html:166 views/modal/firmware.html:207
+#: views/modal/firmware.html:175 views/modal/firmware.html:221
 msgid "Do you want to update the device firmware?"
 msgstr "Chcete novej firmware pro tohle zařízení?"
 
+#. Button in remember/forget dialog
 #: views/modal/forget.requested.html:11
+msgctxt "forget-button"
 msgid "Don't forget"
-msgstr "Nezapomenout"
+msgstr ""
 
-#: views/install/bridge.force.html:19 views/install/main.html:26
-#: views/install/main.html:55 views/install/udev.html:21
+#: views/install/bridge.force.html:19 views/install/main.html:28
+#: views/install/main.html:57 views/install/udev.html:21
 msgid "Download"
 msgstr "Ke stažení"
 
-#: views/modal/firmware.html:307
+#: views/modal/firmware.html:321
 msgid "Downloading firmware..."
 msgstr "Stahování firmware..."
 
@@ -470,7 +512,9 @@ msgstr "Stahování firmware..."
 msgid "Dropbox connected. Click to disconnect it."
 msgstr "Dropbox připojen. Kliknutím jej odpojíte."
 
-#: views/account/send/fees.html:13
+#. Transaction fee size menu
+#: views/account/send/fees.html:22
+msgctxt "transaction-fee"
 msgid "Economy"
 msgstr ""
 
@@ -478,79 +522,134 @@ msgstr ""
 msgid "Enable labeling"
 msgstr "Povolit značkování"
 
-#: views/device/advanced.html:57
+#. This is written on a button, clicking it will enable passphrase
+#: views/device/advanced.html:63
+msgctxt "button"
 msgid "Enable passphrase encryption"
-msgstr "Povolit šifrování pomoci passphrase"
+msgstr ""
 
-#: views/device/index.basic.html:75
+#. This is on a button, that will change the PIN once clicked
+#: views/device/index.basic.html:87
+msgctxt "button"
 msgid "Enable PIN"
-msgstr "Povolit PIN"
+msgstr ""
 
-#: views/device/index.basic.html:46
+#. This is a label to a checkbox in the device recovery page
+#: views/device/recovery.html:132
+msgctxt "recovery-label"
+msgid "Enable PIN protection"
+msgstr ""
+
+#. Refers to PIN
+#: views/device/index.basic.html:55
+msgctxt "pin"
 msgid "Enabled"
-msgstr "Povoleno"
+msgstr ""
 
-#: views/modal/passphrase.html:60 views/modal/pin.html:97
+#. This is on a pin button
+#: views/modal/pin.html:97
+msgctxt "pin-button"
 msgid "Enter"
-msgstr "Potvrdiť"
+msgstr ""
+
+#. This is on a passphrase button
+#: views/modal/passphrase.html:60
+msgctxt "passphrase-button"
+msgid "Enter"
+msgstr ""
 
 #: views/device/recovery.html:47
 msgid "Enter seed word"
 msgstr "Zadejte slovo seedu"
 
+#. Example of CSV input
 #: views/modal/csv.html:14
 msgid "Example:"
 msgstr "Příklad:"
+
+#. In the bottom footer. 'Exchange rates by Bitpay'.
+#: views/footer.left.html:4
+msgid "Exchange rates by"
+msgstr ""
+
+#: views/account/send/fees.html:41
+msgid "Expected confirmation time"
+msgstr ""
 
 #: views/install/udev.html:7
 msgid "Extension installed successfully"
 msgstr "Rozšírení úspěšně nainstalováno"
 
+#: views/account/send/fees.html:122
+msgid "Fee"
+msgstr ""
+
+#. This is a label to the sending form. (Address/amount/comment)
+#: views/account/send/fees.html:4
+msgctxt "send"
+msgid "Fee"
+msgstr ""
+
 #: views/modal/button.html:12
 msgid "Fee is over threshold."
 msgstr "Poplatek je přes limit."
 
-#: views/account/send/txPrepared.html:19
+#. In the bottom footer. 'Fee predictions by 21.co'.
+#: views/footer.left.html:12
+msgid "Fee predictions by"
+msgstr ""
+
+#. Fee of a transaction
+#: views/account/send/txPrepared.html:21
 msgid "Fee:"
 msgstr "Poplatek:"
 
-#: views/account/send/txPrepared.html:10
+#: views/account/send/txPrepared.html:12
 msgid "Fee/kB:"
 msgstr "Poplatek/kB:"
 
+#. PIN strength
 #: views/modal/pin.html:89
 msgid "Fine"
 msgstr "Pokuta"
 
+#. This is a short label in the device Advanced page
 #: views/device/advanced.html:9
+msgctxt "advanced-label"
 msgid "Firmware"
-msgstr "Firmware"
+msgstr ""
 
-#: views/modal/csv.html:31
+#: views/modal/csv.html:33
 msgid "First row is header"
 msgstr "První řádek je záhlaví"
 
-#: views/modal/firmware.html:28
-msgid "For more information,"
-msgstr "Pro více informací,"
-
-#: views/modal/firmware.html:121 views/modal/firmware.html:147
-#: views/modal/firmware.html:173
-msgid ""
-"For more information, <a href=\"http://doc.satoshilabs.com/trezor-user/"
-"updatingfirmware.html\" target=\"_blank\">visit the user manual</a>."
+#. Attribution of picture, in the footer of Homepage. Don't translate the name of the picture or the author.
+#: views/device/homescreen.html:134
+msgid "Flower Close Up In Darkness by A Guy is licenced under CC BY 2.0"
 msgstr ""
-"Pro více informací, <a href=“http://doc.satoshilabs.com/trezor-user/"
-"updatingfirmware.html” target=“_blank”>navštivte uživatelskou příručku.</a>"
 
-#: views/modal/forget.disconnected.html:13
-#: views/modal/forget.requested.html:12
+#: views/device/recovery.html:30
+msgid "follow the instructions on your device."
+msgstr ""
+
+#. Clicking here will lead the user to our manual.
+#: views/modal/firmware.html:123 views/modal/firmware.html:152
+#: views/modal/firmware.html:183 views/modal/firmware.html:28
+msgid "For more information, visit the user manual."
+msgstr ""
+
+#. Button in remember/forget dialog
+#: views/modal/forget.disconnected.html:16
+#: views/modal/forget.requested.html:15
+msgctxt "forget-button"
 msgid "Forget"
-msgstr "Zapomenout"
+msgstr ""
 
-#: views/modal/forget.wipe.html:13
+#. Button in remember/forget dialog
+#: views/modal/forget.wipe.html:16
+msgctxt "forget-button"
 msgid "Forget (recommended)"
-msgstr "Zapomenout (doporučeno)"
+msgstr ""
 
 #: views/modal/forget.disconnected.html:4 views/modal/forget.requested.html:4
 msgid "Forget device?"
@@ -568,16 +667,18 @@ msgstr ""
 "Zapomenutí jenom odstraní vaše zařízení z levého seznamu, vaše bitcoiny jsou "
 "stále v bezpečí a můžete k nim přistupovat po připojení TREZORu."
 
-#: views/account/receive/index.html:55
+#: views/account/receive/index.html:49
 msgid "Fresh address"
 msgstr "Čerstvá adresa"
 
+#. This is shown in the 'hinting' in send dialogue. It means the shown address is an address, to which a user already sent something.
 #: views/account/send/txTypeAhead.html:18
+msgctxt "typeahead"
 msgid "from history"
-msgstr "z historie"
+msgstr ""
 
-#. write description what can you doo when active labeling
-#: views/modal/dropbox.html:16
+#. Part of a long text about Dropbox and labeling
+#: views/modal/dropbox.html:24
 msgid "From that moment on you can:"
 msgstr "Od toho momentu můžete:"
 
@@ -589,28 +690,33 @@ msgstr "Začíname!"
 msgid "Help"
 msgstr "Pomoc"
 
+#. This is shown on the first page user sees.
 #: views/install/main.html:5
 msgid "Hi, you're almost there!"
 msgstr "Dobrý den, jste skoro tam!"
 
-#: views/account/receive/index.html:37
+#: views/account/receive/index.html:31
 msgid "Hide previous"
 msgstr "Skrýt předcházející"
 
-#: views/account/transactions/index.html:41
+#: views/account/transactions/index.html:35
 msgid "Hide this account"
 msgstr "Skrýt tenhle účet"
 
-#: views/account/send/fees.html:11
+#. Transaction fee size menu
+#: views/account/send/fees.html:14
+msgctxt "transaction-fee"
 msgid "High"
 msgstr ""
 
-#: views/device/nav.html:11
+#. This is shown on the header Basic/Homescreen/Advanced
+#: views/device/nav.html:14
+msgctxt "header"
 msgid "Homescreen"
-msgstr "Obrazovka"
+msgstr ""
 
 #. Used when estimating transaction time (Expected time: less than 5 *minutes*)
-#: views/account/send/fees.html:38 views/account/send/fees.html:82
+#: views/account/send/fees.html:53 views/account/send/fees.html:97
 msgctxt "transaction-time"
 msgid "hour"
 msgid_plural "hours"
@@ -618,7 +724,7 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: views/modal/firmware.html:316
+#: views/modal/firmware.html:330
 msgid "If asked, please confirm the update on your device."
 msgstr "Pokud budete požádáni, potvrďte aktualizaci na vašem zařízení."
 
@@ -636,12 +742,14 @@ msgstr "Pokud již máte nainstalován balík, stačí připojit váš TREZOR."
 #: views/device/load.html:10
 msgid ""
 "If you are a common user and want to setup or recover your TREZOR device, "
-"please continue to <a href=\"#/device/{{deviceCtrl.device.id}}/setup"
-"\">TREZOR Setup</a>."
+"please continue to TREZOR Setup."
 msgstr ""
-"Pokud jste běžný uživatel a chcete nastavit nebo obnovit TREZOR zařízení, "
-"pokračujte prosím na <a href=\"#/device/{{deviceCtrl.device.id}}/setup\"> "
-"TREZOR Setup </a>."
+
+#: views/install/udev.html:53
+msgid ""
+"If you can't or don't want to install the package, you can set the correct "
+"permissions yourself"
+msgstr ""
 
 #: views/modal/forget.disconnected.html:8
 msgid ""
@@ -651,7 +759,14 @@ msgstr ""
 "Pokud se rozhodnete pro zapamatování zařízení, už se vás tuhle otázke "
 "nezeptáme při příštím odpojení zařízení. "
 
-#: views/modal/dropbox.html:12
+#. Whole text: If you disable the passphrase encryption, your current funds will not appear. You will have to enable the passphrase encryption again to see your current wallet.
+#: views/device/advanced.html:76
+msgid ""
+"If you disable the passphrase encryption, your current funds will not appear."
+msgstr ""
+
+#. Part of a long text about Dropbox and labeling
+#: views/modal/dropbox.html:14
 msgid "If you don't have a Dropbox account yet, create one before you log in."
 msgstr "Pokud ješťe nemáte Dropbox účet, vytvořte si jej před přihlášením."
 
@@ -659,7 +774,7 @@ msgstr "Pokud ješťe nemáte Dropbox účet, vytvořte si jej před přihláše
 msgid "If you forget your passphrase, you will lose your coins."
 msgstr "Pokud zapomenete passphrase, ztratíte své bitcoiny."
 
-#: views/device/advanced.html:31
+#: views/device/advanced.html:37
 msgid ""
 "If you forget your passphrase, your wallet is lost for good. There is no way "
 "to recover your funds."
@@ -667,17 +782,13 @@ msgstr ""
 "Pokud jste zapomněli passphrase, vaše peněženka je ztracen navždy. "
 "Neexistuje žádný způsob, jak obnovit vaše finanční prostředky."
 
-#: views/device/homescreen.html:66
+#: views/device/homescreen.html:74
 msgid ""
-"If you want to make a homescreen picture from a photo or a logo, use <a href="
-"\"https://trezor.github.io/homescreen-editor/\" target=\"_blank\">our "
-"homescreen editor</a>."
+"If you want to make a homescreen picture from a photo or a logo, use our "
+"homescreen editor."
 msgstr ""
-"Chcete-li vytvořit úvodní obrazovku z fotografie nebo loga, použijte <a href="
-"\"https://trezor.github.io/homescreen-editor/\" target=\"_blank\">náš editor "
-"obrazovky</a>."
 
-#: views/modal/firmware.html:171 views/modal/firmware.html:213
+#: views/modal/firmware.html:180 views/modal/firmware.html:227
 msgid ""
 "If your TREZOR is already initialized, always have your Recovery seed with "
 "you before updating the firmware!"
@@ -685,7 +796,7 @@ msgstr ""
 "Pokud je váš TREZOR již inicializován, vždy držte váš Recovery seed před "
 "aktualizací firmwaru!"
 
-#: views/device/homescreen.html:64
+#: views/device/homescreen.html:72
 msgid ""
 "Image must be 128 px wide and 64 px high, and using only black and white "
 "(not grayscale)."
@@ -693,7 +804,7 @@ msgstr ""
 "Obrázek musí být 128 px široký a 64 px vysoký a pouze černobílý (ne v "
 "odstínech šedi)."
 
-#: views/modal/csv.html:44
+#: views/modal/csv.html:46
 msgid "Import"
 msgstr "Importovat"
 
@@ -701,12 +812,12 @@ msgstr "Importovat"
 msgid "Import addresses from CSV"
 msgstr "Importovat adresy z CSV"
 
-#: views/account/send/buttonBar.html:24
+#: views/account/send/buttonBar.html:27
 msgid "Import from CSV"
 msgstr "Importovat z CSV"
 
-#: views/modal/firmware.html:172 views/modal/firmware.html:214
-#: views/modal/firmware.html:41
+#: views/modal/firmware.html:181 views/modal/firmware.html:228
+#: views/modal/firmware.html:42
 msgid ""
 "In very rare cases, a firmware update might result in the need to recover "
 "the wallet from Recovery seed."
@@ -714,49 +825,73 @@ msgstr ""
 "Ve velmi vzácných případech, aktualizace firmwaru by mohlo vést k potřebě "
 "obnovit peněženku z Recovery seedu."
 
-#: views/account/sign/index.html:175 views/account/sign/index.html:55
+#. Preceding is a non-ascii character in quotes.
+#: views/account/sign/index.html:192 views/account/sign/index.html:59
 msgid "in your message is not an ASCII character."
 msgstr "ve zprávě není ASCII znak."
 
-#: views/install/main.html:18
+#. Inputs of a transaction
+#: views/account/send/txPrepared.html:26
+msgid "Inputs:"
+msgstr ""
+
+#: views/install/main.html:20
 msgid "Install for Chrome"
 msgstr "Nainstalovat pro Chrome"
 
-#: views/device/homescreen.html:120 views/device/homescreen.html:126
-msgid "is licenced under"
-msgstr "je licencován pod"
+#: views/install/main.html:77
+msgid "Install TREZOR Chrome Extension"
+msgstr ""
 
+#. This is a short label in the device Basic page
 #: views/device/index.basic.html:19
+msgctxt "basic-label"
 msgid "Label"
-msgstr "Označení"
+msgstr ""
 
-#: views/account/receive/address.html:148
+#. Part of a long text about Dropbox and labeling
+#: views/modal/dropbox.html:33
+msgid "label addresses"
+msgstr ""
+
+#: views/account/receive/address.html:145
 msgid "Label this address"
 msgstr "Označit tuhle adresu"
 
-#: views/modal/firmware.html:244 views/modal/firmware.html:79
+#: views/modal/firmware.html:258 views/modal/firmware.html:80
 msgid "Latest"
 msgstr "Poslední"
 
-#: views/device/index.basic.html:156 views/device/index.basic.html:184
+#: views/device/index.basic.html:177 views/device/index.basic.html:226
 msgid "Learn more"
 msgstr "Přečtěte si více"
 
-#: views/modal/dropbox.html:26
+#. Part of a long text about Dropbox and labeling
+#: views/modal/dropbox.html:49
 msgid "Learn more about myTREZOR labeling."
 msgstr "Přečtěte si více o označování v myTREZOR."
 
+#. Refers to PIN input
+#: views/device/load.html:46
+msgid "leave empty to keep PIN protection disabled"
+msgstr ""
+
 #. Used when estimating transaction time (Expected time: *less than* 5 minutes)
-#: views/account/send/fees.html:71
+#: views/account/send/fees.html:86
 msgctxt "transaction-time"
 msgid "less than"
 msgstr ""
 
-#: views/jumbotrons/loading.html:4 views/nav.html:167
+#. Is displayed when TREZOR is loading, in the left column
+#: views/nav.html:66
+msgid "loading"
+msgstr ""
+
+#: views/jumbotrons/loading.html:4 views/nav.html:154 views/nav.html:167
 msgid "Loading"
 msgstr "Načítám"
 
-#: views/nav.html:193
+#: views/nav.html:208
 msgid "Loading accounts..."
 msgstr "Načítám účty…"
 
@@ -764,21 +899,17 @@ msgstr "Načítám účty…"
 msgid "Loading of accounts failed."
 msgstr "Načítání účtů se nezdařilo."
 
-#: views/account/transactions/index.html:54
+#: views/account/transactions/index.html:48
 msgid "Loading transactions"
 msgstr "Načítaní transakcí"
 
-#: views/device/index.basic.html:99
+#: views/device/index.basic.html:117
 msgid "Loading..."
 msgstr "Načítání…"
 
-#: views/nav.html:154
-msgid "Loading&hellip;"
-msgstr "Načítaní&hellip;"
-
 #: views/nav.html:117
-msgid "Lock this device<br>(automatically"
-msgstr "Zamknout zařízení<br>(automaticky za"
+msgid "Lock this device<br>(automatically in"
+msgstr ""
 
 #: views/debug.log.html:10
 msgid "Log"
@@ -788,19 +919,17 @@ msgstr "Log"
 msgid "Look at the device for number positions."
 msgstr "Podívejte se na zařízení pro číselní pozice."
 
-#: views/modal/pin.html:100
-msgid ""
-"Lost? Check our <a href=\"http://doc.satoshilabs.com/trezor-user/"
-"enteringyourpin.html\" target=\"_blank\">user manual</a>."
+#: views/modal/pin.html:103
+msgid "Lost? Check our user manual."
 msgstr ""
-"Ztracený? Podívejte se do našeho <a href=\"http://doc.satoshilabs.com/trezor-"
-"user/enteringyourpin.html\" target=\"_blank\">uživatelského manuálu</a>."
 
-#: views/account/send/fees.html:14
+#. Transaction fee size menu
+#: views/account/send/fees.html:26
+msgctxt "transaction-fee"
 msgid "Low"
 msgstr ""
 
-#: views/modal/firmware.html:326
+#: views/modal/firmware.html:340
 msgid "Make sure the same fingerprint is displayed on the device screen."
 msgstr "Ujistěte se, že stejný otisk se zobrazí na displeji zařízení."
 
@@ -809,35 +938,37 @@ msgid ""
 "Make sure you don't have myTREZOR running in another tab or browser window."
 msgstr "Ujistěte se, že myTREZOR neběží v jiné kartě nebo okňe prohlížeče."
 
-#: views/account/sign/index.html:158 views/account/sign/index.html:39
+#: views/account/sign/index.html:175 views/account/sign/index.html:43
 msgid "Maximal message length is 255 letters long."
 msgstr "Maximální délka zprávy je 255 znaků."
 
-#: views/account/sign/index.html:140 views/account/sign/index.html:24
+#: views/account/sign/index.html:157 views/account/sign/index.html:28
 msgid "Message"
 msgstr "Zpráva"
 
+#. This is on a hidden site, 99.99% of people will not see it
 #: views/device/metadata.html:9
 msgid "Metadata API keys"
 msgstr "Metadata API klíč"
 
-#: views/import.html:39
+#: views/import.html:40
 msgid "Metadata keys"
 msgstr "Metadata klíče"
 
-#: views/import.html:46
+#: views/import.html:47
 msgid ""
 "Metadata keys are necessary only if you want to enable labels and comments."
 msgstr ""
 "Klíče metadat jsou nutné pouze v případě, že chcete povolit označování a "
 "komentáře."
 
-#: views/device/nav.html:26
+#. This is on a hidden site, 99.99% of people will not see it
+#: views/device/nav.html:35
 msgid "Metadata setup"
 msgstr "Nastavení metadat"
 
 #. Used when estimating transaction time (Expected time: less than 5 *minutes*)
-#: views/account/send/fees.html:51 views/account/send/fees.html:95
+#: views/account/send/fees.html:110 views/account/send/fees.html:66
 msgctxt "transaction-time"
 msgid "minute"
 msgid_plural "minutes"
@@ -845,14 +976,22 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: views/account/receive/index.html:81
+#: views/account/receive/index.html:75
 msgid "More please"
 msgstr "Víc prosím"
 
-#: views/device/index.setup.html:11 views/device/load.html:24
-#: views/device/recovery.html:87 views/import.html:24
+#. Literally 'my TREZOR (device)'. Used as a default device name. It HAS to be ASCII only and it HAS to be less than 16 letters long
+#: views/device/index.setup.html:10 views/device/load.html:26
+#: views/device/recovery.html:91 views/import.html:23
+#: views/otherStrings.html:14
+msgctxt "default-name"
 msgid "My TREZOR"
-msgstr "Múj TREZOR"
+msgstr ""
+
+#: views/device/index.basic.html:190 views/device/index.basic.html:240
+msgctxt "xpub-text"
+msgid "Mycelium"
+msgstr ""
 
 #: views/jumbotrons/loading.html:5
 msgid "myTREZOR is loading accounts from your device"
@@ -862,13 +1001,16 @@ msgstr "myTREZOR načítá účty z vašeho zařízení"
 msgid "myTREZOR labeling"
 msgstr "myTREZOR označení"
 
-#: views/install/main.html:78 views/install/udev.html:58
-msgid ""
-"myTREZOR Web Wallet is a free service provided exclusively to <a href="
-"\"http://www.bitcointrezor.com\">TREZOR hardware wallet</a> owners."
+#. In the bottom footer.
+#: views/footer.left.html:19
+msgid "myTREZOR Terms &amp; Conditions"
 msgstr ""
-"myTREZOR Web Peněženka je bezplatná služba nabízena výhradně majitelům <a "
-"href=\"http://www.bitcointrezor.com\">hardwarové peněženky TREZOR</a>."
+
+#: views/install/main.html:83 views/install/udev.html:59
+msgid ""
+"myTREZOR Web Wallet is a free service provided exclusively to TREZOR "
+"hardware wallet owners."
+msgstr ""
 
 #: views/modal/disconnect.html:9
 msgid "myTREZOR will forget your TREZOR right after you disconnect it."
@@ -889,11 +1031,15 @@ msgstr "Víte skutečně co děláte? Pokud ne, nedelejte tuhle akci!"
 msgid "Never use this process unless you REALLY know what you are doing!"
 msgstr "Nedelejte  tenhle proces pokud skutečně nevíte co děláte!"
 
+#: views/modal/_header.html:5
+msgid "New device setup"
+msgstr ""
+
 #: views/alertbars/bridge.html:4
 msgid "New TREZOR Bridge is available."
 msgstr "Nový TREZOR Bridge je k dispozici."
 
-#: views/alertbars/firmware.html:30
+#: views/alertbars/firmware.html:5
 msgid "New TREZOR firmware is available."
 msgstr "Nový TREZOR firmware je k dospozici."
 
@@ -915,16 +1061,22 @@ msgstr ""
 "dice-throw nebo náhodní sekvence. Validní BIP32 XPRV jsou interpretováni "
 "před načítaním zařízení. "
 
-#: views/account/transactions/index.html:40
+#: views/account/transactions/index.html:34
 msgid "No transactions to display"
 msgstr "Žádné transakce k zobrazení"
 
-#: views/account/send/fees.html:12
+#. Transaction fee size menu
+#: views/account/send/fees.html:18
+msgctxt "transaction-fee"
 msgid "Normal"
 msgstr ""
 
-#. matadata metaapikey not set ...
-#: views/device/metadata.html:24
+#: views/account/send/txAddress.html:37
+msgid "Not a valid address"
+msgstr ""
+
+#. This is on a hidden site, 99.99% of people will not see it
+#: views/device/metadata.html:26
 msgid "not set"
 msgstr "není nastaven"
 
@@ -936,25 +1088,34 @@ msgstr "Zapamatujte si, že passphrase je “case-sensitive”"
 msgid "Note that the positions of numbers shown on the device have changed!"
 msgstr "Všimněte si, že pozice čísel se na zařízení změnily!"
 
-#: views/modal/firmware.html:119
+#: views/modal/firmware.html:120
 msgid ""
 "Now plug your device in with <strong>both device buttons pressed</strong>."
 msgstr ""
 "Těď připojte vaše zařízení s <strong>oběma stisknutími tlačítky</strong>."
 
-#: views/device/recovery.html:91
+#. This is a short label in the device recovery page
+#: views/device/recovery.html:97
+msgctxt "recovery-label"
 msgid "Number of words in your recovery seed"
-msgstr "Počet slov ve vašem Recovery seedu"
+msgstr ""
 
-#: views/device/advanced.html:40 views/device/advanced.html:79
+#: views/device/advanced.html:46 views/device/advanced.html:96
 msgid "OK, I understand"
 msgstr "Dobře, rozumím"
 
-#: views/device/advanced.html:19
-msgid "Passphrase"
-msgstr "Passphrase"
+#. Outputs of a transaction
+#: views/account/send/txPrepared.html:33
+msgid "Outputs:"
+msgstr ""
 
-#: views/device/advanced.html:27
+#. This is a short label in the device Advanced page
+#: views/device/advanced.html:22
+msgctxt "advanced-label"
+msgid "Passphrase"
+msgstr ""
+
+#: views/device/advanced.html:33
 msgid ""
 "Passphrase encryption allows you to access new wallets, each hidden behind a "
 "particular passphrase. Your old accounts will be accessible behind an empty "
@@ -971,48 +1132,130 @@ msgstr "Passphrase je příliš dlouhá!"
 msgid "Passphrases do not match!"
 msgstr "Passphrase se neshodují!"
 
-#: views/modal/csv.html:35
+#: views/modal/csv.html:37
 msgid "Paste the CSV here:"
 msgstr "Vložte zde CSV:"
 
-#: views/device/load.html:42
+#: views/account/send/index.html:90
+msgid "phase"
+msgstr ""
+
+#: views/device/load.html:46
 msgid "PIN"
 msgstr "PIN"
 
-#: views/device/index.basic.html:42
+#. This is a short label in the device Basic page
+#: views/device/index.basic.html:48
+msgctxt "basic-label"
 msgid "PIN protection"
-msgstr "ochrana PIN"
-
-#: views/modal/disconnect.wipe.html:8
-msgid "Please <strong>disconnect</strong> it now."
-msgstr "Prosím, <strong>odpojte</strong> nyní."
-
-#: views/device/recovery.html:28
-msgid ""
-"Please <strong>follow the instructions on your device.</strong> <br>Words "
-"are going to be entered in shuffled order."
 msgstr ""
-"Prosím, <strong>postupujte podle pokynů na zařízení.</ Strong> <br>Slova "
-"budou zadána v zamíchaném pořadí."
 
-#: views/modal/setup.html:28 views/modal/setup.html:36
-msgid ""
-"Please check the {{deviceSetupCtrl.recoveryCurrentWord | ordinal}} word of "
-"your recovery seed."
+#: views/modal/setup.html:27 views/modal/setup.html:34
+msgid "Please check carefully that you wrote them down correctly."
 msgstr ""
-"Prosím zkontrolujte {{deviceSetupCtrl.recoveryCurrentWord | ordinal}} slovo "
-"vašeho seedu."
 
-#: views/alertbars/restore_metadata.html:6
-msgid "Please click here to continue using previous labels and comments."
-msgstr "Prosím, klikněte zde pro použití predchozích označení a komentářů."
+#: views/modal/setup.wordCheck.html:12
+msgid "Please check the 10th word of your recovery seed."
+msgstr ""
+
+#: views/modal/setup.wordCheck.html:13
+msgid "Please check the 11th word of your recovery seed."
+msgstr ""
+
+#: views/modal/setup.wordCheck.html:14
+msgid "Please check the 12th word of your recovery seed."
+msgstr ""
+
+#: views/modal/setup.wordCheck.html:15
+msgid "Please check the 13th word of your recovery seed."
+msgstr ""
+
+#: views/modal/setup.wordCheck.html:16
+msgid "Please check the 14th word of your recovery seed."
+msgstr ""
+
+#: views/modal/setup.wordCheck.html:17
+msgid "Please check the 15th word of your recovery seed."
+msgstr ""
+
+#: views/modal/setup.wordCheck.html:18
+msgid "Please check the 16th word of your recovery seed."
+msgstr ""
+
+#: views/modal/setup.wordCheck.html:19
+msgid "Please check the 17th word of your recovery seed."
+msgstr ""
+
+#: views/modal/setup.wordCheck.html:20
+msgid "Please check the 18th word of your recovery seed."
+msgstr ""
+
+#: views/modal/setup.wordCheck.html:21
+msgid "Please check the 19th word of your recovery seed."
+msgstr ""
+
+#: views/modal/setup.wordCheck.html:3
+msgid "Please check the 1st word of your recovery seed."
+msgstr ""
+
+#: views/modal/setup.wordCheck.html:22
+msgid "Please check the 20th word of your recovery seed."
+msgstr ""
+
+#: views/modal/setup.wordCheck.html:23
+msgid "Please check the 21st word of your recovery seed."
+msgstr ""
+
+#: views/modal/setup.wordCheck.html:24
+msgid "Please check the 22nd word of your recovery seed."
+msgstr ""
+
+#: views/modal/setup.wordCheck.html:25
+msgid "Please check the 23rd word of your recovery seed."
+msgstr ""
+
+#: views/modal/setup.wordCheck.html:26
+msgid "Please check the 24th word of your recovery seed."
+msgstr ""
+
+#: views/modal/setup.wordCheck.html:4
+msgid "Please check the 2nd word of your recovery seed."
+msgstr ""
+
+#: views/modal/setup.wordCheck.html:5
+msgid "Please check the 3rd word of your recovery seed."
+msgstr ""
+
+#: views/modal/setup.wordCheck.html:6
+msgid "Please check the 4th word of your recovery seed."
+msgstr ""
+
+#: views/modal/setup.wordCheck.html:7
+msgid "Please check the 5th word of your recovery seed."
+msgstr ""
+
+#: views/modal/setup.wordCheck.html:8
+msgid "Please check the 6th word of your recovery seed."
+msgstr ""
+
+#: views/modal/setup.wordCheck.html:9
+msgid "Please check the 7th word of your recovery seed."
+msgstr ""
+
+#: views/modal/setup.wordCheck.html:10
+msgid "Please check the 8th word of your recovery seed."
+msgstr ""
+
+#: views/modal/setup.wordCheck.html:11
+msgid "Please check the 9th word of your recovery seed."
+msgstr ""
 
 #: views/modal/button.html:13 views/modal/button.html:138
 #: views/modal/button.html:96
 msgid "Please confirm the action on your device."
 msgstr "Potvrďte akci na vašem zařízení."
 
-#: views/modal/firmware.html:325
+#: views/modal/firmware.html:339
 msgid "Please confirm the firmware fingerprint."
 msgstr "Prosím potvrďte otisk firmwaru."
 
@@ -1023,6 +1266,14 @@ msgstr "Prosím potvrdit transakci na vašem zařízení."
 #: views/modal/button.html:18
 msgid "Please confirm the transaction output on your device."
 msgstr "Prosím, potvrďte výstup tranzakce na vašem zařízení."
+
+#: views/device/load.html:4 views/device/recovery.html:4
+msgid "Please connect your device to access this section."
+msgstr ""
+
+#: views/modal/disconnect.wipe.html:8
+msgid "Please disconnect it now."
+msgstr ""
 
 #: views/modal/pin.html:14
 msgid "Please enter current PIN:"
@@ -1040,13 +1291,13 @@ msgstr "Prosím, zadejte označení zařízení"
 msgid "Please enter your passphrase"
 msgstr "Prosím, zadejte svou passphrase"
 
-#: views/install/main.html:47
+#: views/install/main.html:49
 msgid ""
 "Please install TREZOR Bridge to allow myTREZOR to talk with your device."
 msgstr ""
 "Prosím, nainstalujte TREZOR Bridge, aby mohl myTREZOR mluvit s zařízením."
 
-#: views/install/main.html:8
+#: views/install/main.html:10
 msgid ""
 "Please install TREZOR Chrome Extension to allow myTREZOR to talk with your "
 "device."
@@ -1058,7 +1309,7 @@ msgstr ""
 msgid "Please re-enter new PIN:"
 msgstr "Zadejte znovu nový PIN:"
 
-#: views/modal/firmware.html:294
+#: views/modal/firmware.html:308
 msgid ""
 "Please reconnect it <strong>while pressing both buttons simultaneously.</"
 "strong>"
@@ -1073,18 +1324,18 @@ msgstr ""
 "Přečtěte si v klidu všechny instrukce. Nastavení TREZORu potrvá pouze "
 "několik minut. Ihned poté můžete začít Váš TREZOR používat."
 
-#: views/modal/firmware.html:145
+#: views/modal/firmware.html:149
 msgid ""
 "Please try again. You need to make sure<strong>both device buttons are "
 "pressed, as you plug in the device.</strong>"
 msgstr ""
 
-#. please try to reload and ...
-#: views/alertbars/offline.html:6
+#. The whole text: Connection to the server has been lost, but don't worry, your bitcoins are safe. *Please try to* reload this page or choose another server in application settings.
+#: views/alertbars/offline.html:16
 msgid "Please try to"
 msgstr "Prosím, zkuste"
 
-#: views/modal/firmware.html:346 views/modal/firmware.html:356
+#: views/modal/firmware.html:360 views/modal/firmware.html:370
 msgid "Please unplug the device now."
 msgstr "Prosím, odpojte teď zařízení."
 
@@ -1092,14 +1343,108 @@ msgstr "Prosím, odpojte teď zařízení."
 msgid "Please wait"
 msgstr "Prosím, čekejte"
 
-#: views/account/sign/index.html:86
+#: views/account/sign/index.html:93
 msgid "Please wait..."
 msgstr "Prosím, čekejte..."
 
-#: views/modal/setup.html:13 views/modal/setup.html:21
-msgid ""
-"Please write down the {{deviceSetupCtrl.recoveryCurrentWord | ordinal}} word "
-"of your recovery seed."
+#: views/modal/setup.html:11 views/modal/setup.html:19
+msgid "Please write down all these words carefully."
+msgstr ""
+
+#: views/modal/setup.wordWrite.html:12
+msgid "Please write down the 10th word of your recovery seed."
+msgstr ""
+
+#: views/modal/setup.wordWrite.html:13
+msgid "Please write down the 11th word of your recovery seed."
+msgstr ""
+
+#: views/modal/setup.wordWrite.html:14
+msgid "Please write down the 12th word of your recovery seed."
+msgstr ""
+
+#: views/modal/setup.wordWrite.html:15
+msgid "Please write down the 13th word of your recovery seed."
+msgstr ""
+
+#: views/modal/setup.wordWrite.html:16
+msgid "Please write down the 14th word of your recovery seed."
+msgstr ""
+
+#: views/modal/setup.wordWrite.html:17
+msgid "Please write down the 15th word of your recovery seed."
+msgstr ""
+
+#: views/modal/setup.wordWrite.html:18
+msgid "Please write down the 16th word of your recovery seed."
+msgstr ""
+
+#: views/modal/setup.wordWrite.html:19
+msgid "Please write down the 17th word of your recovery seed."
+msgstr ""
+
+#: views/modal/setup.wordWrite.html:20
+msgid "Please write down the 18th word of your recovery seed."
+msgstr ""
+
+#: views/modal/setup.wordWrite.html:21
+msgid "Please write down the 19th word of your recovery seed."
+msgstr ""
+
+#: views/modal/setup.wordWrite.html:3
+msgid "Please write down the 1st word of your recovery seed."
+msgstr ""
+
+#: views/modal/setup.wordWrite.html:22
+msgid "Please write down the 20th word of your recovery seed."
+msgstr ""
+
+#: views/modal/setup.wordWrite.html:23
+msgid "Please write down the 21st word of your recovery seed."
+msgstr ""
+
+#: views/modal/setup.wordWrite.html:24
+msgid "Please write down the 22nd word of your recovery seed."
+msgstr ""
+
+#: views/modal/setup.wordWrite.html:25
+msgid "Please write down the 23rd word of your recovery seed."
+msgstr ""
+
+#: views/modal/setup.wordWrite.html:26
+msgid "Please write down the 24th word of your recovery seed."
+msgstr ""
+
+#: views/modal/setup.wordWrite.html:4
+msgid "Please write down the 2nd word of your recovery seed."
+msgstr ""
+
+#: views/modal/setup.wordWrite.html:5
+msgid "Please write down the 3rd word of your recovery seed."
+msgstr ""
+
+#: views/modal/setup.wordWrite.html:6
+msgid "Please write down the 4th word of your recovery seed."
+msgstr ""
+
+#: views/modal/setup.wordWrite.html:7
+msgid "Please write down the 5th word of your recovery seed."
+msgstr ""
+
+#: views/modal/setup.wordWrite.html:8
+msgid "Please write down the 6th word of your recovery seed."
+msgstr ""
+
+#: views/modal/setup.wordWrite.html:9
+msgid "Please write down the 7th word of your recovery seed."
+msgstr ""
+
+#: views/modal/setup.wordWrite.html:10
+msgid "Please write down the 8th word of your recovery seed."
+msgstr ""
+
+#: views/modal/setup.wordWrite.html:11
+msgid "Please write down the 9th word of your recovery seed."
 msgstr ""
 
 #: views/modal/button.html:51
@@ -1117,36 +1462,43 @@ msgstr ""
 msgid "Prefill from following choices:"
 msgstr "Vyberte z následujících možností:"
 
-#: views/account/receive/index.html:44
+#: views/account/receive/index.html:38
 msgid "Previous addresses"
 msgstr "Předchozí adresy"
 
-#: views/device/recovery.html:43
+#: views/device/recovery.html:42
 #, fuzzy
 msgid "Processing..."
 msgstr "Pracuji na tom ..."
 
-#: views/modal/passphrase.html:27 views/modal/passphrase.html:32
+#: views/modal/passphrase.html:25 views/modal/passphrase.html:30
 msgid "Re-type for control"
 msgstr "Zadejte znovu pro kontrolu"
 
-#: views/account/send/index.html:42
+#: views/install/main.html:84 views/install/udev.html:60
+msgid "Read more about Bitcoin TREZOR."
+msgstr ""
+
+#. This text is displayed, when the amount is too high. Its goal is to get user to re-check the address. This is the fourth line, and a link to our manual.
+#: views/account/send/index.html:47
 msgid "Read more about phishing…"
 msgstr "Přečtěte si více o phishingu…"
 
-#: views/device/advanced.html:34 views/device/advanced.html:70
+#: views/device/advanced.html:40 views/device/advanced.html:87
 msgid "Read more in user manual"
 msgstr "Přečtěte si více v uživatelské příručce"
 
-#: views/account/nav.html:10
+#. This is shown on the header Send/Receive/Transactions/...
+#: views/account/nav.html:13
+msgctxt "header"
 msgid "Receive"
-msgstr "Přijmout"
+msgstr ""
 
-#: views/device/recovery.html:64
+#: views/device/recovery.html:66
 msgid "Recovered seed words:"
 msgstr "Slova ze zálohy:"
 
-#: views/device/load.html:29
+#: views/device/load.html:33
 msgid "Recovery seed or XPRV private key"
 msgstr "Recovery seed nebo privátní klíč XPRV"
 
@@ -1154,31 +1506,40 @@ msgstr "Recovery seed nebo privátní klíč XPRV"
 msgid "Recovery seed setup"
 msgstr ""
 
-#: views/modal/firmware.html:223 views/modal/firmware.html:50
+#: views/modal/firmware.html:237 views/modal/firmware.html:51
 msgid "Release notes"
 msgstr "Poznámky k verzi"
 
-#: views/alertbars/offline.html:7
+#. The whole text: Connection to the server has been lost, but don't worry, your bitcoins are safe. Please try to *reload* this page or choose another server in application settings.
+#: views/alertbars/offline.html:21
+msgctxt "offline-header"
 msgid "Reload"
-msgstr "Obnovit"
+msgstr ""
 
+#. Button in remember/forget dialog
 #: views/modal/forget.disconnected.html:12 views/modal/forget.wipe.html:12
+msgctxt "forget-button"
 msgid "Remember"
-msgstr "Zapamatovat"
+msgstr ""
 
-#: views/account/send/txRemoveOutput.html:9
-msgid "Remove"
-msgstr "Odstranit"
-
-#: views/account/send/buttonBar.html:29
+#: views/account/send/buttonBar.html:32
 msgid "Remove all recipients"
 msgstr "Odstranit všechny příjemce"
+
+#: views/account/send/txRemoveOutput.html:6
+msgid "Remove recipient"
+msgstr ""
 
 #: views/modal/account_label.html:6
 msgid "Rename account"
 msgstr "Přejmenovat účet"
 
-#: views/nav.html:181
+#. Part of a long text about Dropbox and labeling
+#: views/modal/dropbox.html:27
+msgid "rename accounts"
+msgstr ""
+
+#: views/nav.html:196
 msgid "Rename this account"
 msgstr "Přejmenovat tento účet"
 
@@ -1190,59 +1551,68 @@ msgstr "Uložit a Obnovit"
 msgid "Scan address from a QR code"
 msgstr "Naskenovat adresu z QR kódu"
 
-#: views/device/index.basic.html:164 views/device/index.basic.html:192
-msgid ""
-"Scan it into an application that supports XPUBs such as <a target=\"_blank\" "
-"href=\"https://play.google.com/store/apps/details?id=com.mycelium.wallet"
-"\">Mycelium</a> or <a target=\"_blank\" href=\"https://play.google.com/store/"
-"apps/details?id=com.samourai.sentinel\">Sentinel</a> for Android."
+#. Whole text: *Scan it into an application that supports XPUBs such as* Mycelium or Sentinel for Android. Then, you can watch your transactions and receive payments everywhere without carrying your TREZOR.
+#: views/device/index.basic.html:186 views/device/index.basic.html:236
+msgctxt "xpub-text"
+msgid "Scan it into an application that supports XPUBs such as"
 msgstr ""
 
-#: views/account/send/txAddress.html:27
+#: views/account/send/txAddress.html:30
 msgid "Scan QR code"
 msgstr "Naskenovat QR kód"
 
-#: views/account/nav.html:34 views/account/transactions/index.html:28
+#: views/account/nav.html:44 views/account/transactions/index.html:20
 msgid "Search for address, date or amount"
 msgstr "Vyhledávání adresy, datumu nebo množství"
 
-#: views/device/recovery.html:19
+#: views/device/recovery.html:21
 msgid "Seed recovery"
 msgstr ""
 
-#: views/device/homescreen.html:73
+#: views/device/homescreen.html:81
 msgid "Select an image"
 msgstr "Vybrat obrázek"
 
-#: views/install/main.html:29 views/install/main.html:58
+#: views/install/main.html:31 views/install/main.html:60
 msgid "Select platform..."
 msgstr "Vybrat platformu ..."
 
-#: views/account/nav.html:15 views/account/send/buttonBar.html:6
+#. This is shown on the header Send/Receive/Transactions/...
+#: views/account/nav.html:21
+msgctxt "header"
 msgid "Send"
-msgstr "Odeslat"
+msgstr ""
 
+#. This is shown on the main, big Send button
+#: views/account/send/buttonBar.html:6
+msgctxt "button"
+msgid "Send"
+msgstr ""
+
+#. This is shown in the transaction list when the transaction is to the user himseld.
 #: views/account/transactions/txAddress.html:23
 msgid "Sent to myself"
 msgstr "Poslat sobě"
 
-#: views/device/homescreen.html:37
+#. This is on a button, clicking it will set as homescreen
+#: views/device/homescreen.html:43
+msgctxt "button"
 msgid "Set as homescreen"
-msgstr "Nastavit jako obrazovku"
+msgstr ""
 
-#: views/account/send/txAmount.html:24
+#: views/account/send/txAmount.html:27
 msgid "Set maximum possible amount"
 msgstr "Nastavit maximální možnou částku"
 
-#: views/modal/firmware.html:35
+#: views/modal/firmware.html:36
 msgid "Show changes"
 msgstr "Zobrazit změny"
 
-#: views/alertbars/bridge.html:6 views/alertbars/firmware.html:32
+#: views/alertbars/bridge.html:6 views/alertbars/firmware.html:7
 msgid "Show details"
 msgstr "Zobrazit detaily"
 
-#: views/debug.button.html:7 views/debug.link.html:3
+#: views/debug.button.html:7 views/footer.right.html:4
 msgid "Show log"
 msgstr "Zobrazit log"
 
@@ -1254,46 +1624,67 @@ msgstr "Zobrazit na TREZORu"
 msgid "Show passphrase"
 msgstr "Zobrazit passphrase"
 
-#: views/account/receive/index.html:32
+#: views/account/receive/index.html:26
 msgid "Show previous"
 msgstr "Zobrazit předchozí"
 
+#. Little link, that will display 'nerdy' transaction details to user
 #: views/account/send/txPrepared.html:4
 msgid "Show transaction details"
 msgstr "Zobrazit podrobnosti transakce"
 
-#: views/device/index.basic.html:134
+#: views/device/index.basic.html:155
 msgid "Show XPUBs"
 msgstr "Zobrazit XPUBy"
 
-#: views/account/sign/index.html:107
+#. This is on a button in the sign/verify form.
+#: views/account/sign/index.html:117
+msgctxt "button"
 msgid "Sign"
-msgstr "Podepsání"
+msgstr ""
 
-#: views/account/nav.html:21
+#. This is shown on the header Send/Receive/Transactions/...
+#: views/account/nav.html:30
+msgctxt "header"
 msgid "Sign &amp; Verify"
-msgstr "Podepsaní &amp; oveření"
+msgstr ""
 
+#. This is a header in the sign window
 #: views/account/sign/index.html:15
+msgctxt "header"
 msgid "Sign message"
-msgstr "Podepsat zprávu"
+msgstr ""
 
-#: views/account/sign/index.html:190 views/account/sign/index.html:93
+#. This is a label to the sign/verify form.
+#: views/account/sign/index.html:100 views/account/sign/index.html:210
+msgctxt "sign"
 msgid "Signature"
-msgstr "Podpis"
+msgstr ""
 
-#: views/account/send/index.html:72
+#. This is shown when the signing is in progress.
+#: views/account/send/index.html:78
 msgid "Signing and sending transaction&hellip;"
 msgstr "Podepsání a odeslání transakce &hellip;"
 
-#: views/device/load.html:37
+#. Size of a transaction
+#: views/account/send/txPrepared.html:18
+msgid "Size:"
+msgstr ""
+
+#: views/device/load.html:41
 msgid "Skip mnemonic checksum"
 msgstr ""
 
-#: views/modal/firmware.html:146
+#: views/account/send/fees.html:128
+msgid "Some fields are incorrect."
+msgstr ""
+
+#. This will be shown if user does a mistake in the, slightly complicated, firmware upgrade process.
+#: views/modal/firmware.html:150
 msgid "Sorry that we make it so hard!"
 msgstr ""
 
+#. PIN strength
 #: views/modal/pin.html:90
 msgid "Strong"
 msgstr "Silný"
@@ -1302,19 +1693,26 @@ msgstr "Silný"
 msgid "Support"
 msgstr "Podpora"
 
-#: views/modal/firmware.html:103 views/modal/firmware.html:128
-#: views/modal/firmware.html:152 views/modal/firmware.html:184
-#: views/modal/firmware.html:265
+#: views/modal/firmware.html:104 views/modal/firmware.html:132
+#: views/modal/firmware.html:161 views/modal/firmware.html:198
+#: views/modal/firmware.html:279
 msgid "Support needed?"
 msgstr "Zapotřebí pomoc?"
 
-#: views/account/send/txPrepared.html:12
+#. displayed on the bottom in the TX
+#: views/account/send/txPrepared.html:44
+msgid "the change address"
+msgstr ""
+
+#: views/account/send/txPrepared.html:14
 msgid ""
 "The final size can differ a few bytes, since the transaction is created on "
 "TREZOR."
 msgstr ""
 
-#: views/device/index.basic.html:165 views/device/index.basic.html:193
+#. Whole text: Scan it into an application that supports XPUBs such as Mycelium or Sentinel for Android. *Then, you can watch your transactions and receive payments everywhere without carrying your TREZOR.*
+#: views/device/index.basic.html:201 views/device/index.basic.html:251
+msgctxt "xpub-text"
 msgid ""
 "Then, you can watch your transactions and receive payments everywhere "
 "without carrying your TREZOR."
@@ -1333,40 +1731,40 @@ msgstr ""
 msgid "This is an advanced interface intended for EXPERT use only!"
 msgstr ""
 
-#: views/device/index.setup.html:14
+#: views/device/index.setup.html:15
 msgid ""
 "This label will be shown on the display when you plug your TREZOR in. This "
 "is useful if you have more than one device."
 msgstr ""
 
-#. please try to reload this page or ...
-#: views/alertbars/offline.html:11
+#. The whole text: Connection to the server has been lost, but don't worry, your bitcoins are safe. Please try to reload *this page or choose another server in* application settings.
+#: views/alertbars/offline.html:28
 msgid "this page or choose another server in"
 msgstr ""
 
-#: views/install/udev.html:52
-msgid ""
-"This step is needed only on Linux. If you can't or don't want to install the "
-"package, <a href=\"http://doc.satoshilabs.com/trezor-user/"
-"settingupchromeonlinux.html\">you can set the correct permissions yourself</"
-"a>."
+#: views/install/udev.html:53
+msgid "This step is needed only on Linux."
 msgstr ""
 
+#. This is shown in the header in the transaction list
 #: views/account/transactions/table.html:9
+msgctxt "transaction-list"
 msgid "Timestamp"
-msgstr "Čas"
+msgstr ""
 
-#: views/account/transactions/table.html:10
+#. This is shown in the header in the transaction list
+#: views/account/transactions/table.html:13
+msgctxt "transaction-list"
 msgid "To / Comment"
-msgstr "Do / Komentář"
+msgstr ""
 
-#: views/account/receive/index.html:71 views/account/receive/index.html:89
+#: views/account/receive/index.html:65 views/account/receive/index.html:83
 msgid ""
 "To access subsequent addresses, please use some of the listed addresses in a "
 "transaction."
 msgstr ""
 
-#: views/modal/firmware.html:34
+#: views/modal/firmware.html:35
 msgid ""
 "To enjoy full functionality and security of your device, we strongly "
 "recommend you to update."
@@ -1381,31 +1779,46 @@ msgstr ""
 msgid "To update the firmware:"
 msgstr ""
 
+#. PIN strength
 #: views/modal/pin.html:87
 msgid "Too Long"
 msgstr "Příliš dlouhé"
 
-#: views/device/index.basic.html:93
+#. This is a short label in the device Basic page
+#: views/device/index.basic.html:108
+msgctxt "basic-label"
 msgid "Total balance"
-msgstr "Celkový zůstatek"
+msgstr ""
 
+#: views/account/receive/address.html:91
+msgid "Total received:"
+msgstr ""
+
+#. In text: 'Loading (123 transactions)', it is always plural
+#: views/nav.html:174
+msgctxt "loading"
+msgid "transactions"
+msgstr ""
+
+#. This is shown on the header Send/Receive/Transactions/...
 #: views/account/nav.html:5
+msgctxt "header"
 msgid "Transactions"
-msgstr "Transakce"
+msgstr ""
 
 #: views/install/bridge.force.html:8
 msgid "TREZOR Bridge update"
 msgstr ""
 
-#: views/account/sign/index.html:167 views/account/sign/index.html:47
+#: views/account/sign/index.html:184 views/account/sign/index.html:51
 msgid "TREZOR can show only 64 letters on the display."
 msgstr ""
 
-#: views/account/sign/index.html:54
+#: views/account/sign/index.html:58
 msgid "TREZOR cannot sign non-ASCII characters."
 msgstr ""
 
-#: views/account/sign/index.html:174
+#: views/account/sign/index.html:191
 msgid "TREZOR cannot verify non-ASCII characters."
 msgstr ""
 
@@ -1413,23 +1826,34 @@ msgstr ""
 msgid "TREZOR loading failed"
 msgstr ""
 
+#. This is on a button; clicking it will start TREZOR recovery.
+#: views/device/index.html:12
+msgctxt "button"
+msgid "TREZOR Recovery"
+msgstr ""
+
 #: views/device/index.basic.html:7
 msgid "Try again"
 msgstr "Zkus znovu"
 
+#. PIN strength
 #: views/modal/pin.html:91
 msgid "Ultimate"
 msgstr "Maximální"
 
-#: views/account/transactions/table.html:53
+#. Unconfirmed transaction, in the transaction list, will have this instead of date.
+#: views/account/transactions/table.html:65
 msgid "Unconfirmed"
 msgstr "Nepotvrzená"
 
-#: views/account/transactions/txAddress.html:33
+#. This is shown in the transaction list when the transaction is to the user himseld.
+#: views/account/transactions/txAddress.html:35
+msgctxt "transaction-list"
 msgid "Unknown"
-msgstr "Neznámá"
+msgstr ""
 
-#: views/account/send/index.html:35
+#. This text is displayed, when the amount is too high. Its goal is to get user to re-check the address. This is the second line.
+#: views/account/send/index.html:32
 msgid ""
 "Unlike your TREZOR, computers are not safe. Malware might replace bitcoin "
 "addresses you see."
@@ -1437,7 +1861,8 @@ msgstr ""
 "Na rozdíl od vašeho TREZORu, počítače nejsou bezpečné. Malware by mohl "
 "nahradit Bitcoin adresy, ktoré vidíte."
 
-#: views/account/receive/address.html:98
+#. Shown in the list of addresses, the small comment below an address
+#: views/account/receive/address.html:99
 msgid "Unused address"
 msgstr "Nepoužitá adresa"
 
@@ -1447,34 +1872,38 @@ msgid ""
 "Linux users."
 msgstr ""
 
-#: views/modal/firmware.html:354
+#: views/modal/firmware.html:368
 msgid "Update failed"
 msgstr "Aktualizace selhala"
 
-#: views/modal/firmware.html:345
+#: views/modal/firmware.html:359
 msgid "Update was successful"
 msgstr "Aktualizace byla úspěšná"
 
-#: views/modal/firmware.html:180 views/modal/firmware.html:261
-#: views/modal/firmware.html:96
+#: views/modal/firmware.html:194 views/modal/firmware.html:275
+#: views/modal/firmware.html:97
 msgid "Upgrade"
 msgstr "Aktualizace"
 
-#: views/alertbars/bridge.html:5 views/alertbars/firmware.html:31
-#, fuzzy
+#. Upgrade refers to bridge upgrade
+#: views/alertbars/firmware.html:6
+msgctxt "firmware-update"
 msgid "Upgrade for the newest features and bug fixes."
-msgstr "Pro nejnovější funkce a opravy chyb aktualizujte Váš TREZOR firmware."
+msgstr ""
 
-#: views/alertbars/restore_metadata.html:4
-#, fuzzy
-msgid "Upgrade notification."
-msgstr "Upozornění na novou verzi TREZOR firmware."
+#. Upgrade refers to bridge upgrade
+#: views/alertbars/bridge.html:5
+msgctxt "bridge-update"
+msgid "Upgrade for the newest features and bug fixes."
+msgstr ""
 
+#. This is a small label in the Homescreen tab
 #: views/device/homescreen.html:9
+msgctxt "label"
 msgid "Upload image"
-msgstr "Nahrát obrázek"
+msgstr ""
 
-#: views/modal/firmware.html:315
+#: views/modal/firmware.html:329
 msgid "Uploading firmware..."
 msgstr "Nahrávání firmware..."
 
@@ -1486,7 +1915,12 @@ msgstr "Adresa URL musí začínat \"https: //\""
 msgid "URL needs to start with https:// or http://"
 msgstr ""
 
-#: views/device/advanced.html:151
+#. Part of a long text about Dropbox and labeling
+#: views/modal/dropbox.html:36
+msgid "use the full-text search"
+msgstr ""
+
+#: views/device/advanced.html:180
 msgid ""
 "Use this feature only if you have your Recovery Seed or you don't have any "
 "coins on your device."
@@ -1496,34 +1930,34 @@ msgstr ""
 msgid "Used in other window"
 msgstr "Používá se v jiném okně"
 
-#: views/device/advanced.html:133 views/device/index.basic.html:87
+#: views/device/advanced.html:159 views/device/index.basic.html:102
 msgid ""
 "Using PIN protection is highly recommended. PIN prevents unauthorized "
 "persons from stealing your bitcoins even when they get physical access to "
 "your device."
 msgstr ""
 
-#: views/account/sign/index.html:206
+#. This is on a button in the sign/verify form.
+#: views/account/sign/index.html:227
+msgctxt "button"
 msgid "Verify"
-msgstr "Ověření"
+msgstr ""
 
-#: views/account/sign/index.html:131
+#. This is a header in the sign window
+#: views/account/sign/index.html:145
+msgctxt "header"
 msgid "Verify message"
-msgstr "Ověření zprávy"
+msgstr ""
 
-#: views/modal/firmware.html:239 views/modal/firmware.html:67
+#: views/modal/firmware.html:253 views/modal/firmware.html:68
 msgid "Versions"
 msgstr "Verze"
-
-#: views/modal/firmware.html:29
-msgid "visit the user manual"
-msgstr "navštívit uživatelskou příručku"
 
 #: views/modal/qr.html:9
 msgid "Waiting for camera&hellip;"
 msgstr "Čekám na kameru & hellip;"
 
-#: views/account/receive/index.html:128
+#: views/account/receive/index.html:122
 msgid "Waiting for transaction history"
 msgstr "Čekám na transakční historii"
 
@@ -1531,8 +1965,8 @@ msgstr "Čekám na transakční historii"
 msgid "Want to restore your wallet from recovery seed?"
 msgstr ""
 
-#: views/account/sign/index.html:157 views/account/sign/index.html:166
-#: views/account/sign/index.html:38 views/account/sign/index.html:46
+#: views/account/sign/index.html:174 views/account/sign/index.html:183
+#: views/account/sign/index.html:42 views/account/sign/index.html:50
 msgid "Warning:"
 msgstr "Varování:"
 
@@ -1542,35 +1976,34 @@ msgid ""
 "you allow it to see your whole transaction history."
 msgstr ""
 
+#: views/account/nav.html:56
+msgid "Warning!"
+msgstr ""
+
 #: views/install/mobile.html:4
 msgid ""
 "We are sorry, myTREZOR is not yet supported on phones and tablets. Please "
 "use a computer with Windows, OS X or Linux operating system."
 msgstr ""
 
-#: views/account/send/index.html:38
+#. This text is displayed, when the amount is too high. Its goal is to get user to re-check the address. This is the third line.
+#: views/account/send/index.html:39
 msgid ""
 "We recommend you to verify the payment address through independent "
 "communication channels such as a phone call or a text message."
 msgstr ""
 
-#: views/alertbars/restore_metadata.html:5
-msgid "We released an update to the Labeling."
-msgstr ""
-
-#: views/modal/setup.html:11 views/modal/setup.html:18
+#: views/modal/setup.html:11 views/modal/setup.html:19
 msgid ""
-"We will now show you {{deviceSetupCtrl.recoveryWords()}} words that will "
-"allow you to recover your accounts in case you lose your device. "
-"<strong>Please write down all these words carefully.</strong>"
+"We will now show you 24 words that will allow you to recover your accounts "
+"in case you lose your device."
 msgstr ""
 
-#: views/modal/setup.html:26 views/modal/setup.html:33
-msgid ""
-"We will now show you the {{deviceSetupCtrl.recoveryWords()}} words again. "
-"<strong>Please check carefully that you wrote them down correctly.</strong>"
+#: views/modal/setup.html:27 views/modal/setup.html:34
+msgid "We will now show you the 24 words again."
 msgstr ""
 
+#. PIN strength
 #: views/modal/pin.html:88
 msgid "Weak"
 msgstr "Slabý"
@@ -1583,30 +2016,40 @@ msgstr "Vítejt v nastavení TREZORu!"
 msgid "What is TREZOR?"
 msgstr "Co je TREZOR?"
 
-#: views/device/index.basic.html:155 views/device/index.basic.html:183
+#: views/device/index.basic.html:176 views/device/index.basic.html:225
 msgid ""
 "When you give them to a third party, you allow it to see your whole "
 "transaction history."
 msgstr ""
 
-#: views/device/advanced.html:145 views/device/advanced.html:166
+#. This is a short label in the device Advanced page
+#: views/device/advanced.html:171
+msgctxt "advanced-label"
 msgid "Wipe device"
-msgstr "Vymazání zařízení"
+msgstr ""
+
+#. This is written on a button, clicking it will wipe the device
+#: views/device/advanced.html:195
+msgctxt "button"
+msgid "Wipe device"
+msgstr ""
 
 #: views/modal/disconnect.wipe.html:4 views/modal/forget.wipe.html:4
 msgid "Wipe finished"
 msgstr "Vymazáni dokončeno"
 
-#: views/device/advanced.html:150
+#: views/device/advanced.html:179
 msgid "Wiping the device <b>removes all its information.</b>"
 msgstr ""
 
-#. Do you use Google Chrome on this computer? [[[With]]] TREZOR Chrome extension you can ...
-#: views/install/main.html:73
+#: views/install/main.html:77
 msgid ""
-"With <a target=\"_blank\" href=\"https://chrome.google.com/webstore/detail/"
-"{{installCtrl.chromeExtensionId}}\">TREZOR Chrome Extension</a> you can use "
-"myTREZOR in Chrome without installing any other software."
+"With TREZOR Chrome Extension you can use myTREZOR in Chrome without "
+"installing any other software."
+msgstr ""
+
+#: views/device/recovery.html:30
+msgid "Words are going to be entered in shuffled order."
 msgstr ""
 
 #: views/modal/forget.disconnected.html:7
@@ -1621,26 +2064,36 @@ msgid ""
 "remember it?"
 msgstr ""
 
-#: views/modal/firmware.html:186 views/modal/firmware.html:267
+#: views/modal/firmware.html:200 views/modal/firmware.html:281
 msgid "Yes, update"
 msgstr "Ano, aktualizovat"
 
-#: views/device/recovery.html:29
+#: views/device/recovery.html:32
 msgid ""
 "You might be asked to retype some words that are not part of your recovery "
-"seed.<br>"
+"seed."
 msgstr ""
 
-#: views/account/send/index.html:31
+#. Whole text: If you disable the passphrase encryption, your current funds will not appear. You will have to enable the passphrase encryption again to see your current wallet.
+#: views/device/advanced.html:80
+msgid ""
+"You will have to enable the passphrase encryption again to see your current "
+"wallet."
+msgstr ""
+
+#. This text is displayed, when the amount is too high. Its goal is to get user to re-check the address. This is the first line.
+#: views/account/send/index.html:24
 msgid "You're about to send a lot of money!"
 msgstr ""
 
-#: views/account/send/txTypeAhead.html:21
+#. This is shown in the 'hinting' in send dialogue. It means the shown address is an address of a different user's account.
+#: views/account/send/txTypeAhead.html:25
+msgctxt "typeahead"
 msgid "your account"
-msgstr "váš účet"
+msgstr ""
 
-#: views/modal/firmware.html:116 views/modal/firmware.html:142
-#: views/modal/firmware.html:17 views/modal/firmware.html:288
+#: views/modal/firmware.html:117 views/modal/firmware.html:146
+#: views/modal/firmware.html:17 views/modal/firmware.html:302
 msgid "Your device firmware is outdated"
 msgstr ""
 
@@ -1648,39 +2101,314 @@ msgstr ""
 msgid "Your device is not fully loaded. Reconnect it to use it."
 msgstr ""
 
-#: views/device/homescreen.html:94
+#: views/device/homescreen.html:102
 msgid "Your images"
 msgstr "Vaše obrázky"
 
-#: views/modal/firmware.html:178 views/modal/firmware.html:259
-#: views/modal/firmware.html:94
+#: views/modal/firmware.html:192 views/modal/firmware.html:273
+#: views/modal/firmware.html:95
 msgid "Your installation of TREZOR Bridge needs to be upgraded first."
 msgstr ""
 
-#: views/account/sign/index.html:40 views/account/sign/index.html:48
+#. This will always be singular, and > 200.
+#: views/account/sign/index.html:44 views/account/sign/index.html:52
 msgid ""
 "Your message is {{accountSignCtrl.signMessage.message.length}} letters long."
 msgstr ""
 
-#: views/account/sign/index.html:159 views/account/sign/index.html:168
+#. This will always be singular, and > 200.
+#: views/account/sign/index.html:176
 msgid ""
 "Your message is {{accountSignCtrl.verifyMessage.message.length}} letters "
 "long."
 msgstr ""
 
-#: views/modal/firmware.html:40
+#: views/modal/firmware.html:41
 msgid ""
 "Your TREZOR is already initialized. Check that you have your Recovery seed "
 "with you before updating the firmware!"
 msgstr ""
 
-#: views/modal/firmware.html:293
+#: views/modal/firmware.html:307
 msgid "Your TREZOR is not in the firmware update mode."
 msgstr ""
 
 #: views/modal/disconnect.wipe.html:7 views/modal/forget.wipe.html:7
 msgid "Your TREZOR was successfully wiped."
 msgstr ""
+
+#~ msgid "- add your comments to transactions"
+#~ msgstr "- přidat komentář k transakcím"
+
+#~ msgid "- label addresses"
+#~ msgstr "- označení adresy"
+
+#~ msgid "- rename accounts"
+#~ msgstr "- přejmenování účtů"
+
+#~ msgid "- use the full-text search"
+#~ msgstr "- použít full-text vyhledávaní"
+
+#~ msgid "(1 per row)"
+#~ msgstr "(1 na řádek)"
+
+#~ msgid "(leave empty to keep PIN protection disabled)"
+#~ msgstr "(ponechejte prázdne pro zrušení PINu)"
+
+#~ msgid "(loading)"
+#~ msgstr "(načítání)"
+
+#~ msgid "(the change address)"
+#~ msgstr "(zmenená adresa)"
+
+#~ msgid ""
+#~ "<strong>If you disable the passphrase encryption, your current funds will "
+#~ "not appear.</strong> You will have to enable the passphrase encryption "
+#~ "again to see your current wallet."
+#~ msgstr ""
+#~ "<b>Pokud nyní deaktivujete přístupové heslo, nezobrazí se fondy, které "
+#~ "jste dříve na TREZOR uložil/a pod heslem.</b> Pro zobrazení heslem "
+#~ "chráněné peněženky budete muset opětovně aktivovat použití přístupového "
+#~ "hesla."
+
+#~ msgid "<strong>Please connect your device</strong> to access this section."
+#~ msgstr "<strong>Pripojte prosím zařízení</strong> k prístupu k tyhle sekci."
+
+#~ msgid ""
+#~ "<strong>Warning!</strong> Account balance information is inconsistent."
+#~ msgstr "<strong>Upozornení!</strong>  Stav zústatku je nekonzistentní."
+
+#~ msgid "Account public keys (XPUB)"
+#~ msgstr "Verejný klíč účtu (XPUB)"
+
+#~ msgid "Additional passphrase encryption"
+#~ msgstr "Dodateční passphrase šifrování"
+
+#~ msgid "Address"
+#~ msgstr "Adresa"
+
+#~ msgid "Advanced"
+#~ msgstr "Pokročilé"
+
+#~ msgid "Balance"
+#~ msgstr "Zůstatek"
+
+#~ msgid "Basic"
+#~ msgstr "Základní"
+
+#~ msgid "Browse"
+#~ msgstr "Prohlížet"
+
+#~ msgid "by"
+#~ msgstr "podle"
+
+#~ msgid "Change label"
+#~ msgstr "Změna označení"
+
+#~ msgid "Change PIN"
+#~ msgstr "Změna PIN"
+
+#~ msgid "Clear"
+#~ msgstr "Vymazat"
+
+#~ msgid "Disable passphrase encryption"
+#~ msgstr "Zakázat šifrování pomoci passphrase"
+
+#~ msgid "Disable PIN"
+#~ msgstr "Zakázat PIN"
+
+#~ msgid "Disabled"
+#~ msgstr "Zakázat"
+
+#~ msgid "Don't forget"
+#~ msgstr "Nezapomenout"
+
+#~ msgid "Enable passphrase encryption"
+#~ msgstr "Povolit šifrování pomoci passphrase"
+
+#~ msgid "Enable PIN"
+#~ msgstr "Povolit PIN"
+
+#~ msgid "Enabled"
+#~ msgstr "Povoleno"
+
+#~ msgid "Enter"
+#~ msgstr "Potvrdiť"
+
+#~ msgid "Firmware"
+#~ msgstr "Firmware"
+
+#~ msgid "For more information,"
+#~ msgstr "Pro více informací,"
+
+#~ msgid ""
+#~ "For more information, <a href=\"http://doc.satoshilabs.com/trezor-user/"
+#~ "updatingfirmware.html\" target=\"_blank\">visit the user manual</a>."
+#~ msgstr ""
+#~ "Pro více informací, <a href=“http://doc.satoshilabs.com/trezor-user/"
+#~ "updatingfirmware.html” target=“_blank”>navštivte uživatelskou příručku.</"
+#~ "a>"
+
+#~ msgid "Forget"
+#~ msgstr "Zapomenout"
+
+#~ msgid "Forget (recommended)"
+#~ msgstr "Zapomenout (doporučeno)"
+
+#~ msgid "from history"
+#~ msgstr "z historie"
+
+#~ msgid "Homescreen"
+#~ msgstr "Obrazovka"
+
+#~ msgid ""
+#~ "If you are a common user and want to setup or recover your TREZOR device, "
+#~ "please continue to <a href=\"#/device/{{deviceCtrl.device.id}}/setup"
+#~ "\">TREZOR Setup</a>."
+#~ msgstr ""
+#~ "Pokud jste běžný uživatel a chcete nastavit nebo obnovit TREZOR zařízení, "
+#~ "pokračujte prosím na <a href=\"#/device/{{deviceCtrl.device.id}}/setup\"> "
+#~ "TREZOR Setup </a>."
+
+#~ msgid ""
+#~ "If you want to make a homescreen picture from a photo or a logo, use <a "
+#~ "href=\"https://trezor.github.io/homescreen-editor/\" target=\"_blank"
+#~ "\">our homescreen editor</a>."
+#~ msgstr ""
+#~ "Chcete-li vytvořit úvodní obrazovku z fotografie nebo loga, použijte <a "
+#~ "href=\"https://trezor.github.io/homescreen-editor/\" target=\"_blank"
+#~ "\">náš editor obrazovky</a>."
+
+#~ msgid "is licenced under"
+#~ msgstr "je licencován pod"
+
+#~ msgid "Label"
+#~ msgstr "Označení"
+
+#~ msgid "Loading&hellip;"
+#~ msgstr "Načítaní&hellip;"
+
+#~ msgid "Lock this device<br>(automatically"
+#~ msgstr "Zamknout zařízení<br>(automaticky za"
+
+#~ msgid ""
+#~ "Lost? Check our <a href=\"http://doc.satoshilabs.com/trezor-user/"
+#~ "enteringyourpin.html\" target=\"_blank\">user manual</a>."
+#~ msgstr ""
+#~ "Ztracený? Podívejte se do našeho <a href=\"http://doc.satoshilabs.com/"
+#~ "trezor-user/enteringyourpin.html\" target=\"_blank\">uživatelského "
+#~ "manuálu</a>."
+
+#~ msgid "My TREZOR"
+#~ msgstr "Múj TREZOR"
+
+#~ msgid ""
+#~ "myTREZOR Web Wallet is a free service provided exclusively to <a href="
+#~ "\"http://www.bitcointrezor.com\">TREZOR hardware wallet</a> owners."
+#~ msgstr ""
+#~ "myTREZOR Web Peněženka je bezplatná služba nabízena výhradně majitelům <a "
+#~ "href=\"http://www.bitcointrezor.com\">hardwarové peněženky TREZOR</a>."
+
+#~ msgid "Number of words in your recovery seed"
+#~ msgstr "Počet slov ve vašem Recovery seedu"
+
+#~ msgid "Passphrase"
+#~ msgstr "Passphrase"
+
+#~ msgid "PIN protection"
+#~ msgstr "ochrana PIN"
+
+#~ msgid "Please <strong>disconnect</strong> it now."
+#~ msgstr "Prosím, <strong>odpojte</strong> nyní."
+
+#~ msgid ""
+#~ "Please <strong>follow the instructions on your device.</strong> <br>Words "
+#~ "are going to be entered in shuffled order."
+#~ msgstr ""
+#~ "Prosím, <strong>postupujte podle pokynů na zařízení.</ Strong> <br>Slova "
+#~ "budou zadána v zamíchaném pořadí."
+
+#~ msgid ""
+#~ "Please check the {{deviceSetupCtrl.recoveryCurrentWord | ordinal}} word "
+#~ "of your recovery seed."
+#~ msgstr ""
+#~ "Prosím zkontrolujte {{deviceSetupCtrl.recoveryCurrentWord | ordinal}} "
+#~ "slovo vašeho seedu."
+
+#~ msgid "Please click here to continue using previous labels and comments."
+#~ msgstr "Prosím, klikněte zde pro použití predchozích označení a komentářů."
+
+#~ msgid "Receive"
+#~ msgstr "Přijmout"
+
+#~ msgid "Reload"
+#~ msgstr "Obnovit"
+
+#~ msgid "Remember"
+#~ msgstr "Zapamatovat"
+
+#~ msgid "Remove"
+#~ msgstr "Odstranit"
+
+#~ msgid "Send"
+#~ msgstr "Odeslat"
+
+#~ msgid "Set as homescreen"
+#~ msgstr "Nastavit jako obrazovku"
+
+#~ msgid "Sign"
+#~ msgstr "Podepsání"
+
+#~ msgid "Sign &amp; Verify"
+#~ msgstr "Podepsaní &amp; oveření"
+
+#~ msgid "Sign message"
+#~ msgstr "Podepsat zprávu"
+
+#~ msgid "Signature"
+#~ msgstr "Podpis"
+
+#~ msgid "Timestamp"
+#~ msgstr "Čas"
+
+#~ msgid "To / Comment"
+#~ msgstr "Do / Komentář"
+
+#~ msgid "Total balance"
+#~ msgstr "Celkový zůstatek"
+
+#~ msgid "Transactions"
+#~ msgstr "Transakce"
+
+#~ msgid "Unknown"
+#~ msgstr "Neznámá"
+
+#, fuzzy
+#~ msgid "Upgrade for the newest features and bug fixes."
+#~ msgstr ""
+#~ "Pro nejnovější funkce a opravy chyb aktualizujte Váš TREZOR firmware."
+
+#, fuzzy
+#~ msgid "Upgrade notification."
+#~ msgstr "Upozornění na novou verzi TREZOR firmware."
+
+#~ msgid "Upload image"
+#~ msgstr "Nahrát obrázek"
+
+#~ msgid "Verify"
+#~ msgstr "Ověření"
+
+#~ msgid "Verify message"
+#~ msgstr "Ověření zprávy"
+
+#~ msgid "visit the user manual"
+#~ msgstr "navštívit uživatelskou příručku"
+
+#~ msgid "Wipe device"
+#~ msgstr "Vymazání zařízení"
+
+#~ msgid "your account"
+#~ msgstr "váš účet"
 
 #~ msgid "Expected confirmation time:"
 #~ msgstr "Očekávaný čas potvrzení:"
