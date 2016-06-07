@@ -74,6 +74,10 @@ msgstr ""
 msgid "Account XPUBs"
 msgstr "XPUBy účtu"
 
+#: views/debug.html:11
+msgid "Action was interrupted"
+msgstr ""
+
 #: views/nav.html:219 views/nav.html:226
 msgid "Add account"
 msgstr "Přidat účet"
@@ -113,6 +117,10 @@ msgctxt "sign"
 msgid "Address"
 msgstr ""
 
+#: views/debug.html:36
+msgid "Address verification failed."
+msgstr ""
+
 #. This is shown on the header Basic/Homescreen/Advanced
 #: views/device/nav.html:23
 msgctxt "header"
@@ -146,16 +154,16 @@ msgstr "Povolit označení pro aktuálni účet?"
 msgid "Allow labeling for this account?"
 msgstr "Povolit označování pro aktuálni účet?"
 
-#. This is a label to the sending form. (Address/amount/comment)
-#: views/account/send/txAmount.html:5
-msgid "Amount"
-msgstr "Částka"
-
 #. This is shown in the header in the transaction list
 #: views/account/transactions/table.html:17
 msgctxt "transaction-list"
 msgid "Amount"
 msgstr ""
+
+#. This is a label to the sending form. (Address/amount/comment)
+#: views/account/send/txAmount.html:5
+msgid "Amount"
+msgstr "Částka"
 
 #: views/account/send/txAmount.html:40
 msgid "Amount has too many decimals"
@@ -174,15 +182,15 @@ msgstr ""
 msgid "API keys are useful if you want to import a watch-only wallet."
 msgstr "API klíč je užitečný pokud chcete přidat “watch-only” peňeženku."
 
-#: views/footer.right.html:3 views/settings.html:13
-msgid "Application Settings"
-msgstr "Aplikační nastavení"
-
 #. The whole text: Connection to the server has been lost, but don't worry, your bitcoins are safe. Please try to reload this page or choose another server in *application settings* (without the dot)
 #: views/alertbars/offline.html:32
 msgctxt "offline-header"
 msgid "Application Settings"
 msgstr ""
+
+#: views/footer.right.html:3 views/settings.html:13
+msgid "Application Settings"
+msgstr "Aplikační nastavení"
 
 #. This is shown in the header in the transaction list
 #: views/account/transactions/table.html:21
@@ -207,6 +215,10 @@ msgstr "BIP32 Cesta:"
 #: views/settings.html:20
 msgid "Bitcore Server URL"
 msgstr "URL Bitcore servru"
+
+#: views/debug.html:27
+msgid "Blockchain.info's Broadcast Transaction tool"
+msgstr ""
 
 #: views/modal/_header.html:4
 msgid "Bootloader mode"
@@ -288,7 +300,7 @@ msgstr "Klikni pro obnovení session"
 msgid "Click to show address"
 msgstr ""
 
-#: views/debug.html:18 views/debug.html:7 views/debug.log.html:8
+#: views/debug.html:7 views/debug.html:86 views/debug.log.html:8
 #: views/modal/firmware.html:376
 msgid "Close"
 msgstr "Zavřít"
@@ -314,6 +326,10 @@ msgstr "Potvrde šifrováni pomoci passphrase"
 #: views/modal/button.html:130
 msgid "Confirm the action on your device."
 msgstr "Potvrdte akci na zařízení."
+
+#: views/debug.html:99
+msgid "Congratulations! Your device is now ready to use."
+msgstr ""
 
 #: views/device/index.basic.html:59
 msgid "Connect the device to change PIN."
@@ -405,12 +421,6 @@ msgstr "ID Zařizení"
 msgid "Device is updated in other window"
 msgstr "Zařizení je obnoveno v jiném okňe"
 
-#. This is a short label in the normally hidden, advanced Load page
-#: views/device/load.html:22
-msgctxt "load-label"
-msgid "Device label"
-msgstr ""
-
 #: views/device/index.setup.html:9 views/import.html:22
 msgid "Device label"
 msgstr "Označení zařízení"
@@ -418,6 +428,12 @@ msgstr "Označení zařízení"
 #. This is a short label in the device recovery page
 #: views/device/recovery.html:87
 msgctxt "recovery-label"
+msgid "Device label"
+msgstr ""
+
+#. This is a short label in the normally hidden, advanced Load page
+#: views/device/load.html:22
+msgctxt "load-label"
 msgid "Device label"
 msgstr ""
 
@@ -431,15 +447,15 @@ msgctxt "button"
 msgid "Disable passphrase encryption"
 msgstr ""
 
-#. This is a short label in the device Advanced page
-#: views/device/advanced.html:129
-msgctxt "advanced-label"
-msgid "Disable PIN"
-msgstr ""
-
 #. This is written on a button, clicking it will disable PIN
 #: views/device/advanced.html:147
 msgctxt "button"
+msgid "Disable PIN"
+msgstr ""
+
+#. This is a short label in the device Advanced page
+#: views/device/advanced.html:129
+msgctxt "advanced-label"
 msgid "Disable PIN"
 msgstr ""
 
@@ -546,21 +562,29 @@ msgctxt "pin"
 msgid "Enabled"
 msgstr ""
 
-#. This is on a pin button
-#: views/modal/pin.html:97
-msgctxt "pin-button"
-msgid "Enter"
-msgstr ""
-
 #. This is on a passphrase button
 #: views/modal/passphrase.html:60
 msgctxt "passphrase-button"
 msgid "Enter"
 msgstr ""
 
+#. This is on a pin button
+#: views/modal/pin.html:97
+msgctxt "pin-button"
+msgid "Enter"
+msgstr ""
+
 #: views/device/recovery.html:47
 msgid "Enter seed word"
 msgstr "Zadejte slovo seedu"
+
+#: views/debug.html:69 views/debug.html:72
+msgid "Error"
+msgstr ""
+
+#: views/debug.html:80
+msgid "Error details:"
+msgstr ""
 
 #. Example of CSV input
 #: views/modal/csv.html:14
@@ -579,6 +603,22 @@ msgstr ""
 #: views/install/udev.html:7
 msgid "Extension installed successfully"
 msgstr "Rozšírení úspěšně nainstalováno"
+
+#: views/debug.html:13
+msgid "Failed to add account."
+msgstr ""
+
+#: views/debug.html:51
+msgid "Failed to change the device label."
+msgstr ""
+
+#: views/debug.html:16
+msgid "Failed to renew session."
+msgstr ""
+
+#: views/debug.html:20 views/debug.html:31
+msgid "Failed to send transaction"
+msgstr ""
 
 #: views/account/send/fees.html:122
 msgid "Fee"
@@ -713,6 +753,14 @@ msgstr ""
 #: views/device/nav.html:14
 msgctxt "header"
 msgid "Homescreen"
+msgstr ""
+
+#: views/debug.html:48
+msgid "Homescreen change failed."
+msgstr ""
+
+#: views/debug.html:108
+msgid "Homescreen was successfully changed."
 msgstr ""
 
 #. Used when estimating transaction time (Expected time: less than 5 *minutes*)
@@ -858,6 +906,14 @@ msgstr ""
 msgid "Label this address"
 msgstr "Označit tuhle adresu"
 
+#: views/debug.html:111
+msgid "Label was successfully changed."
+msgstr ""
+
+#: views/debug.html:66
+msgid "Labeling error."
+msgstr ""
+
 #: views/modal/firmware.html:258 views/modal/firmware.html:80
 msgid "Latest"
 msgstr "Poslední"
@@ -894,6 +950,10 @@ msgstr "Načítám"
 #: views/nav.html:208
 msgid "Loading accounts..."
 msgstr "Načítám účty…"
+
+#: views/debug.html:54
+msgid "Loading failed."
+msgstr ""
 
 #: views/device/index.basic.html:6
 msgid "Loading of accounts failed."
@@ -1115,6 +1175,10 @@ msgctxt "advanced-label"
 msgid "Passphrase"
 msgstr ""
 
+#: views/debug.html:45
+msgid "Passphrase change failed."
+msgstr ""
+
 #: views/device/advanced.html:33
 msgid ""
 "Passphrase encryption allows you to access new wallets, each hidden behind a "
@@ -1144,10 +1208,22 @@ msgstr ""
 msgid "PIN"
 msgstr "PIN"
 
+#: views/debug.html:42
+msgid "PIN change failed."
+msgstr ""
+
 #. This is a short label in the device Basic page
 #: views/device/index.basic.html:48
 msgctxt "basic-label"
 msgid "PIN protection"
+msgstr ""
+
+#: views/debug.html:105
+msgid "PIN was successfully changed."
+msgstr ""
+
+#: views/debug.html:102
+msgid "PIN was successfully removed."
 msgstr ""
 
 #: views/modal/setup.html:27 views/modal/setup.html:34
@@ -1471,6 +1547,14 @@ msgstr "Předchozí adresy"
 msgid "Processing..."
 msgstr "Pracuji na tom ..."
 
+#: views/debug.html:33
+msgid "QR scanning failed."
+msgstr ""
+
+#: views/debug.html:21
+msgid "Raw transaction in hex format:"
+msgstr ""
+
 #: views/modal/passphrase.html:25 views/modal/passphrase.html:30
 msgid "Re-type for control"
 msgstr "Zadejte znovu pro kontrolu"
@@ -1488,6 +1572,10 @@ msgstr "Přečtěte si více o phishingu…"
 msgid "Read more in user manual"
 msgstr "Přečtěte si více v uživatelské příručce"
 
+#: views/debug.html:60
+msgid "Reading of accounts failed."
+msgstr ""
+
 #. This is shown on the header Send/Receive/Transactions/...
 #: views/account/nav.html:13
 msgctxt "header"
@@ -1497,6 +1585,10 @@ msgstr ""
 #: views/device/recovery.html:66
 msgid "Recovered seed words:"
 msgstr "Slova ze zálohy:"
+
+#: views/debug.html:63
+msgid "Recovery failed."
+msgstr ""
 
 #: views/device/load.html:33
 msgid "Recovery seed or XPRV private key"
@@ -1604,6 +1696,10 @@ msgstr ""
 msgid "Set maximum possible amount"
 msgstr "Nastavit maximální možnou částku"
 
+#: views/debug.html:39
+msgid "Setup failed."
+msgstr ""
+
 #: views/modal/firmware.html:36
 msgid "Show changes"
 msgstr "Zobrazit změny"
@@ -1688,6 +1784,12 @@ msgstr ""
 #: views/modal/pin.html:90
 msgid "Strong"
 msgstr "Silný"
+
+#. This is displayed on top when any action successfully finishes
+#: views/debug.html:91
+msgctxt "flash"
+msgid "Success"
+msgstr ""
 
 #: views/top.nav.html:12
 msgid "Support"
@@ -1794,6 +1896,16 @@ msgstr ""
 msgid "Total received:"
 msgstr ""
 
+#. The whole sentence: *Transaction* 1234567890abcdef was successfully sent.
+#: views/debug.html:115
+msgctxt "sent-done"
+msgid "Transaction"
+msgstr ""
+
+#: views/debug.html:125
+msgid "Transaction info at blockchain.info"
+msgstr ""
+
 #. In text: 'Loading (123 transactions)', it is always plural
 #: views/nav.html:174
 msgctxt "loading"
@@ -1886,14 +1998,14 @@ msgid "Upgrade"
 msgstr "Aktualizace"
 
 #. Upgrade refers to bridge upgrade
-#: views/alertbars/firmware.html:6
-msgctxt "firmware-update"
+#: views/alertbars/bridge.html:5
+msgctxt "bridge-update"
 msgid "Upgrade for the newest features and bug fixes."
 msgstr ""
 
 #. Upgrade refers to bridge upgrade
-#: views/alertbars/bridge.html:5
-msgctxt "bridge-update"
+#: views/alertbars/firmware.html:6
+msgctxt "firmware-update"
 msgid "Upgrade for the newest features and bug fixes."
 msgstr ""
 
@@ -1980,6 +2092,12 @@ msgstr ""
 msgid "Warning!"
 msgstr ""
 
+#. The whole sentence: Transaction 1234567890abcdef *was successfully sent.*
+#: views/debug.html:129
+msgctxt "send-done"
+msgid "was successfully sent."
+msgstr ""
+
 #: views/install/mobile.html:4
 msgid ""
 "We are sorry, myTREZOR is not yet supported on phones and tablets. Please "
@@ -2034,6 +2152,10 @@ msgctxt "button"
 msgid "Wipe device"
 msgstr ""
 
+#: views/debug.html:57
+msgid "Wipe failed."
+msgstr ""
+
 #: views/modal/disconnect.wipe.html:4 views/modal/forget.wipe.html:4
 msgid "Wipe finished"
 msgstr "Vymazáni dokončeno"
@@ -2067,6 +2189,11 @@ msgstr ""
 #: views/modal/firmware.html:200 views/modal/firmware.html:281
 msgid "Yes, update"
 msgstr "Ano, aktualizovat"
+
+#. Blockchain.info link follows
+#: views/debug.html:23
+msgid "You can try to resend this transaction using"
+msgstr ""
 
 #: views/device/recovery.html:32
 msgid ""
