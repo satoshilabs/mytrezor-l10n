@@ -156,14 +156,14 @@ msgstr "Benennung von Accounts zulassen?"
 msgid "Allow labeling for this account?"
 msgstr "Benennung für diesen Account zulassen?"
 
-#. This is shown in the header in the transaction list
-#: views/account/transactions/table.html:17
-msgctxt "transaction-list"
+#. This is a label to the sending form. (Address/amount/comment)
+#: views/account/send/txAmount.html:5
 msgid "Amount"
 msgstr "Menge"
 
-#. This is a label to the sending form. (Address/amount/comment)
-#: views/account/send/txAmount.html:5
+#. This is shown in the header in the transaction list
+#: views/account/transactions/table.html:17
+msgctxt "transaction-list"
 msgid "Amount"
 msgstr "Menge"
 
@@ -186,15 +186,15 @@ msgstr ""
 "API Schlüssel sind nützlich, wenn Sie ein watch-only Wallet importieren "
 "möchten."
 
+#: views/footer.right.html:3 views/settings.html:13
+msgid "Application Settings"
+msgstr "Einstellungen"
+
 #. The whole text: Connection to the server has been lost, but don't worry, your bitcoins are safe. Please try to reload this page or choose another server in *application settings* (without the dot)
 #: views/alertbars/offline.html:32
 msgctxt "offline-header"
 msgid "Application Settings"
 msgstr "Anwendungseinstellungen"
-
-#: views/footer.right.html:3 views/settings.html:13
-msgid "Application Settings"
-msgstr "Einstellungen"
 
 #. This is shown in the header in the transaction list
 #: views/account/transactions/table.html:21
@@ -425,6 +425,12 @@ msgstr "Geräte ID"
 msgid "Device is updated in other window"
 msgstr "Das Gerät ist in anderem Fenster aktualisiert"
 
+#. This is a short label in the device recovery page
+#: views/device/recovery.html:87
+msgctxt "recovery-label"
+msgid "Device label"
+msgstr "Gerätebezeichnung"
+
 #: views/device/index.setup.html:9 views/import.html:22
 msgid "Device label"
 msgstr "Gerätebezeichnung"
@@ -432,12 +438,6 @@ msgstr "Gerätebezeichnung"
 #. This is a short label in the normally hidden, advanced Load page
 #: views/device/load.html:22
 msgctxt "load-label"
-msgid "Device label"
-msgstr "Gerätebezeichnung"
-
-#. This is a short label in the device recovery page
-#: views/device/recovery.html:87
-msgctxt "recovery-label"
 msgid "Device label"
 msgstr "Gerätebezeichnung"
 
@@ -451,17 +451,17 @@ msgctxt "button"
 msgid "Disable passphrase encryption"
 msgstr "Passphrasen Verschlüsselung deaktivieren"
 
-#. This is written on a button, clicking it will disable PIN
-#: views/device/advanced.html:147
-msgctxt "button"
-msgid "Disable PIN"
-msgstr "Pin deaktivieren"
-
 #. This is a short label in the device Advanced page
 #: views/device/advanced.html:129
 msgctxt "advanced-label"
 msgid "Disable PIN"
 msgstr "PIN deaktivieren"
+
+#. This is written on a button, clicking it will disable PIN
+#: views/device/advanced.html:147
+msgctxt "button"
+msgid "Disable PIN"
+msgstr "Pin deaktivieren"
 
 #. Refers to PIN
 #: views/device/index.basic.html:56
@@ -566,15 +566,15 @@ msgctxt "pin"
 msgid "Enabled"
 msgstr "Aktiviert"
 
-#. This is on a passphrase button
-#: views/modal/passphrase.html:60
-msgctxt "passphrase-button"
-msgid "Enter"
-msgstr "Enter"
-
 #. This is on a pin button
 #: views/modal/pin.html:97
 msgctxt "pin-button"
+msgid "Enter"
+msgstr "Enter"
+
+#. This is on a passphrase button
+#: views/modal/passphrase.html:60
+msgctxt "passphrase-button"
 msgid "Enter"
 msgstr "Enter"
 
@@ -2049,14 +2049,14 @@ msgid "Upgrade"
 msgstr "Aktualisierung"
 
 #. Upgrade refers to bridge upgrade
-#: views/alertbars/firmware.html:6
-msgctxt "firmware-update"
+#: views/alertbars/bridge.html:5
+msgctxt "bridge-update"
 msgid "Upgrade for the newest features and bug fixes."
 msgstr "Aktualisieren Sie für die neuesten Features und Bug Fixes."
 
 #. Upgrade refers to bridge upgrade
-#: views/alertbars/bridge.html:5
-msgctxt "bridge-update"
+#: views/alertbars/firmware.html:6
+msgctxt "firmware-update"
 msgid "Upgrade for the newest features and bug fixes."
 msgstr "Aktualisieren Sie für die neuesten Features und Bug Fixes."
 
