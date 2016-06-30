@@ -18,6 +18,10 @@ msgstr ""
 msgid ", but don't worry, your bitcoins are safe."
 msgstr ", но не беспокойтесь - ваши биткойны в безопасности"
 
+#: views/nav.html:117
+msgid "(automatically in"
+msgstr ""
+
 #. The number refer to XPUBs
 #: views/import.html:32 views/import.html:41
 msgid "1 per row"
@@ -74,11 +78,15 @@ msgstr "Публичные ключи счёта (XPUB)"
 msgid "Account XPUBs"
 msgstr "XPUB-ы Счёта"
 
+#: views/debug.html:11
+msgid "Action was interrupted"
+msgstr ""
+
 #: views/nav.html:219 views/nav.html:226
 msgid "Add account"
 msgstr "Добавить счёт"
 
-#: views/account/transactions/txAddressLabel.html:26
+#: views/account/transactions/txAddressLabel.html:27
 msgid "Add comment"
 msgstr "Добавить комментарий"
 
@@ -112,6 +120,10 @@ msgstr "Адрес"
 msgctxt "sign"
 msgid "Address"
 msgstr "Адрес"
+
+#: views/debug.html:36
+msgid "Address verification failed."
+msgstr ""
 
 #. This is shown on the header Basic/Homescreen/Advanced
 #: views/device/nav.html:23
@@ -214,6 +226,10 @@ msgstr "Bitcore Сервер URL"
 msgid "Bootloader mode"
 msgstr "Режим загрузчика"
 
+#: views/debug.html:27
+msgid "Blockchain.info's Broadcast Transaction tool"
+msgstr ""
+
 #. This is on a button, for browsing images for homescreen tab
 #: views/device/homescreen.html:17
 msgctxt "button"
@@ -244,7 +260,7 @@ msgstr "Разделитель ячейки"
 msgid "Change"
 msgstr "Изменить"
 
-#: views/account/transactions/txAddressLabel.html:18
+#: views/account/transactions/txAddressLabel.html:19
 msgid "Change comment"
 msgstr "Изменить комментарий"
 
@@ -278,7 +294,7 @@ msgstr "Очистить"
 msgid "Click on XPUB to show its QR code."
 msgstr "Кликните XPUB, чтобы показать его QR код."
 
-#: views/account/transactions/txAddressLabel.html:54
+#: views/account/transactions/txAddressLabel.html:55
 msgid "Click to hide address"
 msgstr "Кликните, чтобы скрыть адрес"
 
@@ -286,11 +302,11 @@ msgstr "Кликните, чтобы скрыть адрес"
 msgid "Click to renew session"
 msgstr "Кликните для возобновления сессии"
 
-#: views/account/transactions/txAddressLabel.html:68
+#: views/account/transactions/txAddressLabel.html:69
 msgid "Click to show address"
 msgstr "Кликните, чтобы показать адрес"
 
-#: views/debug.html:18 views/debug.html:7 views/debug.log.html:8
+#: views/debug.html:7 views/debug.html:86 views/debug.log.html:8
 #: views/modal/firmware.html:376
 msgid "Close"
 msgstr "Закрыть"
@@ -316,6 +332,10 @@ msgstr "Подтвердите шифрование парольной фраз�
 #: views/modal/button.html:130
 msgid "Confirm the action on your device."
 msgstr "Подтвердите действие на вашем устройстве"
+
+#: views/debug.html:99
+msgid "Congratulations! Your device is now ready to use."
+msgstr ""
 
 #: views/device/index.basic.html:59
 msgid "Connect the device to change PIN."
@@ -407,12 +427,6 @@ msgstr "ID Устройства"
 msgid "Device is updated in other window"
 msgstr "Устройство обновляется в другом окне"
 
-#. This is a short label in the normally hidden, advanced Load page
-#: views/device/load.html:22
-msgctxt "load-label"
-msgid "Device label"
-msgstr "Метка устр-ва"
-
 #: views/device/index.setup.html:9 views/import.html:22
 msgid "Device label"
 msgstr "Метка устройства"
@@ -420,6 +434,12 @@ msgstr "Метка устройства"
 #. This is a short label in the device recovery page
 #: views/device/recovery.html:87
 msgctxt "recovery-label"
+msgid "Device label"
+msgstr "Метка устр-ва"
+
+#. This is a short label in the normally hidden, advanced Load page
+#: views/device/load.html:22
+msgctxt "load-label"
 msgid "Device label"
 msgstr "Метка устр-ва"
 
@@ -561,6 +581,14 @@ msgstr ""
 msgid "Enter seed word"
 msgstr ""
 
+#: views/debug.html:69 views/debug.html:72
+msgid "Error"
+msgstr ""
+
+#: views/debug.html:80
+msgid "Error details:"
+msgstr ""
+
 #. Example of CSV input
 #: views/modal/csv.html:14
 msgid "Example:"
@@ -579,13 +607,29 @@ msgstr ""
 msgid "Extension installed successfully"
 msgstr ""
 
-#: views/account/send/fees.html:122
-msgid "Fee"
+#: views/debug.html:13
+msgid "Failed to add account."
+msgstr ""
+
+#: views/debug.html:51
+msgid "Failed to change the device label."
+msgstr ""
+
+#: views/debug.html:16
+msgid "Failed to renew session."
+msgstr ""
+
+#: views/debug.html:20 views/debug.html:31
+msgid "Failed to send transaction"
 msgstr ""
 
 #. This is a label to the sending form. (Address/amount/comment)
 #: views/account/send/fees.html:4
 msgctxt "send"
+msgid "Fee"
+msgstr ""
+
+#: views/account/send/fees.html:122
 msgid "Fee"
 msgstr ""
 
@@ -710,6 +754,14 @@ msgstr ""
 #: views/device/nav.html:14
 msgctxt "header"
 msgid "Homescreen"
+msgstr ""
+
+#: views/debug.html:48
+msgid "Homescreen change failed."
+msgstr ""
+
+#: views/debug.html:108
+msgid "Homescreen was successfully changed."
 msgstr ""
 
 #. Used when estimating transaction time (Expected time: less than 5 *minutes*)
@@ -842,6 +894,14 @@ msgstr ""
 msgid "Label this address"
 msgstr ""
 
+#: views/debug.html:111
+msgid "Label was successfully changed."
+msgstr ""
+
+#: views/debug.html:66
+msgid "Labeling error."
+msgstr ""
+
 #: views/modal/firmware.html:258 views/modal/firmware.html:80
 msgid "Latest"
 msgstr ""
@@ -879,6 +939,10 @@ msgstr ""
 msgid "Loading accounts..."
 msgstr ""
 
+#: views/debug.html:54
+msgid "Loading failed."
+msgstr ""
+
 #: views/device/index.basic.html:6
 msgid "Loading of accounts failed."
 msgstr ""
@@ -892,7 +956,7 @@ msgid "Loading..."
 msgstr ""
 
 #: views/nav.html:117
-msgid "Lock this device<br>(automatically in"
+msgid "Lock this device"
 msgstr ""
 
 #: views/debug.log.html:10
@@ -1091,6 +1155,10 @@ msgctxt "advanced-label"
 msgid "Passphrase"
 msgstr ""
 
+#: views/debug.html:45
+msgid "Passphrase change failed."
+msgstr ""
+
 #: views/device/advanced.html:33
 msgid ""
 "Passphrase encryption allows you to access new wallets, each hidden behind a "
@@ -1118,10 +1186,22 @@ msgstr ""
 msgid "PIN"
 msgstr ""
 
+#: views/debug.html:42
+msgid "PIN change failed."
+msgstr ""
+
 #. This is a short label in the device Basic page
 #: views/device/index.basic.html:48
 msgctxt "basic-label"
 msgid "PIN protection"
+msgstr ""
+
+#: views/debug.html:105
+msgid "PIN was successfully changed."
+msgstr ""
+
+#: views/debug.html:102
+msgid "PIN was successfully removed."
 msgstr ""
 
 #: views/modal/setup.html:27 views/modal/setup.html:34
@@ -1436,6 +1516,14 @@ msgstr ""
 msgid "Processing..."
 msgstr ""
 
+#: views/debug.html:33
+msgid "QR scanning failed."
+msgstr ""
+
+#: views/debug.html:21
+msgid "Raw transaction in hex format:"
+msgstr ""
+
 #: views/modal/passphrase.html:25 views/modal/passphrase.html:30
 msgid "Re-type for control"
 msgstr ""
@@ -1453,6 +1541,10 @@ msgstr ""
 msgid "Read more in user manual"
 msgstr ""
 
+#: views/debug.html:60
+msgid "Reading of accounts failed."
+msgstr ""
+
 #. This is shown on the header Send/Receive/Transactions/...
 #: views/account/nav.html:13
 msgctxt "header"
@@ -1461,6 +1553,10 @@ msgstr ""
 
 #: views/device/recovery.html:66
 msgid "Recovered seed words:"
+msgstr ""
+
+#: views/debug.html:63
+msgid "Recovery failed."
 msgstr ""
 
 #: views/device/load.html:33
@@ -1569,6 +1665,10 @@ msgstr ""
 msgid "Set maximum possible amount"
 msgstr ""
 
+#: views/debug.html:39
+msgid "Setup failed."
+msgstr ""
+
 #: views/modal/firmware.html:36
 msgid "Show changes"
 msgstr ""
@@ -1652,6 +1752,12 @@ msgstr ""
 #. PIN strength
 #: views/modal/pin.html:90
 msgid "Strong"
+msgstr ""
+
+#. This is displayed on top when any action successfully finishes
+#: views/debug.html:91
+msgctxt "flash"
+msgid "Success"
 msgstr ""
 
 #: views/top.nav.html:12
@@ -1759,6 +1865,16 @@ msgstr ""
 msgid "Total received:"
 msgstr ""
 
+#. The whole sentence: *Transaction* 1234567890abcdef was successfully sent.
+#: views/debug.html:115
+msgctxt "sent-done"
+msgid "Transaction"
+msgstr ""
+
+#: views/debug.html:125
+msgid "Transaction info at blockchain.info"
+msgstr ""
+
 #. In text: 'Loading (123 transactions)', it is always plural
 #: views/nav.html:174
 msgctxt "loading"
@@ -1849,14 +1965,14 @@ msgid "Upgrade"
 msgstr ""
 
 #. Upgrade refers to bridge upgrade
-#: views/alertbars/firmware.html:6
-msgctxt "firmware-update"
+#: views/alertbars/bridge.html:5
+msgctxt "bridge-update"
 msgid "Upgrade for the newest features and bug fixes."
 msgstr ""
 
 #. Upgrade refers to bridge upgrade
-#: views/alertbars/bridge.html:5
-msgctxt "bridge-update"
+#: views/alertbars/firmware.html:6
+msgctxt "firmware-update"
 msgid "Upgrade for the newest features and bug fixes."
 msgstr ""
 
@@ -1943,6 +2059,12 @@ msgstr ""
 msgid "Warning!"
 msgstr ""
 
+#. The whole sentence: Transaction 1234567890abcdef *was successfully sent.*
+#: views/debug.html:129
+msgctxt "send-done"
+msgid "was successfully sent."
+msgstr ""
+
 #: views/install/mobile.html:4
 msgid ""
 "We are sorry, myTREZOR is not yet supported on phones and tablets. Please "
@@ -1997,6 +2119,10 @@ msgctxt "button"
 msgid "Wipe device"
 msgstr ""
 
+#: views/debug.html:57
+msgid "Wipe failed."
+msgstr ""
+
 #: views/modal/disconnect.wipe.html:4 views/modal/forget.wipe.html:4
 msgid "Wipe finished"
 msgstr ""
@@ -2029,6 +2155,11 @@ msgstr ""
 
 #: views/modal/firmware.html:200 views/modal/firmware.html:281
 msgid "Yes, update"
+msgstr ""
+
+#. Blockchain.info link follows
+#: views/debug.html:23
+msgid "You can try to resend this transaction using"
 msgstr ""
 
 #: views/device/recovery.html:32
