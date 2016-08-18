@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2016-08-18 06:36+0000\n"
-"Last-Translator: Boris Komarov <bkomarov85@gmail.com>\n"
+"PO-Revision-Date: 2016-08-18 14:33+0000\n"
+"Last-Translator: Translation of Perlover projects <translate@perlover.com>\n"
 "Language-Team: Russian "
 "<https://hosted.weblate.org/projects/satoshilabs/mytrezor/ru/>\n"
 "Language: ru\n"
@@ -144,15 +144,20 @@ msgid ""
 "Dropbox folder ensuring a 100% secure and always available service. Even if "
 "your Dropbox account gets compromised, your private data stay safe."
 msgstr ""
+"Все метки и комментарии, что вы добавляете на myTREZOR.com - автоматически "
+"шифруются ключом TREZOR-устройства, и синхронизируются с вашей Dropbox "
+"папкой для обеспечения 100% безопасности и доступности сервиса в любое "
+"время. Даже если ваш Dropbox аккаунт будет скомпрометирован, ваши личные "
+"данные останутся в безопасности."
 
 #: views/modal/button.html:103 views/modal/button.html:108
 #: views/modal/button.html:120 views/modal/button.html:126
 msgid "Allow labeling for current accounts?"
-msgstr ""
+msgstr "Позволить назначать метки для текущих счетов?"
 
 #: views/modal/button.html:114
 msgid "Allow labeling for this account?"
-msgstr ""
+msgstr "Позволить назначать метки для этого счёта?"
 
 #. This is a label to the sending form. (Address/amount/comment)
 #: views/account/send/txAmount.html:5
@@ -181,6 +186,8 @@ msgstr "Сумма слишком низкая"
 #: views/device/metadata.html:43
 msgid "API keys are useful if you want to import a watch-only wallet."
 msgstr ""
+"API ключи полезны в том случае, если вы хотите импортировать кошелёк в "
+"режиме просмотра (watch-only)."
 
 #: views/footer.right.html:3 views/settings.html:13
 msgid "Application Settings"
@@ -202,11 +209,11 @@ msgstr "Баланс"
 #: views/device/nav.html:5
 msgctxt "header"
 msgid "Basic"
-msgstr ""
+msgstr "Основной"
 
 #: views/device/index.basic.html:176 views/device/index.basic.html:225
 msgid "Be careful with your XPUBs."
-msgstr ""
+msgstr "Будьте осторожны с вашими XPUB ключами."
 
 #: views/account/receive/index.html:110
 msgid "BIP32 Path:"
@@ -214,21 +221,21 @@ msgstr "BIP32 Путь:"
 
 #: views/settings.html:20
 msgid "Bitcore Server URL"
-msgstr ""
+msgstr "Bitcore Сервер URL"
 
 #: views/debug.html:27
 msgid "Blockchain.info's Broadcast Transaction tool"
-msgstr ""
+msgstr "Инструмент трансляции транзакций от Blockchain.info"
 
 #: views/modal/_header.html:4
 msgid "Bootloader mode"
-msgstr ""
+msgstr "Режим загрузчика"
 
 #. This is on a button, for browsing images for homescreen tab
 #: views/device/homescreen.html:17
 msgctxt "button"
 msgid "Browse"
-msgstr ""
+msgstr "Просмотр"
 
 #: views/device/load.html:65 views/device/recovery.html:157
 #: views/import.html:55 views/modal/csv.html:44 views/modal/disconnect.html:14
@@ -248,7 +255,7 @@ msgstr "Внимание!"
 
 #: views/modal/csv.html:24
 msgid "Cell delimiter"
-msgstr ""
+msgstr "Разделитель ячейки"
 
 #: views/modal/label.html:18
 msgid "Change"
@@ -272,222 +279,224 @@ msgstr "Изменить PIN"
 
 #: views/modal/firmware.html:235 views/modal/firmware.html:49
 msgid "Changelog"
-msgstr ""
+msgstr "Журнал изменений"
 
 #: views/modal/button.html:56
 msgid "Check address on TREZOR display"
-msgstr ""
+msgstr "Проверьте адрес на экранеTREZOR"
 
 #. This is on a button in the sign/verify form.
 #: views/account/sign/index.html:127 views/account/sign/index.html:238
 msgctxt "button"
 msgid "Clear"
-msgstr ""
+msgstr "Очистить"
 
 #: views/device/index.basic.html:184 views/device/index.basic.html:234
 msgid "Click on XPUB to show its QR code."
-msgstr ""
+msgstr "Кликните XPUB, чтобы показать его QR код."
 
 #: views/account/transactions/txAddressLabel.html:55
 msgid "Click to hide address"
-msgstr ""
+msgstr "Кликните, чтобы скрыть адрес"
 
 #: views/nav.html:26 views/nav.html:72
 msgid "Click to renew session"
-msgstr ""
+msgstr "Кликните для возобновления сессии"
 
 #: views/account/transactions/txAddressLabel.html:69
 msgid "Click to show address"
-msgstr ""
+msgstr "Кликните, чтобы показать адрес"
 
 #: views/debug.html:7 views/debug.html:86 views/debug.log.html:8
 #: views/modal/firmware.html:376
 msgid "Close"
-msgstr ""
+msgstr "Закрыть"
 
 #. Attribution of picture, in the footer of Homepage. Don't translate the name of the picture or the author.
 #: views/device/homescreen.html:127
 msgid "coffee by jen is licenced under CC BY 2.0"
-msgstr ""
+msgstr "coffee от jen, лицензировано под условиями CC BY 2.0"
 
 #. This is a label to the sending form. (Address/amount/comment)
 #: views/account/send/txLabel.html:5
 msgid "Comment"
-msgstr ""
+msgstr "Комментарий"
 
 #: views/device/recovery.html:57
 msgid "Confirm choice by pressing enter."
-msgstr ""
+msgstr "Подтвердите выбор нажатием Enter."
 
 #: views/modal/button.html:88
 msgid "Confirm passphrase encryption"
-msgstr ""
+msgstr "Подтвердите шифрование парольной фразой"
 
 #: views/modal/button.html:130
 msgid "Confirm the action on your device."
-msgstr ""
+msgstr "Подтвердите действие на вашем устройстве"
 
 #: views/debug.html:99
 msgid "Congratulations! Your device is now ready to use."
-msgstr ""
+msgstr "Поздравляем! Ваше устройство готово к использованию."
 
 #: views/device/index.basic.html:59
 msgid "Connect the device to change PIN."
-msgstr ""
+msgstr "Подключите устройство для изменения PIN."
 
 #: views/device/index.basic.html:29
 msgid "Connect the device to change the label."
-msgstr ""
+msgstr "Подключите устройство для изменения метки."
 
 #: views/device/advanced.html:99
 msgid "Connect the device to disable passphrase."
-msgstr ""
+msgstr "Подключите устройство для отключения парольной фразы"
 
 #: views/device/advanced.html:137
 msgid "Connect the device to disable PIN."
-msgstr ""
+msgstr "Подключите устройство для отключения PIN кода."
 
 #: views/device/advanced.html:49
 msgid "Connect the device to enable passphrase."
-msgstr ""
+msgstr "Подключите устройство для включения парольной фразы."
 
 #: views/device/index.basic.html:77
 msgid "Connect the device to enable PIN."
-msgstr ""
+msgstr "Подключите устройство для включения PIN кода."
 
 #: views/device/homescreen.html:36
 msgid "Connect the device to set its homescreen."
-msgstr ""
+msgstr "Подключите устройство для установки заставки."
 
 #: views/modal/dropbox.html:56
 msgid "Connect to Dropbox"
-msgstr ""
+msgstr "Соединить с Dropbox"
 
 #: views/top.bar.html:21
 msgid ""
 "Connect to Dropbox to enable:<br>- renaming accounts<br>- commenting "
 "transactions<br>- labeling addresses and more..."
 msgstr ""
+"Подключите к Dropbox чтобы:<br>- переименовывать счета<br>- комментировать "
+"транзакции<br>- назначать метки адресам и много чего другого..."
 
 #: views/install/udev.html:40
 msgid "Connect your TREZOR"
-msgstr ""
+msgstr "Подключите ваш TREZOR"
 
 #: views/jumbotrons/start.html:5
 msgid "Connect your TREZOR device to the computer."
-msgstr ""
+msgstr "Подключите ваше TREZOR устройство к компьютеру."
 
 #: views/account/receive/address.html:77
 msgid "Connect your TREZOR to display this address"
-msgstr ""
+msgstr "Подключите ваш TREZOR для отображения этого адреса"
 
 #: views/nav.html:84
 msgid "Connected"
-msgstr ""
+msgstr "Подключено"
 
 #. The whole text: *Connection to the server has been lost*, but don't worry, your bitcoins are safe. Please try to reload this page or choose another server in application settings.
 #: views/alertbars/offline.html:5
 msgid "Connection to the server has been lost"
-msgstr ""
+msgstr "Соединение с сервером было потеряно"
 
 #: views/device/index.setup.html:21 views/device/load.html:62
 #: views/device/recovery.html:154 views/import.html:53
 msgid "Continue"
-msgstr ""
+msgstr "Продолжить"
 
 #: views/account/send/txAmount.html:20 views/account/send/txAmount.html:72
 msgid "counting..."
-msgstr ""
+msgstr "подсчёт..."
 
 #: views/modal/firmware.html:72
 msgid "Device"
-msgstr ""
+msgstr "Устройство"
 
 #: views/nav.html:96
 msgid "Device could not be opened."
-msgstr ""
+msgstr "Устройство не может быть открыто."
 
 #: views/device/recovery.html:81
 msgid "Device has to be wiped before recovery."
-msgstr ""
+msgstr "Устройство должно быть очищено перед восстановлением."
 
 #: views/import.html:16
 msgid "Device ID"
-msgstr ""
+msgstr "ID Устройства"
 
 #: views/modal/firmware.html:205 views/modal/firmware.html:286
 msgid "Device is updated in other window"
-msgstr ""
+msgstr "Устройство обновляется в другом окне"
 
 #. This is a short label in the device recovery page
 #: views/device/recovery.html:87
 msgctxt "recovery-label"
 msgid "Device label"
-msgstr ""
+msgstr "Метка устр-ва"
 
 #: views/device/index.setup.html:9 views/import.html:22
 msgid "Device label"
-msgstr ""
+msgstr "Метка устройства"
 
 #. This is a short label in the normally hidden, advanced Load page
 #: views/device/load.html:22
 msgctxt "load-label"
 msgid "Device label"
-msgstr ""
+msgstr "Метка устр-ва"
 
 #: views/device/advanced.html:184
 msgid "Device needs to be connected in order to wipe it."
-msgstr ""
+msgstr "Для очистки устройства оно должно быть подключено."
 
 #. This is written on a button, clicking it will disable passphrase
 #: views/device/advanced.html:113
 msgctxt "button"
 msgid "Disable passphrase encryption"
-msgstr ""
+msgstr "Отключение парольной фразы"
 
 #. This is a short label in the device Advanced page
 #: views/device/advanced.html:129
 msgctxt "advanced-label"
 msgid "Disable PIN"
-msgstr ""
+msgstr "Откл. PIN"
 
 #. This is written on a button, clicking it will disable PIN
 #: views/device/advanced.html:147
 msgctxt "button"
 msgid "Disable PIN"
-msgstr ""
+msgstr "Отключить PIN"
 
 #. Refers to PIN
 #: views/device/index.basic.html:56
 msgctxt "pin"
 msgid "Disabled"
-msgstr ""
+msgstr "Отключён"
 
 #: views/modal/firmware.html:22
 msgid "disconnect the device"
-msgstr ""
+msgstr "отключить устройство"
 
 #: views/modal/disconnect.html:7
 #: views/modal/disconnect.passphrase_disable.html:7
 #: views/modal/disconnect.passphrase_enable.html:7
 msgid "Disconnect your TREZOR now"
-msgstr ""
+msgstr "Отключите сейчас ваш TREZOR"
 
 #: views/modal/disconnect.passphrase_disable.html:9
 msgid "Disconnect your TREZOR to disable passphrase."
-msgstr ""
+msgstr "Disconnect your TREZOR to disable passphrase."
 
 #: views/modal/disconnect.passphrase_enable.html:9
 msgid "Disconnect your TREZOR to enable passphrase."
-msgstr ""
+msgstr "Отключите ваш TREZOR для включения парольной фразы."
 
 #: views/nav.html:81
 msgid "Disconnected"
-msgstr ""
+msgstr "Отключено"
 
 #: views/install/main.html:74
 msgid "Do you use Google Chrome on this computer?"
-msgstr ""
+msgstr "Вы используете Google Chrome на этом компьютере?"
 
 #: views/install/main.html:24
 msgid ""
@@ -495,168 +504,170 @@ msgid ""
 "standalone application that works the same way &mdash; but with every "
 "browser."
 msgstr ""
+"Вы используете другие броузеры на этом компьютере? Установите TREZOR Bridge "
+"- отдельное приложение, которое работает аналогично, но с каждым броузером."
 
 #: views/modal/forget.requested.html:7
 msgid "Do you want to forget your device?"
-msgstr ""
+msgstr "Вы хотите забыть ваше устройство?"
 
 #: views/modal/firmware.html:175 views/modal/firmware.html:221
 msgid "Do you want to update the device firmware?"
-msgstr ""
+msgstr "Вы хотите обновить прошивку устройства?"
 
 #. Button in remember/forget dialog
 #: views/modal/forget.requested.html:11
 msgctxt "forget-button"
 msgid "Don't forget"
-msgstr ""
+msgstr "Не забудьте"
 
 #: views/install/bridge.force.html:19 views/install/main.html:28
 #: views/install/main.html:57 views/install/udev.html:21
 msgid "Download"
-msgstr ""
+msgstr "Загрузить"
 
 #: views/modal/firmware.html:321
 msgid "Downloading firmware..."
-msgstr ""
+msgstr "Загрузка прошивки..."
 
 #: views/top.bar.html:32
 msgid "Dropbox connected. Click to disconnect it."
-msgstr ""
+msgstr "Dropbox подключён. Кликните для разъединения."
 
 #. Transaction fee size menu
 #: views/account/send/fees.html:22
 msgctxt "transaction-fee"
 msgid "Economy"
-msgstr ""
+msgstr "Экономная"
 
 #: views/modal/button.html:4 views/modal/dropbox.html:7
 msgid "Enable labeling"
-msgstr ""
+msgstr "Включить метки"
 
 #. This is written on a button, clicking it will enable passphrase
 #: views/device/advanced.html:63
 msgctxt "button"
 msgid "Enable passphrase encryption"
-msgstr ""
+msgstr "Включить шифрование фразой"
 
 #. This is on a button, that will change the PIN once clicked
 #: views/device/index.basic.html:87
 msgctxt "button"
 msgid "Enable PIN"
-msgstr ""
+msgstr "Включить PIN"
 
 #. This is a label to a checkbox in the device recovery page
 #: views/device/recovery.html:132
 msgctxt "recovery-label"
 msgid "Enable PIN protection"
-msgstr ""
+msgstr "Включить PIN защиту"
 
 #. Refers to PIN
 #: views/device/index.basic.html:55
 msgctxt "pin"
 msgid "Enabled"
-msgstr ""
+msgstr "Включено"
 
 #. This is on a pin button
 #: views/modal/pin.html:97
 msgctxt "pin-button"
 msgid "Enter"
-msgstr ""
+msgstr "Ввод"
 
 #. This is on a passphrase button
 #: views/modal/passphrase.html:60
 msgctxt "passphrase-button"
 msgid "Enter"
-msgstr ""
+msgstr "Ввод"
 
 #: views/device/recovery.html:47
 msgid "Enter seed word"
-msgstr ""
+msgstr "Введите слово фразы-восстановления"
 
 #: views/debug.html:69 views/debug.html:72
 msgid "Error"
-msgstr ""
+msgstr "Ошибка"
 
 #: views/debug.html:80
 msgid "Error details:"
-msgstr ""
+msgstr "Детали ошибки:"
 
 #. Example of CSV input
 #: views/modal/csv.html:14
 msgid "Example:"
-msgstr ""
+msgstr "Пример:"
 
 #. In the bottom footer. 'Exchange rates by Bitpay'.
 #: views/footer.left.html:4
 msgid "Exchange rates by"
-msgstr ""
+msgstr "Курсы предоставлены"
 
 #: views/account/send/fees.html:41
 msgid "Expected confirmation time"
-msgstr ""
+msgstr "Ожидаемое время подтверждения"
 
 #: views/install/udev.html:7
 msgid "Extension installed successfully"
-msgstr ""
+msgstr "Расширение установлено успешно"
 
 #: views/debug.html:13
 msgid "Failed to add account."
-msgstr ""
+msgstr "Неудачное добавление счёта"
 
 #: views/debug.html:51
 msgid "Failed to change the device label."
-msgstr ""
+msgstr "Неудачное изменение метки устройства"
 
 #: views/debug.html:16
 msgid "Failed to renew session."
-msgstr ""
+msgstr "Неудачное обновление сессии."
 
 #: views/debug.html:20 views/debug.html:31
 msgid "Failed to send transaction"
-msgstr ""
+msgstr "Неудачная отправка транзакции"
 
 #. This is a label to the sending form. (Address/amount/comment)
 #: views/account/send/fees.html:4
 msgctxt "send"
 msgid "Fee"
-msgstr ""
+msgstr "Комиссия"
 
 #: views/account/send/fees.html:122
 msgid "Fee"
-msgstr ""
+msgstr "Комиссия"
 
 #: views/modal/button.html:12
 msgid "Fee is over threshold."
-msgstr ""
+msgstr "Запредельная комиссия"
 
 #. In the bottom footer. 'Fee predictions by 21.co'.
 #: views/footer.left.html:12
 msgid "Fee predictions by"
-msgstr ""
+msgstr "Прогнозирование комиссии от"
 
 #. Fee of a transaction
 #: views/account/send/txPrepared.html:21
 msgid "Fee:"
-msgstr ""
+msgstr "Комиссия:"
 
 #: views/account/send/txPrepared.html:12
 msgid "Fee/kB:"
-msgstr ""
+msgstr "Комиссия/кБ:"
 
 #. PIN strength
 #: views/modal/pin.html:89
 msgid "Fine"
-msgstr ""
+msgstr "Стойкий"
 
 #. This is a short label in the device Advanced page
 #: views/device/advanced.html:9
 msgctxt "advanced-label"
 msgid "Firmware"
-msgstr ""
+msgstr "Прошивка"
 
 #: views/modal/csv.html:33
 msgid "First row is header"
-msgstr ""
+msgstr "Первая строка - заголовок"
 
 #. Attribution of picture, in the footer of Homepage. Don't translate the name of the picture or the author.
 #: views/device/homescreen.html:134
@@ -1198,103 +1209,103 @@ msgstr ""
 
 #: views/modal/setup.html:27 views/modal/setup.html:34
 msgid "Please check carefully that you wrote them down correctly."
-msgstr ""
+msgstr "Пожалуйста, проверьте, что Вы записали их правильно."
 
 #: views/modal/setup.wordCheck.html:12
 msgid "Please check the 10th word of your recovery seed."
-msgstr ""
+msgstr "Пожалуйста, проверьте 10-ое слово вашей фразы восстановления."
 
 #: views/modal/setup.wordCheck.html:13
 msgid "Please check the 11th word of your recovery seed."
-msgstr ""
+msgstr "Пожалуйста, проверьте 11-ое слово вашей фразы восстановления."
 
 #: views/modal/setup.wordCheck.html:14
 msgid "Please check the 12th word of your recovery seed."
-msgstr ""
+msgstr "Пожалуйста, проверьте 12-ое слово вашей фразы восстановления."
 
 #: views/modal/setup.wordCheck.html:15
 msgid "Please check the 13th word of your recovery seed."
-msgstr ""
+msgstr "Пожалуйста, проверьте 13-ое слово вашей фразы восстановления."
 
 #: views/modal/setup.wordCheck.html:16
 msgid "Please check the 14th word of your recovery seed."
-msgstr ""
+msgstr "Пожалуйста, проверьте 14-ое слово вашей фразы восстановления."
 
 #: views/modal/setup.wordCheck.html:17
 msgid "Please check the 15th word of your recovery seed."
-msgstr ""
+msgstr "Пожалуйста, проверьте 15-ое слово вашей фразы восстановления."
 
 #: views/modal/setup.wordCheck.html:18
 msgid "Please check the 16th word of your recovery seed."
-msgstr ""
+msgstr "Пожалуйста, проверьте 16-ое слово вашей фразы восстановления."
 
 #: views/modal/setup.wordCheck.html:19
 msgid "Please check the 17th word of your recovery seed."
-msgstr ""
+msgstr "Пожалуйста, проверьте 17-ое слово вашей фразы восстановления."
 
 #: views/modal/setup.wordCheck.html:20
 msgid "Please check the 18th word of your recovery seed."
-msgstr ""
+msgstr "Пожалуйста, проверьте 18-ое слово вашей фразы восстановления."
 
 #: views/modal/setup.wordCheck.html:21
 msgid "Please check the 19th word of your recovery seed."
-msgstr ""
+msgstr "Пожалуйста, проверьте 19-ое слово вашей фразы восстановления."
 
 #: views/modal/setup.wordCheck.html:3
 msgid "Please check the 1st word of your recovery seed."
-msgstr ""
+msgstr "Пожалуйста, проверьте первое слово вашей фразы восстановления."
 
 #: views/modal/setup.wordCheck.html:22
 msgid "Please check the 20th word of your recovery seed."
-msgstr ""
+msgstr "Пожалуйста, проверьте 20-ое слово вашей фразы восстановления."
 
 #: views/modal/setup.wordCheck.html:23
 msgid "Please check the 21st word of your recovery seed."
-msgstr ""
+msgstr "Пожалуйста, проверьте 21-ое слово вашей фразы восстановления."
 
 #: views/modal/setup.wordCheck.html:24
 msgid "Please check the 22nd word of your recovery seed."
-msgstr ""
+msgstr "Пожалуйста, проверьте 22-ое слово вашей фразы восстановления."
 
 #: views/modal/setup.wordCheck.html:25
 msgid "Please check the 23rd word of your recovery seed."
-msgstr ""
+msgstr "Пожалуйста, проверьте 23-ое слово вашей фразы восстановления."
 
 #: views/modal/setup.wordCheck.html:26
 msgid "Please check the 24th word of your recovery seed."
-msgstr ""
+msgstr "Пожалуйста, проверьте 24-ое слово вашей фразы восстановления."
 
 #: views/modal/setup.wordCheck.html:4
 msgid "Please check the 2nd word of your recovery seed."
-msgstr ""
+msgstr "Пожалуйста, проверьте 2-ое слово вашей фразы восстановления."
 
 #: views/modal/setup.wordCheck.html:5
 msgid "Please check the 3rd word of your recovery seed."
-msgstr ""
+msgstr "Пожалуйста, проверьте 3-тье слово вашей фразы восстановления."
 
 #: views/modal/setup.wordCheck.html:6
 msgid "Please check the 4th word of your recovery seed."
-msgstr ""
+msgstr "Пожалуйста, проверьте 4-ое слово вашей фразы восстановления."
 
 #: views/modal/setup.wordCheck.html:7
 msgid "Please check the 5th word of your recovery seed."
-msgstr ""
+msgstr "Пожалуйста, проверьте 5-ое слово вашей фразы восстановления."
 
 #: views/modal/setup.wordCheck.html:8
 msgid "Please check the 6th word of your recovery seed."
-msgstr ""
+msgstr "Пожалуйста, проверьте 6-ое слово вашей фразы восстановления."
 
 #: views/modal/setup.wordCheck.html:9
 msgid "Please check the 7th word of your recovery seed."
-msgstr ""
+msgstr "Пожалуйста, проверьте 7-ое слово вашей фразы восстановления."
 
 #: views/modal/setup.wordCheck.html:10
 msgid "Please check the 8th word of your recovery seed."
-msgstr ""
+msgstr "Пожалуйста, проверьте 8-ое слово вашей фразы восстановления."
 
 #: views/modal/setup.wordCheck.html:11
 msgid "Please check the 9th word of your recovery seed."
-msgstr ""
+msgstr "Пожалуйста, проверьте 9-ое слово вашей фразы восстановления."
 
 #: views/modal/button.html:13 views/modal/button.html:138
 #: views/modal/button.html:96
