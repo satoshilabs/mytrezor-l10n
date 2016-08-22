@@ -2,17 +2,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2016-08-18 16:03+0000\n"
+"PO-Revision-Date: 2016-08-22 21:34+0200\n"
 "Last-Translator: Boris Komarov <bkomarov85@gmail.com>\n"
-"Language-Team: Russian "
-"<https://hosted.weblate.org/projects/satoshilabs/mytrezor/ru/>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/satoshilabs/"
+"mytrezor/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
-"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 2.8-dev\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Poedit 1.8.7.1\n"
 
 #. The whole text: Connection to the server has been lost*, but don't worry, your bitcoins are safe.* Please try to reload this page or choose another server in application settings.
 #: views/alertbars/offline.html:8
@@ -240,11 +240,11 @@ msgstr "Просмотр"
 #: views/device/load.html:65 views/device/recovery.html:157
 #: views/import.html:55 views/modal/csv.html:44 views/modal/disconnect.html:14
 #: views/modal/disconnect.passphrase_disable.html:14
-#: views/modal/disconnect.passphrase_enable.html:14
-#: views/modal/dropbox.html:55 views/modal/firmware.html:107
-#: views/modal/firmware.html:135 views/modal/firmware.html:164
-#: views/modal/firmware.html:211 views/modal/firmware.html:292
-#: views/modal/firmware.html:313 views/modal/qr.html:17 views/settings.html:44
+#: views/modal/disconnect.passphrase_enable.html:14 views/modal/dropbox.html:55
+#: views/modal/firmware.html:107 views/modal/firmware.html:135
+#: views/modal/firmware.html:164 views/modal/firmware.html:211
+#: views/modal/firmware.html:292 views/modal/firmware.html:313
+#: views/modal/qr.html:17 views/settings.html:44
 msgid "Cancel"
 msgstr "Отмена"
 
@@ -685,8 +685,7 @@ msgid "For more information, visit the user manual."
 msgstr "За большей информацией, обратитесь к руководству пользователя."
 
 #. Button in remember/forget dialog
-#: views/modal/forget.disconnected.html:16
-#: views/modal/forget.requested.html:15
+#: views/modal/forget.disconnected.html:16 views/modal/forget.requested.html:15
 msgctxt "forget-button"
 msgid "Forget"
 msgstr "Забыть"
@@ -772,8 +771,9 @@ msgstr "Домашний экран был успешно изменен."
 msgctxt "transaction-time"
 msgid "hour"
 msgid_plural "hours"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "час"
+msgstr[1] "часа"
+msgstr[2] "часов"
 
 #: views/modal/firmware.html:330
 msgid "If asked, please confirm the update on your device."
@@ -784,39 +784,51 @@ msgstr ""
 msgid ""
 "If the address matches your TREZOR display, you can be sure it is genuine."
 msgstr ""
+"Если адрес совпадает с тем, что на TREZOR - вы можете быть уверены в его "
+"подлинности."
 
 #: views/install/udev.html:46
 msgid "If you already have the package installed, just reconnect your TREZOR."
-msgstr ""
+msgstr "Если пакет у вас уже установлен - только переподключите ваш TREZOR."
 
 #: views/device/load.html:10
 msgid ""
 "If you are a common user and want to setup or recover your TREZOR device, "
 "please continue to TREZOR Setup."
 msgstr ""
+"Если вы обычный пользователь и хотите настроить или восстановить ваш TREZOR "
+"- пожалуйста, продолжайте установку TREZOR."
 
 #: views/install/udev.html:53
 msgid ""
 "If you can't or don't want to install the package, you can set the correct "
 "permissions yourself"
 msgstr ""
+"Если вы не можете или не хотите устанавливать пакет, то вы можете установить "
+"нужные права доступа самостоятельно"
 
 #: views/modal/forget.disconnected.html:8
 msgid ""
 "If you choose to remember the device, we will not ask you this question next "
 "time you disconnect the device."
 msgstr ""
+"Если вы выбираете запомнить устройство - мы не будем об этом спрашивать вас "
+"снова, когда вы отсоедините устройство."
 
 #. Whole text: If you disable the passphrase encryption, your current funds will not appear. You will have to enable the passphrase encryption again to see your current wallet.
 #: views/device/advanced.html:76
 msgid ""
 "If you disable the passphrase encryption, your current funds will not appear."
 msgstr ""
+"Если вы отключите парольную фразу шифрования, то ваши текущие средства вы не "
+"увидите."
 
 #. Part of a long text about Dropbox and labeling
 #: views/modal/dropbox.html:14
 msgid "If you don't have a Dropbox account yet, create one before you log in."
 msgstr ""
+"Если у вас нет аккаунта Dropbox - пожалуйста, создайте его перед "
+"подключением Dropbox."
 
 #: views/modal/button.html:89
 msgid "If you forget your passphrase, you will lose your coins."
@@ -827,24 +839,32 @@ msgid ""
 "If you forget your passphrase, your wallet is lost for good. There is no way "
 "to recover your funds."
 msgstr ""
+"Если вы забудете парольную фразу - ваши средства потеряются навсегда. Нет "
+"способа восстановить их."
 
 #: views/device/homescreen.html:74
 msgid ""
 "If you want to make a homescreen picture from a photo or a logo, use our "
 "homescreen editor."
 msgstr ""
+"Если вы хотите сделать картинку заставки из фото или лого - используйте наш "
+"редактор заставок."
 
 #: views/modal/firmware.html:180 views/modal/firmware.html:227
 msgid ""
 "If your TREZOR is already initialized, always have your Recovery seed with "
 "you before updating the firmware!"
 msgstr ""
+"Если ваш TREZOR уже настроен - убедитесь, что вы имеете фразу восстановления "
+"перед обновлением прошивки!"
 
 #: views/device/homescreen.html:72
 msgid ""
 "Image must be 128 px wide and 64 px high, and using only black and white "
 "(not grayscale)."
 msgstr ""
+"Картинка должна быть 128 пикселей в ширину и 64 пикселя в высоту, и быть "
+"чёрно-белой без градаций серого."
 
 #: views/modal/csv.html:46
 msgid "Import"
@@ -864,11 +884,13 @@ msgid ""
 "In very rare cases, a firmware update might result in the need to recover "
 "the wallet from Recovery seed."
 msgstr ""
+"Очень в редких случаях - обновление прошивки может вызвать необходимость "
+"восстановления кошелька по фразе восстановления."
 
 #. Preceding is a non-ascii character in quotes.
 #: views/account/sign/index.html:192 views/account/sign/index.html:59
 msgid "in your message is not an ASCII character."
-msgstr ""
+msgstr "ваше сообщение содержит не ASCII символ."
 
 #. Inputs of a transaction
 #: views/account/send/txPrepared.html:26
@@ -887,12 +909,12 @@ msgstr "Установить расширение TREZOR для Chrome"
 #: views/device/index.basic.html:19
 msgctxt "basic-label"
 msgid "Label"
-msgstr ""
+msgstr "Метка"
 
 #. Part of a long text about Dropbox and labeling
 #: views/modal/dropbox.html:33
 msgid "label addresses"
-msgstr ""
+msgstr "адреса метками"
 
 #: views/account/receive/address.html:145
 msgid "Label this address"
@@ -1024,6 +1046,7 @@ msgid "minute"
 msgid_plural "minutes"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
 
 #: views/account/receive/index.html:75
 msgid "More please"
@@ -1704,7 +1727,7 @@ msgstr "Показать детали транзакции"
 
 #: views/device/index.basic.html:155
 msgid "Show XPUBs"
-msgstr ""
+msgstr "Показать XPUB ключи"
 
 #. This is on a button in the sign/verify form.
 #: views/account/sign/index.html:117
@@ -1716,7 +1739,7 @@ msgstr ""
 #: views/account/nav.html:30
 msgctxt "header"
 msgid "Sign &amp; Verify"
-msgstr ""
+msgstr "Подпись &amp; Проверка"
 
 #. This is a header in the sign window
 #: views/account/sign/index.html:15
@@ -1762,7 +1785,7 @@ msgstr ""
 #: views/debug.html:91
 msgctxt "flash"
 msgid "Success"
-msgstr ""
+msgstr "Успех"
 
 #: views/top.nav.html:12
 msgid "Support"
