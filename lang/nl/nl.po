@@ -4,8 +4,8 @@ msgstr ""
 "POT-Creation-Date: \n"
 "PO-Revision-Date: 2016-08-17 06:56+0000\n"
 "Last-Translator: Eric Krediet <E.Krediet@ziggo.nl>\n"
-"Language-Team: Dutch "
-"<https://hosted.weblate.org/projects/satoshilabs/mytrezor/nl/>\n"
+"Language-Team: Dutch <https://hosted.weblate.org/projects/satoshilabs/"
+"mytrezor/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -234,14 +234,19 @@ msgctxt "button"
 msgid "Browse"
 msgstr "Bladeren"
 
+#. This is displayed on Android.
+#: views/install/mobile.android.html:8
+msgid "But, don't worry! You can still use TREZOR on your Android!"
+msgstr ""
+
 #: views/device/load.html:65 views/device/recovery.html:157
 #: views/import.html:55 views/modal/csv.html:44 views/modal/disconnect.html:14
 #: views/modal/disconnect.passphrase_disable.html:14
-#: views/modal/disconnect.passphrase_enable.html:14 views/modal/dropbox.html:55
-#: views/modal/firmware.html:107 views/modal/firmware.html:135
-#: views/modal/firmware.html:164 views/modal/firmware.html:211
-#: views/modal/firmware.html:292 views/modal/firmware.html:313
-#: views/modal/qr.html:17 views/settings.html:44
+#: views/modal/disconnect.passphrase_enable.html:14
+#: views/modal/dropbox.html:55 views/modal/firmware.html:107
+#: views/modal/firmware.html:135 views/modal/firmware.html:164
+#: views/modal/firmware.html:211 views/modal/firmware.html:292
+#: views/modal/firmware.html:313 views/modal/qr.html:17 views/settings.html:44
 msgid "Cancel"
 msgstr "Annuleren"
 
@@ -524,6 +529,11 @@ msgstr "Niet vergeten"
 msgid "Download"
 msgstr "Downloaden"
 
+#. This is displayed on Android.
+#: views/install/mobile.android.html:10
+msgid "Download TREZOR Manager App on Google Play."
+msgstr ""
+
 #: views/modal/firmware.html:321
 msgid "Downloading firmware..."
 msgstr "Firmware downloaden..."
@@ -683,7 +693,8 @@ msgid "For more information, visit the user manual."
 msgstr "Kijk voor meer informatie in de gebruikershandleiding."
 
 #. Button in remember/forget dialog
-#: views/modal/forget.disconnected.html:16 views/modal/forget.requested.html:15
+#: views/modal/forget.disconnected.html:16
+#: views/modal/forget.requested.html:15
 msgctxt "forget-button"
 msgid "Forget"
 msgstr "Vergeet"
@@ -863,8 +874,8 @@ msgid ""
 "Image must be 128 px wide and 64 px high, and using only black and white "
 "(not grayscale)."
 msgstr ""
-"Afbeelding moet 128 px breed en 64 px hoog zijn en gebruik alleen zwart/wit ("
-"geen grijswaarden)."
+"Afbeelding moet 128 px breed en 64 px hoog zijn en gebruik alleen zwart/wit "
+"(geen grijswaarden)."
 
 #: views/modal/csv.html:46
 msgid "Import"
@@ -1170,8 +1181,8 @@ msgstr "Let op. De plaatsen van de cijfers op het apparaat zijn gewijzigd!"
 msgid ""
 "Now plug your device in with <strong>both device buttons pressed</strong>."
 msgstr ""
-"Sluit nu uw apparaat aan terwijl u <strong>beide knoppen tegelijk "
-"indrukt</strong>."
+"Sluit nu uw apparaat aan terwijl u <strong>beide knoppen tegelijk indrukt</"
+"strong>."
 
 #. This is a short label in the device recovery page
 #: views/device/recovery.html:97
@@ -2021,10 +2032,10 @@ msgstr "Ongebruikt adres"
 #: views/install/bridge.force.html:10
 msgid ""
 "Update contains bug-fixes for all platforms and performance improvements for "
-"Linux users."
+"Windows users."
 msgstr ""
 "Update bevat bug-fixes voor alle platformen en prestatieverbeteringen voor "
-"Linux-gebruikers."
+"Windows-gebruikers."
 
 #: views/modal/firmware.html:368
 msgid "Update failed"
@@ -2040,16 +2051,16 @@ msgid "Upgrade"
 msgstr "Upgrade"
 
 #. Upgrade refers to bridge upgrade
-#: views/alertbars/bridge.html:5
-msgctxt "bridge-update"
-msgid "Upgrade for the newest features and bug fixes."
-msgstr "Upgrade voor de nieuwe functies en bugfixes."
-
-#. Upgrade refers to bridge upgrade
 #: views/alertbars/firmware.html:6
 msgctxt "firmware-update"
 msgid "Upgrade for the newest features and bug fixes."
 msgstr "Upgrade voor nieuwe functies en bugfixes."
+
+#. Upgrade refers to bridge upgrade
+#: views/alertbars/bridge.html:5
+msgctxt "bridge-update"
+msgid "Upgrade for the newest features and bug fixes."
+msgstr "Upgrade voor de nieuwe functies en bugfixes."
 
 #. This is a small label in the Homescreen tab
 #: views/device/homescreen.html:9
@@ -2146,6 +2157,11 @@ msgstr "Waarschuwing!"
 msgctxt "send-done"
 msgid "was successfully sent."
 msgstr "is verzonden."
+
+#. This is displayed on Android.
+#: views/install/mobile.android.html:5
+msgid "We are sorry, myTREZOR is not supported on Android devices."
+msgstr ""
 
 #: views/install/mobile.html:4
 msgid ""
@@ -2254,6 +2270,11 @@ msgstr ""
 msgid "Yes, update"
 msgstr "Ja, update"
 
+#. This is displayed on Android.
+#: views/install/mobile.android.html:19
+msgid "You can also download and install a stand-alone APK."
+msgstr ""
+
 #. Blockchain.info link follows
 #: views/debug.html:23
 msgid "You can try to resend this transaction using"
@@ -2337,3 +2358,10 @@ msgstr "Uw TREZOR is niet in firmware-update modus."
 #: views/modal/disconnect.wipe.html:7 views/modal/forget.wipe.html:7
 msgid "Your TREZOR was successfully wiped."
 msgstr "Uw TREZOR is leeggemaakt; alle data is verwijderd."
+
+#~ msgid ""
+#~ "Update contains bug-fixes for all platforms and performance improvements "
+#~ "for Linux users."
+#~ msgstr ""
+#~ "Update bevat bug-fixes voor alle platformen en prestatieverbeteringen "
+#~ "voor Linux-gebruikers."

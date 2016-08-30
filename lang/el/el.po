@@ -4,8 +4,8 @@ msgstr ""
 "POT-Creation-Date: \n"
 "PO-Revision-Date: 2016-08-29 07:23+0000\n"
 "Last-Translator: Petros Anagnostou <anagnostoupeter@yahoo.gr>\n"
-"Language-Team: Greek "
-"<https://hosted.weblate.org/projects/satoshilabs/mytrezor/el/>\n"
+"Language-Team: Greek <https://hosted.weblate.org/projects/satoshilabs/"
+"mytrezor/el/>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -236,14 +236,19 @@ msgctxt "button"
 msgid "Browse"
 msgstr "Περιήγηση"
 
+#. This is displayed on Android.
+#: views/install/mobile.android.html:8
+msgid "But, don't worry! You can still use TREZOR on your Android!"
+msgstr ""
+
 #: views/device/load.html:65 views/device/recovery.html:157
 #: views/import.html:55 views/modal/csv.html:44 views/modal/disconnect.html:14
 #: views/modal/disconnect.passphrase_disable.html:14
-#: views/modal/disconnect.passphrase_enable.html:14 views/modal/dropbox.html:55
-#: views/modal/firmware.html:107 views/modal/firmware.html:135
-#: views/modal/firmware.html:164 views/modal/firmware.html:211
-#: views/modal/firmware.html:292 views/modal/firmware.html:313
-#: views/modal/qr.html:17 views/settings.html:44
+#: views/modal/disconnect.passphrase_enable.html:14
+#: views/modal/dropbox.html:55 views/modal/firmware.html:107
+#: views/modal/firmware.html:135 views/modal/firmware.html:164
+#: views/modal/firmware.html:211 views/modal/firmware.html:292
+#: views/modal/firmware.html:313 views/modal/qr.html:17 views/settings.html:44
 msgid "Cancel"
 msgstr "Ακύρωση"
 
@@ -527,6 +532,11 @@ msgstr "Μην ξεχάσετε"
 msgid "Download"
 msgstr "Λήψη"
 
+#. This is displayed on Android.
+#: views/install/mobile.android.html:10
+msgid "Download TREZOR Manager App on Google Play."
+msgstr ""
+
 #: views/modal/firmware.html:321
 msgid "Downloading firmware..."
 msgstr "Λήψη υλικολογισμικού..."
@@ -686,7 +696,8 @@ msgid "For more information, visit the user manual."
 msgstr "Για περισσότερες πληροφορίες, επισκεφθείτε το εγχειρίδιο."
 
 #. Button in remember/forget dialog
-#: views/modal/forget.disconnected.html:16 views/modal/forget.requested.html:15
+#: views/modal/forget.disconnected.html:16
+#: views/modal/forget.requested.html:15
 msgctxt "forget-button"
 msgid "Forget"
 msgstr "Ξεχάστε"
@@ -2033,10 +2044,10 @@ msgstr "Αχρησιμοποίητη διεύθυνση"
 #: views/install/bridge.force.html:10
 msgid ""
 "Update contains bug-fixes for all platforms and performance improvements for "
-"Linux users."
+"Windows users."
 msgstr ""
 "Η ενημερωμένη έκδοση περιέχει διορθώσεις σφαλμάτων για όλες τις πλατφόρμες "
-"και βελτιώσεις επιδόσεων για τους χρήστες του Linux."
+"και βελτιώσεις επιδόσεων για τους χρήστες του Windows."
 
 #: views/modal/firmware.html:368
 msgid "Update failed"
@@ -2052,14 +2063,14 @@ msgid "Upgrade"
 msgstr "Αναβάθμιση"
 
 #. Upgrade refers to bridge upgrade
-#: views/alertbars/bridge.html:5
-msgctxt "bridge-update"
+#: views/alertbars/firmware.html:6
+msgctxt "firmware-update"
 msgid "Upgrade for the newest features and bug fixes."
 msgstr "Αναβαθμίστε για τα νεότερα χαρακτηριστικά και διορθώσεις σφαλμάτων."
 
 #. Upgrade refers to bridge upgrade
-#: views/alertbars/firmware.html:6
-msgctxt "firmware-update"
+#: views/alertbars/bridge.html:5
+msgctxt "bridge-update"
 msgid "Upgrade for the newest features and bug fixes."
 msgstr "Αναβαθμίστε για τα νεότερα χαρακτηριστικά και διορθώσεις σφαλμάτων."
 
@@ -2158,6 +2169,11 @@ msgstr "ΠΡΟΣΟΧΗ!"
 msgctxt "send-done"
 msgid "was successfully sent."
 msgstr "στάλθηκε επιτυχώς."
+
+#. This is displayed on Android.
+#: views/install/mobile.android.html:5
+msgid "We are sorry, myTREZOR is not supported on Android devices."
+msgstr ""
 
 #: views/install/mobile.html:4
 msgid ""
@@ -2266,6 +2282,11 @@ msgstr ""
 msgid "Yes, update"
 msgstr "Ναι, ενημερώστε"
 
+#. This is displayed on Android.
+#: views/install/mobile.android.html:19
+msgid "You can also download and install a stand-alone APK."
+msgstr ""
+
 #. Blockchain.info link follows
 #: views/debug.html:23
 msgid "You can try to resend this transaction using"
@@ -2352,3 +2373,10 @@ msgstr "Το TREZOR σας δεν είναι στη λειτουργία ενη�
 #: views/modal/disconnect.wipe.html:7 views/modal/forget.wipe.html:7
 msgid "Your TREZOR was successfully wiped."
 msgstr "Το TREZOR σας έγινε wiped με επιτυχία."
+
+#~ msgid ""
+#~ "Update contains bug-fixes for all platforms and performance improvements "
+#~ "for Linux users."
+#~ msgstr ""
+#~ "Η ενημερωμένη έκδοση περιέχει διορθώσεις σφαλμάτων για όλες τις "
+#~ "πλατφόρμες και βελτιώσεις επιδόσεων για τους χρήστες του Linux."

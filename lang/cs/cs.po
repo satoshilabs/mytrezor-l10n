@@ -4,8 +4,8 @@ msgstr ""
 "POT-Creation-Date: \n"
 "PO-Revision-Date: 2016-08-05 12:03+0000\n"
 "Last-Translator: Samuel Seidel <samuel.seidel@centrum.cz>\n"
-"Language-Team: Czech "
-"<https://hosted.weblate.org/projects/satoshilabs/mytrezor/cs/>\n"
+"Language-Team: Czech <https://hosted.weblate.org/projects/satoshilabs/"
+"mytrezor/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -233,6 +233,11 @@ msgstr "Režim aktualizace"
 msgctxt "button"
 msgid "Browse"
 msgstr "Procházet"
+
+#. This is displayed on Android.
+#: views/install/mobile.android.html:8
+msgid "But, don't worry! You can still use TREZOR on your Android!"
+msgstr ""
 
 #: views/device/load.html:65 views/device/recovery.html:157
 #: views/import.html:55 views/modal/csv.html:44 views/modal/disconnect.html:14
@@ -523,6 +528,11 @@ msgstr "Nezapomenout"
 #: views/install/main.html:57 views/install/udev.html:21
 msgid "Download"
 msgstr "Ke stažení"
+
+#. This is displayed on Android.
+#: views/install/mobile.android.html:10
+msgid "Download TREZOR Manager App on Google Play."
+msgstr ""
 
 #: views/modal/firmware.html:321
 msgid "Downloading firmware..."
@@ -1410,8 +1420,8 @@ msgid ""
 "Please reconnect it <strong>while pressing both buttons simultaneously.</"
 "strong>"
 msgstr ""
-"Připojte ho prosím znovu <strong>s oběma tlačítky stisknutými "
-"současně.</strong>"
+"Připojte ho prosím znovu <strong>s oběma tlačítky stisknutými současně.</"
+"strong>"
 
 #: views/device/index.setup.html:4
 msgid ""
@@ -2016,10 +2026,10 @@ msgstr "Nepoužitá adresa"
 #: views/install/bridge.force.html:10
 msgid ""
 "Update contains bug-fixes for all platforms and performance improvements for "
-"Linux users."
+"Windows users."
 msgstr ""
 "Aktualizace obsahuje opravy chyb pro všechny platformy a zlepšení výkonu pro "
-"uživatele Linuxu."
+"uživatele Windows."
 
 #: views/modal/firmware.html:368
 msgid "Update failed"
@@ -2035,14 +2045,14 @@ msgid "Upgrade"
 msgstr "Aktualizace"
 
 #. Upgrade refers to bridge upgrade
-#: views/alertbars/bridge.html:5
-msgctxt "bridge-update"
+#: views/alertbars/firmware.html:6
+msgctxt "firmware-update"
 msgid "Upgrade for the newest features and bug fixes."
 msgstr "Aktualizujte pro získání nejnovějších funkcí a bezpečnostních záplat."
 
 #. Upgrade refers to bridge upgrade
-#: views/alertbars/firmware.html:6
-msgctxt "firmware-update"
+#: views/alertbars/bridge.html:5
+msgctxt "bridge-update"
 msgid "Upgrade for the newest features and bug fixes."
 msgstr "Aktualizujte pro získání nejnovějších funkcí a bezpečnostních záplat."
 
@@ -2142,6 +2152,11 @@ msgctxt "send-done"
 msgid "was successfully sent."
 msgstr "byla úspěšně odeslána."
 
+#. This is displayed on Android.
+#: views/install/mobile.android.html:5
+msgid "We are sorry, myTREZOR is not supported on Android devices."
+msgstr ""
+
 #: views/install/mobile.html:4
 msgid ""
 "We are sorry, myTREZOR is not yet supported on phones and tablets. Please "
@@ -2188,7 +2203,8 @@ msgstr "Co je TREZOR?"
 msgid ""
 "When you give them to a third party, you allow it to see your whole "
 "transaction history."
-msgstr "Předáním třetí straně jí umožníte vidět celou Vaši transakční historii."
+msgstr ""
+"Předáním třetí straně jí umožníte vidět celou Vaši transakční historii."
 
 #. This is a short label in the device Advanced page
 #: views/device/advanced.html:171
@@ -2245,6 +2261,11 @@ msgstr ""
 #: views/modal/firmware.html:200 views/modal/firmware.html:281
 msgid "Yes, update"
 msgstr "Ano, aktualizovat"
+
+#. This is displayed on Android.
+#: views/install/mobile.android.html:19
+msgid "You can also download and install a stand-alone APK."
+msgstr ""
 
 #. Blockchain.info link follows
 #: views/debug.html:23
@@ -2327,6 +2348,13 @@ msgstr "Váš TREZOR není v režimu aktualizace firmwaru."
 #: views/modal/disconnect.wipe.html:7 views/modal/forget.wipe.html:7
 msgid "Your TREZOR was successfully wiped."
 msgstr "Váš TREZOR byl úspěšně vymazán."
+
+#~ msgid ""
+#~ "Update contains bug-fixes for all platforms and performance improvements "
+#~ "for Linux users."
+#~ msgstr ""
+#~ "Aktualizace obsahuje opravy chyb pro všechny platformy a zlepšení výkonu "
+#~ "pro uživatele Linuxu."
 
 #~ msgid "- add your comments to transactions"
 #~ msgstr "- přidat komentář k transakcím"

@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: \n"
 "PO-Revision-Date: 2016-06-26 16:32+0000\n"
 "Last-Translator: Takao Asayama <takaoasayama@gmail.com>\n"
-"Language-Team: Japanese "
-"<https://hosted.weblate.org/projects/satoshilabs/mytrezor/ja/>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/satoshilabs/"
+"mytrezor/ja/>\n"
 "Language: ja\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -17,7 +17,6 @@ msgid ", but don't worry, your bitcoins are safe."
 msgstr "しかし安心してください、あなたのビットコインは安全です。"
 
 #: views/nav.html:117
-#, fuzzy
 msgid "(automatically in"
 msgstr ""
 
@@ -54,7 +53,8 @@ msgstr "24単語"
 #. Part of a long text about Dropbox and labeling
 #: views/modal/dropbox.html:42
 msgid "3. Enjoy ultimate TREZOR security and privacy."
-msgstr "3. 究極のTREZORによるセキュリティ、プライバシー保護機能をお楽しみください。"
+msgstr ""
+"3. 究極のTREZORによるセキュリティ、プライバシー保護機能をお楽しみください。"
 
 #. Used as a default account name. The accounts are named *Account* #1, *Account* #2 etc.
 #: views/otherStrings.html:20
@@ -142,9 +142,10 @@ msgid ""
 "Dropbox folder ensuring a 100% secure and always available service. Even if "
 "your Dropbox account gets compromised, your private data stay safe."
 msgstr ""
-"すべてのTREZOR.comに追加したラベルとコメントは、TREZOR端末から提供されたキーによって自動的に暗号化され、Dropboxのフォルダーに100"
-"%安全かつ、サービス利用可能な状態で同期されます。Dropboxのアカウントが危険にさらされた場合でも、あなたのプライベートデータは安全な状態で管理されま"
-"す。"
+"すべてのTREZOR.comに追加したラベルとコメントは、TREZOR端末から提供されたキー"
+"によって自動的に暗号化され、Dropboxのフォルダーに100%安全かつ、サービス利用可"
+"能な状態で同期されます。Dropboxのアカウントが危険にさらされた場合でも、あなた"
+"のプライベートデータは安全な状態で管理されます。"
 
 #: views/modal/button.html:103 views/modal/button.html:108
 #: views/modal/button.html:120 views/modal/button.html:126
@@ -230,6 +231,11 @@ msgstr "ブートローダーモード"
 msgctxt "button"
 msgid "Browse"
 msgstr "閲覧"
+
+#. This is displayed on Android.
+#: views/install/mobile.android.html:8
+msgid "But, don't worry! You can still use TREZOR on your Android!"
+msgstr ""
 
 #: views/device/load.html:65 views/device/recovery.html:157
 #: views/import.html:55 views/modal/csv.html:44 views/modal/disconnect.html:14
@@ -369,7 +375,8 @@ msgid ""
 "Connect to Dropbox to enable:<br>- renaming accounts<br>- commenting "
 "transactions<br>- labeling addresses and more..."
 msgstr ""
-"Dropboxに接続して有効化:<br>- アカウントのリネーム<br>- トランザクションへのコメント<br>- アドレスのラベリングなど..."
+"Dropboxに接続して有効化:<br>- アカウントのリネーム<br>- トランザクションへの"
+"コメント<br>- アドレスのラベリングなど..."
 
 #: views/install/udev.html:40
 msgid "Connect your TREZOR"
@@ -477,11 +484,13 @@ msgstr "TREZORを取り外してください"
 
 #: views/modal/disconnect.passphrase_disable.html:9
 msgid "Disconnect your TREZOR to disable passphrase."
-msgstr "パスフレーズを無効にするために、お使いのTREZORの接続を解除してください。"
+msgstr ""
+"パスフレーズを無効にするために、お使いのTREZORの接続を解除してください。"
 
 #: views/modal/disconnect.passphrase_enable.html:9
 msgid "Disconnect your TREZOR to enable passphrase."
-msgstr "パスフレーズを有効にするために、お手持ちのTREZORの接続を解除してください。"
+msgstr ""
+"パスフレーズを有効にするために、お手持ちのTREZORの接続を解除してください。"
 
 #: views/nav.html:81
 msgid "Disconnected"
@@ -497,8 +506,9 @@ msgid ""
 "standalone application that works the same way &mdash; but with every "
 "browser."
 msgstr ""
-"このコンピューター上で他のブラウザをご利用になりますか? TREZOR "
-"Bridgeをインストールすれば、どのブラウザでもスタンドアロンなアプリケーション一つで同じようにお使いいただけます。"
+"このコンピューター上で他のブラウザをご利用になりますか? TREZOR Bridgeをインス"
+"トールすれば、どのブラウザでもスタンドアロンなアプリケーション一つで同じよう"
+"にお使いいただけます。"
 
 #: views/modal/forget.requested.html:7
 msgid "Do you want to forget your device?"
@@ -518,6 +528,11 @@ msgstr "忘れない"
 #: views/install/main.html:57 views/install/udev.html:21
 msgid "Download"
 msgstr "ダウンロード"
+
+#. This is displayed on Android.
+#: views/install/mobile.android.html:10
+msgid "Download TREZOR Manager App on Google Play."
+msgstr ""
 
 #: views/modal/firmware.html:321
 msgid "Downloading firmware..."
@@ -665,7 +680,9 @@ msgstr "最初の行はヘッダーです"
 #. Attribution of picture, in the footer of Homepage. Don't translate the name of the picture or the author.
 #: views/device/homescreen.html:134
 msgid "Flower Close Up In Darkness by A Guy is licenced under CC BY 2.0"
-msgstr "Flower Close Up In Darkness by A Guy は、CC BY 2.0によってライセンスされています"
+msgstr ""
+"Flower Close Up In Darkness by A Guy は、CC BY 2.0によってライセンスされてい"
+"ます"
 
 #: views/device/recovery.html:30
 msgid "follow the instructions on your device."
@@ -703,7 +720,8 @@ msgid ""
 "Forgetting only removes the device from the list on the left, your bitcoins "
 "are still safe and you can access them by reconnecting your TREZOR again."
 msgstr ""
-"端末を忘れても左のリストから削除されるだけであなたのビットコインは安全に管理されています。TREZORを接続し直すことでまたデータにアクセス出来ます。"
+"端末を忘れても左のリストから削除されるだけであなたのビットコインは安全に管理"
+"されています。TREZORを接続し直すことでまたデータにアクセス出来ます。"
 
 #: views/account/receive/index.html:49
 msgid "Fresh address"
@@ -779,64 +797,82 @@ msgstr "表示されたアドレスがTREZORの画面のものと一致すれば
 
 #: views/install/udev.html:46
 msgid "If you already have the package installed, just reconnect your TREZOR."
-msgstr "既にパッケージをインストールしている場合は、TREZORを再接続してください。"
+msgstr ""
+"既にパッケージをインストールしている場合は、TREZORを再接続してください。"
 
 #: views/device/load.html:10
 msgid ""
 "If you are a common user and want to setup or recover your TREZOR device, "
 "please continue to TREZOR Setup."
-msgstr "初めてTREZOR端末を利用してセットアップやリカバリを行う場合は、TREZOR Setupに進んでください。"
+msgstr ""
+"初めてTREZOR端末を利用してセットアップやリカバリを行う場合は、TREZOR Setupに"
+"進んでください。"
 
 #: views/install/udev.html:53
 msgid ""
 "If you can't or don't want to install the package, you can set the correct "
 "permissions yourself"
-msgstr "パッケージをインストールしない場合や、インストールできない場合は、ご自分で正しい権限を設定することが可能です"
+msgstr ""
+"パッケージをインストールしない場合や、インストールできない場合は、ご自分で正"
+"しい権限を設定することが可能です"
 
 #: views/modal/forget.disconnected.html:8
 msgid ""
 "If you choose to remember the device, we will not ask you this question next "
 "time you disconnect the device."
-msgstr "端末の記憶を選ぶと、次回以降端末を切断する際にこの質問は表示されません。"
+msgstr ""
+"端末の記憶を選ぶと、次回以降端末を切断する際にこの質問は表示されません。"
 
 #. Whole text: If you disable the passphrase encryption, your current funds will not appear. You will have to enable the passphrase encryption again to see your current wallet.
 #: views/device/advanced.html:76
 msgid ""
 "If you disable the passphrase encryption, your current funds will not appear."
-msgstr "パスフレーズによる暗号化を無効にする場合は、現在の資金は表示されません。"
+msgstr ""
+"パスフレーズによる暗号化を無効にする場合は、現在の資金は表示されません。"
 
 #. Part of a long text about Dropbox and labeling
 #: views/modal/dropbox.html:14
 msgid "If you don't have a Dropbox account yet, create one before you log in."
-msgstr "まだDropboxのアカウントをお持ちではない場合は、ログインする前に作成してください。"
+msgstr ""
+"まだDropboxのアカウントをお持ちではない場合は、ログインする前に作成してくださ"
+"い。"
 
 #: views/modal/button.html:89
 msgid "If you forget your passphrase, you will lose your coins."
-msgstr "パスフレーズを忘れてしまうと、お手持ちのビットコインはすべて失われます。"
+msgstr ""
+"パスフレーズを忘れてしまうと、お手持ちのビットコインはすべて失われます。"
 
 #: views/device/advanced.html:37
 msgid ""
 "If you forget your passphrase, your wallet is lost for good. There is no way "
 "to recover your funds."
-msgstr "パスフレーズを忘れてしまった場合、あなたのウォレットのデータは永遠に失われます。残高をリカバリする方法はありません。"
+msgstr ""
+"パスフレーズを忘れてしまった場合、あなたのウォレットのデータは永遠に失われま"
+"す。残高をリカバリする方法はありません。"
 
 #: views/device/homescreen.html:74
 msgid ""
 "If you want to make a homescreen picture from a photo or a logo, use our "
 "homescreen editor."
-msgstr "写真やロゴからホーム画面用のイメージを作成する場合は、ホーム画面エディターをお使いください。"
+msgstr ""
+"写真やロゴからホーム画面用のイメージを作成する場合は、ホーム画面エディターを"
+"お使いください。"
 
 #: views/modal/firmware.html:180 views/modal/firmware.html:227
 msgid ""
 "If your TREZOR is already initialized, always have your Recovery seed with "
 "you before updating the firmware!"
-msgstr "お使いのTREZORが既に初期化されている場合は、ファームウェアをアップデートする前に必ずリカバリシードをお手元にご用意ください!"
+msgstr ""
+"お使いのTREZORが既に初期化されている場合は、ファームウェアをアップデートする"
+"前に必ずリカバリシードをお手元にご用意ください!"
 
 #: views/device/homescreen.html:72
 msgid ""
 "Image must be 128 px wide and 64 px high, and using only black and white "
 "(not grayscale)."
-msgstr "画像は白黒 (グレイスケールではない) の横幅128ピクセル、縦64ピクセルの画像である必要があります。"
+msgstr ""
+"画像は白黒 (グレイスケールではない) の横幅128ピクセル、縦64ピクセルの画像であ"
+"る必要があります。"
 
 #: views/modal/csv.html:46
 msgid "Import"
@@ -855,7 +891,9 @@ msgstr "CSVファイルからインポート"
 msgid ""
 "In very rare cases, a firmware update might result in the need to recover "
 "the wallet from Recovery seed."
-msgstr "ごくまれに、ファームウェアのアップデートの際にリカバリシードからウォレットを復元する必要がある場合があります。"
+msgstr ""
+"ごくまれに、ファームウェアのアップデートの際にリカバリシードからウォレットを"
+"復元する必要がある場合があります。"
 
 #. Preceding is a non-ascii character in quotes.
 #: views/account/sign/index.html:192 views/account/sign/index.html:59
@@ -1050,7 +1088,8 @@ msgstr "myTREZOR 規約 &amp; 条件"
 msgid ""
 "myTREZOR Web Wallet is a free service provided exclusively to TREZOR "
 "hardware wallet owners."
-msgstr "myTREZOR Web Walletは、TREZORユーザー向けにデザインされた無料のサービスです。"
+msgstr ""
+"myTREZOR Web Walletは、TREZORユーザー向けにデザインされた無料のサービスです。"
 
 #: views/modal/disconnect.html:9
 msgid "myTREZOR will forget your TREZOR right after you disconnect it."
@@ -1060,15 +1099,20 @@ msgstr "接続を解除した後すぐに、myTREZORはお手持ちのTREZORを�
 msgid ""
 "Never do this action with TREZOR holding coins unless you have your recovery "
 "seed at hand."
-msgstr "リカバリシードを入手するまでは絶対にコインを保有しているTREZORでこの動作を行わないでください。"
+msgstr ""
+"リカバリシードを入手するまでは絶対にコインを保有しているTREZORでこの動作を行"
+"わないでください。"
 
 #: views/import.html:12
 msgid "Never use this process unless you really know what you are doing!"
-msgstr "ご自分が何をされているか理解されている場合のみこのプロセスを行ってください!"
+msgstr ""
+"ご自分が何をされているか理解されている場合のみこのプロセスを行ってください!"
 
 #: views/device/load.html:11
 msgid "Never use this process unless you REALLY know what you are doing!"
-msgstr "ご自分が何をされているか本当に理解されている場合のみこのプロセスを行ってください!"
+msgstr ""
+"ご自分が何をされているか本当に理解されている場合のみこのプロセスを行ってくだ"
+"さい!"
 
 #: views/modal/_header.html:5
 msgid "New device setup"
@@ -1096,8 +1140,9 @@ msgid ""
 "dice-throw sequence or a random sentence. Valid BIP32 XPRV keys are "
 "interpreted prior loading to the device."
 msgstr ""
-"バイナリ配列や、サイコロ配列、ランダム配列などになるように、生成されたシードに対するチェックは行われません。  有効なBIP32 "
-"XPRVキーが端末にロードされる前に解読されます。"
+"バイナリ配列や、サイコロ配列、ランダム配列などになるように、生成されたシード"
+"に対するチェックは行われません。  有効なBIP32 XPRVキーが端末にロードされる前"
+"に解読されます。"
 
 #: views/account/transactions/index.html:34
 msgid "No transactions to display"
@@ -1162,8 +1207,9 @@ msgid ""
 "particular passphrase. Your old accounts will be accessible behind an empty "
 "passphrase."
 msgstr ""
-"パスフレーズの保護機能によって、それぞれ特定のパスフレーズにより暗号化された新しいウォレットをお使いいただけます。古いアカウントは空のパスフレーズに暗号化"
-"された状態でお使いいただけます。"
+"パスフレーズの保護機能によって、それぞれ特定のパスフレーズにより暗号化された"
+"新しいウォレットをお使いいただけます。古いアカウントは空のパスフレーズに暗号"
+"化された状態でお使いいただけます。"
 
 #: views/modal/passphrase.html:53
 msgid "Passphrase is too long!"
@@ -1347,13 +1393,16 @@ msgstr "パスフレーズを入力してください"
 #: views/install/main.html:49
 msgid ""
 "Please install TREZOR Bridge to allow myTREZOR to talk with your device."
-msgstr "TREZOR BridgeをインストールしてmyTREZORの端末へのアクセスを許可してください。"
+msgstr ""
+"TREZOR BridgeをインストールしてmyTREZORの端末へのアクセスを許可してください。"
 
 #: views/install/main.html:10
 msgid ""
 "Please install TREZOR Chrome Extension to allow myTREZOR to talk with your "
 "device."
-msgstr "TREZORのChrome用拡張機能をインストールして、myTREZORの端末アクセスを許可してください。"
+msgstr ""
+"TREZORのChrome用拡張機能をインストールして、myTREZORの端末アクセスを許可して"
+"ください。"
 
 #: views/modal/pin.html:22
 msgid "Please re-enter new PIN:"
@@ -1371,13 +1420,16 @@ msgid ""
 "TREZOR will take only a few minutes. When you're done, you can start using "
 "your TREZOR."
 msgstr ""
-"しっかりとすべての手順に目を通してください。TREZORのセットアップには数分時間がかかります。すべての手順が完了したらTREZORをお使いいただけます。"
+"しっかりとすべての手順に目を通してください。TREZORのセットアップには数分時間"
+"がかかります。すべての手順が完了したらTREZORをお使いいただけます。"
 
 #: views/modal/firmware.html:149
 msgid ""
 "Please try again. You need to make sure<strong>both device buttons are "
 "pressed, as you plug in the device.</strong>"
-msgstr "もう一度試してください。 <strong>端末を接続する際には両方の端末のボタンを押下する必要があります。</strong>"
+msgstr ""
+"もう一度試してください。 <strong>端末を接続する際には両方の端末のボタンを押下"
+"する必要があります。</strong>"
 
 #. The whole text: Connection to the server has been lost, but don't worry, your bitcoins are safe. *Please try to* reload this page or choose another server in application settings.
 #: views/alertbars/offline.html:16
@@ -1616,7 +1668,9 @@ msgstr "アドレスをQRコードから読み取ってください"
 #: views/device/index.basic.html:186 views/device/index.basic.html:236
 msgctxt "xpub-text"
 msgid "Scan it into an application that supports XPUBs such as"
-msgstr "のようなXPUBファイルをサポートしたアプリケーションにスキャンしてデータを取り込んでください"
+msgstr ""
+"のようなXPUBファイルをサポートしたアプリケーションにスキャンしてデータを取り"
+"込んでください"
 
 #: views/account/send/txAddress.html:30
 msgid "Scan QR code"
@@ -1779,7 +1833,8 @@ msgstr "変更アドレス"
 msgid ""
 "The final size can differ a few bytes, since the transaction is created on "
 "TREZOR."
-msgstr "TREZOR上でトランザクションが作成されたため、最終的なサイズは多少異なります。"
+msgstr ""
+"TREZOR上でトランザクションが作成されたため、最終的なサイズは多少異なります。"
 
 #. Whole text: Scan it into an application that supports XPUBs such as Mycelium or Sentinel for Android. *Then, you can watch your transactions and receive payments everywhere without carrying your TREZOR.*
 #: views/device/index.basic.html:201 views/device/index.basic.html:251
@@ -1787,7 +1842,9 @@ msgctxt "xpub-text"
 msgid ""
 "Then, you can watch your transactions and receive payments everywhere "
 "without carrying your TREZOR."
-msgstr "そして、TREZORをお持ちいただくことで、どこでもあなたのトランザクション情報の閲覧と支払いの受付けができるようになります。"
+msgstr ""
+"そして、TREZORをお持ちいただくことで、どこでもあなたのトランザクション情報の"
+"閲覧と支払いの受付けができるようになります。"
 
 #: views/modal/button.html:80
 msgid ""
@@ -1806,7 +1863,9 @@ msgstr "熟練者向けの高度なインターフェースです!"
 msgid ""
 "This label will be shown on the display when you plug your TREZOR in. This "
 "is useful if you have more than one device."
-msgstr "このラベルはTREZORを接続すると画面に表示されます。複数端末をお持ちの場合などにお使いください。"
+msgstr ""
+"このラベルはTREZORを接続すると画面に表示されます。複数端末をお持ちの場合など"
+"にお使いください。"
 
 #. The whole text: Connection to the server has been lost, but don't worry, your bitcoins are safe. Please try to reload *this page or choose another server in* application settings.
 #: views/alertbars/offline.html:28
@@ -1833,18 +1892,24 @@ msgstr "宛 / コメント"
 msgid ""
 "To access subsequent addresses, please use some of the listed addresses in a "
 "transaction."
-msgstr "続くアドレスにアクセスするために、いくつかトランザクションに表示されたアドレスを使用してください。"
+msgstr ""
+"続くアドレスにアクセスするために、いくつかトランザクションに表示されたアドレ"
+"スを使用してください。"
 
 #: views/modal/firmware.html:35
 msgid ""
 "To enjoy full functionality and security of your device, we strongly "
 "recommend you to update."
-msgstr "端末のセキュリティを保ちすべての機能をお使いいただくために、アップデートすることをおすすめします。"
+msgstr ""
+"端末のセキュリティを保ちすべての機能をお使いいただくために、アップデートする"
+"ことをおすすめします。"
 
 #: views/install/udev.html:10
 msgid ""
 "To finish the installation, install a small package before connecting TREZOR."
-msgstr "インストールを完了するには、TREZORを接続する前にパッケージをインストールしてください。"
+msgstr ""
+"インストールを完了するには、TREZORを接続する前にパッケージをインストールして"
+"ください。"
 
 #: views/modal/firmware.html:20
 msgid "To update the firmware:"
@@ -1939,7 +2004,8 @@ msgid ""
 "Unlike your TREZOR, computers are not safe. Malware might replace bitcoin "
 "addresses you see."
 msgstr ""
-"お使いのTREZORとは違い、コンピューターは安全ではありません。マルウェアによってビットコインアドレスがすり替えられてしまう可能性があります。"
+"お使いのTREZORとは違い、コンピューターは安全ではありません。マルウェアによっ"
+"てビットコインアドレスがすり替えられてしまう可能性があります。"
 
 #. Shown in the list of addresses, the small comment below an address
 #: views/account/receive/address.html:99
@@ -1949,8 +2015,8 @@ msgstr "未使用のアドレス"
 #: views/install/bridge.force.html:10
 msgid ""
 "Update contains bug-fixes for all platforms and performance improvements for "
-"Linux users."
-msgstr "アップデートにはすべてのプラットフォーム向けのバグ修正とLinuxユーザー向けのパフォーマンス向上のための修正が含まれます。"
+"Windows users."
+msgstr "アップデートにはすべてのプラットフォーム向けのバグ修正とWindowsユーザー向けのパフォーマンス向上のための修正が含まれます。"
 
 #: views/modal/firmware.html:368
 msgid "Update failed"
@@ -1966,14 +2032,14 @@ msgid "Upgrade"
 msgstr "アップグレード"
 
 #. Upgrade refers to bridge upgrade
-#: views/alertbars/bridge.html:5
-msgctxt "bridge-update"
+#: views/alertbars/firmware.html:6
+msgctxt "firmware-update"
 msgid "Upgrade for the newest features and bug fixes."
 msgstr "アップグレードして新しい機能を手に入れてバグを修正する。"
 
 #. Upgrade refers to bridge upgrade
-#: views/alertbars/firmware.html:6
-msgctxt "firmware-update"
+#: views/alertbars/bridge.html:5
+msgctxt "bridge-update"
 msgid "Upgrade for the newest features and bug fixes."
 msgstr "アップグレードして新しい機能を手に入れてバグを修正する。"
 
@@ -2004,7 +2070,9 @@ msgstr "フルテキスト検索を利用する"
 msgid ""
 "Use this feature only if you have your Recovery Seed or you don't have any "
 "coins on your device."
-msgstr "この機能はリカバリシードを持っているか、お手持ちの端末内にビットコインが一切ない状態でお使いください。"
+msgstr ""
+"この機能はリカバリシードを持っているか、お手持ちの端末内にビットコインが一切"
+"ない状態でお使いください。"
 
 #: views/nav.html:23 views/nav.html:69
 msgid "Used in other window"
@@ -2016,7 +2084,8 @@ msgid ""
 "persons from stealing your bitcoins even when they get physical access to "
 "your device."
 msgstr ""
-"PIN保護機能の利用を強くおすすめします。PIN機能は、物理的に端末にアクセスした場合でも権限のない第三者によるビットコインの盗難を防ぐことができます。"
+"PIN保護機能の利用を強くおすすめします。PIN機能は、物理的に端末にアクセスした"
+"場合でも権限のない第三者によるビットコインの盗難を防ぐことができます。"
 
 #. This is on a button in the sign/verify form.
 #: views/account/sign/index.html:227
@@ -2055,7 +2124,9 @@ msgstr "警告:"
 msgid ""
 "Warning: This log can contain your XPUB. When you give it to a third party, "
 "you allow it to see your whole transaction history."
-msgstr "警告: ログにはXPUBファイルのデータが含まれています。第三者にデータが渡ってしまうと、すべてのトランザクション履歴が閲覧可能になります。"
+msgstr ""
+"警告: ログにはXPUBファイルのデータが含まれています。第三者にデータが渡ってし"
+"まうと、すべてのトランザクション履歴が閲覧可能になります。"
 
 #: views/account/nav.html:56
 msgid "Warning!"
@@ -2067,26 +2138,36 @@ msgctxt "send-done"
 msgid "was successfully sent."
 msgstr "正常に送信されました。"
 
+#. This is displayed on Android.
+#: views/install/mobile.android.html:5
+msgid "We are sorry, myTREZOR is not supported on Android devices."
+msgstr ""
+
 #: views/install/mobile.html:4
 msgid ""
 "We are sorry, myTREZOR is not yet supported on phones and tablets. Please "
 "use a computer with Windows, OS X or Linux operating system."
 msgstr ""
-"申し訳ございませんが、myTREZORはスマートフォンやタブレットでは未だお使いいただけません。Windows、OS "
-"X、Linux等のOSを搭載したコンピューターをお使いください。"
+"申し訳ございませんが、myTREZORはスマートフォンやタブレットでは未だお使いいた"
+"だけません。Windows、OS X、Linux等のOSを搭載したコンピューターをお使いくださ"
+"い。"
 
 #. This text is displayed, when the amount is too high. Its goal is to get user to re-check the address. This is the third line.
 #: views/account/send/index.html:39
 msgid ""
 "We recommend you to verify the payment address through independent "
 "communication channels such as a phone call or a text message."
-msgstr "電話やテキストメッセージなどの独立した通信チャンネルを利用して決済アドレスを認証することをおすすめします。"
+msgstr ""
+"電話やテキストメッセージなどの独立した通信チャンネルを利用して決済アドレスを"
+"認証することをおすすめします。"
 
 #: views/modal/setup.html:11 views/modal/setup.html:19
 msgid ""
 "We will now show you 24 words that will allow you to recover your accounts "
 "in case you lose your device."
-msgstr "万が一端末を失くした場合に備えてアカウントを復元できるように、24単語のリカバリシードを表示します。"
+msgstr ""
+"万が一端末を失くした場合に備えてアカウントを復元できるように、24単語のリカバ"
+"リシードを表示します。"
 
 #: views/modal/setup.html:27 views/modal/setup.html:34
 msgid "We will now show you the 24 words again."
@@ -2109,7 +2190,9 @@ msgstr "TREZORとは?"
 msgid ""
 "When you give them to a third party, you allow it to see your whole "
 "transaction history."
-msgstr "第三者にデータが渡ってしまうと、すべてのトランザクション履歴が閲覧可能になります。"
+msgstr ""
+"第三者にデータが渡ってしまうと、すべてのトランザクション履歴が閲覧可能になり"
+"ます。"
 
 #. This is a short label in the device Advanced page
 #: views/device/advanced.html:171
@@ -2140,7 +2223,8 @@ msgid ""
 "With TREZOR Chrome Extension you can use myTREZOR in Chrome without "
 "installing any other software."
 msgstr ""
-"TREZORのChrome用拡張機能を利用することで、他のソフトウェアを利用せずにChromeブラウザからmyTREZORをご利用いただけます。"
+"TREZORのChrome用拡張機能を利用することで、他のソフトウェアを利用せずにChrome"
+"ブラウザからmyTREZORをご利用いただけます。"
 
 #: views/device/recovery.html:30
 msgid "Words are going to be entered in shuffled order."
@@ -2150,7 +2234,9 @@ msgstr "単語はバラバラに入力されます。"
 msgid ""
 "Would you like myTREZOR to forget your device or to remember it, so that it "
 "is still visible even while disconnected?"
-msgstr "端末を忘れますか?それとも接続していない場合でも確認できるようにmyTREZORに端末を記憶させますか?"
+msgstr ""
+"端末を忘れますか?それとも接続していない場合でも確認できるようにmyTREZORに端末"
+"を記憶させますか?"
 
 #: views/modal/forget.wipe.html:9
 msgid ""
@@ -2162,6 +2248,11 @@ msgstr "古いデータに関連した古い端末情報を忘れますか?そ�
 msgid "Yes, update"
 msgstr "はい、アップデートします"
 
+#. This is displayed on Android.
+#: views/install/mobile.android.html:19
+msgid "You can also download and install a stand-alone APK."
+msgstr ""
+
 #. Blockchain.info link follows
 #: views/debug.html:23
 msgid "You can try to resend this transaction using"
@@ -2171,14 +2262,18 @@ msgstr "を使用してこのトランザクションを再送信できます"
 msgid ""
 "You might be asked to retype some words that are not part of your recovery "
 "seed."
-msgstr "リカバリシードに含まれていないいくつかの単語の再入力が求められる場合があります。"
+msgstr ""
+"リカバリシードに含まれていないいくつかの単語の再入力が求められる場合がありま"
+"す。"
 
 #. Whole text: If you disable the passphrase encryption, your current funds will not appear. You will have to enable the passphrase encryption again to see your current wallet.
 #: views/device/advanced.html:80
 msgid ""
 "You will have to enable the passphrase encryption again to see your current "
 "wallet."
-msgstr "現在のウォレットを確認するためにはパスフレーズの暗号化を有効にする必要があります。"
+msgstr ""
+"現在のウォレットを確認するためにはパスフレーズの暗号化を有効にする必要があり"
+"ます。"
 
 #. This text is displayed, when the amount is too high. Its goal is to get user to re-check the address. This is the first line.
 #: views/account/send/index.html:24
@@ -2213,20 +2308,26 @@ msgstr "TREZOR Bridgeをインストールするには、アップグレード�
 #: views/account/sign/index.html:44 views/account/sign/index.html:52
 msgid ""
 "Your message is {{accountSignCtrl.signMessage.message.length}} letters long."
-msgstr "あなたのメッセージは {{accountSignCtrl.signMessage.message.length}} 文字です。"
+msgstr ""
+"あなたのメッセージは {{accountSignCtrl.signMessage.message.length}} 文字で"
+"す。"
 
 #. This will always be singular, and > 200.
 #: views/account/sign/index.html:176
 msgid ""
 "Your message is {{accountSignCtrl.verifyMessage.message.length}} letters "
 "long."
-msgstr "あなたのメッセージは {{accountSignCtrl.verifyMessage.message.length}} 文字です。"
+msgstr ""
+"あなたのメッセージは {{accountSignCtrl.verifyMessage.message.length}} 文字で"
+"す。"
 
 #: views/modal/firmware.html:41
 msgid ""
 "Your TREZOR is already initialized. Check that you have your Recovery seed "
 "with you before updating the firmware!"
-msgstr "あなたのTREZOR端末は既に初期化されています。ファームウェアをアップデートする前に、リカバリシードを持っているか確認してください!"
+msgstr ""
+"あなたのTREZOR端末は既に初期化されています。ファームウェアをアップデートする"
+"前に、リカバリシードを持っているか確認してください!"
 
 #: views/modal/firmware.html:307
 msgid "Your TREZOR is not in the firmware update mode."
@@ -2235,3 +2336,10 @@ msgstr "TREZORがファームウェアアップデートモードではありま
 #: views/modal/disconnect.wipe.html:7 views/modal/forget.wipe.html:7
 msgid "Your TREZOR was successfully wiped."
 msgstr "お使いのTREZORのデータは正常に消去されました。"
+
+#~ msgid ""
+#~ "Update contains bug-fixes for all platforms and performance improvements "
+#~ "for Linux users."
+#~ msgstr ""
+#~ "アップデートにはすべてのプラットフォーム向けのバグ修正とLinuxユーザー向け"
+#~ "のパフォーマンス向上のための修正が含まれます。"

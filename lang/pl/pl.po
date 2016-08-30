@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: \n"
 "PO-Revision-Date: 2016-08-16 21:24+0000\n"
 "Last-Translator: Bartłomiej Kurzeja <bartlomiej@kurzeja.it>\n"
-"Language-Team: Polish "
-"<https://hosted.weblate.org/projects/satoshilabs/mytrezor/pl/>\n"
+"Language-Team: Polish <https://hosted.weblate.org/projects/satoshilabs/"
+"mytrezor/pl/>\n"
 "Language: pl\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -236,6 +236,11 @@ msgstr "Tryb Bootloader"
 msgctxt "button"
 msgid "Browse"
 msgstr "Przeglądaj"
+
+#. This is displayed on Android.
+#: views/install/mobile.android.html:8
+msgid "But, don't worry! You can still use TREZOR on your Android!"
+msgstr ""
 
 #: views/device/load.html:65 views/device/recovery.html:157
 #: views/import.html:55 views/modal/csv.html:44 views/modal/disconnect.html:14
@@ -525,6 +530,11 @@ msgstr "Nie zapominaj"
 #: views/install/main.html:57 views/install/udev.html:21
 msgid "Download"
 msgstr "Pobierz"
+
+#. This is displayed on Android.
+#: views/install/mobile.android.html:10
+msgid "Download TREZOR Manager App on Google Play."
+msgstr ""
 
 #: views/modal/firmware.html:321
 msgid "Downloading firmware..."
@@ -824,7 +834,8 @@ msgstr ""
 #: views/device/advanced.html:76
 msgid ""
 "If you disable the passphrase encryption, your current funds will not appear."
-msgstr "Jeżeli wyłączysz szyfrowanie hasła twoje obecne środki nie pojawią się."
+msgstr ""
+"Jeżeli wyłączysz szyfrowanie hasła twoje obecne środki nie pojawią się."
 
 #. Part of a long text about Dropbox and labeling
 #: views/modal/dropbox.html:14
@@ -1172,8 +1183,8 @@ msgstr ""
 msgid ""
 "Now plug your device in with <strong>both device buttons pressed</strong>."
 msgstr ""
-"Teraz podłącz swoje urządzenie z <strong>wciśniętymi oboma "
-"przyciskami</strong>."
+"Teraz podłącz swoje urządzenie z <strong>wciśniętymi oboma przyciskami</"
+"strong>."
 
 #. This is a short label in the device recovery page
 #: views/device/recovery.html:97
@@ -2018,10 +2029,10 @@ msgstr "Nieużywany adres"
 #: views/install/bridge.force.html:10
 msgid ""
 "Update contains bug-fixes for all platforms and performance improvements for "
-"Linux users."
+"Windows users."
 msgstr ""
 "Aktualizacja zawiera poprawki dla wszystkich platform i ulepszenia "
-"wydajności dla użytkowników systemu Linux."
+"wydajności dla użytkowników systemu Windows."
 
 #: views/modal/firmware.html:368
 msgid "Update failed"
@@ -2037,14 +2048,14 @@ msgid "Upgrade"
 msgstr "Aktualizacja"
 
 #. Upgrade refers to bridge upgrade
-#: views/alertbars/bridge.html:5
-msgctxt "bridge-update"
+#: views/alertbars/firmware.html:6
+msgctxt "firmware-update"
 msgid "Upgrade for the newest features and bug fixes."
 msgstr "Aktualizuj aby mieć dostęp do najnowszych funkcji i poprawek błędów."
 
 #. Upgrade refers to bridge upgrade
-#: views/alertbars/firmware.html:6
-msgctxt "firmware-update"
+#: views/alertbars/bridge.html:5
+msgctxt "bridge-update"
 msgid "Upgrade for the newest features and bug fixes."
 msgstr "Aktualizuj aby mieć dostęp do najnowszych funkcji i poprawek błędów."
 
@@ -2143,6 +2154,11 @@ msgstr "Ostrzeżenie!"
 msgctxt "send-done"
 msgid "was successfully sent."
 msgstr "została pomyślnie wysłana."
+
+#. This is displayed on Android.
+#: views/install/mobile.android.html:5
+msgid "We are sorry, myTREZOR is not supported on Android devices."
+msgstr ""
 
 #: views/install/mobile.html:4
 msgid ""
@@ -2250,6 +2266,11 @@ msgstr ""
 msgid "Yes, update"
 msgstr "Tak, aktualizuj"
 
+#. This is displayed on Android.
+#: views/install/mobile.android.html:19
+msgid "You can also download and install a stand-alone APK."
+msgstr ""
+
 #. Blockchain.info link follows
 #: views/debug.html:23
 msgid "You can try to resend this transaction using"
@@ -2315,8 +2336,8 @@ msgid ""
 "Your message is {{accountSignCtrl.verifyMessage.message.length}} letters "
 "long."
 msgstr ""
-"Twoja wiadomość jest długa na "
-"{{accountSignCtrl.verifyMessage.message.length}} litery."
+"Twoja wiadomość jest długa na {{accountSignCtrl.verifyMessage.message."
+"length}} litery."
 
 #: views/modal/firmware.html:41
 msgid ""
@@ -2333,3 +2354,10 @@ msgstr "Twój TREZOR nie jest w trybie aktualizacji firmware."
 #: views/modal/disconnect.wipe.html:7 views/modal/forget.wipe.html:7
 msgid "Your TREZOR was successfully wiped."
 msgstr "Twój TREZOR został pomyślnie wyczyszczony."
+
+#~ msgid ""
+#~ "Update contains bug-fixes for all platforms and performance improvements "
+#~ "for Linux users."
+#~ msgstr ""
+#~ "Aktualizacja zawiera poprawki dla wszystkich platform i ulepszenia "
+#~ "wydajności dla użytkowników systemu Linux."

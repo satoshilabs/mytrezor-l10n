@@ -221,14 +221,19 @@ msgctxt "button"
 msgid "Browse"
 msgstr ""
 
+#. This is displayed on Android.
+#: views/install/mobile.android.html:8
+msgid "But, don't worry! You can still use TREZOR on your Android!"
+msgstr ""
+
 #: views/device/load.html:65 views/device/recovery.html:157
 #: views/import.html:55 views/modal/csv.html:44 views/modal/disconnect.html:14
 #: views/modal/disconnect.passphrase_disable.html:14
-#: views/modal/disconnect.passphrase_enable.html:14 views/modal/dropbox.html:55
-#: views/modal/firmware.html:107 views/modal/firmware.html:135
-#: views/modal/firmware.html:164 views/modal/firmware.html:211
-#: views/modal/firmware.html:292 views/modal/firmware.html:313
-#: views/modal/qr.html:17 views/settings.html:44
+#: views/modal/disconnect.passphrase_enable.html:14
+#: views/modal/dropbox.html:55 views/modal/firmware.html:107
+#: views/modal/firmware.html:135 views/modal/firmware.html:164
+#: views/modal/firmware.html:211 views/modal/firmware.html:292
+#: views/modal/firmware.html:313 views/modal/qr.html:17 views/settings.html:44
 msgid "Cancel"
 msgstr "關閉"
 
@@ -506,6 +511,11 @@ msgstr ""
 msgid "Download"
 msgstr ""
 
+#. This is displayed on Android.
+#: views/install/mobile.android.html:10
+msgid "Download TREZOR Manager App on Google Play."
+msgstr ""
+
 #: views/modal/firmware.html:321
 msgid "Downloading firmware..."
 msgstr "正在下載固件……"
@@ -665,7 +675,8 @@ msgid "For more information, visit the user manual."
 msgstr "要獲取更多信息, 請閱讀用戶手冊。"
 
 #. Button in remember/forget dialog
-#: views/modal/forget.disconnected.html:16 views/modal/forget.requested.html:15
+#: views/modal/forget.disconnected.html:16
+#: views/modal/forget.requested.html:15
 msgctxt "forget-button"
 msgid "Forget"
 msgstr "不要記住"
@@ -770,7 +781,8 @@ msgstr ""
 msgid ""
 "If you are a common user and want to setup or recover your TREZOR device, "
 "please continue to TREZOR Setup."
-msgstr "如果你是一位普通用戶並且想要設置或者恢復你的TREZOR設備，請移步到TREZOR設置。"
+msgstr ""
+"如果你是一位普通用戶並且想要設置或者恢復你的TREZOR設備，請移步到TREZOR設置。"
 
 #: views/install/udev.html:53
 msgid ""
@@ -797,13 +809,15 @@ msgstr ""
 
 #: views/modal/button.html:89
 msgid "If you forget your passphrase, you will lose your coins."
-msgstr "如果你忘記你的種子密碼，你的錢包將永久地丟失，並且絕對不可能恢復你的資金。"
+msgstr ""
+"如果你忘記你的種子密碼，你的錢包將永久地丟失，並且絕對不可能恢復你的資金。"
 
 #: views/device/advanced.html:37
 msgid ""
 "If you forget your passphrase, your wallet is lost for good. There is no way "
 "to recover your funds."
-msgstr "如果你忘記你的種子密碼，你的錢包將永久地丟失，並且絕對不可能恢復你的資金。"
+msgstr ""
+"如果你忘記你的種子密碼，你的錢包將永久地丟失，並且絕對不可能恢復你的資金。"
 
 #: views/device/homescreen.html:74
 msgid ""
@@ -1080,7 +1094,9 @@ msgid ""
 "No checks are performed on the provided seed, so it can be binary sequence, "
 "dice-throw sequence or a random sentence. Valid BIP32 XPRV keys are "
 "interpreted prior loading to the device."
-msgstr "此功能不對提供的種子進行任何檢查，所以它可以是二進制系列，擲骰子系列或者一個隨機的句子。解釋成有效的BIP32私鑰後將被加載到設備。"
+msgstr ""
+"此功能不對提供的種子進行任何檢查，所以它可以是二進制系列，擲骰子系列或者一個"
+"隨機的句子。解釋成有效的BIP32私鑰後將被加載到設備。"
 
 #: views/account/transactions/index.html:34
 msgid "No transactions to display"
@@ -1144,7 +1160,9 @@ msgid ""
 "Passphrase encryption allows you to access new wallets, each hidden behind a "
 "particular passphrase. Your old accounts will be accessible behind an empty "
 "passphrase."
-msgstr "啓用種子密碼允許你訪問一系列新錢包，每個新錢包對應一個特定的密碼。可以通過輸入空密碼來訪問你的舊賬戶。"
+msgstr ""
+"啓用種子密碼允許你訪問一系列新錢包，每個新錢包對應一個特定的密碼。可以通過輸"
+"入空密碼來訪問你的舊賬戶。"
 
 #: views/modal/passphrase.html:53
 msgid "Passphrase is too long!"
@@ -1351,7 +1369,9 @@ msgid ""
 "Please take your time to read all of the instructions. Setting up your "
 "TREZOR will take only a few minutes. When you're done, you can start using "
 "your TREZOR."
-msgstr "請你仔細閱讀所有的說明。設置你的TREZOR只需要幾分鐘。設置完成後，你就可以開始使用你的TREZOR了。"
+msgstr ""
+"請你仔細閱讀所有的說明。設置你的TREZOR只需要幾分鐘。設置完成後，你就可以開始"
+"使用你的TREZOR了。"
 
 #: views/modal/firmware.html:149
 msgid ""
@@ -1928,7 +1948,7 @@ msgstr ""
 #: views/install/bridge.force.html:10
 msgid ""
 "Update contains bug-fixes for all platforms and performance improvements for "
-"Linux users."
+"Windows users."
 msgstr ""
 
 #: views/modal/firmware.html:368
@@ -1945,14 +1965,14 @@ msgid "Upgrade"
 msgstr ""
 
 #. Upgrade refers to bridge upgrade
-#: views/alertbars/bridge.html:5
-msgctxt "bridge-update"
+#: views/alertbars/firmware.html:6
+msgctxt "firmware-update"
 msgid "Upgrade for the newest features and bug fixes."
 msgstr "升級以使用新特性或修復缺陷。"
 
 #. Upgrade refers to bridge upgrade
-#: views/alertbars/firmware.html:6
-msgctxt "firmware-update"
+#: views/alertbars/bridge.html:5
+msgctxt "bridge-update"
 msgid "Upgrade for the newest features and bug fixes."
 msgstr "升級以使用新特性或修復缺陷。"
 
@@ -1994,7 +2014,9 @@ msgid ""
 "Using PIN protection is highly recommended. PIN prevents unauthorized "
 "persons from stealing your bitcoins even when they get physical access to "
 "your device."
-msgstr "強烈建議使用PIN碼保護。PIN碼阻止未被授權的人偷竊你的比特幣即使他們能夠物理上訪問你的設備。"
+msgstr ""
+"強烈建議使用PIN碼保護。PIN碼阻止未被授權的人偷竊你的比特幣即使他們能夠物理上"
+"訪問你的設備。"
 
 #. This is on a button in the sign/verify form.
 #: views/account/sign/index.html:227
@@ -2044,6 +2066,11 @@ msgstr "警告！"
 msgctxt "send-done"
 msgid "was successfully sent."
 msgstr "已經成功發送。"
+
+#. This is displayed on Android.
+#: views/install/mobile.android.html:5
+msgid "We are sorry, myTREZOR is not supported on Android devices."
+msgstr ""
 
 #: views/install/mobile.html:4
 msgid ""
@@ -2136,6 +2163,11 @@ msgstr "是否需要myTREZOR記住你的舊數據？"
 #: views/modal/firmware.html:200 views/modal/firmware.html:281
 msgid "Yes, update"
 msgstr "是，更新"
+
+#. This is displayed on Android.
+#: views/install/mobile.android.html:19
+msgid "You can also download and install a stand-alone APK."
+msgstr ""
 
 #. Blockchain.info link follows
 #: views/debug.html:23
