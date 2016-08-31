@@ -221,11 +221,6 @@ msgctxt "button"
 msgid "Browse"
 msgstr ""
 
-#. This is displayed on Android.
-#: views/install/mobile.android.html:8
-msgid "But, don't worry! You can still use TREZOR on your Android!"
-msgstr ""
-
 #: views/device/load.html:65 views/device/recovery.html:157
 #: views/import.html:55 views/modal/csv.html:44 views/modal/disconnect.html:14
 #: views/modal/disconnect.passphrase_disable.html:14
@@ -421,13 +416,13 @@ msgctxt "recovery-label"
 msgid "Device label"
 msgstr "設備標籤"
 
-#: views/device/index.setup.html:9 views/import.html:22
-msgid "Device label"
-msgstr "設備標籤"
-
 #. This is a short label in the normally hidden, advanced Load page
 #: views/device/load.html:22
 msgctxt "load-label"
+msgid "Device label"
+msgstr "設備標籤"
+
+#: views/device/index.setup.html:9 views/import.html:22
 msgid "Device label"
 msgstr "設備標籤"
 
@@ -558,15 +553,15 @@ msgctxt "pin"
 msgid "Enabled"
 msgstr "啓用"
 
-#. This is on a pin button
-#: views/modal/pin.html:97
-msgctxt "pin-button"
-msgid "Enter"
-msgstr "確定"
-
 #. This is on a passphrase button
 #: views/modal/passphrase.html:60
 msgctxt "passphrase-button"
+msgid "Enter"
+msgstr "確定"
+
+#. This is on a pin button
+#: views/modal/pin.html:97
+msgctxt "pin-button"
 msgid "Enter"
 msgstr "確定"
 
@@ -868,6 +863,11 @@ msgstr ""
 
 #: views/install/main.html:20
 msgid "Install for Chrome"
+msgstr ""
+
+#. This is displayed on Android.
+#: views/install/mobile.android.html:8
+msgid "Install the native app!"
 msgstr ""
 
 #: views/install/main.html:77
@@ -1965,14 +1965,14 @@ msgid "Upgrade"
 msgstr ""
 
 #. Upgrade refers to bridge upgrade
-#: views/alertbars/firmware.html:6
-msgctxt "firmware-update"
+#: views/alertbars/bridge.html:5
+msgctxt "bridge-update"
 msgid "Upgrade for the newest features and bug fixes."
 msgstr "升級以使用新特性或修復缺陷。"
 
 #. Upgrade refers to bridge upgrade
-#: views/alertbars/bridge.html:5
-msgctxt "bridge-update"
+#: views/alertbars/firmware.html:6
+msgctxt "firmware-update"
 msgid "Upgrade for the newest features and bug fixes."
 msgstr "升級以使用新特性或修復缺陷。"
 
@@ -2017,6 +2017,11 @@ msgid ""
 msgstr ""
 "強烈建議使用PIN碼保護。PIN碼阻止未被授權的人偷竊你的比特幣即使他們能夠物理上"
 "訪問你的設備。"
+
+#. This is displayed on Android.
+#: views/install/mobile.android.html:5
+msgid "Using TREZOR with your Android?"
+msgstr ""
 
 #. This is on a button in the sign/verify form.
 #: views/account/sign/index.html:227
@@ -2066,11 +2071,6 @@ msgstr "警告！"
 msgctxt "send-done"
 msgid "was successfully sent."
 msgstr "已經成功發送。"
-
-#. This is displayed on Android.
-#: views/install/mobile.android.html:5
-msgid "We are sorry, myTREZOR is not supported on Android devices."
-msgstr ""
 
 #: views/install/mobile.html:4
 msgid ""
@@ -2166,7 +2166,7 @@ msgstr "是，更新"
 
 #. This is displayed on Android.
 #: views/install/mobile.android.html:19
-msgid "You can also download and install a stand-alone APK."
+msgid "You can also download and install the APK directly."
 msgstr ""
 
 #. Blockchain.info link follows

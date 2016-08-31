@@ -4,8 +4,8 @@ msgstr ""
 "POT-Creation-Date: \n"
 "PO-Revision-Date: 2016-08-30 12:19+0000\n"
 "Last-Translator: Bach Nguyen <bach.nguyen@satoshilabs.com>\n"
-"Language-Team: French "
-"<https://hosted.weblate.org/projects/satoshilabs/mytrezor/fr/>\n"
+"Language-Team: French <https://hosted.weblate.org/projects/satoshilabs/"
+"mytrezor/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -237,11 +237,6 @@ msgctxt "button"
 msgid "Browse"
 msgstr "Naviguer"
 
-#. This is displayed on Android.
-#: views/install/mobile.android.html:8
-msgid "But, don't worry! You can still use TREZOR on your Android!"
-msgstr ""
-
 #: views/device/load.html:65 views/device/recovery.html:157
 #: views/import.html:55 views/modal/csv.html:44 views/modal/disconnect.html:14
 #: views/modal/disconnect.passphrase_disable.html:14
@@ -439,13 +434,13 @@ msgctxt "recovery-label"
 msgid "Device label"
 msgstr "Dénomination de l'appareil"
 
-#: views/device/index.setup.html:9 views/import.html:22
-msgid "Device label"
-msgstr "Dénomination de l'appareil"
-
 #. This is a short label in the normally hidden, advanced Load page
 #: views/device/load.html:22
 msgctxt "load-label"
+msgid "Device label"
+msgstr "Dénomination de l'appareil"
+
+#: views/device/index.setup.html:9 views/import.html:22
 msgid "Device label"
 msgstr "Dénomination de l'appareil"
 
@@ -579,15 +574,15 @@ msgctxt "pin"
 msgid "Enabled"
 msgstr "Activé"
 
-#. This is on a pin button
-#: views/modal/pin.html:97
-msgctxt "pin-button"
-msgid "Enter"
-msgstr "Entrer"
-
 #. This is on a passphrase button
 #: views/modal/passphrase.html:60
 msgctxt "passphrase-button"
+msgid "Enter"
+msgstr "Entrer"
+
+#. This is on a pin button
+#: views/modal/pin.html:97
+msgctxt "pin-button"
 msgid "Enter"
 msgstr "Entrer"
 
@@ -914,6 +909,11 @@ msgstr "Inputs :"
 #: views/install/main.html:20
 msgid "Install for Chrome"
 msgstr "Installer pour Chrome"
+
+#. This is displayed on Android.
+#: views/install/mobile.android.html:8
+msgid "Install the native app!"
+msgstr ""
 
 #: views/install/main.html:77
 msgid "Install TREZOR Chrome Extension"
@@ -2062,15 +2062,15 @@ msgid "Upgrade"
 msgstr "Mettre à niveau"
 
 #. Upgrade refers to bridge upgrade
-#: views/alertbars/firmware.html:6
-msgctxt "firmware-update"
+#: views/alertbars/bridge.html:5
+msgctxt "bridge-update"
 msgid "Upgrade for the newest features and bug fixes."
 msgstr ""
 "Mettre à niveau pour les nouvelles fonctionnalités et corrections de bug."
 
 #. Upgrade refers to bridge upgrade
-#: views/alertbars/bridge.html:5
-msgctxt "bridge-update"
+#: views/alertbars/firmware.html:6
+msgctxt "firmware-update"
 msgid "Upgrade for the newest features and bug fixes."
 msgstr ""
 "Mettre à niveau pour les nouvelles fonctionnalités et corrections de bug."
@@ -2119,6 +2119,11 @@ msgstr ""
 "L'utilisation d'une protection par code PIN est fortement recommandée. Le "
 "code PIN empêche les personnes non-autorisées de voler vos bitcoins même "
 "s'ils ont un accès physique à votre appareil."
+
+#. This is displayed on Android.
+#: views/install/mobile.android.html:5
+msgid "Using TREZOR with your Android?"
+msgstr ""
 
 #. This is on a button in the sign/verify form.
 #: views/account/sign/index.html:227
@@ -2171,11 +2176,6 @@ msgstr "Avertissement !"
 msgctxt "send-done"
 msgid "was successfully sent."
 msgstr "a été envoyée avec succès."
-
-#. This is displayed on Android.
-#: views/install/mobile.android.html:5
-msgid "We are sorry, myTREZOR is not supported on Android devices."
-msgstr ""
 
 #: views/install/mobile.html:4
 msgid ""
@@ -2285,7 +2285,7 @@ msgstr "Oui, mettre à jour"
 
 #. This is displayed on Android.
 #: views/install/mobile.android.html:19
-msgid "You can also download and install a stand-alone APK."
+msgid "You can also download and install the APK directly."
 msgstr ""
 
 #. Blockchain.info link follows

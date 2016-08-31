@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: \n"
 "PO-Revision-Date: 2016-08-30 18:27+0000\n"
 "Last-Translator: Fran <franwork@protonmail.com>\n"
-"Language-Team: Spanish "
-"<https://hosted.weblate.org/projects/satoshilabs/mytrezor/es/>\n"
+"Language-Team: Spanish <https://hosted.weblate.org/projects/satoshilabs/"
+"mytrezor/es/>\n"
 "Language: es\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -235,11 +235,6 @@ msgctxt "button"
 msgid "Browse"
 msgstr "Navegar"
 
-#. This is displayed on Android.
-#: views/install/mobile.android.html:8
-msgid "But, don't worry! You can still use TREZOR on your Android!"
-msgstr "¡Pero no se preocupe, todavía puede utilizar TREZOR en su Android!"
-
 #: views/device/load.html:65 views/device/recovery.html:157
 #: views/import.html:55 views/modal/csv.html:44 views/modal/disconnect.html:14
 #: views/modal/disconnect.passphrase_disable.html:14
@@ -438,13 +433,13 @@ msgctxt "recovery-label"
 msgid "Device label"
 msgstr "Etiqueta del dispositivo"
 
-#: views/device/index.setup.html:9 views/import.html:22
-msgid "Device label"
-msgstr "Etiqueta del dispositivo"
-
 #. This is a short label in the normally hidden, advanced Load page
 #: views/device/load.html:22
 msgctxt "load-label"
+msgid "Device label"
+msgstr "Etiqueta del dispositivo"
+
+#: views/device/index.setup.html:9 views/import.html:22
 msgid "Device label"
 msgstr "Etiqueta del dispositivo"
 
@@ -578,15 +573,15 @@ msgctxt "pin"
 msgid "Enabled"
 msgstr "Habilitado"
 
-#. This is on a pin button
-#: views/modal/pin.html:97
-msgctxt "pin-button"
-msgid "Enter"
-msgstr "Entrar"
-
 #. This is on a passphrase button
 #: views/modal/passphrase.html:60
 msgctxt "passphrase-button"
+msgid "Enter"
+msgstr "Entrar"
+
+#. This is on a pin button
+#: views/modal/pin.html:97
+msgctxt "pin-button"
 msgid "Enter"
 msgstr "Entrar"
 
@@ -917,6 +912,11 @@ msgstr "Entradas:"
 #: views/install/main.html:20
 msgid "Install for Chrome"
 msgstr "Instalar para Chrome"
+
+#. This is displayed on Android.
+#: views/install/mobile.android.html:8
+msgid "Install the native app!"
+msgstr ""
 
 #: views/install/main.html:77
 msgid "Install TREZOR Chrome Extension"
@@ -2069,16 +2069,16 @@ msgid "Upgrade"
 msgstr "Actualización"
 
 #. Upgrade refers to bridge upgrade
-#: views/alertbars/firmware.html:6
-msgctxt "firmware-update"
+#: views/alertbars/bridge.html:5
+msgctxt "bridge-update"
 msgid "Upgrade for the newest features and bug fixes."
 msgstr ""
 "Actualización para las más recientes características y correcciones de "
 "errores."
 
 #. Upgrade refers to bridge upgrade
-#: views/alertbars/bridge.html:5
-msgctxt "bridge-update"
+#: views/alertbars/firmware.html:6
+msgctxt "firmware-update"
 msgid "Upgrade for the newest features and bug fixes."
 msgstr ""
 "Actualización para las más recientes características y correcciones de "
@@ -2128,6 +2128,11 @@ msgstr ""
 "Se recomienda utilizar protección del PIN (Número de identificación "
 "personal). Su PIN evita que a personas no autorizadas de robar tus bitcoins "
 "incluso cuando consiguen el acceso físico a su dispositivo."
+
+#. This is displayed on Android.
+#: views/install/mobile.android.html:5
+msgid "Using TREZOR with your Android?"
+msgstr ""
 
 #. This is on a button in the sign/verify form.
 #: views/account/sign/index.html:227
@@ -2179,11 +2184,6 @@ msgstr "¡ ADVERTENCIA!"
 msgctxt "send-done"
 msgid "was successfully sent."
 msgstr "fue enviado con éxito."
-
-#. This is displayed on Android.
-#: views/install/mobile.android.html:5
-msgid "We are sorry, myTREZOR is not supported on Android devices."
-msgstr "Lo sentimos, myTREZOR no se admite en dispositivos Android."
 
 #: views/install/mobile.html:4
 msgid ""
@@ -2294,7 +2294,7 @@ msgstr "Sí, actualizar"
 
 #. This is displayed on Android.
 #: views/install/mobile.android.html:19
-msgid "You can also download and install a stand-alone APK."
+msgid "You can also download and install the APK directly."
 msgstr ""
 
 #. Blockchain.info link follows
@@ -2378,6 +2378,12 @@ msgstr "El TREZOR no está en el modo de actualización de firmware."
 #: views/modal/disconnect.wipe.html:7 views/modal/forget.wipe.html:7
 msgid "Your TREZOR was successfully wiped."
 msgstr "Su TREZOR fue limpiada con éxito."
+
+#~ msgid "But, don't worry! You can still use TREZOR on your Android!"
+#~ msgstr "¡Pero no se preocupe, todavía puede utilizar TREZOR en su Android!"
+
+#~ msgid "We are sorry, myTREZOR is not supported on Android devices."
+#~ msgstr "Lo sentimos, myTREZOR no se admite en dispositivos Android."
 
 #~ msgid ""
 #~ "Update contains bug-fixes for all platforms and performance improvements "
