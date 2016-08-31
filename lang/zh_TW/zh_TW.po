@@ -70,11 +70,11 @@ msgstr "賬戶公鑰(XPUB)"
 msgid "Account XPUBs"
 msgstr "賬戶公鑰"
 
-#: views/debug.html:11
+#: views/debug.html:68 views/debug.html:71
 msgid "Action was interrupted"
 msgstr ""
 
-#: views/nav.html:219 views/nav.html:226
+#: views/nav.html:218 views/nav.html:225
 msgid "Add account"
 msgstr "添加賬戶"
 
@@ -113,7 +113,11 @@ msgctxt "sign"
 msgid "Address"
 msgstr "地址"
 
-#: views/debug.html:36
+#: views/account/send/txAddress.html:24
+msgid "Address is required."
+msgstr ""
+
+#: views/debug.html:35
 msgid "Address verification failed."
 msgstr "地址驗證失敗。"
 
@@ -156,15 +160,19 @@ msgctxt "transaction-list"
 msgid "Amount"
 msgstr "金額"
 
-#: views/account/send/txAmount.html:40
+#: views/account/send/txAmount.html:42
 msgid "Amount has too many decimals"
 msgstr ""
 
-#: views/account/send/txAmount.html:43
+#: views/account/send/txAmount.html:45
 msgid "Amount is not a number"
 msgstr ""
 
-#: views/account/send/txAmount.html:46
+#: views/account/send/txAmount.html:18
+msgid "Amount is required."
+msgstr ""
+
+#: views/account/send/txAmount.html:48
 msgid "Amount is too low"
 msgstr "金額過低"
 
@@ -195,7 +203,7 @@ msgctxt "header"
 msgid "Basic"
 msgstr ""
 
-#: views/device/index.basic.html:176 views/device/index.basic.html:225
+#: views/device/index.basic.html:176 views/device/index.basic.html:226
 msgid "Be careful with your XPUBs."
 msgstr "請妥善保管你的賬戶公鑰。"
 
@@ -207,7 +215,7 @@ msgstr "BIP32路徑:"
 msgid "Bitcore Server URL"
 msgstr ""
 
-#: views/debug.html:27
+#: views/debug.html:26
 msgid "Blockchain.info's Broadcast Transaction tool"
 msgstr ""
 
@@ -221,8 +229,9 @@ msgctxt "button"
 msgid "Browse"
 msgstr ""
 
-#: views/device/load.html:65 views/device/recovery.html:157
-#: views/import.html:55 views/modal/csv.html:44 views/modal/disconnect.html:14
+#: views/device/custom-firmware.html:35 views/device/load.html:65
+#: views/device/recovery.html:157 views/import.html:55 views/modal/csv.html:44
+#: views/modal/disconnect.html:14
 #: views/modal/disconnect.passphrase_disable.html:14
 #: views/modal/disconnect.passphrase_enable.html:14
 #: views/modal/dropbox.html:55 views/modal/firmware.html:107
@@ -275,7 +284,7 @@ msgctxt "button"
 msgid "Clear"
 msgstr ""
 
-#: views/device/index.basic.html:184 views/device/index.basic.html:234
+#: views/device/index.basic.html:184 views/device/index.basic.html:235
 msgid "Click on XPUB to show its QR code."
 msgstr ""
 
@@ -291,7 +300,7 @@ msgstr ""
 msgid "Click to show address"
 msgstr ""
 
-#: views/debug.html:7 views/debug.html:86 views/debug.log.html:8
+#: views/debug.html:7 views/debug.html:84 views/debug.log.html:8
 #: views/modal/firmware.html:376
 msgid "Close"
 msgstr "關閉"
@@ -318,7 +327,7 @@ msgstr ""
 msgid "Confirm the action on your device."
 msgstr "請在你的設備上確認操作。"
 
-#: views/debug.html:99
+#: views/debug.html:97
 msgid "Congratulations! Your device is now ready to use."
 msgstr "恭喜你！你的設備現在可以使用了。"
 
@@ -381,12 +390,13 @@ msgstr "已連接"
 msgid "Connection to the server has been lost"
 msgstr ""
 
-#: views/device/index.setup.html:21 views/device/load.html:62
-#: views/device/recovery.html:154 views/import.html:53
+#: views/device/custom-firmware.html:32 views/device/index.setup.html:21
+#: views/device/load.html:62 views/device/recovery.html:154
+#: views/import.html:53
 msgid "Continue"
 msgstr "繼續"
 
-#: views/account/send/txAmount.html:20 views/account/send/txAmount.html:72
+#: views/account/send/txAmount.html:22 views/account/send/txAmount.html:74
 msgid "counting..."
 msgstr ""
 
@@ -410,15 +420,15 @@ msgstr "設備ID"
 msgid "Device is updated in other window"
 msgstr ""
 
-#. This is a short label in the device recovery page
-#: views/device/recovery.html:87
-msgctxt "recovery-label"
-msgid "Device label"
-msgstr "設備標籤"
-
 #. This is a short label in the normally hidden, advanced Load page
 #: views/device/load.html:22
 msgctxt "load-label"
+msgid "Device label"
+msgstr "設備標籤"
+
+#. This is a short label in the device recovery page
+#: views/device/recovery.html:87
+msgctxt "recovery-label"
 msgid "Device label"
 msgstr "設備標籤"
 
@@ -553,15 +563,15 @@ msgctxt "pin"
 msgid "Enabled"
 msgstr "啓用"
 
-#. This is on a passphrase button
-#: views/modal/passphrase.html:60
-msgctxt "passphrase-button"
-msgid "Enter"
-msgstr "確定"
-
 #. This is on a pin button
 #: views/modal/pin.html:97
 msgctxt "pin-button"
+msgid "Enter"
+msgstr "確定"
+
+#. This is on a passphrase button
+#: views/modal/passphrase.html:60
+msgctxt "passphrase-button"
 msgid "Enter"
 msgstr "確定"
 
@@ -569,11 +579,7 @@ msgstr "確定"
 msgid "Enter seed word"
 msgstr "請輸入單詞"
 
-#: views/debug.html:69 views/debug.html:72
-msgid "Error"
-msgstr "出錯了"
-
-#: views/debug.html:80
+#: views/debug.html:78
 msgid "Error details:"
 msgstr ""
 
@@ -595,29 +601,37 @@ msgstr ""
 msgid "Extension installed successfully"
 msgstr ""
 
-#: views/debug.html:13
+#: views/debug.html:12
 msgid "Failed to add account."
 msgstr "添加賬戶失敗。"
 
-#: views/debug.html:51
+#: views/debug.html:50
 msgid "Failed to change the device label."
 msgstr "標籤修改失敗。"
 
-#: views/debug.html:16
+#: views/debug.html:15
 msgid "Failed to renew session."
 msgstr ""
 
-#: views/debug.html:20 views/debug.html:31
+#: views/debug.html:19 views/debug.html:30
 msgid "Failed to send transaction"
 msgstr "交易發送失敗"
+
+#: views/otherStrings.html:67
+msgid "Failed to sign message"
+msgstr ""
+
+#: views/otherStrings.html:71
+msgid "Failed to verify message"
+msgstr ""
+
+#: views/account/send/fees.html:124
+msgid "Fee"
+msgstr "手續費"
 
 #. This is a label to the sending form. (Address/amount/comment)
 #: views/account/send/fees.html:4
 msgctxt "send"
-msgid "Fee"
-msgstr "手續費"
-
-#: views/account/send/fees.html:122
 msgid "Fee"
 msgstr "手續費"
 
@@ -700,6 +714,12 @@ msgstr ""
 msgid "Fresh address"
 msgstr ""
 
+#. Used when estimating transaction time (Expected time: *from* 5 minutes to 10 minutes)
+#: views/account/send/fees.html:44
+msgctxt "transaction-time"
+msgid "from"
+msgstr ""
+
 #. This is shown in the 'hinting' in send dialogue. It means the shown address is an address, to which a user already sent something.
 #: views/account/send/txTypeAhead.html:18
 msgctxt "typeahead"
@@ -744,16 +764,16 @@ msgctxt "header"
 msgid "Homescreen"
 msgstr ""
 
-#: views/debug.html:48
+#: views/debug.html:47
 msgid "Homescreen change failed."
 msgstr ""
 
-#: views/debug.html:108
+#: views/debug.html:106
 msgid "Homescreen was successfully changed."
 msgstr ""
 
 #. Used when estimating transaction time (Expected time: less than 5 *minutes*)
-#: views/account/send/fees.html:53 views/account/send/fees.html:97
+#: views/account/send/fees.html:54 views/account/send/fees.html:99
 msgctxt "transaction-time"
 msgid "hour"
 msgid_plural "hours"
@@ -874,6 +894,10 @@ msgstr ""
 msgid "Install TREZOR Chrome Extension"
 msgstr ""
 
+#: views/otherStrings.html:73
+msgid "Invalid signature"
+msgstr ""
+
 #. This is a short label in the device Basic page
 #: views/device/index.basic.html:19
 msgctxt "basic-label"
@@ -889,11 +913,11 @@ msgstr ""
 msgid "Label this address"
 msgstr ""
 
-#: views/debug.html:111
+#: views/debug.html:109
 msgid "Label was successfully changed."
 msgstr ""
 
-#: views/debug.html:66
+#: views/debug.html:65
 msgid "Labeling error."
 msgstr ""
 
@@ -901,7 +925,7 @@ msgstr ""
 msgid "Latest"
 msgstr ""
 
-#: views/device/index.basic.html:177 views/device/index.basic.html:226
+#: views/device/index.basic.html:177 views/device/index.basic.html:227
 msgid "Learn more"
 msgstr ""
 
@@ -916,7 +940,7 @@ msgid "leave empty to keep PIN protection disabled"
 msgstr ""
 
 #. Used when estimating transaction time (Expected time: *less than* 5 minutes)
-#: views/account/send/fees.html:86
+#: views/account/send/fees.html:88
 msgctxt "transaction-time"
 msgid "less than"
 msgstr ""
@@ -934,7 +958,7 @@ msgstr "加載中"
 msgid "Loading accounts..."
 msgstr ""
 
-#: views/debug.html:54
+#: views/debug.html:53
 msgid "Loading failed."
 msgstr ""
 
@@ -989,6 +1013,10 @@ msgstr ""
 msgid "Message"
 msgstr "消息"
 
+#: views/otherStrings.html:75
+msgid "Message verified."
+msgstr ""
+
 #. This is on a hidden site, 99.99% of people will not see it
 #: views/device/metadata.html:9
 msgid "Metadata API keys"
@@ -1009,7 +1037,7 @@ msgid "Metadata setup"
 msgstr ""
 
 #. Used when estimating transaction time (Expected time: less than 5 *minutes*)
-#: views/account/send/fees.html:110 views/account/send/fees.html:66
+#: views/account/send/fees.html:112 views/account/send/fees.html:67
 msgctxt "transaction-time"
 msgid "minute"
 msgid_plural "minutes"
@@ -1027,7 +1055,7 @@ msgctxt "default-name"
 msgid "My TREZOR"
 msgstr ""
 
-#: views/device/index.basic.html:190 views/device/index.basic.html:240
+#: views/device/index.basic.html:190 views/device/index.basic.html:241
 msgctxt "xpub-text"
 msgid "Mycelium"
 msgstr ""
@@ -1065,7 +1093,7 @@ msgstr "絕對不要在有幣的TREZOR進行這個操作，除非你有恢復種
 msgid "Never use this process unless you really know what you are doing!"
 msgstr "絕對不要使用這個功能，除非你真的知道你在做什麼！"
 
-#: views/device/load.html:11
+#: views/device/custom-firmware.html:13 views/device/load.html:11
 msgid "Never use this process unless you REALLY know what you are doing!"
 msgstr "絕對不要使用這個功能，除非你真的知道你在做什麼！"
 
@@ -1112,6 +1140,10 @@ msgstr ""
 msgid "Not a valid address"
 msgstr "無效的地址"
 
+#: views/account/send/fees.html:133
+msgid "Not enough funds"
+msgstr ""
+
 #. This is on a hidden site, 99.99% of people will not see it
 #: views/device/metadata.html:26
 msgid "not set"
@@ -1140,6 +1172,12 @@ msgstr "你的恢復種子的單詞個數"
 msgid "OK, I understand"
 msgstr "好的，我明白"
 
+#. Whole text: Scan it into an application that supports XPUBs such as Mycelium *or* Sentinel for Android. Then, you can watch your transactions and receive payments everywhere without carrying your TREZOR.
+#: views/device/index.basic.html:191
+msgctxt "xpub-text"
+msgid "or"
+msgstr ""
+
 #. Outputs of a transaction
 #: views/account/send/txPrepared.html:33
 msgid "Outputs:"
@@ -1151,7 +1189,7 @@ msgctxt "advanced-label"
 msgid "Passphrase"
 msgstr "密碼"
 
-#: views/debug.html:45
+#: views/debug.html:44
 msgid "Passphrase change failed."
 msgstr ""
 
@@ -1184,7 +1222,7 @@ msgstr ""
 msgid "PIN"
 msgstr "PIN"
 
-#: views/debug.html:42
+#: views/debug.html:41
 msgid "PIN change failed."
 msgstr "PIN碼修改失敗."
 
@@ -1194,11 +1232,11 @@ msgctxt "basic-label"
 msgid "PIN protection"
 msgstr "PIN碼保護"
 
-#: views/debug.html:105
+#: views/debug.html:103
 msgid "PIN was successfully changed."
 msgstr "PIN碼修改成功"
 
-#: views/debug.html:102
+#: views/debug.html:100
 msgid "PIN was successfully removed."
 msgstr "PIN碼刪除成功"
 
@@ -1319,8 +1357,19 @@ msgstr "請在你的設備上確認交易。"
 msgid "Please confirm the transaction output on your device."
 msgstr "請在你的設備上確認交易輸出。"
 
-#: views/device/load.html:4 views/device/recovery.html:4
+#: views/device/custom-firmware.html:4 views/device/load.html:4
+#: views/device/recovery.html:4
 msgid "Please connect your device to access this section."
+msgstr ""
+
+#: views/otherStrings.html:37
+msgctxt "send-button-tooltip"
+msgid "Please connect your device to send coins."
+msgstr ""
+
+#: views/otherStrings.html:62
+msgctxt "sign-button-tooltip"
+msgid "Please connect your device to sign messages."
 msgstr ""
 
 #: views/modal/disconnect.wipe.html:8
@@ -1342,6 +1391,21 @@ msgstr "請輸入設備標籤"
 #: views/modal/passphrase.html:9
 msgid "Please enter your passphrase"
 msgstr "請輸入你的種子密碼"
+
+#: views/otherStrings.html:42
+msgctxt "send-button-tooltip"
+msgid "Please fill in address"
+msgstr ""
+
+#: views/otherStrings.html:47
+msgctxt "send-button-tooltip"
+msgid "Please fill in amount"
+msgstr ""
+
+#: views/otherStrings.html:57
+msgctxt "sign-button-tooltip"
+msgid "Please fill in message and address."
+msgstr ""
 
 #: views/install/main.html:49
 msgid ""
@@ -1390,6 +1454,16 @@ msgstr "請拔出設備。"
 
 #: views/account/receive/address.html:46
 msgid "Please wait"
+msgstr ""
+
+#: views/otherStrings.html:52
+msgctxt "send-button-tooltip"
+msgid "Please wait a few seconds..."
+msgstr ""
+
+#: views/otherStrings.html:32
+msgctxt "button-tooltip"
+msgid "Please wait."
 msgstr ""
 
 #: views/account/sign/index.html:93
@@ -1516,11 +1590,11 @@ msgstr ""
 msgid "Processing..."
 msgstr "處理中……"
 
-#: views/debug.html:33
+#: views/debug.html:32
 msgid "QR scanning failed."
 msgstr ""
 
-#: views/debug.html:21
+#: views/debug.html:20
 msgid "Raw transaction in hex format:"
 msgstr ""
 
@@ -1541,7 +1615,7 @@ msgstr ""
 msgid "Read more in user manual"
 msgstr ""
 
-#: views/debug.html:60
+#: views/debug.html:59
 msgid "Reading of accounts failed."
 msgstr ""
 
@@ -1555,7 +1629,7 @@ msgstr "接收"
 msgid "Recovered seed words:"
 msgstr "已輸入的種子單詞:"
 
-#: views/debug.html:63
+#: views/debug.html:62
 msgid "Recovery failed."
 msgstr "恢復失敗。"
 
@@ -1613,7 +1687,7 @@ msgid "Scan address from a QR code"
 msgstr "從二維碼掃描地址"
 
 #. Whole text: *Scan it into an application that supports XPUBs such as* Mycelium or Sentinel for Android. Then, you can watch your transactions and receive payments everywhere without carrying your TREZOR.
-#: views/device/index.basic.html:186 views/device/index.basic.html:236
+#: views/device/index.basic.html:186 views/device/index.basic.html:237
 msgctxt "xpub-text"
 msgid "Scan it into an application that supports XPUBs such as"
 msgstr ""
@@ -1661,11 +1735,11 @@ msgctxt "button"
 msgid "Set as homescreen"
 msgstr ""
 
-#: views/account/send/txAmount.html:27
+#: views/account/send/txAmount.html:29
 msgid "Set maximum possible amount"
 msgstr ""
 
-#: views/debug.html:39
+#: views/debug.html:38
 msgid "Setup failed."
 msgstr "設置失敗."
 
@@ -1677,7 +1751,8 @@ msgstr ""
 msgid "Show details"
 msgstr "查看詳情"
 
-#: views/debug.button.html:7 views/footer.right.html:4
+#: views/debug.button.html:5 views/debug.button.html:7
+#: views/footer.right.html:4
 msgid "Show log"
 msgstr "顯示日誌"
 
@@ -1726,6 +1801,10 @@ msgctxt "sign"
 msgid "Signature"
 msgstr "簽名"
 
+#: views/otherStrings.html:69
+msgid "Signed successfully."
+msgstr ""
+
 #. This is shown when the signing is in progress.
 #: views/account/send/index.html:78
 msgid "Signing and sending transaction&hellip;"
@@ -1740,7 +1819,7 @@ msgstr ""
 msgid "Skip mnemonic checksum"
 msgstr ""
 
-#: views/account/send/fees.html:128
+#: views/account/send/fees.html:130
 msgid "Some fields are incorrect."
 msgstr ""
 
@@ -1755,7 +1834,7 @@ msgid "Strong"
 msgstr "強"
 
 #. This is displayed on top when any action successfully finishes
-#: views/debug.html:91
+#: views/debug.html:89
 msgctxt "flash"
 msgid "Success"
 msgstr "成功"
@@ -1782,7 +1861,7 @@ msgid ""
 msgstr ""
 
 #. Whole text: Scan it into an application that supports XPUBs such as Mycelium or Sentinel for Android. *Then, you can watch your transactions and receive payments everywhere without carrying your TREZOR.*
-#: views/device/index.basic.html:201 views/device/index.basic.html:251
+#: views/device/index.basic.html:202 views/device/index.basic.html:252
 msgctxt "xpub-text"
 msgid ""
 "Then, you can watch your transactions and receive payments everywhere "
@@ -1798,7 +1877,7 @@ msgstr "這個操作不能撤消，請<strong>在你的設備上確認</strong>�
 msgid "This is an advanced interface intended for developer use only!"
 msgstr "這是一個專門爲開發者準備的高級界面！"
 
-#: views/device/load.html:9
+#: views/device/custom-firmware.html:9 views/device/load.html:9
 msgid "This is an advanced interface intended for EXPERT use only!"
 msgstr "這是一個專門爲專家級用戶準備的高級界面！"
 
@@ -1823,6 +1902,18 @@ msgctxt "transaction-list"
 msgid "Timestamp"
 msgstr "時間"
 
+#. Used when estimating transaction time (Expected time: from 5 minutes *to* 10 minutes)
+#: views/account/send/fees.html:78
+msgctxt "transaction-time"
+msgid "to"
+msgstr ""
+
+#. Used as a suggested name for a transaction. *To* Account #2
+#: views/otherStrings.html:26
+msgctxt "address-suggest"
+msgid "To"
+msgstr ""
+
 #. This is shown in the header in the transaction list
 #: views/account/transactions/table.html:13
 msgctxt "transaction-list"
@@ -1834,6 +1925,12 @@ msgid ""
 "To access subsequent addresses, please use some of the listed addresses in a "
 "transaction."
 msgstr "如果要生成更多地址，請先在交易中使用以上列出的地址。"
+
+#: views/nav.html:214
+msgid ""
+"To add accounts, make sure your device is connected and the last account is "
+"not empty."
+msgstr ""
 
 #: views/modal/firmware.html:35
 msgid ""
@@ -1866,20 +1963,13 @@ msgid "Total received:"
 msgstr ""
 
 #. The whole sentence: *Transaction* 1234567890abcdef was successfully sent.
-#: views/debug.html:115
-msgctxt "sent-done"
-msgid "Transaction"
-msgstr "交易"
-
-#. The whole sentence: *Transaction* 1234567890abcdef was successfully sent.
-#: views/debug.html:115
+#: views/debug.html:113
 msgctxt "send-done"
 msgid "Transaction"
 msgstr "交易"
 
-
-
-#: views/debug.html:125
+#: views/account/transactions/table.html:41
+#: views/account/transactions/table.html:62 views/debug.html:123
 msgid "Transaction info at blockchain.info"
 msgstr "交易"
 
@@ -1973,14 +2063,14 @@ msgid "Upgrade"
 msgstr ""
 
 #. Upgrade refers to bridge upgrade
-#: views/alertbars/bridge.html:5
-msgctxt "bridge-update"
+#: views/alertbars/firmware.html:6
+msgctxt "firmware-update"
 msgid "Upgrade for the newest features and bug fixes."
 msgstr "升級以使用新特性或修復缺陷。"
 
 #. Upgrade refers to bridge upgrade
-#: views/alertbars/firmware.html:6
-msgctxt "firmware-update"
+#: views/alertbars/bridge.html:5
+msgctxt "bridge-update"
 msgid "Upgrade for the newest features and bug fixes."
 msgstr "升級以使用新特性或修復缺陷。"
 
@@ -2025,6 +2115,11 @@ msgid ""
 msgstr ""
 "強烈建議使用PIN碼保護。PIN碼阻止未被授權的人偷竊你的比特幣即使他們能夠物理上"
 "訪問你的設備。"
+
+#. This is on a hidden page.
+#: views/device/custom-firmware.html:10
+msgid "Using this process might make your TREZOR unusable."
+msgstr ""
 
 #. This is displayed on Android.
 #: views/install/mobile.android.html:5
@@ -2075,7 +2170,7 @@ msgid "Warning!"
 msgstr "警告！"
 
 #. The whole sentence: Transaction 1234567890abcdef *was successfully sent.*
-#: views/debug.html:129
+#: views/debug.html:127
 msgctxt "send-done"
 msgid "was successfully sent."
 msgstr "已經成功發送。"
@@ -2116,17 +2211,11 @@ msgstr "歡迎使用TREZOR設置！"
 msgid "What is TREZOR?"
 msgstr ""
 
-#: views/device/index.basic.html:176 views/device/index.basic.html:225
+#: views/device/index.basic.html:176 views/device/index.basic.html:226
 msgid ""
 "When you give them to a third party, you allow it to see your whole "
 "transaction history."
 msgstr ""
-
-#. This is a short label in the device Advanced page
-#: views/device/advanced.html:171
-msgctxt "advanced-label"
-msgid "Wipe device"
-msgstr "重置設備"
 
 #. This is written on a button, clicking it will wipe the device
 #: views/device/advanced.html:195
@@ -2134,7 +2223,13 @@ msgctxt "button"
 msgid "Wipe device"
 msgstr "重置設備"
 
-#: views/debug.html:57
+#. This is a short label in the device Advanced page
+#: views/device/advanced.html:171
+msgctxt "advanced-label"
+msgid "Wipe device"
+msgstr "重置設備"
+
+#: views/debug.html:56
 msgid "Wipe failed."
 msgstr "重置失敗."
 
@@ -2178,7 +2273,7 @@ msgid "You can also download and install the APK directly."
 msgstr ""
 
 #. Blockchain.info link follows
-#: views/debug.html:23
+#: views/debug.html:22
 msgid "You can try to resend this transaction using"
 msgstr ""
 
@@ -2250,3 +2345,10 @@ msgstr "你的TREZOR沒有處於固件更新模式。"
 #: views/modal/disconnect.wipe.html:7 views/modal/forget.wipe.html:7
 msgid "Your TREZOR was successfully wiped."
 msgstr "你的TREZOR已經重置成功。"
+
+#~ msgid "Error"
+#~ msgstr "出錯了"
+
+#~ msgctxt "sent-done"
+#~ msgid "Transaction"
+#~ msgstr "交易"
