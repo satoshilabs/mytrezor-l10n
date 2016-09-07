@@ -2,22 +2,22 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2016-08-22 21:34+0200\n"
-"Last-Translator: Boris Komarov <bkomarov85@gmail.com>\n"
-"Language-Team: Russian <https://hosted.weblate.org/projects/satoshilabs/"
-"mytrezor/ru/>\n"
+"PO-Revision-Date: 2016-09-07 11:32+0000\n"
+"Last-Translator: Лех Наталия Витальевна <nataliya.lekh@gmail.com>\n"
+"Language-Team: Russian "
+"<https://hosted.weblate.org/projects/satoshilabs/mytrezor/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Poedit 1.8.7.1\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 2.8\n"
 
 #. The whole text: Connection to the server has been lost*, but don't worry, your bitcoins are safe.* Please try to reload this page or choose another server in application settings.
 #: views/alertbars/offline.html:8
 msgid ", but don't worry, your bitcoins are safe."
-msgstr ", но не беспокойтесь - ваши биткойны в безопасности"
+msgstr ", но не беспокойтесь -- Ваши биткойны находятся в безопасности"
 
 #: views/nav.html:117
 msgid "(automatically in"
@@ -124,7 +124,7 @@ msgstr "Адрес"
 
 #: views/account/send/txAddress.html:24
 msgid "Address is required."
-msgstr ""
+msgstr "Требуется адрес."
 
 #: views/debug.html:35
 msgid "Address verification failed."
@@ -138,7 +138,7 @@ msgstr "Продвинутый"
 
 #: views/modal/button.html:79
 msgid "All data on your device will be deleted."
-msgstr "Все данные на вашем устройстве будут удалены"
+msgstr "Все данные на вашем устройстве будут удалены."
 
 #. Part of a long text about Dropbox and labeling
 #: views/modal/dropbox.html:45
@@ -184,7 +184,7 @@ msgstr "Сумма не является числом"
 
 #: views/account/send/txAmount.html:18
 msgid "Amount is required."
-msgstr ""
+msgstr "Требуется назначить сумму."
 
 #: views/account/send/txAmount.html:48
 msgid "Amount is too low"
@@ -539,7 +539,7 @@ msgstr "Загрузить"
 #. This is displayed on Android.
 #: views/install/mobile.android.html:10
 msgid "Download TREZOR Manager App on Google Play."
-msgstr ""
+msgstr "Скачайте приложение Manager TREZOR на Google Play."
 
 #: views/modal/firmware.html:321
 msgid "Downloading firmware..."
@@ -639,11 +639,11 @@ msgstr "Неудачная отправка транзакции"
 
 #: views/otherStrings.html:67
 msgid "Failed to sign message"
-msgstr ""
+msgstr "Не удалось подписать сообщение"
 
 #: views/otherStrings.html:71
 msgid "Failed to verify message"
-msgstr ""
+msgstr "Не удалось проверить сообщение"
 
 #: views/account/send/fees.html:124
 msgid "Fee"
@@ -691,7 +691,7 @@ msgstr "Первая строка - заголовок"
 #. Attribution of picture, in the footer of Homepage. Don't translate the name of the picture or the author.
 #: views/device/homescreen.html:134
 msgid "Flower Close Up In Darkness by A Guy is licenced under CC BY 2.0"
-msgstr ""
+msgstr "Flower Close Up In Darkness. Автор: A Guy. Лицензия: CC BY 2.0"
 
 #: views/device/recovery.html:30
 msgid "follow the instructions on your device."
@@ -729,6 +729,9 @@ msgid ""
 "Forgetting only removes the device from the list on the left, your bitcoins "
 "are still safe and you can access them by reconnecting your TREZOR again."
 msgstr ""
+"Забывание только удаляет устройство из списка слева. Ваши биткоины по-"
+"прежнему находятся в безопасности и Вы можете снова получить доступ к ним "
+"через подключение к TREZORу."
 
 #: views/account/receive/index.html:49
 msgid "Fresh address"
@@ -738,7 +741,7 @@ msgstr "Новый адрес"
 #: views/account/send/fees.html:44
 msgctxt "transaction-time"
 msgid "from"
-msgstr ""
+msgstr "от"
 
 #. This is shown in the 'hinting' in send dialogue. It means the shown address is an address, to which a user already sent something.
 #: views/account/send/txTypeAhead.html:18
@@ -930,7 +933,7 @@ msgstr "Установить для Chrome"
 #. This is displayed on Android.
 #: views/install/mobile.android.html:8
 msgid "Install the native app!"
-msgstr ""
+msgstr "Установите исходное приложение!"
 
 #: views/install/main.html:77
 msgid "Install TREZOR Chrome Extension"
@@ -938,7 +941,7 @@ msgstr "Установить расширение TREZOR для Chrome"
 
 #: views/otherStrings.html:73
 msgid "Invalid signature"
-msgstr ""
+msgstr "Неправильная подпись"
 
 #. This is a short label in the device Basic page
 #: views/device/index.basic.html:19
@@ -974,12 +977,12 @@ msgstr "Узнать больше"
 #. Part of a long text about Dropbox and labeling
 #: views/modal/dropbox.html:49
 msgid "Learn more about myTREZOR labeling."
-msgstr ""
+msgstr "Допольнительные сведения о маркировке myTREZOR."
 
 #. Refers to PIN input
 #: views/device/load.html:46
 msgid "leave empty to keep PIN protection disabled"
-msgstr ""
+msgstr "Оставьте пустым, чтобы оставить деактивированным PIN-код защиты"
 
 #. Used when estimating transaction time (Expected time: *less than* 5 minutes)
 #: views/account/send/fees.html:88
@@ -1022,11 +1025,11 @@ msgstr "Заблокировать это устройство"
 
 #: views/debug.log.html:10
 msgid "Log"
-msgstr ""
+msgstr "Зарегистрироваться"
 
 #: views/modal/pin.html:15 views/modal/pin.html:19
 msgid "Look at the device for number positions."
-msgstr ""
+msgstr "Посмотрите на устройство, чтобы найти расположение цифр."
 
 #: views/modal/pin.html:103
 msgid "Lost? Check our user manual."
@@ -1036,20 +1039,24 @@ msgstr "Потеряли? Проверьте наше руководство п�
 #: views/account/send/fees.html:26
 msgctxt "transaction-fee"
 msgid "Low"
-msgstr ""
+msgstr "Низкий "
 
 #: views/modal/firmware.html:340
 msgid "Make sure the same fingerprint is displayed on the device screen."
 msgstr ""
+"Убедитесь в том, что на экране устройства отображается тот же отпечаток "
+"пальцев."
 
 #: views/nav.html:97
 msgid ""
 "Make sure you don't have myTREZOR running in another tab or browser window."
 msgstr ""
+"Убедитесь, что myTREZOR не открыт в другой вкладке или в другом окне "
+"браузера."
 
 #: views/account/sign/index.html:175 views/account/sign/index.html:43
 msgid "Maximal message length is 255 letters long."
-msgstr ""
+msgstr "Максимальная длина сообщения составляет 255 букв."
 
 #: views/account/sign/index.html:157 views/account/sign/index.html:28
 msgid "Message"
@@ -1057,39 +1064,41 @@ msgstr "Сообщение"
 
 #: views/otherStrings.html:75
 msgid "Message verified."
-msgstr ""
+msgstr "Сообщение проверено."
 
 #. This is on a hidden site, 99.99% of people will not see it
 #: views/device/metadata.html:9
 msgid "Metadata API keys"
-msgstr ""
+msgstr "Ключи API метаданных"
 
 #: views/import.html:40
 msgid "Metadata keys"
-msgstr ""
+msgstr "Ключи метаданных"
 
 #: views/import.html:47
 msgid ""
 "Metadata keys are necessary only if you want to enable labels and comments."
 msgstr ""
+"Ключи метаданных необходимы только в том случае, если вы хотите включить "
+"обозначения и комментарии."
 
 #. This is on a hidden site, 99.99% of people will not see it
 #: views/device/nav.html:35
 msgid "Metadata setup"
-msgstr ""
+msgstr "Установка метаданных"
 
 #. Used when estimating transaction time (Expected time: less than 5 *minutes*)
 #: views/account/send/fees.html:112 views/account/send/fees.html:67
 msgctxt "transaction-time"
 msgid "minute"
 msgid_plural "minutes"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "минута"
+msgstr[1] "минут"
+msgstr[2] "минут"
 
 #: views/account/receive/index.html:75
 msgid "More please"
-msgstr ""
+msgstr "Подробнее"
 
 #. Literally 'my TREZOR (device)'. Used as a default device name. It HAS to be ASCII only and it HAS to be less than 16 letters long
 #: views/device/index.setup.html:10 views/device/load.html:26
@@ -1102,44 +1111,52 @@ msgstr "Мой TREZOR"
 #: views/device/index.basic.html:190 views/device/index.basic.html:241
 msgctxt "xpub-text"
 msgid "Mycelium"
-msgstr "Mycelium"
+msgstr "'Mycelium'"
 
 #: views/jumbotrons/loading.html:5
 msgid "myTREZOR is loading accounts from your device"
-msgstr ""
+msgstr "myTREZOR загружает учетные записи с Вашего устройства"
 
 #: views/modal/dropbox.html:2
 msgid "myTREZOR labeling"
-msgstr ""
+msgstr "маркировка myTREZOR"
 
 #. In the bottom footer.
 #: views/footer.left.html:19
 msgid "myTREZOR Terms &amp; Conditions"
-msgstr ""
+msgstr "Постановления и условия myTREZOR"
 
 #: views/install/main.html:83 views/install/udev.html:59
 msgid ""
 "myTREZOR Web Wallet is a free service provided exclusively to TREZOR "
 "hardware wallet owners."
 msgstr ""
+"Web кошелек myTREZOR это бесплатный сервис, доступный исключительно для "
+"владельцев аппаратного кошелька TREZOR."
 
 #: views/modal/disconnect.html:9
 msgid "myTREZOR will forget your TREZOR right after you disconnect it."
-msgstr ""
+msgstr "myTREZOR забудет Ваш TREZOR сразу после того, как вы его отключите."
 
 #: views/modal/button.html:81
 msgid ""
 "Never do this action with TREZOR holding coins unless you have your recovery "
 "seed at hand."
 msgstr ""
+"Никогда не выполняйте это действие с TREZORом, на котором есть биткойны, "
+"если у Вас нет рядом Вашей фразы-восстановления."
 
 #: views/import.html:12
 msgid "Never use this process unless you really know what you are doing!"
 msgstr ""
+"Используйте этот процес только в том случае, если Вы точно знаете, что "
+"делаете!"
 
 #: views/device/custom-firmware.html:13 views/device/load.html:11
 msgid "Never use this process unless you REALLY know what you are doing!"
 msgstr ""
+"Используйте этот процес только в том случае, если Вы ТОЧНО знаете, что "
+"делаете!"
 
 #: views/modal/_header.html:5
 msgid "New device setup"
@@ -1147,11 +1164,11 @@ msgstr "Установка нового устройства"
 
 #: views/alertbars/bridge.html:4
 msgid "New TREZOR Bridge is available."
-msgstr ""
+msgstr "Доступен новый TREZOR Bridge."
 
 #: views/alertbars/firmware.html:5
 msgid "New TREZOR firmware is available."
-msgstr ""
+msgstr "Доступна новая прошивка TREZOR."
 
 #: views/top.nav.html:6
 msgid "News"
@@ -1167,6 +1184,10 @@ msgid ""
 "dice-throw sequence or a random sentence. Valid BIP32 XPRV keys are "
 "interpreted prior loading to the device."
 msgstr ""
+"Проверка не выполняется на предоставленную фразы-восстановления, поэтому она "
+"может как быть двоичной последовательности, так и последовательности на "
+"основе бросания костей или же вовсе случайной последовательности. Допустимые "
+"ключи BIP32 XPRV интерпретируются перед загрузкой на устройство."
 
 #: views/account/transactions/index.html:34
 msgid "No transactions to display"
@@ -1184,7 +1205,7 @@ msgstr "Не действительный адрес"
 
 #: views/account/send/fees.html:133
 msgid "Not enough funds"
-msgstr ""
+msgstr "Недостаточно средств"
 
 #. This is on a hidden site, 99.99% of people will not see it
 #: views/device/metadata.html:26
@@ -1193,22 +1214,25 @@ msgstr "не установлено"
 
 #: views/modal/passphrase.html:36
 msgid "Note that passphrase is case-sensitive."
-msgstr ""
+msgstr "Обратите внимание, что пароль нужно вводить с учетом регистра."
 
 #: views/modal/pin.html:23
 msgid "Note that the positions of numbers shown on the device have changed!"
 msgstr ""
+"Обратите внимание, что отображаемое на устойстве размещение цифр изменилось!"
 
 #: views/modal/firmware.html:120
 msgid ""
 "Now plug your device in with <strong>both device buttons pressed</strong>."
 msgstr ""
+"Теперь подключите устройство с помощью <strong> нажимания обоих кнопок на "
+"устройстве </strong>."
 
 #. This is a short label in the device recovery page
 #: views/device/recovery.html:97
 msgctxt "recovery-label"
 msgid "Number of words in your recovery seed"
-msgstr ""
+msgstr "Количество слов в Вашей фразе-восстановлении"
 
 #: views/device/advanced.html:46 views/device/advanced.html:96
 msgid "OK, I understand"
@@ -1218,7 +1242,7 @@ msgstr "ОК, я понял"
 #: views/device/index.basic.html:191
 msgctxt "xpub-text"
 msgid "or"
-msgstr ""
+msgstr "или"
 
 #. Outputs of a transaction
 #: views/account/send/txPrepared.html:33
@@ -1241,6 +1265,9 @@ msgid ""
 "particular passphrase. Your old accounts will be accessible behind an empty "
 "passphrase."
 msgstr ""
+"Шифрование кодовой фразы  позволяет Вам получить доступ к новым кошелькам, "
+"каждый из которых скрыт за конкретным паролем. Ваши старые учетные записи "
+"будут доступны за пустой кодовой фразоой."
 
 #: views/modal/passphrase.html:53
 msgid "Passphrase is too long!"
@@ -1387,7 +1414,7 @@ msgstr "Пожалуйста подтвердите действие на ваш
 
 #: views/modal/firmware.html:339
 msgid "Please confirm the firmware fingerprint."
-msgstr ""
+msgstr "Подтвердите отпечатки пальцев прошивки."
 
 #: views/modal/button.html:34
 msgid "Please confirm the transaction on your device."
@@ -1395,22 +1422,22 @@ msgstr "Пожалуйста подтвердите транзакцию на в
 
 #: views/modal/button.html:18
 msgid "Please confirm the transaction output on your device."
-msgstr ""
+msgstr "Пожалуйста, подтвердите результат транзакции на вашем устройстве."
 
 #: views/device/custom-firmware.html:4 views/device/load.html:4
 #: views/device/recovery.html:4
 msgid "Please connect your device to access this section."
-msgstr ""
+msgstr "Пожалуйста, подключите устройство для доступа в этот раздел."
 
 #: views/otherStrings.html:37
 msgctxt "send-button-tooltip"
 msgid "Please connect your device to send coins."
-msgstr ""
+msgstr "Пожалуйста, подключите устройство для отправки биткойнов."
 
 #: views/otherStrings.html:62
 msgctxt "sign-button-tooltip"
 msgid "Please connect your device to sign messages."
-msgstr ""
+msgstr "Пожалуйста, подключите устройство для подписи сообщений."
 
 #: views/modal/disconnect.wipe.html:8
 msgid "Please disconnect it now."
@@ -1426,7 +1453,7 @@ msgstr "Пожалуйста, введите новый ПИН-код:"
 
 #: views/modal/label.html:6
 msgid "Please enter the device label"
-msgstr ""
+msgstr "Пожалуйста, введите ярлык устройства"
 
 #: views/modal/passphrase.html:9
 msgid "Please enter your passphrase"
@@ -1435,28 +1462,32 @@ msgstr "Пожалуйста, введите вашу кодовую фразу"
 #: views/otherStrings.html:42
 msgctxt "send-button-tooltip"
 msgid "Please fill in address"
-msgstr ""
+msgstr "Пожалуйста, впишите адрес"
 
 #: views/otherStrings.html:47
 msgctxt "send-button-tooltip"
 msgid "Please fill in amount"
-msgstr ""
+msgstr "Пожалуйста, впишите сумму"
 
 #: views/otherStrings.html:57
 msgctxt "sign-button-tooltip"
 msgid "Please fill in message and address."
-msgstr ""
+msgstr "Пожалуйста, напишите сообщение и адрес."
 
 #: views/install/main.html:49
 msgid ""
 "Please install TREZOR Bridge to allow myTREZOR to talk with your device."
 msgstr ""
+"Пожалуйста, установите TREZOR Bridge, чтобы позволить myTREZOR соединиться с "
+"Вашим устройством."
 
 #: views/install/main.html:10
 msgid ""
 "Please install TREZOR Chrome Extension to allow myTREZOR to talk with your "
 "device."
 msgstr ""
+"Пожалуйста, установите TREZOR Chrome Extension, чтобы позволить myTREZOR "
+"соединиться с Вашим устройством."
 
 #: views/modal/pin.html:22
 msgid "Please re-enter new PIN:"
@@ -1467,6 +1498,8 @@ msgid ""
 "Please reconnect it <strong>while pressing both buttons simultaneously.</"
 "strong>"
 msgstr ""
+"Пожалуйста, снова подсоедините его <strong>при помощи нажатия обеих кнопок "
+"одновременно </strong>"
 
 #: views/device/index.setup.html:4
 msgid ""
@@ -1474,21 +1507,26 @@ msgid ""
 "TREZOR will take only a few minutes. When you're done, you can start using "
 "your TREZOR."
 msgstr ""
+"Пожалуйста, найдите время, чтобы прочитать всю инструкцию. Настройка Вашего "
+"TREZORа займет всего несколько минут. Когда настройка будет завершена, Вы "
+"можете начать использовать ваш TREZOR."
 
 #: views/modal/firmware.html:149
 msgid ""
 "Please try again. You need to make sure<strong>both device buttons are "
 "pressed, as you plug in the device.</strong>"
 msgstr ""
+"Пожалуйста, попробуйте еще раз. Убедитесь, что <strong>при подключении "
+"устройства Вы нажимаете обе кнопки</strong>"
 
 #. The whole text: Connection to the server has been lost, but don't worry, your bitcoins are safe. *Please try to* reload this page or choose another server in application settings.
 #: views/alertbars/offline.html:16
 msgid "Please try to"
-msgstr ""
+msgstr "Попробуйте"
 
 #: views/modal/firmware.html:360 views/modal/firmware.html:370
 msgid "Please unplug the device now."
-msgstr ""
+msgstr "Пожалуйста, отключите устройство."
 
 #: views/account/receive/address.html:46
 msgid "Please wait"
@@ -1497,12 +1535,12 @@ msgstr "Пожалуйста, подождите"
 #: views/otherStrings.html:52
 msgctxt "send-button-tooltip"
 msgid "Please wait a few seconds..."
-msgstr ""
+msgstr "Пожалуйста, подождите несколько секунд..."
 
 #: views/otherStrings.html:32
 msgctxt "button-tooltip"
 msgid "Please wait."
-msgstr ""
+msgstr "Пожалуйста, подождите."
 
 #: views/account/sign/index.html:93
 msgid "Please wait..."
@@ -1510,115 +1548,115 @@ msgstr "Пожалуйста, подождите..."
 
 #: views/modal/setup.html:11 views/modal/setup.html:19
 msgid "Please write down all these words carefully."
-msgstr ""
+msgstr "Пожалуйста, тщательно запишите все эти слова."
 
 #: views/modal/setup.wordWrite.html:12
 msgid "Please write down the 10th word of your recovery seed."
-msgstr ""
+msgstr "Пожалуйста, запишите 10е слово Вашей фразы восстановления."
 
 #: views/modal/setup.wordWrite.html:13
 msgid "Please write down the 11th word of your recovery seed."
-msgstr ""
+msgstr "Пожалуйста, запишите 11е слово Вашей фразы восстановления."
 
 #: views/modal/setup.wordWrite.html:14
 msgid "Please write down the 12th word of your recovery seed."
-msgstr ""
+msgstr "Пожалуйста, запишите 12е слово Вашей фразы восстановления."
 
 #: views/modal/setup.wordWrite.html:15
 msgid "Please write down the 13th word of your recovery seed."
-msgstr ""
+msgstr "Пожалуйста, запишите 13е слово Вашей фразы восстановления."
 
 #: views/modal/setup.wordWrite.html:16
 msgid "Please write down the 14th word of your recovery seed."
-msgstr ""
+msgstr "Пожалуйста, запишите 14е слово Вашей фразы восстановления."
 
 #: views/modal/setup.wordWrite.html:17
 msgid "Please write down the 15th word of your recovery seed."
-msgstr ""
+msgstr "Пожалуйста, запишите 15е слово Вашей фразы восстановления."
 
 #: views/modal/setup.wordWrite.html:18
 msgid "Please write down the 16th word of your recovery seed."
-msgstr ""
+msgstr "Пожалуйста, запишите 16е слово Вашей фразы восстановления."
 
 #: views/modal/setup.wordWrite.html:19
 msgid "Please write down the 17th word of your recovery seed."
-msgstr ""
+msgstr "Пожалуйста, запишите 17е слово Вашей фразы восстановления."
 
 #: views/modal/setup.wordWrite.html:20
 msgid "Please write down the 18th word of your recovery seed."
-msgstr ""
+msgstr "Пожалуйста, запишите 18е слово Вашей фразы восстановления."
 
 #: views/modal/setup.wordWrite.html:21
 msgid "Please write down the 19th word of your recovery seed."
-msgstr ""
+msgstr "Пожалуйста, запишите 19е слово Вашей фразы восстановления."
 
 #: views/modal/setup.wordWrite.html:3
 msgid "Please write down the 1st word of your recovery seed."
-msgstr ""
+msgstr "Пожалуйста, запишите 1е слово Вашей фразы восстановления."
 
 #: views/modal/setup.wordWrite.html:22
 msgid "Please write down the 20th word of your recovery seed."
-msgstr ""
+msgstr "Пожалуйста, запишите 20е слово Вашей фразы восстановления."
 
 #: views/modal/setup.wordWrite.html:23
 msgid "Please write down the 21st word of your recovery seed."
-msgstr ""
+msgstr "Пожалуйста, запишите 21е слово Вашей фразы восстановления."
 
 #: views/modal/setup.wordWrite.html:24
 msgid "Please write down the 22nd word of your recovery seed."
-msgstr ""
+msgstr "Пожалуйста, запишите 22е слово Вашей фразы восстановления."
 
 #: views/modal/setup.wordWrite.html:25
 msgid "Please write down the 23rd word of your recovery seed."
-msgstr ""
+msgstr "Пожалуйста, запишите 23е слово Вашей фразы восстановления."
 
 #: views/modal/setup.wordWrite.html:26
 msgid "Please write down the 24th word of your recovery seed."
-msgstr ""
+msgstr "Пожалуйста, запишите 24е слово Вашей фразы восстановления."
 
 #: views/modal/setup.wordWrite.html:4
 msgid "Please write down the 2nd word of your recovery seed."
-msgstr ""
+msgstr "Пожалуйста, запишите 2е слово Вашей фразы восстановления."
 
 #: views/modal/setup.wordWrite.html:5
 msgid "Please write down the 3rd word of your recovery seed."
-msgstr ""
+msgstr "Пожалуйста, запишите 3е слово Вашей фразы восстановления."
 
 #: views/modal/setup.wordWrite.html:6
 msgid "Please write down the 4th word of your recovery seed."
-msgstr ""
+msgstr "Пожалуйста, запишите 4е слово Вашей фразы восстановления."
 
 #: views/modal/setup.wordWrite.html:7
 msgid "Please write down the 5th word of your recovery seed."
-msgstr ""
+msgstr "Пожалуйста, запишите 5е слово Вашей фразы восстановления."
 
 #: views/modal/setup.wordWrite.html:8
 msgid "Please write down the 6th word of your recovery seed."
-msgstr ""
+msgstr "Пожалуйста, запишите 6е слово Вашей фразы восстановления."
 
 #: views/modal/setup.wordWrite.html:9
 msgid "Please write down the 7th word of your recovery seed."
-msgstr ""
+msgstr "Пожалуйста, запишите 7е слово Вашей фразы восстановления."
 
 #: views/modal/setup.wordWrite.html:10
 msgid "Please write down the 8th word of your recovery seed."
-msgstr ""
+msgstr "Пожалуйста, запишите 8е слово Вашей фразы восстановления."
 
 #: views/modal/setup.wordWrite.html:11
 msgid "Please write down the 9th word of your recovery seed."
-msgstr ""
+msgstr "Пожалуйста, запишите 9е слово Вашей фразы восстановления."
 
 #: views/modal/button.html:51
 msgid "Please write down the recovery seed from your device."
-msgstr ""
+msgstr "Пожалуйста, запишите фразу восстановления с Вашего устройства."
 
 #: views/modal/firmware.html:23
 msgid "plug it in while holding both device buttons pressed"
-msgstr ""
+msgstr "Подключите его, удерживая обе кнопки устройства нажатыми"
 
 #: views/settings.html:33
 msgid "Prefill from following choices:"
-msgstr ""
+msgstr "Заполните, выбирая из следующих вариантов:"
 
 #: views/account/receive/index.html:38
 msgid "Previous addresses"
@@ -1630,24 +1668,24 @@ msgstr "В процессе..."
 
 #: views/debug.html:32
 msgid "QR scanning failed."
-msgstr ""
+msgstr "QR сканирование не удалось."
 
 #: views/debug.html:20
 msgid "Raw transaction in hex format:"
-msgstr ""
+msgstr "Необработанная транзакция в 16-ричном формате:"
 
 #: views/modal/passphrase.html:25 views/modal/passphrase.html:30
 msgid "Re-type for control"
-msgstr ""
+msgstr "Повторно введите для проверки"
 
 #: views/install/main.html:84 views/install/udev.html:60
 msgid "Read more about Bitcoin TREZOR."
-msgstr ""
+msgstr "Узнайте больше о Bitcoin TREZOR."
 
 #. This text is displayed, when the amount is too high. Its goal is to get user to re-check the address. This is the fourth line, and a link to our manual.
 #: views/account/send/index.html:47
 msgid "Read more about phishing…"
-msgstr ""
+msgstr "Подробнее о фишинге…"
 
 #: views/device/advanced.html:40 views/device/advanced.html:87
 msgid "Read more in user manual"
@@ -1655,7 +1693,7 @@ msgstr "Прочитайте больше в руководстве пользо
 
 #: views/debug.html:59
 msgid "Reading of accounts failed."
-msgstr ""
+msgstr "Не удалось выполнить чтение учетных записей."
 
 #. This is shown on the header Send/Receive/Transactions/...
 #: views/account/nav.html:13
@@ -1665,23 +1703,23 @@ msgstr "Получить"
 
 #: views/device/recovery.html:66
 msgid "Recovered seed words:"
-msgstr ""
+msgstr "Восстановленные слова фразы восстановления :"
 
 #: views/debug.html:62
 msgid "Recovery failed."
-msgstr ""
+msgstr "Ошибка восстановления."
 
 #: views/device/load.html:33
 msgid "Recovery seed or XPRV private key"
-msgstr ""
+msgstr "Фраза восстановления или личный ключ XPRV"
 
 #: views/modal/setup.html:4
 msgid "Recovery seed setup"
-msgstr ""
+msgstr "Установка фразы восстановления"
 
 #: views/modal/firmware.html:237 views/modal/firmware.html:51
 msgid "Release notes"
-msgstr ""
+msgstr "Примечания к версии"
 
 #. The whole text: Connection to the server has been lost, but don't worry, your bitcoins are safe. Please try to *reload* this page or choose another server in application settings.
 #: views/alertbars/offline.html:21
@@ -1697,11 +1735,11 @@ msgstr "Запомнить"
 
 #: views/account/send/buttonBar.html:32
 msgid "Remove all recipients"
-msgstr ""
+msgstr "Удаление всех получателей"
 
 #: views/account/send/txRemoveOutput.html:6
 msgid "Remove recipient"
-msgstr ""
+msgstr "Удаление получателя"
 
 #: views/modal/account_label.html:6
 msgid "Rename account"
@@ -1722,13 +1760,13 @@ msgstr "Сохранить и перезапустить"
 
 #: views/modal/qr.html:6
 msgid "Scan address from a QR code"
-msgstr ""
+msgstr "Сканировать адрес из QR-кода"
 
 #. Whole text: *Scan it into an application that supports XPUBs such as* Mycelium or Sentinel for Android. Then, you can watch your transactions and receive payments everywhere without carrying your TREZOR.
 #: views/device/index.basic.html:186 views/device/index.basic.html:237
 msgctxt "xpub-text"
 msgid "Scan it into an application that supports XPUBs such as"
-msgstr ""
+msgstr "Сканировать в приложение, которое поддерживает XPUBы. Например,"
 
 #: views/account/send/txAddress.html:30
 msgid "Scan QR code"
@@ -1736,11 +1774,11 @@ msgstr "Сканировать QR-код"
 
 #: views/account/nav.html:44 views/account/transactions/index.html:20
 msgid "Search for address, date or amount"
-msgstr ""
+msgstr "Поиск адреса, даты или суммы"
 
 #: views/device/recovery.html:21
 msgid "Seed recovery"
-msgstr ""
+msgstr "Фраза восстановления"
 
 #: views/device/homescreen.html:81
 msgid "Select an image"
@@ -1765,17 +1803,17 @@ msgstr "Отправка"
 #. This is shown in the transaction list when the transaction is to the user himseld.
 #: views/account/transactions/txAddress.html:23
 msgid "Sent to myself"
-msgstr ""
+msgstr "Послано самому себе"
 
 #. This is on a button, clicking it will set as homescreen
 #: views/device/homescreen.html:43
 msgctxt "button"
 msgid "Set as homescreen"
-msgstr ""
+msgstr "Установить как homescreen"
 
 #: views/account/send/txAmount.html:29
 msgid "Set maximum possible amount"
-msgstr ""
+msgstr "Установить максимально возможную сумму"
 
 #: views/debug.html:38
 msgid "Setup failed."
@@ -1792,11 +1830,11 @@ msgstr "Показать детали"
 #: views/debug.button.html:5 views/debug.button.html:7
 #: views/footer.right.html:4
 msgid "Show log"
-msgstr ""
+msgstr "Показать журнал"
 
 #: views/account/receive/address.html:64
 msgid "Show on TREZOR"
-msgstr ""
+msgstr "Показать на TREZOR"
 
 #: views/modal/passphrase.html:44
 msgid "Show passphrase"
@@ -1819,7 +1857,7 @@ msgstr "Показать XPUB ключи"
 #: views/account/sign/index.html:117
 msgctxt "button"
 msgid "Sign"
-msgstr ""
+msgstr "Подписать"
 
 #. This is shown on the header Send/Receive/Transactions/...
 #: views/account/nav.html:30
@@ -1831,7 +1869,7 @@ msgstr "Подпись &amp; Проверка"
 #: views/account/sign/index.html:15
 msgctxt "header"
 msgid "Sign message"
-msgstr ""
+msgstr "Подписать сообщение"
 
 #. This is a label to the sign/verify form.
 #: views/account/sign/index.html:100 views/account/sign/index.html:210
@@ -1841,12 +1879,12 @@ msgstr "Подпись"
 
 #: views/otherStrings.html:69
 msgid "Signed successfully."
-msgstr ""
+msgstr "Подпись произведена успешно."
 
 #. This is shown when the signing is in progress.
 #: views/account/send/index.html:78
 msgid "Signing and sending transaction&hellip;"
-msgstr ""
+msgstr "Подписание и отправка транзакций &hellip;"
 
 #. Size of a transaction
 #: views/account/send/txPrepared.html:18
@@ -1855,7 +1893,7 @@ msgstr "Размер:"
 
 #: views/device/load.html:41
 msgid "Skip mnemonic checksum"
-msgstr ""
+msgstr "Пропустить мнемоническую контрольную сумму"
 
 #: views/account/send/fees.html:130
 msgid "Some fields are incorrect."
@@ -1864,12 +1902,12 @@ msgstr "Некоторые поля некорректны."
 #. This will be shown if user does a mistake in the, slightly complicated, firmware upgrade process.
 #: views/modal/firmware.html:150
 msgid "Sorry that we make it so hard!"
-msgstr ""
+msgstr "Просим извинить за некоторые трудности!"
 
 #. PIN strength
 #: views/modal/pin.html:90
 msgid "Strong"
-msgstr ""
+msgstr "Сильный"
 
 #. This is displayed on top when any action successfully finishes
 #: views/debug.html:89
@@ -1890,13 +1928,15 @@ msgstr "Нужна поддержка?"
 #. displayed on the bottom in the TX
 #: views/account/send/txPrepared.html:44
 msgid "the change address"
-msgstr ""
+msgstr "изменить адрес"
 
 #: views/account/send/txPrepared.html:14
 msgid ""
 "The final size can differ a few bytes, since the transaction is created on "
 "TREZOR."
 msgstr ""
+"Окончательный размер может отличаться на несколько байтов, так как "
+"транзакция создается на TREZOR."
 
 #. Whole text: Scan it into an application that supports XPUBs such as Mycelium or Sentinel for Android. *Then, you can watch your transactions and receive payments everywhere without carrying your TREZOR.*
 #: views/device/index.basic.html:202 views/device/index.basic.html:252
@@ -1905,30 +1945,37 @@ msgid ""
 "Then, you can watch your transactions and receive payments everywhere "
 "without carrying your TREZOR."
 msgstr ""
+"Затем вы можете посмотреть на Ваши транзакции и получать платежи повсюду без "
+"наличия Вашего TREZORа с собой."
 
 #: views/modal/button.html:80
 msgid ""
 "This action cannot be undone. Please <strong>confirm on your device</strong>."
 msgstr ""
+"Это действие нельзя отменить. Пожалуйста, <strong>подтвердите на Вашем "
+"устройстве</strong>."
 
 #: views/import.html:11
 msgid "This is an advanced interface intended for developer use only!"
 msgstr ""
+"Этот расширенный интерфейс предназначен исключительно для разработчиков!"
 
 #: views/device/custom-firmware.html:9 views/device/load.html:9
 msgid "This is an advanced interface intended for EXPERT use only!"
-msgstr ""
+msgstr "Этот расширенный интерфейс предназначен исключительно для ЭКСПЕРТОВ!"
 
 #: views/device/index.setup.html:15
 msgid ""
 "This label will be shown on the display when you plug your TREZOR in. This "
 "is useful if you have more than one device."
 msgstr ""
+"При подключении Вашего TREZORа на дисплее отобразится это обозначение. Это "
+"полезно, если у Вас имеется более одного устройства."
 
 #. The whole text: Connection to the server has been lost, but don't worry, your bitcoins are safe. Please try to reload *this page or choose another server in* application settings.
 #: views/alertbars/offline.html:28
 msgid "this page or choose another server in"
-msgstr ""
+msgstr "эту страницу или выберите другой сервер в"
 
 #: views/install/udev.html:53
 msgid "This step is needed only on Linux."
@@ -1938,57 +1985,65 @@ msgstr "Этот шаг необходим только на Linux."
 #: views/account/transactions/table.html:9
 msgctxt "transaction-list"
 msgid "Timestamp"
-msgstr ""
+msgstr "Временная отметка"
 
 #. Used when estimating transaction time (Expected time: from 5 minutes *to* 10 minutes)
 #: views/account/send/fees.html:78
 msgctxt "transaction-time"
 msgid "to"
-msgstr ""
+msgstr "Кому"
 
 #. Used as a suggested name for a transaction. *To* Account #2
 #: views/otherStrings.html:26
 msgctxt "address-suggest"
 msgid "To"
-msgstr ""
+msgstr "Кому"
 
 #. This is shown in the header in the transaction list
 #: views/account/transactions/table.html:13
 msgctxt "transaction-list"
 msgid "To / Comment"
-msgstr ""
+msgstr "Кому / комментарий"
 
 #: views/account/receive/index.html:65 views/account/receive/index.html:83
 msgid ""
 "To access subsequent addresses, please use some of the listed addresses in a "
 "transaction."
 msgstr ""
+"Для доступа к последующим адресам используйте некоторые из перечисленных "
+"адресов в транзакции."
 
 #: views/nav.html:214
 msgid ""
 "To add accounts, make sure your device is connected and the last account is "
 "not empty."
 msgstr ""
+"Чтобы добавить учетные записи, убедитесь, что устройство подключено и "
+"последняя учетная запись не является пустой."
 
 #: views/modal/firmware.html:35
 msgid ""
 "To enjoy full functionality and security of your device, we strongly "
 "recommend you to update."
 msgstr ""
+"Для полной функциональности и безопасности Вашего устройства, мы "
+"настоятельно рекомендуем обновить устройство."
 
 #: views/install/udev.html:10
 msgid ""
 "To finish the installation, install a small package before connecting TREZOR."
 msgstr ""
+"Чтобы завершить установку, установите небольшой пакет перед подключением "
+"TREZOR."
 
 #: views/modal/firmware.html:20
 msgid "To update the firmware:"
-msgstr ""
+msgstr "Для обновления прошивки:"
 
 #. PIN strength
 #: views/modal/pin.html:87
 msgid "Too Long"
-msgstr ""
+msgstr "Слишком длинный"
 
 #. This is a short label in the device Basic page
 #: views/device/index.basic.html:108
@@ -2009,7 +2064,7 @@ msgstr "Транзакция"
 #: views/account/transactions/table.html:41
 #: views/account/transactions/table.html:62 views/debug.html:123
 msgid "Transaction info at blockchain.info"
-msgstr ""
+msgstr "Информация о транзакции на blockchain.info"
 
 #. In text: 'Loading (123 transactions)', it is always plural
 #: views/nav.html:174
@@ -2025,29 +2080,29 @@ msgstr "Транзакции"
 
 #: views/install/bridge.force.html:8
 msgid "TREZOR Bridge update"
-msgstr ""
+msgstr "Обновление TREZOR Bridge"
 
 #: views/account/sign/index.html:184 views/account/sign/index.html:51
 msgid "TREZOR can show only 64 letters on the display."
-msgstr ""
+msgstr "TREZOR может показать на дисплее только 64 буквы."
 
 #: views/account/sign/index.html:58
 msgid "TREZOR cannot sign non-ASCII characters."
-msgstr ""
+msgstr "TREZOR не может подписывать символы не-ASCII."
 
 #: views/account/sign/index.html:191
 msgid "TREZOR cannot verify non-ASCII characters."
-msgstr ""
+msgstr "TREZOR не может проверять не-ASCII символы."
 
 #: views/error.html:5
 msgid "TREZOR loading failed"
-msgstr ""
+msgstr "Ошибка загрузки TREZOR"
 
 #. This is on a button; clicking it will start TREZOR recovery.
 #: views/device/index.html:12
 msgctxt "button"
 msgid "TREZOR Recovery"
-msgstr ""
+msgstr "Восстановление TREZORа"
 
 #: views/device/index.basic.html:7
 msgid "Try again"
@@ -2056,12 +2111,12 @@ msgstr "Попробуйте снова"
 #. PIN strength
 #: views/modal/pin.html:91
 msgid "Ultimate"
-msgstr ""
+msgstr "Окончательный"
 
 #. Unconfirmed transaction, in the transaction list, will have this instead of date.
 #: views/account/transactions/table.html:65
 msgid "Unconfirmed"
-msgstr "Неподтвержденно"
+msgstr "Не подтверждено"
 
 #. This is shown in the transaction list when the transaction is to the user himseld.
 #: views/account/transactions/txAddress.html:35
@@ -2075,6 +2130,8 @@ msgid ""
 "Unlike your TREZOR, computers are not safe. Malware might replace bitcoin "
 "addresses you see."
 msgstr ""
+"В отличие от Вашего TREZORа, компьютеры не являются безопасными. Вредоносные "
+"программы могут заменять биткойн адреса, которые Вы видите."
 
 #. Shown in the list of addresses, the small comment below an address
 #: views/account/receive/address.html:99
@@ -2086,31 +2143,33 @@ msgid ""
 "Update contains bug-fixes for all platforms and performance improvements for "
 "Windows users."
 msgstr ""
+"Обновление содержит исправления для всех платформ, а также улучшения "
+"производительности для пользователей Windows."
 
 #: views/modal/firmware.html:368
 msgid "Update failed"
-msgstr ""
+msgstr "Не удалось обновить"
 
 #: views/modal/firmware.html:359
 msgid "Update was successful"
-msgstr ""
+msgstr "Обновление выполнено успешно"
 
 #: views/modal/firmware.html:194 views/modal/firmware.html:275
 #: views/modal/firmware.html:97
 msgid "Upgrade"
-msgstr ""
+msgstr "Обновить"
 
 #. Upgrade refers to bridge upgrade
 #: views/alertbars/firmware.html:6
 msgctxt "firmware-update"
 msgid "Upgrade for the newest features and bug fixes."
-msgstr ""
+msgstr "Обновить, чтобы иметь доступ к новейшим функциям и исправлениям."
 
 #. Upgrade refers to bridge upgrade
 #: views/alertbars/bridge.html:5
 msgctxt "bridge-update"
 msgid "Upgrade for the newest features and bug fixes."
-msgstr ""
+msgstr "Обновить, чтобы иметь доступ к новейшим функциям и исправлениям."
 
 #. This is a small label in the Homescreen tab
 #: views/device/homescreen.html:9
@@ -2120,30 +2179,32 @@ msgstr "Загрузить изображение"
 
 #: views/modal/firmware.html:329
 msgid "Uploading firmware..."
-msgstr ""
+msgstr "Загрузка прошивки..."
 
 #: views/settings.html:24
 msgid "URL needs to start with https://"
-msgstr ""
+msgstr "URL-адрес должен начинаться с https://"
 
 #: views/settings.html:28
 msgid "URL needs to start with https:// or http://"
-msgstr ""
+msgstr "URL-адрес должен начинаться с https:// или http://"
 
 #. Part of a long text about Dropbox and labeling
 #: views/modal/dropbox.html:36
 msgid "use the full-text search"
-msgstr ""
+msgstr "Использование поиска по всему тексту"
 
 #: views/device/advanced.html:180
 msgid ""
 "Use this feature only if you have your Recovery Seed or you don't have any "
 "coins on your device."
 msgstr ""
+"Используйте эту функцию, только в том случае, если рядом есть Ваша фраза "
+"восстановления или же когда на Вашем устройстве нет биткойнов."
 
 #: views/nav.html:23 views/nav.html:69
 msgid "Used in other window"
-msgstr ""
+msgstr "Используется в другом окне"
 
 #: views/device/advanced.html:159 views/device/index.basic.html:102
 msgid ""
@@ -2151,28 +2212,33 @@ msgid ""
 "persons from stealing your bitcoins even when they get physical access to "
 "your device."
 msgstr ""
+"Рекомендуется использование защиты ПИН-кода. ПИН-код предотвращает кражу "
+"Ваших биткойнов посторонними лицами, даже в том случае, когда они получают "
+"физический доступ к Вашему устройству."
 
 #. This is on a hidden page.
 #: views/device/custom-firmware.html:10
 msgid "Using this process might make your TREZOR unusable."
 msgstr ""
+"Использование этого процесса может сделать Ваш TREZOR непригодным для "
+"эксплуатации."
 
 #. This is displayed on Android.
 #: views/install/mobile.android.html:5
 msgid "Using TREZOR with your Android?"
-msgstr ""
+msgstr "Используете TREZOR на Android?"
 
 #. This is on a button in the sign/verify form.
 #: views/account/sign/index.html:227
 msgctxt "button"
 msgid "Verify"
-msgstr ""
+msgstr "Проверка"
 
 #. This is a header in the sign window
 #: views/account/sign/index.html:145
 msgctxt "header"
 msgid "Verify message"
-msgstr ""
+msgstr "Проверка сообщения"
 
 #: views/modal/firmware.html:253 views/modal/firmware.html:68
 msgid "Versions"
@@ -2180,15 +2246,15 @@ msgstr "Версии"
 
 #: views/modal/qr.html:9
 msgid "Waiting for camera&hellip;"
-msgstr ""
+msgstr "Ожидание камеры &hellip;"
 
 #: views/account/receive/index.html:122
 msgid "Waiting for transaction history"
-msgstr ""
+msgstr "Ожидание истории транзакций"
 
 #: views/device/index.html:11
 msgid "Want to restore your wallet from recovery seed?"
-msgstr ""
+msgstr "Хотите восстановить Ваш кошелек с помощью фразы восстановления?"
 
 #: views/account/sign/index.html:174 views/account/sign/index.html:183
 #: views/account/sign/index.html:42 views/account/sign/index.html:50
@@ -2200,6 +2266,8 @@ msgid ""
 "Warning: This log can contain your XPUB. When you give it to a third party, "
 "you allow it to see your whole transaction history."
 msgstr ""
+"Предупреждение: Этот журнал может содержать Ваш XPUB. Когда Вы даете его "
+"третьей стороне, Вы тем самым позволяете увидеть историю Ваших транзакций."
 
 #: views/account/nav.html:56
 msgid "Warning!"
@@ -2209,13 +2277,16 @@ msgstr "Предупреждение!"
 #: views/debug.html:127
 msgctxt "send-done"
 msgid "was successfully sent."
-msgstr ""
+msgstr "был успешно отправлен."
 
 #: views/install/mobile.html:4
 msgid ""
 "We are sorry, myTREZOR is not yet supported on phones and tablets. Please "
 "use a computer with Windows, OS X or Linux operating system."
 msgstr ""
+"Извините, но пока что myTREZOR не поддерживается на телефонах и планшетах. "
+"Пожалуйста, используйте компьютер с операционной системой Windows, OS X или "
+"Linux."
 
 #. This text is displayed, when the amount is too high. Its goal is to get user to re-check the address. This is the third line.
 #: views/account/send/index.html:39
@@ -2223,16 +2294,20 @@ msgid ""
 "We recommend you to verify the payment address through independent "
 "communication channels such as a phone call or a text message."
 msgstr ""
+"Советуем Вам проверить адрес оплаты через независимые коммуникационные "
+"каналы, такие как телефонный звонок или же текстовое сообщение."
 
 #: views/modal/setup.html:11 views/modal/setup.html:19
 msgid ""
 "We will now show you 24 words that will allow you to recover your accounts "
 "in case you lose your device."
 msgstr ""
+"Теперь мы покажем Вам 24 слова, которые позволят восстановить Ваши счета в "
+"случае потери Вашего устройства."
 
 #: views/modal/setup.html:27 views/modal/setup.html:34
 msgid "We will now show you the 24 words again."
-msgstr ""
+msgstr "Сейчас мы снова покажем Вам эти 24 слова."
 
 #. PIN strength
 #: views/modal/pin.html:88
@@ -2241,7 +2316,7 @@ msgstr "Слабый"
 
 #: views/device/index.setup.html:3
 msgid "Welcome to TREZOR Setup!"
-msgstr ""
+msgstr "Добро пожаловать в установку TREZOR!"
 
 #: views/top.nav.html:3
 msgid "What is TREZOR?"
@@ -2252,52 +2327,60 @@ msgid ""
 "When you give them to a third party, you allow it to see your whole "
 "transaction history."
 msgstr ""
+"Когда Вы даете его третьей стороне, Вы тем самым позволяете им увидеть "
+"историю Ваших транзакций."
 
 #. This is written on a button, clicking it will wipe the device
 #: views/device/advanced.html:195
 msgctxt "button"
 msgid "Wipe device"
-msgstr ""
+msgstr "Очистка устройства"
 
 #. This is a short label in the device Advanced page
 #: views/device/advanced.html:171
 msgctxt "advanced-label"
 msgid "Wipe device"
-msgstr ""
+msgstr "Очистка устройства"
 
 #: views/debug.html:56
 msgid "Wipe failed."
-msgstr ""
+msgstr "Не удалось выполнить очистку."
 
 #: views/modal/disconnect.wipe.html:4 views/modal/forget.wipe.html:4
 msgid "Wipe finished"
-msgstr ""
+msgstr "Очистка завершена"
 
 #: views/device/advanced.html:179
 msgid "Wiping the device <b>removes all its information.</b>"
-msgstr ""
+msgstr "Очистка устройства <b>удаляет с него всю информацию.</b>"
 
 #: views/install/main.html:77
 msgid ""
 "With TREZOR Chrome Extension you can use myTREZOR in Chrome without "
 "installing any other software."
 msgstr ""
+"С помощью Chrome Extension TREZOR можно использовать myTREZOR в Chrome без "
+"установки другого программного обеспечения."
 
 #: views/device/recovery.html:30
 msgid "Words are going to be entered in shuffled order."
-msgstr ""
+msgstr "Слова будут введены в перемешанном порядке."
 
 #: views/modal/forget.disconnected.html:7
 msgid ""
 "Would you like myTREZOR to forget your device or to remember it, so that it "
 "is still visible even while disconnected?"
 msgstr ""
+"Вы хотите, чтобы myTREZOR забыл или запомнил Ваше устройство, вследствие "
+"чего его будет видно даже при отключении?"
 
 #: views/modal/forget.wipe.html:9
 msgid ""
 "Would you like myTREZOR to forget your old device with the old data or to "
 "remember it?"
 msgstr ""
+"Вы хотите, чтобы myTREZOR забыл старое устройство со старыми данными или "
+"запомнил его?"
 
 #: views/modal/firmware.html:200 views/modal/firmware.html:281
 msgid "Yes, update"
@@ -2306,18 +2389,20 @@ msgstr "Да, обновить"
 #. This is displayed on Android.
 #: views/install/mobile.android.html:19
 msgid "You can also download and install the APK directly."
-msgstr ""
+msgstr "Вы также можете загрузить и установить APK непосредственно."
 
 #. Blockchain.info link follows
 #: views/debug.html:22
 msgid "You can try to resend this transaction using"
-msgstr ""
+msgstr "Вы можете попытаться повторно отправить эту транзакцию с помощью"
 
 #: views/device/recovery.html:32
 msgid ""
 "You might be asked to retype some words that are not part of your recovery "
 "seed."
 msgstr ""
+"Вам может быть предложено повторно ввести несколько слов, которые не "
+"являются частью Вашей фразы восстановления."
 
 #. Whole text: If you disable the passphrase encryption, your current funds will not appear. You will have to enable the passphrase encryption again to see your current wallet.
 #: views/device/advanced.html:80
@@ -2325,11 +2410,13 @@ msgid ""
 "You will have to enable the passphrase encryption again to see your current "
 "wallet."
 msgstr ""
+"Чтобы снова увидеть Ваш текущий бумажник, необходимо будет включить "
+"шифрование кодовой фразы."
 
 #. This text is displayed, when the amount is too high. Its goal is to get user to re-check the address. This is the first line.
 #: views/account/send/index.html:24
 msgid "You're about to send a lot of money!"
-msgstr ""
+msgstr "Вы собираетесь отправить кучу денег!"
 
 #. This is shown in the 'hinting' in send dialogue. It means the shown address is an address of a different user's account.
 #: views/account/send/txTypeAhead.html:25
@@ -2340,11 +2427,11 @@ msgstr "ваш аккаунт"
 #: views/modal/firmware.html:117 views/modal/firmware.html:146
 #: views/modal/firmware.html:17 views/modal/firmware.html:302
 msgid "Your device firmware is outdated"
-msgstr ""
+msgstr "Прошивка устройства устарела"
 
 #: views/jumbotrons/noaccounts.html:5
 msgid "Your device is not fully loaded. Reconnect it to use it."
-msgstr ""
+msgstr "Устройство не загрузилось полностью. Подключите его снова."
 
 #: views/device/homescreen.html:102
 msgid "Your images"
@@ -2353,13 +2440,14 @@ msgstr "Ваши изображения"
 #: views/modal/firmware.html:192 views/modal/firmware.html:273
 #: views/modal/firmware.html:95
 msgid "Your installation of TREZOR Bridge needs to be upgraded first."
-msgstr ""
+msgstr "Сначала нужно произвести обновление установок TREZOR Bridge."
 
 #. This will always be singular, and > 200.
 #: views/account/sign/index.html:44 views/account/sign/index.html:52
 msgid ""
 "Your message is {{accountSignCtrl.signMessage.message.length}} letters long."
 msgstr ""
+"Длина Вашего сообщения {{accountSignCtrl.signMessage.message.length}} букв."
 
 #. This will always be singular, and > 200.
 #: views/account/sign/index.html:176
@@ -2367,20 +2455,23 @@ msgid ""
 "Your message is {{accountSignCtrl.verifyMessage.message.length}} letters "
 "long."
 msgstr ""
+"Длина Вашего сообщения {{accountSignCtrl.verifyMessage.message.length}} букв."
 
 #: views/modal/firmware.html:41
 msgid ""
 "Your TREZOR is already initialized. Check that you have your Recovery seed "
 "with you before updating the firmware!"
 msgstr ""
+"Ваш TREZOR уже инициализирован. Перед обновлением прошивки убедитесь, что "
+"Ваша фраза восстановления рядом с Вами!"
 
 #: views/modal/firmware.html:307
 msgid "Your TREZOR is not in the firmware update mode."
-msgstr ""
+msgstr "Ваш TREZOR не находится в режиме обновления прошивки."
 
 #: views/modal/disconnect.wipe.html:7 views/modal/forget.wipe.html:7
 msgid "Your TREZOR was successfully wiped."
-msgstr ""
+msgstr "Данные с Вашего TREZORа были успешно стерты."
 
 #~ msgid "Error"
 #~ msgstr "Ошибка"
