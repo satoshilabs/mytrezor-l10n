@@ -4,22 +4,22 @@ msgstr ""
 "POT-Creation-Date: \n"
 "PO-Revision-Date: 2016-09-15 14:57+0000\n"
 "Last-Translator: Bach Nguyen <bach.nguyen@satoshilabs.com>\n"
-"Language-Team: Ukrainian "
-"<https://hosted.weblate.org/projects/satoshilabs/mytrezor/uk/>\n"
+"Language-Team: Ukrainian <https://hosted.weblate.org/projects/satoshilabs/"
+"mytrezor/uk/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
-"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 2.9-dev\n"
 
-#. The whole text: Connection to the server has been lost*, but don't worry, your bitcoins are safe.* Please try to reload this page or choose another server in application settings.
-#: views/alertbars/offline.html:8
-msgid ", but don't worry, your bitcoins are safe."
-msgstr ", але не хвилюйтеся, Ваші біткойни знаходяться в повній безпеці."
+#. this is second part of sentence 'Forget [device_name]?'
+#: views/modal/forget.disconnected.html:4 views/modal/forget.requested.html:4
+msgid "?"
+msgstr ""
 
-#: views/nav.html:117
+#: views/nav.html:116
 msgid "(automatically in"
 msgstr "(автоматично в"
 
@@ -71,7 +71,7 @@ msgid "Account balance information is inconsistent."
 msgstr "Дані балансу рахунку суперечливі."
 
 #. This is a short label in the device Basic page
-#: views/device/index.basic.html:141
+#: views/device/index.basic.html:145
 msgctxt "basic-label"
 msgid "Account public keys (XPUB)"
 msgstr "Публічні ключі рахунку (XPUB)"
@@ -80,11 +80,11 @@ msgstr "Публічні ключі рахунку (XPUB)"
 msgid "Account XPUBs"
 msgstr "XPUBи рахунку"
 
-#: views/debug.html:68 views/debug.html:71
+#: views/debug.html:60 views/debug.html:63
 msgid "Action was interrupted"
 msgstr "Дію перервано"
 
-#: views/nav.html:218 views/nav.html:225
+#: views/nav.html:222 views/nav.html:230 views/nav.html:239
 msgid "Add account"
 msgstr "Додати рахунок"
 
@@ -92,7 +92,7 @@ msgstr "Додати рахунок"
 msgid "Add comment"
 msgstr "Додати коментар"
 
-#: views/account/send/buttonBar.html:19
+#: views/account/send/buttonBar.html:24
 msgid "Add recipient"
 msgstr "Додати одержувача"
 
@@ -111,15 +111,15 @@ msgctxt "recovery-label"
 msgid "Additional passphrase encryption"
 msgstr "Додаткове шифрування кодової фрази"
 
-#. This is a label to the sign/verify form.
-#: views/account/sign/index.html:197 views/account/sign/index.html:65
-msgctxt "sign"
-msgid "Address"
-msgstr "Адреса"
-
 #. This is a label to the sending form. (Address/amount/comment)
 #: views/account/send/txAddress.html:4
 msgctxt "send"
+msgid "Address"
+msgstr "Адреса"
+
+#. This is a label to the sign/verify form.
+#: views/account/sign/index.html:197 views/account/sign/index.html:65
+msgctxt "sign"
 msgid "Address"
 msgstr "Адреса"
 
@@ -127,7 +127,7 @@ msgstr "Адреса"
 msgid "Address is required."
 msgstr "Потрібно вписати адресу."
 
-#: views/debug.html:35
+#: views/debug.html:27
 msgid "Address verification failed."
 msgstr "Помилка верифікації адреси."
 
@@ -137,7 +137,7 @@ msgctxt "header"
 msgid "Advanced"
 msgstr "Розширений"
 
-#: views/modal/button.html:79
+#: views/modal/button.html:93
 msgid "All data on your device will be deleted."
 msgstr "Усі дані на Вашому пристрої буде стерто."
 
@@ -155,23 +155,14 @@ msgstr ""
 "якщо Ваш аккаунт Dropbox буде скомпрометовано, Ваші особисті дані залишаться "
 "в безпеці."
 
-#: views/modal/button.html:103 views/modal/button.html:108
-#: views/modal/button.html:120 views/modal/button.html:126
-msgid "Allow labeling for current accounts?"
-msgstr "Дозволити позначення для поточних рахунків?"
-
-#: views/modal/button.html:114
-msgid "Allow labeling for this account?"
-msgstr "Дозволити позначення для цього рахунку?"
-
-#. This is a label to the sending form. (Address/amount/comment)
-#: views/account/send/txAmount.html:5
-msgid "Amount"
-msgstr "Сума"
-
 #. This is shown in the header in the transaction list
 #: views/account/transactions/table.html:17
 msgctxt "transaction-list"
+msgid "Amount"
+msgstr "Сума"
+
+#. This is a label to the sending form. (Address/amount/comment)
+#: views/account/send/txAmount.html:5
 msgid "Amount"
 msgstr "Сума"
 
@@ -198,15 +189,17 @@ msgstr ""
 "API ключі стануть в нагоді в тому випадку, якщо Ви захочете імпортувати "
 "гаманець в режимі перегляду (watch-only)."
 
-#: views/footer.right.html:3 views/settings.html:13
+#: views/footer.html:7
+msgid "App Settings"
+msgstr ""
+
+#: views/settings.html:31
 msgid "Application Settings"
 msgstr "Параметри додатку"
 
-#. The whole text: Connection to the server has been lost, but don't worry, your bitcoins are safe. Please try to reload this page or choose another server in *application settings* (without the dot)
-#: views/alertbars/offline.html:32
-msgctxt "offline-header"
-msgid "Application Settings"
-msgstr "Параметри додатку"
+#: views/alertbars/offline.html:21
+msgid "Backend server is down."
+msgstr ""
 
 #. This is shown in the header in the transaction list
 #: views/account/transactions/table.html:21
@@ -220,7 +213,7 @@ msgctxt "header"
 msgid "Basic"
 msgstr "Основний"
 
-#: views/device/index.basic.html:176 views/device/index.basic.html:226
+#: views/device/index.basic.html:181 views/device/index.basic.html:231
 msgid "Be careful with your XPUBs."
 msgstr "Будьте обережні з Вашими XPUBами."
 
@@ -228,35 +221,27 @@ msgstr "Будьте обережні з Вашими XPUBами."
 msgid "BIP32 Path:"
 msgstr "BIP32 шлях:"
 
-#: views/settings.html:20
+#: views/settings.html:61
 msgid "Bitcore Server URL"
 msgstr "URL-адреса сервера Bitcore"
 
-#: views/debug.html:26
-msgid "Blockchain.info's Broadcast Transaction tool"
-msgstr "Інструмент трансляції транзакцій від Blockchain.info"
+#: index.html:43 views/top.nav.html:12
+msgid "Blog"
+msgstr ""
 
 #: views/modal/_header.html:4
 msgid "Bootloader mode"
 msgstr "Режим завантажувача"
 
-#. This is on a button, for browsing images for homescreen tab
-#: views/device/homescreen.html:17
-msgctxt "button"
-msgid "Browse"
-msgstr "Перегляд"
-
 #: views/device/custom-firmware.html:35 views/device/load.html:65
-#: views/device/recovery.html:157 views/import.html:55 views/modal/csv.html:44
-#: views/modal/disconnect.html:14
-#: views/modal/disconnect.passphrase_disable.html:14
-#: views/modal/disconnect.passphrase_enable.html:14
-#: views/modal/dropbox.html:55 views/modal/firmware.html:107
-#: views/modal/firmware.html:135 views/modal/firmware.html:164
-#: views/modal/firmware.html:211 views/modal/firmware.html:292
-#: views/modal/firmware.html:313 views/modal/qr.html:17 views/settings.html:44
+#: views/device/recovery.html:157 views/import.html:55
 msgid "Cancel"
 msgstr "Скасувати"
+
+#. PIN strength
+#: views/modal/pin.html:92
+msgid "Careful, It's too easy to guess."
+msgstr ""
 
 #: views/modal/firmware.html:179 views/modal/firmware.html:226
 #: views/modal/firmware.html:40
@@ -291,7 +276,7 @@ msgstr "Змінити PIN-код"
 msgid "Changelog"
 msgstr "Журнал змін"
 
-#: views/modal/button.html:56
+#: views/modal/button.html:70
 msgid "Check address on TREZOR display"
 msgstr "Перевірте адресу на дисплеї TREZOR"
 
@@ -301,7 +286,7 @@ msgctxt "button"
 msgid "Clear"
 msgstr "Очистити"
 
-#: views/device/index.basic.html:184 views/device/index.basic.html:235
+#: views/device/index.basic.html:189 views/device/index.basic.html:240
 msgid "Click on XPUB to show its QR code."
 msgstr "Натисніть на XPUB, щоб побачити його QR-код."
 
@@ -309,7 +294,7 @@ msgstr "Натисніть на XPUB, щоб побачити його QR-код
 msgid "Click to hide address"
 msgstr "Натисніть, щоб приховати адресу"
 
-#: views/nav.html:26 views/nav.html:72
+#: views/nav.html:24 views/nav.html:71
 msgid "Click to renew session"
 msgstr "Натисніть кнопку, щоб відновити сеанс"
 
@@ -317,8 +302,15 @@ msgstr "Натисніть кнопку, щоб відновити сеанс"
 msgid "Click to show address"
 msgstr "Натисніть, щоб переглянути адресу"
 
-#: views/debug.html:7 views/debug.html:84 views/debug.log.html:8
-#: views/modal/firmware.html:376
+#: views/debug.html:7 views/debug.html:89 views/debug.log.html:8
+#: views/modal/csv.html:44 views/modal/disconnect.html:14
+#: views/modal/disconnect.passphrase_disable.html:14
+#: views/modal/disconnect.passphrase_enable.html:14
+#: views/modal/dropbox.html:55 views/modal/firmware.html:107
+#: views/modal/firmware.html:135 views/modal/firmware.html:164
+#: views/modal/firmware.html:211 views/modal/firmware.html:292
+#: views/modal/firmware.html:313 views/modal/firmware.html:376
+#: views/modal/qr.html:17 views/settings.html:93
 msgid "Close"
 msgstr "Закрити"
 
@@ -332,19 +324,27 @@ msgstr "coffee.  Автор: jen   Лицензія: CC BY 2.0"
 msgid "Comment"
 msgstr "Коментар"
 
+#: views/modal/button.html:14 views/modal/button.html:47
+msgid "Confirm action on your device."
+msgstr ""
+
+#: views/modal/button.html:112 views/modal/button.html:119
+msgid "Confirm action on your TREZOR device."
+msgstr ""
+
 #: views/device/recovery.html:57
 msgid "Confirm choice by pressing enter."
 msgstr "Підтвердити вибір, натиснувши кнопку Enter."
 
-#: views/modal/button.html:88
+#: views/modal/button.html:102
 msgid "Confirm passphrase encryption"
 msgstr "Підтвердіть шифрування кодової фрази"
 
-#: views/modal/button.html:130
-msgid "Confirm the action on your device."
-msgstr "Підтвердіть дію на Вашому пристрої."
+#: views/modal/button.html:19
+msgid "Confirm provided information."
+msgstr ""
 
-#: views/debug.html:97
+#: views/debug.html:102
 msgid "Congratulations! Your device is now ready to use."
 msgstr "Вітаємо! Ваш пристрій готовий до використання."
 
@@ -372,7 +372,7 @@ msgstr "Підключіть пристрій, щоб увімкнути код�
 msgid "Connect the device to enable PIN."
 msgstr "Підключіть пристрій, щоб активувати PIN-код."
 
-#: views/device/homescreen.html:36
+#: views/device/homescreen.html:37
 msgid "Connect the device to set its homescreen."
 msgstr "Підключіть пристрій для встановлення заставки."
 
@@ -380,7 +380,7 @@ msgstr "Підключіть пристрій для встановлення з
 msgid "Connect to Dropbox"
 msgstr "Підключити до Dropbox"
 
-#: views/top.bar.html:21
+#: views/footer.html:20
 msgid ""
 "Connect to Dropbox to enable:<br>- renaming accounts<br>- commenting "
 "transactions<br>- labeling addresses and more..."
@@ -400,14 +400,13 @@ msgstr "Підключіть Ваш TREZOR до комп'ютера."
 msgid "Connect your TREZOR to display this address"
 msgstr "Підключіть Ваш TREZOR, щоб відобразити цю адресу"
 
-#: views/nav.html:84
+#: views/nav.html:83
 msgid "Connected"
 msgstr "Підключено"
 
-#. The whole text: *Connection to the server has been lost*, but don't worry, your bitcoins are safe. Please try to reload this page or choose another server in application settings.
-#: views/alertbars/offline.html:5
-msgid "Connection to the server has been lost"
-msgstr "З'єднання з сервером було втрачено"
+#: index.html:46 views/top.nav.html:15
+msgid "Contact"
+msgstr ""
 
 #: views/device/custom-firmware.html:32 views/device/index.setup.html:21
 #: views/device/load.html:62 views/device/recovery.html:154
@@ -419,13 +418,28 @@ msgstr "Продовжити"
 msgid "counting..."
 msgstr "йде підрахунок..."
 
+#: views/settings.html:51
+msgid "Currency backend"
+msgstr ""
+
+#. This is a small label in the Homescreen tab
+#: views/device/homescreen.html:9
+msgctxt "label"
+msgid "Custom image"
+msgstr ""
+
 #: views/modal/firmware.html:72
 msgid "Device"
 msgstr "Пристрій"
 
-#: views/nav.html:96
+#: views/nav.html:95
 msgid "Device could not be opened."
 msgstr "Не вдалося відкрити пристрій."
+
+#. Device firmware is outdated.
+#: views/modal/firmware.html:17
+msgid "Device firmware is outdated."
+msgstr ""
 
 #: views/device/recovery.html:81
 msgid "Device has to be wiped before recovery."
@@ -439,12 +453,6 @@ msgstr "ID пристрою"
 msgid "Device is updated in other window"
 msgstr "Пристрій оновлюється в іншому вікні"
 
-#. This is a short label in the device recovery page
-#: views/device/recovery.html:87
-msgctxt "recovery-label"
-msgid "Device label"
-msgstr "Позначення пристрою"
-
 #. This is a short label in the normally hidden, advanced Load page
 #: views/device/load.html:22
 msgctxt "load-label"
@@ -452,6 +460,12 @@ msgid "Device label"
 msgstr "Позначення пристрою"
 
 #: views/device/index.setup.html:9 views/import.html:22
+msgid "Device label"
+msgstr "Позначення пристрою"
+
+#. This is a short label in the device recovery page
+#: views/device/recovery.html:87
+msgctxt "recovery-label"
 msgid "Device label"
 msgstr "Позначення пристрою"
 
@@ -465,15 +479,15 @@ msgctxt "button"
 msgid "Disable passphrase encryption"
 msgstr "Вимкнути шифрування кодової фрази"
 
-#. This is a short label in the device Advanced page
-#: views/device/advanced.html:129
-msgctxt "advanced-label"
-msgid "Disable PIN"
-msgstr "Вимкнути PIN-код"
-
 #. This is written on a button, clicking it will disable PIN
 #: views/device/advanced.html:147
 msgctxt "button"
+msgid "Disable PIN"
+msgstr "Вимкнути PIN-код"
+
+#. This is a short label in the device Advanced page
+#: views/device/advanced.html:129
+msgctxt "advanced-label"
 msgid "Disable PIN"
 msgstr "Вимкнути PIN-код"
 
@@ -501,7 +515,7 @@ msgstr "Від'єднайте Ваш TREZOR, щоб відключити код�
 msgid "Disconnect your TREZOR to enable passphrase."
 msgstr "Від'єднайте Ваш TREZOR, щоб включити кодову фразу."
 
-#: views/nav.html:81
+#: views/nav.html:80
 msgid "Disconnected"
 msgstr "Від'єднано"
 
@@ -527,11 +541,23 @@ msgstr "Ви хочете забути Ваш пристрій?"
 msgid "Do you want to update the device firmware?"
 msgstr "Бажаєте оновити прошивку пристрою?"
 
+#: index.html:40 views/top.nav.html:9
+msgid "Docs"
+msgstr ""
+
 #. Button in remember/forget dialog
 #: views/modal/forget.requested.html:11
 msgctxt "forget-button"
 msgid "Don't forget"
 msgstr "Не забувати"
+
+#: views/account/send/txAddress.html:16
+msgid "Don't forget to double check the address ..."
+msgstr ""
+
+#: views/alertbars/offline.html:22
+msgid "Don't worry, your funds are safe."
+msgstr ""
 
 #: views/install/bridge.force.html:19 views/install/main.html:28
 #: views/install/main.html:57 views/install/udev.html:21
@@ -547,19 +573,24 @@ msgstr "Завантажити TREZOR Manager App на Google Play."
 msgid "Downloading firmware..."
 msgstr "Завантаження прошивки..."
 
-#: views/top.bar.html:32
+#: views/footer.html:31
 msgid "Dropbox connected. Click to disconnect it."
 msgstr "Dropbox підключений. Натисніть, щоб від'єднати його."
 
 #. Transaction fee size menu
-#: views/account/send/fees.html:22
+#: views/account/send/fees.html:28
 msgctxt "transaction-fee"
 msgid "Economy"
 msgstr "Економна"
 
-#: views/modal/button.html:4 views/modal/dropbox.html:7
+#: views/modal/dropbox.html:7
 msgid "Enable labeling"
 msgstr "Увімкнути позначення"
+
+#. Enable labeling on [device_name]
+#: views/modal/button.html:4
+msgid "Enable labeling on"
+msgstr ""
 
 #. This is written on a button, clicking it will enable passphrase
 #: views/device/advanced.html:63
@@ -585,23 +616,38 @@ msgctxt "pin"
 msgid "Enabled"
 msgstr "Активовано"
 
+#. This is on a pin button
+#: views/modal/pin.html:101
+msgctxt "pin-button"
+msgid "Enter"
+msgstr "Ввести"
+
 #. This is on a passphrase button
 #: views/modal/passphrase.html:60
 msgctxt "passphrase-button"
 msgid "Enter"
 msgstr "Ввести"
 
-#. This is on a pin button
-#: views/modal/pin.html:97
-msgctxt "pin-button"
+#. Enter [device_name] PIN
+#: views/modal/pin.html:14
 msgid "Enter"
-msgstr "Ввести"
+msgstr ""
+
+#. Enter new [device_name] PIN
+#: views/modal/pin.html:22
+msgid "Enter new"
+msgstr ""
+
+#. Enter passphrase for  [device_name]?
+#: views/modal/passphrase.html:9
+msgid "Enter passphrase for"
+msgstr ""
 
 #: views/device/recovery.html:47
 msgid "Enter seed word"
 msgstr "Введіть фразу відновлення"
 
-#: views/debug.html:78
+#: views/debug.html:70 views/debug.html:73
 msgid "Error details:"
 msgstr "Відомості про помилку:"
 
@@ -610,24 +656,31 @@ msgstr "Відомості про помилку:"
 msgid "Example:"
 msgstr "Приклад:"
 
-#. In the bottom footer. 'Exchange rates by Bitpay'.
-#: views/footer.left.html:4
-msgid "Exchange rates by"
-msgstr "Курси валют надані"
+#: views/account/transactions/index.html:39
+msgid "Exchange:"
+msgstr ""
 
-#: views/account/send/fees.html:41
+#: views/account/send/fees.html:48
 msgid "Expected confirmation time"
 msgstr "Очікуваний час підтвердження"
+
+#: views/settings.html:79
+msgid "Explorer URL"
+msgstr ""
 
 #: views/install/udev.html:7
 msgid "Extension installed successfully"
 msgstr "Розширення встановлено успішно"
 
+#: views/debug.html:81
+msgid "external Broadcast Transaction tool"
+msgstr ""
+
 #: views/debug.html:12
 msgid "Failed to add account."
 msgstr "Не вдалося додати рахунок."
 
-#: views/debug.html:50
+#: views/debug.html:42
 msgid "Failed to change the device label."
 msgstr "Не вдалося змінити позначення пристрою."
 
@@ -635,17 +688,21 @@ msgstr "Не вдалося змінити позначення пристрою
 msgid "Failed to renew session."
 msgstr "Не вдалося відновити сеанс."
 
-#: views/debug.html:19 views/debug.html:30
+#: views/debug.html:19 views/debug.html:22
 msgid "Failed to send transaction"
 msgstr "Не вдалося надіслати транзакцію"
 
-#: views/otherStrings.html:67
+#: views/otherStrings.html:72
 msgid "Failed to sign message"
 msgstr "Не вдалося підписати повідомлення"
 
-#: views/otherStrings.html:71
+#: views/otherStrings.html:76
 msgid "Failed to verify message"
 msgstr "Не вдалося перевірити повідомлення"
+
+#: views/account/send/fees.html:133
+msgid "Fee"
+msgstr "Комісія"
 
 #. This is a label to the sending form. (Address/amount/comment)
 #: views/account/send/fees.html:4
@@ -653,18 +710,9 @@ msgctxt "send"
 msgid "Fee"
 msgstr "Комісія"
 
-#: views/account/send/fees.html:124
-msgid "Fee"
-msgstr "Комісія"
-
-#: views/modal/button.html:12
+#: views/modal/button.html:13
 msgid "Fee is over threshold."
 msgstr "Комісія перевищує граничне значення."
-
-#. In the bottom footer. 'Fee predictions by 21.co'.
-#: views/footer.left.html:12
-msgid "Fee predictions by"
-msgstr "Прогнози комісії від"
 
 #. Fee of a transaction
 #: views/account/send/txPrepared.html:21
@@ -675,10 +723,14 @@ msgstr "Комісія:"
 msgid "Fee/kB:"
 msgstr "Комісія/кБ:"
 
-#. PIN strength
-#: views/modal/pin.html:89
-msgid "Fine"
-msgstr "Хороший"
+#. In the bottom footer. 'Fee predictions by 21.co'.
+#: views/footer.text.html:12
+msgid "Fees by"
+msgstr ""
+
+#: views/settings.html:39
+msgid "Fiat Currency"
+msgstr ""
 
 #. This is a short label in the device Advanced page
 #: views/device/advanced.html:9
@@ -707,11 +759,16 @@ msgstr ""
 "Для отримання додаткової інформації зверніться до посібника користувача."
 
 #. Button in remember/forget dialog
-#: views/modal/forget.disconnected.html:16
+#: views/modal/forget.disconnected.html:14
 #: views/modal/forget.requested.html:15
 msgctxt "forget-button"
 msgid "Forget"
 msgstr "Забути"
+
+#. this is first part of sentence 'Forget [device_name]?'
+#: views/modal/forget.disconnected.html:4 views/modal/forget.requested.html:4
+msgid "Forget"
+msgstr ""
 
 #. Button in remember/forget dialog
 #: views/modal/forget.wipe.html:16
@@ -719,15 +776,11 @@ msgctxt "forget-button"
 msgid "Forget (recommended)"
 msgstr "Забути (рекомендовано)"
 
-#: views/modal/forget.disconnected.html:4 views/modal/forget.requested.html:4
-msgid "Forget device?"
-msgstr "Забути пристрій?"
-
-#: views/nav.html:136
+#: views/nav.html:135
 msgid "Forget this device"
 msgstr "Забути цей пристрій"
 
-#: views/modal/forget.disconnected.html:9 views/modal/forget.requested.html:8
+#: views/modal/forget.requested.html:8
 msgid ""
 "Forgetting only removes the device from the list on the left, your bitcoins "
 "are still safe and you can access them by reconnecting your TREZOR again."
@@ -741,7 +794,7 @@ msgid "Fresh address"
 msgstr "Нова адреса"
 
 #. Used when estimating transaction time (Expected time: *from* 5 minutes to 10 minutes)
-#: views/account/send/fees.html:44
+#: views/account/send/fees.html:51
 msgctxt "transaction-time"
 msgid "from"
 msgstr "від"
@@ -757,13 +810,13 @@ msgstr "з історії"
 msgid "From that moment on you can:"
 msgstr "З цього моменту Ви можете:"
 
+#: views/device/homescreen.html:81
+msgid "Gallery selection"
+msgstr ""
+
 #: views/jumbotrons/start.html:4
 msgid "Get started!"
 msgstr "Розпочати роботу!"
-
-#: views/top.nav.html:9
-msgid "Help"
-msgstr "Допомога"
 
 #. This is shown on the first page user sees.
 #: views/install/main.html:5
@@ -774,12 +827,12 @@ msgstr "Вітаємо, Вам майже вдалося! Ще трошки!"
 msgid "Hide previous"
 msgstr "Приховати попереднє"
 
-#: views/account/transactions/index.html:35
+#: views/account/transactions/index.html:49
 msgid "Hide this account"
 msgstr "Приховати цей рахунок"
 
 #. Transaction fee size menu
-#: views/account/send/fees.html:14
+#: views/account/send/fees.html:20
 msgctxt "transaction-fee"
 msgid "High"
 msgstr "Висока"
@@ -790,16 +843,20 @@ msgctxt "header"
 msgid "Homescreen"
 msgstr "Заставка екрану"
 
-#: views/debug.html:47
+#: views/debug.html:39
 msgid "Homescreen change failed."
 msgstr "Не вдалося змінити заставку екрану."
 
-#: views/debug.html:106
+#: views/device/homescreen.html:27
+msgid "homescreen editor."
+msgstr ""
+
+#: views/debug.html:111
 msgid "Homescreen was successfully changed."
 msgstr "Заставку екрану змінено."
 
 #. Used when estimating transaction time (Expected time: less than 5 *minutes*)
-#: views/account/send/fees.html:54 views/account/send/fees.html:99
+#: views/account/send/fees.html:106 views/account/send/fees.html:61
 msgctxt "transaction-time"
 msgid "hour"
 msgid_plural "hours"
@@ -807,11 +864,15 @@ msgstr[0] "година"
 msgstr[1] "годин"
 msgstr[2] "годин"
 
+#: views/modal/pin.html:106
+msgid "How does the PIN work?"
+msgstr ""
+
 #: views/modal/firmware.html:330
 msgid "If asked, please confirm the update on your device."
 msgstr "За потреби просимо підтвердити оновлення на Вашому пристрої."
 
-#: views/modal/button.html:57
+#: views/modal/button.html:71
 msgid ""
 "If the address matches your TREZOR display, you can be sure it is genuine."
 msgstr ""
@@ -838,14 +899,6 @@ msgstr ""
 "Якщо Ви не можете або не бажаєте встановлювати пакет, то Ви можете "
 "встановити потрібні права доступу самостійно"
 
-#: views/modal/forget.disconnected.html:8
-msgid ""
-"If you choose to remember the device, we will not ask you this question next "
-"time you disconnect the device."
-msgstr ""
-"Якщо Ви обираєте запам'ятати пристрій, ми не задативемо Вам це питання "
-"наступного разу, коли будете від'єднувати пристрій."
-
 #. Whole text: If you disable the passphrase encryption, your current funds will not appear. You will have to enable the passphrase encryption again to see your current wallet.
 #: views/device/advanced.html:76
 msgid ""
@@ -861,7 +914,7 @@ msgstr ""
 "Якщо у Вас ще немає облікового запису в Dropbox, будь ласка, створіть його "
 "перед тим, як увійти в систему."
 
-#: views/modal/button.html:89
+#: views/modal/button.html:103
 msgid "If you forget your passphrase, you will lose your coins."
 msgstr ""
 "Якщо Ви забудете свою кодову фразу, Ви тим самим втратите Ваші біткойни."
@@ -874,14 +927,6 @@ msgstr ""
 "Якщо Ви забудете свою кодову фразу, Ваш гаманець втрачається назавжди. Не "
 "існує ніякого способу для його відновлення."
 
-#: views/device/homescreen.html:74
-msgid ""
-"If you want to make a homescreen picture from a photo or a logo, use our "
-"homescreen editor."
-msgstr ""
-"Якщо Ви бажаєте зробити заставку екрана з фотографії або лого, скористайтеся "
-"нашим редактором заставок."
-
 #: views/modal/firmware.html:180 views/modal/firmware.html:227
 msgid ""
 "If your TREZOR is already initialized, always have your Recovery seed with "
@@ -890,7 +935,7 @@ msgstr ""
 "Якщо Ваш TREZOR вже налаштований - переконайтеся, що перед оновленням "
 "прошивки Ви маєте поруч фразу відновлення!"
 
-#: views/device/homescreen.html:72
+#: views/device/homescreen.html:73
 msgid ""
 "Image must be 128 px wide and 64 px high, and using only black and white "
 "(not grayscale)."
@@ -906,7 +951,7 @@ msgstr "Імпортувати"
 msgid "Import addresses from CSV"
 msgstr "Імпортувати адреси з CSV"
 
-#: views/account/send/buttonBar.html:27
+#: views/account/send/buttonBar.html:32
 msgid "Import from CSV"
 msgstr "Імпортувати з CSV"
 
@@ -942,9 +987,14 @@ msgstr "Встановіть вихідний додаток!"
 msgid "Install TREZOR Chrome Extension"
 msgstr "Встановити розширення TREZOR для Chrome"
 
-#: views/otherStrings.html:73
+#: views/otherStrings.html:78
 msgid "Invalid signature"
 msgstr "Недійсний підпис"
+
+#. PIN strength
+#: views/modal/pin.html:93
+msgid "It's fine."
+msgstr ""
 
 #. This is a short label in the device Basic page
 #: views/device/index.basic.html:19
@@ -957,15 +1007,15 @@ msgstr "Позначення"
 msgid "label addresses"
 msgstr "Позначення адрес"
 
-#: views/account/receive/address.html:145
+#: views/account/receive/address.html:146
 msgid "Label this address"
 msgstr "Позначити цю адресу"
 
-#: views/debug.html:109
+#: views/debug.html:114
 msgid "Label was successfully changed."
 msgstr "Позначення змінено."
 
-#: views/debug.html:65
+#: views/debug.html:57
 msgid "Labeling error."
 msgstr "Помилка позначення."
 
@@ -973,14 +1023,28 @@ msgstr "Помилка позначення."
 msgid "Latest"
 msgstr "Останні"
 
-#: views/device/index.basic.html:177 views/device/index.basic.html:227
+#: views/device/index.basic.html:182 views/device/index.basic.html:232
+#: views/modal/pin.html:106
 msgid "Learn more"
 msgstr "Дізнатися більше"
+
+#: views/install/main.html:84 views/install/udev.html:60
+msgid "Learn more about Bitcoin TREZOR."
+msgstr ""
 
 #. Part of a long text about Dropbox and labeling
 #: views/modal/dropbox.html:49
 msgid "Learn more about myTREZOR labeling."
 msgstr "Дізнайтеся більше про позначення myTREZOR."
+
+#. This text is displayed, when the amount is too high. Its goal is to get user to re-check the address. This is the fourth line, and a link to our manual.
+#: views/account/send/index.html:47
+msgid "Learn more about phishing…"
+msgstr ""
+
+#: views/device/advanced.html:40 views/device/advanced.html:87
+msgid "Learn more in user manual"
+msgstr ""
 
 #. Refers to PIN input
 #: views/device/load.html:46
@@ -988,25 +1052,25 @@ msgid "leave empty to keep PIN protection disabled"
 msgstr "Залиште порожнім, щоб залишити деактивованим захист PIN-код"
 
 #. Used when estimating transaction time (Expected time: *less than* 5 minutes)
-#: views/account/send/fees.html:88
+#: views/account/send/fees.html:95
 msgctxt "transaction-time"
 msgid "less than"
 msgstr "менше ніж"
 
-#. Is displayed when TREZOR is loading, in the left column
-#: views/nav.html:66
-msgid "loading"
-msgstr "завантаження"
-
-#: views/jumbotrons/loading.html:4 views/nav.html:154 views/nav.html:167
+#: views/jumbotrons/loading.html:4 views/nav.html:153 views/nav.html:170
 msgid "Loading"
 msgstr "Завантаження"
 
-#: views/nav.html:208
+#. Is displayed when TREZOR is loading, in the left column
+#: views/nav.html:64
+msgid "Loading ..."
+msgstr ""
+
+#: views/nav.html:211
 msgid "Loading accounts..."
 msgstr "Завантаження рахунків..."
 
-#: views/debug.html:53
+#: views/debug.html:45
 msgid "Loading failed."
 msgstr "Не вдалося виконати завантаження."
 
@@ -1014,15 +1078,19 @@ msgstr "Не вдалося виконати завантаження."
 msgid "Loading of accounts failed."
 msgstr "Не вдалося виконати завантаження рахунків."
 
-#: views/account/transactions/index.html:48
+#: views/account/transactions/index.html:57
 msgid "Loading transactions"
 msgstr "Завантаження транзакцій"
 
-#: views/device/index.basic.html:117
+#: views/device/index.basic.html:121
 msgid "Loading..."
 msgstr "Завантаження..."
 
-#: views/nav.html:117
+#: views/account/transactions/index.html:38
+msgid "Local traders:"
+msgstr ""
+
+#: views/nav.html:116
 msgid "Lock this device"
 msgstr "Заблокувати цей пристрій"
 
@@ -1030,19 +1098,21 @@ msgstr "Заблокувати цей пристрій"
 msgid "Log"
 msgstr "Журнал"
 
-#: views/modal/pin.html:15 views/modal/pin.html:19
+#: views/modal/pin.html:15 views/modal/pin.html:23
 msgid "Look at the device for number positions."
 msgstr "Подивіться на пристрій, щоб побачити розташування чисел."
 
-#: views/modal/pin.html:103
-msgid "Lost? Check our user manual."
-msgstr "Втратили? Звіртесь з нашим посібником користувача."
-
 #. Transaction fee size menu
-#: views/account/send/fees.html:26
+#: views/account/send/fees.html:32
 msgctxt "transaction-fee"
 msgid "Low"
 msgstr "Низька"
+
+#: views/modal/button.html:35
+msgid ""
+"Make sure the address displayed on TREZOR is correct.<br>To prevent malware "
+"attacks, double-check the address with the recipient."
+msgstr ""
 
 #: views/modal/firmware.html:340
 msgid "Make sure the same fingerprint is displayed on the device screen."
@@ -1050,7 +1120,7 @@ msgstr ""
 "Переконайтеся в тому, що на екрані пристрою відображається той же відбиток "
 "пальців."
 
-#: views/nav.html:97
+#: views/nav.html:96
 msgid ""
 "Make sure you don't have myTREZOR running in another tab or browser window."
 msgstr ""
@@ -1065,7 +1135,7 @@ msgstr "Максимальна довжина повідомлення скла�
 msgid "Message"
 msgstr "Повідомлення"
 
-#: views/otherStrings.html:75
+#: views/otherStrings.html:80
 msgid "Message verified."
 msgstr "Повідомлення перевірено."
 
@@ -1091,7 +1161,7 @@ msgid "Metadata setup"
 msgstr "Установка метаданих"
 
 #. Used when estimating transaction time (Expected time: less than 5 *minutes*)
-#: views/account/send/fees.html:112 views/account/send/fees.html:67
+#: views/account/send/fees.html:119 views/account/send/fees.html:74
 msgctxt "transaction-time"
 msgid "minute"
 msgid_plural "minutes"
@@ -1100,8 +1170,8 @@ msgstr[1] "хвилин"
 msgstr[2] "хвилини"
 
 #: views/account/receive/index.html:75
-msgid "More please"
-msgstr "Детальніше"
+msgid "More addresses"
+msgstr ""
 
 #. Literally 'my TREZOR (device)'. Used as a default device name. It HAS to be ASCII only and it HAS to be less than 16 letters long
 #: views/device/index.setup.html:10 views/device/load.html:26
@@ -1111,7 +1181,7 @@ msgctxt "default-name"
 msgid "My TREZOR"
 msgstr "Мій TREZOR"
 
-#: views/device/index.basic.html:190 views/device/index.basic.html:241
+#: views/device/index.basic.html:195 views/device/index.basic.html:246
 msgctxt "xpub-text"
 msgid "Mycelium"
 msgstr "'Mycelium'"
@@ -1123,11 +1193,6 @@ msgstr "myTREZOR завантажує рахунки з Вашого прист�
 #: views/modal/dropbox.html:2
 msgid "myTREZOR labeling"
 msgstr "позначення myTREZOR"
-
-#. In the bottom footer.
-#: views/footer.left.html:19
-msgid "myTREZOR Terms &amp; Conditions"
-msgstr "Правила та умови myTREZOR"
 
 #: views/install/main.html:83 views/install/udev.html:59
 msgid ""
@@ -1141,7 +1206,11 @@ msgstr ""
 msgid "myTREZOR will forget your TREZOR right after you disconnect it."
 msgstr "myTREZOR забуде Ваш TREZOR відразу після вимкнення."
 
-#: views/modal/button.html:81
+#: views/account/transactions/index.html:40
+msgid "Nearest ATM:"
+msgstr ""
+
+#: views/modal/button.html:95
 msgid ""
 "Never do this action with TREZOR holding coins unless you have your recovery "
 "seed at hand."
@@ -1165,17 +1234,13 @@ msgstr ""
 msgid "New device setup"
 msgstr "Установка нового пристрою"
 
-#: views/alertbars/bridge.html:4
+#: views/alertbars/bridge.html:7
 msgid "New TREZOR Bridge is available."
 msgstr "Доступний новий TREZOR Bridge."
 
-#: views/alertbars/firmware.html:5
+#: views/alertbars/firmware.html:9
 msgid "New TREZOR firmware is available."
 msgstr "Доступна нова прошивка TREZOR."
-
-#: views/top.nav.html:6
-msgid "News"
-msgstr "Новини"
 
 #: views/jumbotrons/noaccounts.html:4
 msgid "No accounts"
@@ -1193,20 +1258,20 @@ msgstr ""
 "інтерпретуються перед завантаженням на пристрій."
 
 #: views/account/transactions/index.html:34
-msgid "No transactions to display"
-msgstr "Немає транзакцій"
+msgid "No transactions, yet."
+msgstr ""
 
 #. Transaction fee size menu
-#: views/account/send/fees.html:18
+#: views/account/send/fees.html:24
 msgctxt "transaction-fee"
 msgid "Normal"
 msgstr "Нормальна"
 
-#: views/account/send/txAddress.html:37
+#: views/account/send/txAddress.html:41
 msgid "Not a valid address"
 msgstr "Недійсна адреса"
 
-#: views/account/send/fees.html:133
+#: views/account/send/fees.html:143
 msgid "Not enough funds"
 msgstr "Недостатньо коштів"
 
@@ -1220,7 +1285,7 @@ msgid "Note that passphrase is case-sensitive."
 msgstr ""
 "Зверніть увагу, що кодову фразу потрібно вводити з урахуванням регістра."
 
-#: views/modal/pin.html:23
+#: views/modal/pin.html:27
 msgid "Note that the positions of numbers shown on the device have changed!"
 msgstr "Зверніть увагу, що відображене на пристрої розміщення чисел змінилося!"
 
@@ -1241,8 +1306,12 @@ msgstr "Кількість слів у Вашій фразі відновлен�
 msgid "OK, I understand"
 msgstr "Гаразд, зрозуміло"
 
+#: views/account/transactions/index.html:39
+msgid "or"
+msgstr ""
+
 #. Whole text: Scan it into an application that supports XPUBs such as Mycelium *or* Sentinel for Android. Then, you can watch your transactions and receive payments everywhere without carrying your TREZOR.
-#: views/device/index.basic.html:191
+#: views/device/index.basic.html:196
 msgctxt "xpub-text"
 msgid "or"
 msgstr "або"
@@ -1258,7 +1327,7 @@ msgctxt "advanced-label"
 msgid "Passphrase"
 msgstr "Кодова фраза"
 
-#: views/debug.html:44
+#: views/debug.html:36
 msgid "Passphrase change failed."
 msgstr "Не вдалося змінити кодову фразу."
 
@@ -1284,15 +1353,22 @@ msgstr "Кодові фрази не співпадають!"
 msgid "Paste the CSV here:"
 msgstr "Вставити CSV тут:"
 
+#. PIN strength
+#: views/modal/pin.html:95
+msgid "Perfect, impossible to guess!"
+msgstr ""
+
 #: views/account/send/index.html:90
 msgid "phase"
 msgstr "фаза"
 
-#: views/device/load.html:46
+#. Enter [device_name] PIN
+#: views/device/load.html:46 views/modal/pin.html:14 views/modal/pin.html:22
+#: views/modal/pin.html:26
 msgid "PIN"
 msgstr "PIN-код"
 
-#: views/debug.html:41
+#: views/debug.html:33
 msgid "PIN change failed."
 msgstr "Не вдалося змінити PIN-код."
 
@@ -1302,11 +1378,11 @@ msgctxt "basic-label"
 msgid "PIN protection"
 msgstr "Захист PIN-коду"
 
-#: views/debug.html:103
+#: views/debug.html:108
 msgid "PIN was successfully changed."
 msgstr "PIN-код змінено."
 
-#: views/debug.html:100
+#: views/debug.html:105
 msgid "PIN was successfully removed."
 msgstr "PIN-код було успішно видалено."
 
@@ -1410,27 +1486,15 @@ msgstr "Будь ласка, перевірте 8-е слово Вашої фр�
 msgid "Please check the 9th word of your recovery seed."
 msgstr "Будь ласка, перевірте 9-е слово Вашої фрази відновлення."
 
-#: views/modal/button.html:13 views/modal/button.html:138
-#: views/modal/button.html:96
-msgid "Please confirm the action on your device."
-msgstr "Будь ласка, підтвердіть дію на Вашому пристрої."
-
 #: views/modal/firmware.html:339
 msgid "Please confirm the firmware fingerprint."
 msgstr "Підтвердіть відбитки пальців прошивки."
 
-#: views/modal/button.html:34
-msgid "Please confirm the transaction on your device."
-msgstr "Будь ласка, підтвердіть транзакцію на Вашому пристрої."
-
-#: views/modal/button.html:18
-msgid "Please confirm the transaction output on your device."
-msgstr "Будь ласка, підтвердіть результат транзакції на Вашому пристрої."
-
 #: views/device/custom-firmware.html:4 views/device/load.html:4
 #: views/device/recovery.html:4
 msgid "Please connect your device to access this section."
-msgstr "Будь ласка, підключіть пристрій для отримання доступу до цього розділу."
+msgstr ""
+"Будь ласка, підключіть пристрій для отримання доступу до цього розділу."
 
 #: views/otherStrings.html:37
 msgctxt "send-button-tooltip"
@@ -1446,21 +1510,9 @@ msgstr "Будь ласка, підключіть пристрій для під
 msgid "Please disconnect it now."
 msgstr "Будь ласка, від'єднайте пристрій зараз."
 
-#: views/modal/pin.html:14
-msgid "Please enter current PIN:"
-msgstr "Будь ласка, введіть поточний PIN-код:"
-
-#: views/modal/pin.html:18
-msgid "Please enter new PIN:"
-msgstr "Будь ласка, введіть новий PIN-код:"
-
 #: views/modal/label.html:6
 msgid "Please enter the device label"
 msgstr "Будь ласка, введіть позначення пристрою"
-
-#: views/modal/passphrase.html:9
-msgid "Please enter your passphrase"
-msgstr "Будь ласка, введіть Вашу кодову фразу"
 
 #: views/otherStrings.html:42
 msgctxt "send-button-tooltip"
@@ -1492,10 +1544,6 @@ msgstr ""
 "Будь ласка, встановіть розширення TREZOR для Chrome, щоб myTREZOR міг "
 "з'єднатися з Вашим пристроєм."
 
-#: views/modal/pin.html:22
-msgid "Please re-enter new PIN:"
-msgstr "Будь ласка, введіть новий PIN-код знову:"
-
 #: views/modal/firmware.html:308
 msgid ""
 "Please reconnect it <strong>while pressing both buttons simultaneously.</"
@@ -1503,6 +1551,19 @@ msgid ""
 msgstr ""
 "Будь ласка, знову підключіть його <strong> за допомогою натискання обох "
 "кнопок одночасно </strong>"
+
+#: views/alertbars/offline.html:7
+msgid "Please reconnect to the Internet and reload the page."
+msgstr ""
+
+#: views/otherStrings.html:67
+msgctxt "send-button-tooltip"
+msgid "Please reload the page to send money."
+msgstr ""
+
+#: views/alertbars/offline.html:38
+msgid "Please reload the page."
+msgstr ""
 
 #: views/device/index.setup.html:4
 msgid ""
@@ -1521,11 +1582,6 @@ msgid ""
 msgstr ""
 "Будь ласка, спробуйте ще раз. Переконайтеся, що <strong> при підключенні "
 "пристрою Ви натискаєте обидві кнопки </strong>"
-
-#. The whole text: Connection to the server has been lost, but don't worry, your bitcoins are safe. *Please try to* reload this page or choose another server in application settings.
-#: views/alertbars/offline.html:16
-msgid "Please try to"
-msgstr "Будь ласка, спробуйте"
 
 #: views/modal/firmware.html:360 views/modal/firmware.html:370
 msgid "Please unplug the device now."
@@ -1649,17 +1705,13 @@ msgstr "Будь ласка, напишіть 8-е слово Вашої фра�
 msgid "Please write down the 9th word of your recovery seed."
 msgstr "Будь ласка, напишіть 9-е слово Вашої фрази відновлення."
 
-#: views/modal/button.html:51
-msgid "Please write down the recovery seed from your device."
-msgstr "Будь ласка, запишіть фразу відновлення з Вашого пристрою."
+#: views/modal/pin.html:19
+msgid "Please, re-enter correct PIN."
+msgstr ""
 
 #: views/modal/firmware.html:23
 msgid "plug it in while holding both device buttons pressed"
 msgstr "підключіть його, тримаючи обидві кнопки пристрою зажатими"
-
-#: views/settings.html:33
-msgid "Prefill from following choices:"
-msgstr "Заповніть, вибираючи з наступних варіантів:"
 
 #: views/account/receive/index.html:38
 msgid "Previous addresses"
@@ -1669,32 +1721,29 @@ msgstr "Попередні адреси"
 msgid "Processing..."
 msgstr "Йде процес обробки..."
 
-#: views/debug.html:32
+#: views/debug.html:24
 msgid "QR scanning failed."
 msgstr "QR сканування не вдалося."
 
-#: views/debug.html:20
+#. In the bottom footer. 'Exchange rates by Bitpay'.
+#: views/footer.text.html:9
+msgid "Rates by"
+msgstr ""
+
+#: views/debug.html:74
 msgid "Raw transaction in hex format:"
 msgstr "Raw транзакція в 16-ковому форматі:"
+
+#. Re-enter new [device_name] PIN
+#: views/modal/pin.html:26
+msgid "Re-enter new"
+msgstr ""
 
 #: views/modal/passphrase.html:25 views/modal/passphrase.html:30
 msgid "Re-type for control"
 msgstr "Повторно введіть для перевірки"
 
-#: views/install/main.html:84 views/install/udev.html:60
-msgid "Read more about Bitcoin TREZOR."
-msgstr "Дізнайтеся більше про Bitcoin TREZOR."
-
-#. This text is displayed, when the amount is too high. Its goal is to get user to re-check the address. This is the fourth line, and a link to our manual.
-#: views/account/send/index.html:47
-msgid "Read more about phishing…"
-msgstr "Детальніше про фішинг…"
-
-#: views/device/advanced.html:40 views/device/advanced.html:87
-msgid "Read more in user manual"
-msgstr "Дізнайтеся більше в інструкції для користувача"
-
-#: views/debug.html:59
+#: views/debug.html:51
 msgid "Reading of accounts failed."
 msgstr "Не вдалося виконати читання рахунків."
 
@@ -1708,7 +1757,7 @@ msgstr "Отримати"
 msgid "Recovered seed words:"
 msgstr "Відновлені слова фрази відновлення:"
 
-#: views/debug.html:62
+#: views/debug.html:54
 msgid "Recovery failed."
 msgstr "Не вдалося виконати відновлення."
 
@@ -1724,19 +1773,17 @@ msgstr "Установка фрази відновлення"
 msgid "Release notes"
 msgstr "Примітки до версії"
 
-#. The whole text: Connection to the server has been lost, but don't worry, your bitcoins are safe. Please try to *reload* this page or choose another server in application settings.
-#: views/alertbars/offline.html:21
-msgctxt "offline-header"
+#: views/alertbars/offline.html:42 views/alertbars/offline.html:9
 msgid "Reload"
-msgstr "Перезавантаження"
+msgstr ""
 
 #. Button in remember/forget dialog
-#: views/modal/forget.disconnected.html:12 views/modal/forget.wipe.html:12
+#: views/modal/forget.disconnected.html:10 views/modal/forget.wipe.html:12
 msgctxt "forget-button"
 msgid "Remember"
 msgstr "Запам'ятати"
 
-#: views/account/send/buttonBar.html:32
+#: views/account/send/buttonBar.html:37
 msgid "Remove all recipients"
 msgstr "Видалення всіх отримувачів"
 
@@ -1753,11 +1800,11 @@ msgstr "Перейменувати рахунок"
 msgid "rename accounts"
 msgstr "перейменувати рахунки"
 
-#: views/nav.html:196
+#: views/nav.html:199
 msgid "Rename this account"
 msgstr "Перейменувати цей рахунок"
 
-#: views/settings.html:41
+#: views/settings.html:89
 msgid "Save &amp; Reload"
 msgstr "Зберегти і перезавантажити"
 
@@ -1766,12 +1813,12 @@ msgid "Scan address from a QR code"
 msgstr "Сканувати адресу з QR-коду"
 
 #. Whole text: *Scan it into an application that supports XPUBs such as* Mycelium or Sentinel for Android. Then, you can watch your transactions and receive payments everywhere without carrying your TREZOR.
-#: views/device/index.basic.html:186 views/device/index.basic.html:237
+#: views/device/index.basic.html:191 views/device/index.basic.html:242
 msgctxt "xpub-text"
 msgid "Scan it into an application that supports XPUBs such as"
 msgstr "Сканувати в додаток, який підтримує XPUBи. Наприклад,"
 
-#: views/account/send/txAddress.html:30
+#: views/account/send/txAddress.html:34
 msgid "Scan QR code"
 msgstr "Сканувати QR-код"
 
@@ -1783,9 +1830,9 @@ msgstr "Пошук адреси, дати або суми"
 msgid "Seed recovery"
 msgstr "Фраза відновлення"
 
-#: views/device/homescreen.html:81
-msgid "Select an image"
-msgstr "Вибір зображення"
+#: views/footer.html:42
+msgid "Select currency"
+msgstr ""
 
 #: views/install/main.html:31 views/install/main.html:60
 msgid "Select platform..."
@@ -1798,18 +1845,18 @@ msgid "Send"
 msgstr "Надіслати"
 
 #. This is shown on the main, big Send button
-#: views/account/send/buttonBar.html:6
+#: views/account/send/buttonBar.html:10
 msgctxt "button"
 msgid "Send"
 msgstr "Надіслати"
 
 #. This is shown in the transaction list when the transaction is to the user himseld.
-#: views/account/transactions/txAddress.html:26
+#: views/account/transactions/txAddress.html:29
 msgid "Sent to myself"
 msgstr "Надіслано самому собі"
 
 #. This is on a button, clicking it will set as homescreen
-#: views/device/homescreen.html:43
+#: views/device/homescreen.html:44
 msgctxt "button"
 msgid "Set as homescreen"
 msgstr "Встановити як заставку екрана"
@@ -1818,7 +1865,7 @@ msgstr "Встановити як заставку екрана"
 msgid "Set maximum possible amount"
 msgstr "Встановити максимально можливу суму"
 
-#: views/debug.html:38
+#: views/debug.html:30
 msgid "Setup failed."
 msgstr "Виконання установки не вдалося."
 
@@ -1826,14 +1873,22 @@ msgstr "Виконання установки не вдалося."
 msgid "Show changes"
 msgstr "Показати зміни"
 
-#: views/alertbars/bridge.html:6 views/alertbars/firmware.html:7
+#: views/alertbars/bridge.html:9 views/alertbars/firmware.html:11
 msgid "Show details"
 msgstr "Показати деталі"
 
+#: views/account/transactions/txAddress.html:15
+msgid "Show less"
+msgstr ""
+
 #: views/debug.button.html:5 views/debug.button.html:7
-#: views/footer.right.html:4
+#: views/footer.text.html:20
 msgid "Show log"
 msgstr "Показати журнал"
+
+#: views/account/transactions/txAddress.html:12
+msgid "Show more..."
+msgstr ""
 
 #: views/account/receive/address.html:64
 msgid "Show on TREZOR"
@@ -1852,7 +1907,7 @@ msgstr "Показати попередні"
 msgid "Show transaction details"
 msgstr "Показати деталі транзакції"
 
-#: views/device/index.basic.html:155
+#: views/device/index.basic.html:160
 msgid "Show XPUBs"
 msgstr "Показати ключі XPUB"
 
@@ -1880,7 +1935,7 @@ msgctxt "sign"
 msgid "Signature"
 msgstr "Підпис"
 
-#: views/otherStrings.html:69
+#: views/otherStrings.html:74
 msgid "Signed successfully."
 msgstr "Підписано успішно."
 
@@ -1898,7 +1953,7 @@ msgstr "Розмір:"
 msgid "Skip mnemonic checksum"
 msgstr "Пропустити мнемонічну контрольну суму"
 
-#: views/account/send/fees.html:130
+#: views/account/send/fees.html:140
 msgid "Some fields are incorrect."
 msgstr "Деякі поля неправильні."
 
@@ -1908,25 +1963,30 @@ msgid "Sorry that we make it so hard!"
 msgstr "Просимо вибачення за деякі труднощі!"
 
 #. PIN strength
-#: views/modal/pin.html:90
-msgid "Strong"
-msgstr "Сильний"
+#: views/modal/pin.html:94
+msgid "Strong enough!"
+msgstr ""
 
 #. This is displayed on top when any action successfully finishes
-#: views/debug.html:89
+#: views/debug.html:94
 msgctxt "flash"
 msgid "Success"
 msgstr "Вдалося"
-
-#: views/top.nav.html:12
-msgid "Support"
-msgstr "Підтримка"
 
 #: views/modal/firmware.html:104 views/modal/firmware.html:132
 #: views/modal/firmware.html:161 views/modal/firmware.html:198
 #: views/modal/firmware.html:279
 msgid "Support needed?"
 msgstr "Потрібна підтримка?"
+
+#. In the bottom footer.
+#: views/footer.text.html:4
+msgid "Terms"
+msgstr ""
+
+#: views/settings.html:17
+msgid "The bitcore server doesn't seem to reply. Please select another server."
+msgstr ""
 
 #. displayed on the bottom in the TX
 #: views/account/send/txPrepared.html:44
@@ -1942,7 +2002,7 @@ msgstr ""
 "створюється на ТREZORі."
 
 #. Whole text: Scan it into an application that supports XPUBs such as Mycelium or Sentinel for Android. *Then, you can watch your transactions and receive payments everywhere without carrying your TREZOR.*
-#: views/device/index.basic.html:202 views/device/index.basic.html:252
+#: views/device/index.basic.html:207 views/device/index.basic.html:257
 msgctxt "xpub-text"
 msgid ""
 "Then, you can watch your transactions and receive payments everywhere "
@@ -1951,7 +2011,7 @@ msgstr ""
 "Потім Ви можете подивитися на Ваші транзакції і отримувати платежі всюди без "
 "наявності Вашого TREZORа з собою."
 
-#: views/modal/button.html:80
+#: views/modal/button.html:94
 msgid ""
 "This action cannot be undone. Please <strong>confirm on your device</strong>."
 msgstr ""
@@ -1974,11 +2034,6 @@ msgstr ""
 "При підключенні Вашого TREZORа на дисплеї відобразиться це позначення. Це "
 "стане в нагоді, якщо у Вас є більше одного пристрою."
 
-#. The whole text: Connection to the server has been lost, but don't worry, your bitcoins are safe. Please try to reload *this page or choose another server in* application settings.
-#: views/alertbars/offline.html:28
-msgid "this page or choose another server in"
-msgstr "цю сторінку або обрати інший сервер в"
-
 #: views/install/udev.html:53
 msgid "This step is needed only on Linux."
 msgstr "Цей крок необхідний тільки на Linux."
@@ -1986,11 +2041,11 @@ msgstr "Цей крок необхідний тільки на Linux."
 #. This is shown in the header in the transaction list
 #: views/account/transactions/table.html:9
 msgctxt "transaction-list"
-msgid "Timestamp"
-msgstr "Часова відмітка"
+msgid "Time"
+msgstr ""
 
 #. Used when estimating transaction time (Expected time: from 5 minutes *to* 10 minutes)
-#: views/account/send/fees.html:78
+#: views/account/send/fees.html:85
 msgctxt "transaction-time"
 msgid "to"
 msgstr "Кому"
@@ -2015,7 +2070,7 @@ msgstr ""
 "Для доступу до наступних адрес використовуйте деякі з перерахованих адрес в "
 "транзакції."
 
-#: views/nav.html:214
+#: views/nav.html:218
 msgid ""
 "To add accounts, make sure your device is connected and the last account is "
 "not empty."
@@ -2042,11 +2097,6 @@ msgstr ""
 msgid "To update the firmware:"
 msgstr "Для оновлення прошивки:"
 
-#. PIN strength
-#: views/modal/pin.html:87
-msgid "Too Long"
-msgstr "Занадто довгий"
-
 #. This is a short label in the device Basic page
 #: views/device/index.basic.html:108
 msgctxt "basic-label"
@@ -2058,18 +2108,18 @@ msgid "Total received:"
 msgstr "Всього отримано:"
 
 #. The whole sentence: *Transaction* 1234567890abcdef was successfully sent.
-#: views/debug.html:113
+#: views/debug.html:118
 msgctxt "send-done"
 msgid "Transaction"
 msgstr "Транзакція"
 
-#: views/account/transactions/table.html:41
-#: views/account/transactions/table.html:62 views/debug.html:123
+#: views/account/transactions/table.html:42
+#: views/account/transactions/table.html:58 views/debug.html:128
 msgid "Transaction info at blockchain.info"
 msgstr "Інформація про транзакції на blockchain.info"
 
 #. In text: 'Loading (123 transactions)', it is always plural
-#: views/nav.html:174
+#: views/nav.html:177
 msgctxt "loading"
 msgid "transactions"
 msgstr "транзакції"
@@ -2079,6 +2129,10 @@ msgstr "транзакції"
 msgctxt "header"
 msgid "Transactions"
 msgstr "Транзакції"
+
+#: index.html:34 views/top.nav.html:3
+msgid "TREZOR"
+msgstr ""
 
 #: views/install/bridge.force.html:8
 msgid "TREZOR Bridge update"
@@ -2096,7 +2150,7 @@ msgstr "TREZOR не може підписувати символи не-ASCII."
 msgid "TREZOR cannot verify non-ASCII characters."
 msgstr "TREZOR не може перевіряти символи не-ASCII."
 
-#: views/error.html:5
+#: views/error.html:6
 msgid "TREZOR loading failed"
 msgstr "Не вдалося завантажити TREZOR"
 
@@ -2106,22 +2160,21 @@ msgctxt "button"
 msgid "TREZOR Recovery"
 msgstr "Відновлення TREZORа"
 
+#: views/alertbars/offline.html:26
+msgid "Try a different server."
+msgstr ""
+
 #: views/device/index.basic.html:7
 msgid "Try again"
 msgstr "Спробуйте ще раз"
 
-#. PIN strength
-#: views/modal/pin.html:91
-msgid "Ultimate"
-msgstr "Кінцевий"
-
 #. Unconfirmed transaction, in the transaction list, will have this instead of date.
-#: views/account/transactions/table.html:65
+#: views/account/transactions/table.html:61
 msgid "Unconfirmed"
 msgstr "Не підтверджено"
 
 #. This is shown in the transaction list when the transaction is to the user himseld.
-#: views/account/transactions/txAddress.html:38
+#: views/account/transactions/txAddress.html:41
 msgctxt "transaction-list"
 msgid "Unknown"
 msgstr "Невідомо"
@@ -2135,8 +2188,13 @@ msgstr ""
 "На відміну від Вашого TREZORа, комп'ютери не є безпечними. Шкідливі програми "
 "можуть замінювати біткойн адреси, які Ви бачите."
 
+#. PIN strength
+#: views/modal/pin.html:91
+msgid "Unnecessarily too long."
+msgstr ""
+
 #. Shown in the list of addresses, the small comment below an address
-#: views/account/receive/address.html:99
+#: views/account/receive/address.html:100
 msgid "Unused address"
 msgstr "Невикористана адреса"
 
@@ -2162,32 +2220,32 @@ msgid "Upgrade"
 msgstr "Оновити"
 
 #. Upgrade refers to bridge upgrade
-#: views/alertbars/bridge.html:5
+#: views/alertbars/bridge.html:8
 msgctxt "bridge-update"
 msgid "Upgrade for the newest features and bug fixes."
 msgstr "Оновити, аби мати доступ до найновіших функцій та виправлень."
 
 #. Upgrade refers to bridge upgrade
-#: views/alertbars/firmware.html:6
+#: views/alertbars/firmware.html:10
 msgctxt "firmware-update"
 msgid "Upgrade for the newest features and bug fixes."
 msgstr "Оновити, аби мати доступ до найновіших функцій та виправлень."
 
-#. This is a small label in the Homescreen tab
-#: views/device/homescreen.html:9
-msgctxt "label"
+#. This is on a button, for browsing images for homescreen tab
+#: views/device/homescreen.html:18
+msgctxt "button"
 msgid "Upload image"
-msgstr "Завантажити зображення"
+msgstr ""
 
 #: views/modal/firmware.html:329
 msgid "Uploading firmware..."
 msgstr "Завантаження прошивки..."
 
-#: views/settings.html:24
+#: views/settings.html:66
 msgid "URL needs to start with https://"
 msgstr "URL-адреса має починатися з https://"
 
-#: views/settings.html:28
+#: views/settings.html:71
 msgid "URL needs to start with https:// or http://"
 msgstr "URL-адреса має починатися з https:// або http://"
 
@@ -2204,7 +2262,7 @@ msgstr ""
 "Використовуйте цю функцію тільки в тому випадку, якщо поруч є Ваша фраза "
 "відновлення або ж коли на Вашому пристрої немає біткойнів."
 
-#: views/nav.html:23 views/nav.html:69
+#: views/nav.html:21 views/nav.html:68
 msgid "Used in other window"
 msgstr "Використовується в іншому вікні"
 
@@ -2245,6 +2303,10 @@ msgstr "Перевірка повідомлення"
 msgid "Versions"
 msgstr "Версії"
 
+#: views/account/receive/address.html:95 views/account/receive/index.html:97
+msgid "View address at block explorer"
+msgstr ""
+
 #: views/modal/qr.html:9
 msgid "Waiting for camera&hellip;"
 msgstr "Очікування камери &hellip;"
@@ -2252,6 +2314,10 @@ msgstr "Очікування камери &hellip;"
 #: views/account/receive/index.html:122
 msgid "Waiting for transaction history"
 msgstr "Очікування історії транзакцій"
+
+#: index.html:37 views/top.nav.html:6
+msgid "Wallet"
+msgstr ""
 
 #: views/device/index.html:11
 msgid "Want to restore your wallet from recovery seed?"
@@ -2262,22 +2328,12 @@ msgstr "Бажаєте відновити Ваш гаманець за допо�
 msgid "Warning:"
 msgstr "Попередження:"
 
-#: views/debug.log.html:13
-msgid ""
-"Warning: This log can contain your XPUB. When you give it to a third party, "
-"you allow it to see your whole transaction history."
-msgstr ""
-"Попередження: Цей журнал може містити Ваш XPUB. Ви даєте йому до третьої "
-"сторони, ви дозволяєте його, щоб побачити всю цю операцію історії. Надаючи "
-"його третій стороні, Ви тим самим дозволяєте побачити історію Ваших "
-"транзакцій."
-
 #: views/account/nav.html:56
 msgid "Warning!"
 msgstr "Попередження!"
 
 #. The whole sentence: Transaction 1234567890abcdef *was successfully sent.*
-#: views/debug.html:127
+#: views/debug.html:132
 msgctxt "send-done"
 msgid "was successfully sent."
 msgstr "вдалося надіслати."
@@ -2312,20 +2368,15 @@ msgstr ""
 msgid "We will now show you the 24 words again."
 msgstr "Зараз ми знову покажемо Вам ці 24 слова."
 
-#. PIN strength
-#: views/modal/pin.html:88
-msgid "Weak"
-msgstr "Слабкий"
-
 #: views/device/index.setup.html:3
 msgid "Welcome to TREZOR Setup!"
 msgstr "Ласкаво просимо до установки TREZOR!"
 
-#: views/top.nav.html:3
-msgid "What is TREZOR?"
-msgstr "Що таке TREZOR?"
+#: views/account/transactions/index.html:36
+msgid "What's next? How about buying some bitcoins?"
+msgstr ""
 
-#: views/device/index.basic.html:176 views/device/index.basic.html:226
+#: views/device/index.basic.html:181 views/device/index.basic.html:231
 msgid ""
 "When you give them to a third party, you allow it to see your whole "
 "transaction history."
@@ -2345,7 +2396,7 @@ msgctxt "button"
 msgid "Wipe device"
 msgstr "Очистити пристрій"
 
-#: views/debug.html:56
+#: views/debug.html:48
 msgid "Wipe failed."
 msgstr "Не вдалося очистити пристрій."
 
@@ -2385,9 +2436,22 @@ msgstr ""
 "Бажаєте, щоб TREZOR забув Ваш старий пристрій зі старими даними чи "
 "запам'ятав його?"
 
+#: views/modal/button.html:65
+msgid "Write down the recovery seed from your device."
+msgstr ""
+
+#. Wrong [device_name] PIN
+#: views/modal/pin.html:18
+msgid "Wrong PIN on"
+msgstr ""
+
 #: views/modal/firmware.html:200 views/modal/firmware.html:281
 msgid "Yes, update"
 msgstr "Так, оновити"
+
+#: views/alertbars/offline.html:6
+msgid "You are offline."
+msgstr ""
 
 #. This is displayed on Android.
 #: views/install/mobile.android.html:19
@@ -2395,9 +2459,13 @@ msgid "You can also download and install the APK directly."
 msgstr "Ви також можете завантажити і встановити APK безпосередньо."
 
 #. Blockchain.info link follows
-#: views/debug.html:22
+#: views/debug.html:77
 msgid "You can try to resend this transaction using"
 msgstr "Можете спробувати повторно надіслати цю транзакцію за допомогою"
+
+#: views/nav.html:226
+msgid "You cannot add more than 10 accounts."
+msgstr ""
 
 #: views/device/recovery.html:32
 msgid ""
@@ -2406,6 +2474,10 @@ msgid ""
 msgstr ""
 "Вам може бути запропоновано повторно ввести кілька слів, які не є частиною "
 "Вашої фрази відновлення."
+
+#: views/alertbars/offline.html:37
+msgid "You were disconnected."
+msgstr ""
 
 #. Whole text: If you disable the passphrase encryption, your current funds will not appear. You will have to enable the passphrase encryption again to see your current wallet.
 #: views/device/advanced.html:80
@@ -2427,10 +2499,13 @@ msgctxt "typeahead"
 msgid "your account"
 msgstr "Ваш рахунок"
 
-#: views/modal/firmware.html:117 views/modal/firmware.html:146
-#: views/modal/firmware.html:17 views/modal/firmware.html:302
+#: views/modal/firmware.html:117 views/modal/firmware.html:302
 msgid "Your device firmware is outdated"
 msgstr "Прошивка пристрою застаріла"
+
+#: views/modal/firmware.html:146
+msgid "Your device firmware is outdated."
+msgstr ""
 
 #: views/jumbotrons/noaccounts.html:5
 msgid "Your device is not fully loaded. Reconnect it to use it."
@@ -2450,8 +2525,8 @@ msgstr "Спочатку потрібно оновити установки TREZ
 msgid ""
 "Your message is {{accountSignCtrl.signMessage.message.length}} letters long."
 msgstr ""
-"Довжина Вашого повідомлення складає "
-"{{accountSignCtrl.signMessage.message.length}} букв."
+"Довжина Вашого повідомлення складає {{accountSignCtrl.signMessage.message."
+"length}} букв."
 
 #. This will always be singular, and > 200.
 #: views/account/sign/index.html:176
@@ -2459,8 +2534,8 @@ msgid ""
 "Your message is {{accountSignCtrl.verifyMessage.message.length}} letters "
 "long."
 msgstr ""
-"Довжина Вашого повідомлення складає "
-"{{accountSignCtrl.verifyMessage.message.length}} букв."
+"Довжина Вашого повідомлення складає {{accountSignCtrl.verifyMessage.message."
+"length}} букв."
 
 #: views/modal/firmware.html:41
 msgid ""
@@ -2477,3 +2552,160 @@ msgstr "Ваш TREZOR не є в режимі відновлення проши�
 #: views/modal/disconnect.wipe.html:7 views/modal/forget.wipe.html:7
 msgid "Your TREZOR was successfully wiped."
 msgstr "Дані з Вашого TREZORа вдалося очистити."
+
+#~ msgid ", but don't worry, your bitcoins are safe."
+#~ msgstr ", але не хвилюйтеся, Ваші біткойни знаходяться в повній безпеці."
+
+#~ msgid "Allow labeling for current accounts?"
+#~ msgstr "Дозволити позначення для поточних рахунків?"
+
+#~ msgid "Allow labeling for this account?"
+#~ msgstr "Дозволити позначення для цього рахунку?"
+
+#~ msgctxt "offline-header"
+#~ msgid "Application Settings"
+#~ msgstr "Параметри додатку"
+
+#~ msgid "Blockchain.info's Broadcast Transaction tool"
+#~ msgstr "Інструмент трансляції транзакцій від Blockchain.info"
+
+#~ msgctxt "button"
+#~ msgid "Browse"
+#~ msgstr "Перегляд"
+
+#~ msgid "Confirm the action on your device."
+#~ msgstr "Підтвердіть дію на Вашому пристрої."
+
+#~ msgid "Connection to the server has been lost"
+#~ msgstr "З'єднання з сервером було втрачено"
+
+#~ msgid "Exchange rates by"
+#~ msgstr "Курси валют надані"
+
+#~ msgid "Fee predictions by"
+#~ msgstr "Прогнози комісії від"
+
+#~ msgid "Fine"
+#~ msgstr "Хороший"
+
+#~ msgid "Forget device?"
+#~ msgstr "Забути пристрій?"
+
+#~ msgid "Help"
+#~ msgstr "Допомога"
+
+#~ msgid ""
+#~ "If you choose to remember the device, we will not ask you this question "
+#~ "next time you disconnect the device."
+#~ msgstr ""
+#~ "Якщо Ви обираєте запам'ятати пристрій, ми не задативемо Вам це питання "
+#~ "наступного разу, коли будете від'єднувати пристрій."
+
+#~ msgid ""
+#~ "If you want to make a homescreen picture from a photo or a logo, use our "
+#~ "homescreen editor."
+#~ msgstr ""
+#~ "Якщо Ви бажаєте зробити заставку екрана з фотографії або лого, "
+#~ "скористайтеся нашим редактором заставок."
+
+#~ msgid "loading"
+#~ msgstr "завантаження"
+
+#~ msgid "Lost? Check our user manual."
+#~ msgstr "Втратили? Звіртесь з нашим посібником користувача."
+
+#~ msgid "More please"
+#~ msgstr "Детальніше"
+
+#~ msgid "myTREZOR Terms &amp; Conditions"
+#~ msgstr "Правила та умови myTREZOR"
+
+#~ msgid "News"
+#~ msgstr "Новини"
+
+#~ msgid "No transactions to display"
+#~ msgstr "Немає транзакцій"
+
+#~ msgid "Please confirm the action on your device."
+#~ msgstr "Будь ласка, підтвердіть дію на Вашому пристрої."
+
+#~ msgid "Please confirm the transaction on your device."
+#~ msgstr "Будь ласка, підтвердіть транзакцію на Вашому пристрої."
+
+#~ msgid "Please confirm the transaction output on your device."
+#~ msgstr "Будь ласка, підтвердіть результат транзакції на Вашому пристрої."
+
+#~ msgid "Please enter current PIN:"
+#~ msgstr "Будь ласка, введіть поточний PIN-код:"
+
+#~ msgid "Please enter new PIN:"
+#~ msgstr "Будь ласка, введіть новий PIN-код:"
+
+#~ msgid "Please enter your passphrase"
+#~ msgstr "Будь ласка, введіть Вашу кодову фразу"
+
+#~ msgid "Please re-enter new PIN:"
+#~ msgstr "Будь ласка, введіть новий PIN-код знову:"
+
+#~ msgid "Please try to"
+#~ msgstr "Будь ласка, спробуйте"
+
+#~ msgid "Please write down the recovery seed from your device."
+#~ msgstr "Будь ласка, запишіть фразу відновлення з Вашого пристрою."
+
+#~ msgid "Prefill from following choices:"
+#~ msgstr "Заповніть, вибираючи з наступних варіантів:"
+
+#~ msgid "Read more about Bitcoin TREZOR."
+#~ msgstr "Дізнайтеся більше про Bitcoin TREZOR."
+
+#~ msgid "Read more about phishing…"
+#~ msgstr "Детальніше про фішинг…"
+
+#~ msgid "Read more in user manual"
+#~ msgstr "Дізнайтеся більше в інструкції для користувача"
+
+#~ msgctxt "offline-header"
+#~ msgid "Reload"
+#~ msgstr "Перезавантаження"
+
+#~ msgid "Select an image"
+#~ msgstr "Вибір зображення"
+
+#~ msgid "Strong"
+#~ msgstr "Сильний"
+
+#~ msgid "Support"
+#~ msgstr "Підтримка"
+
+#~ msgid "this page or choose another server in"
+#~ msgstr "цю сторінку або обрати інший сервер в"
+
+#~ msgctxt "transaction-list"
+#~ msgid "Timestamp"
+#~ msgstr "Часова відмітка"
+
+#~ msgid "Too Long"
+#~ msgstr "Занадто довгий"
+
+#~ msgid "Ultimate"
+#~ msgstr "Кінцевий"
+
+#~ msgctxt "label"
+#~ msgid "Upload image"
+#~ msgstr "Завантажити зображення"
+
+#~ msgid ""
+#~ "Warning: This log can contain your XPUB. When you give it to a third "
+#~ "party, you allow it to see your whole transaction history."
+#~ msgstr ""
+#~ "Попередження: Цей журнал може містити Ваш XPUB. Ви даєте йому до третьої "
+#~ "сторони, ви дозволяєте його, щоб побачити всю цю операцію історії. "
+#~ "Надаючи його третій стороні, Ви тим самим дозволяєте побачити історію "
+#~ "Ваших транзакцій."
+
+#~ msgid "Weak"
+#~ msgstr "Слабкий"
+
+#~ msgid "What is TREZOR?"
+#~ msgstr "Що таке TREZOR?"

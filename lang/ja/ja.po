@@ -11,12 +11,12 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 2.7-dev\n"
 
-#. The whole text: Connection to the server has been lost*, but don't worry, your bitcoins are safe.* Please try to reload this page or choose another server in application settings.
-#: views/alertbars/offline.html:8
-msgid ", but don't worry, your bitcoins are safe."
-msgstr "しかし安心してください、あなたのビットコインは安全です。"
+#. this is second part of sentence 'Forget [device_name]?'
+#: views/modal/forget.disconnected.html:4 views/modal/forget.requested.html:4
+msgid "?"
+msgstr ""
 
-#: views/nav.html:117
+#: views/nav.html:116
 msgid "(automatically in"
 msgstr ""
 
@@ -68,7 +68,7 @@ msgid "Account balance information is inconsistent."
 msgstr "アカウントの残高情報が正しくありません。"
 
 #. This is a short label in the device Basic page
-#: views/device/index.basic.html:141
+#: views/device/index.basic.html:145
 msgctxt "basic-label"
 msgid "Account public keys (XPUB)"
 msgstr "アカウントのパブリックキー (XPUB)"
@@ -77,11 +77,11 @@ msgstr "アカウントのパブリックキー (XPUB)"
 msgid "Account XPUBs"
 msgstr "アカウントのXPUBファイル"
 
-#: views/debug.html:68 views/debug.html:71
+#: views/debug.html:60 views/debug.html:63
 msgid "Action was interrupted"
 msgstr "作業が中断されました"
 
-#: views/nav.html:218 views/nav.html:225
+#: views/nav.html:222 views/nav.html:230 views/nav.html:239
 msgid "Add account"
 msgstr "アカウントを追加してください"
 
@@ -89,7 +89,7 @@ msgstr "アカウントを追加してください"
 msgid "Add comment"
 msgstr "コメントを追加してください"
 
-#: views/account/send/buttonBar.html:19
+#: views/account/send/buttonBar.html:24
 msgid "Add recipient"
 msgstr "受信者を追加する"
 
@@ -124,7 +124,7 @@ msgstr "アドレス"
 msgid "Address is required."
 msgstr ""
 
-#: views/debug.html:35
+#: views/debug.html:27
 msgid "Address verification failed."
 msgstr "アドレスの認証に失敗しました。"
 
@@ -134,7 +134,7 @@ msgctxt "header"
 msgid "Advanced"
 msgstr "アドバンスド"
 
-#: views/modal/button.html:79
+#: views/modal/button.html:93
 msgid "All data on your device will be deleted."
 msgstr "端末上のデータがすべて消去されました。"
 
@@ -151,23 +151,14 @@ msgstr ""
 "能な状態で同期されます。Dropboxのアカウントが危険にさらされた場合でも、あなた"
 "のプライベートデータは安全な状態で管理されます。"
 
-#: views/modal/button.html:103 views/modal/button.html:108
-#: views/modal/button.html:120 views/modal/button.html:126
-msgid "Allow labeling for current accounts?"
-msgstr "現在のアカウントへのラベリングを許可しますか?"
-
-#: views/modal/button.html:114
-msgid "Allow labeling for this account?"
-msgstr "このアカウントへのラベリングを許可しますか?"
-
-#. This is a label to the sending form. (Address/amount/comment)
-#: views/account/send/txAmount.html:5
-msgid "Amount"
-msgstr "金額"
-
 #. This is shown in the header in the transaction list
 #: views/account/transactions/table.html:17
 msgctxt "transaction-list"
+msgid "Amount"
+msgstr "金額"
+
+#. This is a label to the sending form. (Address/amount/comment)
+#: views/account/send/txAmount.html:5
 msgid "Amount"
 msgstr "金額"
 
@@ -192,15 +183,17 @@ msgstr "金額が少なすぎます"
 msgid "API keys are useful if you want to import a watch-only wallet."
 msgstr "閲覧用のウォレットをインポートする場合にはAPIキーを利用できます。"
 
-#: views/footer.right.html:3 views/settings.html:13
+#: views/footer.html:7
+msgid "App Settings"
+msgstr ""
+
+#: views/settings.html:31
 msgid "Application Settings"
 msgstr "アプリケーション設定"
 
-#. The whole text: Connection to the server has been lost, but don't worry, your bitcoins are safe. Please try to reload this page or choose another server in *application settings* (without the dot)
-#: views/alertbars/offline.html:32
-msgctxt "offline-header"
-msgid "Application Settings"
-msgstr "アプリケーション設定"
+#: views/alertbars/offline.html:21
+msgid "Backend server is down."
+msgstr ""
 
 #. This is shown in the header in the transaction list
 #: views/account/transactions/table.html:21
@@ -214,7 +207,7 @@ msgctxt "header"
 msgid "Basic"
 msgstr "ベーシック"
 
-#: views/device/index.basic.html:176 views/device/index.basic.html:226
+#: views/device/index.basic.html:181 views/device/index.basic.html:231
 msgid "Be careful with your XPUBs."
 msgstr "XPUBファイルの取り扱いに注意してください。"
 
@@ -222,35 +215,27 @@ msgstr "XPUBファイルの取り扱いに注意してください。"
 msgid "BIP32 Path:"
 msgstr "BIP32のパス:"
 
-#: views/settings.html:20
+#: views/settings.html:61
 msgid "Bitcore Server URL"
 msgstr "BitcoreサーバーURL"
 
-#: views/debug.html:26
-msgid "Blockchain.info's Broadcast Transaction tool"
-msgstr "Blockchain.infoのブロードキャストトランザクションツール"
+#: index.html:43 views/top.nav.html:12
+msgid "Blog"
+msgstr ""
 
 #: views/modal/_header.html:4
 msgid "Bootloader mode"
 msgstr "ブートローダーモード"
 
-#. This is on a button, for browsing images for homescreen tab
-#: views/device/homescreen.html:17
-msgctxt "button"
-msgid "Browse"
-msgstr "閲覧"
-
 #: views/device/custom-firmware.html:35 views/device/load.html:65
-#: views/device/recovery.html:157 views/import.html:55 views/modal/csv.html:44
-#: views/modal/disconnect.html:14
-#: views/modal/disconnect.passphrase_disable.html:14
-#: views/modal/disconnect.passphrase_enable.html:14
-#: views/modal/dropbox.html:55 views/modal/firmware.html:107
-#: views/modal/firmware.html:135 views/modal/firmware.html:164
-#: views/modal/firmware.html:211 views/modal/firmware.html:292
-#: views/modal/firmware.html:313 views/modal/qr.html:17 views/settings.html:44
+#: views/device/recovery.html:157 views/import.html:55
 msgid "Cancel"
 msgstr "キャンセル"
+
+#. PIN strength
+#: views/modal/pin.html:92
+msgid "Careful, It's too easy to guess."
+msgstr ""
 
 #: views/modal/firmware.html:179 views/modal/firmware.html:226
 #: views/modal/firmware.html:40
@@ -285,7 +270,7 @@ msgstr "PIN変更"
 msgid "Changelog"
 msgstr "変更履歴"
 
-#: views/modal/button.html:56
+#: views/modal/button.html:70
 msgid "Check address on TREZOR display"
 msgstr "画面に表示されたアドレスが正しいか確認してください"
 
@@ -295,7 +280,7 @@ msgctxt "button"
 msgid "Clear"
 msgstr "クリア"
 
-#: views/device/index.basic.html:184 views/device/index.basic.html:235
+#: views/device/index.basic.html:189 views/device/index.basic.html:240
 msgid "Click on XPUB to show its QR code."
 msgstr "XPUファイルをクリックしてQRコードを表示する。"
 
@@ -303,7 +288,7 @@ msgstr "XPUファイルをクリックしてQRコードを表示する。"
 msgid "Click to hide address"
 msgstr "クリックしてアドレスを隠す"
 
-#: views/nav.html:26 views/nav.html:72
+#: views/nav.html:24 views/nav.html:71
 msgid "Click to renew session"
 msgstr "クリックして新しくセッションを始める"
 
@@ -311,8 +296,15 @@ msgstr "クリックして新しくセッションを始める"
 msgid "Click to show address"
 msgstr "クリックしてアドレスを表示"
 
-#: views/debug.html:7 views/debug.html:84 views/debug.log.html:8
-#: views/modal/firmware.html:376
+#: views/debug.html:7 views/debug.html:89 views/debug.log.html:8
+#: views/modal/csv.html:44 views/modal/disconnect.html:14
+#: views/modal/disconnect.passphrase_disable.html:14
+#: views/modal/disconnect.passphrase_enable.html:14
+#: views/modal/dropbox.html:55 views/modal/firmware.html:107
+#: views/modal/firmware.html:135 views/modal/firmware.html:164
+#: views/modal/firmware.html:211 views/modal/firmware.html:292
+#: views/modal/firmware.html:313 views/modal/firmware.html:376
+#: views/modal/qr.html:17 views/settings.html:93
 msgid "Close"
 msgstr "閉じる"
 
@@ -326,19 +318,27 @@ msgstr "coffee by jen は、CC BY 2.0 によってライセンスされていま
 msgid "Comment"
 msgstr "コメント"
 
+#: views/modal/button.html:14 views/modal/button.html:47
+msgid "Confirm action on your device."
+msgstr ""
+
+#: views/modal/button.html:112 views/modal/button.html:119
+msgid "Confirm action on your TREZOR device."
+msgstr ""
+
 #: views/device/recovery.html:57
 msgid "Confirm choice by pressing enter."
 msgstr "Enterキーを押して選択を確定する。"
 
-#: views/modal/button.html:88
+#: views/modal/button.html:102
 msgid "Confirm passphrase encryption"
 msgstr "パスフレーズの暗号化を確認する"
 
-#: views/modal/button.html:130
-msgid "Confirm the action on your device."
-msgstr "お使いの端末上の操作を確認してください。"
+#: views/modal/button.html:19
+msgid "Confirm provided information."
+msgstr ""
 
-#: views/debug.html:97
+#: views/debug.html:102
 msgid "Congratulations! Your device is now ready to use."
 msgstr "おめでとうございます!これでお使いの端末を使用する準備が整いました。"
 
@@ -366,7 +366,7 @@ msgstr "パスフレーズを有効にするために端末を接続してくだ
 msgid "Connect the device to enable PIN."
 msgstr "PINを有効にするために端末を接続してください。"
 
-#: views/device/homescreen.html:36
+#: views/device/homescreen.html:37
 msgid "Connect the device to set its homescreen."
 msgstr "ホーム画面を設定する端末を接続してください。"
 
@@ -374,7 +374,7 @@ msgstr "ホーム画面を設定する端末を接続してください。"
 msgid "Connect to Dropbox"
 msgstr "Dropboxに接続する"
 
-#: views/top.bar.html:21
+#: views/footer.html:20
 msgid ""
 "Connect to Dropbox to enable:<br>- renaming accounts<br>- commenting "
 "transactions<br>- labeling addresses and more..."
@@ -394,14 +394,13 @@ msgstr "お使いのTREZOR端末をコンピューターに接続してくださ
 msgid "Connect your TREZOR to display this address"
 msgstr "このアドレスを表示するためにTREZORを接続してください"
 
-#: views/nav.html:84
+#: views/nav.html:83
 msgid "Connected"
 msgstr "接続されました"
 
-#. The whole text: *Connection to the server has been lost*, but don't worry, your bitcoins are safe. Please try to reload this page or choose another server in application settings.
-#: views/alertbars/offline.html:5
-msgid "Connection to the server has been lost"
-msgstr "サーバーへの接続が遮断されました"
+#: index.html:46 views/top.nav.html:15
+msgid "Contact"
+msgstr ""
 
 #: views/device/custom-firmware.html:32 views/device/index.setup.html:21
 #: views/device/load.html:62 views/device/recovery.html:154
@@ -413,13 +412,28 @@ msgstr "続ける"
 msgid "counting..."
 msgstr "計測しています..."
 
+#: views/settings.html:51
+msgid "Currency backend"
+msgstr ""
+
+#. This is a small label in the Homescreen tab
+#: views/device/homescreen.html:9
+msgctxt "label"
+msgid "Custom image"
+msgstr ""
+
 #: views/modal/firmware.html:72
 msgid "Device"
 msgstr "端末"
 
-#: views/nav.html:96
+#: views/nav.html:95
 msgid "Device could not be opened."
 msgstr "端末が開けませんでした。"
+
+#. Device firmware is outdated.
+#: views/modal/firmware.html:17
+msgid "Device firmware is outdated."
+msgstr ""
 
 #: views/device/recovery.html:81
 msgid "Device has to be wiped before recovery."
@@ -439,13 +453,13 @@ msgctxt "load-label"
 msgid "Device label"
 msgstr "端末名"
 
-#. This is a short label in the device recovery page
-#: views/device/recovery.html:87
-msgctxt "recovery-label"
+#: views/device/index.setup.html:9 views/import.html:22
 msgid "Device label"
 msgstr "端末名"
 
-#: views/device/index.setup.html:9 views/import.html:22
+#. This is a short label in the device recovery page
+#: views/device/recovery.html:87
+msgctxt "recovery-label"
 msgid "Device label"
 msgstr "端末名"
 
@@ -459,15 +473,15 @@ msgctxt "button"
 msgid "Disable passphrase encryption"
 msgstr "パスフレーズによる暗号化を解除する"
 
-#. This is a short label in the device Advanced page
-#: views/device/advanced.html:129
-msgctxt "advanced-label"
-msgid "Disable PIN"
-msgstr "PINを無効化する"
-
 #. This is written on a button, clicking it will disable PIN
 #: views/device/advanced.html:147
 msgctxt "button"
+msgid "Disable PIN"
+msgstr "PINを無効化する"
+
+#. This is a short label in the device Advanced page
+#: views/device/advanced.html:129
+msgctxt "advanced-label"
 msgid "Disable PIN"
 msgstr "PINを無効化する"
 
@@ -497,7 +511,7 @@ msgid "Disconnect your TREZOR to enable passphrase."
 msgstr ""
 "パスフレーズを有効にするために、お手持ちのTREZORの接続を解除してください。"
 
-#: views/nav.html:81
+#: views/nav.html:80
 msgid "Disconnected"
 msgstr "接続が解除されました"
 
@@ -523,11 +537,23 @@ msgstr "端末を忘れますか?"
 msgid "Do you want to update the device firmware?"
 msgstr "端末のファームウェアをアップデートしますか?"
 
+#: index.html:40 views/top.nav.html:9
+msgid "Docs"
+msgstr ""
+
 #. Button in remember/forget dialog
 #: views/modal/forget.requested.html:11
 msgctxt "forget-button"
 msgid "Don't forget"
 msgstr "忘れない"
+
+#: views/account/send/txAddress.html:16
+msgid "Don't forget to double check the address ..."
+msgstr ""
+
+#: views/alertbars/offline.html:22
+msgid "Don't worry, your funds are safe."
+msgstr ""
 
 #: views/install/bridge.force.html:19 views/install/main.html:28
 #: views/install/main.html:57 views/install/udev.html:21
@@ -543,19 +569,24 @@ msgstr ""
 msgid "Downloading firmware..."
 msgstr "ファームウェアをダウンロードしています..."
 
-#: views/top.bar.html:32
+#: views/footer.html:31
 msgid "Dropbox connected. Click to disconnect it."
 msgstr "Dropboxに接続されました。クリックして接続を解除してください。"
 
 #. Transaction fee size menu
-#: views/account/send/fees.html:22
+#: views/account/send/fees.html:28
 msgctxt "transaction-fee"
 msgid "Economy"
 msgstr "エコノミー"
 
-#: views/modal/button.html:4 views/modal/dropbox.html:7
+#: views/modal/dropbox.html:7
 msgid "Enable labeling"
 msgstr "端末名を有効にする"
+
+#. Enable labeling on [device_name]
+#: views/modal/button.html:4
+msgid "Enable labeling on"
+msgstr ""
 
 #. This is written on a button, clicking it will enable passphrase
 #: views/device/advanced.html:63
@@ -582,7 +613,7 @@ msgid "Enabled"
 msgstr "有効化されました"
 
 #. This is on a pin button
-#: views/modal/pin.html:97
+#: views/modal/pin.html:101
 msgctxt "pin-button"
 msgid "Enter"
 msgstr "決定する"
@@ -593,11 +624,26 @@ msgctxt "passphrase-button"
 msgid "Enter"
 msgstr "決定する"
 
+#. Enter [device_name] PIN
+#: views/modal/pin.html:14
+msgid "Enter"
+msgstr ""
+
+#. Enter new [device_name] PIN
+#: views/modal/pin.html:22
+msgid "Enter new"
+msgstr ""
+
+#. Enter passphrase for  [device_name]?
+#: views/modal/passphrase.html:9
+msgid "Enter passphrase for"
+msgstr ""
+
 #: views/device/recovery.html:47
 msgid "Enter seed word"
 msgstr "シードを入力する"
 
-#: views/debug.html:78
+#: views/debug.html:70 views/debug.html:73
 msgid "Error details:"
 msgstr "エラーの詳細:"
 
@@ -606,24 +652,31 @@ msgstr "エラーの詳細:"
 msgid "Example:"
 msgstr "例:"
 
-#. In the bottom footer. 'Exchange rates by Bitpay'.
-#: views/footer.left.html:4
-msgid "Exchange rates by"
-msgstr "による取引レート"
+#: views/account/transactions/index.html:39
+msgid "Exchange:"
+msgstr ""
 
-#: views/account/send/fees.html:41
+#: views/account/send/fees.html:48
 msgid "Expected confirmation time"
 msgstr "予想される承認時間"
+
+#: views/settings.html:79
+msgid "Explorer URL"
+msgstr ""
 
 #: views/install/udev.html:7
 msgid "Extension installed successfully"
 msgstr "拡張機能が正常にインストールされました"
 
+#: views/debug.html:81
+msgid "external Broadcast Transaction tool"
+msgstr ""
+
 #: views/debug.html:12
 msgid "Failed to add account."
 msgstr "アカウントの追加に失敗しました。"
 
-#: views/debug.html:50
+#: views/debug.html:42
 msgid "Failed to change the device label."
 msgstr "端末名の変更に失敗しました。"
 
@@ -631,19 +684,19 @@ msgstr "端末名の変更に失敗しました。"
 msgid "Failed to renew session."
 msgstr "セッションのやり直しに失敗しました。"
 
-#: views/debug.html:19 views/debug.html:30
+#: views/debug.html:19 views/debug.html:22
 msgid "Failed to send transaction"
 msgstr "トランザクションの送信に失敗しました"
 
-#: views/otherStrings.html:67
+#: views/otherStrings.html:72
 msgid "Failed to sign message"
 msgstr ""
 
-#: views/otherStrings.html:71
+#: views/otherStrings.html:76
 msgid "Failed to verify message"
 msgstr ""
 
-#: views/account/send/fees.html:124
+#: views/account/send/fees.html:133
 msgid "Fee"
 msgstr "手数料"
 
@@ -653,14 +706,9 @@ msgctxt "send"
 msgid "Fee"
 msgstr "手数料"
 
-#: views/modal/button.html:12
+#: views/modal/button.html:13
 msgid "Fee is over threshold."
 msgstr "手数料がしきい値を超えています。"
-
-#. In the bottom footer. 'Fee predictions by 21.co'.
-#: views/footer.left.html:12
-msgid "Fee predictions by"
-msgstr "により推定される手数料"
 
 #. Fee of a transaction
 #: views/account/send/txPrepared.html:21
@@ -671,10 +719,14 @@ msgstr "手数料:"
 msgid "Fee/kB:"
 msgstr "手数料/kB:"
 
-#. PIN strength
-#: views/modal/pin.html:89
-msgid "Fine"
-msgstr "良好"
+#. In the bottom footer. 'Fee predictions by 21.co'.
+#: views/footer.text.html:12
+msgid "Fees by"
+msgstr ""
+
+#: views/settings.html:39
+msgid "Fiat Currency"
+msgstr ""
 
 #. This is a short label in the device Advanced page
 #: views/device/advanced.html:9
@@ -704,11 +756,16 @@ msgid "For more information, visit the user manual."
 msgstr "詳しい情報は、ユーザーマニュアルをご覧ください。"
 
 #. Button in remember/forget dialog
-#: views/modal/forget.disconnected.html:16
+#: views/modal/forget.disconnected.html:14
 #: views/modal/forget.requested.html:15
 msgctxt "forget-button"
 msgid "Forget"
 msgstr "忘れる"
+
+#. this is first part of sentence 'Forget [device_name]?'
+#: views/modal/forget.disconnected.html:4 views/modal/forget.requested.html:4
+msgid "Forget"
+msgstr ""
 
 #. Button in remember/forget dialog
 #: views/modal/forget.wipe.html:16
@@ -716,15 +773,11 @@ msgctxt "forget-button"
 msgid "Forget (recommended)"
 msgstr "忘れる (推奨)"
 
-#: views/modal/forget.disconnected.html:4 views/modal/forget.requested.html:4
-msgid "Forget device?"
-msgstr "端末を忘れますか?"
-
-#: views/nav.html:136
+#: views/nav.html:135
 msgid "Forget this device"
 msgstr "この端末を忘れる"
 
-#: views/modal/forget.disconnected.html:9 views/modal/forget.requested.html:8
+#: views/modal/forget.requested.html:8
 msgid ""
 "Forgetting only removes the device from the list on the left, your bitcoins "
 "are still safe and you can access them by reconnecting your TREZOR again."
@@ -737,7 +790,7 @@ msgid "Fresh address"
 msgstr "新しいアドレス"
 
 #. Used when estimating transaction time (Expected time: *from* 5 minutes to 10 minutes)
-#: views/account/send/fees.html:44
+#: views/account/send/fees.html:51
 msgctxt "transaction-time"
 msgid "from"
 msgstr ""
@@ -753,13 +806,13 @@ msgstr "履歴から"
 msgid "From that moment on you can:"
 msgstr "その瞬間からご利用可能です:"
 
+#: views/device/homescreen.html:81
+msgid "Gallery selection"
+msgstr ""
+
 #: views/jumbotrons/start.html:4
 msgid "Get started!"
 msgstr "さぁ、始めましょう!"
-
-#: views/top.nav.html:9
-msgid "Help"
-msgstr "ヘルプ"
 
 #. This is shown on the first page user sees.
 #: views/install/main.html:5
@@ -770,12 +823,12 @@ msgstr "こんにちは、あともう少しです!"
 msgid "Hide previous"
 msgstr "前回のアドレスを非表示にする"
 
-#: views/account/transactions/index.html:35
+#: views/account/transactions/index.html:49
 msgid "Hide this account"
 msgstr "このアカウントを隠す"
 
 #. Transaction fee size menu
-#: views/account/send/fees.html:14
+#: views/account/send/fees.html:20
 msgctxt "transaction-fee"
 msgid "High"
 msgstr "高"
@@ -786,26 +839,34 @@ msgctxt "header"
 msgid "Homescreen"
 msgstr "ホーム画面"
 
-#: views/debug.html:47
+#: views/debug.html:39
 msgid "Homescreen change failed."
 msgstr "ホーム画面の変更に失敗しました。"
 
-#: views/debug.html:106
+#: views/device/homescreen.html:27
+msgid "homescreen editor."
+msgstr ""
+
+#: views/debug.html:111
 msgid "Homescreen was successfully changed."
 msgstr "ホーム画面が正しく変更されました。"
 
 #. Used when estimating transaction time (Expected time: less than 5 *minutes*)
-#: views/account/send/fees.html:54 views/account/send/fees.html:99
+#: views/account/send/fees.html:106 views/account/send/fees.html:61
 msgctxt "transaction-time"
 msgid "hour"
 msgid_plural "hours"
 msgstr[0] "時間"
 
+#: views/modal/pin.html:106
+msgid "How does the PIN work?"
+msgstr ""
+
 #: views/modal/firmware.html:330
 msgid "If asked, please confirm the update on your device."
 msgstr "尋ねられた場合は、お使いの端末上で更新を確認してください。"
 
-#: views/modal/button.html:57
+#: views/modal/button.html:71
 msgid ""
 "If the address matches your TREZOR display, you can be sure it is genuine."
 msgstr "表示されたアドレスがTREZORの画面のものと一致すれば本物です。"
@@ -831,13 +892,6 @@ msgstr ""
 "パッケージをインストールしない場合や、インストールできない場合は、ご自分で正"
 "しい権限を設定することが可能です"
 
-#: views/modal/forget.disconnected.html:8
-msgid ""
-"If you choose to remember the device, we will not ask you this question next "
-"time you disconnect the device."
-msgstr ""
-"端末の記憶を選ぶと、次回以降端末を切断する際にこの質問は表示されません。"
-
 #. Whole text: If you disable the passphrase encryption, your current funds will not appear. You will have to enable the passphrase encryption again to see your current wallet.
 #: views/device/advanced.html:76
 msgid ""
@@ -852,7 +906,7 @@ msgstr ""
 "まだDropboxのアカウントをお持ちではない場合は、ログインする前に作成してくださ"
 "い。"
 
-#: views/modal/button.html:89
+#: views/modal/button.html:103
 msgid "If you forget your passphrase, you will lose your coins."
 msgstr ""
 "パスフレーズを忘れてしまうと、お手持ちのビットコインはすべて失われます。"
@@ -865,14 +919,6 @@ msgstr ""
 "パスフレーズを忘れてしまった場合、あなたのウォレットのデータは永遠に失われま"
 "す。残高をリカバリする方法はありません。"
 
-#: views/device/homescreen.html:74
-msgid ""
-"If you want to make a homescreen picture from a photo or a logo, use our "
-"homescreen editor."
-msgstr ""
-"写真やロゴからホーム画面用のイメージを作成する場合は、ホーム画面エディターを"
-"お使いください。"
-
 #: views/modal/firmware.html:180 views/modal/firmware.html:227
 msgid ""
 "If your TREZOR is already initialized, always have your Recovery seed with "
@@ -881,7 +927,7 @@ msgstr ""
 "お使いのTREZORが既に初期化されている場合は、ファームウェアをアップデートする"
 "前に必ずリカバリシードをお手元にご用意ください!"
 
-#: views/device/homescreen.html:72
+#: views/device/homescreen.html:73
 msgid ""
 "Image must be 128 px wide and 64 px high, and using only black and white "
 "(not grayscale)."
@@ -897,7 +943,7 @@ msgstr "インポート"
 msgid "Import addresses from CSV"
 msgstr "アドレスをCSVファイルからインポートする"
 
-#: views/account/send/buttonBar.html:27
+#: views/account/send/buttonBar.html:32
 msgid "Import from CSV"
 msgstr "CSVファイルからインポート"
 
@@ -933,8 +979,13 @@ msgstr ""
 msgid "Install TREZOR Chrome Extension"
 msgstr "Chrome用TREZOR拡張機能をインストールする"
 
-#: views/otherStrings.html:73
+#: views/otherStrings.html:78
 msgid "Invalid signature"
+msgstr ""
+
+#. PIN strength
+#: views/modal/pin.html:93
+msgid "It's fine."
 msgstr ""
 
 #. This is a short label in the device Basic page
@@ -948,15 +999,15 @@ msgstr "ラベル"
 msgid "label addresses"
 msgstr "アドレスにラベルを貼る"
 
-#: views/account/receive/address.html:145
+#: views/account/receive/address.html:146
 msgid "Label this address"
 msgstr "このアドレスにラベルを貼る"
 
-#: views/debug.html:109
+#: views/debug.html:114
 msgid "Label was successfully changed."
 msgstr "ラベルが正常に変更されました。"
 
-#: views/debug.html:65
+#: views/debug.html:57
 msgid "Labeling error."
 msgstr "ラベリングエラー。"
 
@@ -964,14 +1015,28 @@ msgstr "ラベリングエラー。"
 msgid "Latest"
 msgstr "最新"
 
-#: views/device/index.basic.html:177 views/device/index.basic.html:227
+#: views/device/index.basic.html:182 views/device/index.basic.html:232
+#: views/modal/pin.html:106
 msgid "Learn more"
 msgstr "もっと詳しく知る"
+
+#: views/install/main.html:84 views/install/udev.html:60
+msgid "Learn more about Bitcoin TREZOR."
+msgstr ""
 
 #. Part of a long text about Dropbox and labeling
 #: views/modal/dropbox.html:49
 msgid "Learn more about myTREZOR labeling."
 msgstr "myTREZORのラベリングについてもっと学ぶ。"
+
+#. This text is displayed, when the amount is too high. Its goal is to get user to re-check the address. This is the fourth line, and a link to our manual.
+#: views/account/send/index.html:47
+msgid "Learn more about phishing…"
+msgstr ""
+
+#: views/device/advanced.html:40 views/device/advanced.html:87
+msgid "Learn more in user manual"
+msgstr ""
 
 #. Refers to PIN input
 #: views/device/load.html:46
@@ -979,25 +1044,25 @@ msgid "leave empty to keep PIN protection disabled"
 msgstr "PINによる保護機能を無効化する場合は空欄にしてください"
 
 #. Used when estimating transaction time (Expected time: *less than* 5 minutes)
-#: views/account/send/fees.html:88
+#: views/account/send/fees.html:95
 msgctxt "transaction-time"
 msgid "less than"
 msgstr "より少ない"
 
-#. Is displayed when TREZOR is loading, in the left column
-#: views/nav.html:66
-msgid "loading"
-msgstr "ロード中です"
-
-#: views/jumbotrons/loading.html:4 views/nav.html:154 views/nav.html:167
+#: views/jumbotrons/loading.html:4 views/nav.html:153 views/nav.html:170
 msgid "Loading"
 msgstr "ロードしています"
 
-#: views/nav.html:208
+#. Is displayed when TREZOR is loading, in the left column
+#: views/nav.html:64
+msgid "Loading ..."
+msgstr ""
+
+#: views/nav.html:211
 msgid "Loading accounts..."
 msgstr "アカウントをロードしています..."
 
-#: views/debug.html:53
+#: views/debug.html:45
 msgid "Loading failed."
 msgstr "ロードに失敗しました。"
 
@@ -1005,15 +1070,19 @@ msgstr "ロードに失敗しました。"
 msgid "Loading of accounts failed."
 msgstr "アカウントのロードに失敗しました。"
 
-#: views/account/transactions/index.html:48
+#: views/account/transactions/index.html:57
 msgid "Loading transactions"
 msgstr "トランザクションをロードしています"
 
-#: views/device/index.basic.html:117
+#: views/device/index.basic.html:121
 msgid "Loading..."
 msgstr "ロードしています..."
 
-#: views/nav.html:117
+#: views/account/transactions/index.html:38
+msgid "Local traders:"
+msgstr ""
+
+#: views/nav.html:116
 msgid "Lock this device"
 msgstr "この端末をロックする"
 
@@ -1021,25 +1090,27 @@ msgstr "この端末をロックする"
 msgid "Log"
 msgstr "ログ"
 
-#: views/modal/pin.html:15 views/modal/pin.html:19
+#: views/modal/pin.html:15 views/modal/pin.html:23
 msgid "Look at the device for number positions."
 msgstr "数字の位置を確認するために端末をご確認ください。"
 
-#: views/modal/pin.html:103
-msgid "Lost? Check our user manual."
-msgstr "PINを失くしてしまいましたか?ユーザーマニュアルをご確認ください。"
-
 #. Transaction fee size menu
-#: views/account/send/fees.html:26
+#: views/account/send/fees.html:32
 msgctxt "transaction-fee"
 msgid "Low"
 msgstr "低"
+
+#: views/modal/button.html:35
+msgid ""
+"Make sure the address displayed on TREZOR is correct.<br>To prevent malware "
+"attacks, double-check the address with the recipient."
+msgstr ""
 
 #: views/modal/firmware.html:340
 msgid "Make sure the same fingerprint is displayed on the device screen."
 msgstr "端末画面と同じ指紋が表示されているか確認してください。"
 
-#: views/nav.html:97
+#: views/nav.html:96
 msgid ""
 "Make sure you don't have myTREZOR running in another tab or browser window."
 msgstr "他のタブやウインドウ上でTREZORが動いていないか確認してください。"
@@ -1052,7 +1123,7 @@ msgstr "メッセージは最大255文字まで入力できます。"
 msgid "Message"
 msgstr "メッセージ"
 
-#: views/otherStrings.html:75
+#: views/otherStrings.html:80
 msgid "Message verified."
 msgstr ""
 
@@ -1076,15 +1147,15 @@ msgid "Metadata setup"
 msgstr "メタデータのセットアップ"
 
 #. Used when estimating transaction time (Expected time: less than 5 *minutes*)
-#: views/account/send/fees.html:112 views/account/send/fees.html:67
+#: views/account/send/fees.html:119 views/account/send/fees.html:74
 msgctxt "transaction-time"
 msgid "minute"
 msgid_plural "minutes"
 msgstr[0] "分"
 
 #: views/account/receive/index.html:75
-msgid "More please"
-msgstr "もっとお願いします"
+msgid "More addresses"
+msgstr ""
 
 #. Literally 'my TREZOR (device)'. Used as a default device name. It HAS to be ASCII only and it HAS to be less than 16 letters long
 #: views/device/index.setup.html:10 views/device/load.html:26
@@ -1094,7 +1165,7 @@ msgctxt "default-name"
 msgid "My TREZOR"
 msgstr "自分のTREZOR"
 
-#: views/device/index.basic.html:190 views/device/index.basic.html:241
+#: views/device/index.basic.html:195 views/device/index.basic.html:246
 msgctxt "xpub-text"
 msgid "Mycelium"
 msgstr "Mycelium"
@@ -1107,11 +1178,6 @@ msgstr "myTREZORが端末からアカウントをロードしています"
 msgid "myTREZOR labeling"
 msgstr "myTREZORにラベルを貼る"
 
-#. In the bottom footer.
-#: views/footer.left.html:19
-msgid "myTREZOR Terms &amp; Conditions"
-msgstr "myTREZOR 規約 &amp; 条件"
-
 #: views/install/main.html:83 views/install/udev.html:59
 msgid ""
 "myTREZOR Web Wallet is a free service provided exclusively to TREZOR "
@@ -1123,7 +1189,11 @@ msgstr ""
 msgid "myTREZOR will forget your TREZOR right after you disconnect it."
 msgstr "接続を解除した後すぐに、myTREZORはお手持ちのTREZORを忘れます。"
 
-#: views/modal/button.html:81
+#: views/account/transactions/index.html:40
+msgid "Nearest ATM:"
+msgstr ""
+
+#: views/modal/button.html:95
 msgid ""
 "Never do this action with TREZOR holding coins unless you have your recovery "
 "seed at hand."
@@ -1146,17 +1216,13 @@ msgstr ""
 msgid "New device setup"
 msgstr "新しい端末のセットアップ"
 
-#: views/alertbars/bridge.html:4
+#: views/alertbars/bridge.html:7
 msgid "New TREZOR Bridge is available."
 msgstr "新しいTREZOR Bridgeが利用可能です。"
 
-#: views/alertbars/firmware.html:5
+#: views/alertbars/firmware.html:9
 msgid "New TREZOR firmware is available."
 msgstr "新しいTREZORのファームウェアが利用可能です。"
-
-#: views/top.nav.html:6
-msgid "News"
-msgstr "更新情報"
 
 #: views/jumbotrons/noaccounts.html:4
 msgid "No accounts"
@@ -1173,20 +1239,20 @@ msgstr ""
 "に解読されます。"
 
 #: views/account/transactions/index.html:34
-msgid "No transactions to display"
-msgstr "表示できるトランザクションがありません"
+msgid "No transactions, yet."
+msgstr ""
 
 #. Transaction fee size menu
-#: views/account/send/fees.html:18
+#: views/account/send/fees.html:24
 msgctxt "transaction-fee"
 msgid "Normal"
 msgstr "普通"
 
-#: views/account/send/txAddress.html:37
+#: views/account/send/txAddress.html:41
 msgid "Not a valid address"
 msgstr "有効なアドレスではありません"
 
-#: views/account/send/fees.html:133
+#: views/account/send/fees.html:143
 msgid "Not enough funds"
 msgstr ""
 
@@ -1199,7 +1265,7 @@ msgstr "セットされていません"
 msgid "Note that passphrase is case-sensitive."
 msgstr "大文字と小文字を区別してパスワードをメモしてください。"
 
-#: views/modal/pin.html:23
+#: views/modal/pin.html:27
 msgid "Note that the positions of numbers shown on the device have changed!"
 msgstr "端末上に表示された数字の位置が変更されたことに注意してください!"
 
@@ -1218,8 +1284,12 @@ msgstr "あなたのリカバリシードの文字数"
 msgid "OK, I understand"
 msgstr "はい、わかりました。"
 
+#: views/account/transactions/index.html:39
+msgid "or"
+msgstr ""
+
 #. Whole text: Scan it into an application that supports XPUBs such as Mycelium *or* Sentinel for Android. Then, you can watch your transactions and receive payments everywhere without carrying your TREZOR.
-#: views/device/index.basic.html:191
+#: views/device/index.basic.html:196
 msgctxt "xpub-text"
 msgid "or"
 msgstr ""
@@ -1235,7 +1305,7 @@ msgctxt "advanced-label"
 msgid "Passphrase"
 msgstr "パスフレーズ"
 
-#: views/debug.html:44
+#: views/debug.html:36
 msgid "Passphrase change failed."
 msgstr "パスフレーズの変更に失敗しました。"
 
@@ -1261,15 +1331,22 @@ msgstr "パスフレーズが一致しません!"
 msgid "Paste the CSV here:"
 msgstr "CSVファイルをここに張り付けてください:"
 
+#. PIN strength
+#: views/modal/pin.html:95
+msgid "Perfect, impossible to guess!"
+msgstr ""
+
 #: views/account/send/index.html:90
 msgid "phase"
 msgstr "フェーズ"
 
-#: views/device/load.html:46
+#. Enter [device_name] PIN
+#: views/device/load.html:46 views/modal/pin.html:14 views/modal/pin.html:22
+#: views/modal/pin.html:26
 msgid "PIN"
 msgstr "PIN"
 
-#: views/debug.html:41
+#: views/debug.html:33
 msgid "PIN change failed."
 msgstr "PINの変更に失敗しました。"
 
@@ -1279,11 +1356,11 @@ msgctxt "basic-label"
 msgid "PIN protection"
 msgstr "PINによる保護"
 
-#: views/debug.html:103
+#: views/debug.html:108
 msgid "PIN was successfully changed."
 msgstr "PINが正常に変更されました。"
 
-#: views/debug.html:100
+#: views/debug.html:105
 msgid "PIN was successfully removed."
 msgstr "PINが正常に消去されました。"
 
@@ -1387,22 +1464,9 @@ msgstr "リカバリシードの8番目の単語を確認してください。"
 msgid "Please check the 9th word of your recovery seed."
 msgstr "リカバリシードの9番目の単語を確認してください。"
 
-#: views/modal/button.html:13 views/modal/button.html:138
-#: views/modal/button.html:96
-msgid "Please confirm the action on your device."
-msgstr "お使いの端末上のアクションを確認してください。"
-
 #: views/modal/firmware.html:339
 msgid "Please confirm the firmware fingerprint."
 msgstr "ファームウェアの指紋を確認してください。"
-
-#: views/modal/button.html:34
-msgid "Please confirm the transaction on your device."
-msgstr "お使いの端末上のトランザクションを確認してください。"
-
-#: views/modal/button.html:18
-msgid "Please confirm the transaction output on your device."
-msgstr "出力されたお使いの端末上のトランザクションを確認してください。"
 
 #: views/device/custom-firmware.html:4 views/device/load.html:4
 #: views/device/recovery.html:4
@@ -1423,21 +1487,9 @@ msgstr ""
 msgid "Please disconnect it now."
 msgstr "接続を解除してください。"
 
-#: views/modal/pin.html:14
-msgid "Please enter current PIN:"
-msgstr "現在のPINを入力してください:"
-
-#: views/modal/pin.html:18
-msgid "Please enter new PIN:"
-msgstr "新しいPINを入力してください:"
-
 #: views/modal/label.html:6
 msgid "Please enter the device label"
 msgstr "端末名を入力してください"
-
-#: views/modal/passphrase.html:9
-msgid "Please enter your passphrase"
-msgstr "パスフレーズを入力してください"
 
 #: views/otherStrings.html:42
 msgctxt "send-button-tooltip"
@@ -1468,15 +1520,24 @@ msgstr ""
 "TREZORのChrome用拡張機能をインストールして、myTREZORの端末アクセスを許可して"
 "ください。"
 
-#: views/modal/pin.html:22
-msgid "Please re-enter new PIN:"
-msgstr "新しいPINを再入力してください:"
-
 #: views/modal/firmware.html:308
 msgid ""
 "Please reconnect it <strong>while pressing both buttons simultaneously.</"
 "strong>"
 msgstr "<strong>両方のボタンを同時に押した状態で再接続してください。</strong>"
+
+#: views/alertbars/offline.html:7
+msgid "Please reconnect to the Internet and reload the page."
+msgstr ""
+
+#: views/otherStrings.html:67
+msgctxt "send-button-tooltip"
+msgid "Please reload the page to send money."
+msgstr ""
+
+#: views/alertbars/offline.html:38
+msgid "Please reload the page."
+msgstr ""
 
 #: views/device/index.setup.html:4
 msgid ""
@@ -1494,11 +1555,6 @@ msgid ""
 msgstr ""
 "もう一度試してください。 <strong>端末を接続する際には両方の端末のボタンを押下"
 "する必要があります。</strong>"
-
-#. The whole text: Connection to the server has been lost, but don't worry, your bitcoins are safe. *Please try to* reload this page or choose another server in application settings.
-#: views/alertbars/offline.html:16
-msgid "Please try to"
-msgstr "お試しください"
 
 #: views/modal/firmware.html:360 views/modal/firmware.html:370
 msgid "Please unplug the device now."
@@ -1622,17 +1678,13 @@ msgstr "リカバリシードの8番目の単語を書き写してください�
 msgid "Please write down the 9th word of your recovery seed."
 msgstr "リカバリシードの9番目の単語を書き写してください。"
 
-#: views/modal/button.html:51
-msgid "Please write down the recovery seed from your device."
-msgstr "お使いの端末上のリカバリシードを書き写してください。"
+#: views/modal/pin.html:19
+msgid "Please, re-enter correct PIN."
+msgstr ""
 
 #: views/modal/firmware.html:23
 msgid "plug it in while holding both device buttons pressed"
 msgstr "端末のボタンを同時に押しながら接続してください"
-
-#: views/settings.html:33
-msgid "Prefill from following choices:"
-msgstr "次の選択肢からあらかじめ入力:"
 
 #: views/account/receive/index.html:38
 msgid "Previous addresses"
@@ -1642,32 +1694,29 @@ msgstr "前回使用したアドレス"
 msgid "Processing..."
 msgstr "処理しています..."
 
-#: views/debug.html:32
+#: views/debug.html:24
 msgid "QR scanning failed."
 msgstr "QRコードの読み取りに失敗しました。"
 
-#: views/debug.html:20
+#. In the bottom footer. 'Exchange rates by Bitpay'.
+#: views/footer.text.html:9
+msgid "Rates by"
+msgstr ""
+
+#: views/debug.html:74
 msgid "Raw transaction in hex format:"
 msgstr "hexフォーマットの生のトランザクション:"
+
+#. Re-enter new [device_name] PIN
+#: views/modal/pin.html:26
+msgid "Re-enter new"
+msgstr ""
 
 #: views/modal/passphrase.html:25 views/modal/passphrase.html:30
 msgid "Re-type for control"
 msgstr "制御のために再入力する"
 
-#: views/install/main.html:84 views/install/udev.html:60
-msgid "Read more about Bitcoin TREZOR."
-msgstr "ビットコインTREZORについてもっと学ぶ。"
-
-#. This text is displayed, when the amount is too high. Its goal is to get user to re-check the address. This is the fourth line, and a link to our manual.
-#: views/account/send/index.html:47
-msgid "Read more about phishing…"
-msgstr "フィッシング詐欺についてもっと詳しく知る…"
-
-#: views/device/advanced.html:40 views/device/advanced.html:87
-msgid "Read more in user manual"
-msgstr "ユーザーマニュアルでもっと読む"
-
-#: views/debug.html:59
+#: views/debug.html:51
 msgid "Reading of accounts failed."
 msgstr "アカウントの読み取りに失敗しました。"
 
@@ -1681,7 +1730,7 @@ msgstr "受信"
 msgid "Recovered seed words:"
 msgstr "リカバリ―シード:"
 
-#: views/debug.html:62
+#: views/debug.html:54
 msgid "Recovery failed."
 msgstr "リカバリに失敗しました。"
 
@@ -1697,19 +1746,17 @@ msgstr "リカバリシードのセットアップ"
 msgid "Release notes"
 msgstr "リリースノート"
 
-#. The whole text: Connection to the server has been lost, but don't worry, your bitcoins are safe. Please try to *reload* this page or choose another server in application settings.
-#: views/alertbars/offline.html:21
-msgctxt "offline-header"
+#: views/alertbars/offline.html:42 views/alertbars/offline.html:9
 msgid "Reload"
-msgstr "リロード"
+msgstr ""
 
 #. Button in remember/forget dialog
-#: views/modal/forget.disconnected.html:12 views/modal/forget.wipe.html:12
+#: views/modal/forget.disconnected.html:10 views/modal/forget.wipe.html:12
 msgctxt "forget-button"
 msgid "Remember"
 msgstr "記憶する"
 
-#: views/account/send/buttonBar.html:32
+#: views/account/send/buttonBar.html:37
 msgid "Remove all recipients"
 msgstr "すべての受信者を削除する"
 
@@ -1726,11 +1773,11 @@ msgstr "アカウントの名前を変更する"
 msgid "rename accounts"
 msgstr "アカウントの名前を変更する"
 
-#: views/nav.html:196
+#: views/nav.html:199
 msgid "Rename this account"
 msgstr "このアカウントをリネームする"
 
-#: views/settings.html:41
+#: views/settings.html:89
 msgid "Save &amp; Reload"
 msgstr "セーブしてリロード"
 
@@ -1739,14 +1786,14 @@ msgid "Scan address from a QR code"
 msgstr "アドレスをQRコードから読み取ってください"
 
 #. Whole text: *Scan it into an application that supports XPUBs such as* Mycelium or Sentinel for Android. Then, you can watch your transactions and receive payments everywhere without carrying your TREZOR.
-#: views/device/index.basic.html:186 views/device/index.basic.html:237
+#: views/device/index.basic.html:191 views/device/index.basic.html:242
 msgctxt "xpub-text"
 msgid "Scan it into an application that supports XPUBs such as"
 msgstr ""
 "のようなXPUBファイルをサポートしたアプリケーションにスキャンしてデータを取り"
 "込んでください"
 
-#: views/account/send/txAddress.html:30
+#: views/account/send/txAddress.html:34
 msgid "Scan QR code"
 msgstr "QRコードを読み取ってください"
 
@@ -1758,9 +1805,9 @@ msgstr "アドレス、データ、金額を検索"
 msgid "Seed recovery"
 msgstr "シードリカバリ"
 
-#: views/device/homescreen.html:81
-msgid "Select an image"
-msgstr "画像を選択"
+#: views/footer.html:42
+msgid "Select currency"
+msgstr ""
 
 #: views/install/main.html:31 views/install/main.html:60
 msgid "Select platform..."
@@ -1773,18 +1820,18 @@ msgid "Send"
 msgstr "送信"
 
 #. This is shown on the main, big Send button
-#: views/account/send/buttonBar.html:6
+#: views/account/send/buttonBar.html:10
 msgctxt "button"
 msgid "Send"
 msgstr "送信"
 
 #. This is shown in the transaction list when the transaction is to the user himseld.
-#: views/account/transactions/txAddress.html:23
+#: views/account/transactions/txAddress.html:29
 msgid "Sent to myself"
 msgstr "自分に送信"
 
 #. This is on a button, clicking it will set as homescreen
-#: views/device/homescreen.html:43
+#: views/device/homescreen.html:44
 msgctxt "button"
 msgid "Set as homescreen"
 msgstr "ホーム画面として設定"
@@ -1793,7 +1840,7 @@ msgstr "ホーム画面として設定"
 msgid "Set maximum possible amount"
 msgstr "限度額を設定"
 
-#: views/debug.html:38
+#: views/debug.html:30
 msgid "Setup failed."
 msgstr "セットアップが失敗しました。"
 
@@ -1801,14 +1848,22 @@ msgstr "セットアップが失敗しました。"
 msgid "Show changes"
 msgstr "変更点を表示"
 
-#: views/alertbars/bridge.html:6 views/alertbars/firmware.html:7
+#: views/alertbars/bridge.html:9 views/alertbars/firmware.html:11
 msgid "Show details"
 msgstr "詳細を表示"
 
+#: views/account/transactions/txAddress.html:15
+msgid "Show less"
+msgstr ""
+
 #: views/debug.button.html:5 views/debug.button.html:7
-#: views/footer.right.html:4
+#: views/footer.text.html:20
 msgid "Show log"
 msgstr "ログを表示"
+
+#: views/account/transactions/txAddress.html:12
+msgid "Show more..."
+msgstr ""
 
 #: views/account/receive/address.html:64
 msgid "Show on TREZOR"
@@ -1827,7 +1882,7 @@ msgstr "前回の取引を表示"
 msgid "Show transaction details"
 msgstr "トランザクションの詳細を表示"
 
-#: views/device/index.basic.html:155
+#: views/device/index.basic.html:160
 msgid "Show XPUBs"
 msgstr "XPUBファイルを表示"
 
@@ -1855,7 +1910,7 @@ msgctxt "sign"
 msgid "Signature"
 msgstr "署名"
 
-#: views/otherStrings.html:69
+#: views/otherStrings.html:74
 msgid "Signed successfully."
 msgstr ""
 
@@ -1873,7 +1928,7 @@ msgstr "サイズ:"
 msgid "Skip mnemonic checksum"
 msgstr "ニーモニックチェックサムをスキップする"
 
-#: views/account/send/fees.html:130
+#: views/account/send/fees.html:140
 msgid "Some fields are incorrect."
 msgstr "いくつかのフィールドの入力が正しくありません。"
 
@@ -1883,25 +1938,30 @@ msgid "Sorry that we make it so hard!"
 msgstr "申し訳ございません、処理がうまくいきません!"
 
 #. PIN strength
-#: views/modal/pin.html:90
-msgid "Strong"
-msgstr "強"
+#: views/modal/pin.html:94
+msgid "Strong enough!"
+msgstr ""
 
 #. This is displayed on top when any action successfully finishes
-#: views/debug.html:89
+#: views/debug.html:94
 msgctxt "flash"
 msgid "Success"
 msgstr "成功"
-
-#: views/top.nav.html:12
-msgid "Support"
-msgstr "サポート"
 
 #: views/modal/firmware.html:104 views/modal/firmware.html:132
 #: views/modal/firmware.html:161 views/modal/firmware.html:198
 #: views/modal/firmware.html:279
 msgid "Support needed?"
 msgstr "サポートが必要ですか?"
+
+#. In the bottom footer.
+#: views/footer.text.html:4
+msgid "Terms"
+msgstr ""
+
+#: views/settings.html:17
+msgid "The bitcore server doesn't seem to reply. Please select another server."
+msgstr ""
 
 #. displayed on the bottom in the TX
 #: views/account/send/txPrepared.html:44
@@ -1916,7 +1976,7 @@ msgstr ""
 "TREZOR上でトランザクションが作成されたため、最終的なサイズは多少異なります。"
 
 #. Whole text: Scan it into an application that supports XPUBs such as Mycelium or Sentinel for Android. *Then, you can watch your transactions and receive payments everywhere without carrying your TREZOR.*
-#: views/device/index.basic.html:202 views/device/index.basic.html:252
+#: views/device/index.basic.html:207 views/device/index.basic.html:257
 msgctxt "xpub-text"
 msgid ""
 "Then, you can watch your transactions and receive payments everywhere "
@@ -1925,7 +1985,7 @@ msgstr ""
 "そして、TREZORをお持ちいただくことで、どこでもあなたのトランザクション情報の"
 "閲覧と支払いの受付けができるようになります。"
 
-#: views/modal/button.html:80
+#: views/modal/button.html:94
 msgid ""
 "This action cannot be undone. Please <strong>confirm on your device</strong>."
 msgstr "この操作は取り消せません。 <strong>端末上で認証してください</strong>。"
@@ -1946,11 +2006,6 @@ msgstr ""
 "このラベルはTREZORを接続すると画面に表示されます。複数端末をお持ちの場合など"
 "にお使いください。"
 
-#. The whole text: Connection to the server has been lost, but don't worry, your bitcoins are safe. Please try to reload *this page or choose another server in* application settings.
-#: views/alertbars/offline.html:28
-msgid "this page or choose another server in"
-msgstr "このページまたは、別のサーバーを選んで"
-
 #: views/install/udev.html:53
 msgid "This step is needed only on Linux."
 msgstr "このステップはLinux上でのみ必要です。"
@@ -1958,11 +2013,11 @@ msgstr "このステップはLinux上でのみ必要です。"
 #. This is shown in the header in the transaction list
 #: views/account/transactions/table.html:9
 msgctxt "transaction-list"
-msgid "Timestamp"
-msgstr "タイムスタンプ"
+msgid "Time"
+msgstr ""
 
 #. Used when estimating transaction time (Expected time: from 5 minutes *to* 10 minutes)
-#: views/account/send/fees.html:78
+#: views/account/send/fees.html:85
 msgctxt "transaction-time"
 msgid "to"
 msgstr ""
@@ -1987,7 +2042,7 @@ msgstr ""
 "続くアドレスにアクセスするために、いくつかトランザクションに表示されたアドレ"
 "スを使用してください。"
 
-#: views/nav.html:214
+#: views/nav.html:218
 msgid ""
 "To add accounts, make sure your device is connected and the last account is "
 "not empty."
@@ -2012,11 +2067,6 @@ msgstr ""
 msgid "To update the firmware:"
 msgstr "ファームウェアをアップデート:"
 
-#. PIN strength
-#: views/modal/pin.html:87
-msgid "Too Long"
-msgstr "長すぎます"
-
 #. This is a short label in the device Basic page
 #: views/device/index.basic.html:108
 msgctxt "basic-label"
@@ -2028,18 +2078,18 @@ msgid "Total received:"
 msgstr "受信金額合計:"
 
 #. The whole sentence: *Transaction* 1234567890abcdef was successfully sent.
-#: views/debug.html:113
+#: views/debug.html:118
 msgctxt "send-done"
 msgid "Transaction"
 msgstr "トランザクション"
 
-#: views/account/transactions/table.html:41
-#: views/account/transactions/table.html:62 views/debug.html:123
+#: views/account/transactions/table.html:42
+#: views/account/transactions/table.html:58 views/debug.html:128
 msgid "Transaction info at blockchain.info"
 msgstr "blockchain.infoのトランザクション情報"
 
 #. In text: 'Loading (123 transactions)', it is always plural
-#: views/nav.html:174
+#: views/nav.html:177
 msgctxt "loading"
 msgid "transactions"
 msgstr "トランザクション"
@@ -2049,6 +2099,10 @@ msgstr "トランザクション"
 msgctxt "header"
 msgid "Transactions"
 msgstr "トランザクション"
+
+#: index.html:34 views/top.nav.html:3
+msgid "TREZOR"
+msgstr ""
 
 #: views/install/bridge.force.html:8
 msgid "TREZOR Bridge update"
@@ -2066,7 +2120,7 @@ msgstr "TREZORはASCIIでない文字ではサインできません。"
 msgid "TREZOR cannot verify non-ASCII characters."
 msgstr "ASCIIではない文字は照合できません。"
 
-#: views/error.html:5
+#: views/error.html:6
 msgid "TREZOR loading failed"
 msgstr "TREZORのロードに失敗しました"
 
@@ -2076,22 +2130,21 @@ msgctxt "button"
 msgid "TREZOR Recovery"
 msgstr "TREZORリカバリ"
 
+#: views/alertbars/offline.html:26
+msgid "Try a different server."
+msgstr ""
+
 #: views/device/index.basic.html:7
 msgid "Try again"
 msgstr "もう一度試してください"
 
-#. PIN strength
-#: views/modal/pin.html:91
-msgid "Ultimate"
-msgstr "最強"
-
 #. Unconfirmed transaction, in the transaction list, will have this instead of date.
-#: views/account/transactions/table.html:65
+#: views/account/transactions/table.html:61
 msgid "Unconfirmed"
 msgstr "未確認"
 
 #. This is shown in the transaction list when the transaction is to the user himseld.
-#: views/account/transactions/txAddress.html:35
+#: views/account/transactions/txAddress.html:41
 msgctxt "transaction-list"
 msgid "Unknown"
 msgstr "不明"
@@ -2105,8 +2158,13 @@ msgstr ""
 "お使いのTREZORとは違い、コンピューターは安全ではありません。マルウェアによっ"
 "てビットコインアドレスがすり替えられてしまう可能性があります。"
 
+#. PIN strength
+#: views/modal/pin.html:91
+msgid "Unnecessarily too long."
+msgstr ""
+
 #. Shown in the list of addresses, the small comment below an address
-#: views/account/receive/address.html:99
+#: views/account/receive/address.html:100
 msgid "Unused address"
 msgstr "未使用のアドレス"
 
@@ -2132,32 +2190,32 @@ msgid "Upgrade"
 msgstr "アップグレード"
 
 #. Upgrade refers to bridge upgrade
-#: views/alertbars/firmware.html:6
-msgctxt "firmware-update"
-msgid "Upgrade for the newest features and bug fixes."
-msgstr "アップグレードして新しい機能を手に入れてバグを修正する。"
-
-#. Upgrade refers to bridge upgrade
-#: views/alertbars/bridge.html:5
+#: views/alertbars/bridge.html:8
 msgctxt "bridge-update"
 msgid "Upgrade for the newest features and bug fixes."
 msgstr "アップグレードして新しい機能を手に入れてバグを修正する。"
 
-#. This is a small label in the Homescreen tab
-#: views/device/homescreen.html:9
-msgctxt "label"
+#. Upgrade refers to bridge upgrade
+#: views/alertbars/firmware.html:10
+msgctxt "firmware-update"
+msgid "Upgrade for the newest features and bug fixes."
+msgstr "アップグレードして新しい機能を手に入れてバグを修正する。"
+
+#. This is on a button, for browsing images for homescreen tab
+#: views/device/homescreen.html:18
+msgctxt "button"
 msgid "Upload image"
-msgstr "画像をアップロードしてください"
+msgstr ""
 
 #: views/modal/firmware.html:329
 msgid "Uploading firmware..."
 msgstr "ファームウェアをアップデートしています..."
 
-#: views/settings.html:24
+#: views/settings.html:66
 msgid "URL needs to start with https://"
 msgstr "URLは https:// で始まる必要があります"
 
-#: views/settings.html:28
+#: views/settings.html:71
 msgid "URL needs to start with https:// or http://"
 msgstr "URLは、https:// や http:// で始まる必要があります"
 
@@ -2174,7 +2232,7 @@ msgstr ""
 "この機能はリカバリシードを持っているか、お手持ちの端末内にビットコインが一切"
 "ない状態でお使いください。"
 
-#: views/nav.html:23 views/nav.html:69
+#: views/nav.html:21 views/nav.html:68
 msgid "Used in other window"
 msgstr "他のウインドウで使われています"
 
@@ -2213,6 +2271,10 @@ msgstr "メッセージを認証してください"
 msgid "Versions"
 msgstr "バージョン"
 
+#: views/account/receive/address.html:95 views/account/receive/index.html:97
+msgid "View address at block explorer"
+msgstr ""
+
 #: views/modal/qr.html:9
 msgid "Waiting for camera&hellip;"
 msgstr "カメラの起動を待っています&hellip;"
@@ -2220,6 +2282,10 @@ msgstr "カメラの起動を待っています&hellip;"
 #: views/account/receive/index.html:122
 msgid "Waiting for transaction history"
 msgstr "トランザクション履歴を取得しています"
+
+#: index.html:37 views/top.nav.html:6
+msgid "Wallet"
+msgstr ""
 
 #: views/device/index.html:11
 msgid "Want to restore your wallet from recovery seed?"
@@ -2230,20 +2296,12 @@ msgstr "リカバリシードからウォレットを復元しますか?"
 msgid "Warning:"
 msgstr "警告:"
 
-#: views/debug.log.html:13
-msgid ""
-"Warning: This log can contain your XPUB. When you give it to a third party, "
-"you allow it to see your whole transaction history."
-msgstr ""
-"警告: ログにはXPUBファイルのデータが含まれています。第三者にデータが渡ってし"
-"まうと、すべてのトランザクション履歴が閲覧可能になります。"
-
 #: views/account/nav.html:56
 msgid "Warning!"
 msgstr "警告!"
 
 #. The whole sentence: Transaction 1234567890abcdef *was successfully sent.*
-#: views/debug.html:127
+#: views/debug.html:132
 msgctxt "send-done"
 msgid "was successfully sent."
 msgstr "正常に送信されました。"
@@ -2278,20 +2336,15 @@ msgstr ""
 msgid "We will now show you the 24 words again."
 msgstr "もう一度24単語表示します。"
 
-#. PIN strength
-#: views/modal/pin.html:88
-msgid "Weak"
-msgstr "弱"
-
 #: views/device/index.setup.html:3
 msgid "Welcome to TREZOR Setup!"
 msgstr "TREZORのセットアップにようこそ!"
 
-#: views/top.nav.html:3
-msgid "What is TREZOR?"
-msgstr "TREZORとは?"
+#: views/account/transactions/index.html:36
+msgid "What's next? How about buying some bitcoins?"
+msgstr ""
 
-#: views/device/index.basic.html:176 views/device/index.basic.html:226
+#: views/device/index.basic.html:181 views/device/index.basic.html:231
 msgid ""
 "When you give them to a third party, you allow it to see your whole "
 "transaction history."
@@ -2299,19 +2352,19 @@ msgstr ""
 "第三者にデータが渡ってしまうと、すべてのトランザクション履歴が閲覧可能になり"
 "ます。"
 
-#. This is written on a button, clicking it will wipe the device
-#: views/device/advanced.html:195
-msgctxt "button"
-msgid "Wipe device"
-msgstr "端末を消去する"
-
 #. This is a short label in the device Advanced page
 #: views/device/advanced.html:171
 msgctxt "advanced-label"
 msgid "Wipe device"
 msgstr "端末を消去する"
 
-#: views/debug.html:56
+#. This is written on a button, clicking it will wipe the device
+#: views/device/advanced.html:195
+msgctxt "button"
+msgid "Wipe device"
+msgstr "端末を消去する"
+
+#: views/debug.html:48
 msgid "Wipe failed."
 msgstr "端末の消去に失敗しました。"
 
@@ -2349,9 +2402,22 @@ msgid ""
 "remember it?"
 msgstr "古いデータに関連した古い端末情報を忘れますか?それとも記憶させますか?"
 
+#: views/modal/button.html:65
+msgid "Write down the recovery seed from your device."
+msgstr ""
+
+#. Wrong [device_name] PIN
+#: views/modal/pin.html:18
+msgid "Wrong PIN on"
+msgstr ""
+
 #: views/modal/firmware.html:200 views/modal/firmware.html:281
 msgid "Yes, update"
 msgstr "はい、アップデートします"
+
+#: views/alertbars/offline.html:6
+msgid "You are offline."
+msgstr ""
 
 #. This is displayed on Android.
 #: views/install/mobile.android.html:19
@@ -2359,9 +2425,13 @@ msgid "You can also download and install the APK directly."
 msgstr ""
 
 #. Blockchain.info link follows
-#: views/debug.html:22
+#: views/debug.html:77
 msgid "You can try to resend this transaction using"
 msgstr "を使用してこのトランザクションを再送信できます"
+
+#: views/nav.html:226
+msgid "You cannot add more than 10 accounts."
+msgstr ""
 
 #: views/device/recovery.html:32
 msgid ""
@@ -2370,6 +2440,10 @@ msgid ""
 msgstr ""
 "リカバリシードに含まれていないいくつかの単語の再入力が求められる場合がありま"
 "す。"
+
+#: views/alertbars/offline.html:37
+msgid "You were disconnected."
+msgstr ""
 
 #. Whole text: If you disable the passphrase encryption, your current funds will not appear. You will have to enable the passphrase encryption again to see your current wallet.
 #: views/device/advanced.html:80
@@ -2391,10 +2465,13 @@ msgctxt "typeahead"
 msgid "your account"
 msgstr "あなたのアカウント"
 
-#: views/modal/firmware.html:117 views/modal/firmware.html:146
-#: views/modal/firmware.html:17 views/modal/firmware.html:302
+#: views/modal/firmware.html:117 views/modal/firmware.html:302
 msgid "Your device firmware is outdated"
 msgstr "お使いの端末のファームウェアが古くなっています"
+
+#: views/modal/firmware.html:146
+msgid "Your device firmware is outdated."
+msgstr ""
 
 #: views/jumbotrons/noaccounts.html:5
 msgid "Your device is not fully loaded. Reconnect it to use it."
@@ -2441,6 +2518,160 @@ msgstr "TREZORがファームウェアアップデートモードではありま
 #: views/modal/disconnect.wipe.html:7 views/modal/forget.wipe.html:7
 msgid "Your TREZOR was successfully wiped."
 msgstr "お使いのTREZORのデータは正常に消去されました。"
+
+#~ msgid ", but don't worry, your bitcoins are safe."
+#~ msgstr "しかし安心してください、あなたのビットコインは安全です。"
+
+#~ msgid "Allow labeling for current accounts?"
+#~ msgstr "現在のアカウントへのラベリングを許可しますか?"
+
+#~ msgid "Allow labeling for this account?"
+#~ msgstr "このアカウントへのラベリングを許可しますか?"
+
+#~ msgctxt "offline-header"
+#~ msgid "Application Settings"
+#~ msgstr "アプリケーション設定"
+
+#~ msgid "Blockchain.info's Broadcast Transaction tool"
+#~ msgstr "Blockchain.infoのブロードキャストトランザクションツール"
+
+#~ msgctxt "button"
+#~ msgid "Browse"
+#~ msgstr "閲覧"
+
+#~ msgid "Confirm the action on your device."
+#~ msgstr "お使いの端末上の操作を確認してください。"
+
+#~ msgid "Connection to the server has been lost"
+#~ msgstr "サーバーへの接続が遮断されました"
+
+#~ msgid "Exchange rates by"
+#~ msgstr "による取引レート"
+
+#~ msgid "Fee predictions by"
+#~ msgstr "により推定される手数料"
+
+#~ msgid "Fine"
+#~ msgstr "良好"
+
+#~ msgid "Forget device?"
+#~ msgstr "端末を忘れますか?"
+
+#~ msgid "Help"
+#~ msgstr "ヘルプ"
+
+#~ msgid ""
+#~ "If you choose to remember the device, we will not ask you this question "
+#~ "next time you disconnect the device."
+#~ msgstr ""
+#~ "端末の記憶を選ぶと、次回以降端末を切断する際にこの質問は表示されません。"
+
+#~ msgid ""
+#~ "If you want to make a homescreen picture from a photo or a logo, use our "
+#~ "homescreen editor."
+#~ msgstr ""
+#~ "写真やロゴからホーム画面用のイメージを作成する場合は、ホーム画面エディター"
+#~ "をお使いください。"
+
+#~ msgid "loading"
+#~ msgstr "ロード中です"
+
+#~ msgid "Lost? Check our user manual."
+#~ msgstr "PINを失くしてしまいましたか?ユーザーマニュアルをご確認ください。"
+
+#~ msgid "More please"
+#~ msgstr "もっとお願いします"
+
+#~ msgid "myTREZOR Terms &amp; Conditions"
+#~ msgstr "myTREZOR 規約 &amp; 条件"
+
+#~ msgid "News"
+#~ msgstr "更新情報"
+
+#~ msgid "No transactions to display"
+#~ msgstr "表示できるトランザクションがありません"
+
+#~ msgid "Please confirm the action on your device."
+#~ msgstr "お使いの端末上のアクションを確認してください。"
+
+#~ msgid "Please confirm the transaction on your device."
+#~ msgstr "お使いの端末上のトランザクションを確認してください。"
+
+#~ msgid "Please confirm the transaction output on your device."
+#~ msgstr "出力されたお使いの端末上のトランザクションを確認してください。"
+
+#~ msgid "Please enter current PIN:"
+#~ msgstr "現在のPINを入力してください:"
+
+#~ msgid "Please enter new PIN:"
+#~ msgstr "新しいPINを入力してください:"
+
+#~ msgid "Please enter your passphrase"
+#~ msgstr "パスフレーズを入力してください"
+
+#~ msgid "Please re-enter new PIN:"
+#~ msgstr "新しいPINを再入力してください:"
+
+#~ msgid "Please try to"
+#~ msgstr "お試しください"
+
+#~ msgid "Please write down the recovery seed from your device."
+#~ msgstr "お使いの端末上のリカバリシードを書き写してください。"
+
+#~ msgid "Prefill from following choices:"
+#~ msgstr "次の選択肢からあらかじめ入力:"
+
+#~ msgid "Read more about Bitcoin TREZOR."
+#~ msgstr "ビットコインTREZORについてもっと学ぶ。"
+
+#~ msgid "Read more about phishing…"
+#~ msgstr "フィッシング詐欺についてもっと詳しく知る…"
+
+#~ msgid "Read more in user manual"
+#~ msgstr "ユーザーマニュアルでもっと読む"
+
+#~ msgctxt "offline-header"
+#~ msgid "Reload"
+#~ msgstr "リロード"
+
+#~ msgid "Select an image"
+#~ msgstr "画像を選択"
+
+#~ msgid "Strong"
+#~ msgstr "強"
+
+#~ msgid "Support"
+#~ msgstr "サポート"
+
+#~ msgid "this page or choose another server in"
+#~ msgstr "このページまたは、別のサーバーを選んで"
+
+#~ msgctxt "transaction-list"
+#~ msgid "Timestamp"
+#~ msgstr "タイムスタンプ"
+
+#~ msgid "Too Long"
+#~ msgstr "長すぎます"
+
+#~ msgid "Ultimate"
+#~ msgstr "最強"
+
+#~ msgctxt "label"
+#~ msgid "Upload image"
+#~ msgstr "画像をアップロードしてください"
+
+#~ msgid ""
+#~ "Warning: This log can contain your XPUB. When you give it to a third "
+#~ "party, you allow it to see your whole transaction history."
+#~ msgstr ""
+#~ "警告: ログにはXPUBファイルのデータが含まれています。第三者にデータが渡って"
+#~ "しまうと、すべてのトランザクション履歴が閲覧可能になります。"
+
+#~ msgid "Weak"
+#~ msgstr "弱"
+
+#~ msgid "What is TREZOR?"
+#~ msgstr "TREZORとは?"
 
 #~ msgid "Error"
 #~ msgstr "エラー"
