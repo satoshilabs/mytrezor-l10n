@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2016-12-19 10:26+0000\n"
+"PO-Revision-Date: 2016-12-30 17:33+0000\n"
 "Last-Translator: Bartłomiej Kurzeja <bartlomiej@kurzeja.it>\n"
 "Language-Team: Polish "
 "<https://hosted.weblate.org/projects/satoshilabs/mytrezor/pl/>\n"
@@ -10,12 +10,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 2.10\n"
+"X-Generator: Weblate 2.11-dev\n"
 
 #. this is second part of sentence 'Forget [device_name]?'
 #: views/modal/forget.disconnected.html:4 views/modal/forget.requested.html:4
 msgid "?"
-msgstr ""
+msgstr "?"
 
 #: views/nav.html:116
 msgid "(automatically in"
@@ -1108,6 +1108,8 @@ msgid ""
 "Make sure the address displayed on TREZOR is correct.<br>To prevent malware "
 "attacks, double-check the address with the recipient."
 msgstr ""
+"Upewnij się, że adres wyświetlany na urządzeniu TREZOR jest poprawny. <br>"
+"Aby zapobiec atakom złośliwego oprogramowania, sprawdź adres odbiorcy."
 
 #: views/modal/firmware.html:340
 msgid "Make sure the same fingerprint is displayed on the device screen."
@@ -1165,7 +1167,7 @@ msgstr[2] "minut"
 
 #: views/account/receive/index.html:75
 msgid "More addresses"
-msgstr ""
+msgstr "Więcej adresów"
 
 #. Literally 'my TREZOR (device)'. Used as a default device name. It HAS to be ASCII only and it HAS to be less than 16 letters long
 #: views/device/index.setup.html:10 views/device/load.html:26
@@ -1202,7 +1204,7 @@ msgstr "myTREZOR zapomni o urządzeniu TREZOR zaraz po odłączeniu."
 
 #: views/account/transactions/index.html:40
 msgid "Nearest ATM:"
-msgstr ""
+msgstr "Najbliższy bankomat:"
 
 #: views/modal/button.html:95
 msgid ""
@@ -1248,7 +1250,7 @@ msgstr ""
 
 #: views/account/transactions/index.html:34
 msgid "No transactions, yet."
-msgstr ""
+msgstr "Nie ma jeszcze żadnej transakcji."
 
 #. Transaction fee size menu
 #: views/account/send/fees.html:24
@@ -1297,7 +1299,7 @@ msgstr "OK, rozumiem"
 
 #: views/account/transactions/index.html:39
 msgid "or"
-msgstr ""
+msgstr "lub"
 
 #. Whole text: Scan it into an application that supports XPUBs such as Mycelium *or* Sentinel for Android. Then, you can watch your transactions and receive payments everywhere without carrying your TREZOR.
 #: views/device/index.basic.html:196
@@ -1344,7 +1346,7 @@ msgstr "Wklej tutaj CSV:"
 #. PIN strength
 #: views/modal/pin.html:95
 msgid "Perfect, impossible to guess!"
-msgstr ""
+msgstr "Doskonały, niemożliwy do odgadnięcia!"
 
 #: views/account/send/index.html:90
 msgid "phase"
@@ -1541,16 +1543,16 @@ msgstr ""
 
 #: views/alertbars/offline.html:7
 msgid "Please reconnect to the Internet and reload the page."
-msgstr ""
+msgstr "Proszę połączyć się ponownie z Internetem i przeładować stronę."
 
 #: views/otherStrings.html:67
 msgctxt "send-button-tooltip"
 msgid "Please reload the page to send money."
-msgstr ""
+msgstr "Proszę odświeżyć stronę, aby wysłać pieniądze."
 
 #: views/alertbars/offline.html:38
 msgid "Please reload the page."
-msgstr ""
+msgstr "Proszę odświeżyć stronę."
 
 #: views/device/index.setup.html:4
 msgid ""
@@ -1694,7 +1696,7 @@ msgstr "Proszę zapisać 9 słowo ziarenka odzyskiwania."
 
 #: views/modal/pin.html:19
 msgid "Please, re-enter correct PIN."
-msgstr ""
+msgstr "Wprowadź ponownie poprawny numer PIN."
 
 #: views/modal/firmware.html:23
 msgid "plug it in while holding both device buttons pressed"
@@ -1715,7 +1717,7 @@ msgstr "Skanowanie kodu QR nie powiodło się."
 #. In the bottom footer. 'Exchange rates by Bitpay'.
 #: views/footer.text.html:9
 msgid "Rates by"
-msgstr ""
+msgstr "Kursy dostarcza"
 
 #: views/debug.html:74
 msgid "Raw transaction in hex format:"
@@ -1724,7 +1726,7 @@ msgstr "Surowa transakcja w formacie heksadecymalnym:"
 #. Re-enter new [device_name] PIN
 #: views/modal/pin.html:26
 msgid "Re-enter new"
-msgstr ""
+msgstr "Wprowadź ponownie nowy"
 
 #: views/modal/passphrase.html:25 views/modal/passphrase.html:30
 msgid "Re-type for control"
@@ -1762,7 +1764,7 @@ msgstr "Informacje o wersji"
 
 #: views/alertbars/offline.html:42 views/alertbars/offline.html:9
 msgid "Reload"
-msgstr ""
+msgstr "Przeładuj"
 
 #. Button in remember/forget dialog
 #: views/modal/forget.disconnected.html:10 views/modal/forget.wipe.html:12
@@ -1819,7 +1821,7 @@ msgstr "Ziarenko odzyskiwania"
 
 #: views/footer.html:42
 msgid "Select currency"
-msgstr ""
+msgstr "Wybierz walutę"
 
 #: views/install/main.html:31 views/install/main.html:60
 msgid "Select platform..."
@@ -1866,7 +1868,7 @@ msgstr "Pokaż szczegóły"
 
 #: views/account/transactions/txAddress.html:15
 msgid "Show less"
-msgstr ""
+msgstr "Pokaż mniej"
 
 #: views/debug.button.html:5 views/debug.button.html:7
 #: views/footer.text.html:20
@@ -1875,7 +1877,7 @@ msgstr "Pokaż dziennik"
 
 #: views/account/transactions/txAddress.html:12
 msgid "Show more..."
-msgstr ""
+msgstr "Pokaż więcej..."
 
 #: views/account/receive/address.html:64
 msgid "Show on TREZOR"
@@ -1952,7 +1954,7 @@ msgstr "Przepraszamy, że to tak utrudniliśmy!"
 #. PIN strength
 #: views/modal/pin.html:94
 msgid "Strong enough!"
-msgstr ""
+msgstr "Wystarczająco mocny!"
 
 #. This is displayed on top when any action successfully finishes
 #: views/debug.html:94
@@ -1969,11 +1971,12 @@ msgstr "Potrzebne wsparcie?"
 #. In the bottom footer.
 #: views/footer.text.html:4
 msgid "Terms"
-msgstr ""
+msgstr "Warunki"
 
 #: views/settings.html:17
 msgid "The bitcore server doesn't seem to reply. Please select another server."
 msgstr ""
+"Wygląda na to, że serwer Bitcore nie odpowiada. Proszę wybrać inny serwer."
 
 #. displayed on the bottom in the TX
 #: views/account/send/txPrepared.html:44
@@ -2029,7 +2032,7 @@ msgstr "Ten krok jest potrzebny tylko na Linuksie."
 #: views/account/transactions/table.html:9
 msgctxt "transaction-list"
 msgid "Time"
-msgstr ""
+msgstr "Czas"
 
 #. Used when estimating transaction time (Expected time: from 5 minutes *to* 10 minutes)
 #: views/account/send/fees.html:85
@@ -2119,7 +2122,7 @@ msgstr "Transakcje"
 
 #: index.html:34 views/top.nav.html:3
 msgid "TREZOR"
-msgstr ""
+msgstr "TREZOR"
 
 #: views/install/bridge.force.html:8
 msgid "TREZOR Bridge update"
@@ -2149,7 +2152,7 @@ msgstr "Odzyskiwanie TREZOR"
 
 #: views/alertbars/offline.html:26
 msgid "Try a different server."
-msgstr ""
+msgstr "Wybierz inny serwer."
 
 #: views/device/index.basic.html:7
 msgid "Try again"
@@ -2178,7 +2181,7 @@ msgstr ""
 #. PIN strength
 #: views/modal/pin.html:91
 msgid "Unnecessarily too long."
-msgstr ""
+msgstr "Niepotrzebnie zbyt długi."
 
 #. Shown in the list of addresses, the small comment below an address
 #: views/account/receive/address.html:100
@@ -2222,7 +2225,7 @@ msgstr "Aktualizuj aby mieć dostęp do najnowszych funkcji i poprawek błędów
 #: views/device/homescreen.html:18
 msgctxt "button"
 msgid "Upload image"
-msgstr ""
+msgstr "Prześlij obraz"
 
 #: views/modal/firmware.html:329
 msgid "Uploading firmware..."
