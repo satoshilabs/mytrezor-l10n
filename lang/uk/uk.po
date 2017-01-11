@@ -19,7 +19,7 @@ msgstr ""
 msgid "?"
 msgstr ""
 
-#: views/nav.html:116
+#: views/nav.html:112
 msgid "(automatically in"
 msgstr "(автоматично в"
 
@@ -84,7 +84,7 @@ msgstr "XPUBи рахунку"
 msgid "Action was interrupted"
 msgstr "Дію перервано"
 
-#: views/nav.html:222 views/nav.html:230 views/nav.html:239
+#: views/nav.html:218 views/nav.html:226 views/nav.html:234
 msgid "Add account"
 msgstr "Додати рахунок"
 
@@ -144,16 +144,17 @@ msgstr "Усі дані на Вашому пристрої буде стерто
 #. Part of a long text about Dropbox and labeling
 #: views/modal/dropbox.html:45
 msgid ""
-"All labels and comments that you add on TREZOR Wallet are automatically "
+"All labels and comments that you add in TREZOR Wallet are automatically "
 "encrypted by a key derived from TREZOR device and synchronized with your "
 "Dropbox folder ensuring a 100% secure and always available service. Even if "
 "your Dropbox account gets compromised, your private data stay safe."
 msgstr ""
 "Усі позначення і коментарі, які ви додаєте на TREZOR Wallet автоматично "
-"шифруються ключем пристроя TREZOR і синхронізуються з Вашою папкою Dropbox "
-"для забезпечення 100% безпеки і доступності сервісу в будь-який час. Навіть "
-"якщо Ваш аккаунт Dropbox буде скомпрометовано, Ваші особисті дані залишаться "
-"в безпеці."
+"шифруються ключем пристроя TREZOR і синхронізуються з Вашою папкою "
+"Dropbox для забезпечення 100% безпеки і доступності сервісу в будь-який "
+"час. Навіть якщо Ваш аккаунт Dropbox буде скомпрометовано, Ваші особисті "
+"дані залишаться в безпеці."
+
 
 #. This is shown in the header in the transaction list
 #: views/account/transactions/table.html:17
@@ -189,7 +190,7 @@ msgstr ""
 "API ключі стануть в нагоді в тому випадку, якщо Ви захочете імпортувати "
 "гаманець в режимі перегляду (watch-only)."
 
-#: views/footer.html:7
+#: views/nav.html:243
 msgid "App Settings"
 msgstr ""
 
@@ -294,7 +295,7 @@ msgstr "Натисніть на XPUB, щоб побачити його QR-код
 msgid "Click to hide address"
 msgstr "Натисніть, щоб приховати адресу"
 
-#: views/nav.html:24 views/nav.html:71
+#: views/nav.html:35 views/nav.html:82
 msgid "Click to renew session"
 msgstr "Натисніть кнопку, щоб відновити сеанс"
 
@@ -305,12 +306,11 @@ msgstr "Натисніть, щоб переглянути адресу"
 #: views/debug.html:7 views/debug.html:89 views/debug.log.html:8
 #: views/modal/csv.html:44 views/modal/disconnect.html:14
 #: views/modal/disconnect.passphrase_disable.html:14
-#: views/modal/disconnect.passphrase_enable.html:14
-#: views/modal/dropbox.html:55 views/modal/firmware.html:107
-#: views/modal/firmware.html:135 views/modal/firmware.html:164
-#: views/modal/firmware.html:211 views/modal/firmware.html:292
-#: views/modal/firmware.html:313 views/modal/firmware.html:376
-#: views/modal/qr.html:17 views/settings.html:93
+#: views/modal/disconnect.passphrase_enable.html:14 views/modal/dropbox.html:55
+#: views/modal/firmware.html:107 views/modal/firmware.html:135
+#: views/modal/firmware.html:164 views/modal/firmware.html:211
+#: views/modal/firmware.html:292 views/modal/firmware.html:313
+#: views/modal/firmware.html:376 views/modal/qr.html:17 views/settings.html:93
 msgid "Close"
 msgstr "Закрити"
 
@@ -380,7 +380,7 @@ msgstr "Підключіть пристрій для встановлення з
 msgid "Connect to Dropbox"
 msgstr "Підключити до Dropbox"
 
-#: views/footer.html:20
+#: views/nav.html:259
 msgid ""
 "Connect to Dropbox to enable:<br>- renaming accounts<br>- commenting "
 "transactions<br>- labeling addresses and more..."
@@ -400,7 +400,7 @@ msgstr "Підключіть Ваш TREZOR до комп'ютера."
 msgid "Connect your TREZOR to display this address"
 msgstr "Підключіть Ваш TREZOR, щоб відобразити цю адресу"
 
-#: views/nav.html:83
+#: views/nav.html:94
 msgid "Connected"
 msgstr "Підключено"
 
@@ -431,10 +431,6 @@ msgstr ""
 #: views/modal/firmware.html:72
 msgid "Device"
 msgstr "Пристрій"
-
-#: views/nav.html:95
-msgid "Device could not be opened."
-msgstr "Не вдалося відкрити пристрій."
 
 #. Device firmware is outdated.
 #: views/modal/firmware.html:17
@@ -479,15 +475,15 @@ msgctxt "button"
 msgid "Disable passphrase encryption"
 msgstr "Вимкнути шифрування кодової фрази"
 
-#. This is written on a button, clicking it will disable PIN
-#: views/device/advanced.html:147
-msgctxt "button"
-msgid "Disable PIN"
-msgstr "Вимкнути PIN-код"
-
 #. This is a short label in the device Advanced page
 #: views/device/advanced.html:129
 msgctxt "advanced-label"
+msgid "Disable PIN"
+msgstr "Вимкнути PIN-код"
+
+#. This is written on a button, clicking it will disable PIN
+#: views/device/advanced.html:147
+msgctxt "button"
 msgid "Disable PIN"
 msgstr "Вимкнути PIN-код"
 
@@ -515,15 +511,15 @@ msgstr "Від'єднайте Ваш TREZOR, щоб відключити код�
 msgid "Disconnect your TREZOR to enable passphrase."
 msgstr "Від'єднайте Ваш TREZOR, щоб включити кодову фразу."
 
-#: views/nav.html:80
+#: views/nav.html:91
 msgid "Disconnected"
 msgstr "Від'єднано"
 
-#: views/install/main.html:74
+#: views/install/main.html:66
 msgid "Do you use Google Chrome on this computer?"
 msgstr "Ви користуєтеся Google Chrome на цьому комп'ютері?"
 
-#: views/install/main.html:24
+#: views/install/main.html:21
 msgid ""
 "Do you use other browsers on this computer? Install the TREZOR Bridge, a "
 "standalone application that works the same way &mdash; but with every "
@@ -559,8 +555,8 @@ msgstr ""
 msgid "Don't worry, your funds are safe."
 msgstr ""
 
-#: views/install/bridge.force.html:19 views/install/main.html:28
-#: views/install/main.html:57 views/install/udev.html:21
+#: views/install/bridge.force.html:19 views/install/main.html:25
+#: views/install/main.html:49 views/install/udev.html:21
 msgid "Download"
 msgstr "Завантажити"
 
@@ -573,7 +569,7 @@ msgstr "Завантажити TREZOR Manager App на Google Play."
 msgid "Downloading firmware..."
 msgstr "Завантаження прошивки..."
 
-#: views/footer.html:31
+#: views/nav.html:270
 msgid "Dropbox connected. Click to disconnect it."
 msgstr "Dropbox підключений. Натисніть, щоб від'єднати його."
 
@@ -583,7 +579,7 @@ msgctxt "transaction-fee"
 msgid "Economy"
 msgstr "Економна"
 
-#: views/modal/dropbox.html:7
+#: views/modal/dropbox.html:7 views/nav.html:268
 msgid "Enable labeling"
 msgstr "Увімкнути позначення"
 
@@ -616,12 +612,6 @@ msgctxt "pin"
 msgid "Enabled"
 msgstr "Активовано"
 
-#. This is on a pin button
-#: views/modal/pin.html:101
-msgctxt "pin-button"
-msgid "Enter"
-msgstr "Ввести"
-
 #. This is on a passphrase button
 #: views/modal/passphrase.html:60
 msgctxt "passphrase-button"
@@ -632,6 +622,12 @@ msgstr "Ввести"
 #: views/modal/pin.html:14
 msgid "Enter"
 msgstr ""
+
+#. This is on a pin button
+#: views/modal/pin.html:101
+msgctxt "pin-button"
+msgid "Enter"
+msgstr "Ввести"
 
 #. Enter new [device_name] PIN
 #: views/modal/pin.html:22
@@ -700,13 +696,13 @@ msgstr "Не вдалося підписати повідомлення"
 msgid "Failed to verify message"
 msgstr "Не вдалося перевірити повідомлення"
 
-#: views/account/send/fees.html:133
-msgid "Fee"
-msgstr "Комісія"
-
 #. This is a label to the sending form. (Address/amount/comment)
 #: views/account/send/fees.html:4
 msgctxt "send"
+msgid "Fee"
+msgstr "Комісія"
+
+#: views/account/send/fees.html:133
 msgid "Fee"
 msgstr "Комісія"
 
@@ -724,12 +720,18 @@ msgid "Fee/kB:"
 msgstr "Комісія/кБ:"
 
 #. In the bottom footer. 'Fee predictions by 21.co'.
-#: views/footer.text.html:12
+#: views/footer.html:15
 msgid "Fees by"
 msgstr ""
 
 #: views/settings.html:39
 msgid "Fiat Currency"
+msgstr ""
+
+#. We are moving mytrezor to wallet.trezor.io
+#: index.html:76
+msgctxt "firmware-update"
+msgid "Find us at <a href=\"https://wallet.trezor.io\">wallet.trezor.io</a>!"
 msgstr ""
 
 #. This is a short label in the device Advanced page
@@ -758,17 +760,16 @@ msgid "For more information, visit the user manual."
 msgstr ""
 "Для отримання додаткової інформації зверніться до посібника користувача."
 
-#. Button in remember/forget dialog
-#: views/modal/forget.disconnected.html:14
-#: views/modal/forget.requested.html:15
-msgctxt "forget-button"
-msgid "Forget"
-msgstr "Забути"
-
 #. this is first part of sentence 'Forget [device_name]?'
 #: views/modal/forget.disconnected.html:4 views/modal/forget.requested.html:4
 msgid "Forget"
 msgstr ""
+
+#. Button in remember/forget dialog
+#: views/modal/forget.disconnected.html:14 views/modal/forget.requested.html:15
+msgctxt "forget-button"
+msgid "Forget"
+msgstr "Забути"
 
 #. Button in remember/forget dialog
 #: views/modal/forget.wipe.html:16
@@ -776,7 +777,7 @@ msgctxt "forget-button"
 msgid "Forget (recommended)"
 msgstr "Забути (рекомендовано)"
 
-#: views/nav.html:135
+#: views/nav.html:131
 msgid "Forget this device"
 msgstr "Забути цей пристрій"
 
@@ -974,7 +975,7 @@ msgstr "Ваше повідомлення не містить символ ASCII
 msgid "Inputs:"
 msgstr "Входи:"
 
-#: views/install/main.html:20
+#: views/install/main.html:17
 msgid "Install for Chrome"
 msgstr "Встановити для Chrome"
 
@@ -983,7 +984,7 @@ msgstr "Встановити для Chrome"
 msgid "Install the native app!"
 msgstr "Встановіть вихідний додаток!"
 
-#: views/install/main.html:77
+#: views/install/main.html:69
 msgid "Install TREZOR Chrome Extension"
 msgstr "Встановити розширення TREZOR для Chrome"
 
@@ -1015,6 +1016,10 @@ msgstr "Позначити цю адресу"
 msgid "Label was successfully changed."
 msgstr "Позначення змінено."
 
+#: views/nav.html:274
+msgid "Labeling enabled"
+msgstr ""
+
 #: views/debug.html:57
 msgid "Labeling error."
 msgstr "Помилка позначення."
@@ -1028,19 +1033,19 @@ msgstr "Останні"
 msgid "Learn more"
 msgstr "Дізнатися більше"
 
-#: views/install/main.html:84 views/install/udev.html:60
-msgid "Learn more about TREZOR."
-msgstr "Дізнатися більше про Bitcoin TREZOR."
+#. This text is displayed, when the amount is too high. Its goal is to get user to re-check the address. This is the fourth line, and a link to our manual.
+#: views/account/send/index.html:47
+msgid "Learn more about phishing…"
+msgstr ""
 
 #. Part of a long text about Dropbox and labeling
 #: views/modal/dropbox.html:49
 msgid "Learn more about TREZOR Wallet labeling."
 msgstr "Дізнайтеся більше про позначення TREZOR Wallet."
 
-#. This text is displayed, when the amount is too high. Its goal is to get user to re-check the address. This is the fourth line, and a link to our manual.
-#: views/account/send/index.html:47
-msgid "Learn more about phishing…"
-msgstr ""
+#: views/install/main.html:76 views/install/udev.html:60
+msgid "Learn more about TREZOR."
+msgstr "Дізнатися більше про Bitcoin TREZOR."
 
 #: views/device/advanced.html:40 views/device/advanced.html:87
 msgid "Learn more in user manual"
@@ -1057,16 +1062,17 @@ msgctxt "transaction-time"
 msgid "less than"
 msgstr "менше ніж"
 
-#: views/jumbotrons/loading.html:4 views/nav.html:153 views/nav.html:170
+#: views/jumbotrons/loading.html:4 views/nav.html:149 views/nav.html:166
+#: views/nav.html:256
 msgid "Loading"
 msgstr "Завантаження"
 
 #. Is displayed when TREZOR is loading, in the left column
-#: views/nav.html:64
+#: views/nav.html:75
 msgid "Loading ..."
 msgstr ""
 
-#: views/nav.html:211
+#: views/nav.html:207
 msgid "Loading accounts..."
 msgstr "Завантаження рахунків..."
 
@@ -1090,7 +1096,7 @@ msgstr "Завантаження..."
 msgid "Local traders:"
 msgstr ""
 
-#: views/nav.html:116
+#: views/nav.html:112
 msgid "Lock this device"
 msgstr "Заблокувати цей пристрій"
 
@@ -1119,13 +1125,6 @@ msgid "Make sure the same fingerprint is displayed on the device screen."
 msgstr ""
 "Переконайтеся в тому, що на екрані пристрою відображається той же відбиток "
 "пальців."
-
-#: views/nav.html:96
-msgid ""
-"Make sure you don't have TREZOR Wallet running in another tab or browser window."
-msgstr ""
-"Переконайтеся, що TREZOR Wallet не відкритий в іншій вкладці або в іншому вікні "
-"браузера."
 
 #: views/account/sign/index.html:175 views/account/sign/index.html:43
 msgid "Maximal message length is 255 letters long."
@@ -1186,25 +1185,10 @@ msgctxt "xpub-text"
 msgid "Mycelium"
 msgstr "'Mycelium'"
 
-#: views/jumbotrons/loading.html:5
-msgid "TREZOR is loading accounts from your device"
-msgstr "TREZOR Wallet завантажує рахунки з Вашого пристрою"
-
-#: views/modal/dropbox.html:2
-msgid "TREZOR Wallet labeling"
-msgstr "позначення TREZOR Wallet"
-
-#: views/install/main.html:83 views/install/udev.html:59
-msgid ""
-"TREZOR Wallet is a free service provided exclusively to TREZOR "
-"owners."
+#. We are moving to wallet.trezor.io
+#: index.html:75
+msgid "myTREZOR.com is moving!"
 msgstr ""
-"Web-гаманець TREZOR Wallet це безкоштовний сервіс, доступний виключно для власників "
-"TREZOR."
-
-#: views/modal/disconnect.html:9
-msgid "TREZOR Wallet will forget your TREZOR right after you disconnect it."
-msgstr "TREZOR Wallet забуде Ваш TREZOR відразу після вимкнення."
 
 #: views/account/transactions/index.html:40
 msgid "Nearest ATM:"
@@ -1306,15 +1290,15 @@ msgstr "Кількість слів у Вашій фразі відновлен�
 msgid "OK, I understand"
 msgstr "Гаразд, зрозуміло"
 
-#: views/account/transactions/index.html:39
-msgid "or"
-msgstr ""
-
 #. Whole text: Scan it into an application that supports XPUBs such as Mycelium *or* Sentinel for Android. Then, you can watch your transactions and receive payments everywhere without carrying your TREZOR.
 #: views/device/index.basic.html:196
 msgctxt "xpub-text"
 msgid "or"
 msgstr "або"
+
+#: views/account/transactions/index.html:39
+msgid "or"
+msgstr ""
 
 #. Outputs of a transaction
 #: views/account/send/txPrepared.html:33
@@ -1529,17 +1513,17 @@ msgctxt "sign-button-tooltip"
 msgid "Please fill in message and address."
 msgstr "Будь ласка, напишіть повідомлення та адресу."
 
-#: views/install/main.html:49
+#: views/install/main.html:41
 msgid ""
 "Please install TREZOR Bridge to allow TREZOR Wallet to talk with your device."
 msgstr ""
-"Будь ласка, встановіть TREZOR Bridge, щоб TREZOR Wallet міг з'єднатися з Вашим "
-"пристроєм."
+"Будь ласка, встановіть TREZOR Bridge, щоб TREZOR Wallet міг з'єднатися з "
+"Вашим пристроєм."
 
 #: views/install/main.html:10
 msgid ""
-"Please install TREZOR Chrome Extension to allow TREZOR Wallet to talk with your "
-"device."
+"Please install TREZOR Chrome Extension to allow TREZOR Wallet to talk with "
+"your device."
 msgstr ""
 "Будь ласка, встановіть розширення TREZOR для Chrome, щоб TREZOR Wallet міг "
 "з'єднатися з Вашим пристроєм."
@@ -1726,7 +1710,7 @@ msgid "QR scanning failed."
 msgstr "QR сканування не вдалося."
 
 #. In the bottom footer. 'Exchange rates by Bitpay'.
-#: views/footer.text.html:9
+#: views/footer.html:12
 msgid "Rates by"
 msgstr ""
 
@@ -1742,6 +1726,10 @@ msgstr ""
 #: views/modal/passphrase.html:25 views/modal/passphrase.html:30
 msgid "Re-type for control"
 msgstr "Повторно введіть для перевірки"
+
+#: index.html:77
+msgid "Read more"
+msgstr ""
 
 #: views/debug.html:51
 msgid "Reading of accounts failed."
@@ -1800,7 +1788,7 @@ msgstr "Перейменувати рахунок"
 msgid "rename accounts"
 msgstr "перейменувати рахунки"
 
-#: views/nav.html:199
+#: views/nav.html:195
 msgid "Rename this account"
 msgstr "Перейменувати цей рахунок"
 
@@ -1830,13 +1818,13 @@ msgstr "Пошук адреси, дати або суми"
 msgid "Seed recovery"
 msgstr "Фраза відновлення"
 
-#: views/footer.html:42
-msgid "Select currency"
-msgstr ""
-
-#: views/install/main.html:31 views/install/main.html:60
+#: views/install/main.html:28 views/install/main.html:52
 msgid "Select platform..."
 msgstr "Вибір платформи..."
+
+#: views/nav.html:5
+msgid "Select wallet currency"
+msgstr ""
 
 #. This is shown on the header Send/Receive/Transactions/...
 #: views/account/nav.html:21
@@ -1881,8 +1869,7 @@ msgstr "Показати деталі"
 msgid "Show less"
 msgstr ""
 
-#: views/debug.button.html:5 views/debug.button.html:7
-#: views/footer.text.html:20
+#: views/debug.button.html:5 views/debug.button.html:7 views/footer.html:22
 msgid "Show log"
 msgstr "Показати журнал"
 
@@ -1980,7 +1967,7 @@ msgid "Support needed?"
 msgstr "Потрібна підтримка?"
 
 #. In the bottom footer.
-#: views/footer.text.html:4
+#: views/footer.html:7
 msgid "Terms"
 msgstr ""
 
@@ -2070,7 +2057,7 @@ msgstr ""
 "Для доступу до наступних адрес використовуйте деякі з перерахованих адрес в "
 "транзакції."
 
-#: views/nav.html:218
+#: views/nav.html:214
 msgid ""
 "To add accounts, make sure your device is connected and the last account is "
 "not empty."
@@ -2119,7 +2106,7 @@ msgid "Transaction info at blockchain.info"
 msgstr "Інформація про транзакції на blockchain.info"
 
 #. In text: 'Loading (123 transactions)', it is always plural
-#: views/nav.html:177
+#: views/nav.html:173
 msgctxt "loading"
 msgid "transactions"
 msgstr "транзакції"
@@ -2159,6 +2146,24 @@ msgstr "Не вдалося завантажити TREZOR"
 msgctxt "button"
 msgid "TREZOR Recovery"
 msgstr "Відновлення TREZORа"
+
+#: views/install/main.html:75 views/install/udev.html:59
+msgid "TREZOR Wallet is a free service provided exclusively to TREZOR owners."
+msgstr ""
+"Web-гаманець TREZOR Wallet це безкоштовний сервіс, доступний виключно для "
+"власників TREZOR."
+
+#: views/jumbotrons/loading.html:5
+msgid "TREZOR Wallet is loading accounts from your device"
+msgstr "TREZOR Wallet завантажує рахунки з Вашого пристрою"
+
+#: views/modal/dropbox.html:2
+msgid "TREZOR Wallet labeling"
+msgstr "позначення TREZOR Wallet"
+
+#: views/modal/disconnect.html:9
+msgid "TREZOR Wallet will forget your TREZOR right after you disconnect it."
+msgstr "TREZOR Wallet забуде Ваш TREZOR відразу після вимкнення."
 
 #: views/alertbars/offline.html:26
 msgid "Try a different server."
@@ -2220,14 +2225,14 @@ msgid "Upgrade"
 msgstr "Оновити"
 
 #. Upgrade refers to bridge upgrade
-#: views/alertbars/bridge.html:8
-msgctxt "bridge-update"
+#: views/alertbars/firmware.html:10
+msgctxt "firmware-update"
 msgid "Upgrade for the newest features and bug fixes."
 msgstr "Оновити, аби мати доступ до найновіших функцій та виправлень."
 
 #. Upgrade refers to bridge upgrade
-#: views/alertbars/firmware.html:10
-msgctxt "firmware-update"
+#: views/alertbars/bridge.html:8
+msgctxt "bridge-update"
 msgid "Upgrade for the newest features and bug fixes."
 msgstr "Оновити, аби мати доступ до найновіших функцій та виправлень."
 
@@ -2262,7 +2267,7 @@ msgstr ""
 "Використовуйте цю функцію тільки в тому випадку, якщо поруч є Ваша фраза "
 "відновлення або ж коли на Вашому пристрої немає біткойнів."
 
-#: views/nav.html:21 views/nav.html:68
+#: views/nav.html:32 views/nav.html:79
 msgid "Used in other window"
 msgstr "Використовується в іншому вікні"
 
@@ -2340,7 +2345,9 @@ msgstr "вдалося надіслати."
 
 #: views/install/mobile.html:4
 msgid ""
-"We are sorry, TREZOR Wallet is not yet supported on iOS and Windows Phone devices. Please use a computer with Windows, macOS or Linux operating system; or use an Android device."
+"We are sorry, TREZOR Wallet is not yet supported on iOS and Windows Phone "
+"devices. Please use a computer with Windows, macOS or Linux operating "
+"system; or use an Android device."
 msgstr ""
 "Перепрошуємо, але поки що TREZOR Wallet не підтримується на телефонах і "
 "планшетах. Будь ласка, використовуйте комп'ютер з операційною системою "
@@ -2407,13 +2414,13 @@ msgstr "Очистку завершено"
 msgid "Wiping the device <b>removes all its information.</b>"
 msgstr "Очистка пристрою <b>видаляє з нього усю інформацію.</b>"
 
-#: views/install/main.html:77
+#: views/install/main.html:69
 msgid ""
 "With TREZOR Chrome Extension you can use TREZOR Wallet in Chrome without "
 "installing any other software."
 msgstr ""
-"За допомогою розширення TREZOR для Chrome можна використовувати TREZOR Wallet в "
-"Chrome без установки іншого програмного забезпечення."
+"За допомогою розширення TREZOR для Chrome можна використовувати TREZOR "
+"Wallet в Chrome без установки іншого програмного забезпечення."
 
 #: views/device/recovery.html:30
 msgid "Words are going to be entered in shuffled order."
@@ -2421,16 +2428,16 @@ msgstr "Слова будуть вводитися в змішаному пор�
 
 #: views/modal/forget.disconnected.html:7
 msgid ""
-"Would you like TREZOR Wallet to forget your device or to remember it, so that it "
-"is still visible even while disconnected?"
+"Would you like TREZOR Wallet to forget your device or to remember it, so "
+"that it is still visible even while disconnected?"
 msgstr ""
-"Бажаєте, щоб TREZOR Wallet забув Ваш пристрій чи запам'ятав його, внаслідок чого "
-"пристрій буде видно навіть після від'єднання?"
+"Бажаєте, щоб TREZOR Wallet забув Ваш пристрій чи запам'ятав його, внаслідок "
+"чого пристрій буде видно навіть після від'єднання?"
 
 #: views/modal/forget.wipe.html:9
 msgid ""
-"Would you like TREZOR Wallet to forget your old device with the old data or to "
-"remember it?"
+"Would you like TREZOR Wallet to forget your old device with the old data or "
+"to remember it?"
 msgstr ""
 "Бажаєте, щоб TREZOR Wallet забув Ваш старий пристрій зі старими даними чи "
 "запам'ятав його?"
@@ -2462,7 +2469,7 @@ msgstr "Ви також можете завантажити і встанови�
 msgid "You can try to resend this transaction using"
 msgstr "Можете спробувати повторно надіслати цю транзакцію за допомогою"
 
-#: views/nav.html:226
+#: views/nav.html:222
 msgid "You cannot add more than 10 accounts."
 msgstr ""
 
@@ -2551,6 +2558,14 @@ msgstr "Ваш TREZOR не є в режимі відновлення проши�
 #: views/modal/disconnect.wipe.html:7 views/modal/forget.wipe.html:7
 msgid "Your TREZOR was successfully wiped."
 msgstr "Дані з Вашого TREZORа вдалося очистити."
+
+#~ msgid ""
+#~ "Make sure you don't have TREZOR Wallet running in another tab or browser "
+#~ "window."
+#~ msgstr ""
+#~ "Переконайтеся, що TREZOR Wallet не відкритий в іншій вкладці або в іншому "
+#~ "вікні браузера."
+
 
 #~ msgid ", but don't worry, your bitcoins are safe."
 #~ msgstr ", але не хвилюйтеся, Ваші біткойни знаходяться в повній безпеці."
