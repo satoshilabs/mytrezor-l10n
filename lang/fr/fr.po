@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2017-02-24 10:17+0000\n"
+"PO-Revision-Date: 2017-03-02 12:53+0000\n"
 "Last-Translator: William Le Conte <williamleconte@protonmail.com>\n"
 "Language-Team: French "
 "<https://hosted.weblate.org/projects/satoshilabs/mytrezor/fr/>\n"
@@ -56,7 +56,6 @@ msgstr ""
 
 #. this is second part of sentence 'Forget [device_name]?'
 #: views/modal/forget.disconnected.html:4 views/modal/forget.requested.html:4
-#, fuzzy
 msgid "?"
 msgstr "?"
 
@@ -450,7 +449,7 @@ msgstr "ID de l'appareil"
 
 #: views/device/index.basic.html:18
 msgid "Device basics"
-msgstr ""
+msgstr "Essentiel de l'appareil"
 
 #. Device firmware is outdated.
 #: views/modal/firmware.html:17
@@ -487,7 +486,7 @@ msgstr "L'appareil doit être connecté pour pouvoir l'effacer."
 
 #: views/nav.html:284
 msgid "Disable Labeling"
-msgstr ""
+msgstr "Désactiver l'étiquetage"
 
 #. This is a short label in the device Advanced page
 #: views/device/advanced.html:135
@@ -529,11 +528,11 @@ msgstr "Déconnectez votre TREZOR pour activer le mot de passe."
 
 #: views/nav.html:82
 msgid "Disconnected device"
-msgstr ""
+msgstr "Appareil déconnecté"
 
 #: views/debug.html:135
 msgid "Display transaction on explorer"
-msgstr ""
+msgstr "Afficher la transaction dans l'explorateur"
 
 #: views/install/main.html:66
 msgid "Do you use Google Chrome on this computer?"
@@ -570,7 +569,7 @@ msgstr "N'oubliez pas de vérifier l'adresse ..."
 #. Whole sentence: 'Don't have a TREZOR? Get one.'
 #: views/jumbotrons/start.html:7
 msgid "Don't have a TREZOR?"
-msgstr ""
+msgstr "Vous n'avez pas de TREZOR ?"
 
 #: views/alertbars/offline.html:22
 msgid "Don't worry, your funds are safe."
@@ -596,7 +595,7 @@ msgstr "Dropbox connecté. Cliquez pour le déconnecter."
 
 #: views/modal/ethwallet.html:2
 msgid "ETH / ETC Wallet"
-msgstr ""
+msgstr "Portefeuille ETH / ETC"
 
 #. Transaction fee size menu
 #: views/account/send/fees.html:28
@@ -606,11 +605,11 @@ msgstr "Economique"
 
 #: views/account/receive/address.html:146
 msgid "Edit label"
-msgstr ""
+msgstr "Editer l'étiquette"
 
 #: views/nav.html:277
 msgid "Enable Labeling"
-msgstr ""
+msgstr "Activer l'étiquettage"
 
 #. This is on a button, that will change the PIN once clicked
 #: views/device/index.basic.html:95
@@ -682,7 +681,7 @@ msgstr "Détails de l'erreur :"
 
 #: views/modal/ethwallet.html:7
 msgid "Ethereum Wallet"
-msgstr ""
+msgstr "Portefeuille Ethereum"
 
 #. Example of CSV input
 #: views/modal/csv.html:14
@@ -691,7 +690,7 @@ msgstr "Exemple :"
 
 #: views/account/transactions/index.html:23
 msgid "Exchange:"
-msgstr "Échange:"
+msgstr "Echange:"
 
 #: views/account/send/fees.html:48
 msgid "Expected confirmation time"
@@ -699,7 +698,7 @@ msgstr "Temps de confirmation prévu"
 
 #: views/account/transactions/summary.html:45
 msgid "Expense"
-msgstr ""
+msgstr "Dépense"
 
 #: views/settings.html:75
 msgid "Explorer URL"
@@ -778,7 +777,7 @@ msgstr "Flower Close Up In Darkness par A Guy est autorisé sous CC BY 2.0"
 
 #: views/device/recovery.html:30
 msgid "Follow the instructions on your device."
-msgstr ""
+msgstr "Suivez les instructions sur votre appareil."
 
 #. Clicking here will lead the user to our manual.
 #: views/modal/firmware.html:124 views/modal/firmware.html:153
@@ -822,7 +821,7 @@ msgstr "Nouvelle adresse"
 
 #: views/account/transactions/summary.html:8
 msgid "From"
-msgstr ""
+msgstr "De"
 
 #. Part of a long text about Dropbox and labeling
 #: views/modal/dropbox.html:24
@@ -836,13 +835,15 @@ msgstr "Sélection de galerie"
 #. Whole sentence: 'Don't have a TREZOR? Get one.'
 #: views/jumbotrons/start.html:7
 msgid "Get one"
-msgstr ""
+msgstr "En obtenir un"
 
 #: views/modal/ethwallet.html:19
 msgid ""
 "Go to\n"
 "        MyEtherWallet"
 msgstr ""
+"Aller à\n"
+"        MyEtherWallet"
 
 #. This is shown on the first page user sees.
 #: views/install/main.html:5
@@ -875,7 +876,7 @@ msgstr "Le changement de l'écran d'accueil a échoué."
 
 #: views/device/homescreen.html:10
 msgid "Homescreen setup"
-msgstr ""
+msgstr "Configuration de l'écran d'accueil"
 
 #: views/debug.html:118
 msgid "Homescreen was successfully changed."
@@ -934,21 +935,23 @@ msgstr ""
 
 #: views/modal/firmware.html:231
 msgid "If you have TREZOR set up already,"
-msgstr ""
+msgstr "Si votre TREZOR est déjà configuré,"
 
 #: views/modal/firmware.html:228
 msgid ""
 "If your TREZOR has not been set up yet (fresh out of the box), you do not "
 "need to have a Recovery seed."
 msgstr ""
+"Si votre TREZOR n'a pas encore été configuré (sortie de la boîte), vous "
+"n'avez pas besoin de la phrase de récupération."
 
 #: views/modal/firmware.html:181
 msgid ""
 "If your TREZOR is already initialized, always have your Recovery seed with "
 "you before updating the firmware!"
 msgstr ""
-"Si votre TREZOR est déjà initialisé, ayez toujours avec vous votre Recovery "
-"Seed avant de mettre à jour le firmware !"
+"Si votre TREZOR est déjà initialisé, ayez toujours avec vous votre phrase de "
+"récupération avant de mettre à jour le firmware !"
 
 #: views/device/homescreen.html:80
 msgid ""
@@ -974,6 +977,8 @@ msgstr "Importer depuis un CSV"
 msgid ""
 "In some cases, Linux users need to install udev rules to access the device."
 msgstr ""
+"Dans certains cas, les utilisateurs Linux ont besoin d'installer les règles "
+"udev pour accéder à l'appareil."
 
 #: views/modal/firmware.html:182 views/modal/firmware.html:234
 #: views/modal/firmware.html:43
@@ -982,11 +987,11 @@ msgid ""
 "the wallet from Recovery seed."
 msgstr ""
 "Dans des cas très rares, une mise à jour de firmware pourrait donner lieu au "
-"besoin de récupérer le portefeuille depuis la Recovery seed."
+"besoin de récupérer le portefeuille depuis la phrase de récupération."
 
 #: views/account/transactions/summary.html:38
 msgid "Income"
-msgstr ""
+msgstr "Rentrée"
 
 #. Inputs of a transaction
 #: views/account/send/txPrepared.html:26
@@ -1031,15 +1036,15 @@ msgstr "Erreur d'étiquetage."
 
 #: views/date.selection.html:33
 msgid "Last 2 Months"
-msgstr ""
+msgstr "2 derniers mois"
 
 #: views/date.selection.html:21
 msgid "Last 2 Weeks"
-msgstr ""
+msgstr "2 dernières semaines"
 
 #: views/date.selection.html:45
 msgid "Last 2 Years"
-msgstr ""
+msgstr "2 dernières années"
 
 #: views/modal/firmware.html:265 views/modal/firmware.html:81
 msgid "Latest"
@@ -1052,16 +1057,16 @@ msgstr "En savoir plus"
 
 #: views/modal/recovery.html:64
 msgid "Learn more about"
-msgstr ""
+msgstr "En savoir plus"
 
 #: views/install/main.html:76
 msgid "Learn more about TREZOR"
-msgstr ""
+msgstr "En savoir plus au sujet de TREZOR"
 
 #. Part of a long text about Dropbox and labeling
 #: views/modal/dropbox.html:49
 msgid "Learn more about TREZOR Wallet labeling"
-msgstr ""
+msgstr "En savoir plus sur l'étiquetage du portefeuille TREZOR"
 
 #. This text is displayed, when the amount is too high. Its goal is to get user to re-check the address. This is the fourth line, and a link to our manual.
 #: views/account/send/index.html:52
@@ -1138,7 +1143,7 @@ msgstr ""
 
 #: views/jumbotrons/udev-note.html:45
 msgid "Manual configuration (advanced)"
-msgstr ""
+msgstr "Configuration manuelle (avancée)"
 
 #. Add your signature that you would like to be credited as. Write 'Many thanks to ...' in your language in front of your and others co-translators signature - after the ones, which already exist.
 #: views/footer.html:32
@@ -1146,6 +1151,9 @@ msgid ""
 "Many thanks to our translators for their <a href=\"http://doc.satoshilabs."
 "com/trezor-tech/translating.html\" class=\"arrow\">contribution</a>"
 msgstr ""
+"Un grand merci à nos traducteurs français pour leur <a href=\""
+"http://doc.satoshilabs.com/trezor-tech/translating.html\" class=\"arrow\""
+">contribution: William Le Conte</a>"
 
 #: views/account/sign/index.html:189 views/account/sign/index.html:48
 msgid "Maximal message length is 255 letters long."
@@ -1204,7 +1212,7 @@ msgstr "DAB le plus proche:"
 #: views/modal/firmware.html:105 views/modal/firmware.html:133
 #: views/modal/firmware.html:199 views/modal/firmware.html:286
 msgid "Need help?"
-msgstr ""
+msgstr "Besoin d'aide?"
 
 #: views/modal/button.html:93
 msgid ""
@@ -1212,7 +1220,7 @@ msgid ""
 "seed at hand."
 msgstr ""
 "Ne faites jamais cette action si votre TREZOR contient des bitcoins sauf si "
-"vous possédez votre Recovery Seed dans les mains."
+"vous possédez votre phrase de récupération dans les mains."
 
 #: views/device/custom-firmware.html:13 views/device/load.html:11
 msgid "Never use this process unless you REALLY know what you are doing!"
@@ -1240,7 +1248,7 @@ msgstr "Installer un nouvel appareil"
 
 #: views/account/transactions/summary.html:71
 msgid "No Transactions Yet."
-msgstr ""
+msgstr "Pas encore de transactions."
 
 #: views/jumbotrons/noaccounts.html:4
 msgid "No accounts"
@@ -1252,9 +1260,9 @@ msgid ""
 "dice-throw sequence or a random sentence. Valid BIP32 XPRV keys are "
 "interpreted prior loading to the device."
 msgstr ""
-"Aucun vérification n'est réalisée sur la graine fournie, cela peut être une "
-"séquence binaire, dice-throw ou aléatoire. Les clés BIP32 XPRV valides sont "
-"interprêtées antérieurement au chargement de l'appareil."
+"Aucune vérification n'est réalisée sur la phrase de récupération, cela peut "
+"être une séquence binaire, dice-throw ou aléatoire. Les clés BIP32 XPRV "
+"valides sont interprétées antérieurement au chargement de l'appareil."
 
 #: views/account/transactions/index.html:18
 msgid "No transactions, yet."
@@ -1276,7 +1284,7 @@ msgstr "Fonds insuffisants"
 
 #: views/jumbotrons/udev-note.html:8
 msgid "Not seeing your TREZOR?"
-msgstr ""
+msgstr "Vous ne voyez pas votre TREZOR?"
 
 #: views/modal/passphrase.html:36
 msgid "Note that passphrase is case-sensitive."
@@ -1297,7 +1305,7 @@ msgstr ""
 #: views/device/recovery.html:104
 msgctxt "recovery-label"
 msgid "Number of words in your recovery seed"
-msgstr "Nombre de mots dans votre Recovery seed"
+msgstr "Nombre de mots dans votre phrase de récupération"
 
 #: views/device/advanced.html:102 views/device/advanced.html:52
 msgid "OK, I understand"
@@ -1375,99 +1383,99 @@ msgstr "Veuillez vérifier avec attention que vous les avez noté correctement."
 
 #: views/modal/setup.wordCheck.html:12
 msgid "Please check the 10th word of your recovery seed."
-msgstr "Veuillez vérifiez le 10ème mot de votre recovery seed."
+msgstr "Veuillez vérifiez le 10ème mot de votre phrase de récupération."
 
 #: views/modal/setup.wordCheck.html:13
 msgid "Please check the 11th word of your recovery seed."
-msgstr "Veuillez vérifier le 11ème mot de votre recovery seed."
+msgstr "Veuillez vérifier le 11ème mot de votre phrase de récupération."
 
 #: views/modal/setup.wordCheck.html:14
 msgid "Please check the 12th word of your recovery seed."
-msgstr "Veuillez vérifier le 12ème mot de votre recovery seed."
+msgstr "Veuillez vérifier le 12ème mot de votre phrase de récupération."
 
 #: views/modal/setup.wordCheck.html:15
 msgid "Please check the 13th word of your recovery seed."
-msgstr "Veuillez vérifier le 13ème mot de votre recovery seed."
+msgstr "Veuillez vérifier le 13ème mot de votre phrase de récupération."
 
 #: views/modal/setup.wordCheck.html:16
 msgid "Please check the 14th word of your recovery seed."
-msgstr "Veuillez vérifier le 14ème mot de votre recovery seed."
+msgstr "Veuillez vérifier le 14ème mot de votre phrase de récupération."
 
 #: views/modal/setup.wordCheck.html:17
 msgid "Please check the 15th word of your recovery seed."
-msgstr "Veuillez vérifier le 15ème mot de votre recovery seed."
+msgstr "Veuillez vérifier le 15ème mot de votre phrase de récupération."
 
 #: views/modal/setup.wordCheck.html:18
 msgid "Please check the 16th word of your recovery seed."
-msgstr "Veuillez vérifier le 16ème mot de votre recovery seed."
+msgstr "Veuillez vérifier le 16ème mot de votre phrase de récupération."
 
 #: views/modal/setup.wordCheck.html:19
 msgid "Please check the 17th word of your recovery seed."
-msgstr "Veuillez vérifier le 17ème mot de votre recovery seed."
+msgstr "Veuillez vérifier le 17ème mot de votre phrase de récupération."
 
 #: views/modal/setup.wordCheck.html:20
 msgid "Please check the 18th word of your recovery seed."
-msgstr "Veuillez vérifier le 18ème mot de votre recovery seed."
+msgstr "Veuillez vérifier le 18ème mot de votre phrase de récupération."
 
 #: views/modal/setup.wordCheck.html:21
 msgid "Please check the 19th word of your recovery seed."
-msgstr "Veuillez vérifier le 19ème mot de votre recovery seed."
+msgstr "Veuillez vérifier le 19ème mot de votre phrase de récupération."
 
 #: views/modal/setup.wordCheck.html:3
 msgid "Please check the 1st word of your recovery seed."
-msgstr "Veuillez vérifier le 1er mot de votre recovery seed."
+msgstr "Veuillez vérifier le 1er mot de votre phrase de récupération."
 
 #: views/modal/setup.wordCheck.html:22
 msgid "Please check the 20th word of your recovery seed."
-msgstr "Veuillez vérifier le 20ème mot de votre recovery seed."
+msgstr "Veuillez vérifier le 20ème mot de votre phrase de récupération."
 
 #: views/modal/setup.wordCheck.html:23
 msgid "Please check the 21st word of your recovery seed."
-msgstr "Veuillez vérifier le 21ème mot de votre recovery seed."
+msgstr "Veuillez vérifier le 21ème mot de votre phrase de récupération."
 
 #: views/modal/setup.wordCheck.html:24
 msgid "Please check the 22nd word of your recovery seed."
-msgstr "Veuillez vérifier le 22ème mot de votre recovery seed."
+msgstr "Veuillez vérifier le 22ème mot de votre phrase de récupération."
 
 #: views/modal/setup.wordCheck.html:25
 msgid "Please check the 23rd word of your recovery seed."
-msgstr "Veuillez vérifier le 23ème mot de votre recovery seed."
+msgstr "Veuillez vérifier le 23ème mot de votre phrase de récupération."
 
 #: views/modal/setup.wordCheck.html:26
 msgid "Please check the 24th word of your recovery seed."
-msgstr "Veuillez vérifier le 24ème mot de votre recovery seed."
+msgstr "Veuillez vérifier le 24ème mot de votre phrase de récupération."
 
 #: views/modal/setup.wordCheck.html:4
 msgid "Please check the 2nd word of your recovery seed."
-msgstr "Veuillez vérifier le 2ème mot de votre recovery seed."
+msgstr "Veuillez vérifier le 2ème mot de votre phrase de récupération."
 
 #: views/modal/setup.wordCheck.html:5
 msgid "Please check the 3rd word of your recovery seed."
-msgstr "Veuillez vérifier le 3ème mot de votre recovery seed."
+msgstr "Veuillez vérifier le 3ème mot de votre phrase de récupération."
 
 #: views/modal/setup.wordCheck.html:6
 msgid "Please check the 4th word of your recovery seed."
-msgstr "Veuillez vérifier le 4ème mot de votre recovery seed."
+msgstr "Veuillez vérifier le 4ème mot de votre phrase de récupération."
 
 #: views/modal/setup.wordCheck.html:7
 msgid "Please check the 5th word of your recovery seed."
-msgstr "Veuillez vérifier le 5ème mot de votre recovery seed."
+msgstr "Veuillez vérifier le 5ème mot de votre phrase de récupération."
 
 #: views/modal/setup.wordCheck.html:8
 msgid "Please check the 6th word of your recovery seed."
-msgstr "Veuillez vérifier le 6ème mot de votre recovery seed."
+msgstr "Veuillez vérifier le 6ème mot de votre phrase de récupération."
 
 #: views/modal/setup.wordCheck.html:9
 msgid "Please check the 7th word of your recovery seed."
-msgstr "Veuillez vérifier le 7ème mot de votre recovery seed."
+msgstr "Veuillez vérifier le 7ème mot de votre phrase de récupération."
 
 #: views/modal/setup.wordCheck.html:10
 msgid "Please check the 8th word of your recovery seed."
-msgstr "Veuillez vérifier le 8ème mot de votre recovery seed."
+msgstr "Veuillez vérifier le 8ème mot de votre phrase de récupération."
 
 #: views/modal/setup.wordCheck.html:11
 msgid "Please check the 9th word of your recovery seed."
-msgstr "Veuillez vérifier le 9ème mot de votre recovery seed."
+msgstr "Veuillez vérifier le 9ème mot de votre phrase de récupération."
 
 #: views/modal/firmware.html:346
 msgid "Please confirm the firmware fingerprint."
@@ -1554,6 +1562,11 @@ msgid ""
 "                    minutes.\n"
 "                    When you're done, you can start using your TREZOR."
 msgstr ""
+"Merci de prendre le temps de lire toutes les instructions. La configuration "
+"de votre TREZOR prendra seulement quelques \n"
+"                    minutes.\n"
+"                    Lorsque vous avez terminé, vous pouvez commencer à "
+"utiliser votre TREZOR."
 
 #: views/modal/firmware.html:150
 msgid ""
@@ -1592,103 +1605,103 @@ msgstr "Veuillez noter tous ces mots attentivement."
 
 #: views/modal/setup.wordWrite.html:12
 msgid "Please write down the 10th word of your recovery seed."
-msgstr "Veuillez noter le 10ème mot de votre recovery seed."
+msgstr "Veuillez noter le 10ème mot de votre phrase de récupération."
 
 #: views/modal/setup.wordWrite.html:13
 msgid "Please write down the 11th word of your recovery seed."
-msgstr "Veuillez noter le 11ème mot de votre recovery seed."
+msgstr "Veuillez noter le 11ème mot de votre phrase de récupération."
 
 #: views/modal/setup.wordWrite.html:14
 msgid "Please write down the 12th word of your recovery seed."
-msgstr "Veuillez noter le 12ème mot de votre recovery seed."
+msgstr "Veuillez noter le 12ème mot de votre phrase de récupération."
 
 #: views/modal/setup.wordWrite.html:15
 msgid "Please write down the 13th word of your recovery seed."
-msgstr "Veuillez noter le 13ème mot de votre recovery seed."
+msgstr "Veuillez noter le 13ème mot de votre phrase de récupération."
 
 #: views/modal/setup.wordWrite.html:16
 msgid "Please write down the 14th word of your recovery seed."
-msgstr "Veuillez noter le 14ème mot de votre recovery seed."
+msgstr "Veuillez noter le 14ème mot de votre phrase de récupération."
 
 #: views/modal/setup.wordWrite.html:17
 msgid "Please write down the 15th word of your recovery seed."
-msgstr "Veuillez noter le 15ème mot de votre recovery seed."
+msgstr "Veuillez noter le 15ème mot de votre phrase de récupération."
 
 #: views/modal/setup.wordWrite.html:18
 msgid "Please write down the 16th word of your recovery seed."
-msgstr "Veuillez noter le 16ème mot de votre recovery seed."
+msgstr "Veuillez noter le 16ème mot de votre phrase de récupération."
 
 #: views/modal/setup.wordWrite.html:19
 msgid "Please write down the 17th word of your recovery seed."
-msgstr "Veuillez noter le 17ème mot de votre recovery seed."
+msgstr "Veuillez noter le 17ème mot de votre phrase de récupération."
 
 #: views/modal/setup.wordWrite.html:20
 msgid "Please write down the 18th word of your recovery seed."
-msgstr "Veuillez noter le 18ème mot de votre recovery seed."
+msgstr "Veuillez noter le 18ème mot de votre phrase de récupération."
 
 #: views/modal/setup.wordWrite.html:21
 msgid "Please write down the 19th word of your recovery seed."
-msgstr "Veuillez noter le 19ème mot de votre recovery seed."
+msgstr "Veuillez noter le 19ème mot de votre phrase de récupération."
 
 #: views/modal/setup.wordWrite.html:3
 msgid "Please write down the 1st word of your recovery seed."
-msgstr "Veuillez noter le 1er mot de votre recovery seed."
+msgstr "Veuillez noter le 1er mot de votre phrase de récupération."
 
 #: views/modal/setup.wordWrite.html:22
 msgid "Please write down the 20th word of your recovery seed."
-msgstr "Veuillez noter le 20ème mot de votre recovery seed."
+msgstr "Veuillez noter le 20ème mot de votre phrase de récupération."
 
 #: views/modal/setup.wordWrite.html:23
 msgid "Please write down the 21st word of your recovery seed."
-msgstr "Veuillez noter le 21ème mot de votre recovery seed."
+msgstr "Veuillez noter le 21ème mot de votre phrase de récupération."
 
 #: views/modal/setup.wordWrite.html:24
 msgid "Please write down the 22nd word of your recovery seed."
-msgstr "Veuillez noter le 22ème mot de votre recovery seed."
+msgstr "Veuillez noter le 22ème mot de votre phrase de récupération."
 
 #: views/modal/setup.wordWrite.html:25
 msgid "Please write down the 23rd word of your recovery seed."
-msgstr "Veuillez noter le 23ème mot de votre recovery seed."
+msgstr "Veuillez noter le 23ème mot de votre phrase de récupération."
 
 #: views/modal/setup.wordWrite.html:26
 msgid "Please write down the 24th word of your recovery seed."
-msgstr "Veuillez noter le 24ème mot de votre recovery seed."
+msgstr "Veuillez noter le 24ème mot de votre phrase de récupération."
 
 #: views/modal/setup.wordWrite.html:4
 msgid "Please write down the 2nd word of your recovery seed."
-msgstr "Veuillez noter le 2ème mot de votre recovery seed."
+msgstr "Veuillez noter le 2ème mot de votre phrase de récupération."
 
 #: views/modal/setup.wordWrite.html:5
 msgid "Please write down the 3rd word of your recovery seed."
-msgstr "Veuillez noter le 3ème mot de votre recovery seed."
+msgstr "Veuillez noter le 3ème mot de votre phrase de récupération."
 
 #: views/modal/setup.wordWrite.html:6
 msgid "Please write down the 4th word of your recovery seed."
-msgstr "Veuillez noter le 4ème mot de votre recovery seed."
+msgstr "Veuillez noter le 4ème mot de votre phrase de récupération."
 
 #: views/modal/setup.wordWrite.html:7
 msgid "Please write down the 5th word of your recovery seed."
-msgstr "Veuillez noter le 5ème mot de votre recovery seed."
+msgstr "Veuillez noter le 5ème mot de votre phrase de récupération."
 
 #: views/modal/setup.wordWrite.html:8
 msgid "Please write down the 6th word of your recovery seed."
-msgstr "Veuillez noter le 6ème mot de votre recovery seed."
+msgstr "Veuillez noter le 6ème mot de votre phrase de récupération."
 
 #: views/modal/setup.wordWrite.html:9
 msgid "Please write down the 7th word of your recovery seed."
-msgstr "Veuillez noter le 7ème mot de votre recovery seed."
+msgstr "Veuillez noter le 7ème mot de votre phrase de récupération."
 
 #: views/modal/setup.wordWrite.html:10
 msgid "Please write down the 8th word of your recovery seed."
-msgstr "Veuillez noter le 8ème mot de votre recovery seed."
+msgstr "Veuillez noter le 8ème mot de votre phrase de récupération."
 
 #: views/modal/setup.wordWrite.html:11
 msgid "Please write down the 9th word of your recovery seed."
-msgstr "Veuillez noter le 9ème mot de votre recovery seed."
+msgstr "Veuillez noter le 9ème mot de votre phrase de récupération."
 
 #: views/jumbotrons/udev-note.html:17
 msgid "Please, install the following package and reconnect your TREZOR."
-msgstr ""
+msgstr "Veuillez installer les paquets suivant et reconnecter votre TREZOR."
 
 #: views/modal/pin.html:19
 msgid "Please, re-enter correct PIN."
@@ -1708,7 +1721,7 @@ msgstr "Le scan du QR code a échoué."
 
 #: views/account/transactions/summary.html:29
 msgid "Rate"
-msgstr ""
+msgstr "Taux"
 
 #. In the bottom footer. 'Exchange rates by Bitpay'.
 #: views/footer.html:12
@@ -1740,11 +1753,11 @@ msgstr "Recevoir"
 
 #: views/account/receive/index.html:10
 msgid "Receive payment"
-msgstr ""
+msgstr "Recevoir un paiement"
 
 #: views/device/recovery.html:68
 msgid "Recovered seed words:"
-msgstr "Mots graine de restauration :"
+msgstr "Mots de la phrase de récupération:"
 
 #: views/debug.html:54
 msgid "Recovery failed."
@@ -1752,11 +1765,11 @@ msgstr "Échec de la restauration."
 
 #: views/device/load.html:33
 msgid "Recovery seed or XPRV private key"
-msgstr "Recovery seed ou clé privée XPRV"
+msgstr "Phrase de récupération ou clé privée XPRV"
 
 #: views/modal/setup.html:4
 msgid "Recovery seed setup"
-msgstr "Installation de la recovery seed"
+msgstr "Configuration de la phrase de récupération"
 
 #: views/modal/firmware.html:244 views/modal/firmware.html:52
 msgid "Release notes"
@@ -1794,7 +1807,7 @@ msgstr "Sauvegarder &amp; Recharger"
 
 #: views/nav.html:157
 msgid "Saving"
-msgstr ""
+msgstr "Economie"
 
 #: views/account/send/txAddress.html:35
 msgid "Scan QR code"
@@ -1816,7 +1829,7 @@ msgstr "Rechercher une adresse, une date ou un montant"
 
 #: views/device/recovery.html:18
 msgid "Seed recovery"
-msgstr "Seed recovery"
+msgstr "Phrase de récupération"
 
 #: views/install/main.html:28 views/install/main.html:48
 msgid "Select platform..."
@@ -1836,7 +1849,7 @@ msgstr "Envoyer"
 
 #: views/account/send/index.html:13
 msgid "Send payment"
-msgstr ""
+msgstr "Envoyer un paiement"
 
 #. This is shown in the transaction list when the transaction is to the user himseld.
 #: views/account/transactions/txAddress.html:29
@@ -2044,15 +2057,15 @@ msgstr ""
 
 #: views/date.selection.html:28
 msgid "This Month"
-msgstr ""
+msgstr "Ce mois-ci"
 
 #: views/date.selection.html:16
 msgid "This Week"
-msgstr ""
+msgstr "Cette semaine"
 
 #: views/date.selection.html:40
 msgid "This Year"
-msgstr ""
+msgstr "Cette année"
 
 #: views/modal/button.html:92
 msgid ""
@@ -2081,6 +2094,11 @@ msgid ""
 "                        than one device. No worries, you can always change "
 "it."
 msgstr ""
+"Ce nom sera affiché sur l'écran lorsque vous connectez votre TREZOR. Ceci "
+"est utile si vous avez\n"
+"                        plus\n"
+"                        d'un appareil. Pas d'inquiétude, vous pourrez "
+"toujours le changer."
 
 #. Used as a suggested name for a transaction. *To* Account #2
 #: views/otherStrings.html:26
@@ -2094,6 +2112,9 @@ msgid ""
 "a\n"
 "                                transaction."
 msgstr ""
+"Pour accéder aux adresses suivantes, veuillez utiliser certaines des "
+"adresses listées dans une\n"
+"                                transaction."
 
 #: views/account/receive/index.html:95
 msgid ""
@@ -2125,7 +2146,7 @@ msgstr "Pour mettre à jour le firmware :"
 
 #: views/account/transactions/table.html:20
 msgid "Today"
-msgstr ""
+msgstr "Aujourd'hui"
 
 #. This is a short label in the device Basic page
 #: views/device/index.basic.html:117
@@ -2145,7 +2166,7 @@ msgstr "Transaction"
 
 #: views/account/transactions/table.html:4
 msgid "Transactions"
-msgstr ""
+msgstr "Transactions"
 
 #. This is shown on the header Send/Receive/Transactions/...
 #: views/account/nav.html:5
@@ -2155,7 +2176,7 @@ msgstr "Transactions"
 
 #: views/account/transactions/summary.html:68
 msgid "Transactions are loading ..."
-msgstr ""
+msgstr "Transactions en cours de chargement ..."
 
 #: views/alertbars/offline.html:26
 msgid "Try a different server."
@@ -2167,7 +2188,7 @@ msgstr "Essayez à nouveau"
 
 #: views/jumbotrons/udev-note.html:9
 msgid "Try installing udev rules."
-msgstr ""
+msgstr "Essayez d'installer les règles udev."
 
 #: views/settings.html:62
 msgid "URL needs to start with https://"
@@ -2216,7 +2237,7 @@ msgstr ""
 
 #: views/modal/firmware.html:176
 msgid "Update device firmware?"
-msgstr ""
+msgstr "Mettre à jour le firmware de l'appareil?"
 
 #: views/modal/firmware.html:375
 msgid "Update failed"
@@ -2260,8 +2281,8 @@ msgid ""
 "Use this feature only if you have your Recovery Seed or you don't have any "
 "coins on your device."
 msgstr ""
-"Utilisez cette fonctionnalité seulement si vous avec votre Recovery Seed ou "
-"si vous n'avez pas de bitcoins sur votre appareil."
+"Utilisez cette fonctionnalité seulement si vous avec votre phrase de "
+"récupération ou si vous n'avez pas de bitcoins sur votre appareil."
 
 #: views/nav.html:25 views/nav.html:70
 msgid "Used in other window"
@@ -2273,6 +2294,9 @@ msgid ""
 "persons from stealing your\n"
 "                bitcoins even when they get physical access to your device."
 msgstr ""
+"Utiliser un protection par code PIN est fortement recommandé. Le code PIN "
+"empêche les personnes non-autorisées de voler vos\n"
+"                bitcoins même si elles ont l'accès physique à votre appareil."
 
 #: views/device/advanced.html:165
 msgid ""
@@ -2329,11 +2353,12 @@ msgstr "Portefeuille"
 #. Is displayed when TREZOR is loaded wallet, format is '[coinname] Wallet is ready!' (Bitcoin Wallet, Dash Wallet, etc.)
 #: views/jumbotrons/start.html:5
 msgid "Wallet is ready!"
-msgstr ""
+msgstr "Le portefeuille est prêt !"
 
 #: views/device/index.html:12
 msgid "Want to restore your wallet from recovery seed?"
-msgstr "Vous voulez restaurer votre portefeuille depuis la recovery seed ?"
+msgstr ""
+"Voulez-vous restaurer votre portefeuille depuis la phrase de récupération ?"
 
 #: views/account/nav.html:41
 msgid "Warning!"
@@ -2350,6 +2375,9 @@ msgid ""
 "devices. Please use a computer with Windows, macOS, Linux operating system, "
 "or use an Android device."
 msgstr ""
+"Nous sommes désolé, TREZOR Wallet n'est pas encore disponible sur les "
+"appareils iOS and Windows Phone. Merci d'utiliser un ordinateur avec "
+"Windows, macOS, Linux ou utiliser un appareil Android."
 
 #. This text is displayed, when the amount is too high. Its goal is to get user to re-check the address. This is the third line.
 #: views/account/send/index.html:44
@@ -2410,7 +2438,7 @@ msgstr "Effacement terminé"
 
 #: views/device/advanced.html:185
 msgid "Wiping the device <span>removes all its information.</span>"
-msgstr ""
+msgstr "Effacer l'appareil <span>supprime toutes ses informations.</span>"
 
 #: views/install/main.html:69
 msgid ""
@@ -2442,7 +2470,7 @@ msgstr ""
 
 #: views/modal/button.html:63
 msgid "Write down the recovery seed from your device."
-msgstr "Ecrivez la recovery seed de votre appareil."
+msgstr "Ecrivez la phrase de récupération de votre appareil."
 
 #. Wrong [device_name] PIN
 #: views/modal/pin.html:18
@@ -2455,7 +2483,7 @@ msgstr "Oui, mettre à jour"
 
 #: views/account/transactions/table.html:23
 msgid "Yesterday"
-msgstr ""
+msgstr "Hier"
 
 #: views/alertbars/offline.html:6
 msgid "You are offline."
@@ -2481,7 +2509,7 @@ msgid ""
 "seed."
 msgstr ""
 "Vous pourriez être invité à retaper certains mots qui ne font pas partie de "
-"votre recovery seed."
+"votre phrase de récupération."
 
 #: views/alertbars/offline.html:37
 msgid "You were disconnected."
@@ -2506,8 +2534,8 @@ msgid ""
 "Your TREZOR is already initialized. Check that you have your Recovery seed "
 "with you before updating the firmware!"
 msgstr ""
-"Le TREZOR est déjà initialisé. Vérifiez que vous avez votre Recovery seed "
-"avec vous avant de mettre à jour le firmware !"
+"Le TREZOR est déjà initialisé. Vérifiez que vous avez votre phrase de "
+"récupération avec vous avant de mettre à jour le firmware !"
 
 #: views/modal/firmware.html:314
 msgid "Your TREZOR is not in the firmware update mode."
@@ -2593,11 +2621,11 @@ msgstr "de l'historique"
 
 #: views/modal/firmware.html:232
 msgid "have your Recovery seed ready before updating the firmware"
-msgstr ""
+msgstr "ayez votre phrase de récupération avant de mettre à jour le firmware"
 
 #: views/device/homescreen.html:34
 msgid "homescreen editor"
-msgstr ""
+msgstr "éditeur de l'écran d'accueil"
 
 #. Used when estimating transaction time (Expected time: less than 5 *minutes*)
 #: views/account/send/fees.html:106 views/account/send/fees.html:61
@@ -2672,11 +2700,11 @@ msgstr "l'adresse de changement"
 #. Clicking here will lead the user to our manual.
 #: views/modal/firmware.html:28
 msgid "the user manual"
-msgstr ""
+msgstr "le manuel utilisateur"
 
 #: views/account/transactions/summary.html:8
 msgid "to"
-msgstr ""
+msgstr "à"
 
 #. Used when estimating transaction time (Expected time: from 5 minutes *to* 10 minutes)
 #: views/account/send/fees.html:85
