@@ -13,9 +13,13 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 2.8\n"
 
-#: views/nav.html:101
+#: views/nav.html:115
 msgid "(automatically in"
 msgstr "(αυτόματα στο"
+
+#: views/device/index.setup.html:26
+msgid "* No worries, you can always change it."
+msgstr ""
 
 #. The number refer to XPUBs
 #: views/import.html:32 views/import.html:41
@@ -28,12 +32,12 @@ msgid "1. Click 'Connect to Dropbox' and log in."
 msgstr "1. Κάντε κλικ στο 'Σύνδεση στο Dropbox' και συνδεθείτε."
 
 #. Number of words in a recovery seed
-#: views/device/recovery.html:118
+#: views/device/recovery.html:122
 msgid "12 words"
 msgstr "12 λέξεις"
 
 #. Number of words in a recovery seed
-#: views/device/recovery.html:123
+#: views/device/recovery.html:127
 msgid "18 words"
 msgstr "18 λέξεις"
 
@@ -44,7 +48,7 @@ msgstr ""
 "2. Να επιτρέπεται η πρόσβαση της Trezor συσκευής σας στον Dropbox φάκελό σας."
 
 #. Number of words in a recovery seed
-#: views/device/recovery.html:128
+#: views/device/recovery.html:132
 msgid "24 words"
 msgstr "24 λέξεις"
 
@@ -52,6 +56,13 @@ msgstr "24 λέξεις"
 #: views/modal/dropbox.html:42
 msgid "3. Enjoy ultimate TREZOR security and privacy."
 msgstr "3. Απολαύστε την απόλυτη Trezor ασφάλεια και ιδιωτικότητα."
+
+#: views/install/main.html:24
+msgid ""
+"<hr>\n"
+"                If you want to use TREZOR with different browsers, please "
+"install TREZOR Bridge."
+msgstr ""
 
 #. this is second part of sentence 'Forget [device_name]?'
 #: views/modal/forget.disconnected.html:4 views/modal/forget.requested.html:4
@@ -89,7 +100,7 @@ msgstr "Δημόσια κλειδιά λογαριασμού (XPUB)"
 msgid "Action was interrupted"
 msgstr "Η ενέργεια διακόπηκε"
 
-#: views/nav.html:224 views/nav.html:232 views/nav.html:241
+#: views/nav.html:238 views/nav.html:246 views/nav.html:255
 msgid "Add account"
 msgstr "Προσθήκη λογαριασμού"
 
@@ -106,20 +117,20 @@ msgid "Add your own label"
 msgstr "Προσθέστε τη δική σας ετικέτα"
 
 #. This is a label to a checkbox in the device recovery page
-#: views/device/load.html:54 views/device/recovery.html:153
+#: views/device/load.html:54 views/device/recovery.html:157
 msgctxt "recovery-label"
 msgid "Additional passphrase encryption"
 msgstr "Πρόσθετη κρυπτογράφηση με φράση πρόσβασης"
 
-#. This is a label to the sign/verify form.
-#: views/account/sign/index.html:212 views/account/sign/index.html:71
-msgctxt "sign"
-msgid "Address"
-msgstr "Διεύθυνση"
-
 #. This is a label to the sending form. (Address/amount/comment)
 #: views/account/send/txAddress.html:4
 msgctxt "send"
+msgid "Address"
+msgstr "Διεύθυνση"
+
+#. This is a label to the sign/verify form.
+#: views/account/sign/index.html:212 views/account/sign/index.html:71
+msgctxt "sign"
 msgid "Address"
 msgstr "Διεύθυνση"
 
@@ -137,13 +148,13 @@ msgctxt "header"
 msgid "Advanced"
 msgstr "Προχωρημένες"
 
-#. This is a label to a checkbox in the device recovery page
-#: views/device/recovery.html:165
-msgctxt "recovery-label"
+#: views/modal/recovery.html:65
 msgid "Advanced recovery"
 msgstr ""
 
-#: views/modal/recovery.html:65
+#. This is a label to a checkbox in the device recovery page
+#: views/device/recovery.html:168 views/device/recovery.html:180
+msgctxt "recovery-label"
 msgid "Advanced recovery"
 msgstr ""
 
@@ -194,11 +205,11 @@ msgstr "Απαιτείται ποσό."
 msgid "Amount is too low"
 msgstr "Το ποσό είναι πολύ χαμηλό"
 
-#: views/nav.html:150
+#: views/nav.html:164
 msgid "Analysing"
 msgstr ""
 
-#: views/nav.html:253
+#: views/nav.html:267
 msgid "App Settings"
 msgstr ""
 
@@ -206,7 +217,7 @@ msgstr ""
 msgid "Application Settings"
 msgstr "Ρυθμίσεις εφαρμογής"
 
-#: views/account/receive/index.html:141
+#: views/account/receive/index.html:144
 msgid "BIP32 Path:"
 msgstr "BIP32 Διαδρομή:"
 
@@ -228,7 +239,8 @@ msgctxt "header"
 msgid "Basic"
 msgstr "Βασικός"
 
-#: views/device/index.basic.html:191 views/device/index.basic.html:244
+#: views/device/index.basic.html:193 views/device/index.basic.html:196
+#: views/device/index.basic.html:251
 msgid "Be careful with your XPUBs."
 msgstr "Να είστε προσεκτικοί με τα XPUBs σας."
 
@@ -249,7 +261,7 @@ msgid "Bootloader mode"
 msgstr "Bootloader κατάσταση"
 
 #: views/device/custom-firmware.html:35 views/device/load.html:65
-#: views/device/recovery.html:177 views/import.html:55
+#: views/device/recovery.html:192 views/import.html:55
 msgid "Cancel"
 msgstr "Ακύρωση"
 
@@ -301,7 +313,7 @@ msgctxt "button"
 msgid "Clear"
 msgstr "Καθαρισμός"
 
-#: views/device/index.basic.html:199 views/device/index.basic.html:258
+#: views/device/index.basic.html:205 views/device/index.basic.html:266
 msgid "Click on XPUB to show its QR code."
 msgstr "Κάντε κλικ στο XPUB για να δείξει τον QR κώδικά του."
 
@@ -342,7 +354,7 @@ msgstr ""
 msgid "Confirm action on your device."
 msgstr ""
 
-#: views/device/recovery.html:59
+#: views/device/recovery.html:61
 msgid "Confirm choice by pressing enter."
 msgstr "Επιβεβαιώστε την επιλογή πατώντας enter."
 
@@ -357,6 +369,10 @@ msgstr ""
 #: views/debug.html:109
 msgid "Congratulations! Your device is now ready to use."
 msgstr "Συγχαρητήρια! Η συσκευή σας είναι τώρα έτοιμη για χρήση."
+
+#: views/jumbotrons/start.html:4
+msgid "Connect TREZOR to continue"
+msgstr ""
 
 #: views/device/index.basic.html:66
 msgid "Connect the device to change PIN."
@@ -390,7 +406,7 @@ msgstr "Συνδέστε τη συσκευή για να ορίσετε την �
 msgid "Connect to Dropbox"
 msgstr "Συνδεθείτε στο Dropbox"
 
-#: views/nav.html:267
+#: views/nav.html:281
 msgid ""
 "Connect to Dropbox to enable:<br>- renaming accounts<br>- commenting "
 "transactions<br>- labeling addresses and more..."
@@ -398,10 +414,6 @@ msgstr ""
 "Συνδεθείτε στο Dropbox για να ενεργοποιήσετε: <br>- μετονομασία λογαριασμών "
 "<br>- σχολιάζοντας συναλλαγές <br>-ετικετοποίηση διευθύνσεων και "
 "περισσότερα..."
-
-#: views/jumbotrons/start.html:6
-msgid "Connect your TREZOR device to the computer."
-msgstr "Συνδέστε την TREZOR συσκευή σας στον υπολογιστή."
 
 #: views/account/receive/address.html:77
 msgid "Connect your TREZOR to display this address"
@@ -411,7 +423,7 @@ msgstr "Συνδέστε το TREZOR σας για να εμφανίσετε α�
 msgid "Connected device"
 msgstr ""
 
-#: views/nav.html:264
+#: views/nav.html:278
 msgid "Connecting ..."
 msgstr ""
 
@@ -419,8 +431,8 @@ msgstr ""
 msgid "Contact"
 msgstr ""
 
-#: views/device/custom-firmware.html:32 views/device/index.setup.html:29
-#: views/device/load.html:62 views/device/recovery.html:173
+#: views/device/custom-firmware.html:32 views/device/index.setup.html:31
+#: views/device/load.html:62 views/device/recovery.html:188
 #: views/import.html:53
 msgid "Continue"
 msgstr "Συνέχεια"
@@ -437,6 +449,11 @@ msgstr ""
 #: views/device/homescreen.html:16
 msgctxt "label"
 msgid "Custom image"
+msgstr ""
+
+#. Unconfirmed transaction, in the transaction list, will have this instead of date.
+#: views/account/transactions/table.html:68
+msgid "Details"
 msgstr ""
 
 #: views/modal/firmware.html:73
@@ -456,7 +473,7 @@ msgstr ""
 msgid "Device firmware is outdated."
 msgstr ""
 
-#: views/device/recovery.html:86
+#: views/device/recovery.html:90
 msgid "Device has to be wiped before recovery."
 msgstr "Η συσκευή πρέπει να σβηστεί πριν από την ανάκτηση."
 
@@ -464,8 +481,12 @@ msgstr "Η συσκευή πρέπει να σβηστεί πριν από τη�
 msgid "Device is updated in other window"
 msgstr "Η συσκευή ενημερώνεται σε άλλο παράθυρο"
 
+#: views/device/index.setup.html:20 views/import.html:22
+msgid "Device label"
+msgstr "Ετικέτα συσκευής"
+
 #. This is a short label in the device recovery page
-#: views/device/recovery.html:94
+#: views/device/recovery.html:98
 msgctxt "recovery-label"
 msgid "Device label"
 msgstr "Ετικέτα συσκευής"
@@ -476,27 +497,23 @@ msgctxt "load-label"
 msgid "Device label"
 msgstr "Ετικέτα συσκευής"
 
-#: views/device/index.setup.html:16 views/import.html:22
-msgid "Device label"
-msgstr "Ετικέτα συσκευής"
-
 #: views/device/advanced.html:190
 msgid "Device needs to be connected in order to wipe it."
 msgstr "Η συσκευή πρέπει να συνδεθεί για να την κάνετε wipe."
 
-#: views/nav.html:284
+#: views/nav.html:298
 msgid "Disable Labeling"
 msgstr ""
-
-#. This is a short label in the device Advanced page
-#: views/device/advanced.html:135
-msgctxt "advanced-label"
-msgid "Disable PIN"
-msgstr "Απενεργοποίηση PIN"
 
 #. This is written on a button, clicking it will disable PIN
 #: views/device/advanced.html:153
 msgctxt "button"
+msgid "Disable PIN"
+msgstr "Απενεργοποίηση PIN"
+
+#. This is a short label in the device Advanced page
+#: views/device/advanced.html:135
+msgctxt "advanced-label"
 msgid "Disable PIN"
 msgstr "Απενεργοποίηση PIN"
 
@@ -534,19 +551,9 @@ msgstr ""
 msgid "Display transaction on explorer"
 msgstr ""
 
-#: views/install/main.html:66
+#: views/install/main.html:72
 msgid "Do you use Google Chrome on this computer?"
 msgstr "Χρησιμοποιείτε το Google Chrome σε αυτόν τον υπολογιστή;"
-
-#: views/install/main.html:21
-msgid ""
-"Do you use other browsers on this computer? Install the TREZOR Bridge, a "
-"standalone application that works the same way &mdash; but with every "
-"browser."
-msgstr ""
-"Χρησιμοποιείτε άλλα προγράμματα περιήγησης σε αυτόν τον υπολογιστή; "
-"Εγκαταστήστε την TREZOR γέφυρα, μια αυτόνομη εφαρμογή που λειτουργεί με τον "
-"ίδιο τρόπο &mdash;, αλλά με κάθε πρόγραμμα περιήγησης."
 
 #: views/modal/firmware.html:222
 msgid "Do you want to update the device firmware?"
@@ -567,7 +574,7 @@ msgid "Don't forget to double check the address ..."
 msgstr ""
 
 #. Whole sentence: 'Don't have a TREZOR? Get one.'
-#: views/jumbotrons/start.html:7
+#: views/install/main.html:19 views/jumbotrons/start.html:11
 msgid "Don't have a TREZOR?"
 msgstr ""
 
@@ -575,8 +582,8 @@ msgstr ""
 msgid "Don't worry, your funds are safe."
 msgstr ""
 
-#: views/install/bridge.force.html:19 views/install/main.html:25
-#: views/install/main.html:58 views/jumbotrons/udev-note.html:39
+#: views/install/bridge.force.html:19 views/install/main.html:40
+#: views/install/main.html:64 views/jumbotrons/udev-note.html:35
 msgid "Download"
 msgstr "Λήψη"
 
@@ -589,7 +596,7 @@ msgstr "Κατεβάστε το TREZOR Manager App στο Google Play."
 msgid "Downloading firmware..."
 msgstr "Λήψη υλικολογισμικού..."
 
-#: views/nav.html:279
+#: views/nav.html:293
 msgid "Dropbox connected. Click to disconnect it."
 msgstr "Το Dropbox είναι συνδεδεμένο. Κάντε κλικ για να το αποσυνδέσετε."
 
@@ -603,11 +610,15 @@ msgctxt "transaction-fee"
 msgid "Economy"
 msgstr "Οικονομία"
 
+#: views/nav.html:99
+msgid "Edit Device basics"
+msgstr ""
+
 #: views/account/receive/address.html:146
 msgid "Edit label"
 msgstr ""
 
-#: views/nav.html:277
+#: views/nav.html:291
 msgid "Enable Labeling"
 msgstr ""
 
@@ -618,7 +629,7 @@ msgid "Enable PIN"
 msgstr "Ενεργοποίηση PIN"
 
 #. This is a label to a checkbox in the device recovery page
-#: views/device/recovery.html:139
+#: views/device/recovery.html:143
 msgctxt "recovery-label"
 msgid "Enable PIN protection"
 msgstr "Ενεργοποίηση προστασίας PIN"
@@ -649,15 +660,15 @@ msgstr "Ενεργοποιημένο"
 msgid "Enter"
 msgstr ""
 
-#. This is on a passphrase button
-#: views/modal/passphrase.html:60
-msgctxt "passphrase-button"
-msgid "Enter"
-msgstr "Εισάγετε"
-
 #. This is on a pin button
 #: views/modal/pin.html:101
 msgctxt "pin-button"
+msgid "Enter"
+msgstr "Εισάγετε"
+
+#. This is on a passphrase button
+#: views/modal/passphrase.html:60
+msgctxt "passphrase-button"
 msgid "Enter"
 msgstr "Εισάγετε"
 
@@ -671,7 +682,7 @@ msgstr ""
 msgid "Enter passphrase for"
 msgstr ""
 
-#: views/device/recovery.html:49
+#: views/device/recovery.html:51
 msgid "Enter seed word"
 msgstr "Εισάγετε λέξη σπόρων"
 
@@ -728,13 +739,13 @@ msgstr "Δεν ήταν δυνατή η υπογραφή μηνύματος"
 msgid "Failed to verify message"
 msgstr "Απέτυχε η επαλήθευση μηνύματος"
 
-#. This is a label to the sending form. (Address/amount/comment)
-#: views/account/send/fees.html:4
-msgctxt "send"
+#: views/account/send/fees.html:133
 msgid "Fee"
 msgstr "Αμοιβή"
 
-#: views/account/send/fees.html:133
+#. This is a label to the sending form. (Address/amount/comment)
+#: views/account/send/fees.html:4
+msgctxt "send"
 msgid "Fee"
 msgstr "Αμοιβή"
 
@@ -775,8 +786,10 @@ msgstr "Η πρώτη γραμμή είναι η κεφαλίδα"
 msgid "Flower Close Up In Darkness by A Guy is licenced under CC BY 2.0"
 msgstr "Flower Close Up In Darkness by A Guy is licenced under CC BY 2.0"
 
-#: views/device/recovery.html:30
-msgid "Follow the instructions on your device."
+#: views/device/recovery.html:31
+msgid ""
+"Follow the instructions on your\n"
+"                                                    device."
 msgstr ""
 
 #. Clicking here will lead the user to our manual.
@@ -802,7 +815,7 @@ msgctxt "forget-button"
 msgid "Forget (recommended)"
 msgstr "Ξεχάστε (συνιστάται)"
 
-#: views/nav.html:119
+#: views/nav.html:133
 msgid "Forget this device"
 msgstr "Ξεχάστε αυτήν τη συσκευή"
 
@@ -833,7 +846,7 @@ msgid "Gallery selection"
 msgstr ""
 
 #. Whole sentence: 'Don't have a TREZOR? Get one.'
-#: views/jumbotrons/start.html:7
+#: views/install/main.html:20 views/jumbotrons/start.html:12
 msgid "Get one"
 msgstr ""
 
@@ -842,11 +855,6 @@ msgid ""
 "Go to\n"
 "        MyEtherWallet"
 msgstr ""
-
-#. This is shown on the first page user sees.
-#: views/install/main.html:5
-msgid "Hi, you're almost there!"
-msgstr "Γεια σας, είστε σχεδόν έτοιμοι!"
 
 #: views/account/receive/index.html:38 views/account/receive/index.html:56
 msgid "Hide previous"
@@ -894,6 +902,11 @@ msgid ""
 msgstr ""
 "Εάν η διεύθυνση ταιριάζει με αυτή στην οθόνη του TREZOR σας, μπορείτε να "
 "είστε σίγουροι ότι είναι γνήσια."
+
+#. Start of sentence: 'If the problem persists, please run our troubleshooter[its link]'
+#: views/debug.html:77
+msgid "If the problem persists, please run our"
+msgstr ""
 
 #: views/device/load.html:10
 msgid ""
@@ -968,9 +981,11 @@ msgstr "Εισαγωγή διευθύνσεων από CSV"
 msgid "Import from CSV"
 msgstr "Εισαγωγή από CSV"
 
-#: views/jumbotrons/udev-note.html:14
+#: views/jumbotrons/udev-note.html:13
 msgid ""
-"In some cases, Linux users need to install udev rules to access the device."
+"In some cases, Linux users need to install udev rules to access the device.\n"
+"                Please, install the following package and reconnect your "
+"TREZOR."
 msgstr ""
 
 #: views/modal/firmware.html:182 views/modal/firmware.html:234
@@ -991,13 +1006,24 @@ msgstr ""
 msgid "Inputs:"
 msgstr "Είσοδοι:"
 
-#: views/install/main.html:69
+#: views/account/transactions/table.html:64
+#: views/account/transactions/table.html:65
+msgid "Insight Transaction info"
+msgstr ""
+
+#: views/install/main.html:14
+msgid "Install Extension"
+msgstr ""
+
+#: views/install/main.html:75
 msgid "Install TREZOR Chrome Extension"
 msgstr "Εγκατάσταση TREZOR Chrome επέκτασης"
 
-#: views/install/main.html:17
-msgid "Install for Chrome"
-msgstr "Εγκατάσταση για τον Chrome"
+#: views/install/main.html:7
+msgid ""
+"Install TREZOR Chrome Extension to allow TREZOR Wallet to talk with your "
+"device."
+msgstr ""
 
 #. This is displayed on Android.
 #: views/install/mobile.android.html:8
@@ -1043,7 +1069,7 @@ msgstr ""
 msgid "Latest"
 msgstr "Πιο πρόσφατο"
 
-#: views/device/index.basic.html:192 views/device/index.basic.html:250
+#: views/device/index.basic.html:197 views/device/index.setup.html:14
 #: views/modal/pin.html:106
 msgid "Learn more"
 msgstr "Μάθε περισσότερα"
@@ -1052,8 +1078,8 @@ msgstr "Μάθε περισσότερα"
 msgid "Learn more about"
 msgstr ""
 
-#: views/install/main.html:76
-msgid "Learn more about TREZOR"
+#: views/device/recovery.html:198
+msgid "Learn more about Recovery"
 msgstr ""
 
 #. Part of a long text about Dropbox and labeling
@@ -1070,7 +1096,7 @@ msgstr ""
 msgid "Learn more in user manual"
 msgstr ""
 
-#: views/jumbotrons/loading.html:4 views/nav.html:139 views/nav.html:171
+#: views/jumbotrons/loading.html:4 views/nav.html:153 views/nav.html:185
 msgid "Loading"
 msgstr "Φόρτωση"
 
@@ -1079,7 +1105,7 @@ msgstr "Φόρτωση"
 msgid "Loading ..."
 msgstr ""
 
-#: views/nav.html:213
+#: views/nav.html:227
 msgid "Loading accounts..."
 msgstr "Φόρτωση λογαριασμών..."
 
@@ -1103,7 +1129,7 @@ msgstr "Φόρτωση..."
 msgid "Local traders:"
 msgstr ""
 
-#: views/nav.html:101
+#: views/nav.html:115
 msgid "Lock this device"
 msgstr "Κλειδώστε αυτή τη συσκευή"
 
@@ -1133,7 +1159,7 @@ msgstr ""
 "Βεβαιωθείτε ότι εμφανίζεται το ίδιο δακτυλικο αποτύπωμα στην οθόνη της "
 "συσκευής."
 
-#: views/jumbotrons/udev-note.html:45
+#: views/jumbotrons/udev-note.html:42
 msgid "Manual configuration (advanced)"
 msgstr ""
 
@@ -1182,14 +1208,14 @@ msgid "More addresses"
 msgstr ""
 
 #. Literally 'my TREZOR (device)'. Used as a default device name. It HAS to be ASCII only and it HAS to be less than 16 letters long
-#: views/device/index.setup.html:17 views/device/load.html:26
-#: views/device/recovery.html:98 views/import.html:23
+#: views/device/index.setup.html:21 views/device/load.html:26
+#: views/device/recovery.html:102 views/import.html:23
 #: views/otherStrings.html:14
 msgctxt "default-name"
 msgid "My TREZOR"
 msgstr "Το TREZOR μου"
 
-#: views/device/index.basic.html:205 views/device/index.basic.html:264
+#: views/device/index.basic.html:211 views/device/index.basic.html:272
 msgctxt "xpub-text"
 msgid "Mycelium"
 msgstr "Mycelium"
@@ -1271,10 +1297,6 @@ msgstr "Μη έγκυρη διεύθυνση"
 msgid "Not enough funds"
 msgstr "Δεν υπάρχουν αρκετά κεφάλαια"
 
-#: views/jumbotrons/udev-note.html:8
-msgid "Not seeing your TREZOR?"
-msgstr ""
-
 #: views/modal/passphrase.html:36
 msgid "Note that passphrase is case-sensitive."
 msgstr "Σημειώστε ότι η φράση πρόσβασης έχει διάκριση πεζών-κεφαλαίων."
@@ -1293,7 +1315,7 @@ msgstr ""
 "συσκευής πατημένα</strong>."
 
 #. This is a short label in the device recovery page
-#: views/device/recovery.html:104
+#: views/device/recovery.html:108
 msgctxt "recovery-label"
 msgid "Number of words in your recovery seed"
 msgstr "Αριθμός λέξεων στο recovery seed σας"
@@ -1513,19 +1535,11 @@ msgctxt "sign-button-tooltip"
 msgid "Please fill in message and address."
 msgstr "Παρακαλούμε συμπληρώστε το μήνυμα και τη διεύθυνση."
 
-#: views/install/main.html:41
+#: views/install/main.html:47
 msgid ""
 "Please install TREZOR Bridge to allow TREZOR Wallet to talk with your device."
 msgstr ""
 "Παρακαλούμε εγκαταστήστε την TREZOR Bridge ώστε να επιτρέψει στο TREZOR "
-"Wallet να επικοινωνήσει με τη συσκευή σας."
-
-#: views/install/main.html:10
-msgid ""
-"Please install TREZOR Chrome Extension to allow TREZOR Wallet to talk with "
-"your device."
-msgstr ""
-"Παρακαλούμε εγκαταστήστε την TREZOR Chrome επέκταση να επιτρέψει στο TREZOR "
 "Wallet να επικοινωνήσει με τη συσκευή σας."
 
 #: views/modal/firmware.html:315
@@ -1548,11 +1562,7 @@ msgid "Please reload the page."
 msgstr ""
 
 #: views/device/index.setup.html:10
-msgid ""
-"Please take your time to read all of the instructions. Setting up your "
-"TREZOR will take only a few\n"
-"                    minutes.\n"
-"                    When you're done, you can start using your TREZOR."
+msgid "Please take your time to read the instructions."
 msgstr ""
 
 #: views/modal/firmware.html:150
@@ -1685,10 +1695,6 @@ msgstr "Παρακαλούμε γράψτε την 8η λέξη του recovery 
 msgid "Please write down the 9th word of your recovery seed."
 msgstr "Παρακαλούμε γράψτε την 9η λέξη του recovery seed σας."
 
-#: views/jumbotrons/udev-note.html:17
-msgid "Please, install the following package and reconnect your TREZOR."
-msgstr ""
-
 #: views/modal/pin.html:19
 msgid "Please, re-enter correct PIN."
 msgstr ""
@@ -1697,7 +1703,11 @@ msgstr ""
 msgid "Previous addresses"
 msgstr "Προηγούμενες διευθύνσεις"
 
-#: views/device/recovery.html:44
+#: views/jumbotrons/landing/landing.heading.html:2
+msgid "Private bank in your hands."
+msgstr ""
+
+#: views/device/recovery.html:46
 msgid "Processing..."
 msgstr "Επεξεργασία..."
 
@@ -1741,7 +1751,7 @@ msgstr "Λάβετε"
 msgid "Receive payment"
 msgstr ""
 
-#: views/device/recovery.html:68
+#: views/device/recovery.html:71
 msgid "Recovered seed words:"
 msgstr "Ανακτημένες seed λέξεις:"
 
@@ -1783,7 +1793,7 @@ msgstr "Κατάργηση παραλήπτη"
 msgid "Rename account"
 msgstr "Μετονομασία λογαριασμού"
 
-#: views/nav.html:201
+#: views/nav.html:215
 msgid "Rename this account"
 msgstr "Μετονομάστε αυτό το λογαριασμό"
 
@@ -1791,7 +1801,7 @@ msgstr "Μετονομάστε αυτό το λογαριασμό"
 msgid "Save &amp; Reload"
 msgstr "Αποθήκευση &amp; Επαναφόρτωση"
 
-#: views/nav.html:157
+#: views/nav.html:171
 msgid "Saving"
 msgstr ""
 
@@ -1804,7 +1814,7 @@ msgid "Scan address from a QR code"
 msgstr "Σάρωση διεύθυνσης από ένα QR code"
 
 #. Whole text: *Scan it into an application that supports XPUBs such as* Mycelium or Sentinel for Android. Then, you can watch your transactions and receive payments everywhere without carrying your TREZOR.
-#: views/device/index.basic.html:201 views/device/index.basic.html:260
+#: views/device/index.basic.html:207 views/device/index.basic.html:268
 msgctxt "xpub-text"
 msgid "Scan it into an application that supports XPUBs such as"
 msgstr "Σαρώστε το σε μια εφαρμογή που υποστηρίζει, όπως XPUBs"
@@ -1813,23 +1823,23 @@ msgstr "Σαρώστε το σε μια εφαρμογή που υποστηρί
 msgid "Search for address, date or amount"
 msgstr "Αναζήτηση για διεύθυνση, ημερομηνία ή ποσότητα"
 
-#: views/device/recovery.html:18
+#: views/device/recovery.html:19
 msgid "Seed recovery"
 msgstr "Seed recovery"
 
-#: views/install/main.html:28 views/install/main.html:48
+#: views/install/main.html:30 views/install/main.html:54
 msgid "Select platform..."
 msgstr "Επιλέξτε την πλατφόρμα..."
-
-#. This is shown on the header Send/Receive/Transactions/...
-#: views/account/nav.html:21
-msgctxt "header"
-msgid "Send"
-msgstr "Αποστολή"
 
 #. This is shown on the main, big Send button
 #: views/account/send/buttonBar.html:10
 msgctxt "button"
+msgid "Send"
+msgstr "Αποστολή"
+
+#. This is shown on the header Send/Receive/Transactions/...
+#: views/account/nav.html:21
+msgctxt "header"
 msgid "Send"
 msgstr "Αποστολή"
 
@@ -1851,6 +1861,12 @@ msgstr "Ορίστε ως αρχική οθόνη"
 #: views/account/send/txAmount.html:32
 msgid "Set maximum possible amount"
 msgstr "Ορίστε το μέγιστο δυνατό ποσό"
+
+#: views/device/index.setup.html:13
+msgid ""
+"Setting up your TREZOR will take only a few minutes.\n"
+"                    When you're done, you can start using your TREZOR."
+msgstr ""
 
 #: views/debug.html:30
 msgid "Setup failed."
@@ -1877,7 +1893,8 @@ msgid "Show log"
 msgstr "Προβολή αρχείου καταγραφής"
 
 #: views/account/transactions/txAddress.html:12
-msgid "Show more..."
+#: views/device/index.basic.html:257
+msgid "Show more"
 msgstr ""
 
 #: views/account/receive/address.html:64
@@ -1977,15 +1994,16 @@ msgctxt "button"
 msgid "TREZOR Recovery"
 msgstr "TREZOR αποκατάσταση"
 
-#: views/install/main.html:75
-msgid "TREZOR Wallet is a free service provided exclusively to TREZOR owners."
+#: views/jumbotrons/landing/landing.heading.html:3
+msgid ""
+"TREZOR Wallet is an easy-to-use interface for your TREZOR device. From this "
+"Wallet, you can easily control your coins, manage your balance and initiate "
+"transfers."
 msgstr ""
-"Το TREZOR Wallet είναι μια δωρεάν υπηρεσία που παρέχεται αποκλειστικά στους "
-"ιδιοκτήτες της TREZOR."
 
 #: views/jumbotrons/loading.html:5
-msgid "TREZOR Wallet is loading accounts from your device"
-msgstr "Το TREZOR Wallet φορτώνει τους λογαριασμούς από τη συσκευή σας"
+msgid "TREZOR Wallet is loading accounts"
+msgstr ""
 
 #: views/modal/dropbox.html:2
 msgid "TREZOR Wallet labeling"
@@ -2008,9 +2026,13 @@ msgstr "Το TREZOR δεν μπορεί να υπογράψει μη ASCII χα�
 msgid "TREZOR cannot verify non-ASCII characters."
 msgstr "Το TREZOR δεν μπορεί να επαληθεύσει τους μη ASCII χαρακτήρες."
 
-#: views/error.html:6
+#: views/error.html:7
 msgid "TREZOR loading failed"
 msgstr "Η φόρτωση του TREZOR απέτυχε"
+
+#: views/jumbotrons/udev-note.html:7
+msgid "TREZOR not recognized?"
+msgstr ""
 
 #. In the bottom footer.
 #: views/footer.html:7
@@ -2030,7 +2052,7 @@ msgstr ""
 "συναλλαγή έχει δημιουργηθεί στο TREZOR."
 
 #. Whole text: Scan it into an application that supports XPUBs such as Mycelium or Sentinel for Android. *Then, you can watch your transactions and receive payments everywhere without carrying your TREZOR.*
-#: views/device/index.basic.html:218 views/device/index.basic.html:276
+#: views/device/index.basic.html:225 views/device/index.basic.html:285
 msgctxt "xpub-text"
 msgid ""
 "Then, you can watch your transactions and receive payments everywhere "
@@ -2070,15 +2092,6 @@ msgstr ""
 "Αυτή είναι μια προηγμένη διεπαφή που προορίζεται για χρήση προγραμματιστή "
 "μόνο!"
 
-#: views/device/index.setup.html:22
-msgid ""
-"This label will be shown on the display when you plug your TREZOR in. This "
-"is useful if you have\n"
-"                        more\n"
-"                        than one device. No worries, you can always change "
-"it."
-msgstr ""
-
 #. Used as a suggested name for a transaction. *To* Account #2
 #: views/otherStrings.html:26
 msgctxt "address-suggest"
@@ -2089,7 +2102,7 @@ msgstr "Στο"
 msgid ""
 "To access subsequent addresses, please use some of the listed addresses in "
 "a\n"
-"                                transaction."
+"                                    transaction."
 msgstr ""
 
 #: views/account/receive/index.html:95
@@ -2100,7 +2113,7 @@ msgstr ""
 "Για να αποκτήσετε πρόσβαση στις επόμενες διευθύνσεις, παρακαλούμε "
 "χρησιμοποιήστε κάποια από τις διευθύνσεις που παρατίθενται σε μια συναλλαγή."
 
-#: views/nav.html:220
+#: views/nav.html:234
 msgid ""
 "To add accounts, make sure your device is connected and the last account is "
 "not empty."
@@ -2140,18 +2153,22 @@ msgctxt "send-done"
 msgid "Transaction"
 msgstr "Συναλλαγή"
 
-#: views/account/transactions/table.html:4
-msgid "Transactions"
-msgstr ""
-
 #. This is shown on the header Send/Receive/Transactions/...
 #: views/account/nav.html:5
 msgctxt "header"
 msgid "Transactions"
 msgstr "Συναλλαγές"
 
+#: views/account/transactions/table.html:4
+msgid "Transactions"
+msgstr ""
+
 #: views/account/transactions/summary.html:68
 msgid "Transactions are loading ..."
+msgstr ""
+
+#: views/debug.html:77
+msgid "Troubleshooter"
 msgstr ""
 
 #: views/alertbars/offline.html:26
@@ -2162,7 +2179,7 @@ msgstr ""
 msgid "Try again"
 msgstr "Δοκιμάστε ξανά"
 
-#: views/jumbotrons/udev-note.html:9
+#: views/jumbotrons/udev-note.html:8
 msgid "Try installing udev rules."
 msgstr ""
 
@@ -2218,6 +2235,10 @@ msgstr ""
 #: views/modal/firmware.html:375
 msgid "Update failed"
 msgstr "Η ενημέρωση απέτυχε"
+
+#: views/device/recovery.html:176
+msgid "Update firmware first to use Advanced Recovery"
+msgstr ""
 
 #: views/modal/firmware.html:366
 msgid "Update was successful"
@@ -2307,7 +2328,7 @@ msgstr "Επαλήθευση μηνύματος"
 msgid "Versions"
 msgstr "Εκδόσεις"
 
-#: views/account/receive/address.html:95 views/account/receive/index.html:128
+#: views/account/receive/address.html:95 views/account/receive/index.html:131
 msgid "View address at block explorer"
 msgstr ""
 
@@ -2315,17 +2336,12 @@ msgstr ""
 msgid "Waiting for camera&hellip;"
 msgstr "Αναμονή για την camera&hellip;"
 
-#: views/account/receive/index.html:155
+#: views/account/receive/index.html:158
 msgid "Waiting for transaction history"
 msgstr "Αναμονή για το ιστορικό των συναλλαγών"
 
 #: index.html:38 views/top.nav.html:6
 msgid "Wallet"
-msgstr ""
-
-#. Is displayed when TREZOR is loaded wallet, format is '[coinname] Wallet is ready!' (Bitcoin Wallet, Dash Wallet, etc.)
-#: views/jumbotrons/start.html:5
-msgid "Wallet is ready!"
 msgstr ""
 
 #: views/device/index.html:12
@@ -2377,7 +2393,7 @@ msgstr "Καλώς ήλθατε στην Εγκατάσταση TREZOR!"
 msgid "What's next? How about buying some bitcoins?"
 msgstr ""
 
-#: views/device/index.basic.html:191 views/device/index.basic.html:249
+#: views/device/index.basic.html:196 views/device/index.basic.html:256
 msgid ""
 "When you give them to a third party, you allow it to see your whole "
 "transaction history."
@@ -2385,15 +2401,15 @@ msgstr ""
 "Όταν τα δίνετε σε τρίτους, τους επιτρέπετε να δουν ολόκληρο το ιστορικό των "
 "συναλλαγών σας."
 
-#. This is a short label in the device Advanced page
-#: views/device/advanced.html:177
-msgctxt "advanced-label"
-msgid "Wipe device"
-msgstr "Wipe συσκευής"
-
 #. This is written on a button, clicking it will wipe the device
 #: views/device/advanced.html:201
 msgctxt "button"
+msgid "Wipe device"
+msgstr "Wipe συσκευής"
+
+#. This is a short label in the device Advanced page
+#: views/device/advanced.html:177
+msgctxt "advanced-label"
 msgid "Wipe device"
 msgstr "Wipe συσκευής"
 
@@ -2409,7 +2425,7 @@ msgstr "To Wipe ολοκληρώθηκε"
 msgid "Wiping the device <span>removes all its information.</span>"
 msgstr ""
 
-#: views/install/main.html:69
+#: views/install/main.html:75
 msgid ""
 "With TREZOR Chrome Extension you can use TREZOR Wallet in Chrome without "
 "installing any other software."
@@ -2417,7 +2433,7 @@ msgstr ""
 "Με την TREZOR Chrome Επέκταση μπορείτε να χρησιμοποιήσετε το TREZOR Wallet "
 "στον Chrome χωρίς να εγκαταστήσετε οποιοδήποτε άλλο λογισμικό."
 
-#: views/device/recovery.html:31
+#: views/device/recovery.html:33
 msgid "Words are going to be entered in shuffled order."
 msgstr "Οι λέξεις πρόκειται να εισαχθούν σε τυχαία σειρά."
 
@@ -2469,11 +2485,11 @@ msgid "You can try to resend this transaction using"
 msgstr ""
 "Μπορείτε να δοκιμάσετε να ξαναστείλετε αυτή τη συναλλαγή χρησιμοποιώντας"
 
-#: views/nav.html:228
+#: views/nav.html:242
 msgid "You cannot add more than 10 accounts."
 msgstr ""
 
-#: views/device/recovery.html:34
+#: views/device/recovery.html:36
 msgid ""
 "You might be asked to retype some words that are not part of your recovery "
 "seed."
@@ -2640,7 +2656,7 @@ msgid "not set"
 msgstr "δεν έχει οριστεί"
 
 #. Whole text: Scan it into an application that supports XPUBs such as Mycelium *or* Sentinel for Android. Then, you can watch your transactions and receive payments everywhere without carrying your TREZOR.
-#: views/device/index.basic.html:207
+#: views/device/index.basic.html:214
 msgctxt "xpub-text"
 msgid "or"
 msgstr "ή"
@@ -2672,18 +2688,18 @@ msgstr "η αλλαγή διεύθυνσης"
 msgid "the user manual"
 msgstr ""
 
-#: views/account/transactions/summary.html:8
-msgid "to"
-msgstr ""
-
 #. Used when estimating transaction time (Expected time: from 5 minutes *to* 10 minutes)
 #: views/account/send/fees.html:85
 msgctxt "transaction-time"
 msgid "to"
 msgstr "μέχρι"
 
+#: views/account/transactions/summary.html:8
+msgid "to"
+msgstr ""
+
 #. In text: 'Loading (123 transactions)', it is always plural
-#: views/nav.html:178
+#: views/nav.html:192
 msgctxt "loading"
 msgid "transactions"
 msgstr "συναλλαγές"
@@ -2704,6 +2720,40 @@ msgstr "στάλθηκε επιτυχώς."
 msgctxt "typeahead"
 msgid "your account"
 msgstr "το λογαριασμό σας"
+
+#~ msgid "Connect your TREZOR device to the computer."
+#~ msgstr "Συνδέστε την TREZOR συσκευή σας στον υπολογιστή."
+
+#~ msgid ""
+#~ "Do you use other browsers on this computer? Install the TREZOR Bridge, a "
+#~ "standalone application that works the same way &mdash; but with every "
+#~ "browser."
+#~ msgstr ""
+#~ "Χρησιμοποιείτε άλλα προγράμματα περιήγησης σε αυτόν τον υπολογιστή; "
+#~ "Εγκαταστήστε την TREZOR γέφυρα, μια αυτόνομη εφαρμογή που λειτουργεί με "
+#~ "τον ίδιο τρόπο &mdash;, αλλά με κάθε πρόγραμμα περιήγησης."
+
+#~ msgid "Hi, you're almost there!"
+#~ msgstr "Γεια σας, είστε σχεδόν έτοιμοι!"
+
+#~ msgid "Install for Chrome"
+#~ msgstr "Εγκατάσταση για τον Chrome"
+
+#~ msgid ""
+#~ "Please install TREZOR Chrome Extension to allow TREZOR Wallet to talk "
+#~ "with your device."
+#~ msgstr ""
+#~ "Παρακαλούμε εγκαταστήστε την TREZOR Chrome επέκταση να επιτρέψει στο "
+#~ "TREZOR Wallet να επικοινωνήσει με τη συσκευή σας."
+
+#~ msgid ""
+#~ "TREZOR Wallet is a free service provided exclusively to TREZOR owners."
+#~ msgstr ""
+#~ "Το TREZOR Wallet είναι μια δωρεάν υπηρεσία που παρέχεται αποκλειστικά "
+#~ "στους ιδιοκτήτες της TREZOR."
+
+#~ msgid "TREZOR Wallet is loading accounts from your device"
+#~ msgstr "Το TREZOR Wallet φορτώνει τους λογαριασμούς από τη συσκευή σας"
 
 #~ msgctxt "transaction-list"
 #~ msgid "Amount"
