@@ -1,6 +1,7 @@
 How to solve weblate conflicts? 
 --
 
+
 (for internal use only)
 
 It usually happens when we run extract\_strings.sh on some outdated translations, that someone changed in weblate.
