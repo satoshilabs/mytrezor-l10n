@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2017-04-24 20:36+0000\n"
+"PO-Revision-Date: 2017-05-09 16:18+0000\n"
 "Last-Translator: mattia <tia.theking@gmail.com>\n"
 "Language-Team: Italian "
 "<https://hosted.weblate.org/projects/satoshilabs/mytrezor/it/>\n"
@@ -15,7 +15,7 @@ msgstr ""
 
 #: views/nav.html:115
 msgid "(automatically in"
-msgstr ""
+msgstr "(automaticamente in"
 
 #: views/device/index.setup.html:26
 msgid "* No worries, you can always change it."
@@ -138,10 +138,8 @@ msgid "Add recipient"
 msgstr "Aggiungi destinatario"
 
 #: views/account/transactions/txLabelEdit.html:12
-#, fuzzy
 msgid "Add your own label"
-msgstr ""
-"// what do you mean here with label?  your nick or logo or something similar?"
+msgstr "Aggiungi la tua personale etichetta"
 
 #. This is a label to a checkbox in the device recovery page
 #: views/device/load.html:54 views/device/recovery.html:157
@@ -157,27 +155,28 @@ msgstr ""
 #: views/account/send/txAddress.html:4
 msgctxt "send"
 msgid "Address"
-msgstr "Address"
+msgstr "Indirizzo"
 
 #. This is a label to the sign/verify form.
 #: views/account/sign/index.html:212 views/account/sign/index.html:71
 msgctxt "sign"
 msgid "Address"
-msgstr "Address"
+msgstr "Indirizzo"
 
 #: views/account/send/txAddress.html:25
 #, fuzzy
 msgid "Address is required."
 msgstr ""
-"L' Address è richiesto.  (=like saying We ARE ASKING you to put an address)\n"
-"or  L' Address è necessario. (=like saying We NEED you to put an address)\n"
-"or   L' Address è obbligatorio.  (=like saying you MUST put an address)\n"
+"L' indirizzo è richiesto.  (=like saying We ARE ASKING you to put an address)"
 "\n"
-"//anyway it depend on the context"
+"or  L' indirizzo è necessario. (=like saying We NEED you to put an address)\n"
+"or   L' indirizzo è obbligatorio.  (=like saying you MUST put an address)\n"
+"\n"
+"//anyway it depend on the context."
 
 #: views/debug.html:27
 msgid "Address verification failed."
-msgstr "Verificazione dell' address fallita."
+msgstr "Verificazione dell' indirizzo fallita."
 
 #. This is shown on the header Basic/Homescreen/Advanced
 #: views/device/nav.html:23
@@ -215,6 +214,11 @@ msgid ""
 "Dropbox folder ensuring a 100% secure and always available service. Even if "
 "your Dropbox account gets compromised, your private data stay safe."
 msgstr ""
+"Tutte le etichette ed i commenti che aggiungi a TREZOR Wallet vengono "
+"automaticamente crittografati da una chiave derivata dal dispositivo TREZOR "
+"e sincronizzati con la tua cartella Dropbox per garantire un servizio sicuro "
+"al 100% e sempre disponibile. Anche se il tuo account Dropbox viene "
+"compromesso, i tuoi dati privati rimangono sicuri."
 
 #: views/date.selection.html:52
 #, fuzzy
@@ -288,7 +292,7 @@ msgstr "Saldo"
 #: views/device/nav.html:5
 msgctxt "header"
 msgid "Basic"
-msgstr ""
+msgstr "Base"
 
 #: views/device/index.basic.html:193 views/device/index.basic.html:196
 #: views/device/index.basic.html:251
@@ -368,12 +372,9 @@ msgstr "Cambia commento"
 
 #. This is on a button, that will change the label once clicked
 #: views/device/index.basic.html:43
-#, fuzzy
 msgctxt "button"
 msgid "Change label"
-msgstr ""
-"Cambia ____\n"
-"//  what is intended here with 'label'?"
+msgstr "Cambia etichetta"
 
 #: views/modal/firmware.html:242 views/modal/firmware.html:50
 #, fuzzy
@@ -384,7 +385,7 @@ msgstr ""
 
 #: views/modal/button.html:68
 msgid "Check address on TREZOR display"
-msgstr "Controlla l' address sul display del tuo TREZOR"
+msgstr "Controlla l' indirizzo sul display del tuo TREZOR"
 
 #. This is on a button in the sign/verify form.
 #: views/account/sign/index.html:134 views/account/sign/index.html:254
@@ -401,7 +402,7 @@ msgstr "Premi su XPUB per mostrarne il suo QR code."
 
 #: views/account/transactions/txAddressLabel.html:47
 msgid "Click to hide address"
-msgstr "Premi per nascondere l' address"
+msgstr "Premi per nascondere l' indirizzo"
 
 #: views/nav.html:28 views/nav.html:73
 msgid "Click to renew session"
@@ -409,7 +410,7 @@ msgstr "Premi per rinnovare la sessione"
 
 #: views/account/transactions/txAddressLabel.html:61
 msgid "Click to show address"
-msgstr "Premi per mostrare l' address"
+msgstr "Premi per mostrare l' indirizzo"
 
 #: views/debug.html:7 views/debug.html:96 views/debug.log.html:8
 #: views/modal/csv.html:44 views/modal/disconnect.html:14
@@ -474,9 +475,8 @@ msgid "Connect the device to change PIN."
 msgstr "Connetti il dispositivo per cambiare il PIN."
 
 #: views/device/index.basic.html:33
-#, fuzzy
 msgid "Connect the device to change the label."
-msgstr "// label ???"
+msgstr "Collegare il dispositivo per cambiarne l'etichetta."
 
 #: views/device/advanced.html:143
 msgid "Connect the device to disable PIN."
@@ -507,10 +507,12 @@ msgid ""
 "Connect to Dropbox to enable:<br>- renaming accounts<br>- commenting "
 "transactions<br>- labeling addresses and more..."
 msgstr ""
+"Connetti a Dropbox per abilitare:<br>- rinominare gli account<br>- "
+"commentare le transazioni<br>- etichettare indirizzi e altro ancora..."
 
 #: views/account/receive/address.html:77
 msgid "Connect your TREZOR to display this address"
-msgstr "Connetti il tuo TREZOR per mostrare questo address"
+msgstr "Connetti il tuo TREZOR per mostrare questo indirizzo"
 
 #: views/nav.html:85
 msgid "Connected device"
@@ -563,7 +565,7 @@ msgstr "ID Dispositivo"
 
 #: views/device/index.basic.html:18
 msgid "Device basics"
-msgstr ""
+msgstr "Elementi di base del dispositivo"
 
 #. Device firmware is outdated.
 #: views/modal/firmware.html:17
@@ -584,25 +586,20 @@ msgid "Device is updated in other window"
 msgstr "// need to understand the context"
 
 #: views/device/index.setup.html:20 views/import.html:22
-#, fuzzy
 msgid "Device label"
-msgstr "// label???"
+msgstr "Etichetta dispositivo"
 
 #. This is a short label in the device recovery page
 #: views/device/recovery.html:98
 msgctxt "recovery-label"
 msgid "Device label"
-msgstr ""
-"Nome dispositivo \n"
-"// just figured out the meaning of label by googling on image \"trezor\" "
-"label.  Anyway i advice you to define it more clearly for the next time you "
-"add a new language"
+msgstr "Etichetta dispositivo"
 
 #. This is a short label in the normally hidden, advanced Load page
 #: views/device/load.html:22
 msgctxt "load-label"
 msgid "Device label"
-msgstr "Nome dispositivo"
+msgstr "Etichetta dispositivo"
 
 #: views/device/advanced.html:190
 #, fuzzy
@@ -612,9 +609,8 @@ msgstr ""
 "explainded before \"resettare\" sound better)"
 
 #: views/nav.html:298
-#, fuzzy
 msgid "Disable Labeling"
-msgstr "// ???"
+msgstr "Disabilita Etichettatura"
 
 #. This is written on a button, clicking it will disable PIN
 #: views/device/advanced.html:153
@@ -691,7 +687,7 @@ msgstr "Non dimenticare"
 
 #: views/account/send/txAddress.html:17
 msgid "Don't forget to double check the address ..."
-msgstr "Non dimenticare di controllare due volte l' address ..."
+msgstr "Non dimenticare di controllare due volte l' indirizzo ..."
 
 #. Whole sentence: 'Don't have a TREZOR? Get one.'
 #: views/install/main.html:19 views/jumbotrons/start.html:11
@@ -745,15 +741,15 @@ msgstr ""
 
 #: views/nav.html:99
 msgid "Edit Device basics"
-msgstr ""
+msgstr "Edita gli elementi di base del dispositivo"
 
 #: views/account/receive/address.html:146
 msgid "Edit label"
-msgstr ""
+msgstr "Edita l' etichetta"
 
 #: views/nav.html:291
 msgid "Enable Labeling"
-msgstr ""
+msgstr "Abilita etichettatura"
 
 #. This is on a button, that will change the PIN once clicked
 #: views/device/index.basic.html:95
@@ -769,12 +765,12 @@ msgstr "Abilita protezione PIN"
 
 #: views/modal/dropbox.html:7
 msgid "Enable labeling"
-msgstr ""
+msgstr "Abilita etichettatura"
 
 #. Enable labeling on [device_name]
 #: views/modal/button.html:4
 msgid "Enable labeling on"
-msgstr ""
+msgstr "Abilita etichettatura su"
 
 #. This is written on a button, clicking it will enable passphrase
 #: views/device/advanced.html:69
@@ -869,7 +865,7 @@ msgstr "Impossibile aggiungere l'account."
 
 #: views/debug.html:42
 msgid "Failed to change the device label."
-msgstr "Impossibile modificare il nome del dispositivo."
+msgstr "Impossibile modificare l' etichetta del dispositivo."
 
 #: views/debug.html:15
 msgid "Failed to renew session."
@@ -980,6 +976,7 @@ msgstr ""
 "TREZOR."
 
 #: views/account/receive/index.html:79
+#, fuzzy
 msgid "Fresh address"
 msgstr "// Fresh in this case means fresh new address?"
 
@@ -1169,10 +1166,12 @@ msgstr ""
 
 #. Inputs of a transaction
 #: views/account/send/txPrepared.html:26
+#, fuzzy
 msgid "Inputs:"
 msgstr ""
 "Inputs:\n"
-"//same in Italian"
+"or Ingressi:\n"
+"or Entrate:"
 
 #: views/account/transactions/table.html:64
 #: views/account/transactions/table.html:65
@@ -1215,15 +1214,15 @@ msgstr "Va bene."
 #: views/device/index.basic.html:23
 msgctxt "basic-label"
 msgid "Label"
-msgstr ""
+msgstr "Etichetta"
 
 #: views/debug.html:121
 msgid "Label was successfully changed."
-msgstr ""
+msgstr "L' etichetta è stata cambiata con successo."
 
 #: views/debug.html:57
 msgid "Labeling error."
-msgstr ""
+msgstr "Errore di etichettatura."
 
 #: views/date.selection.html:33
 msgid "Last 2 Months"
@@ -1262,7 +1261,7 @@ msgstr "Ulteriori informazioni sul Ripristino"
 #. Part of a long text about Dropbox and labeling
 #: views/modal/dropbox.html:49
 msgid "Learn more about TREZOR Wallet labeling"
-msgstr ""
+msgstr "Ulteriori informazioni sull' etichettatura del Wallet TREZOR"
 
 #. This text is displayed, when the amount is too high. Its goal is to get user to re-check the address. This is the fourth line, and a link to our manual.
 #: views/account/send/index.html:52
@@ -1468,7 +1467,7 @@ msgstr "Normale"
 
 #: views/account/send/txAddress.html:42
 msgid "Not a valid address"
-msgstr "Address non valido"
+msgstr "Indirizzo non valido"
 
 #: views/account/send/fees.html:143
 msgid "Not enough funds"
@@ -1502,10 +1501,11 @@ msgstr "OK, ho capito"
 
 #. Outputs of a transaction
 #: views/account/send/txPrepared.html:33
+#, fuzzy
 msgid "Outputs:"
 msgstr ""
 "Outputs:\n"
-"//same in Italian"
+"or Uscite:"
 
 #. Enter [device_name] PIN
 #: views/device/load.html:46 views/modal/pin.html:14 views/modal/pin.html:22
@@ -1695,12 +1695,12 @@ msgstr "Disconnetti ora il tuo dispositivo."
 
 #: views/modal/label.html:6
 msgid "Please enter the device label"
-msgstr ""
+msgstr "Inserisci l'etichetta del dispositivo"
 
 #: views/otherStrings.html:42
 msgctxt "send-button-tooltip"
 msgid "Please fill in address"
-msgstr ""
+msgstr "Inserisci l'indirizzo"
 
 #: views/otherStrings.html:47
 msgctxt "send-button-tooltip"
@@ -1710,7 +1710,7 @@ msgstr ""
 #: views/otherStrings.html:57
 msgctxt "sign-button-tooltip"
 msgid "Please fill in message and address."
-msgstr ""
+msgstr "Inserisci il messaggio e l'indirizzo."
 
 #: views/install/main.html:47
 msgid ""
@@ -1877,7 +1877,7 @@ msgstr "Re-inserisci il PIN corretto."
 
 #: views/account/receive/index.html:68
 msgid "Previous addresses"
-msgstr "Addresses precedenti"
+msgstr "Indirizzi precedenti"
 
 #: views/jumbotrons/landing/landing.heading.html:2
 msgid "Private bank in your hands."
@@ -1989,7 +1989,7 @@ msgstr ""
 
 #: views/modal/qr.html:6
 msgid "Scan address from a QR code"
-msgstr ""
+msgstr "Scansiona l'indirizzo da un codice QR"
 
 #. Whole text: *Scan it into an application that supports XPUBs such as* Mycelium or Sentinel for Android. Then, you can watch your transactions and receive payments everywhere without carrying your TREZOR.
 #: views/device/index.basic.html:207 views/device/index.basic.html:268
@@ -1999,7 +1999,7 @@ msgstr ""
 
 #: views/account/transactions/table.html:7
 msgid "Search for address, date or amount"
-msgstr ""
+msgstr "Cerca l'indirizzo, la data o l'importo"
 
 #: views/device/recovery.html:19
 msgid "Seed recovery"
@@ -2190,7 +2190,7 @@ msgstr "TREZOR Wallet sta caricando gli accounts"
 
 #: views/modal/dropbox.html:2
 msgid "TREZOR Wallet labeling"
-msgstr ""
+msgstr "Etichettatura del Wallet TREZOR"
 
 #: views/modal/disconnect.html:9
 msgid "TREZOR Wallet will forget your TREZOR right after you disconnect it."
@@ -2280,12 +2280,17 @@ msgid ""
 "a\n"
 "                                    transaction."
 msgstr ""
+"Per accedere agli indirizzi successivi, utilizzare alcuni degli indirizzi "
+"elencati in una\n"
+"                                     transazione."
 
 #: views/account/receive/index.html:95
 msgid ""
 "To access subsequent addresses, please use some of the listed addresses in a "
 "transaction."
 msgstr ""
+"Per accedere agli indirizzi successivi, utilizzare alcuni degli indirizzi "
+"elencati in una transazione."
 
 #: views/nav.html:234
 msgid ""
@@ -2388,7 +2393,7 @@ msgstr ""
 #. Shown in the list of addresses, the small comment below an address
 #: views/account/receive/address.html:100
 msgid "Unused address"
-msgstr ""
+msgstr "Indirizzo non utilizzato"
 
 #: views/install/bridge.force.html:10
 msgid ""
@@ -2539,6 +2544,9 @@ msgid ""
 "We recommend you to verify the payment address through independent "
 "communication channels such as a phone call or a text message."
 msgstr ""
+"Ti consigliamo di verificare l'indirizzo di pagamento tramite canali di "
+"comunicazione indipendenti, come ad esempio una telefonata o un messaggio di "
+"testo."
 
 #: views/modal/setup.html:11 views/modal/setup.html:19
 msgid ""
@@ -2781,6 +2789,8 @@ msgstr ""
 #: views/modal/dropbox.html:33
 msgid "label addresses"
 msgstr ""
+"etichetta degli indirizzi\n"
+"or etichettare indirizzi"
 
 #. Refers to PIN input
 #: views/device/load.html:46
