@@ -17,7 +17,7 @@ msgstr ""
 msgid "(automatically in"
 msgstr "(αυτόματα στο"
 
-#: views/device/index.setup.html:26
+#: views/device/index.setup.html:23
 msgid "* No worries, you can always change it."
 msgstr ""
 
@@ -32,12 +32,12 @@ msgid "1. Click 'Connect to Dropbox' and log in."
 msgstr "1. Κάντε κλικ στο 'Σύνδεση στο Dropbox' και συνδεθείτε."
 
 #. Number of words in a recovery seed
-#: views/device/recovery.html:122
+#: views/device/recovery.html:127
 msgid "12 words"
 msgstr "12 λέξεις"
 
 #. Number of words in a recovery seed
-#: views/device/recovery.html:127
+#: views/device/recovery.html:132
 msgid "18 words"
 msgstr "18 λέξεις"
 
@@ -48,7 +48,7 @@ msgstr ""
 "2. Να επιτρέπεται η πρόσβαση της Trezor συσκευής σας στον Dropbox φάκελό σας."
 
 #. Number of words in a recovery seed
-#: views/device/recovery.html:132
+#: views/device/recovery.html:137
 msgid "24 words"
 msgstr "24 λέξεις"
 
@@ -85,11 +85,6 @@ msgstr "Λογαριασμός"
 msgid "Account XPUBs"
 msgstr "XPUBs λογαριασμός"
 
-#. This warning is very rarely shown and practically isn't shown at all.
-#: views/account/nav.html:42
-msgid "Account balance information is inconsistent."
-msgstr "Οι πληροφορίες υπολοίπου του λογαριασμού είναι ασυνεπείς."
-
 #. This is a short label in the device Basic page
 #: views/device/index.basic.html:154
 msgctxt "basic-label"
@@ -100,11 +95,11 @@ msgstr "Δημόσια κλειδιά λογαριασμού (XPUB)"
 msgid "Action was interrupted"
 msgstr "Η ενέργεια διακόπηκε"
 
-#: views/nav.html:238 views/nav.html:246 views/nav.html:255
+#: views/nav.html:214 views/nav.html:222 views/nav.html:231
 msgid "Add account"
 msgstr "Προσθήκη λογαριασμού"
 
-#: views/account/transactions/txAddressLabel.html:21
+#: views/account/transactions/txAddressLabel.html:20
 msgid "Add comment"
 msgstr "Προσθήκη σχολίου"
 
@@ -117,20 +112,20 @@ msgid "Add your own label"
 msgstr "Προσθέστε τη δική σας ετικέτα"
 
 #. This is a label to a checkbox in the device recovery page
-#: views/device/load.html:54 views/device/recovery.html:157
+#: views/device/load.html:54 views/device/recovery.html:162
 msgctxt "recovery-label"
 msgid "Additional passphrase encryption"
 msgstr "Πρόσθετη κρυπτογράφηση με φράση πρόσβασης"
 
-#. This is a label to the sending form. (Address/amount/comment)
-#: views/account/send/txAddress.html:4
-msgctxt "send"
-msgid "Address"
-msgstr "Διεύθυνση"
-
 #. This is a label to the sign/verify form.
 #: views/account/sign/index.html:212 views/account/sign/index.html:71
 msgctxt "sign"
+msgid "Address"
+msgstr "Διεύθυνση"
+
+#. This is a label to the sending form. (Address/amount/comment)
+#: views/account/send/txAddress.html:4
+msgctxt "send"
 msgid "Address"
 msgstr "Διεύθυνση"
 
@@ -148,13 +143,13 @@ msgctxt "header"
 msgid "Advanced"
 msgstr "Προχωρημένες"
 
-#: views/modal/recovery.html:65
+#. This is a label to a checkbox in the device recovery page
+#: views/device/recovery.html:173 views/device/recovery.html:185
+msgctxt "recovery-label"
 msgid "Advanced recovery"
 msgstr ""
 
-#. This is a label to a checkbox in the device recovery page
-#: views/device/recovery.html:168 views/device/recovery.html:180
-msgctxt "recovery-label"
+#: views/modal/recovery.html:65
 msgid "Advanced recovery"
 msgstr ""
 
@@ -205,11 +200,7 @@ msgstr "Απαιτείται ποσό."
 msgid "Amount is too low"
 msgstr "Το ποσό είναι πολύ χαμηλό"
 
-#: views/nav.html:164
-msgid "Analysing"
-msgstr ""
-
-#: views/nav.html:267
+#: views/nav.html:243
 msgid "App Settings"
 msgstr ""
 
@@ -217,7 +208,7 @@ msgstr ""
 msgid "Application Settings"
 msgstr "Ρυθμίσεις εφαρμογής"
 
-#: views/account/receive/index.html:144
+#: views/account/receive/index.html:150
 msgid "BIP32 Path:"
 msgstr "BIP32 Διαδρομή:"
 
@@ -225,11 +216,13 @@ msgstr "BIP32 Διαδρομή:"
 msgid "Backend server is down."
 msgstr ""
 
+#. Label for Backspace button in Advanced Recovery
 #: views/modal/recovery.html:60
 msgid "Backspace"
 msgstr ""
 
-#: views/account/transactions/summary.html:22
+#: views/account/transactions/summary.html:25
+#: views/account/transactions/summary.html:38
 msgid "Balance"
 msgstr ""
 
@@ -261,17 +254,17 @@ msgid "Bootloader mode"
 msgstr "Bootloader κατάσταση"
 
 #: views/device/custom-firmware.html:35 views/device/load.html:65
-#: views/device/recovery.html:192 views/import.html:55
+#: views/device/recovery.html:197 views/import.html:55
 msgid "Cancel"
 msgstr "Ακύρωση"
 
 #. PIN strength
-#: views/modal/pin.html:92
+#: views/modal/pin.html:93
 msgid "Careful, It's too easy to guess."
 msgstr ""
 
-#: views/modal/firmware.html:180 views/modal/firmware.html:227
-#: views/modal/firmware.html:41
+#: views/modal/firmware.html:188 views/modal/firmware.html:280
+#: views/modal/firmware.html:42
 msgid "Caution!"
 msgstr "Προσοχή!"
 
@@ -289,7 +282,7 @@ msgctxt "button"
 msgid "Change PIN"
 msgstr "Αλλαγή PIN"
 
-#: views/account/transactions/txAddressLabel.html:13
+#: views/account/transactions/txAddressLabel.html:12
 msgid "Change comment"
 msgstr "Αλλαγή σχολίου"
 
@@ -299,13 +292,19 @@ msgctxt "button"
 msgid "Change label"
 msgstr "Αλλαγή ετικέτας"
 
-#: views/modal/firmware.html:242 views/modal/firmware.html:50
+#: views/modal/firmware.html:299 views/modal/firmware.html:53
 msgid "Changelog"
 msgstr "Changelog"
 
 #: views/modal/button.html:68
 msgid "Check address on TREZOR display"
 msgstr "Ελέγξτε τη διεύθυνση στην Trezor οθόνη"
+
+#: views/modal/pin.html:23
+msgid ""
+"Choose a strong PIN to protect your device from unauthorized access. The "
+"layout is displayed on your TREZOR."
+msgstr ""
 
 #. This is on a button in the sign/verify form.
 #: views/account/sign/index.html:134 views/account/sign/index.html:254
@@ -317,7 +316,7 @@ msgstr "Καθαρισμός"
 msgid "Click on XPUB to show its QR code."
 msgstr "Κάντε κλικ στο XPUB για να δείξει τον QR κώδικά του."
 
-#: views/account/transactions/txAddressLabel.html:47
+#: views/account/transactions/txAddressLabel.html:46
 msgid "Click to hide address"
 msgstr "Κάντε κλικ για να κρύψετε τη διεύθυνση"
 
@@ -325,7 +324,7 @@ msgstr "Κάντε κλικ για να κρύψετε τη διεύθυνση"
 msgid "Click to renew session"
 msgstr "Κάντε κλικ για να επανασυνδεθείτε"
 
-#: views/account/transactions/txAddressLabel.html:61
+#: views/account/transactions/txAddressLabel.html:60
 msgid "Click to show address"
 msgstr "Κάντε κλικ για να δείξετε τη διεύθυνση"
 
@@ -333,11 +332,11 @@ msgstr "Κάντε κλικ για να δείξετε τη διεύθυνση"
 #: views/modal/csv.html:44 views/modal/disconnect.html:14
 #: views/modal/disconnect.passphrase_disable.html:14
 #: views/modal/disconnect.passphrase_enable.html:14 views/modal/dropbox.html:56
-#: views/modal/ethwallet.html:22 views/modal/firmware.html:108
-#: views/modal/firmware.html:136 views/modal/firmware.html:165
-#: views/modal/firmware.html:212 views/modal/firmware.html:299
-#: views/modal/firmware.html:320 views/modal/firmware.html:383
-#: views/modal/qr.html:17 views/settings.html:89
+#: views/modal/ethwallet.html:22 views/modal/firmware.html:111
+#: views/modal/firmware.html:140 views/modal/firmware.html:172
+#: views/modal/firmware.html:224 views/modal/firmware.html:265
+#: views/modal/firmware.html:358 views/modal/firmware.html:382
+#: views/modal/firmware.html:446 views/modal/qr.html:17 views/settings.html:89
 msgid "Close"
 msgstr "Κλείσιμο"
 
@@ -354,7 +353,7 @@ msgstr ""
 msgid "Confirm action on your device."
 msgstr ""
 
-#: views/device/recovery.html:61
+#: views/device/recovery.html:66
 msgid "Confirm choice by pressing enter."
 msgstr "Επιβεβαιώστε την επιλογή πατώντας enter."
 
@@ -406,7 +405,7 @@ msgstr "Συνδέστε τη συσκευή για να ορίσετε την �
 msgid "Connect to Dropbox"
 msgstr "Συνδεθείτε στο Dropbox"
 
-#: views/nav.html:281
+#: views/nav.html:257
 msgid ""
 "Connect to Dropbox to enable:<br>- renaming accounts<br>- commenting "
 "transactions<br>- labeling addresses and more..."
@@ -423,7 +422,7 @@ msgstr "Συνδέστε το TREZOR σας για να εμφανίσετε α�
 msgid "Connected device"
 msgstr ""
 
-#: views/nav.html:278
+#: views/nav.html:254
 msgid "Connecting ..."
 msgstr ""
 
@@ -431,8 +430,8 @@ msgstr ""
 msgid "Contact"
 msgstr ""
 
-#: views/device/custom-firmware.html:32 views/device/index.setup.html:31
-#: views/device/load.html:62 views/device/recovery.html:188
+#: views/device/custom-firmware.html:32 views/device/index.setup.html:28
+#: views/device/load.html:62 views/device/recovery.html:193
 #: views/import.html:53
 msgid "Continue"
 msgstr "Συνέχεια"
@@ -456,7 +455,7 @@ msgstr ""
 msgid "Details"
 msgstr ""
 
-#: views/modal/firmware.html:73
+#: views/modal/firmware.html:76
 msgid "Device"
 msgstr "Συσκευή"
 
@@ -473,23 +472,14 @@ msgstr ""
 msgid "Device firmware is outdated."
 msgstr ""
 
-#: views/device/recovery.html:90
+#: views/device/recovery.html:95
 msgid "Device has to be wiped before recovery."
 msgstr "Η συσκευή πρέπει να σβηστεί πριν από την ανάκτηση."
 
-#: views/modal/firmware.html:206 views/modal/firmware.html:293
+#: views/modal/firmware.html:217 views/modal/firmware.html:258
+#: views/modal/firmware.html:351
 msgid "Device is updated in other window"
 msgstr "Η συσκευή ενημερώνεται σε άλλο παράθυρο"
-
-#: views/device/index.setup.html:20 views/import.html:22
-msgid "Device label"
-msgstr "Ετικέτα συσκευής"
-
-#. This is a short label in the device recovery page
-#: views/device/recovery.html:98
-msgctxt "recovery-label"
-msgid "Device label"
-msgstr "Ετικέτα συσκευής"
 
 #. This is a short label in the normally hidden, advanced Load page
 #: views/device/load.html:22
@@ -497,23 +487,33 @@ msgctxt "load-label"
 msgid "Device label"
 msgstr "Ετικέτα συσκευής"
 
+#. This is a short label in the device recovery page
+#: views/device/recovery.html:103
+msgctxt "recovery-label"
+msgid "Device label"
+msgstr "Ετικέτα συσκευής"
+
+#: views/device/index.setup.html:17 views/import.html:22
+msgid "Device label"
+msgstr "Ετικέτα συσκευής"
+
 #: views/device/advanced.html:190
 msgid "Device needs to be connected in order to wipe it."
 msgstr "Η συσκευή πρέπει να συνδεθεί για να την κάνετε wipe."
 
-#: views/nav.html:298
+#: views/nav.html:274
 msgid "Disable Labeling"
 msgstr ""
-
-#. This is written on a button, clicking it will disable PIN
-#: views/device/advanced.html:153
-msgctxt "button"
-msgid "Disable PIN"
-msgstr "Απενεργοποίηση PIN"
 
 #. This is a short label in the device Advanced page
 #: views/device/advanced.html:135
 msgctxt "advanced-label"
+msgid "Disable PIN"
+msgstr "Απενεργοποίηση PIN"
+
+#. This is written on a button, clicking it will disable PIN
+#: views/device/advanced.html:153
+msgctxt "button"
 msgid "Disable PIN"
 msgstr "Απενεργοποίηση PIN"
 
@@ -555,7 +555,7 @@ msgstr ""
 msgid "Do you use Google Chrome on this computer?"
 msgstr "Χρησιμοποιείτε το Google Chrome σε αυτόν τον υπολογιστή;"
 
-#: views/modal/firmware.html:222
+#: views/modal/firmware.html:275
 msgid "Do you want to update the device firmware?"
 msgstr "Θέλετε να ενημερώσετε το υλικολογισμικό της συσκευής;"
 
@@ -574,7 +574,7 @@ msgid "Don't forget to double check the address ..."
 msgstr ""
 
 #. Whole sentence: 'Don't have a TREZOR? Get one.'
-#: views/install/main.html:19 views/jumbotrons/start.html:11
+#: views/install/main.html:19 views/jumbotrons/start.html:8
 msgid "Don't have a TREZOR?"
 msgstr ""
 
@@ -582,7 +582,7 @@ msgstr ""
 msgid "Don't worry, your funds are safe."
 msgstr ""
 
-#: views/install/bridge.force.html:19 views/install/main.html:40
+#: views/install/bridge.force.html:21 views/install/main.html:40
 #: views/install/main.html:64 views/jumbotrons/udev-note.html:35
 msgid "Download"
 msgstr "Λήψη"
@@ -592,11 +592,11 @@ msgstr "Λήψη"
 msgid "Download TREZOR Manager App on Google Play."
 msgstr "Κατεβάστε το TREZOR Manager App στο Google Play."
 
-#: views/modal/firmware.html:328
+#: views/modal/firmware.html:391
 msgid "Downloading firmware..."
 msgstr "Λήψη υλικολογισμικού..."
 
-#: views/nav.html:293
+#: views/nav.html:269
 msgid "Dropbox connected. Click to disconnect it."
 msgstr "Το Dropbox είναι συνδεδεμένο. Κάντε κλικ για να το αποσυνδέσετε."
 
@@ -618,7 +618,7 @@ msgstr ""
 msgid "Edit label"
 msgstr ""
 
-#: views/nav.html:291
+#: views/nav.html:267
 msgid "Enable Labeling"
 msgstr ""
 
@@ -629,7 +629,7 @@ msgid "Enable PIN"
 msgstr "Ενεργοποίηση PIN"
 
 #. This is a label to a checkbox in the device recovery page
-#: views/device/recovery.html:143
+#: views/device/recovery.html:148
 msgctxt "recovery-label"
 msgid "Enable PIN protection"
 msgstr "Ενεργοποίηση προστασίας PIN"
@@ -660,31 +660,31 @@ msgstr "Ενεργοποιημένο"
 msgid "Enter"
 msgstr ""
 
-#. This is on a pin button
-#: views/modal/pin.html:101
-msgctxt "pin-button"
-msgid "Enter"
-msgstr "Εισάγετε"
-
 #. This is on a passphrase button
 #: views/modal/passphrase.html:60
 msgctxt "passphrase-button"
 msgid "Enter"
 msgstr "Εισάγετε"
 
-#. Enter new [device_name] PIN
-#: views/modal/pin.html:22
-msgid "Enter new"
-msgstr ""
+#. This is on a pin button
+#: views/modal/pin.html:102
+msgctxt "pin-button"
+msgid "Enter"
+msgstr "Εισάγετε"
 
 #. Enter passphrase for  [device_name]?
 #: views/modal/passphrase.html:9
 msgid "Enter passphrase for"
 msgstr ""
 
-#: views/device/recovery.html:51
+#: views/device/recovery.html:55
 msgid "Enter seed word"
 msgstr "Εισάγετε λέξη σπόρων"
+
+#. Enter you new [device_name] PIN
+#: views/modal/pin.html:22
+msgid "Enter your new"
+msgstr ""
 
 #: views/debug.html:73 views/debug.html:80
 msgid "Error details:"
@@ -699,7 +699,7 @@ msgstr ""
 msgid "Example:"
 msgstr "Παράδειγμα:"
 
-#: views/account/transactions/index.html:23
+#: views/account/transactions/index.html:24
 msgid "Exchange:"
 msgstr ""
 
@@ -707,7 +707,7 @@ msgstr ""
 msgid "Expected confirmation time"
 msgstr "Αναμενόμενος χρόνος επιβεβαίωσης"
 
-#: views/account/transactions/summary.html:45
+#: views/account/transactions/summary.html:62
 msgid "Expense"
 msgstr ""
 
@@ -739,7 +739,7 @@ msgstr "Δεν ήταν δυνατή η υπογραφή μηνύματος"
 msgid "Failed to verify message"
 msgstr "Απέτυχε η επαλήθευση μηνύματος"
 
-#: views/account/send/fees.html:133
+#: views/account/send/fees.html:87
 msgid "Fee"
 msgstr "Αμοιβή"
 
@@ -793,10 +793,18 @@ msgid ""
 msgstr ""
 
 #. Clicking here will lead the user to our manual.
-#: views/modal/firmware.html:124 views/modal/firmware.html:153
-#: views/modal/firmware.html:184
+#: views/modal/firmware.html:128 views/modal/firmware.html:160
+#: views/modal/firmware.html:194
 msgid "For more information, visit the user manual."
 msgstr "Για περισσότερες πληροφορίες, επισκεφθείτε το εγχειρίδιο."
+
+#: views/modal/firmware.html:241
+msgid ""
+"For security reasons, TREZOR is shipped without firmware installed. This is "
+"to ensure that your\n"
+"                        firmware will be up-to-date at the time of "
+"initialization."
+msgstr ""
 
 #. Button in remember/forget dialog
 #: views/modal/forget.disconnected.html:14 views/modal/forget.requested.html:14
@@ -828,7 +836,7 @@ msgstr ""
 "bitcoins σας είναι ακόμη ασφαλή και μπορείτε να έχετε πάλι πρόσβαση σ' αυτά "
 "συνδέοντας το TREZOR σας ξανά."
 
-#: views/account/receive/index.html:79
+#: views/account/receive/index.html:78
 msgid "Fresh address"
 msgstr "Νέα διεύθυνση"
 
@@ -846,7 +854,7 @@ msgid "Gallery selection"
 msgstr ""
 
 #. Whole sentence: 'Don't have a TREZOR? Get one.'
-#: views/install/main.html:20 views/jumbotrons/start.html:12
+#: views/install/main.html:20 views/jumbotrons/start.html:9
 msgid "Get one"
 msgstr ""
 
@@ -860,7 +868,7 @@ msgstr ""
 msgid "Hide previous"
 msgstr "Απόκρυψη προηγούμενου"
 
-#: views/account/transactions/index.html:33
+#: views/account/transactions/index.html:35
 msgid "Hide this account"
 msgstr "Απόκρυψη αυτού του λογαριασμού"
 
@@ -888,11 +896,11 @@ msgstr ""
 msgid "Homescreen was successfully changed."
 msgstr "Η αρχική οθόνη άλλαξε επιτυχώς."
 
-#: views/modal/pin.html:106
-msgid "How does the PIN work?"
+#: views/account/transactions/index.html:21
+msgid "How about buying some bitcoins?"
 msgstr ""
 
-#: views/modal/firmware.html:337
+#: views/modal/firmware.html:400
 msgid "If asked, please confirm the update on your device."
 msgstr "Εάν σας ζητηθεί, επιβεβαιώστε την ενημερωμένη έκδοση στη συσκευή σας."
 
@@ -943,23 +951,23 @@ msgstr ""
 "Εάν ξεχάσετε τη φράση πρόσβασής σας, το πορτοφόλι σας θα χαθεί για πάντα. "
 "Δεν υπάρχει τρόπος να ανακτήσετε τα κεφάλαιά σας."
 
-#: views/modal/firmware.html:231
+#: views/modal/firmware.html:285
 msgid "If you have TREZOR set up already,"
 msgstr ""
 
-#: views/modal/firmware.html:228
+#: views/modal/firmware.html:281
 msgid ""
 "If your TREZOR has not been set up yet (fresh out of the box), you do not "
-"need to have a Recovery seed."
+"need to\n"
+"                            have a Recovery seed."
 msgstr ""
 
-#: views/modal/firmware.html:181
+#: views/modal/firmware.html:189
 msgid ""
 "If your TREZOR is already initialized, always have your Recovery seed with "
-"you before updating the firmware!"
+"you\n"
+"                    before updating the firmware!"
 msgstr ""
-"Αν το TREZOR σας έχει ήδη αρχικοποιηθεί, να έχετε πάντα το Recovery seed "
-"μαζί σας πριν από την ενημέρωση του firmware!"
 
 #: views/device/homescreen.html:80
 msgid ""
@@ -988,8 +996,14 @@ msgid ""
 "TREZOR."
 msgstr ""
 
-#: views/modal/firmware.html:182 views/modal/firmware.html:234
-#: views/modal/firmware.html:43
+#: views/modal/firmware.html:191 views/modal/firmware.html:45
+msgid ""
+"In very rare cases, a firmware update might result in the need to recover "
+"the wallet from\n"
+"                    Recovery seed."
+msgstr ""
+
+#: views/modal/firmware.html:291
 msgid ""
 "In very rare cases, a firmware update might result in the need to recover "
 "the wallet from Recovery seed."
@@ -997,7 +1011,7 @@ msgstr ""
 "Σε πολύ σπάνιες περιπτώσεις, μια ενημερωμένη έκδοση firmware μπορεί να "
 "οδηγήσει στην ανάγκη να ανακτήσετε το πορτοφόλι από το Recovery seed."
 
-#: views/account/transactions/summary.html:38
+#: views/account/transactions/summary.html:55
 msgid "Income"
 msgstr ""
 
@@ -1030,13 +1044,21 @@ msgstr ""
 msgid "Install the native app!"
 msgstr "Εγκαταστήστε το εγγενές app!"
 
+#: views/modal/firmware.html:247
+msgid "Interested in best security practices?"
+msgstr ""
+
 #: views/otherStrings.html:78
 msgid "Invalid signature"
 msgstr "Μη έγκυρη υπογραφή"
 
 #. PIN strength
-#: views/modal/pin.html:93
+#: views/modal/pin.html:94
 msgid "It's fine."
+msgstr ""
+
+#: views/modal/firmware.html:238
+msgid "It's time to install firmware."
 msgstr ""
 
 #. This is a short label in the device Basic page
@@ -1065,12 +1087,12 @@ msgstr ""
 msgid "Last 2 Years"
 msgstr ""
 
-#: views/modal/firmware.html:265 views/modal/firmware.html:81
+#: views/modal/firmware.html:322 views/modal/firmware.html:84
 msgid "Latest"
 msgstr "Πιο πρόσφατο"
 
-#: views/device/index.basic.html:197 views/device/index.setup.html:14
-#: views/modal/pin.html:106
+#: views/device/index.basic.html:197 views/device/index.setup.html:11
+#: views/modal/pin.html:29 views/modal/pinguide.html:13
 msgid "Learn more"
 msgstr "Μάθε περισσότερα"
 
@@ -1078,7 +1100,7 @@ msgstr "Μάθε περισσότερα"
 msgid "Learn more about"
 msgstr ""
 
-#: views/device/recovery.html:198
+#: views/device/recovery.html:203
 msgid "Learn more about Recovery"
 msgstr ""
 
@@ -1096,7 +1118,7 @@ msgstr ""
 msgid "Learn more in user manual"
 msgstr ""
 
-#: views/jumbotrons/loading.html:4 views/nav.html:153 views/nav.html:185
+#: views/jumbotrons/loading.html:4 views/nav.html:153 views/nav.html:170
 msgid "Loading"
 msgstr "Φόρτωση"
 
@@ -1105,7 +1127,7 @@ msgstr "Φόρτωση"
 msgid "Loading ..."
 msgstr ""
 
-#: views/nav.html:227
+#: views/nav.html:203
 msgid "Loading accounts..."
 msgstr "Φόρτωση λογαριασμών..."
 
@@ -1117,7 +1139,7 @@ msgstr "Απέτυχε η φόρτωση."
 msgid "Loading of accounts failed."
 msgstr "Απέτυχε η φόρτωση των λογαριασμών."
 
-#: views/account/transactions/index.html:41
+#: views/account/transactions/index.html:43
 msgid "Loading transactions"
 msgstr "Φόρτωση συναλλαγών"
 
@@ -1125,7 +1147,7 @@ msgstr "Φόρτωση συναλλαγών"
 msgid "Loading..."
 msgstr "Φόρτωση..."
 
-#: views/account/transactions/index.html:22
+#: views/account/transactions/index.html:23
 msgid "Local traders:"
 msgstr ""
 
@@ -1136,10 +1158,6 @@ msgstr "Κλειδώστε αυτή τη συσκευή"
 #: views/debug.log.html:10
 msgid "Log"
 msgstr "Αρχείο καταγραφής"
-
-#: views/modal/pin.html:15 views/modal/pin.html:23
-msgid "Look at the device for number positions."
-msgstr "Κοιτάξτε στη συσκευή για αριθμό θέσεων."
 
 #. Transaction fee size menu
 #: views/account/send/fees.html:32
@@ -1153,7 +1171,7 @@ msgid ""
 "attacks, double-check the address with the recipient."
 msgstr ""
 
-#: views/modal/firmware.html:347
+#: views/modal/firmware.html:410
 msgid "Make sure the same fingerprint is displayed on the device screen."
 msgstr ""
 "Βεβαιωθείτε ότι εμφανίζεται το ίδιο δακτυλικο αποτύπωμα στην οθόνη της "
@@ -1173,6 +1191,10 @@ msgstr ""
 #: views/account/sign/index.html:189 views/account/sign/index.html:48
 msgid "Maximal message length is 255 letters long."
 msgstr "Το μέγιστο μήκος μηνύματος είναι 255 χαρακτήρες."
+
+#: views/account/transactions/summary.html:32
+msgid "Maximal spendable"
+msgstr ""
 
 #: views/account/sign/index.html:170 views/account/sign/index.html:32
 msgid "Message"
@@ -1203,13 +1225,13 @@ msgstr ""
 msgid "Metadata setup"
 msgstr "Εγκατάσταση metadata"
 
-#: views/account/receive/index.html:105
+#: views/account/receive/index.html:104
 msgid "More addresses"
 msgstr ""
 
 #. Literally 'my TREZOR (device)'. Used as a default device name. It HAS to be ASCII only and it HAS to be less than 16 letters long
-#: views/device/index.setup.html:21 views/device/load.html:26
-#: views/device/recovery.html:102 views/import.html:23
+#: views/device/index.setup.html:18 views/device/load.html:26
+#: views/device/recovery.html:107 views/import.html:23
 #: views/otherStrings.html:14
 msgctxt "default-name"
 msgid "My TREZOR"
@@ -1220,12 +1242,13 @@ msgctxt "xpub-text"
 msgid "Mycelium"
 msgstr "Mycelium"
 
-#: views/account/transactions/index.html:24
+#: views/account/transactions/index.html:25
 msgid "Nearest ATM:"
 msgstr ""
 
-#: views/modal/firmware.html:105 views/modal/firmware.html:133
-#: views/modal/firmware.html:199 views/modal/firmware.html:286
+#: views/modal/firmware.html:108 views/modal/firmware.html:137
+#: views/modal/firmware.html:209 views/modal/firmware.html:250
+#: views/modal/firmware.html:343 views/modal/pinguide.html:17
 msgid "Need help?"
 msgstr ""
 
@@ -1261,7 +1284,7 @@ msgstr "Νέο TREZOR firmware είναι διαθέσιμο."
 msgid "New device setup"
 msgstr "Εγκατάσταση νέας συσκευής"
 
-#: views/account/transactions/summary.html:71
+#: views/account/transactions/summary.html:88
 msgid "No Transactions Yet."
 msgstr ""
 
@@ -1293,21 +1316,23 @@ msgstr "Κανονική λειτουργία"
 msgid "Not a valid address"
 msgstr "Μη έγκυρη διεύθυνση"
 
-#: views/account/send/fees.html:143
+#: views/account/send/fees.html:97
 msgid "Not enough funds"
 msgstr "Δεν υπάρχουν αρκετά κεφάλαια"
+
+#: views/modal/pin.html:29
+msgid "Not sure how PIN works?"
+msgstr ""
 
 #: views/modal/passphrase.html:36
 msgid "Note that passphrase is case-sensitive."
 msgstr "Σημειώστε ότι η φράση πρόσβασης έχει διάκριση πεζών-κεφαλαίων."
 
 #: views/modal/pin.html:27
-msgid "Note that the positions of numbers shown on the device have changed!"
+msgid "Note that the number layout displayed on TREZOR has changed!"
 msgstr ""
-"Σημειώστε ότι οι θέσεις των αριθμών που εμφανίζονται στη συσκευή έχουν "
-"αλλάξει !"
 
-#: views/modal/firmware.html:121
+#: views/modal/firmware.html:125
 msgid ""
 "Now plug your device in with <strong>both device buttons pressed</strong>."
 msgstr ""
@@ -1315,14 +1340,22 @@ msgstr ""
 "συσκευής πατημένα</strong>."
 
 #. This is a short label in the device recovery page
-#: views/device/recovery.html:108
+#: views/device/recovery.html:113
 msgctxt "recovery-label"
 msgid "Number of words in your recovery seed"
 msgstr "Αριθμός λέξεων στο recovery seed σας"
 
 #: views/device/advanced.html:102 views/device/advanced.html:52
+#: views/modal/pinguide.html:19
 msgid "OK, I understand"
 msgstr "Εντάξει, καταλαβαίνω"
+
+#: views/modal/setup.html:10
+msgid ""
+"On your TREZOR, you will now see a unique combination of 24 words, which "
+"will allow you to recover your accounts in case you lose your device. The "
+"order of the words is very important."
+msgstr ""
 
 #. Outputs of a transaction
 #: views/account/send/txPrepared.html:33
@@ -1387,13 +1420,15 @@ msgid "Paste the CSV here:"
 msgstr "Επικολλήστε το αρχείο CSV εδώ:"
 
 #. PIN strength
-#: views/modal/pin.html:95
+#: views/modal/pin.html:96
 msgid "Perfect, impossible to guess!"
 msgstr ""
 
-#: views/modal/setup.html:27 views/modal/setup.html:34
-msgid "Please check carefully that you wrote them down correctly."
-msgstr "Παρακαλούμε ελέγξτε προσεκτικά ότι τα καταγράψατε σωστά."
+#: views/modal/setup.html:26
+msgid ""
+"Please check carefully that\n"
+"            you wrote them down correctly."
+msgstr ""
 
 #: views/modal/setup.wordCheck.html:12
 msgid "Please check the 10th word of your recovery seed."
@@ -1491,7 +1526,7 @@ msgstr "Παρακαλούμε ελέγξτε την 8η λέξη του recover
 msgid "Please check the 9th word of your recovery seed."
 msgstr "Παρακαλούμε ελέγξτε την 9η λέξη του recovery seed σας."
 
-#: views/modal/firmware.html:346
+#: views/modal/firmware.html:409
 msgid "Please confirm the firmware fingerprint."
 msgstr "Παρακαλούμε επιβεβαιώστε το δακτυλικό αποτύπωμα του firmware."
 
@@ -1542,11 +1577,15 @@ msgstr ""
 "Παρακαλούμε εγκαταστήστε την TREZOR Bridge ώστε να επιτρέψει στο TREZOR "
 "Wallet να επικοινωνήσει με τη συσκευή σας."
 
-#: views/modal/firmware.html:315
+#: views/modal/firmware.html:377
 msgid ""
 "Please reconnect it <strong>while pressing both buttons simultaneously.</"
 "strong>"
 msgstr "Συνδέστε το <strong>ενώ πατάτε ταυτόχρονα και τα δύο κουμπιά.</strong>"
+
+#: views/modal/firmware.html:430
+msgid "Please reconnect the device now."
+msgstr ""
 
 #: views/alertbars/offline.html:7
 msgid "Please reconnect to the Internet and reload the page."
@@ -1561,19 +1600,14 @@ msgstr ""
 msgid "Please reload the page."
 msgstr ""
 
-#: views/device/index.setup.html:10
-msgid "Please take your time to read the instructions."
-msgstr ""
-
-#: views/modal/firmware.html:150
+#: views/modal/firmware.html:155
 msgid ""
 "Please try again. You need to make sure<strong>both device buttons are "
-"pressed, as you plug in the device.</strong>"
+"pressed, as you plug in\n"
+"                the device.</strong>"
 msgstr ""
-"Παρακαλούμε δοκιμάστε ξανά. Θα πρέπει να βεβαιωθείτε ότι <strong>και τα δύο "
-"κουμπιά της συσκευής είναι πατημένα, καθώς συνδέετε τη συσκευή.</strong>"
 
-#: views/modal/firmware.html:367 views/modal/firmware.html:377
+#: views/modal/firmware.html:440
 msgid "Please unplug the device now."
 msgstr "Παρακαλούμε αποσυνδέστε τη συσκευή τώρα."
 
@@ -1595,111 +1629,21 @@ msgstr "Παρακαλούμε περιμένετε."
 msgid "Please wait..."
 msgstr "Παρακαλούμε περίμενετε..."
 
-#: views/modal/setup.html:11 views/modal/setup.html:19
+#: views/modal/setup.html:11
 msgid "Please write down all these words carefully."
 msgstr "Παρακαλούμε γράψτε κάπου όλες αυτές τις λέξεις προσεκτικά."
-
-#: views/modal/setup.wordWrite.html:12
-msgid "Please write down the 10th word of your recovery seed."
-msgstr "Παρακαλούμε γράψτε τη 10η λέξη του recovery seed σας."
-
-#: views/modal/setup.wordWrite.html:13
-msgid "Please write down the 11th word of your recovery seed."
-msgstr "Παρακαλούμε γράψτε τν 11η λέξη του recovery seed σας."
-
-#: views/modal/setup.wordWrite.html:14
-msgid "Please write down the 12th word of your recovery seed."
-msgstr "Παρακαλούμε γράψτε τη 12η λέξη του recovery seed σας."
-
-#: views/modal/setup.wordWrite.html:15
-msgid "Please write down the 13th word of your recovery seed."
-msgstr "Παρακαλούμε γράψτε τη 13η λέξη του recovery seed σας."
-
-#: views/modal/setup.wordWrite.html:16
-msgid "Please write down the 14th word of your recovery seed."
-msgstr "Παρακαλούμε γράψτε τη 14η λέξη του recovery seed σας."
-
-#: views/modal/setup.wordWrite.html:17
-msgid "Please write down the 15th word of your recovery seed."
-msgstr "Παρακαλούμε γράψτε τη 15η λέξη του recovery seed σας."
-
-#: views/modal/setup.wordWrite.html:18
-msgid "Please write down the 16th word of your recovery seed."
-msgstr "Παρακαλούμε γράψτε τη 16η λέξη του recovery seed σας."
-
-#: views/modal/setup.wordWrite.html:19
-msgid "Please write down the 17th word of your recovery seed."
-msgstr "Παρακαλούμε γράψτε τη 17η λέξη του recovery seed σας."
-
-#: views/modal/setup.wordWrite.html:20
-msgid "Please write down the 18th word of your recovery seed."
-msgstr "Παρακαλούμε γράψτε τη 18η λέξη του recovery seed σας."
-
-#: views/modal/setup.wordWrite.html:21
-msgid "Please write down the 19th word of your recovery seed."
-msgstr "Παρακαλούμε γράψτε τη 19η λέξη του recovery seed σας."
-
-#: views/modal/setup.wordWrite.html:3
-msgid "Please write down the 1st word of your recovery seed."
-msgstr "Παρακαλούμε γράψτε την 1η λέξη του recovery seed σας."
-
-#: views/modal/setup.wordWrite.html:22
-msgid "Please write down the 20th word of your recovery seed."
-msgstr "Παρακαλούμε γράψτε την 20η λέξη του recovery seed σας."
-
-#: views/modal/setup.wordWrite.html:23
-msgid "Please write down the 21st word of your recovery seed."
-msgstr "Παρακαλούμε γράψτε την 21η λέξη του recovery seed σας."
-
-#: views/modal/setup.wordWrite.html:24
-msgid "Please write down the 22nd word of your recovery seed."
-msgstr "Παρακαλούμε γράψτε την 22η λέξη του recovery seed σας."
-
-#: views/modal/setup.wordWrite.html:25
-msgid "Please write down the 23rd word of your recovery seed."
-msgstr "Παρακαλούμε γράψτε την 23η λέξη του recovery seed σας."
-
-#: views/modal/setup.wordWrite.html:26
-msgid "Please write down the 24th word of your recovery seed."
-msgstr "Παρακαλούμε γράψτε την 24η λέξη του recovery seed σας."
-
-#: views/modal/setup.wordWrite.html:4
-msgid "Please write down the 2nd word of your recovery seed."
-msgstr "Παρακαλούμε γράψτε τη 2η λέξη του recovery seed σας."
-
-#: views/modal/setup.wordWrite.html:5
-msgid "Please write down the 3rd word of your recovery seed."
-msgstr "Παρακαλούμε γράψτε την 3η λέξη του recovery seed σας."
-
-#: views/modal/setup.wordWrite.html:6
-msgid "Please write down the 4th word of your recovery seed."
-msgstr "Παρακαλούμε γράψτε την 4η λέξη του recovery seed σας."
-
-#: views/modal/setup.wordWrite.html:7
-msgid "Please write down the 5th word of your recovery seed."
-msgstr "Παρακαλούμε γράψτε την 5η λέξη του recovery seed σας."
-
-#: views/modal/setup.wordWrite.html:8
-msgid "Please write down the 6th word of your recovery seed."
-msgstr "Παρακαλούμε γράψτε την 6η λέξη του recovery seed σας."
-
-#: views/modal/setup.wordWrite.html:9
-msgid "Please write down the 7th word of your recovery seed."
-msgstr "Παρακαλούμε γράψτε την 7η λέξη του recovery seed σας."
-
-#: views/modal/setup.wordWrite.html:10
-msgid "Please write down the 8th word of your recovery seed."
-msgstr "Παρακαλούμε γράψτε την 8η λέξη του recovery seed σας."
-
-#: views/modal/setup.wordWrite.html:11
-msgid "Please write down the 9th word of your recovery seed."
-msgstr "Παρακαλούμε γράψτε την 9η λέξη του recovery seed σας."
 
 #: views/modal/pin.html:19
 msgid "Please, re-enter correct PIN."
 msgstr ""
 
-#: views/account/receive/index.html:68
+#: views/modal/pinguide.html:8
+msgid ""
+"Please, watch the following video, which will explain how PIN works in "
+"detail."
+msgstr ""
+
+#: views/account/receive/index.html:67
 msgid "Previous addresses"
 msgstr "Προηγούμενες διευθύνσεις"
 
@@ -1707,7 +1651,7 @@ msgstr "Προηγούμενες διευθύνσεις"
 msgid "Private bank in your hands."
 msgstr ""
 
-#: views/device/recovery.html:46
+#: views/device/recovery.html:49
 msgid "Processing..."
 msgstr "Επεξεργασία..."
 
@@ -1715,7 +1659,7 @@ msgstr "Επεξεργασία..."
 msgid "QR scanning failed."
 msgstr "Η QR σάρωση απέτυχε."
 
-#: views/account/transactions/summary.html:29
+#: views/account/transactions/summary.html:46
 msgid "Rate"
 msgstr ""
 
@@ -1751,7 +1695,7 @@ msgstr "Λάβετε"
 msgid "Receive payment"
 msgstr ""
 
-#: views/device/recovery.html:71
+#: views/device/recovery.html:76
 msgid "Recovered seed words:"
 msgstr "Ανακτημένες seed λέξεις:"
 
@@ -1767,7 +1711,7 @@ msgstr "Recovery seed ή ιδιωτικό κλειδί XPRV"
 msgid "Recovery seed setup"
 msgstr "Εγκατάσταση recovery seed"
 
-#: views/modal/firmware.html:244 views/modal/firmware.html:52
+#: views/modal/firmware.html:301 views/modal/firmware.html:55
 msgid "Release notes"
 msgstr "Σημειώσεις έκδοσης"
 
@@ -1793,17 +1737,13 @@ msgstr "Κατάργηση παραλήπτη"
 msgid "Rename account"
 msgstr "Μετονομασία λογαριασμού"
 
-#: views/nav.html:215
+#: views/nav.html:191
 msgid "Rename this account"
 msgstr "Μετονομάστε αυτό το λογαριασμό"
 
 #: views/settings.html:85
 msgid "Save &amp; Reload"
 msgstr "Αποθήκευση &amp; Επαναφόρτωση"
-
-#: views/nav.html:171
-msgid "Saving"
-msgstr ""
 
 #: views/account/send/txAddress.html:35
 msgid "Scan QR code"
@@ -1862,7 +1802,7 @@ msgstr "Ορίστε ως αρχική οθόνη"
 msgid "Set maximum possible amount"
 msgstr "Ορίστε το μέγιστο δυνατό ποσό"
 
-#: views/device/index.setup.html:13
+#: views/device/index.setup.html:10
 msgid ""
 "Setting up your TREZOR will take only a few minutes.\n"
 "                    When you're done, you can start using your TREZOR."
@@ -1876,7 +1816,7 @@ msgstr "Το πρόγραμμα εγκατάστασης απέτυχε."
 msgid "Show XPUBs"
 msgstr "Εμφάνιση XPUBs"
 
-#: views/modal/firmware.html:37
+#: views/modal/firmware.html:38
 msgid "Show changes"
 msgstr "Εμφάνιση αλλαγών"
 
@@ -1956,17 +1896,21 @@ msgstr "Μέγεθος:"
 msgid "Skip mnemonic checksum"
 msgstr "Παράλειψη ελέγχου μνημονικού αθροίσματος"
 
-#: views/account/send/fees.html:140
+#: views/account/send/fees.html:94
 msgid "Some fields are incorrect."
 msgstr "Ορισμένα πεδία είναι εσφαλμένα."
 
 #. This will be shown if user does a mistake in the, slightly complicated, firmware upgrade process.
-#: views/modal/firmware.html:151
+#: views/modal/firmware.html:157
 msgid "Sorry that we make it so hard!"
 msgstr "Συγγνώμη που το κάνουμε τόσο δύσκολο!"
 
+#: views/modal/pinguide.html:13
+msgid "Still confused how PIN works?"
+msgstr ""
+
 #. PIN strength
-#: views/modal/pin.html:94
+#: views/modal/pin.html:95
 msgid "Strong enough!"
 msgstr ""
 
@@ -1976,7 +1920,7 @@ msgctxt "flash"
 msgid "Success"
 msgstr "Επιτυχής"
 
-#: views/modal/firmware.html:162
+#: views/modal/firmware.html:169
 msgid "Support needed?"
 msgstr "Χρειάζεστε υποστήριξη;"
 
@@ -1984,7 +1928,7 @@ msgstr "Χρειάζεστε υποστήριξη;"
 msgid "TREZOR"
 msgstr ""
 
-#: views/install/bridge.force.html:8
+#: views/install/bridge.force.html:10
 msgid "TREZOR Bridge update"
 msgstr "Ενημέρωση TREZOR Bridge"
 
@@ -2039,6 +1983,14 @@ msgstr ""
 msgid "Terms"
 msgstr ""
 
+#: views/modal/firmware.html:244
+msgid ""
+"The authenticity of the installed firmware is checked during start up.\n"
+"                        If the firmware was not provided by SatoshiLabs, the "
+"device will display a warning when you\n"
+"                        start it."
+msgstr ""
+
 #: views/settings.html:13
 msgid "The bitcore server doesn't seem to reply. Please select another server."
 msgstr ""
@@ -2050,6 +2002,10 @@ msgid ""
 msgstr ""
 "Το τελικό μέγεθος μπορεί να διαφέρει σε λίγα bytes, δεδομένου ότι η "
 "συναλλαγή έχει δημιουργηθεί στο TREZOR."
+
+#: views/modal/pin.html:15
+msgid "The layout is displayed on your TREZOR."
+msgstr ""
 
 #. Whole text: Scan it into an application that supports XPUBs such as Mycelium or Sentinel for Android. *Then, you can watch your transactions and receive payments everywhere without carrying your TREZOR.*
 #: views/device/index.basic.html:225 views/device/index.basic.html:285
@@ -2098,14 +2054,14 @@ msgctxt "address-suggest"
 msgid "To"
 msgstr "Στο"
 
-#: views/account/receive/index.html:113
+#: views/account/receive/index.html:119
 msgid ""
 "To access subsequent addresses, please use some of the listed addresses in "
 "a\n"
 "                                    transaction."
 msgstr ""
 
-#: views/account/receive/index.html:95
+#: views/account/receive/index.html:94
 msgid ""
 "To access subsequent addresses, please use some of the listed addresses in a "
 "transaction."
@@ -2113,7 +2069,14 @@ msgstr ""
 "Για να αποκτήσετε πρόσβαση στις επόμενες διευθύνσεις, παρακαλούμε "
 "χρησιμοποιήστε κάποια από τις διευθύνσεις που παρατίθενται σε μια συναλλαγή."
 
-#: views/nav.html:234
+#: views/account/receive/index.html:112
+msgid ""
+"To access subsequent addresses, please wait for confirmation on transaction "
+"on some of the\n"
+"                                    previous addresses."
+msgstr ""
+
+#: views/nav.html:210
 msgid ""
 "To add accounts, make sure your device is connected and the last account is "
 "not empty."
@@ -2121,7 +2084,7 @@ msgstr ""
 "Για να προσθέσετε λογαριασμούς, βεβαιωθείτε ότι η συσκευή είναι συνδεδεμένη "
 "και ο τελευταίος λογαριασμός δεν είναι κενός."
 
-#: views/modal/firmware.html:36
+#: views/modal/firmware.html:37
 msgid ""
 "To enjoy full functionality and security of your device, we strongly "
 "recommend you to update."
@@ -2129,7 +2092,7 @@ msgstr ""
 "Για να απολαύσετε την πλήρη λειτουργικότητα και την ασφάλεια της συσκευής "
 "σας, σας συνιστούμε να την ενημερώσετε."
 
-#: views/modal/firmware.html:20
+#: views/modal/firmware.html:21
 msgid "To update the firmware:"
 msgstr "Για να ενημερώσετε το firmware:"
 
@@ -2163,7 +2126,7 @@ msgstr "Συναλλαγές"
 msgid "Transactions"
 msgstr ""
 
-#: views/account/transactions/summary.html:68
+#: views/account/transactions/summary.html:85
 msgid "Transactions are loading ..."
 msgstr ""
 
@@ -2195,12 +2158,6 @@ msgstr "Το URL πρέπει να αρχίζει με https:// ή http://"
 msgid "Unconfirmed"
 msgstr "Ανεπιβεβαίωτη"
 
-#. This is shown in the transaction list when the transaction is to the user himseld.
-#: views/account/transactions/txAddress.html:41
-msgctxt "transaction-list"
-msgid "Unknown"
-msgstr "Άγνωστη"
-
 #. This text is displayed, when the amount is too high. Its goal is to get user to re-check the address. This is the second line.
 #: views/account/send/index.html:37
 msgid ""
@@ -2211,7 +2168,7 @@ msgstr ""
 "λογισμικό μπορεί να αντικαταστήσει τις διευθύνσεις bitcoin που βλέπετε."
 
 #. PIN strength
-#: views/modal/pin.html:91
+#: views/modal/pin.html:92
 msgid "Unnecessarily too long."
 msgstr ""
 
@@ -2220,40 +2177,26 @@ msgstr ""
 msgid "Unused address"
 msgstr "Αχρησιμοποίητη διεύθυνση"
 
-#: views/install/bridge.force.html:10
-msgid ""
-"Update contains bug-fixes for all platforms and performance improvements for "
-"Windows users."
-msgstr ""
-"Η ενημερωμένη έκδοση περιέχει διορθώσεις σφαλμάτων για όλες τις πλατφόρμες "
-"και βελτιώσεις επιδόσεων για τους χρήστες του Windows."
-
-#: views/modal/firmware.html:176
+#: views/modal/firmware.html:184
 msgid "Update device firmware?"
 msgstr ""
 
-#: views/modal/firmware.html:375
+#: views/modal/firmware.html:438
 msgid "Update failed"
 msgstr "Η ενημέρωση απέτυχε"
 
-#: views/device/recovery.html:176
+#: views/device/recovery.html:181
 msgid "Update firmware first to use Advanced Recovery"
 msgstr ""
 
-#: views/modal/firmware.html:366
+#: views/modal/firmware.html:429
 msgid "Update was successful"
 msgstr "Η ενημέρωση ολοκληρώθηκε με επιτυχία"
 
-#: views/modal/firmware.html:195 views/modal/firmware.html:282
-#: views/modal/firmware.html:98
+#: views/modal/firmware.html:101 views/modal/firmware.html:205
+#: views/modal/firmware.html:339
 msgid "Upgrade"
 msgstr "Αναβάθμιση"
-
-#. Upgrade refers to bridge upgrade
-#: views/alertbars/bridge.html:8
-msgctxt "bridge-update"
-msgid "Upgrade for the newest features and bug fixes."
-msgstr "Αναβαθμίστε για τα νεότερα χαρακτηριστικά και διορθώσεις σφαλμάτων."
 
 #. Upgrade refers to bridge upgrade
 #: views/alertbars/firmware.html:10
@@ -2261,13 +2204,23 @@ msgctxt "firmware-update"
 msgid "Upgrade for the newest features and bug fixes."
 msgstr "Αναβαθμίστε για τα νεότερα χαρακτηριστικά και διορθώσεις σφαλμάτων."
 
+#. Upgrade refers to bridge upgrade
+#: views/alertbars/bridge.html:8
+msgctxt "bridge-update"
+msgid "Upgrade for the newest features and bug fixes."
+msgstr "Αναβαθμίστε για τα νεότερα χαρακτηριστικά και διορθώσεις σφαλμάτων."
+
+#: views/install/bridge.force.html:12
+msgid "Upgrade for the newest features and bug fixes."
+msgstr ""
+
 #. This is on a button, for browsing images for homescreen tab
 #: views/device/homescreen.html:25
 msgctxt "button"
 msgid "Upload image"
 msgstr ""
 
-#: views/modal/firmware.html:336
+#: views/modal/firmware.html:399
 msgid "Uploading firmware..."
 msgstr "Ανέβασμα firmware..."
 
@@ -2324,11 +2277,11 @@ msgctxt "header"
 msgid "Verify message"
 msgstr "Επαλήθευση μηνύματος"
 
-#: views/modal/firmware.html:260 views/modal/firmware.html:69
+#: views/modal/firmware.html:317 views/modal/firmware.html:72
 msgid "Versions"
 msgstr "Εκδόσεις"
 
-#: views/account/receive/address.html:95 views/account/receive/index.html:131
+#: views/account/receive/address.html:95 views/account/receive/index.html:137
 msgid "View address at block explorer"
 msgstr ""
 
@@ -2336,7 +2289,7 @@ msgstr ""
 msgid "Waiting for camera&hellip;"
 msgstr "Αναμονή για την camera&hellip;"
 
-#: views/account/receive/index.html:158
+#: views/account/receive/index.html:164
 msgid "Waiting for transaction history"
 msgstr "Αναμονή για το ιστορικό των συναλλαγών"
 
@@ -2347,10 +2300,6 @@ msgstr ""
 #: views/device/index.html:12
 msgid "Want to restore your wallet from recovery seed?"
 msgstr "Θέλετε να επαναφέρετε το πορτοφόλι σας από το recovery seed;"
-
-#: views/account/nav.html:41
-msgid "Warning!"
-msgstr "ΠΡΟΣΟΧΗ!"
 
 #: views/account/sign/index.html:188 views/account/sign/index.html:197
 #: views/account/sign/index.html:47 views/account/sign/index.html:55
@@ -2373,15 +2322,7 @@ msgstr ""
 "Σας συνιστούμε να επαληθεύσετε τη διεύθυνση πληρωμής μέσω ανεξάρτητων "
 "καναλιών επικοινωνίας όπως μια τηλεφωνική κλήση ή ένα μήνυμα κειμένου."
 
-#: views/modal/setup.html:11 views/modal/setup.html:19
-msgid ""
-"We will now show you 24 words that will allow you to recover your accounts "
-"in case you lose your device."
-msgstr ""
-"Θα σας δείξουμε τώρα 24 λέξεις που θα σας επιτρέψουν να ανακτήσετε τους "
-"λογαριασμούς σας σε περίπτωση που χάσετε τη συσκευή σας."
-
-#: views/modal/setup.html:27 views/modal/setup.html:34
+#: views/modal/setup.html:26
 msgid "We will now show you the 24 words again."
 msgstr "Τώρα θα σας δείξουμε ξανά τις 24 λέξεις."
 
@@ -2390,7 +2331,7 @@ msgid "Welcome to TREZOR Setup!"
 msgstr "Καλώς ήλθατε στην Εγκατάσταση TREZOR!"
 
 #: views/account/transactions/index.html:20
-msgid "What's next? How about buying some bitcoins?"
+msgid "What's next?"
 msgstr ""
 
 #: views/device/index.basic.html:196 views/device/index.basic.html:256
@@ -2401,15 +2342,15 @@ msgstr ""
 "Όταν τα δίνετε σε τρίτους, τους επιτρέπετε να δουν ολόκληρο το ιστορικό των "
 "συναλλαγών σας."
 
-#. This is written on a button, clicking it will wipe the device
-#: views/device/advanced.html:201
-msgctxt "button"
-msgid "Wipe device"
-msgstr "Wipe συσκευής"
-
 #. This is a short label in the device Advanced page
 #: views/device/advanced.html:177
 msgctxt "advanced-label"
+msgid "Wipe device"
+msgstr "Wipe συσκευής"
+
+#. This is written on a button, clicking it will wipe the device
+#: views/device/advanced.html:201
+msgctxt "button"
 msgid "Wipe device"
 msgstr "Wipe συσκευής"
 
@@ -2453,6 +2394,102 @@ msgstr ""
 "Θα θέλατε το TREZOR Wallet να ξεχάσει την παλιά σας συσκευή με τα παλιά "
 "δεδομένα ή να την θυμάται;"
 
+#: views/modal/setup.wordWrite.html:12
+msgid "Write down the 10th word from TREZOR into the recovery seed card."
+msgstr ""
+
+#: views/modal/setup.wordWrite.html:13
+msgid "Write down the 11th word from TREZOR into the recovery seed card."
+msgstr ""
+
+#: views/modal/setup.wordWrite.html:14
+msgid "Write down the 12th word from TREZOR into the recovery seed card."
+msgstr ""
+
+#: views/modal/setup.wordWrite.html:15
+msgid "Write down the 13th word from TREZOR into the recovery seed card."
+msgstr ""
+
+#: views/modal/setup.wordWrite.html:16
+msgid "Write down the 14th word from TREZOR into the recovery seed card."
+msgstr ""
+
+#: views/modal/setup.wordWrite.html:17
+msgid "Write down the 15th word from TREZOR into the recovery seed card."
+msgstr ""
+
+#: views/modal/setup.wordWrite.html:18
+msgid "Write down the 16th word from TREZOR into the recovery seed card."
+msgstr ""
+
+#: views/modal/setup.wordWrite.html:19
+msgid "Write down the 17th word from TREZOR into the recovery seed card."
+msgstr ""
+
+#: views/modal/setup.wordWrite.html:20
+msgid "Write down the 18th word from TREZOR into the recovery seed card."
+msgstr ""
+
+#: views/modal/setup.wordWrite.html:21
+msgid "Write down the 19th word from TREZOR into the recovery seed card."
+msgstr ""
+
+#: views/modal/setup.wordWrite.html:3
+msgid "Write down the 1st word from TREZOR into the recovery seed card."
+msgstr ""
+
+#: views/modal/setup.wordWrite.html:22
+msgid "Write down the 20th word from TREZOR into the recovery seed card."
+msgstr ""
+
+#: views/modal/setup.wordWrite.html:23
+msgid "Write down the 21st word from TREZOR into the recovery seed card."
+msgstr ""
+
+#: views/modal/setup.wordWrite.html:24
+msgid "Write down the 22nd word from TREZOR into the recovery seed card."
+msgstr ""
+
+#: views/modal/setup.wordWrite.html:25
+msgid "Write down the 23rd word from TREZOR into the recovery seed card."
+msgstr ""
+
+#: views/modal/setup.wordWrite.html:26
+msgid "Write down the 24th word from TREZOR into the recovery seed card."
+msgstr ""
+
+#: views/modal/setup.wordWrite.html:4
+msgid "Write down the 2nd word from TREZOR into the recovery seed card."
+msgstr ""
+
+#: views/modal/setup.wordWrite.html:5
+msgid "Write down the 3rd word from TREZOR into the recovery seed card."
+msgstr ""
+
+#: views/modal/setup.wordWrite.html:6
+msgid "Write down the 4th word from TREZOR into the recovery seed card."
+msgstr ""
+
+#: views/modal/setup.wordWrite.html:7
+msgid "Write down the 5th word from TREZOR into the recovery seed card."
+msgstr ""
+
+#: views/modal/setup.wordWrite.html:8
+msgid "Write down the 6th word from TREZOR into the recovery seed card."
+msgstr ""
+
+#: views/modal/setup.wordWrite.html:9
+msgid "Write down the 7th word from TREZOR into the recovery seed card."
+msgstr ""
+
+#: views/modal/setup.wordWrite.html:10
+msgid "Write down the 8th word from TREZOR into the recovery seed card."
+msgstr ""
+
+#: views/modal/setup.wordWrite.html:11
+msgid "Write down the 9th word from TREZOR into the recovery seed card."
+msgstr ""
+
 #: views/modal/button.html:63
 msgid "Write down the recovery seed from your device."
 msgstr ""
@@ -2462,7 +2499,11 @@ msgstr ""
 msgid "Wrong PIN on"
 msgstr ""
 
-#: views/modal/firmware.html:201 views/modal/firmware.html:288
+#: views/modal/firmware.html:252
+msgid "Yes, install"
+msgstr ""
+
+#: views/modal/firmware.html:211 views/modal/firmware.html:345
 msgid "Yes, update"
 msgstr "Ναι, ενημερώστε"
 
@@ -2485,7 +2526,7 @@ msgid "You can try to resend this transaction using"
 msgstr ""
 "Μπορείτε να δοκιμάσετε να ξαναστείλετε αυτή τη συναλλαγή χρησιμοποιώντας"
 
-#: views/nav.html:242
+#: views/nav.html:218
 msgid "You cannot add more than 10 accounts."
 msgstr ""
 
@@ -2515,15 +2556,18 @@ msgstr ""
 msgid "You're about to send a lot of money!"
 msgstr "Είστε έτοιμοι να στείλετε πολλά χρήματα!"
 
-#: views/modal/firmware.html:42
+#: views/modal/pinguide.html:5
+msgid "Your PINs were not matching"
+msgstr ""
+
+#: views/modal/firmware.html:43
 msgid ""
 "Your TREZOR is already initialized. Check that you have your Recovery seed "
-"with you before updating the firmware!"
+"with you\n"
+"                    before updating the firmware!"
 msgstr ""
-"Το TREZOR σας είναι ήδη προετοιμασμένο. Βεβαιωθείτε ότι έχετε Recovery seed "
-"σας μαζί σας πριν από την ενημέρωση του firmware!"
 
-#: views/modal/firmware.html:314
+#: views/modal/firmware.html:376
 msgid "Your TREZOR is not in the firmware update mode."
 msgstr "Το TREZOR σας δεν είναι στη λειτουργία ενημέρωσης firmware."
 
@@ -2531,11 +2575,11 @@ msgstr "Το TREZOR σας δεν είναι στη λειτουργία ενη�
 msgid "Your TREZOR was successfully wiped."
 msgstr "Το TREZOR σας έγινε wiped με επιτυχία."
 
-#: views/modal/firmware.html:118 views/modal/firmware.html:309
+#: views/modal/firmware.html:122 views/modal/firmware.html:371
 msgid "Your device firmware is outdated"
 msgstr "Το firmware της συσκευής σας είναι ξεπερασμένο"
 
-#: views/modal/firmware.html:147
+#: views/modal/firmware.html:152
 msgid "Your device firmware is outdated."
 msgstr ""
 
@@ -2549,8 +2593,8 @@ msgstr ""
 msgid "Your images"
 msgstr "Οι εικόνες σας"
 
-#: views/modal/firmware.html:193 views/modal/firmware.html:280
-#: views/modal/firmware.html:96
+#: views/modal/firmware.html:203 views/modal/firmware.html:337
+#: views/modal/firmware.html:99
 msgid "Your installation of TREZOR Bridge needs to be upgraded first."
 msgstr "Η εγκατάσταση της TREZOR Bridge πρέπει να αναβαθμιστεί πρώτα."
 
@@ -2585,7 +2629,7 @@ msgstr "καφές από την jen είναι χορηγημένη άδεια 
 msgid "counting..."
 msgstr "καταμέτρηση..."
 
-#: views/modal/firmware.html:22
+#: views/modal/firmware.html:23
 msgid "disconnect the device"
 msgstr "αποσυνδέστε τη συσκευή"
 
@@ -2593,20 +2637,17 @@ msgstr "αποσυνδέστε τη συσκευή"
 msgid "external Broadcast Transaction tool"
 msgstr ""
 
-#. Used when estimating transaction time (Expected time: *from* 5 minutes to 10 minutes)
-#: views/account/send/fees.html:51
-msgctxt "transaction-time"
-msgid "from"
-msgstr "από"
-
 #. This is shown in the 'hinting' in send dialogue. It means the shown address is an address, to which a user already sent something.
 #: views/account/send/txTypeAhead.html:18
 msgctxt "typeahead"
 msgid "from history"
 msgstr "από το ιστορικό"
 
-#: views/modal/firmware.html:232
-msgid "have your Recovery seed ready before updating the firmware"
+#: views/modal/firmware.html:287
+msgid ""
+"have\n"
+"                                your Recovery seed ready before updating the "
+"firmware"
 msgstr ""
 
 #: views/device/homescreen.html:34
@@ -2614,7 +2655,7 @@ msgid "homescreen editor"
 msgstr ""
 
 #. Used when estimating transaction time (Expected time: less than 5 *minutes*)
-#: views/account/send/fees.html:106 views/account/send/fees.html:61
+#: views/account/send/fees.html:60
 msgctxt "transaction-time"
 msgid "hour"
 msgid_plural "hours"
@@ -2637,13 +2678,13 @@ msgid "leave empty to keep PIN protection disabled"
 msgstr "αφήστε κενό για να κρατήσετε την προστασία PIN απενεργοποιημένη"
 
 #. Used when estimating transaction time (Expected time: *less than* 5 minutes)
-#: views/account/send/fees.html:95
+#: views/account/send/fees.html:50
 msgctxt "transaction-time"
 msgid "less than"
 msgstr "λιγότερο από"
 
 #. Used when estimating transaction time (Expected time: less than 5 *minutes*)
-#: views/account/send/fees.html:119 views/account/send/fees.html:74
+#: views/account/send/fees.html:73
 msgctxt "transaction-time"
 msgid "minute"
 msgid_plural "minutes"
@@ -2655,21 +2696,21 @@ msgstr[1] "λεπτά"
 msgid "not set"
 msgstr "δεν έχει οριστεί"
 
+#: views/account/transactions/index.html:24
+msgid "or"
+msgstr ""
+
 #. Whole text: Scan it into an application that supports XPUBs such as Mycelium *or* Sentinel for Android. Then, you can watch your transactions and receive payments everywhere without carrying your TREZOR.
 #: views/device/index.basic.html:214
 msgctxt "xpub-text"
 msgid "or"
 msgstr "ή"
 
-#: views/account/transactions/index.html:23
-msgid "or"
-msgstr ""
-
 #: views/account/send/index.html:95
 msgid "phase"
 msgstr "φάση"
 
-#: views/modal/firmware.html:23
+#: views/modal/firmware.html:24
 msgid "plug it in while holding both device buttons pressed"
 msgstr "συνδέστε το κρατώντας και τα δύο κουμπιά της συσκευής πατημένα"
 
@@ -2684,22 +2725,16 @@ msgid "the change address"
 msgstr "η αλλαγή διεύθυνσης"
 
 #. Clicking here will lead the user to our manual.
-#: views/modal/firmware.html:28
+#: views/modal/firmware.html:29
 msgid "the user manual"
 msgstr ""
-
-#. Used when estimating transaction time (Expected time: from 5 minutes *to* 10 minutes)
-#: views/account/send/fees.html:85
-msgctxt "transaction-time"
-msgid "to"
-msgstr "μέχρι"
 
 #: views/account/transactions/summary.html:8
 msgid "to"
 msgstr ""
 
 #. In text: 'Loading (123 transactions)', it is always plural
-#: views/nav.html:192
+#: views/nav.html:173
 msgctxt "loading"
 msgid "transactions"
 msgstr "συναλλαγές"
@@ -2720,6 +2755,143 @@ msgstr "στάλθηκε επιτυχώς."
 msgctxt "typeahead"
 msgid "your account"
 msgstr "το λογαριασμό σας"
+
+#~ msgid "Account balance information is inconsistent."
+#~ msgstr "Οι πληροφορίες υπολοίπου του λογαριασμού είναι ασυνεπείς."
+
+#~ msgid ""
+#~ "If your TREZOR is already initialized, always have your Recovery seed "
+#~ "with you before updating the firmware!"
+#~ msgstr ""
+#~ "Αν το TREZOR σας έχει ήδη αρχικοποιηθεί, να έχετε πάντα το Recovery seed "
+#~ "μαζί σας πριν από την ενημέρωση του firmware!"
+
+#~ msgid "Look at the device for number positions."
+#~ msgstr "Κοιτάξτε στη συσκευή για αριθμό θέσεων."
+
+#~ msgid "Note that the positions of numbers shown on the device have changed!"
+#~ msgstr ""
+#~ "Σημειώστε ότι οι θέσεις των αριθμών που εμφανίζονται στη συσκευή έχουν "
+#~ "αλλάξει !"
+
+#~ msgid "Please check carefully that you wrote them down correctly."
+#~ msgstr "Παρακαλούμε ελέγξτε προσεκτικά ότι τα καταγράψατε σωστά."
+
+#~ msgid ""
+#~ "Please try again. You need to make sure<strong>both device buttons are "
+#~ "pressed, as you plug in the device.</strong>"
+#~ msgstr ""
+#~ "Παρακαλούμε δοκιμάστε ξανά. Θα πρέπει να βεβαιωθείτε ότι <strong>και τα "
+#~ "δύο κουμπιά της συσκευής είναι πατημένα, καθώς συνδέετε τη συσκευή.</"
+#~ "strong>"
+
+#~ msgid "Please write down the 10th word of your recovery seed."
+#~ msgstr "Παρακαλούμε γράψτε τη 10η λέξη του recovery seed σας."
+
+#~ msgid "Please write down the 11th word of your recovery seed."
+#~ msgstr "Παρακαλούμε γράψτε τν 11η λέξη του recovery seed σας."
+
+#~ msgid "Please write down the 12th word of your recovery seed."
+#~ msgstr "Παρακαλούμε γράψτε τη 12η λέξη του recovery seed σας."
+
+#~ msgid "Please write down the 13th word of your recovery seed."
+#~ msgstr "Παρακαλούμε γράψτε τη 13η λέξη του recovery seed σας."
+
+#~ msgid "Please write down the 14th word of your recovery seed."
+#~ msgstr "Παρακαλούμε γράψτε τη 14η λέξη του recovery seed σας."
+
+#~ msgid "Please write down the 15th word of your recovery seed."
+#~ msgstr "Παρακαλούμε γράψτε τη 15η λέξη του recovery seed σας."
+
+#~ msgid "Please write down the 16th word of your recovery seed."
+#~ msgstr "Παρακαλούμε γράψτε τη 16η λέξη του recovery seed σας."
+
+#~ msgid "Please write down the 17th word of your recovery seed."
+#~ msgstr "Παρακαλούμε γράψτε τη 17η λέξη του recovery seed σας."
+
+#~ msgid "Please write down the 18th word of your recovery seed."
+#~ msgstr "Παρακαλούμε γράψτε τη 18η λέξη του recovery seed σας."
+
+#~ msgid "Please write down the 19th word of your recovery seed."
+#~ msgstr "Παρακαλούμε γράψτε τη 19η λέξη του recovery seed σας."
+
+#~ msgid "Please write down the 1st word of your recovery seed."
+#~ msgstr "Παρακαλούμε γράψτε την 1η λέξη του recovery seed σας."
+
+#~ msgid "Please write down the 20th word of your recovery seed."
+#~ msgstr "Παρακαλούμε γράψτε την 20η λέξη του recovery seed σας."
+
+#~ msgid "Please write down the 21st word of your recovery seed."
+#~ msgstr "Παρακαλούμε γράψτε την 21η λέξη του recovery seed σας."
+
+#~ msgid "Please write down the 22nd word of your recovery seed."
+#~ msgstr "Παρακαλούμε γράψτε την 22η λέξη του recovery seed σας."
+
+#~ msgid "Please write down the 23rd word of your recovery seed."
+#~ msgstr "Παρακαλούμε γράψτε την 23η λέξη του recovery seed σας."
+
+#~ msgid "Please write down the 24th word of your recovery seed."
+#~ msgstr "Παρακαλούμε γράψτε την 24η λέξη του recovery seed σας."
+
+#~ msgid "Please write down the 2nd word of your recovery seed."
+#~ msgstr "Παρακαλούμε γράψτε τη 2η λέξη του recovery seed σας."
+
+#~ msgid "Please write down the 3rd word of your recovery seed."
+#~ msgstr "Παρακαλούμε γράψτε την 3η λέξη του recovery seed σας."
+
+#~ msgid "Please write down the 4th word of your recovery seed."
+#~ msgstr "Παρακαλούμε γράψτε την 4η λέξη του recovery seed σας."
+
+#~ msgid "Please write down the 5th word of your recovery seed."
+#~ msgstr "Παρακαλούμε γράψτε την 5η λέξη του recovery seed σας."
+
+#~ msgid "Please write down the 6th word of your recovery seed."
+#~ msgstr "Παρακαλούμε γράψτε την 6η λέξη του recovery seed σας."
+
+#~ msgid "Please write down the 7th word of your recovery seed."
+#~ msgstr "Παρακαλούμε γράψτε την 7η λέξη του recovery seed σας."
+
+#~ msgid "Please write down the 8th word of your recovery seed."
+#~ msgstr "Παρακαλούμε γράψτε την 8η λέξη του recovery seed σας."
+
+#~ msgid "Please write down the 9th word of your recovery seed."
+#~ msgstr "Παρακαλούμε γράψτε την 9η λέξη του recovery seed σας."
+
+#~ msgctxt "transaction-list"
+#~ msgid "Unknown"
+#~ msgstr "Άγνωστη"
+
+#~ msgid ""
+#~ "Update contains bug-fixes for all platforms and performance improvements "
+#~ "for Windows users."
+#~ msgstr ""
+#~ "Η ενημερωμένη έκδοση περιέχει διορθώσεις σφαλμάτων για όλες τις "
+#~ "πλατφόρμες και βελτιώσεις επιδόσεων για τους χρήστες του Windows."
+
+#~ msgid "Warning!"
+#~ msgstr "ΠΡΟΣΟΧΗ!"
+
+#~ msgid ""
+#~ "We will now show you 24 words that will allow you to recover your "
+#~ "accounts in case you lose your device."
+#~ msgstr ""
+#~ "Θα σας δείξουμε τώρα 24 λέξεις που θα σας επιτρέψουν να ανακτήσετε τους "
+#~ "λογαριασμούς σας σε περίπτωση που χάσετε τη συσκευή σας."
+
+#~ msgid ""
+#~ "Your TREZOR is already initialized. Check that you have your Recovery "
+#~ "seed with you before updating the firmware!"
+#~ msgstr ""
+#~ "Το TREZOR σας είναι ήδη προετοιμασμένο. Βεβαιωθείτε ότι έχετε Recovery "
+#~ "seed σας μαζί σας πριν από την ενημέρωση του firmware!"
+
+#~ msgctxt "transaction-time"
+#~ msgid "from"
+#~ msgstr "από"
+
+#~ msgctxt "transaction-time"
+#~ msgid "to"
+#~ msgstr "μέχρι"
 
 #~ msgid "Connect your TREZOR device to the computer."
 #~ msgstr "Συνδέστε την TREZOR συσκευή σας στον υπολογιστή."
