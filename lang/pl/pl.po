@@ -12,7 +12,7 @@ msgstr ""
 "|| n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 2.12-dev\n"
 
-#: views/nav.html:115
+#: views/nav.html:115 views/nav/device.html:68
 msgid "(automatically in"
 msgstr "(automatycznie za"
 
@@ -21,7 +21,8 @@ msgid "* No worries, you can always change it."
 msgstr ""
 
 #. The number refer to XPUBs
-#: views/import.html:32 views/import.html:41
+#: views/import.html:33 views/import.html:42 views/import.html:52
+#: views/import.html:61
 msgid "1 per row"
 msgstr "1 za wiersz"
 
@@ -70,24 +71,20 @@ msgid "?"
 msgstr "?"
 
 #. This is on a hidden site, 99.99% of people will not see it
-#: views/device/metadata.html:43
+#: views/device/metadata.html:73
 msgid "API keys are useful if you want to import a watch-only wallet."
 msgstr ""
 "Klucze API są przydatne jeżeli chcesz zaimportować portfel w trybie tylko do "
 "obserwacji."
 
 #. Used as a default account name. The accounts are named *Account* #1, *Account* #2 etc.
-#: views/otherStrings.html:20
+#: views/otherStrings.html:18
 msgctxt "default-name"
 msgid "Account"
 msgstr "Konto"
 
-#: views/import.html:31
-msgid "Account XPUBs"
-msgstr "Konto XPUB"
-
 #. This is a short label in the device Basic page
-#: views/device/index.basic.html:154
+#: views/device/index.basic.html:138
 msgctxt "basic-label"
 msgid "Account public keys (XPUB)"
 msgstr "Klucze publiczne konta (XPUB)"
@@ -96,13 +93,20 @@ msgstr "Klucze publiczne konta (XPUB)"
 msgid "Action was interrupted"
 msgstr "Akcja została przerwana"
 
-#: views/nav.html:214 views/nav.html:222 views/nav.html:231
+#: views/nav.html:238 views/nav.html:246 views/nav.html:255
+#: views/nav/device-buttons.html:18 views/nav/device-buttons.html:35
+#: views/nav/device-buttons.html:53
 msgid "Add account"
 msgstr "Dodaj konto"
 
 #: views/account/transactions/txAddressLabel.html:20
 msgid "Add comment"
 msgstr "Dodaj komentarz"
+
+#: views/nav/device-buttons.html:21 views/nav/device-buttons.html:38
+#: views/nav/device-buttons.html:56
+msgid "Add legacy account"
+msgstr ""
 
 #: views/account/send/buttonBar.html:24
 msgid "Add recipient"
@@ -119,7 +123,7 @@ msgid "Additional passphrase encryption"
 msgstr "Dodatkowe szyfrowanie hasłem"
 
 #. This is a label to the sign/verify form.
-#: views/account/sign/index.html:212 views/account/sign/index.html:71
+#: views/account/sign/inside.html:203 views/account/sign/inside.html:62
 msgctxt "sign"
 msgid "Address"
 msgstr "Adres"
@@ -129,6 +133,14 @@ msgstr "Adres"
 msgctxt "send"
 msgid "Address"
 msgstr "Adres"
+
+#: views/account/transactions/table.html:13
+msgid "Address"
+msgstr ""
+
+#: views/account/transactions/table.html:14
+msgid "Address Label"
+msgstr ""
 
 #: views/account/send/txAddress.html:25
 msgid "Address is required."
@@ -201,7 +213,11 @@ msgstr "Kwota jest wymagana."
 msgid "Amount is too low"
 msgstr "Kwota jest za mała"
 
-#: views/nav.html:243
+#: views/nav.html:164
+msgid "Analysing"
+msgstr "Analizowanie"
+
+#: views/nav.html:267 views/nav/settings-buttons.html:3
 msgid "App Settings"
 msgstr "Ustawienia aplikacji"
 
@@ -209,7 +225,7 @@ msgstr "Ustawienia aplikacji"
 msgid "Application Settings"
 msgstr "Ustawiania aplikacji"
 
-#: views/account/receive/index.html:150
+#: views/account/receive/address.html:189
 msgid "BIP32 Path:"
 msgstr "Ścieżka BIP32:"
 
@@ -222,8 +238,8 @@ msgstr "Serwer jest niedostępny."
 msgid "Backspace"
 msgstr "Backspace"
 
-#: views/account/transactions/summary.html:25
-#: views/account/transactions/summary.html:38
+#: views/account/transactions/summary.html:29
+#: views/account/transactions/table.html:18
 msgid "Balance"
 msgstr "Stan"
 
@@ -233,12 +249,11 @@ msgctxt "header"
 msgid "Basic"
 msgstr "Podstawowe"
 
-#: views/device/index.basic.html:193 views/device/index.basic.html:196
-#: views/device/index.basic.html:251
+#: views/device/index.basic.html:209 views/device/index.basic.html:267
 msgid "Be careful with your XPUBs."
 msgstr "Bądź czujny z Twoimi XPUB-ami."
 
-#: views/settings.html:57
+#: views/settings.html:62
 msgid "Bitcore Server URL"
 msgstr "Adres serwera Bitcore"
 
@@ -255,12 +270,12 @@ msgid "Bootloader mode"
 msgstr "Tryb Bootloader"
 
 #: views/device/custom-firmware.html:35 views/device/load.html:65
-#: views/device/recovery.html:197 views/import.html:55
+#: views/device/recovery.html:197 views/import.html:77
 msgid "Cancel"
 msgstr "Anuluj"
 
 #. PIN strength
-#: views/modal/pin.html:93
+#: views/modal/pin.html:94
 msgid "Careful, It's too easy to guess."
 msgstr "Ostrożnie, PIN jest zbyt łatwy do odgadnięcia."
 
@@ -273,7 +288,7 @@ msgstr "Uwaga!"
 msgid "Cell delimiter"
 msgstr "Separator"
 
-#: views/modal/label.html:18
+#: views/modal/label.html:19
 msgid "Change"
 msgstr "Zmień"
 
@@ -301,19 +316,19 @@ msgstr "Dziennik zmian"
 msgid "Check address on TREZOR display"
 msgstr "Sprawdź adres na wyświetlaczu urządzenia TREZOR"
 
-#: views/modal/pin.html:23
+#: views/modal/pin.html:24
 msgid ""
 "Choose a strong PIN to protect your device from unauthorized access. The "
 "layout is displayed on your TREZOR."
 msgstr ""
 
 #. This is on a button in the sign/verify form.
-#: views/account/sign/index.html:134 views/account/sign/index.html:254
+#: views/account/sign/inside.html:125 views/account/sign/inside.html:245
 msgctxt "button"
 msgid "Clear"
 msgstr "Wyczyść"
 
-#: views/device/index.basic.html:205 views/device/index.basic.html:266
+#: views/device/index.basic.html:221 views/device/index.basic.html:282
 msgid "Click on XPUB to show its QR code."
 msgstr "Kliknij na XPUB aby zobaczyć kod QR."
 
@@ -321,7 +336,8 @@ msgstr "Kliknij na XPUB aby zobaczyć kod QR."
 msgid "Click to hide address"
 msgstr "Kliknij, aby ukryć adres"
 
-#: views/nav.html:28 views/nav.html:73
+#: views/nav.html:28 views/nav.html:73 views/nav/device.html:24
+#: views/nav/unacquired.html:17
 msgid "Click to renew session"
 msgstr "Kliknij, aby wznowić sesję"
 
@@ -330,14 +346,14 @@ msgid "Click to show address"
 msgstr "Kliknij, aby pokazać adres"
 
 #: views/debug.html:7 views/debug.html:96 views/debug.log.html:8
-#: views/modal/csv.html:44 views/modal/disconnect.html:14
+#: views/modal/csv.html:44 views/modal/disconnect.html:15
 #: views/modal/disconnect.passphrase_disable.html:14
 #: views/modal/disconnect.passphrase_enable.html:14 views/modal/dropbox.html:56
-#: views/modal/ethwallet.html:22 views/modal/firmware.html:111
+#: views/modal/ethwallet.html:24 views/modal/firmware.html:111
 #: views/modal/firmware.html:140 views/modal/firmware.html:172
 #: views/modal/firmware.html:224 views/modal/firmware.html:265
 #: views/modal/firmware.html:358 views/modal/firmware.html:382
-#: views/modal/firmware.html:446 views/modal/qr.html:17 views/settings.html:89
+#: views/modal/firmware.html:446 views/modal/qr.html:18 views/settings.html:94
 msgid "Close"
 msgstr "Zamknij"
 
@@ -365,6 +381,11 @@ msgstr "Potwierdź szyfrowanie hasłem"
 #: views/modal/button.html:18
 msgid "Confirm provided information."
 msgstr "Potwierdź podaną informację."
+
+#. We cannot estimate transaction confirmation time
+#: views/account/send/fees.html:51
+msgid "Confirmation time cannot be estimated."
+msgstr ""
 
 #: views/debug.html:109
 msgid "Congratulations! Your device is now ready to use."
@@ -402,11 +423,11 @@ msgstr "Podłącz urządzenie, aby włączyć hasło."
 msgid "Connect the device to set its homescreen."
 msgstr "Podłącz urządzenie, aby ustawić ekran domowy."
 
-#: views/modal/dropbox.html:57
+#: views/modal/dropbox.html:61
 msgid "Connect to Dropbox"
 msgstr "Połącz z Dropbox"
 
-#: views/nav.html:257
+#: views/nav.html:281 views/nav/settings-buttons.html:17
 msgid ""
 "Connect to Dropbox to enable:<br>- renaming accounts<br>- commenting "
 "transactions<br>- labeling addresses and more..."
@@ -414,29 +435,25 @@ msgstr ""
 "Połącz Dropbox, aby włączyć:<br>- zmianę nazwy konta<br>- komentowanie "
 "transakcji<br>- etykietowanie adresów i wiele więcej..."
 
-#: views/account/receive/address.html:77
+#: views/account/receive/address.html:95
 msgid "Connect your TREZOR to display this address"
 msgstr "Podłącz swój TREZOR, aby wyświetlić ten adres"
 
-#: views/nav.html:85
+#: views/nav.html:85 views/nav/device.html:36
 msgid "Connected device"
 msgstr "Podłączone urządzenie"
 
-#: views/nav.html:254
+#: views/nav.html:278 views/nav/settings-buttons.html:14
 msgid "Connecting ..."
 msgstr "Łączenie..."
 
-#: index.html:47 views/top.nav.html:15
-msgid "Contact"
-msgstr "Kontakt"
-
 #: views/device/custom-firmware.html:32 views/device/index.setup.html:28
 #: views/device/load.html:62 views/device/recovery.html:193
-#: views/import.html:53
+#: views/import.html:75
 msgid "Continue"
 msgstr "Kontynuuj"
 
-#: views/settings.html:47
+#: views/settings.html:52
 msgid "Currency backend"
 msgstr "Serwer walut"
 
@@ -444,14 +461,30 @@ msgstr "Serwer walut"
 msgid "Custom"
 msgstr "Inne"
 
+#. Transaction fee size menu
+#: views/account/send/fees.html:33
+msgctxt "transaction-fee"
+msgid "Custom"
+msgstr ""
+
+#. This is a label to the sending form. (Address/amount/comment)
+#: views/account/send/fees.html:108
+msgctxt "send"
+msgid "Custom fee"
+msgstr ""
+
 #. This is a small label in the Homescreen tab
 #: views/device/homescreen.html:16
 msgctxt "label"
 msgid "Custom image"
 msgstr "Własny obrazek"
 
+#: views/account/transactions/table.html:9
+msgid "Date"
+msgstr ""
+
 #. Unconfirmed transaction, in the transaction list, will have this instead of date.
-#: views/account/transactions/table.html:68
+#: views/account/transactions/table.html:109
 msgid "Details"
 msgstr ""
 
@@ -487,13 +520,13 @@ msgctxt "load-label"
 msgid "Device label"
 msgstr "Etykieta urządzenia"
 
-#. This is a short label in the device recovery page
-#: views/device/recovery.html:103
-msgctxt "recovery-label"
+#: views/device/index.setup.html:17 views/import.html:22
 msgid "Device label"
 msgstr "Etykieta urządzenia"
 
-#: views/device/index.setup.html:17 views/import.html:22
+#. This is a short label in the device recovery page
+#: views/device/recovery.html:103
+msgctxt "recovery-label"
 msgid "Device label"
 msgstr "Etykieta urządzenia"
 
@@ -501,19 +534,19 @@ msgstr "Etykieta urządzenia"
 msgid "Device needs to be connected in order to wipe it."
 msgstr "Urządzenie musi być połączone, aby usunąć jego zawartość."
 
-#: views/nav.html:274
+#: views/nav.html:298
 msgid "Disable Labeling"
 msgstr "Wyłącz etykietowanie"
-
-#. This is a short label in the device Advanced page
-#: views/device/advanced.html:135
-msgctxt "advanced-label"
-msgid "Disable PIN"
-msgstr "Wyłącz PIN"
 
 #. This is written on a button, clicking it will disable PIN
 #: views/device/advanced.html:153
 msgctxt "button"
+msgid "Disable PIN"
+msgstr "Wyłącz PIN"
+
+#. This is a short label in the device Advanced page
+#: views/device/advanced.html:135
+msgctxt "advanced-label"
 msgid "Disable PIN"
 msgstr "Wyłącz PIN"
 
@@ -529,7 +562,11 @@ msgctxt "pin"
 msgid "Disabled"
 msgstr "Wyłączone"
 
-#: views/modal/disconnect.html:7
+#: views/nav/settings-buttons.html:36
+msgid "Disconnect"
+msgstr ""
+
+#: views/modal/disconnect.html:8
 #: views/modal/disconnect.passphrase_disable.html:7
 #: views/modal/disconnect.passphrase_enable.html:7
 msgid "Disconnect your TREZOR now"
@@ -543,7 +580,7 @@ msgstr "Odłącz swój TREZOR, aby wyłączyć hasło."
 msgid "Disconnect your TREZOR to enable passphrase."
 msgstr "Odłącz swój TREZOR, aby włączyć hasło."
 
-#: views/nav.html:82
+#: views/nav.html:82 views/nav/device.html:33
 msgid "Disconnected device"
 msgstr "Odłączone urządzenia"
 
@@ -596,7 +633,7 @@ msgstr "Pobierz aplikację TREZOR Manager na Google Play."
 msgid "Downloading firmware..."
 msgstr "Pobieranie firmware-u..."
 
-#: views/nav.html:269
+#: views/nav.html:293
 msgid "Dropbox connected. Click to disconnect it."
 msgstr "Dropbox połączony. Kliknij, aby odłączyć."
 
@@ -605,20 +642,20 @@ msgid "ETH / ETC Wallet"
 msgstr "Portfel ETH / ETC"
 
 #. Transaction fee size menu
-#: views/account/send/fees.html:28
+#: views/account/send/fees.html:25
 msgctxt "transaction-fee"
 msgid "Economy"
 msgstr "Ekonomiczna"
 
-#: views/nav.html:99
+#: views/nav.html:99 views/nav/device.html:51
 msgid "Edit Device basics"
 msgstr ""
 
-#: views/account/receive/address.html:146
+#: views/account/receive/address.html:149
 msgid "Edit label"
 msgstr "Edytuj etykietę"
 
-#: views/nav.html:267
+#: views/nav.html:291 views/nav/settings-buttons.html:27
 msgid "Enable Labeling"
 msgstr "Włącz etykietowanie"
 
@@ -655,25 +692,25 @@ msgctxt "pin"
 msgid "Enabled"
 msgstr "Włączone"
 
-#. Enter [device_name] PIN
-#: views/modal/pin.html:14
-msgid "Enter"
-msgstr "Wprowadź"
-
-#. This is on a passphrase button
-#: views/modal/passphrase.html:60
-msgctxt "passphrase-button"
-msgid "Enter"
-msgstr "Wprowadź"
-
 #. This is on a pin button
-#: views/modal/pin.html:102
+#: views/modal/pin.html:103
 msgctxt "pin-button"
 msgid "Enter"
 msgstr "Wprowadź"
 
+#. This is on a passphrase button
+#: views/modal/passphrase.html:52
+msgctxt "passphrase-button"
+msgid "Enter"
+msgstr "Wprowadź"
+
+#. Enter [device_name] PIN
+#: views/modal/pin.html:15
+msgid "Enter"
+msgstr "Wprowadź"
+
 #. Enter passphrase for  [device_name]?
-#: views/modal/passphrase.html:9
+#: views/modal/passphrase.html:10
 msgid "Enter passphrase for"
 msgstr "Wprowadź hasło dla"
 
@@ -682,7 +719,7 @@ msgid "Enter seed word"
 msgstr "Wprowadź słowo ziarenka"
 
 #. Enter you new [device_name] PIN
-#: views/modal/pin.html:22
+#: views/modal/pin.html:23
 msgid "Enter your new"
 msgstr ""
 
@@ -699,19 +736,19 @@ msgstr "Portfel Ethereum"
 msgid "Example:"
 msgstr "Przykład:"
 
-#: views/account/transactions/index.html:24
+#: views/account/transactions/welcomes/bitcoin.html:4
 msgid "Exchange:"
 msgstr "Wymiana:"
 
-#: views/account/send/fees.html:48
+#: views/account/send/fees.html:56
 msgid "Expected confirmation time"
 msgstr "Oczekiwany czas potwierdzenia"
 
-#: views/account/transactions/summary.html:62
+#: views/account/transactions/summary.html:53
 msgid "Expense"
 msgstr "Koszt"
 
-#: views/settings.html:75
+#: views/settings.html:80
 msgid "Explorer URL"
 msgstr "Explorer URL"
 
@@ -731,15 +768,15 @@ msgstr "Nie udało się odnowić sesji."
 msgid "Failed to send transaction"
 msgstr "Nie udało się wysłać transakcji"
 
-#: views/otherStrings.html:72
+#: views/otherStrings.html:76
 msgid "Failed to sign message"
 msgstr "Nie można podpisać wiadomości"
 
-#: views/otherStrings.html:76
+#: views/otherStrings.html:80
 msgid "Failed to verify message"
 msgstr "Nie udało się zweryfikować wiadomości"
 
-#: views/account/send/fees.html:87
+#: views/account/send/fees.html:87 views/account/transactions/table.html:17
 msgid "Fee"
 msgstr "Opłata"
 
@@ -749,9 +786,17 @@ msgctxt "send"
 msgid "Fee"
 msgstr "Opłata"
 
+#: views/account/send/fees.html:125
+msgid "Fee is not a number."
+msgstr ""
+
 #: views/modal/button.html:13
 msgid "Fee is over threshold."
 msgstr "Opłata przekroczyła próg."
+
+#: views/account/send/fees.html:128
+msgid "Fee is too low."
+msgstr ""
 
 #: views/account/send/txPrepared.html:12
 msgid "Fee/kB:"
@@ -761,11 +806,6 @@ msgstr "Opłata/kB:"
 #: views/account/send/txPrepared.html:21
 msgid "Fee:"
 msgstr "Opłata:"
-
-#. In the bottom footer. 'Fee predictions by 21.co'.
-#: views/footer.html:15
-msgid "Fees by"
-msgstr "Opłaty dostarcza"
 
 #: views/settings.html:35
 msgid "Fiat Currency"
@@ -807,7 +847,7 @@ msgid ""
 msgstr ""
 
 #. Button in remember/forget dialog
-#: views/modal/forget.disconnected.html:14 views/modal/forget.requested.html:14
+#: views/modal/forget.disconnected.html:14 views/modal/forget.requested.html:15
 msgctxt "forget-button"
 msgid "Forget"
 msgstr "Zapomnij"
@@ -823,7 +863,7 @@ msgctxt "forget-button"
 msgid "Forget (recommended)"
 msgstr "Zapomnij (zalecane)"
 
-#: views/nav.html:133
+#: views/nav.html:133 views/nav/device.html:87
 msgid "Forget this device"
 msgstr "Zapomnij to urządzenie"
 
@@ -836,7 +876,7 @@ msgstr ""
 "nadal bezpieczne i możesz uzyskać do nich dostęp poprzez ponowne podłączenie "
 "Twojego urządzenia TREZOR."
 
-#: views/account/receive/index.html:78
+#: views/account/receive/index.html:81
 msgid "Fresh address"
 msgstr "Świeży adres"
 
@@ -866,16 +906,16 @@ msgstr ""
 "Idź do\n"
 "MyEtherWallet"
 
-#: views/account/receive/index.html:38 views/account/receive/index.html:56
+#: views/account/receive/index.html:41 views/account/receive/index.html:59
 msgid "Hide previous"
 msgstr "Ukryj poprzednie"
 
-#: views/account/transactions/index.html:35
+#: views/account/transactions/index.html:44
 msgid "Hide this account"
 msgstr "Ukryj to konto"
 
 #. Transaction fee size menu
-#: views/account/send/fees.html:20
+#: views/account/send/fees.html:17
 msgctxt "transaction-fee"
 msgid "High"
 msgstr "Wysoka"
@@ -898,7 +938,7 @@ msgstr "Ustawienia ekranu głównego"
 msgid "Homescreen was successfully changed."
 msgstr "Ekran główny został pomyślnie zmieniony."
 
-#: views/account/transactions/index.html:21
+#: views/account/transactions/welcomes/bitcoin.html:1
 msgid "How about buying some bitcoins?"
 msgstr ""
 
@@ -956,6 +996,11 @@ msgstr ""
 msgid "If you have TREZOR set up already,"
 msgstr "Jeśli ustawiłeś już urządzenie TREZOR,"
 
+#. This is a warning when user sets up his own fee
+#: views/account/send/fees.html:149
+msgid "If you set too low fee, it might get stuck forever."
+msgstr ""
+
 #: views/modal/firmware.html:281
 msgid ""
 "If your TREZOR has not been set up yet (fresh out of the box), you do not "
@@ -1012,7 +1057,7 @@ msgstr ""
 "W bardzo rzadkich przypadkach aktualizacja firmware-u może skutkować "
 "koniecznością przywrócenia portfela z ziarenka."
 
-#: views/account/transactions/summary.html:55
+#: views/account/transactions/summary.html:46
 msgid "Income"
 msgstr "Przychód"
 
@@ -1021,8 +1066,8 @@ msgstr "Przychód"
 msgid "Inputs:"
 msgstr "Wejścia:"
 
-#: views/account/transactions/table.html:64
-#: views/account/transactions/table.html:65
+#: views/account/transactions/table.html:105
+#: views/account/transactions/table.html:106
 msgid "Insight Transaction info"
 msgstr ""
 
@@ -1049,12 +1094,12 @@ msgstr "Zainstaluj natywną aplikację!"
 msgid "Interested in best security practices?"
 msgstr ""
 
-#: views/otherStrings.html:78
+#: views/otherStrings.html:82
 msgid "Invalid signature"
 msgstr "Nieprawidłowy podpis"
 
 #. PIN strength
-#: views/modal/pin.html:94
+#: views/modal/pin.html:95
 msgid "It's fine."
 msgstr "W porządku."
 
@@ -1092,14 +1137,18 @@ msgstr "Ostatnie 2 lata"
 msgid "Latest"
 msgstr "Najnowsze"
 
-#: views/device/index.basic.html:197 views/device/index.setup.html:11
-#: views/modal/pin.html:29 views/modal/pinguide.html:13
+#: views/device/index.basic.html:213 views/device/index.setup.html:11
+#: views/modal/pin.html:30 views/modal/pinguide.html:13
 msgid "Learn more"
 msgstr "Dowiedz się więcej"
 
 #: views/modal/recovery.html:64
 msgid "Learn more about"
 msgstr "Dowiedz się więcej o"
+
+#: views/nav/index.html:36
+msgid "Learn more about Legacy accounts."
+msgstr ""
 
 #: views/device/recovery.html:203
 msgid "Learn more about Recovery"
@@ -1111,7 +1160,7 @@ msgid "Learn more about TREZOR Wallet labeling"
 msgstr "Dowiedz się więcej o etykietowaniu w Portfelu TREZOR"
 
 #. This text is displayed, when the amount is too high. Its goal is to get user to re-check the address. This is the fourth line, and a link to our manual.
-#: views/account/send/index.html:52
+#: views/account/send/inside.html:71
 msgid "Learn more about phishing…"
 msgstr "Dowiedz się więcej o phishingu…"
 
@@ -1119,16 +1168,31 @@ msgstr "Dowiedz się więcej o phishingu…"
 msgid "Learn more in user manual"
 msgstr "Więcej informacji znajdziesz w instrukcji obsługi"
 
-#: views/jumbotrons/loading.html:4 views/nav.html:153 views/nav.html:170
+#. If coin has segwit enabled, non-segwit accounts are 'Legacy Accounts'. The accounts are named *Legacy Account* #1, *Legacy Account* #2 etc.
+#: views/otherStrings.html:24
+msgctxt "default-name"
+msgid "Legacy Account"
+msgstr ""
+
+#: views/import.html:51
+msgid "Legacy account XPUBs"
+msgstr ""
+
+#: views/import.html:60
+msgid "Legacy metadata keys"
+msgstr ""
+
+#: views/jumbotrons/loading.html:4 views/nav.html:153 views/nav.html:185
+#: views/nav/account.html:23 views/nav/account.html:6
 msgid "Loading"
 msgstr "Ładowanie"
 
 #. Is displayed when TREZOR is loading, in the left column
-#: views/nav.html:66
+#: views/nav.html:66 views/nav/device.html:17
 msgid "Loading ..."
 msgstr "Trwa ładowanie..."
 
-#: views/nav.html:203
+#: views/nav.html:227 views/nav/device-buttons.html:5
 msgid "Loading accounts..."
 msgstr "Ładowanie kont..."
 
@@ -1140,7 +1204,7 @@ msgstr "Ładowanie nie powiodło się."
 msgid "Loading of accounts failed."
 msgstr "Ładowanie kont nie powiodło się."
 
-#: views/account/transactions/index.html:43
+#: views/account/transactions/index.html:53
 msgid "Loading transactions"
 msgstr "Ładowanie transakcji"
 
@@ -1148,11 +1212,11 @@ msgstr "Ładowanie transakcji"
 msgid "Loading..."
 msgstr "Trwa ładowanie..."
 
-#: views/account/transactions/index.html:23
+#: views/account/transactions/welcomes/bitcoin.html:3
 msgid "Local traders:"
 msgstr "Lokalni handlarze:"
 
-#: views/nav.html:115
+#: views/nav.html:115 views/nav/device.html:68
 msgid "Lock this device"
 msgstr "Zablokuj to urządzenie"
 
@@ -1161,7 +1225,7 @@ msgid "Log"
 msgstr "Dziennik"
 
 #. Transaction fee size menu
-#: views/account/send/fees.html:32
+#: views/account/send/fees.html:29
 msgctxt "transaction-fee"
 msgid "Low"
 msgstr "Niska"
@@ -1184,39 +1248,40 @@ msgid "Manual configuration (advanced)"
 msgstr "Ręczna konfiguracja (Zaawansowane)"
 
 #. Add your signature that you would like to be credited as. Write 'Many thanks to ...' in your language in front of your and others co-translators signature - after the ones, which already exist.
-#: views/footer.html:32
+#: views/footer.html:29
 msgid ""
 "Many thanks to our translators for their <a href=\"http://doc.satoshilabs."
 "com/trezor-tech/translating.html\" class=\"arrow\">contribution</a>"
 msgstr ""
 "Bardzo dziękujemy naszym polskim tłumaczom: Bartłomiej Kurzeja, Nataliya Lekh"
 
-#: views/account/sign/index.html:189 views/account/sign/index.html:48
+#: views/account/sign/inside.html:180 views/account/sign/inside.html:39
 msgid "Maximal message length is 255 letters long."
 msgstr "Maksymalna długość wiadomości wynosi 255 znaków."
 
-#: views/account/transactions/summary.html:32
+#: views/account/transactions/summary.html:22
 msgid "Maximal spendable"
 msgstr ""
 
-#: views/account/sign/index.html:170 views/account/sign/index.html:32
+#: views/account/sign/inside.html:161 views/account/sign/inside.html:23
 msgid "Message"
 msgstr "Wiadomość"
 
-#: views/otherStrings.html:80
+#: views/otherStrings.html:84
 msgid "Message verified."
 msgstr "Wiadomość zweryfikowana."
 
 #. This is on a hidden site, 99.99% of people will not see it
+#: views/device/metadata.html:38
+msgid "Metadata API keys - legacy"
+msgstr ""
+
+#. This is on a hidden site, 99.99% of people will not see it
 #: views/device/metadata.html:9
-msgid "Metadata API keys"
-msgstr "Klucze API metadanych"
+msgid "Metadata API keys - segwit"
+msgstr ""
 
-#: views/import.html:40
-msgid "Metadata keys"
-msgstr "Klucze metadanych"
-
-#: views/import.html:47
+#: views/import.html:69
 msgid ""
 "Metadata keys are necessary only if you want to enable labels and comments."
 msgstr ""
@@ -1228,24 +1293,24 @@ msgstr ""
 msgid "Metadata setup"
 msgstr "Konfiguracja metadanych"
 
-#: views/account/receive/index.html:104
+#: views/account/receive/index.html:102
 msgid "More addresses"
 msgstr "Więcej adresów"
 
 #. Literally 'my TREZOR (device)'. Used as a default device name. It HAS to be ASCII only and it HAS to be less than 16 letters long
 #: views/device/index.setup.html:18 views/device/load.html:26
 #: views/device/recovery.html:107 views/import.html:23
-#: views/otherStrings.html:14
+#: views/otherStrings.html:12
 msgctxt "default-name"
 msgid "My TREZOR"
 msgstr "Mój TREZOR"
 
-#: views/device/index.basic.html:211 views/device/index.basic.html:272
+#: views/device/index.basic.html:227 views/device/index.basic.html:288
 msgctxt "xpub-text"
 msgid "Mycelium"
 msgstr "'Mycelium'"
 
-#: views/account/transactions/index.html:25
+#: views/account/transactions/welcomes/bitcoin.html:5
 msgid "Nearest ATM:"
 msgstr "Najbliższy bankomat:"
 
@@ -1283,7 +1348,7 @@ msgstr "Dostępny jest nowy firmware."
 msgid "New device setup"
 msgstr "Konfiguracja nowego urządzenia"
 
-#: views/account/transactions/summary.html:88
+#: views/account/transactions/summary.html:79
 msgid "No Transactions Yet."
 msgstr "Brak transakcji."
 
@@ -1301,12 +1366,12 @@ msgstr ""
 "na podstawie rzutu kostką lub sekwencjami losowymi. Poprawne klucze BIP32 "
 "XPRV są interpretowane przed załadowaniem do urządzenia."
 
-#: views/account/transactions/index.html:18
+#: views/account/transactions/index.html:31
 msgid "No transactions, yet."
 msgstr "Nie ma jeszcze żadnej transakcji."
 
 #. Transaction fee size menu
-#: views/account/send/fees.html:24
+#: views/account/send/fees.html:21
 msgctxt "transaction-fee"
 msgid "Normal"
 msgstr "Normalna"
@@ -1319,15 +1384,15 @@ msgstr "Nie prawidłowy adres"
 msgid "Not enough funds"
 msgstr "Brak wystarczającej ilości środków"
 
-#: views/modal/pin.html:29
+#: views/modal/pin.html:30
 msgid "Not sure how PIN works?"
 msgstr ""
 
-#: views/modal/passphrase.html:36
+#: views/modal/passphrase.html:30
 msgid "Note that passphrase is case-sensitive."
 msgstr "Należy pamiętać, że hasło uwzględnia wielkość liter."
 
-#: views/modal/pin.html:27
+#: views/modal/pin.html:28
 msgid "Note that the number layout displayed on TREZOR has changed!"
 msgstr ""
 
@@ -1362,8 +1427,8 @@ msgid "Outputs:"
 msgstr "Wyjścia:"
 
 #. Enter [device_name] PIN
-#: views/device/load.html:46 views/modal/pin.html:14 views/modal/pin.html:22
-#: views/modal/pin.html:26
+#: views/device/load.html:46 views/modal/pin.html:15 views/modal/pin.html:23
+#: views/modal/pin.html:27
 msgid "PIN"
 msgstr "PIN"
 
@@ -1404,11 +1469,11 @@ msgstr ""
 "Szyfrowanie hasłem umożliwia dostęp do nowych portfeli ukrytych za "
 "określonym hasłem. Twoje stare konta będą dostępne za pustym hasłem."
 
-#: views/modal/passphrase.html:53
+#: views/modal/passphrase.html:46
 msgid "Passphrase is too long!"
 msgstr "Hasło jest zbyt długie!"
 
-#: views/modal/passphrase.html:48
+#: views/modal/passphrase.html:42
 msgid "Passphrases do not match!"
 msgstr "Hasła nie pasują do siebie!"
 
@@ -1417,7 +1482,7 @@ msgid "Paste the CSV here:"
 msgstr "Wklej tutaj CSV:"
 
 #. PIN strength
-#: views/modal/pin.html:96
+#: views/modal/pin.html:97
 msgid "Perfect, impossible to guess!"
 msgstr "Doskonały, niemożliwy do odgadnięcia!"
 
@@ -1532,12 +1597,12 @@ msgstr "Proszę potwierdź odcisk palca firmware-u."
 msgid "Please connect your device to access this section."
 msgstr "Proszę podłączyć urządzenie, aby uzyskać dostęp do tej sekcji."
 
-#: views/otherStrings.html:37
+#: views/otherStrings.html:41
 msgctxt "send-button-tooltip"
 msgid "Please connect your device to send coins."
 msgstr "Proszę podłączyć urządzenie, aby przesłać pieniądze."
 
-#: views/otherStrings.html:62
+#: views/otherStrings.html:66
 msgctxt "sign-button-tooltip"
 msgid "Please connect your device to sign messages."
 msgstr "Proszę podłączyć urządzenie, aby podpisać wiadomości."
@@ -1546,21 +1611,21 @@ msgstr "Proszę podłączyć urządzenie, aby podpisać wiadomości."
 msgid "Please disconnect it now."
 msgstr "Proszę teraz odłączyć urządzenie."
 
-#: views/modal/label.html:6
+#: views/modal/label.html:7
 msgid "Please enter the device label"
 msgstr "Wprowadź etykietę urządzenia"
 
-#: views/otherStrings.html:42
+#: views/otherStrings.html:46
 msgctxt "send-button-tooltip"
 msgid "Please fill in address"
 msgstr "Proszę wpisać adres"
 
-#: views/otherStrings.html:47
+#: views/otherStrings.html:51
 msgctxt "send-button-tooltip"
 msgid "Please fill in amount"
 msgstr "Proszę wpisać kwotę"
 
-#: views/otherStrings.html:57
+#: views/otherStrings.html:61
 msgctxt "sign-button-tooltip"
 msgid "Please fill in message and address."
 msgstr "Proszę wypełnić treść wiadomości i adres."
@@ -1588,7 +1653,7 @@ msgstr ""
 msgid "Please reconnect to the Internet and reload the page."
 msgstr "Proszę połączyć się ponownie z Internetem i przeładować stronę."
 
-#: views/otherStrings.html:67
+#: views/otherStrings.html:71
 msgctxt "send-button-tooltip"
 msgid "Please reload the page to send money."
 msgstr "Proszę odświeżyć stronę, aby wysłać pieniądze."
@@ -1608,21 +1673,21 @@ msgstr ""
 msgid "Please unplug the device now."
 msgstr "Proszę teraz odłączyć urządzenie."
 
-#: views/account/receive/address.html:46
+#: views/account/receive/address.html:64
 msgid "Please wait"
 msgstr "Proszę czekać"
 
-#: views/otherStrings.html:52
+#: views/otherStrings.html:56
 msgctxt "send-button-tooltip"
 msgid "Please wait a few seconds..."
 msgstr "Proszę poczekać kilka sekund..."
 
-#: views/otherStrings.html:32
+#: views/otherStrings.html:36
 msgctxt "button-tooltip"
 msgid "Please wait."
 msgstr "Proszę czekać."
 
-#: views/account/sign/index.html:99
+#: views/account/sign/inside.html:90
 msgid "Please wait..."
 msgstr "Proszę czekać..."
 
@@ -1630,7 +1695,7 @@ msgstr "Proszę czekać..."
 msgid "Please write down all these words carefully."
 msgstr "Proszę dokładnie zapisać wszystkie słowa."
 
-#: views/modal/pin.html:19
+#: views/modal/pin.html:20
 msgid "Please, re-enter correct PIN."
 msgstr "Wprowadź ponownie poprawny numer PIN."
 
@@ -1640,7 +1705,7 @@ msgid ""
 "detail."
 msgstr ""
 
-#: views/account/receive/index.html:67
+#: views/account/receive/index.html:70
 msgid "Previous addresses"
 msgstr "Poprzednie adresy"
 
@@ -1656,7 +1721,7 @@ msgstr "Przetwarzanie..."
 msgid "QR scanning failed."
 msgstr "Skanowanie kodu QR nie powiodło się."
 
-#: views/account/transactions/summary.html:46
+#: views/account/transactions/summary.html:36
 msgid "Rate"
 msgstr "Kurs"
 
@@ -1670,11 +1735,11 @@ msgid "Raw transaction in hex format:"
 msgstr "Surowa transakcja w formacie heksadecymalnym:"
 
 #. Re-enter new [device_name] PIN
-#: views/modal/pin.html:26
+#: views/modal/pin.html:27
 msgid "Re-enter new"
 msgstr "Wprowadź ponownie nowy"
 
-#: views/modal/passphrase.html:25 views/modal/passphrase.html:30
+#: views/modal/passphrase.html:22
 msgid "Re-type for control"
 msgstr "Przepisz ponownie dla sprawdzenia"
 
@@ -1683,12 +1748,12 @@ msgid "Reading of accounts failed."
 msgstr "Czytanie kont nie powiodło się."
 
 #. This is shown on the header Send/Receive/Transactions/...
-#: views/account/nav.html:13
+#: views/account/fake-nav.html:13 views/account/nav.html:13
 msgctxt "header"
 msgid "Receive"
 msgstr "Otrzymane"
 
-#: views/account/receive/index.html:10
+#: views/account/receive/index.html:14
 msgid "Receive payment"
 msgstr "Otrzymaj płatność"
 
@@ -1734,35 +1799,47 @@ msgstr "Usuń odbiorcę"
 msgid "Rename account"
 msgstr "Zmień nazwę konta"
 
-#: views/nav.html:191
+#: views/nav.html:215 views/nav/account.html:47
 msgid "Rename this account"
 msgstr "Zmień nazwę tego konta"
 
-#: views/settings.html:85
+#: views/settings.html:90
 msgid "Save &amp; Reload"
 msgstr "Zapisz &amp; Przeładuj"
+
+#: views/nav.html:171
+msgid "Saving"
+msgstr "Zapisywanie"
 
 #: views/account/send/txAddress.html:35
 msgid "Scan QR code"
 msgstr "Zeskanuj kod QR"
 
-#: views/modal/qr.html:6
+#: views/modal/qr.html:7
 msgid "Scan address from a QR code"
 msgstr "Zeskanuj adres z kodu QR"
 
 #. Whole text: *Scan it into an application that supports XPUBs such as* Mycelium or Sentinel for Android. Then, you can watch your transactions and receive payments everywhere without carrying your TREZOR.
-#: views/device/index.basic.html:207 views/device/index.basic.html:268
+#: views/device/index.basic.html:223 views/device/index.basic.html:284
 msgctxt "xpub-text"
 msgid "Scan it into an application that supports XPUBs such as"
 msgstr "Zeskanuj go do aplikacji, która obsługuje klucze XPUB takich jak"
 
-#: views/account/transactions/table.html:7
+#: views/account/transactions/table.html:47
 msgid "Search for address, date or amount"
 msgstr "Szukaj adresu, daty lub kwoty"
 
 #: views/device/recovery.html:19
 msgid "Seed recovery"
 msgstr "Ziarenko odzyskiwania"
+
+#: views/import.html:32
+msgid "Segwit account XPUBs"
+msgstr ""
+
+#: views/import.html:41
+msgid "Segwit metadata keys"
+msgstr ""
 
 #: views/install/main.html:30 views/install/main.html:54
 msgid "Select platform..."
@@ -1775,12 +1852,12 @@ msgid "Send"
 msgstr "Wyślij"
 
 #. This is shown on the header Send/Receive/Transactions/...
-#: views/account/nav.html:21
+#: views/account/fake-nav.html:21 views/account/nav.html:21
 msgctxt "header"
 msgid "Send"
 msgstr "Wyślij"
 
-#: views/account/send/index.html:13
+#: views/account/send/index.html:17
 msgid "Send payment"
 msgstr "Wyślij płatności"
 
@@ -1799,6 +1876,11 @@ msgstr "Ustaw"
 msgid "Set maximum possible amount"
 msgstr "Ustaw maksymalną ilość"
 
+#. This is a warning when user sets up his own fee
+#: views/account/send/fees.html:141
+msgid "Setting custom fee is not recommended."
+msgstr ""
+
 #: views/device/index.setup.html:10
 msgid ""
 "Setting up your TREZOR will take only a few minutes.\n"
@@ -1809,7 +1891,7 @@ msgstr ""
 msgid "Setup failed."
 msgstr "Konfiguracja nie powiodła się."
 
-#: views/device/index.basic.html:169
+#: views/device/index.basic.html:153
 msgid "Show XPUBs"
 msgstr "Pokaż klucze XPUB"
 
@@ -1825,24 +1907,24 @@ msgstr "Pokaż szczegóły"
 msgid "Show less"
 msgstr "Pokaż mniej"
 
-#: views/debug.button.html:5 views/debug.button.html:7 views/footer.html:26
+#: views/debug.button.html:5 views/debug.button.html:7 views/footer.html:23
 msgid "Show log"
 msgstr "Pokaż dziennik"
 
 #: views/account/transactions/txAddress.html:12
-#: views/device/index.basic.html:257
+#: views/device/index.basic.html:273
 msgid "Show more"
 msgstr ""
 
-#: views/account/receive/address.html:64
+#: views/account/receive/address.html:82
 msgid "Show on TREZOR"
 msgstr "Pokaż na urządzeniu TREZOR"
 
-#: views/modal/passphrase.html:44
+#: views/modal/passphrase.html:38
 msgid "Show passphrase"
 msgstr "Pokaż hasło"
 
-#: views/account/receive/index.html:32 views/account/receive/index.html:47
+#: views/account/receive/index.html:35 views/account/receive/index.html:50
 msgid "Show previous"
 msgstr "Pokaż poprzedni"
 
@@ -1852,35 +1934,35 @@ msgid "Show transaction details"
 msgstr "Pokaż szczegóły transakcji"
 
 #. This is on a button in the sign/verify form.
-#: views/account/sign/index.html:124
+#: views/account/sign/inside.html:115
 msgctxt "button"
 msgid "Sign"
 msgstr "Podpisz"
 
 #. This is shown on the header Send/Receive/Transactions/...
-#: views/account/nav.html:30
+#: views/account/fake-nav.html:31 views/account/nav.html:32
 msgctxt "header"
 msgid "Sign &amp; Verify"
 msgstr "Podpisz, Weryfikuj"
 
 #. This is a header in the sign window
-#: views/account/sign/index.html:17
+#: views/account/sign/inside.html:8
 msgctxt "header"
 msgid "Sign message"
 msgstr "Podpisz wiadomość"
 
 #. This is a label to the sign/verify form.
-#: views/account/sign/index.html:106 views/account/sign/index.html:225
+#: views/account/sign/inside.html:216 views/account/sign/inside.html:97
 msgctxt "sign"
 msgid "Signature"
 msgstr "Podpis"
 
-#: views/otherStrings.html:74
+#: views/otherStrings.html:78
 msgid "Signed successfully."
 msgstr "Podpisano pomyślnie."
 
 #. This is shown when the signing is in progress.
-#: views/account/send/index.html:83
+#: views/account/send/inside.html:102
 msgid "Signing and sending transaction&hellip;"
 msgstr "Podpisywanie i wysyłanie transakcji&hellip;"
 
@@ -1907,7 +1989,7 @@ msgid "Still confused how PIN works?"
 msgstr ""
 
 #. PIN strength
-#: views/modal/pin.html:95
+#: views/modal/pin.html:96
 msgid "Strong enough!"
 msgstr "Wystarczająco mocny!"
 
@@ -1916,6 +1998,10 @@ msgstr "Wystarczająco mocny!"
 msgctxt "flash"
 msgid "Success"
 msgstr "Sukces"
+
+#: index.html:47 views/top.nav.html:15
+msgid "Support"
+msgstr "Wsparcie"
 
 #: views/modal/firmware.html:169
 msgid "Support needed?"
@@ -1950,19 +2036,19 @@ msgstr ""
 msgid "TREZOR Wallet labeling"
 msgstr "TREZOR Wallet etykietowanie"
 
-#: views/modal/disconnect.html:9
+#: views/modal/disconnect.html:10
 msgid "TREZOR Wallet will forget your TREZOR right after you disconnect it."
 msgstr "TREZOR Wallet zapomni o urządzeniu TREZOR zaraz po odłączeniu."
 
-#: views/account/sign/index.html:198 views/account/sign/index.html:56
+#: views/account/sign/inside.html:189 views/account/sign/inside.html:47
 msgid "TREZOR can show only 64 letters on the display."
 msgstr "TREZOR może pokazać tylko 64 litery na ekranie."
 
-#: views/account/sign/index.html:63
+#: views/account/sign/inside.html:54
 msgid "TREZOR cannot sign non-ASCII characters."
 msgstr "TREZOR nie może podpisać znaków spoza ASCII."
 
-#: views/account/sign/index.html:205
+#: views/account/sign/inside.html:196
 msgid "TREZOR cannot verify non-ASCII characters."
 msgstr "TREZOR nie może zweryfikować znaków spoza ASCII."
 
@@ -1972,6 +2058,18 @@ msgstr "Ładowanie TREZOR nie powiodło się"
 
 #: views/jumbotrons/udev-note.html:7
 msgid "TREZOR not recognized?"
+msgstr ""
+
+#: views/account/transactions/table.html:11
+msgid "TX id"
+msgstr ""
+
+#: views/account/transactions/table.html:16
+msgid "TX total"
+msgstr ""
+
+#: views/account/transactions/table.html:12
+msgid "TX type"
 msgstr ""
 
 #. In the bottom footer.
@@ -2000,12 +2098,17 @@ msgstr ""
 "Ostateczny rozmiar może się różnić o kilka bajtów, ponieważ transakcja jest "
 "tworzona na urządzeniu TREZOR."
 
-#: views/modal/pin.html:15
+#: views/modal/pin.html:16
 msgid "The layout is displayed on your TREZOR."
 msgstr ""
 
+#. This text is displayed, when the fee is too high.
+#: views/account/send/inside.html:14
+msgid "The transaction fee is unexpectedly high."
+msgstr ""
+
 #. Whole text: Scan it into an application that supports XPUBs such as Mycelium or Sentinel for Android. *Then, you can watch your transactions and receive payments everywhere without carrying your TREZOR.*
-#: views/device/index.basic.html:225 views/device/index.basic.html:285
+#: views/device/index.basic.html:241 views/device/index.basic.html:301
 msgctxt "xpub-text"
 msgid ""
 "Then, you can watch your transactions and receive payments everywhere "
@@ -2041,20 +2144,24 @@ msgstr "To jest zaawansowany interfejs przeznaczony tylko dla EKSPERTÓW!"
 msgid "This is an advanced interface intended for developer use only!"
 msgstr "To jest zaawansowany interfejs przeznaczony tylko dla programistów!"
 
+#: views/account/transactions/table.html:10
+msgid "Time"
+msgstr ""
+
 #. Used as a suggested name for a transaction. *To* Account #2
-#: views/otherStrings.html:26
+#: views/otherStrings.html:30
 msgctxt "address-suggest"
 msgid "To"
 msgstr "Do"
 
-#: views/account/receive/index.html:119
+#: views/account/receive/index.html:117
 msgid ""
 "To access subsequent addresses, please use some of the listed addresses in "
 "a\n"
 "                                    transaction."
 msgstr ""
 
-#: views/account/receive/index.html:94
+#: views/account/receive/index.html:93
 msgid ""
 "To access subsequent addresses, please use some of the listed addresses in a "
 "transaction."
@@ -2062,14 +2169,14 @@ msgstr ""
 "Aby uzyskać dostęp do kolejnych adresów, proszę użyć niektórych z "
 "wymienionych adresów w transakcji."
 
-#: views/account/receive/index.html:112
+#: views/account/receive/index.html:110
 msgid ""
 "To access subsequent addresses, please wait for confirmation on transaction "
 "on some of the\n"
 "                                    previous addresses."
 msgstr ""
 
-#: views/nav.html:210
+#: views/nav.html:234 views/nav/device-buttons.html:11
 msgid ""
 "To add accounts, make sure your device is connected and the last account is "
 "not empty."
@@ -2089,7 +2196,7 @@ msgstr ""
 msgid "To update the firmware:"
 msgstr "Aby zaktualizować firmware:"
 
-#: views/account/transactions/table.html:20
+#: views/account/transactions/table.html:60
 msgid "Today"
 msgstr "Dzisiaj"
 
@@ -2099,7 +2206,7 @@ msgctxt "basic-label"
 msgid "Total balance"
 msgstr "Całkowite saldo"
 
-#: views/account/receive/address.html:91
+#: views/account/receive/address.html:39
 msgid "Total received:"
 msgstr "Łącznie otrzymano:"
 
@@ -2109,17 +2216,17 @@ msgctxt "send-done"
 msgid "Transaction"
 msgstr "Transakcja"
 
-#. This is shown on the header Send/Receive/Transactions/...
-#: views/account/nav.html:5
-msgctxt "header"
-msgid "Transactions"
-msgstr "Transakcje"
-
 #: views/account/transactions/table.html:4
 msgid "Transactions"
 msgstr "Transakcje"
 
-#: views/account/transactions/summary.html:85
+#. This is shown on the header Send/Receive/Transactions/...
+#: views/account/fake-nav.html:5 views/account/nav.html:5
+msgctxt "header"
+msgid "Transactions"
+msgstr "Transakcje"
+
+#: views/account/transactions/summary.html:76
 msgid "Transactions are loading ..."
 msgstr "Transakcje są ładowane ..."
 
@@ -2139,20 +2246,20 @@ msgstr "Spróbuj ponownie"
 msgid "Try installing udev rules."
 msgstr "Spróbuj zainstalować pakiet reguł udev."
 
-#: views/settings.html:62
+#: views/settings.html:67
 msgid "URL needs to start with https://"
 msgstr "Adres URL musi zaczynać się od https://"
 
-#: views/settings.html:67
+#: views/settings.html:72
 msgid "URL needs to start with https:// or http://"
 msgstr "Adres URL musi zaczynać się od http:// lub https://"
 
-#: views/account/transactions/table.html:27
+#: views/account/transactions/table.html:67
 msgid "Unconfirmed"
 msgstr "Niepotwierdzone"
 
 #. This text is displayed, when the amount is too high. Its goal is to get user to re-check the address. This is the second line.
-#: views/account/send/index.html:37
+#: views/account/send/inside.html:56
 msgid ""
 "Unlike your TREZOR, computers are not safe. Malware might replace bitcoin "
 "addresses you see."
@@ -2161,12 +2268,12 @@ msgstr ""
 "oprogramowanie może podmienić adresy bitcoin, które widzisz."
 
 #. PIN strength
-#: views/modal/pin.html:92
+#: views/modal/pin.html:93
 msgid "Unnecessarily too long."
 msgstr "Niepotrzebnie zbyt długi."
 
 #. Shown in the list of addresses, the small comment below an address
-#: views/account/receive/address.html:100
+#: views/account/receive/address.html:48
 msgid "Unused address"
 msgstr "Nieużywany adres"
 
@@ -2191,11 +2298,9 @@ msgstr "Zaktualizowano pomyślnie"
 msgid "Upgrade"
 msgstr "Aktualizacja"
 
-#. Upgrade refers to bridge upgrade
-#: views/alertbars/firmware.html:10
-msgctxt "firmware-update"
+#: views/install/bridge.force.html:12
 msgid "Upgrade for the newest features and bug fixes."
-msgstr "Aktualizuj aby mieć dostęp do najnowszych funkcji i poprawek błędów."
+msgstr ""
 
 #. Upgrade refers to bridge upgrade
 #: views/alertbars/bridge.html:8
@@ -2203,9 +2308,11 @@ msgctxt "bridge-update"
 msgid "Upgrade for the newest features and bug fixes."
 msgstr "Aktualizuj aby mieć dostęp do najnowszych funkcji i poprawek błędów."
 
-#: views/install/bridge.force.html:12
+#. Upgrade refers to bridge upgrade
+#: views/alertbars/firmware.html:10
+msgctxt "firmware-update"
 msgid "Upgrade for the newest features and bug fixes."
-msgstr ""
+msgstr "Aktualizuj aby mieć dostęp do najnowszych funkcji i poprawek błędów."
 
 #. This is on a button, for browsing images for homescreen tab
 #: views/device/homescreen.html:25
@@ -2225,7 +2332,8 @@ msgstr ""
 "Użyj tej funkcji tylko jeśli masz swoje ziarenko odzyskiwania lub na "
 "urządzeniu nie masz żadnych pieniędzy."
 
-#: views/nav.html:25 views/nav.html:70
+#: views/nav.html:25 views/nav.html:70 views/nav/device.html:21
+#: views/nav/unacquired.html:14
 msgid "Used in other window"
 msgstr "Użyte w innym oknie"
 
@@ -2260,14 +2368,18 @@ msgid "Using this process might make your TREZOR unusable."
 msgstr ""
 "Użycie tego procesu może sprawić, że Twój TREZOR stanie się bezużyteczny."
 
+#: views/account/transactions/table.html:15
+msgid "Value"
+msgstr ""
+
 #. This is on a button in the sign/verify form.
-#: views/account/sign/index.html:243
+#: views/account/sign/inside.html:234
 msgctxt "button"
 msgid "Verify"
 msgstr "Weryfikuj"
 
 #. This is a header in the sign window
-#: views/account/sign/index.html:156
+#: views/account/sign/inside.html:147
 msgctxt "header"
 msgid "Verify message"
 msgstr "Weryfikuj wiadomość"
@@ -2276,15 +2388,16 @@ msgstr "Weryfikuj wiadomość"
 msgid "Versions"
 msgstr "Wersje"
 
-#: views/account/receive/address.html:95 views/account/receive/index.html:137
+#: views/account/receive/address.html:176 views/account/receive/address.html:43
 msgid "View address at block explorer"
 msgstr "Zobacz adres w block explorer"
 
-#: views/modal/qr.html:9
+#: views/modal/qr.html:10
 msgid "Waiting for camera&hellip;"
 msgstr "Czekanie na aparat&hellip;"
 
-#: views/account/receive/index.html:164
+#: views/account/receive/index.html:128 views/account/send/index.html:28
+#: views/account/sign/index.html:20
 msgid "Waiting for transaction history"
 msgstr "Czekanie na historię transakcji"
 
@@ -2296,8 +2409,8 @@ msgstr "Portfel"
 msgid "Want to restore your wallet from recovery seed?"
 msgstr "Chcesz przywrócić swój portfel z ziarenka odzyskiwania?"
 
-#: views/account/sign/index.html:188 views/account/sign/index.html:197
-#: views/account/sign/index.html:47 views/account/sign/index.html:55
+#: views/account/sign/inside.html:179 views/account/sign/inside.html:188
+#: views/account/sign/inside.html:38 views/account/sign/inside.html:46
 msgid "Warning:"
 msgstr "Ostrzeżenie:"
 
@@ -2312,7 +2425,7 @@ msgstr ""
 "Windows, macOS, Linux lub urządzenia z systemem Android."
 
 #. This text is displayed, when the amount is too high. Its goal is to get user to re-check the address. This is the third line.
-#: views/account/send/index.html:44
+#: views/account/send/inside.html:63
 msgid ""
 "We recommend you to verify the payment address through independent "
 "communication channels such as a phone call or a text message."
@@ -2328,11 +2441,11 @@ msgstr "Teraz pokażemy Ci ponownie 24 słowa."
 msgid "Welcome to TREZOR Setup!"
 msgstr "Witamy w ustawieniach TREZOR!"
 
-#: views/account/transactions/index.html:20
+#: views/account/transactions/index.html:33
 msgid "What's next?"
 msgstr ""
 
-#: views/device/index.basic.html:196 views/device/index.basic.html:256
+#: views/device/index.basic.html:212 views/device/index.basic.html:272
 msgid ""
 "When you give them to a third party, you allow it to see your whole "
 "transaction history."
@@ -2340,15 +2453,15 @@ msgstr ""
 "Gdy dajesz je osobom trzecim, możesz pozwolić im zobaczyć Twoją całą "
 "historię transakcji."
 
-#. This is a short label in the device Advanced page
-#: views/device/advanced.html:177
-msgctxt "advanced-label"
-msgid "Wipe device"
-msgstr "Wyczyść urządzenie"
-
 #. This is written on a button, clicking it will wipe the device
 #: views/device/advanced.html:201
 msgctxt "button"
+msgid "Wipe device"
+msgstr "Wyczyść urządzenie"
+
+#. This is a short label in the device Advanced page
+#: views/device/advanced.html:177
+msgctxt "advanced-label"
 msgid "Wipe device"
 msgstr "Wyczyść urządzenie"
 
@@ -2494,7 +2607,7 @@ msgid "Write down the recovery seed from your device."
 msgstr "Przepisz ziarenko odzyskiwania ze swojego urządzenia."
 
 #. Wrong [device_name] PIN
-#: views/modal/pin.html:18
+#: views/modal/pin.html:19
 msgid "Wrong PIN on"
 msgstr "Niewłaściwy PIN na"
 
@@ -2506,9 +2619,14 @@ msgstr ""
 msgid "Yes, update"
 msgstr "Tak, aktualizuj"
 
-#: views/account/transactions/table.html:23
+#: views/account/transactions/table.html:63
 msgid "Yesterday"
 msgstr "Wczoraj"
+
+#. This text is displayed, when the fee is too high. *You are about to pay* $20 to send this transaction.
+#: views/account/send/inside.html:23
+msgid "You are about to pay"
+msgstr ""
 
 #: views/alertbars/offline.html:6
 msgid "You are offline."
@@ -2524,7 +2642,7 @@ msgstr "Możesz również pobrać i zainstalować APK bezpośrednio."
 msgid "You can try to resend this transaction using"
 msgstr "Możesz spróbować wysłać ponownie tę transakcję za pomocą"
 
-#: views/nav.html:218
+#: views/nav.html:242 views/nav/device-buttons.html:46
 msgid "You cannot add more than 10 accounts."
 msgstr "Nie możesz dodać więcej niż 10 kont."
 
@@ -2550,7 +2668,7 @@ msgstr ""
 "portfel."
 
 #. This text is displayed, when the amount is too high. Its goal is to get user to re-check the address. This is the first line.
-#: views/account/send/index.html:29
+#: views/account/send/inside.html:48
 msgid "You're about to send a lot of money!"
 msgstr "Jesteś na prostej drodze, aby wysłać dużo pieniędzy!"
 
@@ -2595,7 +2713,7 @@ msgid "Your installation of TREZOR Bridge needs to be upgraded first."
 msgstr "Twoja instalacja TREZOR Bridge musi być zaktualizowana jako pierwsza."
 
 #. This will always be singular, and > 200.
-#: views/account/sign/index.html:49 views/account/sign/index.html:57
+#: views/account/sign/inside.html:40 views/account/sign/inside.html:48
 msgid ""
 "Your message is {{accountSignCtrl.signMessage.message.length}} letters long."
 msgstr ""
@@ -2603,7 +2721,7 @@ msgstr ""
 "litery."
 
 #. This will always be singular, and > 200.
-#: views/account/sign/index.html:190
+#: views/account/sign/inside.html:181
 msgid ""
 "Your message is {{accountSignCtrl.verifyMessage.message.length}} letters "
 "long."
@@ -2620,6 +2738,10 @@ msgstr "dodawaj swoje komentarze do transakcji"
 #: views/device/homescreen.html:134
 msgid "coffee by jen is licenced under CC BY 2.0"
 msgstr "coffee autorstwa jen na licencji CC BY 2.0"
+
+#: views/nav/settings-buttons.html:40
+msgid "connected"
+msgstr ""
 
 #: views/account/send/txAmount.html:24 views/account/send/txAmount.html:81
 msgid "counting..."
@@ -2650,8 +2772,8 @@ msgstr ""
 msgid "homescreen editor"
 msgstr "edytor ekranu głównego"
 
-#. Used when estimating transaction time (Expected time: less than 5 *minutes*)
-#: views/account/send/fees.html:60
+#. Used when estimating transaction time (Expected time: 5 *hours*)
+#: views/account/send/fees.html:59
 msgctxt "transaction-time"
 msgid "hour"
 msgid_plural "hours"
@@ -2660,7 +2782,7 @@ msgstr[1] "godziny"
 msgstr[2] "godzin"
 
 #. Preceding is a non-ascii character in quotes.
-#: views/account/sign/index.html:206 views/account/sign/index.html:64
+#: views/account/sign/inside.html:197 views/account/sign/inside.html:55
 msgid "in your message is not an ASCII character."
 msgstr "w Twojej wiadomości nie ma znaku ASCII."
 
@@ -2674,14 +2796,8 @@ msgstr "Etykietowanie adresów"
 msgid "leave empty to keep PIN protection disabled"
 msgstr "Pozostaw puste, aby zachować ochronę PIN wyłączoną"
 
-#. Used when estimating transaction time (Expected time: *less than* 5 minutes)
-#: views/account/send/fees.html:50
-msgctxt "transaction-time"
-msgid "less than"
-msgstr "mniej niż"
-
-#. Used when estimating transaction time (Expected time: less than 5 *minutes*)
-#: views/account/send/fees.html:73
+#. Used when estimating transaction time (Expected time: 5 *minutes*)
+#: views/account/send/fees.html:72
 msgctxt "transaction-time"
 msgid "minute"
 msgid_plural "minutes"
@@ -2690,21 +2806,21 @@ msgstr[1] "minuty"
 msgstr[2] "minut"
 
 #. This is on a hidden site, 99.99% of people will not see it
-#: views/device/metadata.html:26
+#: views/device/metadata.html:26 views/device/metadata.html:55
 msgid "not set"
 msgstr "brak"
 
-#: views/account/transactions/index.html:24
+#: views/account/transactions/welcomes/bitcoin.html:4
 msgid "or"
 msgstr "lub"
 
 #. Whole text: Scan it into an application that supports XPUBs such as Mycelium *or* Sentinel for Android. Then, you can watch your transactions and receive payments everywhere without carrying your TREZOR.
-#: views/device/index.basic.html:214
+#: views/device/index.basic.html:230
 msgctxt "xpub-text"
 msgid "or"
 msgstr "lub"
 
-#: views/account/send/index.html:95
+#: views/account/send/inside.html:114
 msgid "phase"
 msgstr "faza"
 
@@ -2731,8 +2847,22 @@ msgstr "instrukcja obsługi"
 msgid "to"
 msgstr "do"
 
+#. This text is displayed, when the fee is too high. You are about to pay $20 *to send this transaction.*
+#: views/account/send/inside.html:34
+msgid "to send this transaction."
+msgstr ""
+
 #. In text: 'Loading (123 transactions)', it is always plural
-#: views/nav.html:173
+#: views/nav/account.html:26
+msgctxt "loading"
+msgid "transaction"
+msgid_plural "transactions"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#. In text: 'Loading (123 transactions)', it is always plural
+#: views/nav.html:192
 msgctxt "loading"
 msgid "transactions"
 msgstr "transakcje"
@@ -2754,11 +2884,27 @@ msgctxt "typeahead"
 msgid "your account"
 msgstr "Twoje konto"
 
+#~ msgid "Account XPUBs"
+#~ msgstr "Konto XPUB"
+
+#~ msgid "Contact"
+#~ msgstr "Kontakt"
+
+#~ msgid "Fees by"
+#~ msgstr "Opłaty dostarcza"
+
+#~ msgid "Metadata API keys"
+#~ msgstr "Klucze API metadanych"
+
+#~ msgid "Metadata keys"
+#~ msgstr "Klucze metadanych"
+
+#~ msgctxt "transaction-time"
+#~ msgid "less than"
+#~ msgstr "mniej niż"
+
 #~ msgid "Account balance information is inconsistent."
 #~ msgstr "Informacja o balansie konta jest sprzeczna."
-
-#~ msgid "Analysing"
-#~ msgstr "Analizowanie"
 
 #~ msgid "Enter new"
 #~ msgstr "Wprowadź nowy"
@@ -2869,9 +3015,6 @@ msgstr "Twoje konto"
 
 #~ msgid "Please write down the 9th word of your recovery seed."
 #~ msgstr "Proszę zapisać 9 słowo ziarenka odzyskiwania."
-
-#~ msgid "Saving"
-#~ msgstr "Zapisywanie"
 
 #~ msgctxt "transaction-list"
 #~ msgid "Unknown"
@@ -3257,9 +3400,6 @@ msgstr "Twoje konto"
 
 #~ msgid "Strong"
 #~ msgstr "Silny"
-
-#~ msgid "Support"
-#~ msgstr "Wsparcie"
 
 #~ msgid "this page or choose another server in"
 #~ msgstr "tę stronę lub wybierz inny serwer w"
