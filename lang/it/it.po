@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2017-07-01 14:22+0000\n"
-"Last-Translator: mattia <tia.theking@gmail.com>\n"
+"PO-Revision-Date: 2017-07-11 21:41+0000\n"
+"Last-Translator: Gualtiero Catrame <gualtierocatrame@gmail.com>\n"
 "Language-Team: Italian "
 "<https://hosted.weblate.org/projects/satoshilabs/mytrezor/it/>\n"
 "Language: it\n"
@@ -115,8 +115,9 @@ msgstr "Aggiungi un commento"
 
 #: views/nav/device-buttons.html:21 views/nav/device-buttons.html:38
 #: views/nav/device-buttons.html:56
+#, fuzzy
 msgid "Add legacy account"
-msgstr ""
+msgstr "Aggiungi account legacy"
 
 #: views/account/send/buttonBar.html:24
 msgid "Add recipient"
@@ -1150,18 +1151,26 @@ msgid "If you set too low fee, it might get stuck forever."
 msgstr "Se imposti una fee troppo bassa, potrebbe rimanere in coda per sempre."
 
 #: views/modal/firmware.html:281
+#, fuzzy
 msgid ""
 "If your TREZOR has not been set up yet (fresh out of the box), you do not "
 "need to\n"
 "                            have a Recovery seed."
 msgstr ""
+"Se il tuo TREZOR non è stato ancora configurato (appena uscito dalla scatola)"
+", non hai bisogno di\n"
+"                            avere il Recovery seed."
 
 #: views/modal/firmware.html:189
+#, fuzzy
 msgid ""
 "If your TREZOR is already initialized, always have your Recovery seed with "
 "you\n"
 "                    before updating the firmware!"
 msgstr ""
+"Se il tuo TREZOR è stato già configurato, devi sempre avere il Recovery seed "
+"con te\n"
+"                    prima di aggiornare il firmware!"
 
 #: views/device/homescreen.html:80
 msgid ""
@@ -1205,10 +1214,13 @@ msgid ""
 msgstr ""
 
 #: views/modal/firmware.html:291
+#, fuzzy
 msgid ""
 "In very rare cases, a firmware update might result in the need to recover "
 "the wallet from Recovery seed."
 msgstr ""
+"In rari casi, un aggiornamento firmware può portare alla necessità di "
+"ripristinare il wallet dal Recovery seed."
 
 #: views/account/transactions/summary.html:46
 #, fuzzy
@@ -1411,8 +1423,10 @@ msgstr ""
 "destinatario."
 
 #: views/modal/firmware.html:410
+#, fuzzy
 msgid "Make sure the same fingerprint is displayed on the device screen."
 msgstr ""
+"Assicurati che la stessa impronta sia mostrata sullo schermo del dispositivo."
 
 #: views/jumbotrons/udev-note.html:42
 msgid "Manual configuration (advanced)"
@@ -1463,7 +1477,7 @@ msgstr ""
 #. This is on a hidden site, 99.99% of people will not see it
 #: views/device/nav.html:35
 msgid "Metadata setup"
-msgstr ""
+msgstr "Configurazione metadata"
 
 #: views/account/receive/index.html:102
 msgid "More addresses"
@@ -1580,7 +1594,7 @@ msgstr ""
 #: views/device/recovery.html:113
 msgctxt "recovery-label"
 msgid "Number of words in your recovery seed"
-msgstr ""
+msgstr "Numero di parole nel tuo recovery seed"
 
 #: views/device/advanced.html:102 views/device/advanced.html:52
 #: views/modal/pinguide.html:19
@@ -1674,7 +1688,7 @@ msgid ""
 "            you wrote them down correctly."
 msgstr ""
 "Controlla attentamente di\n"
-"________ averli annotati correttamente"
+"________ averli annotati correttamente."
 
 #: views/modal/setup.wordCheck.html:12
 msgid "Please check the 10th word of your recovery seed."
@@ -1952,7 +1966,7 @@ msgstr ""
 
 #: views/debug.html:54
 msgid "Recovery failed."
-msgstr ""
+msgstr "Recupero fallito."
 
 #: views/device/load.html:33
 msgid "Recovery seed or XPRV private key"
@@ -2004,7 +2018,7 @@ msgstr "Salvataggio"
 
 #: views/account/send/txAddress.html:35
 msgid "Scan QR code"
-msgstr "Scan QR code"
+msgstr "Scansiona QR code"
 
 #: views/modal/qr.html:7
 msgid "Scan address from a QR code"
@@ -2070,7 +2084,7 @@ msgstr "Imposta la quantità massima possibile"
 #. This is a warning when user sets up his own fee
 #: views/account/send/fees.html:141
 msgid "Setting custom fee is not recommended."
-msgstr ""
+msgstr "Impostare tasse personalizzate non è raccomandato."
 
 #: views/device/index.setup.html:10
 msgid ""
@@ -2130,29 +2144,29 @@ msgstr "Mostra i dettagli della transazione"
 #: views/account/sign/inside.html:115
 msgctxt "button"
 msgid "Sign"
-msgstr ""
+msgstr "Firma"
 
 #. This is shown on the header Send/Receive/Transactions/...
 #: views/account/fake-nav.html:31 views/account/nav.html:32
 msgctxt "header"
 msgid "Sign &amp; Verify"
-msgstr ""
+msgstr "Firma &amp; Verifica"
 
 #. This is a header in the sign window
 #: views/account/sign/inside.html:8
 msgctxt "header"
 msgid "Sign message"
-msgstr ""
+msgstr "Firma messaggio"
 
 #. This is a label to the sign/verify form.
 #: views/account/sign/inside.html:216 views/account/sign/inside.html:97
 msgctxt "sign"
 msgid "Signature"
-msgstr ""
+msgstr "Firma"
 
 #: views/otherStrings.html:78
 msgid "Signed successfully."
-msgstr ""
+msgstr "Firmato con successo."
 
 #. This is shown when the signing is in progress.
 #: views/account/send/inside.html:102
@@ -2183,8 +2197,9 @@ msgstr "Ancora confuso sul funzionamento del PIN?"
 
 #. PIN strength
 #: views/modal/pin.html:96
+#, fuzzy
 msgid "Strong enough!"
-msgstr "Abbastanza sufficientemente"
+msgstr "Abbastanza sicuro!"
 
 #. This is displayed on top when any action successfully finishes
 #: views/debug.html:101
@@ -2235,6 +2250,7 @@ msgstr "Etichettatura del Wallet TREZOR"
 #: views/modal/disconnect.html:10
 msgid "TREZOR Wallet will forget your TREZOR right after you disconnect it."
 msgstr ""
+"Il Wallet TREZOR dimenticherà il tuo TREZOR subito dopo averlo disconnesso."
 
 #: views/account/sign/inside.html:189 views/account/sign/inside.html:47
 msgid "TREZOR can show only 64 letters on the display."
@@ -2283,7 +2299,7 @@ msgstr ""
 "L'autenticità del firmware installato viene verificata durante l'avvio.\n"
 "                         Se il firmware non è stato fornito da SatoshiLabs, "
 "il dispositivo visualizzerà un avviso al momento\n"
-"                         dell' avvio"
+"                         dell'avvio."
 
 #: views/settings.html:13
 msgid "The bitcore server doesn't seem to reply. Please select another server."
@@ -2516,7 +2532,7 @@ msgstr "Aggiorna per avere le features più recenti e la risoluzione dei bug."
 #: views/alertbars/bridge.html:8
 msgctxt "bridge-update"
 msgid "Upgrade for the newest features and bug fixes."
-msgstr "Aggiorna per avere le features più recenti e la risoluzione dei bug."
+msgstr "Aggiorna per avere le funzioni più recenti e la risoluzione dei bug."
 
 #. Upgrade refers to bridge upgrade
 #: views/alertbars/firmware.html:10
@@ -2901,7 +2917,7 @@ msgstr "Il tuo TREZOR non è in modalità aggiornamento firmware."
 
 #: views/modal/disconnect.wipe.html:7 views/modal/forget.wipe.html:7
 msgid "Your TREZOR was successfully wiped."
-msgstr "Il tuo TREZOR è stato pulito con successo."
+msgstr "Il tuo TREZOR è stato azzerato con successo."
 
 #: views/modal/firmware.html:122 views/modal/firmware.html:371
 msgid "Your device firmware is outdated"
@@ -3053,7 +3069,7 @@ msgstr ""
 #. Clicking here will lead the user to our manual.
 #: views/modal/firmware.html:29
 msgid "the user manual"
-msgstr "Manuale utente"
+msgstr "il manuale utente"
 
 #: views/account/transactions/summary.html:8
 msgid "to"
