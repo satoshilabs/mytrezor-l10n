@@ -4,8 +4,8 @@ msgstr ""
 "POT-Creation-Date: \n"
 "PO-Revision-Date: 2017-07-02 06:41+0000\n"
 "Last-Translator: Surya Susilo <ekawithoutyou@indonesianbacktrack.or.id>\n"
-"Language-Team: Indonesian "
-"<https://hosted.weblate.org/projects/satoshilabs/mytrezor/id/>\n"
+"Language-Team: Indonesian <https://hosted.weblate.org/projects/satoshilabs/"
+"mytrezor/id/>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -124,9 +124,7 @@ msgctxt "recovery-label"
 msgid "Additional passphrase encryption"
 msgstr "Tambahan enkripsi passphrase"
 
-#. This is a label to the sign/verify form.
-#: views/account/sign/inside.html:203 views/account/sign/inside.html:62
-msgctxt "sign"
+#: views/account/transactions/table.html:13
 msgid "Address"
 msgstr "Alamat"
 
@@ -136,7 +134,9 @@ msgctxt "send"
 msgid "Address"
 msgstr "Alamat"
 
-#: views/account/transactions/table.html:13
+#. This is a label to the sign/verify form.
+#: views/account/sign/inside.html:203 views/account/sign/inside.html:62
+msgctxt "sign"
 msgid "Address"
 msgstr "Alamat"
 
@@ -158,13 +158,13 @@ msgctxt "header"
 msgid "Advanced"
 msgstr "Tingkat lanjut"
 
-#. This is a label to a checkbox in the device recovery page
-#: views/device/recovery.html:173 views/device/recovery.html:185
-msgctxt "recovery-label"
+#: views/modal/recovery.html:65
 msgid "Advanced recovery"
 msgstr "Pemulihan tingkat lanjut"
 
-#: views/modal/recovery.html:65
+#. This is a label to a checkbox in the device recovery page
+#: views/device/recovery.html:173 views/device/recovery.html:185
+msgctxt "recovery-label"
 msgid "Advanced recovery"
 msgstr "Pemulihan tingkat lanjut"
 
@@ -226,6 +226,10 @@ msgstr "Pengaturan App"
 #: views/settings.html:29
 msgid "Application Settings"
 msgstr "Pengaturan Aplikasi"
+
+#: config.sample.js:8
+msgid "August 1st Advisory"
+msgstr ""
 
 #: views/account/receive/address.html:189
 msgid "BIP32 Path:"
@@ -461,14 +465,14 @@ msgstr "Lanjutkan"
 msgid "Currency backend"
 msgstr "Backend mata uang"
 
-#: views/date.selection.html:57
-msgid "Custom"
-msgstr "Custom"
-
 #. Transaction fee size menu
 #: views/account/send/fees.html:33
 #, fuzzy
 msgctxt "transaction-fee"
+msgid "Custom"
+msgstr "Custom"
+
+#: views/date.selection.html:57
 msgid "Custom"
 msgstr "Custom"
 
@@ -519,9 +523,9 @@ msgstr "Perangkat harus dihapus sebelum dilakukan pemulihan."
 msgid "Device is updated in other window"
 msgstr "Perangkat sedang diperbarui di jendela lain"
 
-#. This is a short label in the normally hidden, advanced Load page
-#: views/device/load.html:22
-msgctxt "load-label"
+#. This is a short label in the device recovery page
+#: views/device/recovery.html:103
+msgctxt "recovery-label"
 msgid "Device label"
 msgstr "Label Perangkat"
 
@@ -529,9 +533,9 @@ msgstr "Label Perangkat"
 msgid "Device label"
 msgstr "Label Perangkat"
 
-#. This is a short label in the device recovery page
-#: views/device/recovery.html:103
-msgctxt "recovery-label"
+#. This is a short label in the normally hidden, advanced Load page
+#: views/device/load.html:22
+msgctxt "load-label"
 msgid "Device label"
 msgstr "Label Perangkat"
 
@@ -642,6 +646,14 @@ msgstr "Mengunduh firmware..."
 msgid "Dropbox connected. Click to disconnect it."
 msgstr "Dropbox terhubung. Klik untuk memutuskan sambungan."
 
+#: config.sample.js:10
+msgid ""
+"Due to the possible Bitcoin network disruption, it is not recommended to "
+"send nor receive any bitcoins from July 31st until the network stabilizes. "
+"<a href=\"https://blog.trezor.io/trezor-advisory-uasf-chain-split-"
+"fork-2f95cf2c11a0\" target=\"_blank\">Learn more</a>"
+msgstr ""
+
 #: views/modal/ethwallet.html:2
 msgid "ETH / ETC Wallet"
 msgstr "Dompet ETH / ETC"
@@ -697,6 +709,11 @@ msgctxt "pin"
 msgid "Enabled"
 msgstr "Aktif"
 
+#. Enter [device_name] PIN
+#: views/modal/pin.html:15
+msgid "Enter"
+msgstr "Enter"
+
 #. This is on a pin button
 #: views/modal/pin.html:103
 msgctxt "pin-button"
@@ -706,11 +723,6 @@ msgstr "Enter"
 #. This is on a passphrase button
 #: views/modal/passphrase.html:52
 msgctxt "passphrase-button"
-msgid "Enter"
-msgstr "Enter"
-
-#. Enter [device_name] PIN
-#: views/modal/pin.html:15
 msgid "Enter"
 msgstr "Enter"
 
@@ -781,13 +793,13 @@ msgstr "Gagal menandatangani pesan"
 msgid "Failed to verify message"
 msgstr "Gagal memverifikasi pesan"
 
-#: views/account/send/fees.html:87 views/account/transactions/table.html:17
-msgid "Fee"
-msgstr "Biaya"
-
 #. This is a label to the sending form. (Address/amount/comment)
 #: views/account/send/fees.html:4
 msgctxt "send"
+msgid "Fee"
+msgstr "Biaya"
+
+#: views/account/send/fees.html:87 views/account/transactions/table.html:17
 msgid "Fee"
 msgstr "Biaya"
 
@@ -859,6 +871,12 @@ msgstr ""
 "                        firmware anda akan tetap 'up to date' saat inisasi "
 "awal."
 
+#: config.sample.js:27
+msgid ""
+"For testing purposes, Wallet uses the same dollar rates for testnet coins as "
+"for bitcoin."
+msgstr ""
+
 #. Button in remember/forget dialog
 #: views/modal/forget.disconnected.html:14 views/modal/forget.requested.html:15
 msgctxt "forget-button"
@@ -923,7 +941,7 @@ msgstr ""
 msgid "Hide previous"
 msgstr "Sembunyikan sebelumnya"
 
-#: views/account/transactions/index.html:44
+#: views/account/transactions/index.html:47
 msgid "Hide this account"
 msgstr "Sembunyikan akun ini"
 
@@ -1166,6 +1184,7 @@ msgstr "2 Tahun Terakhir"
 msgid "Latest"
 msgstr "Terbaru"
 
+#: views/account/transactions/legacynote.html:10
 #: views/device/index.basic.html:213 views/device/index.setup.html:11
 #: views/modal/pin.html:30 views/modal/pinguide.html:13
 msgid "Learn more"
@@ -1203,6 +1222,11 @@ msgctxt "default-name"
 msgid "Legacy Account"
 msgstr "Akun legacy"
 
+#. This is shown on the header of legacy note
+#: views/account/transactions/legacynote.html:3
+msgid "Legacy account"
+msgstr ""
+
 #: views/import.html:51
 msgid "Legacy account XPUBs"
 msgstr "XPUBs akun legacy"
@@ -1210,6 +1234,10 @@ msgstr "XPUBs akun legacy"
 #: views/import.html:60
 msgid "Legacy metadata keys"
 msgstr "Kunci metadata legacy"
+
+#: config.sample.js:17
+msgid "Litecoin changed the format of addresses."
+msgstr ""
 
 #: views/jumbotrons/loading.html:4 views/nav.html:153 views/nav.html:185
 #: views/nav/account.html:23 views/nav/account.html:6
@@ -1233,7 +1261,7 @@ msgstr "Gagal memuat."
 msgid "Loading of accounts failed."
 msgstr "Gagal memuat akun."
 
-#: views/account/transactions/index.html:53
+#: views/account/transactions/index.html:56
 msgid "Loading transactions"
 msgstr "Memuat transaksi"
 
@@ -1400,7 +1428,7 @@ msgstr ""
 "deretan binari, deret acak atau kalimat acak. Kunci XPRV BIP32 yang valid "
 "akan selalu diprioritaskan untuk di interpretasi saat pemuatan perangkat."
 
-#: views/account/transactions/index.html:31
+#: views/account/transactions/index.html:34
 msgid "No transactions, yet."
 msgstr "Belum ada transaksi."
 
@@ -1431,6 +1459,10 @@ msgid "Note that the number layout displayed on TREZOR has changed!"
 msgstr ""
 "Perlu dicatat bahwa nomor rancangan tata letak yang ditampilkan pada TRAZOR "
 "telah berubah!"
+
+#: config.sample.js:17
+msgid "Note:"
+msgstr ""
 
 #: views/modal/firmware.html:125
 msgid ""
@@ -1891,21 +1923,35 @@ msgstr "Kunci metadata segwit"
 msgid "Select platform..."
 msgstr "Pilih platfrom..."
 
-#. This is shown on the main, big Send button
-#: views/account/send/buttonBar.html:10
-msgctxt "button"
-msgid "Send"
-msgstr "Kirim"
-
 #. This is shown on the header Send/Receive/Transactions/...
 #: views/account/fake-nav.html:21 views/account/nav.html:21
 msgctxt "header"
 msgid "Send"
 msgstr "Kirim"
 
+#. This is shown on the main, big Send button
+#: views/account/send/buttonBar.html:10
+msgctxt "button"
+msgid "Send"
+msgstr "Kirim"
+
 #: views/account/send/index.html:17
 msgid "Send payment"
 msgstr "Kirim pembayaran"
+
+#: config.sample.js:20
+msgid ""
+"Sending a transaction to an address starting with <strong>3</strong>? "
+"Please, <a href=\"https://litecoin-project.github.io/p2sh-convert/\" target="
+"\"_blank\">convert it first to an address starting with M</a>"
+msgstr ""
+
+#: config.sample.js:23
+msgid ""
+"Sending litecoins to TREZOR? M-address refused? Please, <a href=\"https://"
+"litecoin-project.github.io/p2sh-convert/\" target=\"_blank\">convert it "
+"first to an address starting with 3</a>"
+msgstr ""
 
 #. This is shown in the transaction list when the transaction is to the user himseld.
 #: views/account/transactions/txAddress.html:29
@@ -2194,6 +2240,14 @@ msgstr ""
 "Langkah ini tidak dapat diulang kembali. Silahkan <strong>konfirmasikan pada "
 "perangkat anda</strong>."
 
+#. This is shown as header of legacy note
+#: views/account/transactions/legacynote.html:5
+msgid ""
+"This is a legacy account on your TREZOR. If you want to fully benefit from "
+"new features, please move your coins from your legacy accounts to your "
+"standard accounts."
+msgstr ""
+
 #: views/device/custom-firmware.html:9 views/device/load.html:9
 msgid "This is an advanced interface intended for EXPERT use only!"
 msgstr "Ini adalah interface tingkat lanjut untuk pengguna AHLI saja!"
@@ -2280,13 +2334,13 @@ msgctxt "send-done"
 msgid "Transaction"
 msgstr "Transaksi"
 
-#: views/account/transactions/table.html:4
-msgid "Transactions"
-msgstr "Transaksi"
-
 #. This is shown on the header Send/Receive/Transactions/...
 #: views/account/fake-nav.html:5 views/account/nav.html:5
 msgctxt "header"
+msgid "Transactions"
+msgstr "Transaksi"
+
+#: views/account/transactions/table.html:4
 msgid "Transactions"
 msgstr "Transaksi"
 
@@ -2363,6 +2417,12 @@ msgstr "Update berhasil"
 msgid "Upgrade"
 msgstr "Upgrade"
 
+#. Upgrade refers to bridge upgrade
+#: views/alertbars/firmware.html:10
+msgctxt "firmware-update"
+msgid "Upgrade for the newest features and bug fixes."
+msgstr "Upgrade untuk fitur terbaru dan perbaikan bug."
+
 #: views/install/bridge.force.html:12
 msgid "Upgrade for the newest features and bug fixes."
 msgstr "Upgrade untuk fitur terbaru dan perbaikan bug."
@@ -2370,12 +2430,6 @@ msgstr "Upgrade untuk fitur terbaru dan perbaikan bug."
 #. Upgrade refers to bridge upgrade
 #: views/alertbars/bridge.html:8
 msgctxt "bridge-update"
-msgid "Upgrade for the newest features and bug fixes."
-msgstr "Upgrade untuk fitur terbaru dan perbaikan bug."
-
-#. Upgrade refers to bridge upgrade
-#: views/alertbars/firmware.html:10
-msgctxt "firmware-update"
 msgid "Upgrade for the newest features and bug fixes."
 msgstr "Upgrade untuk fitur terbaru dan perbaikan bug."
 
@@ -2508,7 +2562,7 @@ msgstr "Kami sekarang akan menunjukkan 24 kata lagi."
 msgid "Welcome to TREZOR Setup!"
 msgstr "Selamat datang dipengaturan TREZOR!"
 
-#: views/account/transactions/index.html:33
+#: views/account/transactions/index.html:36
 msgid "What's next?"
 msgstr "Apa berikutnya?"
 

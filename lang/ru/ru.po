@@ -124,11 +124,9 @@ msgctxt "recovery-label"
 msgid "Additional passphrase encryption"
 msgstr "Дополнительное шифрование кодовой фразой"
 
-#. This is a label to the sign/verify form.
-#: views/account/sign/inside.html:203 views/account/sign/inside.html:62
-msgctxt "sign"
+#: views/account/transactions/table.html:13
 msgid "Address"
-msgstr "Адрес"
+msgstr ""
 
 #. This is a label to the sending form. (Address/amount/comment)
 #: views/account/send/txAddress.html:4
@@ -136,9 +134,11 @@ msgctxt "send"
 msgid "Address"
 msgstr "Адрес"
 
-#: views/account/transactions/table.html:13
+#. This is a label to the sign/verify form.
+#: views/account/sign/inside.html:203 views/account/sign/inside.html:62
+msgctxt "sign"
 msgid "Address"
-msgstr ""
+msgstr "Адрес"
 
 #: views/account/transactions/table.html:14
 msgid "Address Label"
@@ -158,13 +158,13 @@ msgctxt "header"
 msgid "Advanced"
 msgstr "Продвинутый"
 
-#. This is a label to a checkbox in the device recovery page
-#: views/device/recovery.html:173 views/device/recovery.html:185
-msgctxt "recovery-label"
+#: views/modal/recovery.html:65
 msgid "Advanced recovery"
 msgstr ""
 
-#: views/modal/recovery.html:65
+#. This is a label to a checkbox in the device recovery page
+#: views/device/recovery.html:173 views/device/recovery.html:185
+msgctxt "recovery-label"
 msgid "Advanced recovery"
 msgstr ""
 
@@ -226,6 +226,10 @@ msgstr ""
 #: views/settings.html:29
 msgid "Application Settings"
 msgstr "Настройки приложения"
+
+#: config.sample.js:8
+msgid "August 1st Advisory"
+msgstr ""
 
 #: views/account/receive/address.html:189
 msgid "BIP32 Path:"
@@ -459,13 +463,13 @@ msgstr "Продолжить"
 msgid "Currency backend"
 msgstr ""
 
-#: views/date.selection.html:57
-msgid "Custom"
-msgstr ""
-
 #. Transaction fee size menu
 #: views/account/send/fees.html:33
 msgctxt "transaction-fee"
+msgid "Custom"
+msgstr ""
+
+#: views/date.selection.html:57
 msgid "Custom"
 msgstr ""
 
@@ -516,9 +520,9 @@ msgstr "Устройство должно быть очищено перед в�
 msgid "Device is updated in other window"
 msgstr "Устройство обновляется в другом окне"
 
-#. This is a short label in the normally hidden, advanced Load page
-#: views/device/load.html:22
-msgctxt "load-label"
+#. This is a short label in the device recovery page
+#: views/device/recovery.html:103
+msgctxt "recovery-label"
 msgid "Device label"
 msgstr "Обозначение устройства"
 
@@ -526,9 +530,9 @@ msgstr "Обозначение устройства"
 msgid "Device label"
 msgstr "Обозначение устройства"
 
-#. This is a short label in the device recovery page
-#: views/device/recovery.html:103
-msgctxt "recovery-label"
+#. This is a short label in the normally hidden, advanced Load page
+#: views/device/load.html:22
+msgctxt "load-label"
 msgid "Device label"
 msgstr "Обозначение устройства"
 
@@ -639,6 +643,14 @@ msgstr "Загрузка прошивки..."
 msgid "Dropbox connected. Click to disconnect it."
 msgstr "Dropbox подключён. Кликните для разъединения."
 
+#: config.sample.js:10
+msgid ""
+"Due to the possible Bitcoin network disruption, it is not recommended to "
+"send nor receive any bitcoins from July 31st until the network stabilizes. "
+"<a href=\"https://blog.trezor.io/trezor-advisory-uasf-chain-split-"
+"fork-2f95cf2c11a0\" target=\"_blank\">Learn more</a>"
+msgstr ""
+
 #: views/modal/ethwallet.html:2
 msgid "ETH / ETC Wallet"
 msgstr ""
@@ -694,6 +706,11 @@ msgctxt "pin"
 msgid "Enabled"
 msgstr "Включено"
 
+#. Enter [device_name] PIN
+#: views/modal/pin.html:15
+msgid "Enter"
+msgstr ""
+
 #. This is on a pin button
 #: views/modal/pin.html:103
 msgctxt "pin-button"
@@ -705,11 +722,6 @@ msgstr "Ввод"
 msgctxt "passphrase-button"
 msgid "Enter"
 msgstr "Ввод"
-
-#. Enter [device_name] PIN
-#: views/modal/pin.html:15
-msgid "Enter"
-msgstr ""
 
 #. Enter passphrase for  [device_name]?
 #: views/modal/passphrase.html:10
@@ -778,13 +790,13 @@ msgstr "Не удалось подписать сообщение"
 msgid "Failed to verify message"
 msgstr "Не удалось проверить сообщение"
 
-#: views/account/send/fees.html:87 views/account/transactions/table.html:17
-msgid "Fee"
-msgstr "Комиссия"
-
 #. This is a label to the sending form. (Address/amount/comment)
 #: views/account/send/fees.html:4
 msgctxt "send"
+msgid "Fee"
+msgstr "Комиссия"
+
+#: views/account/send/fees.html:87 views/account/transactions/table.html:17
 msgid "Fee"
 msgstr "Комиссия"
 
@@ -846,6 +858,12 @@ msgid ""
 "to ensure that your\n"
 "                        firmware will be up-to-date at the time of "
 "initialization."
+msgstr ""
+
+#: config.sample.js:27
+msgid ""
+"For testing purposes, Wallet uses the same dollar rates for testnet coins as "
+"for bitcoin."
 msgstr ""
 
 #. Button in remember/forget dialog
@@ -910,7 +928,7 @@ msgstr ""
 msgid "Hide previous"
 msgstr "Скрыть предыдущие"
 
-#: views/account/transactions/index.html:44
+#: views/account/transactions/index.html:47
 msgid "Hide this account"
 msgstr "Скрыть этот счет"
 
@@ -1139,6 +1157,7 @@ msgstr ""
 msgid "Latest"
 msgstr "Последние"
 
+#: views/account/transactions/legacynote.html:10
 #: views/device/index.basic.html:213 views/device/index.setup.html:11
 #: views/modal/pin.html:30 views/modal/pinguide.html:13
 msgid "Learn more"
@@ -1176,12 +1195,21 @@ msgctxt "default-name"
 msgid "Legacy Account"
 msgstr ""
 
+#. This is shown on the header of legacy note
+#: views/account/transactions/legacynote.html:3
+msgid "Legacy account"
+msgstr ""
+
 #: views/import.html:51
 msgid "Legacy account XPUBs"
 msgstr ""
 
 #: views/import.html:60
 msgid "Legacy metadata keys"
+msgstr ""
+
+#: config.sample.js:17
+msgid "Litecoin changed the format of addresses."
 msgstr ""
 
 #: views/jumbotrons/loading.html:4 views/nav.html:153 views/nav.html:185
@@ -1206,7 +1234,7 @@ msgstr "Загрузка не удалась."
 msgid "Loading of accounts failed."
 msgstr "Загрузка счетов не удалась."
 
-#: views/account/transactions/index.html:53
+#: views/account/transactions/index.html:56
 msgid "Loading transactions"
 msgstr "Загрузка транзакций"
 
@@ -1373,7 +1401,7 @@ msgstr ""
 "основе принципа бросания костей или же вовсе случайной последовательности. "
 "Допустимые ключи BIP32 XPRV интерпретируются перед загрузкой на устройство."
 
-#: views/account/transactions/index.html:31
+#: views/account/transactions/index.html:34
 msgid "No transactions, yet."
 msgstr ""
 
@@ -1401,6 +1429,10 @@ msgstr "Обратите внимание, что кодовую фразу ну
 
 #: views/modal/pin.html:28
 msgid "Note that the number layout displayed on TREZOR has changed!"
+msgstr ""
+
+#: config.sample.js:17
+msgid "Note:"
 msgstr ""
 
 #: views/modal/firmware.html:125
@@ -1853,20 +1885,34 @@ msgstr ""
 msgid "Select platform..."
 msgstr "Выбрать платформу..."
 
-#. This is shown on the main, big Send button
-#: views/account/send/buttonBar.html:10
-msgctxt "button"
-msgid "Send"
-msgstr "Отправка"
-
 #. This is shown on the header Send/Receive/Transactions/...
 #: views/account/fake-nav.html:21 views/account/nav.html:21
 msgctxt "header"
 msgid "Send"
 msgstr "Отправить"
 
+#. This is shown on the main, big Send button
+#: views/account/send/buttonBar.html:10
+msgctxt "button"
+msgid "Send"
+msgstr "Отправка"
+
 #: views/account/send/index.html:17
 msgid "Send payment"
+msgstr ""
+
+#: config.sample.js:20
+msgid ""
+"Sending a transaction to an address starting with <strong>3</strong>? "
+"Please, <a href=\"https://litecoin-project.github.io/p2sh-convert/\" target="
+"\"_blank\">convert it first to an address starting with M</a>"
+msgstr ""
+
+#: config.sample.js:23
+msgid ""
+"Sending litecoins to TREZOR? M-address refused? Please, <a href=\"https://"
+"litecoin-project.github.io/p2sh-convert/\" target=\"_blank\">convert it "
+"first to an address starting with 3</a>"
 msgstr ""
 
 #. This is shown in the transaction list when the transaction is to the user himseld.
@@ -2144,6 +2190,14 @@ msgstr ""
 "Это действие нельзя отменить. Пожалуйста, <strong>подтвердите на Вашем "
 "устройстве</strong>."
 
+#. This is shown as header of legacy note
+#: views/account/transactions/legacynote.html:5
+msgid ""
+"This is a legacy account on your TREZOR. If you want to fully benefit from "
+"new features, please move your coins from your legacy accounts to your "
+"standard accounts."
+msgstr ""
+
 #: views/device/custom-firmware.html:9 views/device/load.html:9
 msgid "This is an advanced interface intended for EXPERT use only!"
 msgstr "Этот расширенный интерфейс предназначен исключительно для ЭКСПЕРТОВ!"
@@ -2225,15 +2279,15 @@ msgctxt "send-done"
 msgid "Transaction"
 msgstr "Транзакция"
 
-#: views/account/transactions/table.html:4
-msgid "Transactions"
-msgstr ""
-
 #. This is shown on the header Send/Receive/Transactions/...
 #: views/account/fake-nav.html:5 views/account/nav.html:5
 msgctxt "header"
 msgid "Transactions"
 msgstr "Транзакции"
+
+#: views/account/transactions/table.html:4
+msgid "Transactions"
+msgstr ""
 
 #: views/account/transactions/summary.html:76
 msgid "Transactions are loading ..."
@@ -2307,6 +2361,12 @@ msgstr "Обновление выполнено успешно"
 msgid "Upgrade"
 msgstr "Обновить"
 
+#. Upgrade refers to bridge upgrade
+#: views/alertbars/firmware.html:10
+msgctxt "firmware-update"
+msgid "Upgrade for the newest features and bug fixes."
+msgstr "Обновить, чтобы иметь доступ к новейшим функциям и исправлениям."
+
 #: views/install/bridge.force.html:12
 msgid "Upgrade for the newest features and bug fixes."
 msgstr ""
@@ -2314,12 +2374,6 @@ msgstr ""
 #. Upgrade refers to bridge upgrade
 #: views/alertbars/bridge.html:8
 msgctxt "bridge-update"
-msgid "Upgrade for the newest features and bug fixes."
-msgstr "Обновить, чтобы иметь доступ к новейшим функциям и исправлениям."
-
-#. Upgrade refers to bridge upgrade
-#: views/alertbars/firmware.html:10
-msgctxt "firmware-update"
 msgid "Upgrade for the newest features and bug fixes."
 msgstr "Обновить, чтобы иметь доступ к новейшим функциям и исправлениям."
 
@@ -2444,7 +2498,7 @@ msgstr "Сейчас мы снова покажем Вам эти 24 слова.
 msgid "Welcome to TREZOR Setup!"
 msgstr "Добро пожаловать в установку TREZOR!"
 
-#: views/account/transactions/index.html:33
+#: views/account/transactions/index.html:36
 msgid "What's next?"
 msgstr ""
 
