@@ -1,6 +1,7 @@
+[![Translation status](https://hosted.weblate.org/widgets/satoshilabs/-/svg-badge.svg)](https://hosted.weblate.org/engage/satoshilabs/?utm_source=widget)
+
 How to solve weblate conflicts? 
 --
-
 
 (for internal use only)
 
