@@ -11,13 +11,19 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 2.16-dev\n"
 
-#: views/nav.html:115 views/nav/device.html:68
+#: views/nav/device.html:68
 msgid "(automatically in"
 msgstr "(自動在"
 
 #: views/device/index.setup.html:23
 msgid "* No worries, you can always change it."
 msgstr "別擔心，你隨時可以更改它。"
+
+#: views/modal/beta.html:6
+msgid ""
+", offering the newest features before they are available to the general "
+"public."
+msgstr ""
 
 #. The number refer to XPUBs
 #: views/import.html:33 views/import.html:42 views/import.html:52
@@ -88,7 +94,6 @@ msgstr "帳戶主公鑰(XPUB)"
 msgid "Action was interrupted"
 msgstr "操作中斷"
 
-#: views/nav.html:238 views/nav.html:246 views/nav.html:255
 #: views/nav/device-buttons.html:18 views/nav/device-buttons.html:35
 #: views/nav/device-buttons.html:53
 msgid "Add account"
@@ -117,7 +122,9 @@ msgctxt "recovery-label"
 msgid "Additional passphrase encryption"
 msgstr "額外的短語密碼保護"
 
-#: views/account/transactions/table.html:13
+#. This is a label to the sign/verify form.
+#: views/account/sign/inside.html:203 views/account/sign/inside.html:62
+msgctxt "sign"
 msgid "Address"
 msgstr "地址"
 
@@ -127,9 +134,7 @@ msgctxt "send"
 msgid "Address"
 msgstr "地址"
 
-#. This is a label to the sign/verify form.
-#: views/account/sign/inside.html:203 views/account/sign/inside.html:62
-msgctxt "sign"
+#: views/account/transactions/table.html:13
 msgid "Address"
 msgstr "地址"
 
@@ -151,13 +156,13 @@ msgctxt "header"
 msgid "Advanced"
 msgstr "進階設定"
 
-#: views/modal/recovery.html:65
-msgid "Advanced recovery"
-msgstr "進階恢復"
-
 #. This is a label to a checkbox in the device recovery page
 #: views/device/recovery.html:173 views/device/recovery.html:185
 msgctxt "recovery-label"
+msgid "Advanced recovery"
+msgstr "進階恢復"
+
+#: views/modal/recovery.html:65
 msgid "Advanced recovery"
 msgstr "進階恢復"
 
@@ -206,11 +211,7 @@ msgstr "請填寫金額。"
 msgid "Amount is too low"
 msgstr "金額過低"
 
-#: views/nav.html:164
-msgid "Analysing"
-msgstr "分析中"
-
-#: views/nav.html:267 views/nav/settings-buttons.html:3
+#: views/nav/settings-buttons.html:3
 msgid "App Settings"
 msgstr "應用程式設定"
 
@@ -218,17 +219,9 @@ msgstr "應用程式設定"
 msgid "Application Settings"
 msgstr "應用程式設定"
 
-#: config.sample.js:8
-msgid "August 1st Advisory"
-msgstr "八月一日公告"
-
 #: views/account/receive/address.html:189
 msgid "BIP32 Path:"
 msgstr "BIP32路徑:"
-
-#: views/alertbars/offline.html:21
-msgid "Backend server is down."
-msgstr "後端伺服器暫時無法使用。"
 
 #. Label for Backspace button in Advanced Recovery
 #: views/modal/recovery.html:60
@@ -335,8 +328,7 @@ msgstr "在主公鑰上點一下來顯示QR碼。"
 msgid "Click to hide address"
 msgstr "點一下隱藏地址"
 
-#: views/nav.html:28 views/nav.html:73 views/nav/device.html:24
-#: views/nav/unacquired.html:17
+#: views/nav/device.html:24 views/nav/unacquired.html:17
 msgid "Click to renew session"
 msgstr "點一下重載連線"
 
@@ -344,15 +336,16 @@ msgstr "點一下重載連線"
 msgid "Click to show address"
 msgstr "點一下顯示地址"
 
-#: views/debug.html:7 views/debug.html:96 views/debug.log.html:8
-#: views/modal/csv.html:44 views/modal/disconnect.html:15
+#: views/debug.html:7 views/debug.html:98 views/debug.log.html:8
+#: views/modal/backendwarnings/ethwallet.html:24 views/modal/csv.html:44
+#: views/modal/disconnect.html:15
 #: views/modal/disconnect.passphrase_disable.html:14
 #: views/modal/disconnect.passphrase_enable.html:14 views/modal/dropbox.html:56
-#: views/modal/ethwallet.html:24 views/modal/firmware.html:111
-#: views/modal/firmware.html:140 views/modal/firmware.html:172
-#: views/modal/firmware.html:224 views/modal/firmware.html:265
-#: views/modal/firmware.html:358 views/modal/firmware.html:382
-#: views/modal/firmware.html:446 views/modal/qr.html:18 views/settings.html:94
+#: views/modal/firmware.html:111 views/modal/firmware.html:140
+#: views/modal/firmware.html:172 views/modal/firmware.html:224
+#: views/modal/firmware.html:265 views/modal/firmware.html:358
+#: views/modal/firmware.html:382 views/modal/firmware.html:446
+#: views/modal/qr.html:18 views/settings.html:94
 msgid "Close"
 msgstr "關閉"
 
@@ -386,7 +379,7 @@ msgstr "確認提供的資料正確無誤。"
 msgid "Confirmation time cannot be estimated."
 msgstr "交易確認所需時間無法估計。"
 
-#: views/debug.html:109
+#: views/debug.html:111
 msgid "Congratulations! Your device is now ready to use."
 msgstr "恭喜你！你的裝置現在可以使用了。"
 
@@ -426,7 +419,7 @@ msgstr "請連接裝置來設定待機畫面。"
 msgid "Connect to Dropbox"
 msgstr "連到Dropbox"
 
-#: views/nav.html:281 views/nav/settings-buttons.html:17
+#: views/nav/settings-buttons.html:17
 msgid ""
 "Connect to Dropbox to enable:<br>- renaming accounts<br>- commenting "
 "transactions<br>- labeling addresses and more..."
@@ -438,11 +431,11 @@ msgstr ""
 msgid "Connect your TREZOR to display this address"
 msgstr "請連接你的 TREZOR 來顯示這個位址"
 
-#: views/nav.html:85 views/nav/device.html:36
+#: views/nav/device.html:36
 msgid "Connected device"
 msgstr "已連接的裝置"
 
-#: views/nav.html:278 views/nav/settings-buttons.html:14
+#: views/nav/settings-buttons.html:14
 msgid "Connecting ..."
 msgstr "連接中..."
 
@@ -519,13 +512,13 @@ msgctxt "recovery-label"
 msgid "Device label"
 msgstr "裝置標籤"
 
-#: views/device/index.setup.html:17 views/import.html:22
-msgid "Device label"
-msgstr "裝置標籤"
-
 #. This is a short label in the normally hidden, advanced Load page
 #: views/device/load.html:22
 msgctxt "load-label"
+msgid "Device label"
+msgstr "裝置標籤"
+
+#: views/device/index.setup.html:17 views/import.html:22
 msgid "Device label"
 msgstr "裝置標籤"
 
@@ -533,19 +526,15 @@ msgstr "裝置標籤"
 msgid "Device needs to be connected in order to wipe it."
 msgstr "重置需要先連接設備。"
 
-#: views/nav.html:298
-msgid "Disable Labeling"
-msgstr "停用標籤"
+#. This is a short label in the device Advanced page
+#: views/device/advanced.html:135
+msgctxt "advanced-label"
+msgid "Disable PIN"
+msgstr "刪除PIN碼"
 
 #. This is written on a button, clicking it will disable PIN
 #: views/device/advanced.html:153
 msgctxt "button"
-msgid "Disable PIN"
-msgstr "刪除PIN碼"
-
-#. This is a short label in the device Advanced page
-#: views/device/advanced.html:135
-msgctxt "advanced-label"
 msgid "Disable PIN"
 msgstr "刪除PIN碼"
 
@@ -579,13 +568,19 @@ msgstr "請拔出你的 TREZOR 以停用短語密碼."
 msgid "Disconnect your TREZOR to enable passphrase."
 msgstr "請拔出你的TREZOR以啓用短語密碼."
 
-#: views/nav.html:82 views/nav/device.html:33
+#: views/nav/device.html:33
 msgid "Disconnected device"
 msgstr "已移除裝置"
 
-#: views/debug.html:135
+#: views/debug.html:137
 msgid "Display transaction on explorer"
 msgstr "在區塊瀏覽器中檢視交易"
+
+#: views/modal/backendwarnings/bcash.html:11
+msgid ""
+"Do not receive bitcoins to the addresses in this BCH wallet, do not send "
+"Bitcoin Cash coins to Bitcoin addresses."
+msgstr ""
 
 #: views/install/main.html:72
 msgid "Do you use Google Chrome on this computer?"
@@ -614,10 +609,6 @@ msgstr "請不要忘記再次確認地址..."
 msgid "Don't have a TREZOR?"
 msgstr "還沒有TREZOR?"
 
-#: views/alertbars/offline.html:22
-msgid "Don't worry, your funds are safe."
-msgstr "別擔心，你的資金是安全的。"
-
 #: views/install/bridge.force.html:21 views/install/main.html:40
 #: views/install/main.html:64 views/jumbotrons/udev-note.html:35
 msgid "Download"
@@ -632,22 +623,7 @@ msgstr "在Play商店下載TREZOR Manager應用程式。"
 msgid "Downloading firmware..."
 msgstr "正在下載韌體……"
 
-#: views/nav.html:293
-msgid "Dropbox connected. Click to disconnect it."
-msgstr "Dropbox 已連接。點一下斷開連接。"
-
-#: config.sample.js:10
-msgid ""
-"Due to the possible Bitcoin network disruption, it is not recommended to "
-"send nor receive any bitcoins from July 31st until the network stabilizes. "
-"<a href=\"https://blog.trezor.io/trezor-advisory-uasf-chain-split-"
-"fork-2f95cf2c11a0\" target=\"_blank\">Learn more</a>"
-msgstr ""
-"因為比特幣網路將有分裂的可能，從7月31日起直到比特幣網路穩定前不建議接收或發送"
-"任何比特幣。 <a href=\"https://blog.trezor.io/trezor-advisory-uasf-chain-"
-"split-fork-2f95cf2c11a0\" target=\"_blank\">了解更多</a>"
-
-#: views/modal/ethwallet.html:2
+#: views/modal/backendwarnings/ethwallet.html:2
 msgid "ETH / ETC Wallet"
 msgstr "ETH / ETC 錢包"
 
@@ -657,7 +633,7 @@ msgctxt "transaction-fee"
 msgid "Economy"
 msgstr "經濟"
 
-#: views/nav.html:99 views/nav/device.html:51
+#: views/nav/device.html:51
 msgid "Edit Device basics"
 msgstr "變更裝置基本資料"
 
@@ -665,7 +641,7 @@ msgstr "變更裝置基本資料"
 msgid "Edit label"
 msgstr "變更標籤"
 
-#: views/nav.html:291 views/nav/settings-buttons.html:27
+#: views/nav/settings-buttons.html:27
 msgid "Enable Labeling"
 msgstr "啟用標籤"
 
@@ -702,14 +678,14 @@ msgctxt "pin"
 msgid "Enabled"
 msgstr "啓用"
 
-#. Enter [device_name] PIN
-#: views/modal/pin.html:15
-msgid "Enter"
-msgstr "確定"
-
 #. This is on a pin button
 #: views/modal/pin.html:103
 msgctxt "pin-button"
+msgid "Enter"
+msgstr "確定"
+
+#. Enter [device_name] PIN
+#: views/modal/pin.html:15
 msgid "Enter"
 msgstr "確定"
 
@@ -733,11 +709,11 @@ msgstr "請輸入單詞"
 msgid "Enter your new"
 msgstr "輸入新的"
 
-#: views/debug.html:73 views/debug.html:80
+#: views/debug.html:73 views/debug.html:77
 msgid "Error details:"
 msgstr "錯誤細節:"
 
-#: views/modal/ethwallet.html:7
+#: views/modal/backendwarnings/ethwallet.html:7
 msgid "Ethereum Wallet"
 msgstr "Ethereum錢包"
 
@@ -786,13 +762,13 @@ msgstr "訊息簽名失敗"
 msgid "Failed to verify message"
 msgstr "訊息驗證失敗"
 
-#. This is a label to the sending form. (Address/amount/comment)
-#: views/account/send/fees.html:4
-msgctxt "send"
+#: views/account/send/fees.html:87 views/account/transactions/table.html:17
 msgid "Fee"
 msgstr "手續費"
 
-#: views/account/send/fees.html:87 views/account/transactions/table.html:17
+#. This is a label to the sending form. (Address/amount/comment)
+#: views/account/send/fees.html:4
+msgctxt "send"
 msgid "Fee"
 msgstr "手續費"
 
@@ -842,6 +818,10 @@ msgid ""
 "                                                    device."
 msgstr "請按照你裝置上的指示。"
 
+#: config.sample.js:12
+msgid "For more information, please refer to"
+msgstr ""
+
 #. Clicking here will lead the user to our manual.
 #: views/modal/firmware.html:128 views/modal/firmware.html:160
 #: views/modal/firmware.html:194
@@ -858,20 +838,20 @@ msgstr ""
 "因安全因素，你訂購的TREZOR在寄出時不會安裝任何韌體。這樣可以確保你的TREZOR在"
 "第一次使用時可以安裝最新的韌體。"
 
-#: config.sample.js:27
+#: config.sample.js:29
 msgid ""
 "For testing purposes, Wallet uses the same dollar rates for testnet coins as "
 "for bitcoin."
 msgstr "為了測試目的，錢包使用跟測試網路幣一樣的匯率來計算比特幣的匯率。"
 
-#. Button in remember/forget dialog
-#: views/modal/forget.disconnected.html:14 views/modal/forget.requested.html:15
-msgctxt "forget-button"
+#. this is first part of sentence 'Forget [device_name]?'
+#: views/modal/forget.disconnected.html:4 views/modal/forget.requested.html:4
 msgid "Forget"
 msgstr "不要記住"
 
-#. this is first part of sentence 'Forget [device_name]?'
-#: views/modal/forget.disconnected.html:4 views/modal/forget.requested.html:4
+#. Button in remember/forget dialog
+#: views/modal/forget.disconnected.html:14 views/modal/forget.requested.html:15
+msgctxt "forget-button"
 msgid "Forget"
 msgstr "不要記住"
 
@@ -881,7 +861,7 @@ msgctxt "forget-button"
 msgid "Forget (recommended)"
 msgstr "不要記住（建議）"
 
-#: views/nav.html:133 views/nav/device.html:87
+#: views/nav/device.html:87
 msgid "Forget this device"
 msgstr "不要記住這個裝置"
 
@@ -915,11 +895,19 @@ msgstr "選擇圖片"
 msgid "Get one"
 msgstr "買一個"
 
-#: views/modal/ethwallet.html:19
+#: views/modal/backendwarnings/bcash.html:21
+msgid "Go back"
+msgstr ""
+
+#: views/modal/backendwarnings/ethwallet.html:19
 msgid ""
 "Go to\n"
 "        MyEtherWallet"
 msgstr "去 MyEtherWallet"
+
+#: views/modal/beta.html:18
+msgid "Go to TREZOR Wallet"
+msgstr ""
 
 #: views/account/receive/index.html:41 views/account/receive/index.html:59
 msgid "Hide previous"
@@ -949,7 +937,7 @@ msgstr "待機畫面變更失敗。"
 msgid "Homescreen setup"
 msgstr "設定待機畫面"
 
-#: views/debug.html:118
+#: views/debug.html:120
 msgid "Homescreen was successfully changed."
 msgstr "待機畫面變更成功。"
 
@@ -967,7 +955,7 @@ msgid ""
 msgstr "如果以下地址與 TREZOR 顯示的地址是一致的，你就可以確認它是真實的。"
 
 #. Start of sentence: 'If the problem persists, please run our troubleshooter[its link]'
-#: views/debug.html:77
+#: views/debug.html:91
 msgid "If the problem persists, please run our"
 msgstr "如果問題還是無法排除，請執行我們的"
 
@@ -1041,6 +1029,10 @@ msgstr "從CSV導入地址"
 #: views/account/send/buttonBar.html:32
 msgid "Import from CSV"
 msgstr "從CSV導入"
+
+#: views/modal/beta.html:9
+msgid "In contrast,"
+msgstr ""
 
 #: views/jumbotrons/udev-note.html:13
 msgid ""
@@ -1120,7 +1112,7 @@ msgctxt "basic-label"
 msgid "Label"
 msgstr "裝置標籤"
 
-#: views/debug.html:121
+#: views/debug.html:123
 msgid "Label was successfully changed."
 msgstr "標籤變更成功。"
 
@@ -1154,7 +1146,7 @@ msgstr "了解更多"
 msgid "Learn more about"
 msgstr "了解更多關於"
 
-#: views/nav/index.html:36
+#: views/nav/index.html:37
 msgid "Learn more about Legacy accounts."
 msgstr "了解更多關於舊版帳號。"
 
@@ -1195,21 +1187,21 @@ msgstr "舊版帳戶的主公鑰"
 msgid "Legacy metadata keys"
 msgstr "舊版metadata金鑰"
 
-#: config.sample.js:17
+#: config.sample.js:19
 msgid "Litecoin changed the format of addresses."
 msgstr "Litecoin已變更地址的格式。"
 
-#: views/jumbotrons/loading.html:4 views/nav.html:153 views/nav.html:185
-#: views/nav/account.html:23 views/nav/account.html:6
+#: views/jumbotrons/loading.html:4 views/nav/account.html:23
+#: views/nav/account.html:6
 msgid "Loading"
 msgstr "載入中"
 
 #. Is displayed when TREZOR is loading, in the left column
-#: views/nav.html:66 views/nav/device.html:17
+#: views/nav/device.html:17
 msgid "Loading ..."
 msgstr "載入中 ..."
 
-#: views/nav.html:227 views/nav/device-buttons.html:5
+#: views/nav/device-buttons.html:5
 msgid "Loading accounts..."
 msgstr "載入帳戶中..."
 
@@ -1233,7 +1225,7 @@ msgstr "載入中……"
 msgid "Local traders:"
 msgstr "當地的交易者:"
 
-#: views/nav.html:115 views/nav/device.html:68
+#: views/nav/device.html:68
 msgid "Lock this device"
 msgstr "鎖住這個裝置"
 
@@ -1408,7 +1400,7 @@ msgstr "請注意，短語密碼是區分大小寫的。"
 msgid "Note that the number layout displayed on TREZOR has changed!"
 msgstr "請注意，TREZOR螢幕顯示的數字圖已變更！"
 
-#: config.sample.js:17
+#: config.sample.js:19
 msgid "Note:"
 msgstr "注意："
 
@@ -1423,8 +1415,12 @@ msgctxt "recovery-label"
 msgid "Number of words in your recovery seed"
 msgstr "你的恢復種子的單詞個數"
 
+#: views/modal/backendwarnings/bcash.html:16
+msgid "OK"
+msgstr ""
+
 #: views/device/advanced.html:102 views/device/advanced.html:52
-#: views/modal/pinguide.html:19
+#: views/modal/beta.html:13 views/modal/pinguide.html:19
 msgid "OK, I understand"
 msgstr "好的，我明白"
 
@@ -1458,11 +1454,11 @@ msgctxt "basic-label"
 msgid "PIN protection"
 msgstr "PIN碼保護"
 
-#: views/debug.html:115
+#: views/debug.html:117
 msgid "PIN was successfully changed."
 msgstr "PIN碼變更成功。"
 
-#: views/debug.html:112
+#: views/debug.html:114
 msgid "PIN was successfully removed."
 msgstr "PIN碼 刪除成功。"
 
@@ -1501,6 +1497,13 @@ msgstr "把CSV內容貼在這裡:"
 #: views/modal/pin.html:97
 msgid "Perfect, impossible to guess!"
 msgstr "完美，不可能被猜中！"
+
+#: views/modal/backendwarnings/bcash.html:8
+msgid ""
+"Please be advised that this is not your Bitcoin wallet. BTC and BCH share "
+"the same address format and can be potentially mixed up. Make sure that you "
+"are sending and receiving coins to their respective wallets."
+msgstr ""
 
 #: views/modal/setup.html:26
 msgid ""
@@ -1661,16 +1664,12 @@ msgstr "請<strong>同時按下兩個按鈕並重新連接。</strong>"
 msgid "Please reconnect the device now."
 msgstr "請重新連接裝置。"
 
-#: views/alertbars/offline.html:7
-msgid "Please reconnect to the Internet and reload the page."
-msgstr "請重新連接網路並重新載入這個網頁。"
-
 #: views/otherStrings.html:71
 msgctxt "send-button-tooltip"
 msgid "Please reload the page to send money."
 msgstr "請重新載入這個網頁來發送幣。"
 
-#: views/alertbars/offline.html:38
+#: views/alertbars/offline.html:7
 msgid "Please reload the page."
 msgstr "請重新載入這個網頁。"
 
@@ -1743,7 +1742,7 @@ msgstr "匯率"
 msgid "Rates by"
 msgstr "匯率提供於"
 
-#: views/debug.html:81
+#: views/debug.html:78
 msgid "Raw transaction in hex format:"
 msgstr "16進位的原始交易碼："
 
@@ -1761,7 +1760,7 @@ msgid "Reading of accounts failed."
 msgstr "帳戶讀取失敗。"
 
 #. This is shown on the header Send/Receive/Transactions/...
-#: views/account/fake-nav.html:13 views/account/nav.html:13
+#: views/account/nav.html:13
 msgctxt "header"
 msgid "Receive"
 msgstr "接收"
@@ -1790,7 +1789,7 @@ msgstr "恢復種子設定"
 msgid "Release notes"
 msgstr "閱讀發佈說明"
 
-#: views/alertbars/offline.html:42 views/alertbars/offline.html:9
+#: views/alertbars/offline.html:11
 msgid "Reload"
 msgstr "重新載入"
 
@@ -1812,17 +1811,13 @@ msgstr "刪除收款人"
 msgid "Rename account"
 msgstr "重新命名帳戶"
 
-#: views/nav.html:215 views/nav/account.html:47
+#: views/nav/account.html:47
 msgid "Rename this account"
 msgstr "重新命名這個帳戶"
 
 #: views/settings.html:90
 msgid "Save &amp; Reload"
 msgstr "儲存 &amp; 重新載入"
-
-#: views/nav.html:171
-msgid "Saving"
-msgstr "存款"
 
 #: views/account/send/txAddress.html:35
 msgid "Scan QR code"
@@ -1859,7 +1854,7 @@ msgid "Select platform..."
 msgstr "選擇作業系統..."
 
 #. This is shown on the header Send/Receive/Transactions/...
-#: views/account/fake-nav.html:21 views/account/nav.html:21
+#: views/account/nav.html:21
 msgctxt "header"
 msgid "Send"
 msgstr "發送"
@@ -1874,7 +1869,7 @@ msgstr "發送"
 msgid "Send payment"
 msgstr "發送付款"
 
-#: config.sample.js:20
+#: config.sample.js:22
 msgid ""
 "Sending a transaction to an address starting with <strong>3</strong>? "
 "Please, <a href=\"https://litecoin-project.github.io/p2sh-convert/\" target="
@@ -1883,7 +1878,7 @@ msgstr ""
 "發送交易給一個由 <strong>3</strong>開頭的地址? 請 <a href=\"https://litecoin-"
 "project.github.io/p2sh-convert/\" target=\"_blank\">先轉換成由M開頭的地址</a>"
 
-#: config.sample.js:23
+#: config.sample.js:25
 msgid ""
 "Sending litecoins to TREZOR? M-address refused? Please, <a href=\"https://"
 "litecoin-project.github.io/p2sh-convert/\" target=\"_blank\">convert it "
@@ -1973,7 +1968,7 @@ msgid "Sign"
 msgstr "簽名"
 
 #. This is shown on the header Send/Receive/Transactions/...
-#: views/account/fake-nav.html:31 views/account/nav.html:32
+#: views/account/nav.html:32
 msgctxt "header"
 msgid "Sign &amp; Verify"
 msgstr "簽名 &amp; 驗證"
@@ -2027,7 +2022,7 @@ msgid "Strong enough!"
 msgstr "夠強！"
 
 #. This is displayed on top when any action successfully finishes
-#: views/debug.html:101
+#: views/debug.html:103
 msgctxt "flash"
 msgid "Success"
 msgstr "成功"
@@ -2040,9 +2035,17 @@ msgstr "技術支持"
 msgid "Support needed?"
 msgstr "需要技術支持？"
 
+#: views/modal/backendwarnings/bcash.html:2
+msgid "Switching to Bitcoin Cash"
+msgstr ""
+
 #: index.html:35 views/top.nav.html:3
 msgid "TREZOR"
 msgstr "TREZOR"
+
+#: views/modal/beta.html:6
+msgid "TREZOR Beta Wallet"
+msgstr ""
 
 #: views/install/bridge.force.html:10
 msgid "TREZOR Bridge update"
@@ -2053,6 +2056,10 @@ msgstr "TREZOR Bridge 更新"
 msgctxt "button"
 msgid "TREZOR Recovery"
 msgstr "恢復TREZOR"
+
+#: views/modal/beta.html:6 views/modal/beta.html:9
+msgid "TREZOR Wallet"
+msgstr ""
 
 #: views/jumbotrons/landing/landing.heading.html:3
 msgid ""
@@ -2186,6 +2193,12 @@ msgstr "這是一個專門爲專家級用戶準備的進階介面！"
 msgid "This is an advanced interface intended for developer use only!"
 msgstr "這是一個專門爲開發人員準備的進階介面！"
 
+#: config.sample.js:6
+msgid ""
+"This is your Bitcoin Cash (BCH) wallet. Do not receive bitcoins to the "
+"addresses in this wallet."
+msgstr ""
+
 #: views/account/transactions/table.html:10
 msgid "Time"
 msgstr "時間"
@@ -2216,13 +2229,17 @@ msgid ""
 "                                    previous addresses."
 msgstr "如果要產生更多地址，請先使用先前的地址並等待交易得到確認。"
 
-#: views/nav.html:234 views/nav/device-buttons.html:11
+#: views/nav/device-buttons.html:11
 msgid ""
 "To add accounts, make sure your device is connected and the last account is "
 "not empty."
 msgstr ""
 "如果要新增帳戶，請先確認你的裝置已連接上電腦，且最後一個帳戶裡不是空白的(有過"
 "交易紀錄)。"
+
+#: config.sample.js:8
+msgid "To claim your Bitcoin Cash coins, please use our"
+msgstr ""
 
 #: views/modal/firmware.html:37
 msgid ""
@@ -2249,7 +2266,7 @@ msgid "Total received:"
 msgstr "總收入:"
 
 #. The whole sentence: *Transaction* 1234567890abcdef was successfully sent.
-#: views/debug.html:125
+#: views/debug.html:127
 msgctxt "send-done"
 msgid "Transaction"
 msgstr "交易"
@@ -2259,7 +2276,7 @@ msgid "Transactions"
 msgstr "交易"
 
 #. This is shown on the header Send/Receive/Transactions/...
-#: views/account/fake-nav.html:5 views/account/nav.html:5
+#: views/account/nav.html:5
 msgctxt "header"
 msgid "Transactions"
 msgstr "交易"
@@ -2268,13 +2285,9 @@ msgstr "交易"
 msgid "Transactions are loading ..."
 msgstr "載入交易中..."
 
-#: views/debug.html:77
+#: views/debug.html:91
 msgid "Troubleshooter"
 msgstr "除錯幫手"
-
-#: views/alertbars/offline.html:26
-msgid "Try a different server."
-msgstr "請試試看別的伺服器。"
 
 #: views/device/index.basic.html:7
 msgid "Try again"
@@ -2335,18 +2348,18 @@ msgid "Upgrade"
 msgstr "升級"
 
 #. Upgrade refers to bridge upgrade
-#: views/alertbars/firmware.html:10
-msgctxt "firmware-update"
-msgid "Upgrade for the newest features and bug fixes."
-msgstr "升級後可以使用新特性或修補漏洞。"
-
-#. Upgrade refers to bridge upgrade
 #: views/alertbars/bridge.html:8
 msgctxt "bridge-update"
 msgid "Upgrade for the newest features and bug fixes."
 msgstr "升級後可以使用新特性或修補漏洞。"
 
 #: views/install/bridge.force.html:12
+msgid "Upgrade for the newest features and bug fixes."
+msgstr "升級後可以使用新特性或修補漏洞。"
+
+#. Upgrade refers to bridge upgrade
+#: views/alertbars/firmware.html:10
+msgctxt "firmware-update"
 msgid "Upgrade for the newest features and bug fixes."
 msgstr "升級後可以使用新特性或修補漏洞。"
 
@@ -2366,8 +2379,7 @@ msgid ""
 "coins on your device."
 msgstr "使用這個功能前請確保你有恢復種子或者沒有在此設備保存任何資金。"
 
-#: views/nav.html:25 views/nav.html:70 views/nav/device.html:21
-#: views/nav/unacquired.html:14
+#: views/nav/device.html:21 views/nav/unacquired.html:14
 msgid "Used in other window"
 msgstr "裝置已在另一個視窗中被使用"
 
@@ -2479,15 +2491,15 @@ msgid ""
 "transaction history."
 msgstr "如果你把主公鑰透漏給第三者，他將可以看到你帳戶內的所有交易歷史。"
 
-#. This is written on a button, clicking it will wipe the device
-#: views/device/advanced.html:201
-msgctxt "button"
-msgid "Wipe device"
-msgstr "重設裝置"
-
 #. This is a short label in the device Advanced page
 #: views/device/advanced.html:177
 msgctxt "advanced-label"
+msgid "Wipe device"
+msgstr "重設裝置"
+
+#. This is written on a button, clicking it will wipe the device
+#: views/device/advanced.html:201
+msgctxt "button"
 msgid "Wipe device"
 msgstr "重設裝置"
 
@@ -2649,9 +2661,13 @@ msgstr "昨天"
 msgid "You are about to pay"
 msgstr "你將花費"
 
-#: views/alertbars/offline.html:6
-msgid "You are offline."
-msgstr "你已離線。"
+#: views/modal/backendwarnings/bcash.html:5
+msgid "You are now switching to the Bitcoin Cash (BCH) wallet."
+msgstr ""
+
+#: views/modal/beta.html:2
+msgid "You are opening TREZOR Beta Wallet"
+msgstr ""
 
 #. This is displayed on Android.
 #: views/install/mobile.android.html:19
@@ -2659,11 +2675,11 @@ msgid "You can also download and install the APK directly."
 msgstr "你也可以直接下載APK檔並安裝。"
 
 #. Blockchain.info link follows
-#: views/debug.html:84
+#: views/debug.html:81
 msgid "You can try to resend this transaction using"
 msgstr "你可以再重新發送這筆交易，使用"
 
-#: views/nav.html:242 views/nav/device-buttons.html:46
+#: views/nav/device-buttons.html:46
 msgid "You cannot add more than 10 accounts."
 msgstr "無法新增超過10個帳戶。"
 
@@ -2673,7 +2689,7 @@ msgid ""
 "seed."
 msgstr "你也有可能被要求輸入一些不屬於你的恢復種子的單詞。"
 
-#: views/alertbars/offline.html:37
+#: views/alertbars/offline.html:6
 msgid "You were disconnected."
 msgstr "你已斷線。"
 
@@ -2752,6 +2768,10 @@ msgstr "為交易增加備註"
 msgid "coffee by jen is licenced under CC BY 2.0"
 msgstr "作品: coffee 作者: jen is 以 CC BY 2.0條款授權"
 
+#: config.sample.js:9
+msgid "coin-splitting tool"
+msgstr ""
+
 #: views/nav/settings-buttons.html:40
 msgid "connected"
 msgstr "已連接"
@@ -2764,7 +2784,7 @@ msgstr "計算中..."
 msgid "disconnect the device"
 msgstr "請拔除裝置"
 
-#: views/debug.html:88
+#: views/debug.html:85
 msgid "external Broadcast Transaction tool"
 msgstr "外部交易廣播工具"
 
@@ -2797,6 +2817,16 @@ msgstr[0] "小時"
 msgid "in your message is not an ASCII character."
 msgstr "你的訊息中有非ASCII的文字。"
 
+#: views/modal/beta.html:6
+msgid "is a public feature-testing version of the"
+msgstr ""
+
+#: views/modal/beta.html:9
+msgid ""
+"is feature-conservative, making sure that its functionality is maximally "
+"reliable and dependable for the general public."
+msgstr ""
+
 #. Part of a long text about Dropbox and labeling
 #: views/modal/dropbox.html:33
 msgid "label addresses"
@@ -2819,13 +2849,13 @@ msgstr[0] "分鐘"
 msgid "not set"
 msgstr "未設定"
 
-#: views/account/transactions/welcomes/bitcoin.html:4
-msgid "or"
-msgstr "或"
-
 #. Whole text: Scan it into an application that supports XPUBs such as Mycelium *or* Sentinel for Android. Then, you can watch your transactions and receive payments everywhere without carrying your TREZOR.
 #: views/device/index.basic.html:230
 msgctxt "xpub-text"
+msgid "or"
+msgstr "或"
+
+#: views/account/transactions/welcomes/bitcoin.html:4
 msgid "or"
 msgstr "或"
 
@@ -2868,19 +2898,13 @@ msgid "transaction"
 msgid_plural "transactions"
 msgstr[0] "交易"
 
-#. In text: 'Loading (123 transactions)', it is always plural
-#: views/nav.html:192
-msgctxt "loading"
-msgid "transactions"
-msgstr "交易"
-
 #. Part of a long text about Dropbox and labeling
 #: views/modal/dropbox.html:36
 msgid "use the full-text search"
 msgstr "使用全文搜尋"
 
 #. The whole sentence: Transaction 1234567890abcdef *was successfully sent.*
-#: views/debug.html:139
+#: views/debug.html:141
 msgctxt "send-done"
 msgid "was successfully sent."
 msgstr "已經成功發送。"
@@ -2890,6 +2914,50 @@ msgstr "已經成功發送。"
 msgctxt "typeahead"
 msgid "your account"
 msgstr "你的帳戶"
+
+#~ msgid "Analysing"
+#~ msgstr "分析中"
+
+#~ msgid "August 1st Advisory"
+#~ msgstr "八月一日公告"
+
+#~ msgid "Backend server is down."
+#~ msgstr "後端伺服器暫時無法使用。"
+
+#~ msgid "Disable Labeling"
+#~ msgstr "停用標籤"
+
+#~ msgid "Don't worry, your funds are safe."
+#~ msgstr "別擔心，你的資金是安全的。"
+
+#~ msgid "Dropbox connected. Click to disconnect it."
+#~ msgstr "Dropbox 已連接。點一下斷開連接。"
+
+#~ msgid ""
+#~ "Due to the possible Bitcoin network disruption, it is not recommended to "
+#~ "send nor receive any bitcoins from July 31st until the network "
+#~ "stabilizes. <a href=\"https://blog.trezor.io/trezor-advisory-uasf-chain-"
+#~ "split-fork-2f95cf2c11a0\" target=\"_blank\">Learn more</a>"
+#~ msgstr ""
+#~ "因為比特幣網路將有分裂的可能，從7月31日起直到比特幣網路穩定前不建議接收或"
+#~ "發送任何比特幣。 <a href=\"https://blog.trezor.io/trezor-advisory-uasf-"
+#~ "chain-split-fork-2f95cf2c11a0\" target=\"_blank\">了解更多</a>"
+
+#~ msgid "Please reconnect to the Internet and reload the page."
+#~ msgstr "請重新連接網路並重新載入這個網頁。"
+
+#~ msgid "Saving"
+#~ msgstr "存款"
+
+#~ msgid "Try a different server."
+#~ msgstr "請試試看別的伺服器。"
+
+#~ msgid "You are offline."
+#~ msgstr "你已離線。"
+
+#~ msgctxt "loading"
+#~ msgid "transactions"
+#~ msgstr "交易"
 
 #~ msgid "Account XPUBs"
 #~ msgstr "賬戶公鑰"

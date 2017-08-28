@@ -3,21 +3,27 @@ msgstr ""
 "Project-Id-Version: \n"
 "PO-Revision-Date: 2017-08-04 21:12+0000\n"
 "Last-Translator: Yago Ferreyra <yagoferreyra@gmail.com>\n"
-"Language-Team: Spanish "
-"<https://hosted.weblate.org/projects/satoshilabs/mytrezor/es/>\n"
+"Language-Team: Spanish <https://hosted.weblate.org/projects/satoshilabs/"
+"mytrezor/es/>\n"
 "Language: es\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 2.16-dev\n"
 
-#: views/nav.html:115 views/nav/device.html:68
+#: views/nav/device.html:68
 msgid "(automatically in"
 msgstr "(automáticamente en"
 
 #: views/device/index.setup.html:23
 msgid "* No worries, you can always change it."
 msgstr "* No se preocupe, siempre puedes cambiarlo."
+
+#: views/modal/beta.html:6
+msgid ""
+", offering the newest features before they are available to the general "
+"public."
+msgstr ""
 
 #. The number refer to XPUBs
 #: views/import.html:33 views/import.html:42 views/import.html:52
@@ -94,7 +100,6 @@ msgstr "LLaves públicas de la cuenta (XPUB)"
 msgid "Action was interrupted"
 msgstr "La acción fue interrumpida"
 
-#: views/nav.html:238 views/nav.html:246 views/nav.html:255
 #: views/nav/device-buttons.html:18 views/nav/device-buttons.html:35
 #: views/nav/device-buttons.html:53
 msgid "Add account"
@@ -123,7 +128,9 @@ msgctxt "recovery-label"
 msgid "Additional passphrase encryption"
 msgstr "Contraseña adicional para encriptación"
 
-#: views/account/transactions/table.html:13
+#. This is a label to the sign/verify form.
+#: views/account/sign/inside.html:203 views/account/sign/inside.html:62
+msgctxt "sign"
 msgid "Address"
 msgstr "Dirección"
 
@@ -133,9 +140,7 @@ msgctxt "send"
 msgid "Address"
 msgstr "Dirección"
 
-#. This is a label to the sign/verify form.
-#: views/account/sign/inside.html:203 views/account/sign/inside.html:62
-msgctxt "sign"
+#: views/account/transactions/table.html:13
 msgid "Address"
 msgstr "Dirección"
 
@@ -157,13 +162,13 @@ msgctxt "header"
 msgid "Advanced"
 msgstr "Avanzado"
 
-#: views/modal/recovery.html:65
-msgid "Advanced recovery"
-msgstr "Recuperación nivel avanzado"
-
 #. This is a label to a checkbox in the device recovery page
 #: views/device/recovery.html:173 views/device/recovery.html:185
 msgctxt "recovery-label"
+msgid "Advanced recovery"
+msgstr "Recuperación nivel avanzado"
+
+#: views/modal/recovery.html:65
 msgid "Advanced recovery"
 msgstr "Recuperación nivel avanzado"
 
@@ -214,11 +219,7 @@ msgstr "Un cantidad es requerida."
 msgid "Amount is too low"
 msgstr "La cantidad es demasiado baja"
 
-#: views/nav.html:164
-msgid "Analysing"
-msgstr "Analizando"
-
-#: views/nav.html:267 views/nav/settings-buttons.html:3
+#: views/nav/settings-buttons.html:3
 msgid "App Settings"
 msgstr "Ajustes de la aplicación"
 
@@ -226,17 +227,9 @@ msgstr "Ajustes de la aplicación"
 msgid "Application Settings"
 msgstr "Ajustes de la aplicación"
 
-#: config.sample.js:8
-msgid "August 1st Advisory"
-msgstr "Asesoramiento para el 1 de agosto"
-
 #: views/account/receive/address.html:189
 msgid "BIP32 Path:"
 msgstr "Ruta BIP32:"
-
-#: views/alertbars/offline.html:21
-msgid "Backend server is down."
-msgstr "El servidor de back-end está inactivo."
 
 #. Label for Backspace button in Advanced Recovery
 #: views/modal/recovery.html:60
@@ -343,8 +336,7 @@ msgstr "Haga clic en XPUB para ver su código QR."
 msgid "Click to hide address"
 msgstr "Pulse para ocultar la dirección"
 
-#: views/nav.html:28 views/nav.html:73 views/nav/device.html:24
-#: views/nav/unacquired.html:17
+#: views/nav/device.html:24 views/nav/unacquired.html:17
 msgid "Click to renew session"
 msgstr "Pulse para renovar la sesión"
 
@@ -352,15 +344,16 @@ msgstr "Pulse para renovar la sesión"
 msgid "Click to show address"
 msgstr "Pulse para mostrar la dirección"
 
-#: views/debug.html:7 views/debug.html:96 views/debug.log.html:8
-#: views/modal/csv.html:44 views/modal/disconnect.html:15
+#: views/debug.html:7 views/debug.html:98 views/debug.log.html:8
+#: views/modal/backendwarnings/ethwallet.html:24 views/modal/csv.html:44
+#: views/modal/disconnect.html:15
 #: views/modal/disconnect.passphrase_disable.html:14
 #: views/modal/disconnect.passphrase_enable.html:14 views/modal/dropbox.html:56
-#: views/modal/ethwallet.html:24 views/modal/firmware.html:111
-#: views/modal/firmware.html:140 views/modal/firmware.html:172
-#: views/modal/firmware.html:224 views/modal/firmware.html:265
-#: views/modal/firmware.html:358 views/modal/firmware.html:382
-#: views/modal/firmware.html:446 views/modal/qr.html:18 views/settings.html:94
+#: views/modal/firmware.html:111 views/modal/firmware.html:140
+#: views/modal/firmware.html:172 views/modal/firmware.html:224
+#: views/modal/firmware.html:265 views/modal/firmware.html:358
+#: views/modal/firmware.html:382 views/modal/firmware.html:446
+#: views/modal/qr.html:18 views/settings.html:94
 msgid "Close"
 msgstr "Cerrar"
 
@@ -394,7 +387,7 @@ msgstr "Confirmar la información."
 msgid "Confirmation time cannot be estimated."
 msgstr "El tiempo de confirmación no puede ser estimada."
 
-#: views/debug.html:109
+#: views/debug.html:111
 msgid "Congratulations! Your device is now ready to use."
 msgstr "¡Felicidades! Ahora tu dispositivo está listo para su uso."
 
@@ -434,7 +427,7 @@ msgstr "Conecta el dispositivo para configurar su pantalla de inicio."
 msgid "Connect to Dropbox"
 msgstr "Conectar a Dropbox"
 
-#: views/nav.html:281 views/nav/settings-buttons.html:17
+#: views/nav/settings-buttons.html:17
 msgid ""
 "Connect to Dropbox to enable:<br>- renaming accounts<br>- commenting "
 "transactions<br>- labeling addresses and more..."
@@ -446,11 +439,11 @@ msgstr ""
 msgid "Connect your TREZOR to display this address"
 msgstr "Conecte su TREZOR para mostrar esta dirección"
 
-#: views/nav.html:85 views/nav/device.html:36
+#: views/nav/device.html:36
 msgid "Connected device"
 msgstr "Dispositivo conectado"
 
-#: views/nav.html:278 views/nav/settings-buttons.html:14
+#: views/nav/settings-buttons.html:14
 msgid "Connecting ..."
 msgstr "Conectando..."
 
@@ -527,13 +520,13 @@ msgctxt "recovery-label"
 msgid "Device label"
 msgstr "Etiqueta del dispositivo"
 
-#: views/device/index.setup.html:17 views/import.html:22
-msgid "Device label"
-msgstr "Etiqueta del dispositivo"
-
 #. This is a short label in the normally hidden, advanced Load page
 #: views/device/load.html:22
 msgctxt "load-label"
+msgid "Device label"
+msgstr "Etiqueta del dispositivo"
+
+#: views/device/index.setup.html:17 views/import.html:22
 msgid "Device label"
 msgstr "Etiqueta del dispositivo"
 
@@ -541,19 +534,15 @@ msgstr "Etiqueta del dispositivo"
 msgid "Device needs to be connected in order to wipe it."
 msgstr "El dispositivo debe estar conectado para poder borrarlo."
 
-#: views/nav.html:298
-msgid "Disable Labeling"
-msgstr "Desactivar etiquetado"
+#. This is a short label in the device Advanced page
+#: views/device/advanced.html:135
+msgctxt "advanced-label"
+msgid "Disable PIN"
+msgstr "Desactivar PIN"
 
 #. This is written on a button, clicking it will disable PIN
 #: views/device/advanced.html:153
 msgctxt "button"
-msgid "Disable PIN"
-msgstr "Desactivar PIN"
-
-#. This is a short label in the device Advanced page
-#: views/device/advanced.html:135
-msgctxt "advanced-label"
 msgid "Disable PIN"
 msgstr "Desactivar PIN"
 
@@ -587,13 +576,19 @@ msgstr "Desconecte su TREZOR para desactivar la frase-contraseña."
 msgid "Disconnect your TREZOR to enable passphrase."
 msgstr "Desconecte su TREZOR para activar la frase-contraseña."
 
-#: views/nav.html:82 views/nav/device.html:33
+#: views/nav/device.html:33
 msgid "Disconnected device"
 msgstr "Dispositivo desconectado"
 
-#: views/debug.html:135
+#: views/debug.html:137
 msgid "Display transaction on explorer"
 msgstr "Mostrar la transacción en explorador"
+
+#: views/modal/backendwarnings/bcash.html:11
+msgid ""
+"Do not receive bitcoins to the addresses in this BCH wallet, do not send "
+"Bitcoin Cash coins to Bitcoin addresses."
+msgstr ""
 
 #: views/install/main.html:72
 msgid "Do you use Google Chrome on this computer?"
@@ -622,10 +617,6 @@ msgstr "No se olvide de verificar la dirección..."
 msgid "Don't have a TREZOR?"
 msgstr "¿No tienes TREZOR?"
 
-#: views/alertbars/offline.html:22
-msgid "Don't worry, your funds are safe."
-msgstr "No se preocupe, sus fondos están a salvo."
-
 #: views/install/bridge.force.html:21 views/install/main.html:40
 #: views/install/main.html:64 views/jumbotrons/udev-note.html:35
 msgid "Download"
@@ -640,24 +631,7 @@ msgstr "Descargar la aplicación TREZOR Manager en Google Play."
 msgid "Downloading firmware..."
 msgstr "Descargando firmware..."
 
-#: views/nav.html:293
-msgid "Dropbox connected. Click to disconnect it."
-msgstr "Dropbox conectado. Haga clic para desconectarlo."
-
-#: config.sample.js:10
-msgid ""
-"Due to the possible Bitcoin network disruption, it is not recommended to "
-"send nor receive any bitcoins from July 31st until the network stabilizes. "
-"<a href=\"https://blog.trezor.io/trezor-advisory-uasf-chain-split-"
-"fork-2f95cf2c11a0\" target=\"_blank\">Learn more</a>"
-msgstr ""
-"Debido a la posible disrupción de la red Bitcoin, no es recomendable enviar "
-"ni recibir bitcoins a partir del 31 de julio hasta que la red se "
-"estabilice.\n"
-"<a href=\"https://blog.trezor.io/trezor-advisory-uasf-chain-split-"
-"fork-2f95cf2c11a0\" target=\"_blank\">Mas información</a>"
-
-#: views/modal/ethwallet.html:2
+#: views/modal/backendwarnings/ethwallet.html:2
 msgid "ETH / ETC Wallet"
 msgstr "Monedero ETH / ETC"
 
@@ -667,7 +641,7 @@ msgctxt "transaction-fee"
 msgid "Economy"
 msgstr "Economía"
 
-#: views/nav.html:99 views/nav/device.html:51
+#: views/nav/device.html:51
 msgid "Edit Device basics"
 msgstr "Editar elementos básicos del dispositivo"
 
@@ -675,7 +649,7 @@ msgstr "Editar elementos básicos del dispositivo"
 msgid "Edit label"
 msgstr "Editar etiqueta"
 
-#: views/nav.html:291 views/nav/settings-buttons.html:27
+#: views/nav/settings-buttons.html:27
 msgid "Enable Labeling"
 msgstr "Permitir etiquetado"
 
@@ -712,16 +686,16 @@ msgctxt "pin"
 msgid "Enabled"
 msgstr "Activado"
 
-#. Enter [device_name] PIN
-#: views/modal/pin.html:15
-msgid "Enter"
-msgstr "Marque el PIN de [device_name]"
-
 #. This is on a pin button
 #: views/modal/pin.html:103
 msgctxt "pin-button"
 msgid "Enter"
 msgstr "Aceptar"
+
+#. Enter [device_name] PIN
+#: views/modal/pin.html:15
+msgid "Enter"
+msgstr "Marque el PIN de [device_name]"
 
 #. This is on a passphrase button
 #: views/modal/passphrase.html:52
@@ -743,11 +717,11 @@ msgstr "Introducir palabra de la semilla"
 msgid "Enter your new"
 msgstr "Ingrese su nuevo"
 
-#: views/debug.html:73 views/debug.html:80
+#: views/debug.html:73 views/debug.html:77
 msgid "Error details:"
 msgstr "Detalles del error:"
 
-#: views/modal/ethwallet.html:7
+#: views/modal/backendwarnings/ethwallet.html:7
 msgid "Ethereum Wallet"
 msgstr "Monedero Ethereum"
 
@@ -796,13 +770,13 @@ msgstr "Error al firmar el mensaje"
 msgid "Failed to verify message"
 msgstr "Error al verificar el mensaje"
 
-#. This is a label to the sending form. (Address/amount/comment)
-#: views/account/send/fees.html:4
-msgctxt "send"
+#: views/account/send/fees.html:87 views/account/transactions/table.html:17
 msgid "Fee"
 msgstr "Comisión"
 
-#: views/account/send/fees.html:87 views/account/transactions/table.html:17
+#. This is a label to the sending form. (Address/amount/comment)
+#: views/account/send/fees.html:4
+msgctxt "send"
 msgid "Fee"
 msgstr "Comisión"
 
@@ -854,6 +828,10 @@ msgstr ""
 "Siga las instrucciones en su\n"
 "                                                    dispositivo."
 
+#: config.sample.js:12
+msgid "For more information, please refer to"
+msgstr ""
+
 #. Clicking here will lead the user to our manual.
 #: views/modal/firmware.html:128 views/modal/firmware.html:160
 #: views/modal/firmware.html:194
@@ -872,7 +850,7 @@ msgstr ""
 "                        que el firmware será el más actualizado al momento "
 "de la iniciación."
 
-#: config.sample.js:27
+#: config.sample.js:29
 msgid ""
 "For testing purposes, Wallet uses the same dollar rates for testnet coins as "
 "for bitcoin."
@@ -880,14 +858,14 @@ msgstr ""
 "Para testeos, Wallet usa el mismo valor en dólares para monedas testnet y "
 "bitcoins."
 
-#. Button in remember/forget dialog
-#: views/modal/forget.disconnected.html:14 views/modal/forget.requested.html:15
-msgctxt "forget-button"
+#. this is first part of sentence 'Forget [device_name]?'
+#: views/modal/forget.disconnected.html:4 views/modal/forget.requested.html:4
 msgid "Forget"
 msgstr "Olvidar"
 
-#. this is first part of sentence 'Forget [device_name]?'
-#: views/modal/forget.disconnected.html:4 views/modal/forget.requested.html:4
+#. Button in remember/forget dialog
+#: views/modal/forget.disconnected.html:14 views/modal/forget.requested.html:15
+msgctxt "forget-button"
 msgid "Forget"
 msgstr "Olvidar"
 
@@ -897,7 +875,7 @@ msgctxt "forget-button"
 msgid "Forget (recommended)"
 msgstr "Olvidar (recomendado)"
 
-#: views/nav.html:133 views/nav/device.html:87
+#: views/nav/device.html:87
 msgid "Forget this device"
 msgstr "Olvidar este dispositivo"
 
@@ -932,13 +910,21 @@ msgstr "Galería de selección"
 msgid "Get one"
 msgstr "Consigue uno"
 
-#: views/modal/ethwallet.html:19
+#: views/modal/backendwarnings/bcash.html:21
+msgid "Go back"
+msgstr ""
+
+#: views/modal/backendwarnings/ethwallet.html:19
 msgid ""
 "Go to\n"
 "        MyEtherWallet"
 msgstr ""
 "Vaya a\n"
 "        MyEtherWallet"
+
+#: views/modal/beta.html:18
+msgid "Go to TREZOR Wallet"
+msgstr ""
 
 #: views/account/receive/index.html:41 views/account/receive/index.html:59
 msgid "Hide previous"
@@ -968,7 +954,7 @@ msgstr "El cambio de pantalla de inicio ha fallado."
 msgid "Homescreen setup"
 msgstr "Configuración de la pantalla de inicio"
 
-#: views/debug.html:118
+#: views/debug.html:120
 msgid "Homescreen was successfully changed."
 msgstr "La pantalla de inicio ha cambiado correctamente."
 
@@ -989,7 +975,7 @@ msgstr ""
 "que es genuina."
 
 #. Start of sentence: 'If the problem persists, please run our troubleshooter[its link]'
-#: views/debug.html:77
+#: views/debug.html:91
 msgid "If the problem persists, please run our"
 msgstr "Si el problema persiste, por favor ejecute nuestro"
 
@@ -1077,6 +1063,10 @@ msgstr "Importar direcciones de un CSV"
 msgid "Import from CSV"
 msgstr "Importar desde CSV"
 
+#: views/modal/beta.html:9
+msgid "In contrast,"
+msgstr ""
+
 #: views/jumbotrons/udev-note.html:13
 msgid ""
 "In some cases, Linux users need to install udev rules to access the device.\n"
@@ -1163,7 +1153,7 @@ msgctxt "basic-label"
 msgid "Label"
 msgstr "Etiqueta"
 
-#: views/debug.html:121
+#: views/debug.html:123
 msgid "Label was successfully changed."
 msgstr "La etiqueta se ha cambiado correctamente."
 
@@ -1197,7 +1187,7 @@ msgstr "Aprender más"
 msgid "Learn more about"
 msgstr "Aprenda más acerca de"
 
-#: views/nav/index.html:36
+#: views/nav/index.html:37
 msgid "Learn more about Legacy accounts."
 msgstr "Más información sobre las cuentas heredadas."
 
@@ -1238,21 +1228,21 @@ msgstr "XPUBs de cuenta heredada"
 msgid "Legacy metadata keys"
 msgstr "Claves de metadatos heredados"
 
-#: config.sample.js:17
+#: config.sample.js:19
 msgid "Litecoin changed the format of addresses."
 msgstr "Litecoin cambió el formato de direcciones."
 
-#: views/jumbotrons/loading.html:4 views/nav.html:153 views/nav.html:185
-#: views/nav/account.html:23 views/nav/account.html:6
+#: views/jumbotrons/loading.html:4 views/nav/account.html:23
+#: views/nav/account.html:6
 msgid "Loading"
 msgstr "Cargando"
 
 #. Is displayed when TREZOR is loading, in the left column
-#: views/nav.html:66 views/nav/device.html:17
+#: views/nav/device.html:17
 msgid "Loading ..."
 msgstr "Cargando..."
 
-#: views/nav.html:227 views/nav/device-buttons.html:5
+#: views/nav/device-buttons.html:5
 msgid "Loading accounts..."
 msgstr "Cargando cuentas..."
 
@@ -1276,7 +1266,7 @@ msgstr "Cargando..."
 msgid "Local traders:"
 msgstr "Comerciantes locales:"
 
-#: views/nav.html:115 views/nav/device.html:68
+#: views/nav/device.html:68
 msgid "Lock this device"
 msgstr "Bloquear este dispositivo"
 
@@ -1465,7 +1455,7 @@ msgstr ""
 msgid "Note that the number layout displayed on TREZOR has changed!"
 msgstr "¡Observe que la ubicación de los números en TREZOR a cambiado!"
 
-#: config.sample.js:17
+#: config.sample.js:19
 msgid "Note:"
 msgstr "Nota:"
 
@@ -1481,8 +1471,12 @@ msgctxt "recovery-label"
 msgid "Number of words in your recovery seed"
 msgstr "Número de palabras en su semilla de recuperación"
 
+#: views/modal/backendwarnings/bcash.html:16
+msgid "OK"
+msgstr ""
+
 #: views/device/advanced.html:102 views/device/advanced.html:52
-#: views/modal/pinguide.html:19
+#: views/modal/beta.html:13 views/modal/pinguide.html:19
 msgid "OK, I understand"
 msgstr "VALE, lo entiendo"
 
@@ -1517,11 +1511,11 @@ msgctxt "basic-label"
 msgid "PIN protection"
 msgstr "Protección de PIN"
 
-#: views/debug.html:115
+#: views/debug.html:117
 msgid "PIN was successfully changed."
 msgstr "El PIN se ha cambiado correctamente."
 
-#: views/debug.html:112
+#: views/debug.html:114
 msgid "PIN was successfully removed."
 msgstr "El PIN se eliminó correctamente."
 
@@ -1561,6 +1555,13 @@ msgstr "Pegue el CSV aquí:"
 #: views/modal/pin.html:97
 msgid "Perfect, impossible to guess!"
 msgstr "¡Perfecto, imposible de adivinar!"
+
+#: views/modal/backendwarnings/bcash.html:8
+msgid ""
+"Please be advised that this is not your Bitcoin wallet. BTC and BCH share "
+"the same address format and can be potentially mixed up. Make sure that you "
+"are sending and receiving coins to their respective wallets."
+msgstr ""
 
 #: views/modal/setup.html:26
 msgid ""
@@ -1727,16 +1728,12 @@ msgstr ""
 msgid "Please reconnect the device now."
 msgstr "Por favor, reconecte el dispositivo ahora."
 
-#: views/alertbars/offline.html:7
-msgid "Please reconnect to the Internet and reload the page."
-msgstr "Por favor, reconéctese a Internet y refresque la pagina."
-
 #: views/otherStrings.html:71
 msgctxt "send-button-tooltip"
 msgid "Please reload the page to send money."
 msgstr "Por favor, vuelva a cargar la página para enviar dinero."
 
-#: views/alertbars/offline.html:38
+#: views/alertbars/offline.html:7
 msgid "Please reload the page."
 msgstr "Por favor, vuelva a cargar la página."
 
@@ -1812,7 +1809,7 @@ msgstr "Tarifa"
 msgid "Rates by"
 msgstr "Tarifas de"
 
-#: views/debug.html:81
+#: views/debug.html:78
 msgid "Raw transaction in hex format:"
 msgstr "Transacción Raw en formato hex:"
 
@@ -1830,7 +1827,7 @@ msgid "Reading of accounts failed."
 msgstr "La lectura de las cuentas falló."
 
 #. This is shown on the header Send/Receive/Transactions/...
-#: views/account/fake-nav.html:13 views/account/nav.html:13
+#: views/account/nav.html:13
 msgctxt "header"
 msgid "Receive"
 msgstr "Recibir"
@@ -1859,7 +1856,7 @@ msgstr "Configuración de la semilla de recuperación"
 msgid "Release notes"
 msgstr "Notas de la versión"
 
-#: views/alertbars/offline.html:42 views/alertbars/offline.html:9
+#: views/alertbars/offline.html:11
 msgid "Reload"
 msgstr "Recargar"
 
@@ -1881,17 +1878,13 @@ msgstr "Eliminar destinatario"
 msgid "Rename account"
 msgstr "Renombrar cuenta"
 
-#: views/nav.html:215 views/nav/account.html:47
+#: views/nav/account.html:47
 msgid "Rename this account"
 msgstr "Renombrar esta cuenta"
 
 #: views/settings.html:90
 msgid "Save &amp; Reload"
 msgstr "Guardar &amp; Recargar"
-
-#: views/nav.html:171
-msgid "Saving"
-msgstr "Salvando"
 
 #: views/account/send/txAddress.html:35
 msgid "Scan QR code"
@@ -1928,7 +1921,7 @@ msgid "Select platform..."
 msgstr "Seleccionar plataforma..."
 
 #. This is shown on the header Send/Receive/Transactions/...
-#: views/account/fake-nav.html:21 views/account/nav.html:21
+#: views/account/nav.html:21
 msgctxt "header"
 msgid "Send"
 msgstr "Enviar"
@@ -1943,7 +1936,7 @@ msgstr "Enviar"
 msgid "Send payment"
 msgstr "Enviar pago"
 
-#: config.sample.js:20
+#: config.sample.js:22
 msgid ""
 "Sending a transaction to an address starting with <strong>3</strong>? "
 "Please, <a href=\"https://litecoin-project.github.io/p2sh-convert/\" target="
@@ -1954,7 +1947,7 @@ msgstr ""
 "\" target=\"_blank\">conviértala primero a una dirección que comience con M</"
 "a>"
 
-#: config.sample.js:23
+#: config.sample.js:25
 msgid ""
 "Sending litecoins to TREZOR? M-address refused? Please, <a href=\"https://"
 "litecoin-project.github.io/p2sh-convert/\" target=\"_blank\">convert it "
@@ -2045,7 +2038,7 @@ msgid "Sign"
 msgstr "Firmar"
 
 #. This is shown on the header Send/Receive/Transactions/...
-#: views/account/fake-nav.html:31 views/account/nav.html:32
+#: views/account/nav.html:32
 msgctxt "header"
 msgid "Sign &amp; Verify"
 msgstr "Firmar &amp; Verificar"
@@ -2099,7 +2092,7 @@ msgid "Strong enough!"
 msgstr "¡Suficientemente seguro!"
 
 #. This is displayed on top when any action successfully finishes
-#: views/debug.html:101
+#: views/debug.html:103
 msgctxt "flash"
 msgid "Success"
 msgstr "Éxito"
@@ -2112,9 +2105,17 @@ msgstr "Soporte"
 msgid "Support needed?"
 msgstr "¿Necesita ayuda?"
 
+#: views/modal/backendwarnings/bcash.html:2
+msgid "Switching to Bitcoin Cash"
+msgstr ""
+
 #: index.html:35 views/top.nav.html:3
 msgid "TREZOR"
 msgstr "TREZOR"
+
+#: views/modal/beta.html:6
+msgid "TREZOR Beta Wallet"
+msgstr ""
 
 #: views/install/bridge.force.html:10
 msgid "TREZOR Bridge update"
@@ -2125,6 +2126,10 @@ msgstr "Actualización de TREZOR Bridge"
 msgctxt "button"
 msgid "TREZOR Recovery"
 msgstr "Recuperación de TREZOR"
+
+#: views/modal/beta.html:6 views/modal/beta.html:9
+msgid "TREZOR Wallet"
+msgstr ""
 
 #: views/jumbotrons/landing/landing.heading.html:3
 msgid ""
@@ -2268,6 +2273,12 @@ msgstr ""
 "Esta es una interfaz avanzada destinada únicamente a su uso por "
 "desarrolladores!"
 
+#: config.sample.js:6
+msgid ""
+"This is your Bitcoin Cash (BCH) wallet. Do not receive bitcoins to the "
+"addresses in this wallet."
+msgstr ""
+
 #: views/account/transactions/table.html:10
 msgid "Time"
 msgstr "Tiempo"
@@ -2306,13 +2317,17 @@ msgstr ""
 "la transacción en alguna de las\n"
 "                                    direcciones anteriores."
 
-#: views/nav.html:234 views/nav/device-buttons.html:11
+#: views/nav/device-buttons.html:11
 msgid ""
 "To add accounts, make sure your device is connected and the last account is "
 "not empty."
 msgstr ""
 "Para agregar cuentas, asegúrese que el dispositivo está conectado y que la "
 "última cuenta no esté vacía."
+
+#: config.sample.js:8
+msgid "To claim your Bitcoin Cash coins, please use our"
+msgstr ""
 
 #: views/modal/firmware.html:37
 msgid ""
@@ -2341,7 +2356,7 @@ msgid "Total received:"
 msgstr "Total recibido:"
 
 #. The whole sentence: *Transaction* 1234567890abcdef was successfully sent.
-#: views/debug.html:125
+#: views/debug.html:127
 msgctxt "send-done"
 msgid "Transaction"
 msgstr "Transacción"
@@ -2351,7 +2366,7 @@ msgid "Transactions"
 msgstr "Transacciones"
 
 #. This is shown on the header Send/Receive/Transactions/...
-#: views/account/fake-nav.html:5 views/account/nav.html:5
+#: views/account/nav.html:5
 msgctxt "header"
 msgid "Transactions"
 msgstr "Transacciones"
@@ -2360,13 +2375,9 @@ msgstr "Transacciones"
 msgid "Transactions are loading ..."
 msgstr "Cargando transacciones..."
 
-#: views/debug.html:77
+#: views/debug.html:91
 msgid "Troubleshooter"
 msgstr "Solucionador de problemas"
-
-#: views/alertbars/offline.html:26
-msgid "Try a different server."
-msgstr "Intente con un servidor diferente."
 
 #: views/device/index.basic.html:7
 msgid "Try again"
@@ -2429,18 +2440,18 @@ msgid "Upgrade"
 msgstr "Mejora"
 
 #. Upgrade refers to bridge upgrade
-#: views/alertbars/firmware.html:10
-msgctxt "firmware-update"
-msgid "Upgrade for the newest features and bug fixes."
-msgstr "Actualice para nuevas características y corrección de errores."
-
-#. Upgrade refers to bridge upgrade
 #: views/alertbars/bridge.html:8
 msgctxt "bridge-update"
 msgid "Upgrade for the newest features and bug fixes."
 msgstr "Actualice para las nuevas características y corrección de errores."
 
 #: views/install/bridge.force.html:12
+msgid "Upgrade for the newest features and bug fixes."
+msgstr "Actualice para nuevas características y corrección de errores."
+
+#. Upgrade refers to bridge upgrade
+#: views/alertbars/firmware.html:10
+msgctxt "firmware-update"
 msgid "Upgrade for the newest features and bug fixes."
 msgstr "Actualice para nuevas características y corrección de errores."
 
@@ -2462,8 +2473,7 @@ msgstr ""
 "Utilice esta función sólo si tiene la semilla de recuperación o no tiene "
 "ninguna moneda en el dispositivo."
 
-#: views/nav.html:25 views/nav.html:70 views/nav/device.html:21
-#: views/nav/unacquired.html:14
+#: views/nav/device.html:21 views/nav/unacquired.html:14
 msgid "Used in other window"
 msgstr "Utilizado en otra ventana"
 
@@ -2584,15 +2594,15 @@ msgstr ""
 "Cuando se las das a un tercero, le permites ver tu historial de "
 "transacciones al completo."
 
-#. This is written on a button, clicking it will wipe the device
-#: views/device/advanced.html:201
-msgctxt "button"
-msgid "Wipe device"
-msgstr "Limpiar dispositivo"
-
 #. This is a short label in the device Advanced page
 #: views/device/advanced.html:177
 msgctxt "advanced-label"
+msgid "Wipe device"
+msgstr "Limpiar dispositivo"
+
+#. This is written on a button, clicking it will wipe the device
+#: views/device/advanced.html:201
+msgctxt "button"
 msgid "Wipe device"
 msgstr "Limpiar dispositivo"
 
@@ -2782,9 +2792,13 @@ msgstr "Ayer"
 msgid "You are about to pay"
 msgstr "Está a punto de pagar"
 
-#: views/alertbars/offline.html:6
-msgid "You are offline."
-msgstr "Esta desconectado."
+#: views/modal/backendwarnings/bcash.html:5
+msgid "You are now switching to the Bitcoin Cash (BCH) wallet."
+msgstr ""
+
+#: views/modal/beta.html:2
+msgid "You are opening TREZOR Beta Wallet"
+msgstr ""
 
 #. This is displayed on Android.
 #: views/install/mobile.android.html:19
@@ -2792,11 +2806,11 @@ msgid "You can also download and install the APK directly."
 msgstr "También puede descargar e instalar el APK directamente."
 
 #. Blockchain.info link follows
-#: views/debug.html:84
+#: views/debug.html:81
 msgid "You can try to resend this transaction using"
 msgstr "Puedes intentar volver a enviar la transacción utilizando"
 
-#: views/nav.html:242 views/nav/device-buttons.html:46
+#: views/nav/device-buttons.html:46
 msgid "You cannot add more than 10 accounts."
 msgstr "No se pueden crear más de 10 cuentas."
 
@@ -2808,7 +2822,7 @@ msgstr ""
 "Se le puede pedir que vuelva a escribir algunas palabras que no son parte de "
 "su semilla de recuperación."
 
-#: views/alertbars/offline.html:37
+#: views/alertbars/offline.html:6
 msgid "You were disconnected."
 msgstr "Está desconectado."
 
@@ -2896,6 +2910,10 @@ msgstr "añadir tus comentarios a las transacciones"
 msgid "coffee by jen is licenced under CC BY 2.0"
 msgstr "coffee by jen está licenciado bajo CC BY 2.0"
 
+#: config.sample.js:9
+msgid "coin-splitting tool"
+msgstr ""
+
 #: views/nav/settings-buttons.html:40
 msgid "connected"
 msgstr "conectado"
@@ -2908,7 +2926,7 @@ msgstr "contando..."
 msgid "disconnect the device"
 msgstr "desconecte el dispositivo"
 
-#: views/debug.html:88
+#: views/debug.html:85
 msgid "external Broadcast Transaction tool"
 msgstr "Herramienta externa de Transmisión de Transacción"
 
@@ -2945,6 +2963,16 @@ msgstr[1] "horas"
 msgid "in your message is not an ASCII character."
 msgstr "en su mensaje no es un carácter ASCII."
 
+#: views/modal/beta.html:6
+msgid "is a public feature-testing version of the"
+msgstr ""
+
+#: views/modal/beta.html:9
+msgid ""
+"is feature-conservative, making sure that its functionality is maximally "
+"reliable and dependable for the general public."
+msgstr ""
+
 #. Part of a long text about Dropbox and labeling
 #: views/modal/dropbox.html:33
 msgid "label addresses"
@@ -2968,13 +2996,13 @@ msgstr[1] "minutos"
 msgid "not set"
 msgstr "no establecida"
 
-#: views/account/transactions/welcomes/bitcoin.html:4
-msgid "or"
-msgstr "o"
-
 #. Whole text: Scan it into an application that supports XPUBs such as Mycelium *or* Sentinel for Android. Then, you can watch your transactions and receive payments everywhere without carrying your TREZOR.
 #: views/device/index.basic.html:230
 msgctxt "xpub-text"
+msgid "or"
+msgstr "o"
+
+#: views/account/transactions/welcomes/bitcoin.html:4
 msgid "or"
 msgstr "o"
 
@@ -3018,19 +3046,13 @@ msgid_plural "transactions"
 msgstr[0] "transacción"
 msgstr[1] "transacciones"
 
-#. In text: 'Loading (123 transactions)', it is always plural
-#: views/nav.html:192
-msgctxt "loading"
-msgid "transactions"
-msgstr "transacciones"
-
 #. Part of a long text about Dropbox and labeling
 #: views/modal/dropbox.html:36
 msgid "use the full-text search"
 msgstr "utilice la búsqueda de texto completo"
 
 #. The whole sentence: Transaction 1234567890abcdef *was successfully sent.*
-#: views/debug.html:139
+#: views/debug.html:141
 msgctxt "send-done"
 msgid "was successfully sent."
 msgstr "se envió con éxito."
@@ -3040,6 +3062,52 @@ msgstr "se envió con éxito."
 msgctxt "typeahead"
 msgid "your account"
 msgstr "tu cuenta"
+
+#~ msgid "Analysing"
+#~ msgstr "Analizando"
+
+#~ msgid "August 1st Advisory"
+#~ msgstr "Asesoramiento para el 1 de agosto"
+
+#~ msgid "Backend server is down."
+#~ msgstr "El servidor de back-end está inactivo."
+
+#~ msgid "Disable Labeling"
+#~ msgstr "Desactivar etiquetado"
+
+#~ msgid "Don't worry, your funds are safe."
+#~ msgstr "No se preocupe, sus fondos están a salvo."
+
+#~ msgid "Dropbox connected. Click to disconnect it."
+#~ msgstr "Dropbox conectado. Haga clic para desconectarlo."
+
+#~ msgid ""
+#~ "Due to the possible Bitcoin network disruption, it is not recommended to "
+#~ "send nor receive any bitcoins from July 31st until the network "
+#~ "stabilizes. <a href=\"https://blog.trezor.io/trezor-advisory-uasf-chain-"
+#~ "split-fork-2f95cf2c11a0\" target=\"_blank\">Learn more</a>"
+#~ msgstr ""
+#~ "Debido a la posible disrupción de la red Bitcoin, no es recomendable "
+#~ "enviar ni recibir bitcoins a partir del 31 de julio hasta que la red se "
+#~ "estabilice.\n"
+#~ "<a href=\"https://blog.trezor.io/trezor-advisory-uasf-chain-split-"
+#~ "fork-2f95cf2c11a0\" target=\"_blank\">Mas información</a>"
+
+#~ msgid "Please reconnect to the Internet and reload the page."
+#~ msgstr "Por favor, reconéctese a Internet y refresque la pagina."
+
+#~ msgid "Saving"
+#~ msgstr "Salvando"
+
+#~ msgid "Try a different server."
+#~ msgstr "Intente con un servidor diferente."
+
+#~ msgid "You are offline."
+#~ msgstr "Esta desconectado."
+
+#~ msgctxt "loading"
+#~ msgid "transactions"
+#~ msgstr "transacciones"
 
 #~ msgid "Account XPUBs"
 #~ msgstr "XPUBs de la cuenta"

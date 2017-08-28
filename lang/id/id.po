@@ -4,8 +4,8 @@ msgstr ""
 "POT-Creation-Date: \n"
 "PO-Revision-Date: 2017-08-11 10:26+0000\n"
 "Last-Translator: Surya Susilo <ekawithoutyou@indonesianbacktrack.or.id>\n"
-"Language-Team: Indonesian "
-"<https://hosted.weblate.org/projects/satoshilabs/mytrezor/id/>\n"
+"Language-Team: Indonesian <https://hosted.weblate.org/projects/satoshilabs/"
+"mytrezor/id/>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -13,13 +13,19 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 2.16-dev\n"
 
-#: views/nav.html:115 views/nav/device.html:68
+#: views/nav/device.html:68
 msgid "(automatically in"
 msgstr "(masuk secara otomatis"
 
 #: views/device/index.setup.html:23
 msgid "* No worries, you can always change it."
 msgstr "* Jangan khawatir, anda tentu dapat merubahnya."
+
+#: views/modal/beta.html:6
+msgid ""
+", offering the newest features before they are available to the general "
+"public."
+msgstr ""
 
 #. The number refer to XPUBs
 #: views/import.html:33 views/import.html:42 views/import.html:52
@@ -95,7 +101,6 @@ msgstr "Akun public keys (XPUB)"
 msgid "Action was interrupted"
 msgstr "Langkah mengalami gangguan"
 
-#: views/nav.html:238 views/nav.html:246 views/nav.html:255
 #: views/nav/device-buttons.html:18 views/nav/device-buttons.html:35
 #: views/nav/device-buttons.html:53
 msgid "Add account"
@@ -124,7 +129,9 @@ msgctxt "recovery-label"
 msgid "Additional passphrase encryption"
 msgstr "Tambahan enkripsi passphrase"
 
-#: views/account/transactions/table.html:13
+#. This is a label to the sign/verify form.
+#: views/account/sign/inside.html:203 views/account/sign/inside.html:62
+msgctxt "sign"
 msgid "Address"
 msgstr "Alamat"
 
@@ -134,9 +141,7 @@ msgctxt "send"
 msgid "Address"
 msgstr "Alamat"
 
-#. This is a label to the sign/verify form.
-#: views/account/sign/inside.html:203 views/account/sign/inside.html:62
-msgctxt "sign"
+#: views/account/transactions/table.html:13
 msgid "Address"
 msgstr "Alamat"
 
@@ -158,13 +163,13 @@ msgctxt "header"
 msgid "Advanced"
 msgstr "Tingkat lanjut"
 
-#: views/modal/recovery.html:65
-msgid "Advanced recovery"
-msgstr "Pemulihan tingkat lanjut"
-
 #. This is a label to a checkbox in the device recovery page
 #: views/device/recovery.html:173 views/device/recovery.html:185
 msgctxt "recovery-label"
+msgid "Advanced recovery"
+msgstr "Pemulihan tingkat lanjut"
+
+#: views/modal/recovery.html:65
 msgid "Advanced recovery"
 msgstr "Pemulihan tingkat lanjut"
 
@@ -215,11 +220,7 @@ msgstr "Jumlah diperlukan."
 msgid "Amount is too low"
 msgstr "Jumlahnya terlalu rendah"
 
-#: views/nav.html:164
-msgid "Analysing"
-msgstr "Menganalisa"
-
-#: views/nav.html:267 views/nav/settings-buttons.html:3
+#: views/nav/settings-buttons.html:3
 msgid "App Settings"
 msgstr "Pengaturan App"
 
@@ -227,17 +228,9 @@ msgstr "Pengaturan App"
 msgid "Application Settings"
 msgstr "Pengaturan Aplikasi"
 
-#: config.sample.js:8
-msgid "August 1st Advisory"
-msgstr "Pertimbangan 1 Agustus"
-
 #: views/account/receive/address.html:189
 msgid "BIP32 Path:"
 msgstr "Jalur BIP32:"
-
-#: views/alertbars/offline.html:21
-msgid "Backend server is down."
-msgstr "Server Backend sedang down."
 
 #. Label for Backspace button in Advanced Recovery
 #: views/modal/recovery.html:60
@@ -344,8 +337,7 @@ msgstr "Klik pada XPUB untuk menampilkan kode QR-nya."
 msgid "Click to hide address"
 msgstr "Klik untuk menyembunyikan alamat"
 
-#: views/nav.html:28 views/nav.html:73 views/nav/device.html:24
-#: views/nav/unacquired.html:17
+#: views/nav/device.html:24 views/nav/unacquired.html:17
 msgid "Click to renew session"
 msgstr "Klik untuk memperbarui sesi"
 
@@ -353,15 +345,16 @@ msgstr "Klik untuk memperbarui sesi"
 msgid "Click to show address"
 msgstr "Klik untuk melihat alamat"
 
-#: views/debug.html:7 views/debug.html:96 views/debug.log.html:8
-#: views/modal/csv.html:44 views/modal/disconnect.html:15
+#: views/debug.html:7 views/debug.html:98 views/debug.log.html:8
+#: views/modal/backendwarnings/ethwallet.html:24 views/modal/csv.html:44
+#: views/modal/disconnect.html:15
 #: views/modal/disconnect.passphrase_disable.html:14
 #: views/modal/disconnect.passphrase_enable.html:14 views/modal/dropbox.html:56
-#: views/modal/ethwallet.html:24 views/modal/firmware.html:111
-#: views/modal/firmware.html:140 views/modal/firmware.html:172
-#: views/modal/firmware.html:224 views/modal/firmware.html:265
-#: views/modal/firmware.html:358 views/modal/firmware.html:382
-#: views/modal/firmware.html:446 views/modal/qr.html:18 views/settings.html:94
+#: views/modal/firmware.html:111 views/modal/firmware.html:140
+#: views/modal/firmware.html:172 views/modal/firmware.html:224
+#: views/modal/firmware.html:265 views/modal/firmware.html:358
+#: views/modal/firmware.html:382 views/modal/firmware.html:446
+#: views/modal/qr.html:18 views/settings.html:94
 msgid "Close"
 msgstr "Tutup"
 
@@ -395,7 +388,7 @@ msgstr "Konfirmasikan informasi anda."
 msgid "Confirmation time cannot be estimated."
 msgstr "Waktu konfirmasinya tidak dapat diperkirakan."
 
-#: views/debug.html:109
+#: views/debug.html:111
 msgid "Congratulations! Your device is now ready to use."
 msgstr "Selamat! Perangkat anda sekarang siap digunakan."
 
@@ -435,7 +428,7 @@ msgstr "Hubungkan perangkat untuk mengatur homescreen."
 msgid "Connect to Dropbox"
 msgstr "Hubungkan ke Dropbox"
 
-#: views/nav.html:281 views/nav/settings-buttons.html:17
+#: views/nav/settings-buttons.html:17
 msgid ""
 "Connect to Dropbox to enable:<br>- renaming accounts<br>- commenting "
 "transactions<br>- labeling addresses and more..."
@@ -447,11 +440,11 @@ msgstr ""
 msgid "Connect your TREZOR to display this address"
 msgstr "Hubungkan TREZOR anda untuk menampilkan address ini"
 
-#: views/nav.html:85 views/nav/device.html:36
+#: views/nav/device.html:36
 msgid "Connected device"
 msgstr "Perangkat yang terhubung"
 
-#: views/nav.html:278 views/nav/settings-buttons.html:14
+#: views/nav/settings-buttons.html:14
 msgid "Connecting ..."
 msgstr "Menghubungkan ..."
 
@@ -528,13 +521,13 @@ msgctxt "recovery-label"
 msgid "Device label"
 msgstr "Label Perangkat"
 
-#: views/device/index.setup.html:17 views/import.html:22
-msgid "Device label"
-msgstr "Label Perangkat"
-
 #. This is a short label in the normally hidden, advanced Load page
 #: views/device/load.html:22
 msgctxt "load-label"
+msgid "Device label"
+msgstr "Label Perangkat"
+
+#: views/device/index.setup.html:17 views/import.html:22
 msgid "Device label"
 msgstr "Label Perangkat"
 
@@ -542,19 +535,15 @@ msgstr "Label Perangkat"
 msgid "Device needs to be connected in order to wipe it."
 msgstr "Perangkat perlu tetap terhubung agar dapat dihapus."
 
-#: views/nav.html:298
-msgid "Disable Labeling"
-msgstr "Nonaktifkan Pelabelan"
+#. This is a short label in the device Advanced page
+#: views/device/advanced.html:135
+msgctxt "advanced-label"
+msgid "Disable PIN"
+msgstr "Nonaktifkan PIN"
 
 #. This is written on a button, clicking it will disable PIN
 #: views/device/advanced.html:153
 msgctxt "button"
-msgid "Disable PIN"
-msgstr "Nonaktifkan PIN"
-
-#. This is a short label in the device Advanced page
-#: views/device/advanced.html:135
-msgctxt "advanced-label"
 msgid "Disable PIN"
 msgstr "Nonaktifkan PIN"
 
@@ -588,13 +577,19 @@ msgstr "Putuskan sambungab TREZOR anda untuk menonaktiflan passphrase."
 msgid "Disconnect your TREZOR to enable passphrase."
 msgstr "Putuskan sambungan TREZOR anda untuk aktifkan passphrase."
 
-#: views/nav.html:82 views/nav/device.html:33
+#: views/nav/device.html:33
 msgid "Disconnected device"
 msgstr "Putuskan sambungan perangkat"
 
-#: views/debug.html:135
+#: views/debug.html:137
 msgid "Display transaction on explorer"
 msgstr "Lihat transaksi di exploler"
+
+#: views/modal/backendwarnings/bcash.html:11
+msgid ""
+"Do not receive bitcoins to the addresses in this BCH wallet, do not send "
+"Bitcoin Cash coins to Bitcoin addresses."
+msgstr ""
 
 #: views/install/main.html:72
 msgid "Do you use Google Chrome on this computer?"
@@ -623,10 +618,6 @@ msgstr "Jangan lupa untuk kroscek alamat ..."
 msgid "Don't have a TREZOR?"
 msgstr "Belum punya TREZOR?"
 
-#: views/alertbars/offline.html:22
-msgid "Don't worry, your funds are safe."
-msgstr "Jangan khawatir, dana anda aman."
-
 #: views/install/bridge.force.html:21 views/install/main.html:40
 #: views/install/main.html:64 views/jumbotrons/udev-note.html:35
 msgid "Download"
@@ -641,23 +632,7 @@ msgstr "Unduh TREZOR Manager App di Google Play."
 msgid "Downloading firmware..."
 msgstr "Mengunduh firmware..."
 
-#: views/nav.html:293
-msgid "Dropbox connected. Click to disconnect it."
-msgstr "Dropbox terhubung. Klik untuk memutuskan sambungan."
-
-#: config.sample.js:10
-msgid ""
-"Due to the possible Bitcoin network disruption, it is not recommended to "
-"send nor receive any bitcoins from July 31st until the network stabilizes. "
-"<a href=\"https://blog.trezor.io/trezor-advisory-uasf-chain-split-"
-"fork-2f95cf2c11a0\" target=\"_blank\">Learn more</a>"
-msgstr ""
-"Karena gangguan jaringan Bitcoin yang mungkin terjadi, tidak disarankan "
-"untuk mengirim atau menerima bitcoin apapun dari tanggal 31 Juli sampai "
-"jaringan stabil. <a href=\"https://blog.trezor.io/trezor-advisory-uasf-chain-"
-"split-fork-2f95cf2c11a0\" target=\"_blank\"> Pelajari lebih lanjut </a>"
-
-#: views/modal/ethwallet.html:2
+#: views/modal/backendwarnings/ethwallet.html:2
 msgid "ETH / ETC Wallet"
 msgstr "Dompet ETH / ETC"
 
@@ -667,7 +642,7 @@ msgctxt "transaction-fee"
 msgid "Economy"
 msgstr "Ekonomis"
 
-#: views/nav.html:99 views/nav/device.html:51
+#: views/nav/device.html:51
 msgid "Edit Device basics"
 msgstr "Ubah Perangkat dasar"
 
@@ -675,7 +650,7 @@ msgstr "Ubah Perangkat dasar"
 msgid "Edit label"
 msgstr "Ubah label"
 
-#: views/nav.html:291 views/nav/settings-buttons.html:27
+#: views/nav/settings-buttons.html:27
 msgid "Enable Labeling"
 msgstr "Aktifkan menamai label"
 
@@ -712,14 +687,14 @@ msgctxt "pin"
 msgid "Enabled"
 msgstr "Aktif"
 
-#. Enter [device_name] PIN
-#: views/modal/pin.html:15
-msgid "Enter"
-msgstr "Enter"
-
 #. This is on a pin button
 #: views/modal/pin.html:103
 msgctxt "pin-button"
+msgid "Enter"
+msgstr "Enter"
+
+#. Enter [device_name] PIN
+#: views/modal/pin.html:15
 msgid "Enter"
 msgstr "Enter"
 
@@ -743,11 +718,11 @@ msgstr "Masukkan kata seed"
 msgid "Enter your new"
 msgstr "Masukkan yang baru"
 
-#: views/debug.html:73 views/debug.html:80
+#: views/debug.html:73 views/debug.html:77
 msgid "Error details:"
 msgstr "Rincian kesalahan:"
 
-#: views/modal/ethwallet.html:7
+#: views/modal/backendwarnings/ethwallet.html:7
 msgid "Ethereum Wallet"
 msgstr "Dompet Ethereum"
 
@@ -796,13 +771,13 @@ msgstr "Gagal menandatangani pesan"
 msgid "Failed to verify message"
 msgstr "Gagal memverifikasi pesan"
 
-#. This is a label to the sending form. (Address/amount/comment)
-#: views/account/send/fees.html:4
-msgctxt "send"
+#: views/account/send/fees.html:87 views/account/transactions/table.html:17
 msgid "Fee"
 msgstr "Biaya"
 
-#: views/account/send/fees.html:87 views/account/transactions/table.html:17
+#. This is a label to the sending form. (Address/amount/comment)
+#: views/account/send/fees.html:4
+msgctxt "send"
 msgid "Fee"
 msgstr "Biaya"
 
@@ -856,6 +831,10 @@ msgstr ""
 "Ikuti petunjuk pada\n"
 "                                                    perangkat anda."
 
+#: config.sample.js:12
+msgid "For more information, please refer to"
+msgstr ""
+
 #. Clicking here will lead the user to our manual.
 #: views/modal/firmware.html:128 views/modal/firmware.html:160
 #: views/modal/firmware.html:194
@@ -874,7 +853,7 @@ msgstr ""
 "                        firmware anda akan tetap 'up to date' saat inisasi "
 "awal."
 
-#: config.sample.js:27
+#: config.sample.js:29
 msgid ""
 "For testing purposes, Wallet uses the same dollar rates for testnet coins as "
 "for bitcoin."
@@ -882,14 +861,14 @@ msgstr ""
 "Untuk tujuan pengujian, Wallet menggunakan harga dolar yang sama untuk koin "
 "testnet seperti untuk bitcoin."
 
-#. Button in remember/forget dialog
-#: views/modal/forget.disconnected.html:14 views/modal/forget.requested.html:15
-msgctxt "forget-button"
+#. this is first part of sentence 'Forget [device_name]?'
+#: views/modal/forget.disconnected.html:4 views/modal/forget.requested.html:4
 msgid "Forget"
 msgstr "Lupa"
 
-#. this is first part of sentence 'Forget [device_name]?'
-#: views/modal/forget.disconnected.html:4 views/modal/forget.requested.html:4
+#. Button in remember/forget dialog
+#: views/modal/forget.disconnected.html:14 views/modal/forget.requested.html:15
+msgctxt "forget-button"
 msgid "Forget"
 msgstr "Lupa"
 
@@ -899,7 +878,7 @@ msgctxt "forget-button"
 msgid "Forget (recommended)"
 msgstr "Lupa (disarankan)"
 
-#: views/nav.html:133 views/nav/device.html:87
+#: views/nav/device.html:87
 msgid "Forget this device"
 msgstr "Hapus perangkat ini"
 
@@ -934,13 +913,21 @@ msgstr "Pilihan galeri"
 msgid "Get one"
 msgstr "Beli satu"
 
-#: views/modal/ethwallet.html:19
+#: views/modal/backendwarnings/bcash.html:21
+msgid "Go back"
+msgstr ""
+
+#: views/modal/backendwarnings/ethwallet.html:19
 msgid ""
 "Go to\n"
 "        MyEtherWallet"
 msgstr ""
 "Pergi ke\n"
 "        MyEtherWallet"
+
+#: views/modal/beta.html:18
+msgid "Go to TREZOR Wallet"
+msgstr ""
 
 #: views/account/receive/index.html:41 views/account/receive/index.html:59
 msgid "Hide previous"
@@ -970,7 +957,7 @@ msgstr "Perubahan homescreen gagal."
 msgid "Homescreen setup"
 msgstr "Pengatturan homescreen"
 
-#: views/debug.html:118
+#: views/debug.html:120
 msgid "Homescreen was successfully changed."
 msgstr "Berhasil merubah homescreen."
 
@@ -990,7 +977,7 @@ msgstr ""
 "bahwa itu asli."
 
 #. Start of sentence: 'If the problem persists, please run our troubleshooter[its link]'
-#: views/debug.html:77
+#: views/debug.html:91
 msgid "If the problem persists, please run our"
 msgstr "Jika masalah tetap ada, mohon jalankan"
 
@@ -1079,6 +1066,10 @@ msgstr "Import alamat dari file CSV"
 msgid "Import from CSV"
 msgstr "Import dari CSV"
 
+#: views/modal/beta.html:9
+msgid "In contrast,"
+msgstr ""
+
 #: views/jumbotrons/udev-note.html:13
 msgid ""
 "In some cases, Linux users need to install udev rules to access the device.\n"
@@ -1165,7 +1156,7 @@ msgctxt "basic-label"
 msgid "Label"
 msgstr "Label"
 
-#: views/debug.html:121
+#: views/debug.html:123
 msgid "Label was successfully changed."
 msgstr "Nama label berhasil dirubah."
 
@@ -1199,7 +1190,7 @@ msgstr "Belajarlah lebih lanjut"
 msgid "Learn more about"
 msgstr "Belajar lebih lanjut tentang"
 
-#: views/nav/index.html:36
+#: views/nav/index.html:37
 msgid "Learn more about Legacy accounts."
 msgstr "Pelajari lebih lanjut tentang akun Legacy."
 
@@ -1240,21 +1231,21 @@ msgstr "XPUBs akun legacy"
 msgid "Legacy metadata keys"
 msgstr "Kunci metadata legacy"
 
-#: config.sample.js:17
+#: config.sample.js:19
 msgid "Litecoin changed the format of addresses."
 msgstr "Litecoin mengubah format alamat."
 
-#: views/jumbotrons/loading.html:4 views/nav.html:153 views/nav.html:185
-#: views/nav/account.html:23 views/nav/account.html:6
+#: views/jumbotrons/loading.html:4 views/nav/account.html:23
+#: views/nav/account.html:6
 msgid "Loading"
 msgstr "Memuat"
 
 #. Is displayed when TREZOR is loading, in the left column
-#: views/nav.html:66 views/nav/device.html:17
+#: views/nav/device.html:17
 msgid "Loading ..."
 msgstr "Memuat ..."
 
-#: views/nav.html:227 views/nav/device-buttons.html:5
+#: views/nav/device-buttons.html:5
 msgid "Loading accounts..."
 msgstr "Memuat akun..."
 
@@ -1278,7 +1269,7 @@ msgstr "Memuat..."
 msgid "Local traders:"
 msgstr "Trader lokal:"
 
-#: views/nav.html:115 views/nav/device.html:68
+#: views/nav/device.html:68
 msgid "Lock this device"
 msgstr "Kunci perangkat ini"
 
@@ -1465,7 +1456,7 @@ msgstr ""
 "Perlu dicatat bahwa nomor rancangan tata letak yang ditampilkan pada TRAZOR "
 "telah berubah!"
 
-#: config.sample.js:17
+#: config.sample.js:19
 msgid "Note:"
 msgstr "Catatan:"
 
@@ -1481,8 +1472,12 @@ msgctxt "recovery-label"
 msgid "Number of words in your recovery seed"
 msgstr "Jumlah kata pada seed recovery anda"
 
+#: views/modal/backendwarnings/bcash.html:16
+msgid "OK"
+msgstr ""
+
 #: views/device/advanced.html:102 views/device/advanced.html:52
-#: views/modal/pinguide.html:19
+#: views/modal/beta.html:13 views/modal/pinguide.html:19
 msgid "OK, I understand"
 msgstr "OK, Saya mengerti"
 
@@ -1517,11 +1512,11 @@ msgctxt "basic-label"
 msgid "PIN protection"
 msgstr "Proteksi PIN"
 
-#: views/debug.html:115
+#: views/debug.html:117
 msgid "PIN was successfully changed."
 msgstr "PIN berhasil dirubah."
 
-#: views/debug.html:112
+#: views/debug.html:114
 msgid "PIN was successfully removed."
 msgstr "PIN berhasil dihapus."
 
@@ -1561,6 +1556,13 @@ msgstr "Paste CSV disini:"
 #: views/modal/pin.html:97
 msgid "Perfect, impossible to guess!"
 msgstr "Sempurna, tidak mungkin dapat ditebak!"
+
+#: views/modal/backendwarnings/bcash.html:8
+msgid ""
+"Please be advised that this is not your Bitcoin wallet. BTC and BCH share "
+"the same address format and can be potentially mixed up. Make sure that you "
+"are sending and receiving coins to their respective wallets."
+msgstr ""
 
 #: views/modal/setup.html:26
 msgid ""
@@ -1727,17 +1729,12 @@ msgstr ""
 msgid "Please reconnect the device now."
 msgstr "Silahkan hubungkan kembali perangkat sekarang juga."
 
-#: views/alertbars/offline.html:7
-msgid "Please reconnect to the Internet and reload the page."
-msgstr ""
-"Silahkan hububungkan kembali ke Internet lalu buka kembali halaman tersebut."
-
 #: views/otherStrings.html:71
 msgctxt "send-button-tooltip"
 msgid "Please reload the page to send money."
 msgstr "Silahkan muat kembali halaman untuk mengirim uang."
 
-#: views/alertbars/offline.html:38
+#: views/alertbars/offline.html:7
 msgid "Please reload the page."
 msgstr "Silahkan muat kembali halaman."
 
@@ -1813,7 +1810,7 @@ msgstr "Kurs"
 msgid "Rates by"
 msgstr "Kurs oleh"
 
-#: views/debug.html:81
+#: views/debug.html:78
 msgid "Raw transaction in hex format:"
 msgstr "Raw transaksi dalam format hex:"
 
@@ -1831,7 +1828,7 @@ msgid "Reading of accounts failed."
 msgstr "Pembacaan akun gagal."
 
 #. This is shown on the header Send/Receive/Transactions/...
-#: views/account/fake-nav.html:13 views/account/nav.html:13
+#: views/account/nav.html:13
 msgctxt "header"
 msgid "Receive"
 msgstr "Menerima"
@@ -1860,7 +1857,7 @@ msgstr "Pengaturan Recovery seed"
 msgid "Release notes"
 msgstr "Catatan rilis"
 
-#: views/alertbars/offline.html:42 views/alertbars/offline.html:9
+#: views/alertbars/offline.html:11
 msgid "Reload"
 msgstr "Ulangi Kembali"
 
@@ -1882,17 +1879,13 @@ msgstr "Hapus penerima"
 msgid "Rename account"
 msgstr "Ubah nama akun"
 
-#: views/nav.html:215 views/nav/account.html:47
+#: views/nav/account.html:47
 msgid "Rename this account"
 msgstr "Ubah nama akun ini"
 
 #: views/settings.html:90
 msgid "Save &amp; Reload"
 msgstr "Simpan &amp; Reload"
-
-#: views/nav.html:171
-msgid "Saving"
-msgstr "Menyimpan"
 
 #: views/account/send/txAddress.html:35
 msgid "Scan QR code"
@@ -1929,7 +1922,7 @@ msgid "Select platform..."
 msgstr "Pilih platfrom..."
 
 #. This is shown on the header Send/Receive/Transactions/...
-#: views/account/fake-nav.html:21 views/account/nav.html:21
+#: views/account/nav.html:21
 msgctxt "header"
 msgid "Send"
 msgstr "Kirim"
@@ -1944,7 +1937,7 @@ msgstr "Kirim"
 msgid "Send payment"
 msgstr "Kirim pembayaran"
 
-#: config.sample.js:20
+#: config.sample.js:22
 msgid ""
 "Sending a transaction to an address starting with <strong>3</strong>? "
 "Please, <a href=\"https://litecoin-project.github.io/p2sh-convert/\" target="
@@ -1954,7 +1947,7 @@ msgstr ""
 "Tolong, <a href=\"https://litecoin-project.github.io/p2sh-convert/\" target="
 "\"_blank\"> ubah dulu ke alamat yang dimulai dengan M </a>"
 
-#: config.sample.js:23
+#: config.sample.js:25
 msgid ""
 "Sending litecoins to TREZOR? M-address refused? Please, <a href=\"https://"
 "litecoin-project.github.io/p2sh-convert/\" target=\"_blank\">convert it "
@@ -2046,7 +2039,7 @@ msgid "Sign"
 msgstr "Tandatangani"
 
 #. This is shown on the header Send/Receive/Transactions/...
-#: views/account/fake-nav.html:31 views/account/nav.html:32
+#: views/account/nav.html:32
 msgctxt "header"
 msgid "Sign &amp; Verify"
 msgstr "Tandatangani &amp; Verifikasi"
@@ -2100,7 +2093,7 @@ msgid "Strong enough!"
 msgstr "Cukup kuat!"
 
 #. This is displayed on top when any action successfully finishes
-#: views/debug.html:101
+#: views/debug.html:103
 msgctxt "flash"
 msgid "Success"
 msgstr "Sukses"
@@ -2113,9 +2106,17 @@ msgstr "Bantuan"
 msgid "Support needed?"
 msgstr "Butuh bantuan?"
 
+#: views/modal/backendwarnings/bcash.html:2
+msgid "Switching to Bitcoin Cash"
+msgstr ""
+
 #: index.html:35 views/top.nav.html:3
 msgid "TREZOR"
 msgstr "TREZOR"
+
+#: views/modal/beta.html:6
+msgid "TREZOR Beta Wallet"
+msgstr ""
 
 #: views/install/bridge.force.html:10
 msgid "TREZOR Bridge update"
@@ -2126,6 +2127,10 @@ msgstr "Perbarui TREZOR Bridge"
 msgctxt "button"
 msgid "TREZOR Recovery"
 msgstr "Pemulihan TREZOR"
+
+#: views/modal/beta.html:6 views/modal/beta.html:9
+msgid "TREZOR Wallet"
+msgstr ""
 
 #: views/jumbotrons/landing/landing.heading.html:3
 msgid ""
@@ -2269,6 +2274,12 @@ msgstr "Ini adalah interface tingkat lanjut untuk pengguna AHLI saja!"
 msgid "This is an advanced interface intended for developer use only!"
 msgstr "Ini adalah interface tingkat lanjut untuk para developer saja!"
 
+#: config.sample.js:6
+msgid ""
+"This is your Bitcoin Cash (BCH) wallet. Do not receive bitcoins to the "
+"addresses in this wallet."
+msgstr ""
+
 #: views/account/transactions/table.html:10
 msgid "Time"
 msgstr "Waktu"
@@ -2307,13 +2318,17 @@ msgstr ""
 "transaksi pada beberapa \n"
 "                                    address sebelumnya."
 
-#: views/nav.html:234 views/nav/device-buttons.html:11
+#: views/nav/device-buttons.html:11
 msgid ""
 "To add accounts, make sure your device is connected and the last account is "
 "not empty."
 msgstr ""
 "Untuk menambah akun, pastikan perangkat anda terhubung dan akun terakhir "
 "tidak kosong."
+
+#: config.sample.js:8
+msgid "To claim your Bitcoin Cash coins, please use our"
+msgstr ""
 
 #: views/modal/firmware.html:37
 msgid ""
@@ -2342,7 +2357,7 @@ msgid "Total received:"
 msgstr "Total diterima:"
 
 #. The whole sentence: *Transaction* 1234567890abcdef was successfully sent.
-#: views/debug.html:125
+#: views/debug.html:127
 msgctxt "send-done"
 msgid "Transaction"
 msgstr "Transaksi"
@@ -2352,7 +2367,7 @@ msgid "Transactions"
 msgstr "Transaksi"
 
 #. This is shown on the header Send/Receive/Transactions/...
-#: views/account/fake-nav.html:5 views/account/nav.html:5
+#: views/account/nav.html:5
 msgctxt "header"
 msgid "Transactions"
 msgstr "Transaksi"
@@ -2361,13 +2376,9 @@ msgstr "Transaksi"
 msgid "Transactions are loading ..."
 msgstr "Transaksi sedang dimuat ..."
 
-#: views/debug.html:77
+#: views/debug.html:91
 msgid "Troubleshooter"
 msgstr "Pemecah masalah"
-
-#: views/alertbars/offline.html:26
-msgid "Try a different server."
-msgstr "Coba server yang berbeda."
 
 #: views/device/index.basic.html:7
 msgid "Try again"
@@ -2431,18 +2442,18 @@ msgid "Upgrade"
 msgstr "Upgrade"
 
 #. Upgrade refers to bridge upgrade
-#: views/alertbars/firmware.html:10
-msgctxt "firmware-update"
-msgid "Upgrade for the newest features and bug fixes."
-msgstr "Upgrade untuk fitur terbaru dan perbaikan bug."
-
-#. Upgrade refers to bridge upgrade
 #: views/alertbars/bridge.html:8
 msgctxt "bridge-update"
 msgid "Upgrade for the newest features and bug fixes."
 msgstr "Upgrade untuk fitur terbaru dan perbaikan bug."
 
 #: views/install/bridge.force.html:12
+msgid "Upgrade for the newest features and bug fixes."
+msgstr "Upgrade untuk fitur terbaru dan perbaikan bug."
+
+#. Upgrade refers to bridge upgrade
+#: views/alertbars/firmware.html:10
+msgctxt "firmware-update"
 msgid "Upgrade for the newest features and bug fixes."
 msgstr "Upgrade untuk fitur terbaru dan perbaikan bug."
 
@@ -2464,8 +2475,7 @@ msgstr ""
 "Hanya gunakan fitur ini jika anda mempunyai Recovery Seed atau jika anda "
 "masih belum mempunyai sejumlah koin pada perangkat anda."
 
-#: views/nav.html:25 views/nav.html:70 views/nav/device.html:21
-#: views/nav/unacquired.html:14
+#: views/nav/device.html:21 views/nav/unacquired.html:14
 msgid "Used in other window"
 msgstr "Digunakan di jendela lain"
 
@@ -2587,15 +2597,15 @@ msgstr ""
 "Jika anda berniat untuk memberikannya pada pihak ketiga, anda "
 "memperbolehkannya untuk melihat keseluruhan sejarah transaksi."
 
-#. This is written on a button, clicking it will wipe the device
-#: views/device/advanced.html:201
-msgctxt "button"
-msgid "Wipe device"
-msgstr "Hapus perangkat"
-
 #. This is a short label in the device Advanced page
 #: views/device/advanced.html:177
 msgctxt "advanced-label"
+msgid "Wipe device"
+msgstr "Hapus perangkat"
+
+#. This is written on a button, clicking it will wipe the device
+#: views/device/advanced.html:201
+msgctxt "button"
 msgid "Wipe device"
 msgstr "Hapus perangkat"
 
@@ -2761,9 +2771,13 @@ msgstr "Kemarin"
 msgid "You are about to pay"
 msgstr "Anda akan membayar"
 
-#: views/alertbars/offline.html:6
-msgid "You are offline."
-msgstr "Kamu sedang offline."
+#: views/modal/backendwarnings/bcash.html:5
+msgid "You are now switching to the Bitcoin Cash (BCH) wallet."
+msgstr ""
+
+#: views/modal/beta.html:2
+msgid "You are opening TREZOR Beta Wallet"
+msgstr ""
 
 #. This is displayed on Android.
 #: views/install/mobile.android.html:19
@@ -2771,11 +2785,11 @@ msgid "You can also download and install the APK directly."
 msgstr "Anda juga dapat mendownload dan menginstal APK secara langsung."
 
 #. Blockchain.info link follows
-#: views/debug.html:84
+#: views/debug.html:81
 msgid "You can try to resend this transaction using"
 msgstr "Anda dapat mencoba mengirim ulang transaksi ini menggunakan"
 
-#: views/nav.html:242 views/nav/device-buttons.html:46
+#: views/nav/device-buttons.html:46
 msgid "You cannot add more than 10 accounts."
 msgstr "Anda tidak dapat menambahkan lebih dari 10 akun."
 
@@ -2787,7 +2801,7 @@ msgstr ""
 "Anda mungkin akan diminta menuliskan kembali beberapa kata yang bukan "
 "merupakan bagian dari recovery seed anda."
 
-#: views/alertbars/offline.html:37
+#: views/alertbars/offline.html:6
 msgid "You were disconnected."
 msgstr "Anda terputus."
 
@@ -2875,6 +2889,10 @@ msgstr "tambahkan komentar anda pada transaksi"
 msgid "coffee by jen is licenced under CC BY 2.0"
 msgstr "Kopi oleh jen dengan lisensi dibawah CC BY 2.0"
 
+#: config.sample.js:9
+msgid "coin-splitting tool"
+msgstr ""
+
 #: views/nav/settings-buttons.html:40
 msgid "connected"
 msgstr "terhubung"
@@ -2887,7 +2905,7 @@ msgstr "menghitung..."
 msgid "disconnect the device"
 msgstr "putuskan sambungan perangkat"
 
-#: views/debug.html:88
+#: views/debug.html:85
 msgid "external Broadcast Transaction tool"
 msgstr "alat Broadcast Transaksi .external"
 
@@ -2923,6 +2941,16 @@ msgstr[0] "jam"
 msgid "in your message is not an ASCII character."
 msgstr "pesan anda bukan merupakan karakter ASCII"
 
+#: views/modal/beta.html:6
+msgid "is a public feature-testing version of the"
+msgstr ""
+
+#: views/modal/beta.html:9
+msgid ""
+"is feature-conservative, making sure that its functionality is maximally "
+"reliable and dependable for the general public."
+msgstr ""
+
 #. Part of a long text about Dropbox and labeling
 #: views/modal/dropbox.html:33
 msgid "label addresses"
@@ -2945,13 +2973,13 @@ msgstr[0] "menit"
 msgid "not set"
 msgstr "tidak diatur"
 
-#: views/account/transactions/welcomes/bitcoin.html:4
-msgid "or"
-msgstr "atau"
-
 #. Whole text: Scan it into an application that supports XPUBs such as Mycelium *or* Sentinel for Android. Then, you can watch your transactions and receive payments everywhere without carrying your TREZOR.
 #: views/device/index.basic.html:230
 msgctxt "xpub-text"
+msgid "or"
+msgstr "atau"
+
+#: views/account/transactions/welcomes/bitcoin.html:4
 msgid "or"
 msgstr "atau"
 
@@ -2994,19 +3022,13 @@ msgid "transaction"
 msgid_plural "transactions"
 msgstr[0] "transaksi"
 
-#. In text: 'Loading (123 transactions)', it is always plural
-#: views/nav.html:192
-msgctxt "loading"
-msgid "transactions"
-msgstr "transaksi"
-
 #. Part of a long text about Dropbox and labeling
 #: views/modal/dropbox.html:36
 msgid "use the full-text search"
 msgstr "gunakan teks pencarian lengkap"
 
 #. The whole sentence: Transaction 1234567890abcdef *was successfully sent.*
-#: views/debug.html:139
+#: views/debug.html:141
 msgctxt "send-done"
 msgid "was successfully sent."
 msgstr "berhasil dikirim."
@@ -3016,6 +3038,54 @@ msgstr "berhasil dikirim."
 msgctxt "typeahead"
 msgid "your account"
 msgstr "akun anda"
+
+#~ msgid "Analysing"
+#~ msgstr "Menganalisa"
+
+#~ msgid "August 1st Advisory"
+#~ msgstr "Pertimbangan 1 Agustus"
+
+#~ msgid "Backend server is down."
+#~ msgstr "Server Backend sedang down."
+
+#~ msgid "Disable Labeling"
+#~ msgstr "Nonaktifkan Pelabelan"
+
+#~ msgid "Don't worry, your funds are safe."
+#~ msgstr "Jangan khawatir, dana anda aman."
+
+#~ msgid "Dropbox connected. Click to disconnect it."
+#~ msgstr "Dropbox terhubung. Klik untuk memutuskan sambungan."
+
+#~ msgid ""
+#~ "Due to the possible Bitcoin network disruption, it is not recommended to "
+#~ "send nor receive any bitcoins from July 31st until the network "
+#~ "stabilizes. <a href=\"https://blog.trezor.io/trezor-advisory-uasf-chain-"
+#~ "split-fork-2f95cf2c11a0\" target=\"_blank\">Learn more</a>"
+#~ msgstr ""
+#~ "Karena gangguan jaringan Bitcoin yang mungkin terjadi, tidak disarankan "
+#~ "untuk mengirim atau menerima bitcoin apapun dari tanggal 31 Juli sampai "
+#~ "jaringan stabil. <a href=\"https://blog.trezor.io/trezor-advisory-uasf-"
+#~ "chain-split-fork-2f95cf2c11a0\" target=\"_blank\"> Pelajari lebih lanjut "
+#~ "</a>"
+
+#~ msgid "Please reconnect to the Internet and reload the page."
+#~ msgstr ""
+#~ "Silahkan hububungkan kembali ke Internet lalu buka kembali halaman "
+#~ "tersebut."
+
+#~ msgid "Saving"
+#~ msgstr "Menyimpan"
+
+#~ msgid "Try a different server."
+#~ msgstr "Coba server yang berbeda."
+
+#~ msgid "You are offline."
+#~ msgstr "Kamu sedang offline."
+
+#~ msgctxt "loading"
+#~ msgid "transactions"
+#~ msgstr "transaksi"
 
 #~ msgid "Account XPUBs"
 #~ msgstr "Akun XPUBs"
