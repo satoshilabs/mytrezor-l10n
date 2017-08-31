@@ -4,8 +4,8 @@ msgstr ""
 "POT-Creation-Date: \n"
 "PO-Revision-Date: 2017-08-31 01:46+0000\n"
 "Last-Translator: Surya Susilo <ekawithoutyou@indonesianbacktrack.or.id>\n"
-"Language-Team: Indonesian "
-"<https://hosted.weblate.org/projects/satoshilabs/mytrezor/id/>\n"
+"Language-Team: Indonesian <https://hosted.weblate.org/projects/satoshilabs/"
+"mytrezor/id/>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -131,15 +131,15 @@ msgctxt "recovery-label"
 msgid "Additional passphrase encryption"
 msgstr "Tambahan enkripsi passphrase"
 
-#. This is a label to the sign/verify form.
-#: views/account/sign/inside.html:203 views/account/sign/inside.html:62
-msgctxt "sign"
-msgid "Address"
-msgstr "Alamat"
-
 #. This is a label to the sending form. (Address/amount/comment)
 #: views/account/send/txAddress.html:4
 msgctxt "send"
+msgid "Address"
+msgstr "Alamat"
+
+#. This is a label to the sign/verify form.
+#: views/account/sign/inside.html:203 views/account/sign/inside.html:62
+msgctxt "sign"
 msgid "Address"
 msgstr "Alamat"
 
@@ -165,13 +165,13 @@ msgctxt "header"
 msgid "Advanced"
 msgstr "Tingkat lanjut"
 
-#. This is a label to a checkbox in the device recovery page
-#: views/device/recovery.html:173 views/device/recovery.html:185
-msgctxt "recovery-label"
+#: views/modal/recovery.html:65
 msgid "Advanced recovery"
 msgstr "Pemulihan tingkat lanjut"
 
-#: views/modal/recovery.html:65
+#. This is a label to a checkbox in the device recovery page
+#: views/device/recovery.html:173 views/device/recovery.html:185
+msgctxt "recovery-label"
 msgid "Advanced recovery"
 msgstr "Pemulihan tingkat lanjut"
 
@@ -460,15 +460,15 @@ msgstr "Lanjutkan"
 msgid "Currency backend"
 msgstr "Backend mata uang"
 
+#: views/date.selection.html:57
+msgid "Custom"
+msgstr "Custom"
+
 #. Transaction fee size menu
 #: views/account/send/fees.html:33
 msgctxt "transaction-fee"
 msgid "Custom"
 msgstr "Kostum"
-
-#: views/date.selection.html:57
-msgid "Custom"
-msgstr "Custom"
 
 #. This is a label to the sending form. (Address/amount/comment)
 #: views/account/send/fees.html:108
@@ -517,6 +517,10 @@ msgstr "Perangkat harus dihapus sebelum dilakukan pemulihan."
 msgid "Device is updated in other window"
 msgstr "Perangkat sedang diperbarui di jendela lain"
 
+#: views/device/index.setup.html:17 views/import.html:22
+msgid "Device label"
+msgstr "Label Perangkat"
+
 #. This is a short label in the device recovery page
 #: views/device/recovery.html:103
 msgctxt "recovery-label"
@@ -526,10 +530,6 @@ msgstr "Label Perangkat"
 #. This is a short label in the normally hidden, advanced Load page
 #: views/device/load.html:22
 msgctxt "load-label"
-msgid "Device label"
-msgstr "Label Perangkat"
-
-#: views/device/index.setup.html:17 views/import.html:22
 msgid "Device label"
 msgstr "Label Perangkat"
 
@@ -691,14 +691,14 @@ msgctxt "pin"
 msgid "Enabled"
 msgstr "Aktif"
 
-#. This is on a pin button
-#: views/modal/pin.html:103
-msgctxt "pin-button"
+#. Enter [device_name] PIN
+#: views/modal/pin.html:15
 msgid "Enter"
 msgstr "Enter"
 
-#. Enter [device_name] PIN
-#: views/modal/pin.html:15
+#. This is on a pin button
+#: views/modal/pin.html:103
+msgctxt "pin-button"
 msgid "Enter"
 msgstr "Enter"
 
@@ -775,13 +775,13 @@ msgstr "Gagal menandatangani pesan"
 msgid "Failed to verify message"
 msgstr "Gagal memverifikasi pesan"
 
-#: views/account/send/fees.html:87 views/account/transactions/table.html:17
-msgid "Fee"
-msgstr "Biaya"
-
 #. This is a label to the sending form. (Address/amount/comment)
 #: views/account/send/fees.html:4
 msgctxt "send"
+msgid "Fee"
+msgstr "Biaya"
+
+#: views/account/send/fees.html:87 views/account/transactions/table.html:17
 msgid "Fee"
 msgstr "Biaya"
 
@@ -980,7 +980,7 @@ msgstr ""
 "Jika alamat sama persis dengan yang ditampilkan TREZOR, anda bisa memastikan "
 "bahwa itu asli."
 
-#. Start of sentence: 'If the problem persists, please run our troubleshooter[its link]'
+#. Start of sentence: 'If the problem persists, please run our support center[its link]'
 #: views/debug.html:91
 msgid "If the problem persists, please run our"
 msgstr "Jika masalah tetap ada, mohon jalankan"
@@ -1928,15 +1928,15 @@ msgstr "Kunci metadata segwit"
 msgid "Select platform..."
 msgstr "Pilih platfrom..."
 
-#. This is shown on the header Send/Receive/Transactions/...
-#: views/account/nav.html:21
-msgctxt "header"
-msgid "Send"
-msgstr "Kirim"
-
 #. This is shown on the main, big Send button
 #: views/account/send/buttonBar.html:10
 msgctxt "button"
+msgid "Send"
+msgstr "Kirim"
+
+#. This is shown on the header Send/Receive/Transactions/...
+#: views/account/nav.html:21
+msgctxt "header"
 msgid "Send"
 msgstr "Kirim"
 
@@ -1952,8 +1952,8 @@ msgid ""
 msgstr ""
 "Mengirimkan transaksi ke alamat yang dimulai dengan <strong>3</strong>? "
 "Tolong, \n"
-"<a href=\"https://litecoin-project.github.io/p2sh-convert/\" target=\""
-"_blank\">ubah dulu ke alamat yang dimulai dengan M</a>"
+"<a href=\"https://litecoin-project.github.io/p2sh-convert/\" target=\"_blank"
+"\">ubah dulu ke alamat yang dimulai dengan M</a>"
 
 #: config.sample.js:25
 msgid ""
@@ -2109,6 +2109,10 @@ msgstr "Sukses"
 #: index.html:47 views/top.nav.html:15
 msgid "Support"
 msgstr "Bantuan"
+
+#: views/debug.html:91
+msgid "Support Center"
+msgstr ""
 
 #: views/modal/firmware.html:169
 msgid "Support needed?"
@@ -2386,10 +2390,6 @@ msgstr "Transaksi"
 msgid "Transactions are loading ..."
 msgstr "Transaksi sedang dimuat ..."
 
-#: views/debug.html:91
-msgid "Troubleshooter"
-msgstr "Pemecah masalah"
-
 #: views/device/index.basic.html:7
 msgid "Try again"
 msgstr "Coba lagi"
@@ -2451,12 +2451,6 @@ msgstr "Update berhasil"
 msgid "Upgrade"
 msgstr "Upgrade"
 
-#. Upgrade refers to bridge upgrade
-#: views/alertbars/bridge.html:8
-msgctxt "bridge-update"
-msgid "Upgrade for the newest features and bug fixes."
-msgstr "Upgrade untuk fitur terbaru dan perbaikan bug."
-
 #: views/install/bridge.force.html:12
 msgid "Upgrade for the newest features and bug fixes."
 msgstr "Upgrade untuk fitur terbaru dan perbaikan bug."
@@ -2464,6 +2458,12 @@ msgstr "Upgrade untuk fitur terbaru dan perbaikan bug."
 #. Upgrade refers to bridge upgrade
 #: views/alertbars/firmware.html:10
 msgctxt "firmware-update"
+msgid "Upgrade for the newest features and bug fixes."
+msgstr "Upgrade untuk fitur terbaru dan perbaikan bug."
+
+#. Upgrade refers to bridge upgrade
+#: views/alertbars/bridge.html:8
+msgctxt "bridge-update"
 msgid "Upgrade for the newest features and bug fixes."
 msgstr "Upgrade untuk fitur terbaru dan perbaikan bug."
 
@@ -2985,13 +2985,13 @@ msgstr[0] "menit"
 msgid "not set"
 msgstr "tidak diatur"
 
-#. Whole text: Scan it into an application that supports XPUBs such as Mycelium *or* Sentinel for Android. Then, you can watch your transactions and receive payments everywhere without carrying your TREZOR.
-#: views/device/index.basic.html:230
-msgctxt "xpub-text"
+#: views/account/transactions/welcomes/bitcoin.html:4
 msgid "or"
 msgstr "atau"
 
-#: views/account/transactions/welcomes/bitcoin.html:4
+#. Whole text: Scan it into an application that supports XPUBs such as Mycelium *or* Sentinel for Android. Then, you can watch your transactions and receive payments everywhere without carrying your TREZOR.
+#: views/device/index.basic.html:230
+msgctxt "xpub-text"
 msgid "or"
 msgstr "atau"
 
@@ -3050,6 +3050,9 @@ msgstr "berhasil dikirim."
 msgctxt "typeahead"
 msgid "your account"
 msgstr "akun anda"
+
+#~ msgid "Troubleshooter"
+#~ msgstr "Pemecah masalah"
 
 #~ msgid "Analysing"
 #~ msgstr "Menganalisa"

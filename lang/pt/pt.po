@@ -127,15 +127,15 @@ msgctxt "recovery-label"
 msgid "Additional passphrase encryption"
 msgstr "Criptografia adicional com senha de segurança"
 
-#. This is a label to the sign/verify form.
-#: views/account/sign/inside.html:203 views/account/sign/inside.html:62
-msgctxt "sign"
-msgid "Address"
-msgstr "Endereço"
-
 #. This is a label to the sending form. (Address/amount/comment)
 #: views/account/send/txAddress.html:4
 msgctxt "send"
+msgid "Address"
+msgstr "Endereço"
+
+#. This is a label to the sign/verify form.
+#: views/account/sign/inside.html:203 views/account/sign/inside.html:62
+msgctxt "sign"
 msgid "Address"
 msgstr "Endereço"
 
@@ -161,6 +161,10 @@ msgctxt "header"
 msgid "Advanced"
 msgstr "Avançado"
 
+#: views/modal/recovery.html:65
+msgid "Advanced recovery"
+msgstr "Recuperação avançada"
+
 #. This is a label to a checkbox in the device recovery page
 #: views/device/recovery.html:173 views/device/recovery.html:185
 msgctxt "recovery-label"
@@ -168,10 +172,6 @@ msgid "Advanced recovery"
 msgstr ""
 "Esta é uma etiqueta para uma caixa de seleção na página de recuperação do "
 "dispositivo"
-
-#: views/modal/recovery.html:65
-msgid "Advanced recovery"
-msgstr "Recuperação avançada"
 
 #: views/device/advanced.html:10
 msgid "Advanced setup"
@@ -458,15 +458,15 @@ msgstr "Continuar"
 msgid "Currency backend"
 msgstr "Backend de cotação"
 
+#: views/date.selection.html:57
+msgid "Custom"
+msgstr "Personalizada"
+
 #. Transaction fee size menu
 #: views/account/send/fees.html:33
 msgctxt "transaction-fee"
 msgid "Custom"
 msgstr ""
-
-#: views/date.selection.html:57
-msgid "Custom"
-msgstr "Personalizada"
 
 #. This is a label to the sending form. (Address/amount/comment)
 #: views/account/send/fees.html:108
@@ -515,6 +515,10 @@ msgstr "O dispositivo deve ser apagado antes da restauração."
 msgid "Device is updated in other window"
 msgstr "O dispositivo é atualizado em outra janela"
 
+#: views/device/index.setup.html:17 views/import.html:22
+msgid "Device label"
+msgstr "Nome do dispositivo"
+
 #. This is a short label in the device recovery page
 #: views/device/recovery.html:103
 msgctxt "recovery-label"
@@ -524,10 +528,6 @@ msgstr "Nome do dispositivo"
 #. This is a short label in the normally hidden, advanced Load page
 #: views/device/load.html:22
 msgctxt "load-label"
-msgid "Device label"
-msgstr "Nome do dispositivo"
-
-#: views/device/index.setup.html:17 views/import.html:22
 msgid "Device label"
 msgstr "Nome do dispositivo"
 
@@ -687,16 +687,16 @@ msgctxt "pin"
 msgid "Enabled"
 msgstr "Ativado"
 
+#. Enter [device_name] PIN
+#: views/modal/pin.html:15
+msgid "Enter"
+msgstr "Insira"
+
 #. This is on a pin button
 #: views/modal/pin.html:103
 msgctxt "pin-button"
 msgid "Enter"
 msgstr "Inserir"
-
-#. Enter [device_name] PIN
-#: views/modal/pin.html:15
-msgid "Enter"
-msgstr "Insira"
 
 #. This is on a passphrase button
 #: views/modal/passphrase.html:52
@@ -771,13 +771,13 @@ msgstr "Falha ao assinar mensagem"
 msgid "Failed to verify message"
 msgstr "Falha ao verificar mensagem"
 
-#: views/account/send/fees.html:87 views/account/transactions/table.html:17
-msgid "Fee"
-msgstr "Taxa"
-
 #. This is a label to the sending form. (Address/amount/comment)
 #: views/account/send/fees.html:4
 msgctxt "send"
+msgid "Fee"
+msgstr "Taxa"
+
+#: views/account/send/fees.html:87 views/account/transactions/table.html:17
 msgid "Fee"
 msgstr "Taxa"
 
@@ -971,7 +971,7 @@ msgstr ""
 "Se o endereço for igual ao que aparece na tela do seu TREZOR, você pode ter "
 "certeza de que é confiável."
 
-#. Start of sentence: 'If the problem persists, please run our troubleshooter[its link]'
+#. Start of sentence: 'If the problem persists, please run our support center[its link]'
 #: views/debug.html:91
 msgid "If the problem persists, please run our"
 msgstr "Se o problema persistir, execute nosso"
@@ -1913,15 +1913,15 @@ msgstr ""
 msgid "Select platform..."
 msgstr "Selecione uma plataforma..."
 
-#. This is shown on the header Send/Receive/Transactions/...
-#: views/account/nav.html:21
-msgctxt "header"
-msgid "Send"
-msgstr "Enviar"
-
 #. This is shown on the main, big Send button
 #: views/account/send/buttonBar.html:10
 msgctxt "button"
+msgid "Send"
+msgstr "Enviar"
+
+#. This is shown on the header Send/Receive/Transactions/...
+#: views/account/nav.html:21
+msgctxt "header"
 msgid "Send"
 msgstr "Enviar"
 
@@ -2086,6 +2086,10 @@ msgstr "Sucesso"
 #: index.html:47 views/top.nav.html:15
 msgid "Support"
 msgstr "Suporte"
+
+#: views/debug.html:91
+msgid "Support Center"
+msgstr ""
 
 #: views/modal/firmware.html:169
 msgid "Support needed?"
@@ -2356,10 +2360,6 @@ msgstr "Transações"
 msgid "Transactions are loading ..."
 msgstr "Transações estão carregando..."
 
-#: views/debug.html:91
-msgid "Troubleshooter"
-msgstr "Solucionador de problemas"
-
 #: views/device/index.basic.html:7
 msgid "Try again"
 msgstr "Tentar de novo"
@@ -2420,12 +2420,6 @@ msgstr "Atualizado com sucesso"
 msgid "Upgrade"
 msgstr "Atualizar"
 
-#. Upgrade refers to bridge upgrade
-#: views/alertbars/bridge.html:8
-msgctxt "bridge-update"
-msgid "Upgrade for the newest features and bug fixes."
-msgstr "Atualize para ter os recursos mais novos e problemas resolvidos."
-
 #: views/install/bridge.force.html:12
 msgid "Upgrade for the newest features and bug fixes."
 msgstr "Faça upgrade para ter os últimos recursos e correção de problemas."
@@ -2433,6 +2427,12 @@ msgstr "Faça upgrade para ter os últimos recursos e correção de problemas."
 #. Upgrade refers to bridge upgrade
 #: views/alertbars/firmware.html:10
 msgctxt "firmware-update"
+msgid "Upgrade for the newest features and bug fixes."
+msgstr "Atualize para ter os recursos mais novos e problemas resolvidos."
+
+#. Upgrade refers to bridge upgrade
+#: views/alertbars/bridge.html:8
+msgctxt "bridge-update"
 msgid "Upgrade for the newest features and bug fixes."
 msgstr "Atualize para ter os recursos mais novos e problemas resolvidos."
 
@@ -2950,13 +2950,13 @@ msgstr[1] "minutos"
 msgid "not set"
 msgstr "indefinido"
 
-#. Whole text: Scan it into an application that supports XPUBs such as Mycelium *or* Sentinel for Android. Then, you can watch your transactions and receive payments everywhere without carrying your TREZOR.
-#: views/device/index.basic.html:230
-msgctxt "xpub-text"
+#: views/account/transactions/welcomes/bitcoin.html:4
 msgid "or"
 msgstr "ou"
 
-#: views/account/transactions/welcomes/bitcoin.html:4
+#. Whole text: Scan it into an application that supports XPUBs such as Mycelium *or* Sentinel for Android. Then, you can watch your transactions and receive payments everywhere without carrying your TREZOR.
+#: views/device/index.basic.html:230
+msgctxt "xpub-text"
 msgid "or"
 msgstr "ou"
 
@@ -3016,6 +3016,9 @@ msgstr "foi enviada com sucesso."
 msgctxt "typeahead"
 msgid "your account"
 msgstr "sua conta"
+
+#~ msgid "Troubleshooter"
+#~ msgstr "Solucionador de problemas"
 
 #~ msgid "Analysing"
 #~ msgstr "Analisando"
