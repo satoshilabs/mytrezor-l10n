@@ -136,13 +136,13 @@ msgctxt "send"
 msgid "Address"
 msgstr "العنوان"
 
-#. This is a label to the sign/verify form.
-#: views/account/sign/inside.html:203 views/account/sign/inside.html:62
-msgctxt "sign"
+#: views/account/transactions/table.html:13
 msgid "Address"
 msgstr "العنوان"
 
-#: views/account/transactions/table.html:13
+#. This is a label to the sign/verify form.
+#: views/account/sign/inside.html:203 views/account/sign/inside.html:62
+msgctxt "sign"
 msgid "Address"
 msgstr "العنوان"
 
@@ -460,16 +460,16 @@ msgstr "استمر"
 msgid "Currency backend"
 msgstr "العملة الأساسية"
 
-#: views/date.selection.html:57
-#, fuzzy
-msgid "Custom"
-msgstr "مخصص"
-
 #. Transaction fee size menu
 #: views/account/send/fees.html:33
 msgctxt "transaction-fee"
 msgid "Custom"
 msgstr "مخصصة"
+
+#: views/date.selection.html:57
+#, fuzzy
+msgid "Custom"
+msgstr "مخصص"
 
 #. This is a label to the sending form. (Address/amount/comment)
 #: views/account/send/fees.html:108
@@ -519,10 +519,6 @@ msgstr "يجب مسح الجهاز قبل الاسترداد."
 msgid "Device is updated in other window"
 msgstr "يتم تحديث الجهاز في نافذة أخرى"
 
-#: views/device/index.setup.html:17 views/import.html:22
-msgid "Device label"
-msgstr "تصنيف الجهاز"
-
 #. This is a short label in the device recovery page
 #: views/device/recovery.html:103
 #, fuzzy
@@ -533,6 +529,10 @@ msgstr "تصنيف الجهاز"
 #. This is a short label in the normally hidden, advanced Load page
 #: views/device/load.html:22
 msgctxt "load-label"
+msgid "Device label"
+msgstr "تصنيف الجهاز"
+
+#: views/device/index.setup.html:17 views/import.html:22
 msgid "Device label"
 msgstr "تصنيف الجهاز"
 
@@ -692,16 +692,16 @@ msgctxt "pin"
 msgid "Enabled"
 msgstr "مفعل‪"
 
-#. Enter [device_name] PIN
-#: views/modal/pin.html:15
-msgid "Enter"
-msgstr "أدخل لـ"
-
 #. This is on a pin button
 #: views/modal/pin.html:103
 msgctxt "pin-button"
 msgid "Enter"
 msgstr "أدخل"
+
+#. Enter [device_name] PIN
+#: views/modal/pin.html:15
+msgid "Enter"
+msgstr "أدخل لـ"
 
 #. This is on a passphrase button
 #: views/modal/passphrase.html:52
@@ -865,14 +865,14 @@ msgstr ""
 "لأغراض الاختبار، المحفظة تستخدم نفس سعر الدولار للبيتكوين bitcoin و لعملات "
 "التيستنيت testnet."
 
-#. this is first part of sentence 'Forget [device_name]?'
-#: views/modal/forget.disconnected.html:4 views/modal/forget.requested.html:4
-msgid "Forget"
-msgstr "نسيان"
-
 #. Button in remember/forget dialog
 #: views/modal/forget.disconnected.html:14 views/modal/forget.requested.html:15
 msgctxt "forget-button"
+msgid "Forget"
+msgstr "نسيان"
+
+#. this is first part of sentence 'Forget [device_name]?'
+#: views/modal/forget.disconnected.html:4 views/modal/forget.requested.html:4
 msgid "Forget"
 msgstr "نسيان"
 
@@ -1218,6 +1218,10 @@ msgstr "الحساب القديم"
 #: views/import.html:51
 msgid "Legacy account XPUBs"
 msgstr "حساب XPUBs قديم"
+
+#: views/device/index.basic.html:159
+msgid "Legacy accounts (BIP 44)"
+msgstr ""
 
 #: views/import.html:60
 msgid "Legacy metadata keys"
@@ -2065,6 +2069,10 @@ msgstr "بعض الحقول غير صحيحة."
 msgid "Sorry that we make it so hard!"
 msgstr "نآسف لجعله صعب جداً!"
 
+#: views/device/index.basic.html:164
+msgid "Standard accounts (BIP49)"
+msgstr ""
+
 #: views/modal/pinguide.html:13
 msgid "Still confused how PIN works?"
 msgstr "ما زال هناك جهل بكيفية عمل رقم التعريف الشخصي؟"
@@ -2331,13 +2339,13 @@ msgctxt "send-done"
 msgid "Transaction"
 msgstr "المعاملة"
 
-#: views/account/transactions/table.html:4
-msgid "Transactions"
-msgstr "المعاملات"
-
 #. This is shown on the header Send/Receive/Transactions/...
 #: views/account/nav.html:5
 msgctxt "header"
+msgid "Transactions"
+msgstr "المعاملات"
+
+#: views/account/transactions/table.html:4
 msgid "Transactions"
 msgstr "المعاملات"
 
@@ -2411,14 +2419,14 @@ msgid "Upgrade for the newest features and bug fixes."
 msgstr "الترقية لأحدث المميزات بدون أخطاء."
 
 #. Upgrade refers to bridge upgrade
-#: views/alertbars/firmware.html:10
-msgctxt "firmware-update"
+#: views/alertbars/bridge.html:8
+msgctxt "bridge-update"
 msgid "Upgrade for the newest features and bug fixes."
 msgstr "الترقية لأحدث المميزات بدون أخطاء."
 
 #. Upgrade refers to bridge upgrade
-#: views/alertbars/bridge.html:8
-msgctxt "bridge-update"
+#: views/alertbars/firmware.html:10
+msgctxt "firmware-update"
 msgid "Upgrade for the newest features and bug fixes."
 msgstr "الترقية لأحدث المميزات بدون أخطاء."
 
@@ -2906,13 +2914,13 @@ msgstr[1] ""
 msgid "not set"
 msgstr ""
 
-#: views/account/transactions/welcomes/bitcoin.html:4
-msgid "or"
-msgstr ""
-
 #. Whole text: Scan it into an application that supports XPUBs such as Mycelium *or* Sentinel for Android. Then, you can watch your transactions and receive payments everywhere without carrying your TREZOR.
 #: views/device/index.basic.html:230
 msgctxt "xpub-text"
+msgid "or"
+msgstr ""
+
+#: views/account/transactions/welcomes/bitcoin.html:4
 msgid "or"
 msgstr ""
 

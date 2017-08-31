@@ -135,15 +135,15 @@ msgctxt "send"
 msgid "Address"
 msgstr "Адрес"
 
+#: views/account/transactions/table.html:13
+msgid "Address"
+msgstr ""
+
 #. This is a label to the sign/verify form.
 #: views/account/sign/inside.html:203 views/account/sign/inside.html:62
 msgctxt "sign"
 msgid "Address"
 msgstr "Адрес"
-
-#: views/account/transactions/table.html:13
-msgid "Address"
-msgstr ""
 
 #: views/account/transactions/table.html:14
 msgid "Address Label"
@@ -456,13 +456,13 @@ msgstr "Продолжить"
 msgid "Currency backend"
 msgstr ""
 
-#: views/date.selection.html:57
-msgid "Custom"
-msgstr ""
-
 #. Transaction fee size menu
 #: views/account/send/fees.html:33
 msgctxt "transaction-fee"
+msgid "Custom"
+msgstr ""
+
+#: views/date.selection.html:57
 msgid "Custom"
 msgstr ""
 
@@ -513,10 +513,6 @@ msgstr "Устройство должно быть очищено перед в�
 msgid "Device is updated in other window"
 msgstr "Устройство обновляется в другом окне"
 
-#: views/device/index.setup.html:17 views/import.html:22
-msgid "Device label"
-msgstr "Обозначение устройства"
-
 #. This is a short label in the device recovery page
 #: views/device/recovery.html:103
 msgctxt "recovery-label"
@@ -526,6 +522,10 @@ msgstr "Обозначение устройства"
 #. This is a short label in the normally hidden, advanced Load page
 #: views/device/load.html:22
 msgctxt "load-label"
+msgid "Device label"
+msgstr "Обозначение устройства"
+
+#: views/device/index.setup.html:17 views/import.html:22
 msgid "Device label"
 msgstr "Обозначение устройства"
 
@@ -685,16 +685,16 @@ msgctxt "pin"
 msgid "Enabled"
 msgstr "Включено"
 
-#. Enter [device_name] PIN
-#: views/modal/pin.html:15
-msgid "Enter"
-msgstr ""
-
 #. This is on a pin button
 #: views/modal/pin.html:103
 msgctxt "pin-button"
 msgid "Enter"
 msgstr "Ввод"
+
+#. Enter [device_name] PIN
+#: views/modal/pin.html:15
+msgid "Enter"
+msgstr ""
 
 #. This is on a passphrase button
 #: views/modal/passphrase.html:52
@@ -849,16 +849,16 @@ msgid ""
 "for bitcoin."
 msgstr ""
 
-#. this is first part of sentence 'Forget [device_name]?'
-#: views/modal/forget.disconnected.html:4 views/modal/forget.requested.html:4
-msgid "Forget"
-msgstr ""
-
 #. Button in remember/forget dialog
 #: views/modal/forget.disconnected.html:14 views/modal/forget.requested.html:15
 msgctxt "forget-button"
 msgid "Forget"
 msgstr "Забыть"
+
+#. this is first part of sentence 'Forget [device_name]?'
+#: views/modal/forget.disconnected.html:4 views/modal/forget.requested.html:4
+msgid "Forget"
+msgstr ""
 
 #. Button in remember/forget dialog
 #: views/modal/forget.wipe.html:16
@@ -1197,6 +1197,10 @@ msgstr ""
 
 #: views/import.html:51
 msgid "Legacy account XPUBs"
+msgstr ""
+
+#: views/device/index.basic.html:159
+msgid "Legacy accounts (BIP 44)"
 msgstr ""
 
 #: views/import.html:60
@@ -2036,6 +2040,10 @@ msgstr "Некоторые поля некорректны."
 msgid "Sorry that we make it so hard!"
 msgstr "Просим извинить за некоторые трудности!"
 
+#: views/device/index.basic.html:164
+msgid "Standard accounts (BIP49)"
+msgstr ""
+
 #: views/modal/pinguide.html:13
 msgid "Still confused how PIN works?"
 msgstr ""
@@ -2303,15 +2311,15 @@ msgctxt "send-done"
 msgid "Transaction"
 msgstr "Транзакция"
 
-#: views/account/transactions/table.html:4
-msgid "Transactions"
-msgstr ""
-
 #. This is shown on the header Send/Receive/Transactions/...
 #: views/account/nav.html:5
 msgctxt "header"
 msgid "Transactions"
 msgstr "Транзакции"
+
+#: views/account/transactions/table.html:4
+msgid "Transactions"
+msgstr ""
 
 #: views/account/transactions/summary.html:76
 msgid "Transactions are loading ..."
@@ -2382,14 +2390,14 @@ msgid "Upgrade for the newest features and bug fixes."
 msgstr ""
 
 #. Upgrade refers to bridge upgrade
-#: views/alertbars/firmware.html:10
-msgctxt "firmware-update"
+#: views/alertbars/bridge.html:8
+msgctxt "bridge-update"
 msgid "Upgrade for the newest features and bug fixes."
 msgstr "Обновить, чтобы иметь доступ к новейшим функциям и исправлениям."
 
 #. Upgrade refers to bridge upgrade
-#: views/alertbars/bridge.html:8
-msgctxt "bridge-update"
+#: views/alertbars/firmware.html:10
+msgctxt "firmware-update"
 msgid "Upgrade for the newest features and bug fixes."
 msgstr "Обновить, чтобы иметь доступ к новейшим функциям и исправлениям."
 
@@ -2897,15 +2905,15 @@ msgstr[2] "минут"
 msgid "not set"
 msgstr "не установлено"
 
-#: views/account/transactions/welcomes/bitcoin.html:4
-msgid "or"
-msgstr ""
-
 #. Whole text: Scan it into an application that supports XPUBs such as Mycelium *or* Sentinel for Android. Then, you can watch your transactions and receive payments everywhere without carrying your TREZOR.
 #: views/device/index.basic.html:230
 msgctxt "xpub-text"
 msgid "or"
 msgstr "или"
+
+#: views/account/transactions/welcomes/bitcoin.html:4
+msgid "or"
+msgstr ""
 
 #: views/account/send/inside.html:114
 msgid "phase"
