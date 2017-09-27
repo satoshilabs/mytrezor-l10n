@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2017-09-23 19:46+0000\n"
+"PO-Revision-Date: 2017-09-28 10:46+0000\n"
 "Last-Translator: mattia <tia.theking@gmail.com>\n"
 "Language-Team: Italian "
 "<https://hosted.weblate.org/projects/satoshilabs/mytrezor/it/>\n"
@@ -84,7 +84,8 @@ msgstr "?"
 #: views/device/metadata.html:73
 msgid "API keys are useful if you want to import a watch-only wallet."
 msgstr ""
-"Le chiavi API sono utili se desideri importare un wallet di sola visione."
+"Le chiavi API sono utili se desideri importare un portafoglio di sola "
+"visione."
 
 #. Used as a default account name. The accounts are named *Account* #1, *Account* #2 etc.
 #: views/otherStrings.html:18
@@ -194,7 +195,7 @@ msgid ""
 "Dropbox folder ensuring a 100% secure and always available service. Even if "
 "your Dropbox account gets compromised, your private data stay safe."
 msgstr ""
-"Tutte le etichette ed i commenti che aggiungi a TREZOR Wallet vengono "
+"Tutte le etichette ed i commenti che aggiungi al Portafoglio TREZOR vengono "
 "automaticamente crittografati da una chiave derivata dal dispositivo TREZOR "
 "e sincronizzati con la tua cartella Dropbox per garantire un servizio sicuro "
 "al 100% e sempre disponibile. Anche se il tuo account Dropbox viene "
@@ -259,12 +260,8 @@ msgid "Basic"
 msgstr "Base"
 
 #: views/device/index.basic.html:209 views/device/index.basic.html:267
-#, fuzzy
 msgid "Be careful with your XPUBs."
-msgstr ""
-"Stai attento con il tuo XPUB.\n"
-"or  Stai attento con il tuo indirizzo pubblico (XPUB)     \n"
-"//indirizzo pubblico = public address"
+msgstr "Stai attento con i tuoi XPUB."
 
 #: views/settings.html:62
 msgid "Bitcore Server URL"
@@ -941,7 +938,7 @@ msgid ""
 "are still safe and you can access them by reconnecting your TREZOR again."
 msgstr ""
 "Dimenticare rimuove solo il dispositivo dall'elenco a sinistra, i tuoi "
-"bitcoins sono ancora al sicuro e potrai accedervi ricollegando nuovamente il "
+"bitcoin sono ancora al sicuro e potrai accedervi ricollegando nuovamente il "
 "TREZOR."
 
 #: views/account/receive/index.html:81
@@ -984,7 +981,7 @@ msgstr ""
 
 #: views/modal/beta.html:18
 msgid "Go to TREZOR Wallet"
-msgstr "Vai al portafoglio TREZOR"
+msgstr "Vai al Portafoglio TREZOR"
 
 #: views/account/receive/index.html:41 views/account/receive/index.html:59
 msgid "Hide previous"
@@ -1068,8 +1065,8 @@ msgid ""
 "If you forget your passphrase, your wallet is lost for good. There is no way "
 "to recover your funds."
 msgstr ""
-"Se dimentichi la tua passphrase, perderai il wallet per sempre. Non c'è modo "
-"di recuperare i tuoi fondi."
+"Se dimentichi la tua passphrase, perderai il portafoglio per sempre. Non c'è "
+"modo di recuperare i tuoi fondi."
 
 #: views/modal/firmware.html:285
 msgid "If you have TREZOR set up already,"
@@ -1154,7 +1151,7 @@ msgid ""
 "the wallet from Recovery seed."
 msgstr ""
 "In rari casi, un aggiornamento firmware può portare alla necessità di "
-"ripristinare il wallet dal Recovery seed."
+"ripristinare il portafoglio dal Recovery seed."
 
 #: views/account/transactions/summary.html:46
 #, fuzzy
@@ -1194,7 +1191,7 @@ msgid ""
 "Install TREZOR Chrome Extension to allow TREZOR Wallet to talk with your "
 "device."
 msgstr ""
-"Installa l'Estensione di TREZOR per Chrome per consentire al Wallet di "
+"Installa l'Estensione di TREZOR per Chrome per consentire al Portafoglio "
 "TREZOR di comunicare con il tuo dispositivo."
 
 #. This is displayed on Android.
@@ -1275,7 +1272,7 @@ msgstr "Ulteriori informazioni sul Ripristino"
 #. Part of a long text about Dropbox and labeling
 #: views/modal/dropbox.html:49
 msgid "Learn more about TREZOR Wallet labeling"
-msgstr "Ulteriori informazioni sull'etichettatura del Wallet TREZOR"
+msgstr "Ulteriori informazioni sull'etichettatura del Portafoglio TREZOR"
 
 #. This text is displayed, when the amount is too high. Its goal is to get user to re-check the address. This is the fourth line, and a link to our manual.
 #: views/account/send/inside.html:71
@@ -1603,9 +1600,7 @@ msgstr "PIN rimosso con successo."
 #: views/device/advanced.html:28
 msgctxt "advanced-label"
 msgid "Passphrase"
-msgstr ""
-"Passphrase\n"
-"//same in Italian"
+msgstr "Passphrase"
 
 #: views/debug.html:36
 msgid "Passphrase change failed."
@@ -1798,8 +1793,8 @@ msgstr "Inserisci il messaggio e l'indirizzo."
 msgid ""
 "Please install TREZOR Bridge to allow TREZOR Wallet to talk with your device."
 msgstr ""
-"Installa TREZOR Bridge per consentire a TREZOR Wallet di parlare con il tuo "
-"dispositivo."
+"Installa TREZOR Bridge per consentire al Portafoglio TREZOR di parlare con "
+"il tuo dispositivo."
 
 #: views/modal/firmware.html:377
 msgid ""
@@ -2041,6 +2036,9 @@ msgid ""
 "litecoin-project.github.io/p2sh-convert/\" target=\"_blank\">convert it "
 "first to an address starting with 3</a>"
 msgstr ""
+"Desideri inviare litecoin a TREZOR? M-address rifiutato?  <a href=\"https"
+"://litecoin-project.github.io/p2sh-convert/\" target=\"_blank\">Convertilo "
+"prima in un indirizzo che inizi con 3</a>"
 
 #. This is shown in the transaction list when the transaction is to the user himseld.
 #: views/account/transactions/txAddress.html:29
@@ -2209,7 +2207,7 @@ msgstr "TREZOR"
 
 #: views/modal/beta.html:6
 msgid "TREZOR Beta Wallet"
-msgstr "Portafoglio Beta TREZOR"
+msgstr "Portafoglio TREZOR Beta"
 
 #: views/install/bridge.force.html:10
 msgid "TREZOR Bridge update"
@@ -2231,22 +2229,23 @@ msgid ""
 "Wallet, you can easily control your coins, manage your balance and initiate "
 "transfers."
 msgstr ""
-"TREZOR Wallet è una interfaccia semplice da utilizzare per il tuo "
-"dispositivo TREZOR. Da questo Wallet  potrai facilmente controllare le tue "
-"monete,  gestire il tuo conto ed avviare trasferimenti."
+"Il Portafoglio TREZOR è una interfaccia semplice da utilizzare per il tuo "
+"dispositivo TREZOR. Da questo Portafoglio  potrai facilmente controllare le "
+"tue monete,  gestire il tuo conto ed avviare trasferimenti."
 
 #: views/jumbotrons/loading.html:5
 msgid "TREZOR Wallet is loading accounts"
-msgstr "TREZOR Wallet sta caricando gli accounts"
+msgstr "Il Portafoglio TREZOR sta caricando gli accounts"
 
 #: views/modal/dropbox.html:2
 msgid "TREZOR Wallet labeling"
-msgstr "Etichettatura del Wallet TREZOR"
+msgstr "Etichettatura del Portafoglio TREZOR"
 
 #: views/modal/disconnect.html:10
 msgid "TREZOR Wallet will forget your TREZOR right after you disconnect it."
 msgstr ""
-"Il Wallet TREZOR dimenticherà il tuo TREZOR subito dopo averlo disconnesso."
+"Il Portafoglio TREZOR dimenticherà il tuo TREZOR subito dopo averlo "
+"disconnesso."
 
 #: views/account/sign/inside.html:189 views/account/sign/inside.html:47
 msgid "TREZOR can show only 64 letters on the display."
@@ -2579,7 +2578,7 @@ msgid ""
 msgstr ""
 "È raccomandato utilizzare la protezione PIN. Esso impedisce a persone non "
 "autorizzate di rubare i tuoi\n"
-"                 bitcoins anche se dovessero ottenere l'accesso fisico al "
+"                 bitcoin anche se dovessero ottenere l'accesso fisico al "
 "dispositivo."
 
 #: views/device/advanced.html:165
@@ -2659,9 +2658,9 @@ msgid ""
 "devices. Please use a computer with Windows, macOS, Linux operating system, "
 "or use an Android device."
 msgstr ""
-"Ci dispiace, TREZOR Wallet non è ancora supportato dai dispositivi iOS e "
-"Windows Phone. Utilizza un computer con Windows, macOS, Linux o utilizza un "
-"dispositivo Android."
+"Ci dispiace, il Portafoglio TREZOR non è ancora supportato dai dispositivi "
+"iOS e Windows Phone. Utilizza un computer con Windows, macOS, Linux o "
+"utilizza un dispositivo Android."
 
 #. This text is displayed, when the amount is too high. Its goal is to get user to re-check the address. This is the third line.
 #: views/account/send/inside.html:63
@@ -2723,8 +2722,8 @@ msgid ""
 "With TREZOR Chrome Extension you can use TREZOR Wallet in Chrome without "
 "installing any other software."
 msgstr ""
-"Con l'estensione di Chrome per Trezor potrai utilizzare il Wallet TREZOR "
-"senza la necessità di installare altri software."
+"Con l'estensione di Chrome per Trezor potrai utilizzare il Portafoglio "
+"TREZOR senza la necessità di installare altri software."
 
 #: views/device/recovery.html:33
 msgid "Words are going to be entered in shuffled order."
@@ -2735,16 +2734,16 @@ msgid ""
 "Would you like TREZOR Wallet to forget your device or to remember it, so "
 "that it is still visible even while disconnected?"
 msgstr ""
-"Preferisci che TREZOR Wallet si dimentichi o si ricordi del tuo dispositivo, "
-"affinche rimanga visibile anche quando disconnesso?"
+"Preferisci che il Portafoglio TREZOR si dimentichi o si ricordi del tuo "
+"dispositivo, affinche rimanga visibile anche quando disconnesso?"
 
 #: views/modal/forget.wipe.html:9
 msgid ""
 "Would you like TREZOR Wallet to forget your old device with the old data or "
 "to remember it?"
 msgstr ""
-"Desideri che TREZOR Wallet dimentichi il tuo vecchio dispositivo insieme "
-"alle vecchie informazioni o \n"
+"Desideri che il Portafoglio TREZOR dimentichi il tuo vecchio dispositivo "
+"insieme alle vecchie informazioni o \n"
 " preferisci che se le ricordi?"
 
 #: views/modal/setup.wordWrite.html:12
@@ -2875,7 +2874,7 @@ msgstr "Stai ora per passare al portafoglio Bitcoin Cash (BCH)."
 
 #: views/modal/beta.html:2
 msgid "You are opening TREZOR Beta Wallet"
-msgstr "Stai aprendo il portafoglio TREZOR Beta"
+msgstr "Stai aprendo il Portafoglio TREZOR Beta"
 
 #. This is displayed on Android.
 #: views/install/mobile.android.html:19
@@ -2907,6 +2906,8 @@ msgid ""
 "You will have to enable the passphrase encryption again to see your current "
 "wallet."
 msgstr ""
+"Dovrai attivare nuovamente la crittografia passphrase per vedere il tuo "
+"portafoglio attuale."
 
 #. This text is displayed, when the amount is too high. Its goal is to get user to re-check the address. This is the first line.
 #: views/account/send/inside.html:48
