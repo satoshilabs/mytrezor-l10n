@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2017-09-29 10:24+0000\n"
+"PO-Revision-Date: 2017-09-30 19:46+0000\n"
 "Last-Translator: Adam Nohejl <adam@nohejl.name>\n"
 "Language-Team: Japanese "
 "<https://hosted.weblate.org/projects/satoshilabs/mytrezor/ja/>\n"
@@ -642,7 +642,7 @@ msgstr "ラベルを編集"
 
 #: views/nav/settings-buttons.html:27
 msgid "Enable Labeling"
-msgstr ""
+msgstr "ラベリングを有効にする"
 
 #. This is on a button, that will change the PIN once clicked
 #: views/device/index.basic.html:95
@@ -817,7 +817,7 @@ msgstr ""
 msgid ""
 "Follow the instructions on your\n"
 "                                                    device."
-msgstr ""
+msgstr "お持ちのデバイス上に表示されたの指示に従ってください。"
 
 #: config.sample.js:12
 msgid "For more information, please refer to"
@@ -836,6 +836,8 @@ msgid ""
 "                        firmware will be up-to-date at the time of "
 "initialization."
 msgstr ""
+"セキュリティ確保のため、TREZORはファームウェアがインストールされていない状態で出荷されています。理由は初期化の際に最新のファームウェアを取得するため"
+"です。"
 
 #: config.sample.js:29
 msgid ""
@@ -901,7 +903,7 @@ msgstr "戻る"
 msgid ""
 "Go to\n"
 "        MyEtherWallet"
-msgstr ""
+msgstr "MyEtherWalletへ移動"
 
 #: views/modal/beta.html:18
 msgid "Go to TREZOR Wallet"
@@ -1001,14 +1003,14 @@ msgid ""
 "If your TREZOR has not been set up yet (fresh out of the box), you do not "
 "need to\n"
 "                            have a Recovery seed."
-msgstr ""
+msgstr "お使いのTREZORはまだ初期化されていない（工場出荷時の状態の）場合、リカバリシードは不必要です。"
 
 #: views/modal/firmware.html:189
 msgid ""
 "If your TREZOR is already initialized, always have your Recovery seed with "
 "you\n"
 "                    before updating the firmware!"
-msgstr ""
+msgstr "お使いのTREZORは初期化済みの場合、ファームウェアのアップデートする前に必ずリカバリシードを手元に置いておいてください。"
 
 #: views/device/homescreen.html:80
 msgid ""
@@ -1040,13 +1042,14 @@ msgid ""
 "                Please, install the following package and reconnect your "
 "TREZOR."
 msgstr ""
+"ある場合は、Linuxを利用するとudevの規則のインストールが必要です。下記のパケージをインストールした後で、TREZORを再接続してください。"
 
 #: views/modal/firmware.html:191 views/modal/firmware.html:45
 msgid ""
 "In very rare cases, a firmware update might result in the need to recover "
 "the wallet from\n"
 "                    Recovery seed."
-msgstr ""
+msgstr "ごく希に、ファームウェアのアップデートの際にリカバリシードからウォレットを復元する必要がある場合があります。"
 
 #: views/modal/firmware.html:291
 msgid ""
@@ -1262,7 +1265,7 @@ msgid ""
 "com/trezor-tech/translating.html\" class=\"arrow\">contribution</a>"
 msgstr ""
 "翻訳者の<a href=\"http://doc.satoshilabs.com/trezor-tech/translating.html\" "
-"class=„arrow\">貢献</a>に感謝します"
+"class=\"arrow\">貢献</a>に感謝します"
 
 #: views/account/sign/inside.html:180 views/account/sign/inside.html:39
 msgid "Maximal message length is 255 letters long."
@@ -1513,7 +1516,7 @@ msgstr ""
 msgid ""
 "Please check carefully that\n"
 "            you wrote them down correctly."
-msgstr ""
+msgstr "正しく書き写されているか慎重に確認してください。"
 
 #: views/modal/setup.wordCheck.html:12
 msgid "Please check the 10th word of your recovery seed."
@@ -1682,7 +1685,7 @@ msgid ""
 "Please try again. You need to make sure<strong>both device buttons are "
 "pressed, as you plug in\n"
 "                the device.</strong>"
-msgstr ""
+msgstr "もう一度試してください。<strong>デバイスを接続する時はボタンが両方押されている</strong>か確認してください。"
 
 #: views/modal/firmware.html:440
 msgid "Please unplug the device now."
@@ -1881,7 +1884,7 @@ msgid ""
 "\"_blank\">convert it first to an address starting with M</a>"
 msgstr ""
 "<strong>3</strong>で始まるアドレスへの取引を送信しますか? まず、<a href=\"https://litecoin-"
-"project.github.io/p2sh-convert/\" target=„_blank\">Mで始まるアドレスに変換して</a>ください。"
+"project.github.io/p2sh-convert/\" target=\"_blank\">Mで始まるアドレスに変換して</a>ください。"
 
 #: config.sample.js:25
 msgid ""
@@ -1890,7 +1893,7 @@ msgid ""
 "first to an address starting with 3</a>"
 msgstr ""
 "TREZORへライトコインを送りますか？M-アドレスは拒否されましたか？まず、<a href=\"https://litecoin-"
-"project.github.io/p2sh-convert/\" target=„_blank\">3で始まるアドレスに変換して</a>ください。"
+"project.github.io/p2sh-convert/\" target=\"_blank\">3で始まるアドレスに変換して</a>ください。"
 
 #. This is shown in the transaction list when the transaction is to the user himseld.
 #: views/account/transactions/txAddress.html:29
@@ -1916,7 +1919,7 @@ msgstr "カスタムの手数料の設定はお薦めできません。"
 msgid ""
 "Setting up your TREZOR will take only a few minutes.\n"
 "                    When you're done, you can start using your TREZOR."
-msgstr ""
+msgstr "TREZORのセットアップは何分かしかかかりません。その後はTREZORを利用できます。"
 
 #: views/debug.html:30
 msgid "Setup failed."
@@ -2137,6 +2140,8 @@ msgid ""
 "device will display a warning when you\n"
 "                        start it."
 msgstr ""
+"インストールされたファームウェアの信頼性は起動の際に検証されます。ファームウェアの出所はSatoshiLabsではないとデバイスは起動の際に警告を表示しま"
+"す。"
 
 #: views/settings.html:13
 msgid "The bitcore server doesn't seem to reply. Please select another server."
@@ -2219,7 +2224,7 @@ msgid ""
 "To access subsequent addresses, please use some of the listed addresses in "
 "a\n"
 "                                    transaction."
-msgstr ""
+msgstr "これ以上のアドレスを表示するために、これまでのアドレスへの取引が一件以上承認されるまでお待ちください。"
 
 #: views/account/receive/index.html:93
 msgid ""
@@ -2232,7 +2237,7 @@ msgid ""
 "To access subsequent addresses, please wait for confirmation on transaction "
 "on some of the\n"
 "                                    previous addresses."
-msgstr ""
+msgstr "これ以上のアドレスを表示するために、これまでのアドレスへの取引が一件以上承認されるまでお待ちください。"
 
 #: views/nav/device-buttons.html:11
 msgid ""
@@ -2390,6 +2395,7 @@ msgid ""
 "persons from stealing your\n"
 "                bitcoins even when they get physical access to your device."
 msgstr ""
+"PIN保護機能の利用を強くおすすめします。PIN機能は、物理的にデバイスにアクセスした場合でも権限のない第三者によるコインの盗難を防ぐことができます。"
 
 #: views/device/advanced.html:165
 msgid ""
@@ -2715,7 +2721,7 @@ msgid ""
 "Your TREZOR is already initialized. Check that you have your Recovery seed "
 "with you\n"
 "                    before updating the firmware!"
-msgstr ""
+msgstr "お使いのTREZORはもう初期化されています。ファームウェアをアップデートする前に、リカバリシードが手元にあるか確認してください。"
 
 #: views/modal/firmware.html:376
 msgid "Your TREZOR is not in the firmware update mode."
@@ -2800,7 +2806,7 @@ msgid ""
 "have\n"
 "                                your Recovery seed ready before updating the "
 "firmware"
-msgstr ""
+msgstr "ファームウェアのアップデートする前に必ずリカバリシードを手元に置いておいてください"
 
 #: views/device/homescreen.html:34
 msgid "homescreen editor"
@@ -2876,7 +2882,7 @@ msgstr "口座の名前を変更できます"
 #. displayed on the bottom in the TX
 #: views/account/send/txPrepared.html:44
 msgid "the change address"
-msgstr "TODO 変更アドレス"
+msgstr "お釣り用アドレス"
 
 #. Clicking here will lead the user to our manual.
 #: views/modal/firmware.html:29
