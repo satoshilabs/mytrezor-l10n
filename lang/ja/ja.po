@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2017-10-11 15:00+0000\n"
+"PO-Revision-Date: 2017-10-12 16:46+0000\n"
 "Last-Translator: Adam Nohejl <adam@nohejl.name>\n"
 "Language-Team: Japanese "
 "<https://hosted.weblate.org/projects/satoshilabs/mytrezor/ja/>\n"
@@ -68,6 +68,8 @@ msgid ""
 "                If you want to use TREZOR with different browsers, please "
 "install TREZOR Bridge."
 msgstr ""
+"<hr>\n"
+" TREZORを他のブラウザで使用する場合は、TREZOR Bridgeをインストールしてください。"
 
 #. this is second part of sentence 'Forget [device_name]?'
 #: views/modal/forget.disconnected.html:4 views/modal/forget.requested.html:4
@@ -658,7 +660,7 @@ msgstr "PIN保護機能を有効にする"
 
 #: views/modal/dropbox.html:7
 msgid "Enable labeling"
-msgstr "端末名を有効にする"
+msgstr "ラベリングを有効にする"
 
 #. Enable labeling on [device_name]
 #: views/modal/button.html:4
@@ -836,8 +838,7 @@ msgid ""
 "                        firmware will be up-to-date at the time of "
 "initialization."
 msgstr ""
-"セキュリティ確保のため、TREZORはファームウェアがインストールされていない状態で出荷されています。理由は初期化の際に最新のファームウェアを取得するため"
-"です。"
+"セキュリティ確保のため、TREZORはファームウェアがインストールされていない状態で出荷されています。初期化の際に最新のファームウェアを取得するためです。"
 
 #: config.sample.js:29
 msgid ""
@@ -1003,7 +1004,7 @@ msgid ""
 "If your TREZOR has not been set up yet (fresh out of the box), you do not "
 "need to\n"
 "                            have a Recovery seed."
-msgstr "お使いのTREZORはまだ初期化されていない（工場出荷時の状態の）場合、リカバリシードは不必要です。"
+msgstr "お使いのTREZORがまだ初期化されていない（工場出荷時の状態の）場合、リカバリシードは不要です。"
 
 #: views/modal/firmware.html:189
 msgid ""
@@ -1042,7 +1043,7 @@ msgid ""
 "                Please, install the following package and reconnect your "
 "TREZOR."
 msgstr ""
-"ある場合は、Linuxを利用するとudevの規則のインストールが必要です。下記のパケージをインストールした後で、TREZORを再接続してください。"
+"Linuxのユーザーはudevの規則のインストールが必要な場合があります。下記のパッケージをインストールした後で、TREZORを再接続してください。"
 
 #: views/modal/firmware.html:191 views/modal/firmware.html:45
 msgid ""
@@ -1919,7 +1920,7 @@ msgstr "カスタムの手数料の設定はお薦めできません。"
 msgid ""
 "Setting up your TREZOR will take only a few minutes.\n"
 "                    When you're done, you can start using your TREZOR."
-msgstr "TREZORのセットアップは何分かしかかかりません。その後はTREZORを利用できます。"
+msgstr "TREZORのセットアップにかかる時間はほんの数分です。その後でTREZORを利用できます。"
 
 #: views/debug.html:30
 msgid "Setup failed."
@@ -2081,8 +2082,8 @@ msgid ""
 "Wallet, you can easily control your coins, manage your balance and initiate "
 "transfers."
 msgstr ""
-"TREZOR Walletは、TREZORデバイスのための使いやすいインターフェースです。TREZOR "
-"Walletを使って、お手持ちのコインの管理、残高の管理、送信ができます。"
+"TREZOR WalletはTREZORデバイスの使いやすいインターフェースです。TREZOR "
+"Walletを使っては、お持ちのコインの制御、残高の管理、送信ができます。"
 
 #: views/jumbotrons/loading.html:5
 msgid "TREZOR Wallet is loading accounts"
@@ -2140,8 +2141,8 @@ msgid ""
 "device will display a warning when you\n"
 "                        start it."
 msgstr ""
-"インストールされたファームウェアの信頼性は起動の際に検証されます。ファームウェアの出所はSatoshiLabsではないとデバイスは起動の際に警告を表示しま"
-"す。"
+"インストールされたファームウェアの信頼性は起動の際に検証されます。ファームウェアの出所がSatoshiLabsではない場合、デバイスは起動の際に警告を表示"
+"します。"
 
 #: views/settings.html:13
 msgid "The bitcore server doesn't seem to reply. Please select another server."
@@ -2225,7 +2226,7 @@ msgid ""
 "To access subsequent addresses, please use some of the listed addresses in "
 "a\n"
 "                                    transaction."
-msgstr "これ以上のアドレスを表示するために、これまでのアドレスへの取引が一件以上承認されるまでお待ちください。"
+msgstr "さらに続くアドレスを表示するためには、これまでのアドレスを使って取引を行ってください。"
 
 #: views/account/receive/index.html:93
 msgid ""
@@ -2238,7 +2239,7 @@ msgid ""
 "To access subsequent addresses, please wait for confirmation on transaction "
 "on some of the\n"
 "                                    previous addresses."
-msgstr "これ以上のアドレスを表示するために、これまでのアドレスへの取引が一件以上承認されるまでお待ちください。"
+msgstr "さらに続くアドレスを表示するためには、これまでのアドレスでの取引が一件以上承認されるまでお待ちください。"
 
 #: views/nav/device-buttons.html:11
 msgid ""
@@ -2722,7 +2723,7 @@ msgid ""
 "Your TREZOR is already initialized. Check that you have your Recovery seed "
 "with you\n"
 "                    before updating the firmware!"
-msgstr "お使いのTREZORはもう初期化されています。ファームウェアをアップデートする前に、リカバリシードが手元にあるか確認してください。"
+msgstr "お使いのTREZORはすでに初期化されています。ファームウェアをアップデートする前に、リカバリシードが手元にあるか確認してください。"
 
 #: views/modal/firmware.html:376
 msgid "Your TREZOR is not in the firmware update mode."
