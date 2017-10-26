@@ -4,8 +4,8 @@ msgstr ""
 "POT-Creation-Date: \n"
 "PO-Revision-Date: 2017-09-22 01:44+0000\n"
 "Last-Translator: Richard Haime <rmhaime@gmail.com>\n"
-"Language-Team: Dutch "
-"<https://hosted.weblate.org/projects/satoshilabs/mytrezor/nl/>\n"
+"Language-Team: Dutch <https://hosted.weblate.org/projects/satoshilabs/"
+"mytrezor/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -13,176 +13,205 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 2.17-dev\n"
 
-#: views/nav/device.html:68
-msgid "(automatically in"
-msgstr "(automatisch in"
-
-#: views/device/index.setup.html:23
+#: views/device/index.setup.html:1
 msgid "* No worries, you can always change it."
 msgstr "* Geen zorgen, u kunt het altijd veranderen."
 
-#: views/modal/beta.html:6
-msgid ""
-", offering the newest features before they are available to the general "
-"public."
-msgstr ""
-", met de nieuwste toepassingen voordat deze beschikbaar zijn voor het "
-"algemene publiek."
-
-#. The number refer to XPUBs
-#: views/import.html:33 views/import.html:42 views/import.html:52
-#: views/import.html:61
-msgid "1 per row"
-msgstr "1 per rij"
-
 #. Part of a long text about Dropbox and labeling
-#: views/modal/dropbox.html:11
+#: views/modal/dropbox.html:1
 msgid "1. Click 'Connect to Dropbox' and log in."
 msgstr "1. Klik op 'Verbinden met Dropbox' en log in."
 
 #. Number of words in a recovery seed
-#: views/device/recovery.html:127
+#: views/device/recovery.html:1
 msgid "12 words"
 msgstr "12 woorden"
 
 #. Number of words in a recovery seed
-#: views/device/recovery.html:132
+#: views/device/recovery.html:1
 msgid "18 words"
 msgstr "18 woorden"
 
+#. Length is important here! Full sentence: Discover TREZOR's new *2-factor authentication* for secure login to Gmail, Google Drive, Dropbox, Dashlane, and more...
+#: views/promos/2fa.html:1
+msgctxt "promos-2fa"
+msgid "2-factor authentication"
+msgstr ""
+
 #. Part of a long text about Dropbox and labeling
-#: views/modal/dropbox.html:20
+#: views/modal/dropbox.html:1
 msgid "2. Allow access of your TREZOR device to your Dropbox folder."
 msgstr "2. Geef uw TREZOR toegang tot uw Dropbox-map."
 
 #. Number of words in a recovery seed
-#: views/device/recovery.html:137
+#: views/device/recovery.html:1
 msgid "24 words"
 msgstr "24 woorden"
 
+#. Length is important here! Full sentence: Discover TREZOR's *2F authentication* for secure login to<br>Google, Dropbox,<br>and more...
+#: views/promos/2fa.html:1
+msgctxt "promos-2fa"
+msgid "2F authentication"
+msgstr ""
+
 #. Part of a long text about Dropbox and labeling
-#: views/modal/dropbox.html:42
+#: views/modal/dropbox.html:1
 msgid "3. Enjoy ultimate TREZOR security and privacy."
 msgstr "3. Ervaar de ultieme beveiliging en privacy van TREZOR."
 
-#: views/install/main.html:24
-msgid ""
-"<hr>\n"
-"                If you want to use TREZOR with different browsers, please "
-"install TREZOR Bridge."
+#: views/notices.html:1
+msgctxt "text-with-link"
+msgid "<b>Note: </b>Litecoin changed the format of addresses. <a>More info</a>"
 msgstr ""
-"<hr>\n"
-"                Als u TREZOR met verschillende browsers wilt gebruiker, "
-"installeert u TREZOR Bridge."
 
-#. this is second part of sentence 'Forget [device_name]?'
-#: views/modal/forget.disconnected.html:4 views/modal/forget.requested.html:4
-msgid "?"
-msgstr "?"
+#: views/account/transactions/tooBigAccount.html:1
+msgctxt "text-with-link"
+msgid ""
+"<b>Your account is too big.</b><p>Due to the large size of the account, your "
+"TREZOR might take a longer time to load or sign transactions.<br><a>Learn "
+"how to make your account smaller</a></p>"
+msgstr ""
+
+#. From (date) to (date)
+#: views/account/transactions/summary.html:1
+msgid "<i>From</i> {{from}} <i>to</i> {{to}}"
+msgstr ""
+
+#: views/modal/beta.html:1
+msgid ""
+"<i>TREZOR Beta Wallet</i> is a public feature-testing version of the "
+"<i>TREZOR Wallet</i>, offering the newest features before they are available "
+"to the general public."
+msgstr ""
+
+#. contains link to device setup
+#: views/device/load.html:1
+msgid ""
+"<p>This is an advanced interface intended for EXPERT use only!</p><p>If you "
+"are a common user and want to setup or recover your TREZOR device, please "
+"<a>continue to TREZOR Setup.</a></p><p>Never use this process unless you "
+"REALLY know what you are doing!</p><p>No checks are performed on the "
+"provided seed, so it can be binary sequence, dice-throw sequence or a random "
+"sentence. Valid BIP32 XPRV keys are interpreted prior loading to the device."
+"</p>"
+msgstr ""
 
 #. This is on a hidden site, 99.99% of people will not see it
-#: views/device/metadata.html:73
+#: views/device/metadata.html:7
 msgid "API keys are useful if you want to import a watch-only wallet."
 msgstr "API-sleutels zijn handig als u een watch-only wallet  wilt importeren."
 
 #. Used as a default account name. The accounts are named *Account* #1, *Account* #2 etc.
-#: views/otherStrings.html:18
+#: views/otherStrings.html:7
 msgctxt "default-name"
 msgid "Account"
 msgstr "Account"
 
 #. This is a short label in the device Basic page
-#: views/device/index.basic.html:138
+#: views/device/index.basic.html:3
 msgctxt "basic-label"
 msgid "Account public keys (XPUB)"
 msgstr "Openbare sleutels van deze account (XPUB)"
 
-#: views/debug.html:63 views/debug.html:66
+#: views/debug.html:1
+msgctxt "error-message"
 msgid "Action was interrupted"
-msgstr "Actie is onderbroken"
+msgstr ""
 
-#: views/nav/device-buttons.html:18 views/nav/device-buttons.html:35
-#: views/nav/device-buttons.html:53
+#: views/nav/device-buttons.html:1
+msgctxt "button"
 msgid "Add account"
-msgstr "Account toevoegen"
+msgstr ""
 
-#: views/account/transactions/txAddressLabel.html:20
+#: views/account/transactions/txAddressLabel.html:1
 msgid "Add comment"
 msgstr "Opmerking toevoegen"
 
-#: views/nav/device-buttons.html:21 views/nav/device-buttons.html:38
-#: views/nav/device-buttons.html:56
-msgid "Add legacy account"
-msgstr "Voeg legacy account toe"
+#. Length is important here! Full sentence: Use Labeling - *Add comments,<br/>rename accounts.* - Click on Dropbox icon<br/>on the bottom.
+#: views/promos/labeling.html:1
+msgctxt "promos-labeling"
+msgid "Add comments,<br>rename accounts."
+msgstr ""
 
-#: views/account/send/buttonBar.html:24
+#: views/nav/device-buttons.html:1
+msgctxt "button"
+msgid "Add legacy account"
+msgstr ""
+
+#: views/account/send/buttonBar.html:1
 msgid "Add recipient"
 msgstr "Ontvanger toevoegen"
 
-#: views/account/transactions/txLabelEdit.html:12
+#. Length is important here! Full sentence: Use Labeling - *Add transaction comments,<br/>rename accounts or addresses.* - Click on Dropbox icon on the bottom.
+#: views/promos/labeling.html:1
+msgctxt "promos-labeling"
+msgid "Add transaction comments,<br>rename accounts or addresses."
+msgstr ""
+
+#: views/account/transactions/txLabelEdit.html:1
 msgid "Add your own label"
 msgstr "Voeg een eigen label toe"
 
 #. This is a label to a checkbox in the device recovery page
-#: views/device/load.html:54 views/device/recovery.html:162
+#: views/device/load.html:1 views/device/recovery.html:1
 msgctxt "recovery-label"
 msgid "Additional passphrase encryption"
 msgstr "Extra wachtwoordzin encryptie"
 
-#. This is a label to the sending form. (Address/amount/comment)
-#: views/account/send/txAddress.html:4
-msgctxt "send"
-msgid "Address"
-msgstr "Adres"
-
-#: views/account/transactions/table.html:13
+#: views/account/transactions/table.html:1
 msgid "Address"
 msgstr "Adres"
 
 #. This is a label to the sign/verify form.
-#: views/account/sign/inside.html:203 views/account/sign/inside.html:62
+#: views/account/sign/inside.html:1 views/account/sign/inside.html:6
 msgctxt "sign"
 msgid "Address"
 msgstr "Adres"
 
-#: views/account/transactions/table.html:14
+#. This is a label to the sending form. (Address/amount/comment)
+#: views/account/send/txAddress.html:5
+msgctxt "form-label"
+msgid "Address"
+msgstr ""
+
+#: views/account/transactions/table.html:1
 msgid "Address Label"
 msgstr "Adreslabel"
 
-#: views/account/send/txAddress.html:25
-msgid "Address is required."
-msgstr "Adres is verplicht."
+#. Send form -> add recipient -> import csv -> missing Address column header
+#: views/otherStrings.html:7
+msgctxt "error-message"
+msgid "Address not found in the header"
+msgstr ""
 
-#: views/debug.html:27
+#: views/debug.html:1
+msgctxt "error-message"
 msgid "Address verification failed."
-msgstr "Adresverificatie is mislukt."
+msgstr ""
 
 #. This is shown on the header Basic/Homescreen/Advanced
-#: views/device/nav.html:23
-msgctxt "header"
+#: views/device/nav.html:1
+msgctxt "button"
 msgid "Advanced"
-msgstr "Extra"
-
-#: views/modal/recovery.html:65
-msgid "Advanced recovery"
-msgstr "Geavanceerde herstel"
+msgstr ""
 
 #. This is a label to a checkbox in the device recovery page
-#: views/device/recovery.html:173 views/device/recovery.html:185
+#: views/device/recovery.html:1
 msgctxt "recovery-label"
 msgid "Advanced recovery"
 msgstr "Geavanceerde herstel"
 
-#: views/device/advanced.html:10
+#: views/device/advanced.html:1
 msgid "Advanced setup"
 msgstr "Geavanceerde setup"
 
-#: views/modal/button.html:91
+#: views/modal/button.html:1
+msgctxt "heading"
 msgid "All data on your device will be deleted."
-msgstr "Alle gegevens op uw apparaat zullen worden verwijderd."
+msgstr ""
 
 #. Part of a long text about Dropbox and labeling
-#: views/modal/dropbox.html:45
+#: views/modal/dropbox.html:1
 msgid ""
 "All labels and comments that you add in TREZOR Wallet are automatically "
 "encrypted by a key derived from TREZOR device and synchronized with your "
@@ -195,240 +224,356 @@ msgstr ""
 "altijd beschikbaar service. Zelfs als uw Dropbox-account gekraakt wordt, "
 "blijven uw privé-gegevens veilig."
 
-#: views/date.selection.html:52
+#: views/date.selection.html:8
+msgctxt "date"
 msgid "All time"
-msgstr "Altijd"
+msgstr ""
 
 #. This is a label to the sending form. (Address/amount/comment)
-#: views/account/send/txAmount.html:5
+#: views/account/send/txAmount.html:1
+msgctxt "form-label"
 msgid "Amount"
-msgstr "Bedrag"
+msgstr ""
 
-#: views/account/send/txAmount.html:45
+#: views/account/send/txAmount.html:1
+msgctxt "error-message"
 msgid "Amount has too many decimals"
-msgstr "Bedrag heeft teveel cijfers achter de komma"
+msgstr ""
 
-#: views/account/send/txAmount.html:48
+#: views/account/send/txAmount.html:1
+msgctxt "error-message"
+msgid "Amount is missing"
+msgstr ""
+
+#: views/account/send/txAmount.html:1
+msgctxt "error-message"
 msgid "Amount is not a number"
-msgstr "Bedrag is geen getal"
+msgstr ""
 
-#: views/account/send/txAmount.html:19
-msgid "Amount is required."
-msgstr "Bedrag is verplicht."
-
-#: views/account/send/txAmount.html:51
+#: views/account/send/txAmount.html:1
+msgctxt "error-message"
 msgid "Amount is too low"
-msgstr "Bedrag is te laag"
+msgstr ""
 
-#: views/nav/settings-buttons.html:3
+#. Send form -> add recipient -> import csv -> missing Amount column header
+#: views/otherStrings.html:7
+msgctxt "error-message"
+msgid "Amount not found in the header"
+msgstr ""
+
+#: views/footer.html:1 views/nav/settings-buttons.html:1
+msgctxt "button"
 msgid "App Settings"
-msgstr "App Instellingen"
+msgstr ""
 
-#: views/settings.html:29
+#: views/settings.html:1
+msgctxt "heading"
 msgid "Application Settings"
-msgstr "Programma-instellingen"
+msgstr ""
 
-#: views/account/receive/address.html:189
+#. something went wrong while the application was starting up
+#: views/otherStrings.html:7
+msgctxt "error-message"
+msgid "Application loading failed"
+msgstr ""
+
+#. Length is important here! Full sentence: *Are you sending money to the right person?* - Double check the address with the other party<br/>and prevent malware attacks!
+#: views/promos/malware.html:1
+msgctxt "promos-malware"
+msgid "Are you sending money to the right person?"
+msgstr ""
+
+#: views/debug.log.html:1
+msgctxt "warning-message"
+msgid ""
+"Attention: The log contains your XPUBs. Anyone with your XPUBs can see your "
+"account history."
+msgstr ""
+
+#: views/account/receive/address.html:26
 msgid "BIP32 Path:"
 msgstr "BIP32 Pad:"
 
 #. Label for Backspace button in Advanced Recovery
-#: views/modal/recovery.html:60
+#: views/modal/recovery.html:1
+msgctxt "button"
 msgid "Backspace"
-msgstr "Backspace"
+msgstr ""
 
-#: views/account/transactions/summary.html:29
-#: views/account/transactions/table.html:18
+#. Heading above account balance total
+#: views/account/transactions/summary.html:3
+#: views/account/transactions/table.html:1
 msgid "Balance"
 msgstr "Balans"
 
 #. This is shown on the header Basic/Homescreen/Advanced
-#: views/device/nav.html:5
-msgctxt "header"
+#: views/device/nav.html:1
+msgctxt "button"
 msgid "Basic"
-msgstr "Basis"
+msgstr ""
 
-#: views/device/index.basic.html:209 views/device/index.basic.html:267
+#: views/device/index.basic.html:7
 msgid "Be careful with your XPUBs."
 msgstr "Wees voorzichtig met uw XPUBs."
 
-#: views/settings.html:62
+#: views/settings.html:1
+msgctxt "form-label"
 msgid "Bitcore Server URL"
-msgstr "Bitcore Server-URL"
+msgstr ""
 
-#: views/debug.html:60
+#: views/debug.html:1
+msgctxt "error-message"
 msgid "Bitcore server failed."
-msgstr "Bitcore server mislukt."
+msgstr ""
 
-#: index.html:44 views/top.nav.html:12
+#: index.html:1
 msgid "Blog"
 msgstr "Blog"
 
-#: views/modal/_header.html:4
-msgid "Bootloader mode"
-msgstr "Bootloader modus"
+#. link in top navigation bar
+#: views/top.nav.html:1
+msgctxt "button"
+msgid "Blog"
+msgstr ""
 
-#: views/device/custom-firmware.html:35 views/device/load.html:65
-#: views/device/recovery.html:197 views/import.html:77
+#: views/modal/_header.html:1
+msgctxt "heading"
+msgid "Bootloader mode"
+msgstr ""
+
+#. Length is important here! Full sentence: Use hidden wallets with Passphrase Encryption - *But first, get to know how it works!*
+#: views/promos/passphrase.html:1
+msgctxt "promos-passphrase"
+msgid "But first, get to know how it works!"
+msgstr ""
+
+#. Length is important here! Full sentence: Use hidden wallets with Passphrase<br/>Encryption - *But first, get to know<br/>how it works!*
+#: views/promos/passphrase.html:1
+msgctxt "promos-passphrase"
+msgid "But first, get to know<br>how it works!"
+msgstr ""
+
+#: views/device/load.html:1 views/device/recovery.html:1 views/import.html:1
+msgctxt "button"
+msgid "Cancel"
+msgstr ""
+
+#: views/device/custom-firmware.html:1
 msgid "Cancel"
 msgstr "Annuleren"
 
 #. PIN strength
-#: views/modal/pin.html:94
+#: views/modal/pin.html:1
+msgctxt "error-message"
 msgid "Careful, It's too easy to guess."
-msgstr "Voorzichtig, het is te makkelijk te raden."
+msgstr ""
 
-#: views/modal/firmware.html:188 views/modal/firmware.html:280
-#: views/modal/firmware.html:42
+#: views/modal/firmware.html:7
+msgctxt "heading"
 msgid "Caution!"
-msgstr "Let op!"
+msgstr ""
 
-#: views/modal/csv.html:24
+#. separates .csv data columns
+#: views/modal/csv.html:8
+msgctxt "form-label"
 msgid "Cell delimiter"
-msgstr "Cel scheidingsteken"
+msgstr ""
 
-#: views/modal/label.html:19
+#: views/modal/label.html:1
+msgctxt "button"
 msgid "Change"
-msgstr "Wijzigen"
+msgstr ""
 
 #. This is on a button, that will change the PIN once clicked
-#: views/device/index.basic.html:76
+#: views/device/index.basic.html:1
 msgctxt "button"
 msgid "Change PIN"
 msgstr "Wijzigen"
 
-#: views/account/transactions/txAddressLabel.html:12
+#: views/account/transactions/txAddressLabel.html:1
 msgid "Change comment"
 msgstr "Opmerking wijzigen"
 
 #. This is on a button, that will change the label once clicked
-#: views/device/index.basic.html:43
+#: views/device/index.basic.html:1
 msgctxt "button"
 msgid "Change label"
 msgstr "Label wijzigen"
 
-#: views/modal/firmware.html:299 views/modal/firmware.html:53
+#: views/modal/firmware.html:7
+msgctxt "heading"
 msgid "Changelog"
-msgstr "Log van wijzigingen"
+msgstr ""
 
-#: views/modal/button.html:68
+#: views/modal/button.html:1
+msgctxt "heading"
 msgid "Check address on TREZOR display"
-msgstr "Controleer het adres op het TREZOR display"
+msgstr ""
 
-#: views/modal/pin.html:24
+#. Length is important here! Full sentence: How strong is your PIN? *Check out some of our tips!*
+#: views/promos/pin.html:1
+msgctxt "promos-pin"
+msgid "Check out some of our tips!"
+msgstr ""
+
+#: views/modal/pin.html:1
+msgctxt "warning-message"
 msgid ""
 "Choose a strong PIN to protect your device from unauthorized access. The "
 "layout is displayed on your TREZOR."
 msgstr ""
-"Kies een sterke PIN om uw apparaat te beschermen tegen onbevoegde toegang. "
-"De layout is weergegeven op uw TREZOR."
 
 #. This is on a button in the sign/verify form.
-#: views/account/sign/inside.html:125 views/account/sign/inside.html:245
+#: views/account/sign/inside.html:4 views/account/sign/inside.html:6
 msgctxt "button"
 msgid "Clear"
 msgstr "Leegmaken"
 
-#: views/device/index.basic.html:221 views/device/index.basic.html:282
-msgid "Click on XPUB to show its QR code."
-msgstr "Klik op XPUB om de QR-code te zien."
+#. Length is important here! Full sentence: Use Labeling - Add transaction comments,<br/>rename accounts or addresses. - *Click on Dropbox icon on the bottom.*
+#: views/promos/labeling.html:1
+msgctxt "promos-labeling"
+msgid "Click on Dropbox icon on the bottom."
+msgstr ""
 
-#: views/account/transactions/txAddressLabel.html:46
+#. Length is important here! Full sentence: Use Labeling - Add comments,<br/>rename accounts. - *Click on Dropbox icon<br/>on the bottom.*
+#: views/promos/labeling.html:1
+msgctxt "promos-labeling"
+msgid "Click on Dropbox icon<br>on the bottom."
+msgstr ""
+
+#. Click on XPUB to show its QR code. Scan it into an application that supports XPUBs such as (link1 - Mycelium) or (link2 - Sentinel for Android). Then, you can watch your transactions and receive payments everywhere without carrying your TREZOR.
+#: views/device/index.basic.html:7
+msgctxt "xpub-text"
+msgid ""
+"Click on XPUB to show its QR code. Scan it into an application that supports "
+"XPUBs such as <a>Mycelium</a> or <a>Sentinel for Android</a>. Then, you can "
+"watch your transactions and receive payments everywhere without carrying "
+"your TREZOR."
+msgstr ""
+
+#. Length is important here! Full sentence: Prevent phishing with Show on TREZOR - *Click on eye icon<br/>in the Receive tab.*
+#: views/promos/show.html:1
+msgctxt "promos-show"
+msgid "Click on eye icon<br>in the Receive tab."
+msgstr ""
+
+#: views/account/transactions/txAddressLabel.html:1
 msgid "Click to hide address"
 msgstr "Klik om het adres te verbergen"
 
-#: views/nav/device.html:24 views/nav/unacquired.html:17
+#: views/nav/device.html:1
+msgctxt "button"
+msgid "Click to renew session"
+msgstr ""
+
+#: views/nav/unacquired.html:1
 msgid "Click to renew session"
 msgstr "Klik om deze sessie te vernieuwen"
 
-#: views/account/transactions/txAddressLabel.html:60
+#: views/account/transactions/txAddressLabel.html:5
 msgid "Click to show address"
 msgstr "Klik om het adres weer te geven"
 
-#: views/debug.html:7 views/debug.html:98 views/debug.log.html:8
-#: views/modal/backendwarnings/ethwallet.html:24 views/modal/csv.html:44
-#: views/modal/disconnect.html:15
-#: views/modal/disconnect.passphrase_disable.html:14
-#: views/modal/disconnect.passphrase_enable.html:14 views/modal/dropbox.html:56
-#: views/modal/firmware.html:111 views/modal/firmware.html:140
-#: views/modal/firmware.html:172 views/modal/firmware.html:224
-#: views/modal/firmware.html:265 views/modal/firmware.html:358
-#: views/modal/firmware.html:382 views/modal/firmware.html:446
-#: views/modal/qr.html:18 views/settings.html:94
+#: views/debug.log.html:1 views/modal/backendwarnings/ethwallet.html:1
+#: views/modal/csv.html:8 views/modal/disconnect.html:1
+#: views/modal/disconnect.passphrase_disable.html:1
+#: views/modal/disconnect.passphrase_enable.html:1 views/modal/dropbox.html:1
+#: views/modal/firmware.html:7 views/modal/qr.html:1 views/settings.html:1
+msgctxt "button"
+msgid "Close"
+msgstr ""
+
+#: views/debug.html:1
 msgid "Close"
 msgstr "Sluiten"
 
+#: views/debug.html:1
+msgctxt "tooltip"
+msgid "Close"
+msgstr ""
+
 #. This is a label to the sending form. (Address/amount/comment)
-#: views/account/send/txLabel.html:5
+#: views/account/send/txLabel.html:1
+msgctxt "form-label"
 msgid "Comment"
-msgstr "Opmerking"
+msgstr ""
 
-#: views/modal/button.html:110 views/modal/button.html:117
+#: views/modal/button.html:1
+msgctxt "heading"
 msgid "Confirm action on your TREZOR device."
-msgstr "Bevestig actie op uw TREZOR apparaat."
+msgstr ""
 
-#: views/modal/button.html:14 views/modal/button.html:45
+#: views/modal/button.html:1
 msgid "Confirm action on your device."
 msgstr "Bevestig actie op uw apparaat."
 
-#: views/device/recovery.html:66
+#: views/modal/button.html:1
+msgctxt "heading"
+msgid "Confirm action on your device."
+msgstr ""
+
+#: views/device/recovery.html:1
 msgid "Confirm choice by pressing enter."
 msgstr "Bevestig uw keuze door op te Enter te klikken."
 
-#: views/modal/button.html:100
+#: views/modal/button.html:1
+msgctxt "heading"
 msgid "Confirm passphrase encryption"
-msgstr "Bevestig de wachtwoordzin encryptie"
+msgstr ""
 
-#: views/modal/button.html:18
+#: views/modal/button.html:1
+msgctxt "heading"
 msgid "Confirm provided information."
-msgstr "Bevestig verstrekte informatie."
+msgstr ""
 
 #. We cannot estimate transaction confirmation time
-#: views/account/send/fees.html:51
+#: views/account/send/fees.html:1
 msgid "Confirmation time cannot be estimated."
 msgstr "Bevestigingstijd kan niet worden ingeschat."
 
-#: views/debug.html:111
+#: views/debug.html:1
+msgctxt "success-message"
 msgid "Congratulations! Your device is now ready to use."
-msgstr "Gefeliciteerd! Uw apparaat is nu klaar voor gebruik."
+msgstr ""
 
-#: views/jumbotrons/start.html:4
+#: views/jumbotrons/start.html:1
 msgid "Connect TREZOR to continue"
 msgstr "Sluit uw TREZOR aan om door te gaan"
 
-#: views/device/index.basic.html:66
+#: views/device/index.basic.html:1
 msgid "Connect the device to change PIN."
 msgstr "Sluit het apparaat aan om de PINcode te wijzigen."
 
-#: views/device/index.basic.html:33
+#: views/device/index.basic.html:1
 msgid "Connect the device to change the label."
 msgstr "Sluit het apparaat aan om het label te wijzigen."
 
-#: views/device/advanced.html:143
+#: views/device/advanced.html:8
 msgid "Connect the device to disable PIN."
 msgstr "Sluit het apparaat aan om de PINcode uit te schakelen."
 
-#: views/device/advanced.html:105
+#: views/device/advanced.html:5
 msgid "Connect the device to disable passphrase."
 msgstr "Sluit het apparaat aan om de wachtwoordzin uit te schakelen."
 
-#: views/device/index.basic.html:85
+#: views/device/index.basic.html:1
 msgid "Connect the device to enable PIN."
 msgstr "Sluit het apparaat aan om de PINcode te gebruiken."
 
-#: views/device/advanced.html:55
+#: views/device/advanced.html:1
 msgid "Connect the device to enable passphrase."
 msgstr "Sluit het apparaat aan om de wachtwoordzin in te schakelen."
 
-#: views/device/homescreen.html:44
+#: views/device/homescreen.html:1
 msgid "Connect the device to set its homescreen."
 msgstr "Sluit het apparaat aan om het welkomscherm te wijzigen."
 
-#: views/modal/dropbox.html:61
+#: views/modal/dropbox.html:1
+msgctxt "button"
 msgid "Connect to Dropbox"
-msgstr "Verbinden met Dropbox"
+msgstr ""
 
-#: views/nav/settings-buttons.html:17
+#: views/nav/settings-buttons.html:1
 msgid ""
 "Connect to Dropbox to enable:<br>- renaming accounts<br>- commenting "
 "transactions<br>- labeling addresses and more..."
@@ -436,156 +581,200 @@ msgstr ""
 "Verbinden met Dropbox om: <br>- rekeningen te hernoemen <br>- opmerkingen "
 "bij transacties te plaatsen<br>- adressen te labelen en meer..."
 
-#: views/account/receive/address.html:95
+#: views/account/receive/address.html:16
 msgid "Connect your TREZOR to display this address"
 msgstr "Sluit uw TREZOR aan om dit adres weer te geven"
 
-#: views/nav/device.html:36
+#: views/nav/device.html:1
+msgctxt "device-state"
 msgid "Connected device"
-msgstr "Aangesloten apparaat"
+msgstr ""
 
-#: views/nav/settings-buttons.html:14
+#: views/nav/settings-buttons.html:1
 msgid "Connecting ..."
 msgstr "Verbinden ..."
 
-#: views/device/custom-firmware.html:32 views/device/index.setup.html:28
-#: views/device/load.html:62 views/device/recovery.html:193
-#: views/import.html:75
+#: views/device/index.setup.html:1 views/device/load.html:1
+#: views/device/recovery.html:1 views/import.html:1
+msgctxt "button"
+msgid "Continue"
+msgstr ""
+
+#: views/device/custom-firmware.html:1
 msgid "Continue"
 msgstr "Doorgaan"
 
-#: views/settings.html:52
+#: views/settings.html:1
+msgctxt "form-label"
 msgid "Currency backend"
-msgstr "Valuta backend"
+msgstr ""
+
+#. Send form -> add recipient -> import csv -> missing Currency column header
+#: views/otherStrings.html:7
+msgctxt "error-message"
+msgid "Currency not found in the header"
+msgstr ""
 
 #. Transaction fee size menu
-#: views/account/send/fees.html:33
+#: views/account/send/fees.html:1
 msgctxt "transaction-fee"
 msgid "Custom"
 msgstr "Standaard"
 
-#: views/date.selection.html:57
+#. select custom time period
+#: views/date.selection.html:8
+msgctxt "date"
 msgid "Custom"
-msgstr "Handmatig"
+msgstr ""
 
-#. This is a label to the sending form. (Address/amount/comment)
-#: views/account/send/fees.html:108
-msgctxt "send"
-msgid "Custom fee"
-msgstr "Dit een een label voor het verzendformulier. (Adres/bedrag/opmerking)"
+#. User put their own 'BITCORE SERVER URL' in the Application Settings, now they see this in top left currency selector instead of Bitcoin (BTC) etc.
+#: views/otherStrings.html:7
+msgctxt "form-label"
+msgid "Custom Backend"
+msgstr ""
 
 #. This is a small label in the Homescreen tab
-#: views/device/homescreen.html:16
+#: views/device/homescreen.html:1
 msgctxt "label"
 msgid "Custom image"
 msgstr "Aangepaste afbeelding"
 
-#: views/account/transactions/table.html:9
+#: views/account/transactions/table.html:1
 msgid "Date"
 msgstr "Datum"
 
-#. Unconfirmed transaction, in the transaction list, will have this instead of date.
-#: views/account/transactions/table.html:109
+#. error while trying to sign message - waiting for addresses to be generated
+#: views/otherStrings.html:7
+msgctxt "error-message"
+msgid "Deriving not done."
+msgstr ""
+
+#. Transaction details, Unconfirmed transaction will have this instead of date.
+#: views/account/transactions/table.html:13
 msgid "Details"
 msgstr "Details"
 
-#: views/modal/firmware.html:76
+#: views/modal/firmware.html:7
+msgctxt "heading"
 msgid "Device"
-msgstr "Apparaat"
+msgstr ""
 
-#: views/import.html:16
+#: views/import.html:1
+msgctxt "form-label"
 msgid "Device ID"
-msgstr "Apparaat-ID"
+msgstr ""
 
-#: views/device/index.basic.html:18
+#: views/device/index.basic.html:1
 msgid "Device basics"
 msgstr "Apparaat standaard"
 
 #. Device firmware is outdated.
-#: views/modal/firmware.html:17
+#: views/modal/firmware.html:7
+msgctxt "heading"
 msgid "Device firmware is outdated."
-msgstr "Apparaat firmware is verouderd."
+msgstr ""
 
-#: views/device/recovery.html:95
+#: views/device/recovery.html:1
 msgid "Device has to be wiped before recovery."
 msgstr "Apparaat moet worden ge-reset vóór herstel mogelijk is."
 
-#: views/modal/firmware.html:217 views/modal/firmware.html:258
-#: views/modal/firmware.html:351
+#: views/modal/firmware.html:7
+msgctxt "error-message"
 msgid "Device is updated in other window"
-msgstr "Apparaat wordt bijgewerkt in een ander venster"
+msgstr ""
 
 #. This is a short label in the device recovery page
-#: views/device/recovery.html:103
+#: views/device/recovery.html:1
 msgctxt "recovery-label"
 msgid "Device label"
 msgstr "Apparaat label"
 
 #. This is a short label in the normally hidden, advanced Load page
-#: views/device/load.html:22
+#: views/device/load.html:1
 msgctxt "load-label"
 msgid "Device label"
 msgstr "Apparaat label"
 
-#: views/device/index.setup.html:17 views/import.html:22
+#: views/import.html:1
+msgctxt "form-label"
+msgid "Device label"
+msgstr ""
+
+#: views/device/index.setup.html:1
 msgid "Device label"
 msgstr "Apparaat label"
 
-#: views/device/advanced.html:190
+#: views/device/advanced.html:8
 msgid "Device needs to be connected in order to wipe it."
 msgstr "Apparaat moet worden aangesloten om het te resetten."
 
 #. This is a short label in the device Advanced page
-#: views/device/advanced.html:135
+#: views/device/advanced.html:8
 msgctxt "advanced-label"
 msgid "Disable PIN"
 msgstr "Uitschakelen"
 
 #. This is written on a button, clicking it will disable PIN
-#: views/device/advanced.html:153
+#: views/device/advanced.html:8
 msgctxt "button"
 msgid "Disable PIN"
 msgstr "PINcode uitschakelen"
 
 #. This is written on a button, clicking it will disable passphrase
-#: views/device/advanced.html:119
+#: views/device/advanced.html:8
 msgctxt "button"
 msgid "Disable passphrase encryption"
 msgstr "Wachtwoordzin encryptie uitschakelen"
 
 #. Refers to PIN
-#: views/device/index.basic.html:61
+#: views/device/index.basic.html:1
 msgctxt "pin"
 msgid "Disabled"
 msgstr "Uitgeschakeld"
 
-#: views/nav/settings-buttons.html:36
-msgid "Disconnect"
-msgstr "Verbreek"
-
-#: views/modal/disconnect.html:8
-#: views/modal/disconnect.passphrase_disable.html:7
-#: views/modal/disconnect.passphrase_enable.html:7
+#: views/modal/disconnect.html:1
+#: views/modal/disconnect.passphrase_disable.html:1
+#: views/modal/disconnect.passphrase_enable.html:1
+msgctxt "heading"
 msgid "Disconnect your TREZOR now"
-msgstr "Verbreek nu de verbinding met uw TREZOR"
+msgstr ""
 
-#: views/modal/disconnect.passphrase_disable.html:9
+#: views/modal/disconnect.passphrase_disable.html:1
 msgid "Disconnect your TREZOR to disable passphrase."
 msgstr "Koppel uw TREZOR los om de wachtwoordzin uit te schakelen."
 
-#: views/modal/disconnect.passphrase_enable.html:9
+#: views/modal/disconnect.passphrase_enable.html:1
 msgid "Disconnect your TREZOR to enable passphrase."
 msgstr "Koppel uw TREZOR los om de wachtwoordzin te gebruiken."
 
-#: views/nav/device.html:33
+#: views/nav/settings-buttons.html:1
+msgctxt "button"
+msgid "Disconnect {{user}}"
+msgstr ""
+
+#: views/nav/device.html:1
+msgctxt "device-state"
 msgid "Disconnected device"
-msgstr "Losgekoppeld apparaat"
+msgstr ""
 
-#: views/debug.html:137
+#. Length is important here! Full sentence: *Discover TREZOR's* 2F authentication for secure login to<br>Google, Dropbox,<br>and more...
+#: views/promos/2fa.html:1
+msgctxt "promos-2fa"
+msgid "Discover TREZOR's"
+msgstr ""
+
+#. Length is important here! Full sentence: *Discover TREZOR's new* 2-factor authentication for secure login to Gmail, Google Drive, Dropbox, Dashlane, and more...
+#: views/promos/2fa.html:1
+msgctxt "promos-2fa"
+msgid "Discover TREZOR's new"
+msgstr ""
+
+#: views/debug.html:1
+msgctxt "tooltip"
 msgid "Display transaction on explorer"
-msgstr "Toon transactie op verkenner"
+msgstr ""
 
-#: views/modal/backendwarnings/bcash.html:11
+#: views/modal/backendwarnings/bcash.html:1
 msgid ""
 "Do not receive bitcoins to the addresses in this BCH wallet, do not send "
 "Bitcoin Cash coins to Bitcoin addresses."
@@ -593,296 +782,350 @@ msgstr ""
 "Ontvang geen bitcoins op de adressen in deze BCH wallet, stuur geen Bitcoin "
 "Cash munten naar Bitcoin adressen."
 
-#: views/install/main.html:72
+#: views/install/main.html:10
 msgid "Do you use Google Chrome on this computer?"
 msgstr "Gebruikt u Google Chrome op deze computer?"
 
-#: views/modal/firmware.html:275
+#: views/modal/firmware.html:7
+msgctxt "heading"
 msgid "Do you want to update the device firmware?"
-msgstr "Wilt u de firmware van het apparaat bijwerken?"
+msgstr ""
 
-#: index.html:41 views/top.nav.html:9
+#. link in top navigation bar
+#: views/top.nav.html:1
+msgctxt "button"
+msgid "Docs"
+msgstr ""
+
+#: index.html:1
 msgid "Docs"
 msgstr "Documentatie"
 
 #. Button in remember/forget dialog
-#: views/modal/forget.requested.html:10
-msgctxt "forget-button"
+#: views/modal/forget.requested.html:1
+msgctxt "button"
 msgid "Don't forget"
-msgstr "Niet vergeten"
+msgstr ""
 
-#: views/account/send/txAddress.html:17
+#: views/account/send/txAddress.html:5
 msgid "Don't forget to double check the address ..."
 msgstr "Vergeet niet om het adres tweemaal te controleren ..."
 
-#. Whole sentence: 'Don't have a TREZOR? Get one.'
-#: views/install/main.html:19 views/jumbotrons/start.html:8
-msgid "Don't have a TREZOR?"
-msgstr "Heeft u geen TREZOR?"
+#. Don't have a TREZOR? ('Get one' - link to TREZOR shop)
+#. Don't have a TREZOR? (link to TREZOR shop)
+#: views/install/main.html:1 views/jumbotrons/start.html:1
+msgctxt "text-with-link"
+msgid "Don't have a TREZOR? <a>Get one</a>"
+msgstr ""
 
-#: views/install/bridge.force.html:21 views/install/main.html:40
-#: views/install/main.html:64 views/jumbotrons/udev-note.html:35
+#. Length is important here! Full sentence: Sending money to the right person? - *Double check* the address with the other party<br/> and prevent malware attacks!
+#: views/promos/malware.html:1
+msgctxt "promos-malware"
+msgid "Double check"
+msgstr ""
+
+#. start linux udev rules download
+#: views/install/bridge.force.html:1 views/install/main.html:10
+#: views/install/main.html:5 views/jumbotrons/udev-note.html:6
+msgctxt "button"
 msgid "Download"
-msgstr "Downloaden"
+msgstr ""
 
 #. This is displayed on Android.
-#: views/install/mobile.android.html:10
+#: views/install/mobile.android.html:1
+msgctxt "button"
 msgid "Download TREZOR Manager App on Google Play."
-msgstr "Download de TREZOR Manager App van Google Play."
+msgstr ""
 
-#: views/modal/firmware.html:391
+#: views/modal/firmware.html:7
+msgctxt "heading"
 msgid "Downloading firmware..."
-msgstr "Firmware downloaden..."
+msgstr ""
 
-#: views/modal/backendwarnings/ethwallet.html:2
+#: views/modal/backendwarnings/ethwallet.html:1
+msgctxt "heading"
 msgid "ETH / ETC Wallet"
-msgstr "ETH / ETC Portemonnee"
+msgstr ""
 
 #. Transaction fee size menu
-#: views/account/send/fees.html:25
+#: views/account/send/fees.html:1
 msgctxt "transaction-fee"
 msgid "Economy"
 msgstr "Economie"
 
-#: views/nav/device.html:51
+#: views/nav/device.html:1
+msgctxt "button"
 msgid "Edit Device basics"
-msgstr "Wijzig Apparaat standaarden"
+msgstr ""
 
-#: views/account/receive/address.html:149
+#: views/account/receive/address.html:26
 msgid "Edit label"
 msgstr "Wijzig label"
 
-#: views/nav/settings-buttons.html:27
+#: views/nav/settings-buttons.html:1
+msgctxt "button"
 msgid "Enable Labeling"
-msgstr "Labeling Inschakelen"
+msgstr ""
 
 #. This is on a button, that will change the PIN once clicked
-#: views/device/index.basic.html:95
+#: views/device/index.basic.html:1
 msgctxt "button"
 msgid "Enable PIN"
 msgstr "PINcode inschakelen"
 
 #. This is a label to a checkbox in the device recovery page
-#: views/device/recovery.html:148
+#: views/device/recovery.html:1
 msgctxt "recovery-label"
 msgid "Enable PIN protection"
 msgstr "PINcode-beveiliging inschakelen"
 
-#: views/modal/dropbox.html:7
+#: views/modal/dropbox.html:1
+msgctxt "heading"
 msgid "Enable labeling"
-msgstr "Gebruik van labels Inschakelen"
+msgstr ""
 
-#. Enable labeling on [device_name]
-#: views/modal/button.html:4
-msgid "Enable labeling on"
-msgstr "Labeling inschakelen op"
+#. Enable labeling on (device label)?
+#: views/modal/button.html:1
+msgctxt "heading"
+msgid "Enable labeling on {{label}}?"
+msgstr ""
 
 #. This is written on a button, clicking it will enable passphrase
-#: views/device/advanced.html:69
+#: views/device/advanced.html:5
 msgctxt "button"
 msgid "Enable passphrase encryption"
 msgstr "Wachtwoordzin encryptie inschakelen"
 
 #. Refers to PIN
-#: views/device/index.basic.html:59
+#: views/device/index.basic.html:1
 msgctxt "pin"
 msgid "Enabled"
 msgstr "Ingeschakeld"
 
-#. This is on a pin button
-#: views/modal/pin.html:103
-msgctxt "pin-button"
-msgid "Enter"
-msgstr "Enter"
-
-#. Enter [device_name] PIN
-#: views/modal/pin.html:15
-msgid "Enter"
-msgstr "Voer"
+#. Length is important here! Full sentence: *Enjoy TREZOR security<br/>for your passwords too!* TREZOR<br/>Password Manager
+#: views/promos/tpm.html:1
+msgctxt "promos-passmanager"
+msgid "Enjoy TREZOR security<br>for your passwords too!"
+msgstr ""
 
 #. This is on a passphrase button
-#: views/modal/passphrase.html:52
-msgctxt "passphrase-button"
+#. This is on a pin button
+#: views/modal/passphrase.html:1 views/modal/pin.html:1
+msgctxt "button"
 msgid "Enter"
-msgstr "Enter"
+msgstr ""
 
-#. Enter passphrase for  [device_name]?
-#: views/modal/passphrase.html:10
-msgid "Enter passphrase for"
-msgstr "Voer passphrase in voor"
-
-#: views/device/recovery.html:55
+#: views/device/recovery.html:1
 msgid "Enter seed word"
 msgstr "Voer herstelreeks-woord in"
 
-#. Enter you new [device_name] PIN
-#: views/modal/pin.html:23
-msgid "Enter your new"
-msgstr "Voer uw nieuwe"
+#. Enter your new (device label) PIN
+#: views/modal/pin.html:1
+msgctxt "heading"
+msgid "Enter your new {{label}} PIN"
+msgstr ""
 
-#: views/debug.html:73 views/debug.html:77
-msgid "Error details:"
-msgstr "Foutdetails:"
+#. Enter (device label) PIN
+#: views/modal/pin.html:1
+msgctxt "heading"
+msgid "Enter {{label}} PIN"
+msgstr ""
 
-#: views/modal/backendwarnings/ethwallet.html:7
+#. Enter (device label) passphrase
+#: views/modal/passphrase.html:1
+msgctxt "heading"
+msgid "Enter {{label}} passphrase"
+msgstr ""
+
+#: views/debug.html:1
+msgctxt "error-message"
+msgid "Error details: {{error}}"
+msgstr ""
+
+#: views/modal/backendwarnings/ethwallet.html:1
+msgctxt "heading"
 msgid "Ethereum Wallet"
-msgstr "Ethereum Portemonnee"
+msgstr ""
 
 #. Example of CSV input
-#: views/modal/csv.html:14
+#: views/modal/csv.html:1
 msgid "Example:"
 msgstr "Voorbeeld:"
 
-#: views/account/transactions/welcomes/bitcoin.html:4
-msgid "Exchange:"
-msgstr "Uitwisseling:"
+#. Displayed on a Bitcoin account with no transactions to help user get Bitcoin (link to coinbase, link to Coinmama)
+#: views/account/transactions/welcomes/bitcoin.html:1
+msgid "Exchange: <a>Coinbase</a> or <a>Coinmama</a>"
+msgstr ""
 
-#: views/account/send/fees.html:56
+#: views/account/send/fees.html:1
 msgid "Expected confirmation time"
 msgstr "Verwachte bevestigingstijd"
 
-#: views/account/transactions/summary.html:53
-msgid "Expense"
-msgstr "Kosten"
+#. call to action button of the trezor apps promo
+#: views/promos/apps.html:1
+msgctxt "promos-apps"
+msgid "Explore now"
+msgstr ""
 
-#: views/settings.html:80
+#: views/settings.html:1
+msgctxt "form-label"
 msgid "Explorer URL"
-msgstr "Verkenner URL"
+msgstr ""
 
-#: views/debug.html:12
+#: views/account/transactions/table.html:1
+msgid "Export transactions as .csv"
+msgstr ""
+
+#: views/debug.html:1
+msgctxt "error-message"
 msgid "Failed to add account."
-msgstr "Account toevoegen mislukt."
+msgstr ""
 
-#: views/debug.html:42
+#: views/debug.html:1
+msgctxt "error-message"
 msgid "Failed to change the device label."
-msgstr "Labelwijziging van het apparaat mislukt."
+msgstr ""
 
-#: views/debug.html:15
+#: views/debug.html:1
+msgctxt "error-message"
 msgid "Failed to renew session."
-msgstr "Vernieuwen van deze sessie mislukt."
+msgstr ""
 
-#: views/debug.html:19 views/debug.html:22
+#: views/debug.html:1
+msgctxt "error-message"
 msgid "Failed to send transaction"
-msgstr "Verzenden transactie mislukt"
+msgstr ""
 
-#: views/otherStrings.html:76
-msgid "Failed to sign message"
-msgstr "Bericht ondertekenen is mislukt"
+#. error while trying to sign message, error details follow
+#: views/otherStrings.html:7
+msgctxt "error-message"
+msgid "Failed to sign message:"
+msgstr ""
 
-#: views/otherStrings.html:80
-msgid "Failed to verify message"
-msgstr "Bericht verifiëren is mislukt"
+#. error while trying to verify message, error details follow
+#: views/otherStrings.html:7
+msgctxt "error-message"
+msgid "Failed to verify message:"
+msgstr ""
+
+#: views/account/send/fees.html:1 views/account/transactions/table.html:1
+msgid "Fee"
+msgstr "Vergoeding"
 
 #. This is a label to the sending form. (Address/amount/comment)
-#: views/account/send/fees.html:4
+#: views/account/send/fees.html:1
 msgctxt "send"
 msgid "Fee"
 msgstr "Vergoeding"
 
-#: views/account/send/fees.html:87 views/account/transactions/table.html:17
-msgid "Fee"
-msgstr "Vergoeding"
+#: views/account/send/fees.html:1
+msgid "Fee is not a natural number."
+msgstr ""
 
-#: views/account/send/fees.html:125
+#: views/account/send/fees.html:1
 msgid "Fee is not a number."
 msgstr "Vergoeding is geen nummer."
 
-#: views/modal/button.html:13
+#: views/modal/button.html:1
+msgctxt "warning-message"
 msgid "Fee is over threshold."
-msgstr "Vergoeding is boven de drempelwaarde."
+msgstr ""
 
-#: views/account/send/fees.html:128
+#: views/account/send/fees.html:1
 msgid "Fee is too low."
 msgstr "Vergoeding is te laag."
 
-#: views/account/send/txPrepared.html:12
-msgid "Fee/kB:"
-msgstr "Vergoeding/kB:"
+#. Fee of a transaction - for example 0.01 BTC
+#: views/account/send/txPrepared.html:1
+msgid "Fee: {{fee}} {{unit}}"
+msgstr ""
 
-#. Fee of a transaction
-#: views/account/send/txPrepared.html:21
-msgid "Fee:"
-msgstr "Vergoeding:"
-
-#: views/settings.html:35
+#: views/settings.html:1
+msgctxt "form-label"
 msgid "Fiat Currency"
-msgstr "Fiat Valuta"
+msgstr ""
+
+#. Final fee of a transaction - for example 100 sat/B (sat/B is a unit)
+#: views/account/send/txPrepared.html:1
+msgid "Final fee: {{fee}} sat/B"
+msgstr ""
 
 #. This is a short label in the device Advanced page
-#: views/device/advanced.html:15
+#: views/device/advanced.html:1
 msgctxt "advanced-label"
 msgid "Firmware"
 msgstr "Firmware"
 
-#: views/modal/csv.html:33
+#. checkbox label
+#: views/modal/csv.html:8
+msgctxt "form-label"
 msgid "First row is header"
-msgstr "Eerste rij is kop"
+msgstr ""
 
 #. Attribution of picture, in the footer of Homepage. Don't translate the name of the picture or the author.
-#: views/device/homescreen.html:142
+#: views/device/homescreen.html:4
 msgid "Flower Close Up In Darkness by A Guy is licenced under CC BY 2.0"
 msgstr "Flower Close Up In Darkness door A Guy is gelicenseerd onder CC BY 2.0"
 
-#: views/device/recovery.html:31
-msgid ""
-"Follow the instructions on your\n"
-"                                                    device."
+#: views/device/recovery.html:1
+msgid "Follow the instructions on your device."
 msgstr ""
-"Volg de instructies op uw\n"
-"                                                    apparaat."
 
-#: config.sample.js:12
-msgid "For more information, please refer to"
-msgstr "Voor meer informatie, verwijs naar"
+#: views/notices.html:1
+msgctxt "text-with-link"
+msgid "For more information, please refer to <a>our guide</a>"
+msgstr ""
+
+#. For more information, visit (TREZOR documentation link)
+#: views/modal/firmware.html:7
+msgctxt "text-with-link"
+msgid "For more information, visit <a>the user manual</a>"
+msgstr ""
 
 #. Clicking here will lead the user to our manual.
-#: views/modal/firmware.html:128 views/modal/firmware.html:160
-#: views/modal/firmware.html:194
+#: views/modal/firmware.html:7
+msgctxt "button"
 msgid "For more information, visit the user manual."
-msgstr "Kijk voor meer informatie in de gebruikershandleiding."
+msgstr ""
 
-#: views/modal/firmware.html:241
+#: views/modal/firmware.html:7
 msgid ""
 "For security reasons, TREZOR is shipped without firmware installed. This is "
-"to ensure that your\n"
-"                        firmware will be up-to-date at the time of "
+"to ensure that your firmware will be up-to-date at the time of "
 "initialization."
 msgstr ""
-"Om beveiligingsredenen wordt TREZOR verscheept zonder firmware. Dit doen we "
-"zodat\n"
-"                        uw firmware up-to-date is op het moment van "
-"initialisatie."
 
-#: config.sample.js:29
+#: views/notices.html:1
+msgctxt "warning-message"
 msgid ""
 "For testing purposes, Wallet uses the same dollar rates for testnet coins as "
 "for bitcoin."
 msgstr ""
-"Voor testdoeleinden gebruikt de Wallet dezelfde dollarkoersen voor testnet "
-"en voor bitcoin."
 
 #. Button in remember/forget dialog
-#: views/modal/forget.disconnected.html:14 views/modal/forget.requested.html:15
+#: views/modal/forget.disconnected.html:1
 msgctxt "forget-button"
 msgid "Forget"
 msgstr "Vergeet"
 
-#. this is first part of sentence 'Forget [device_name]?'
-#: views/modal/forget.disconnected.html:4 views/modal/forget.requested.html:4
-msgid "Forget"
-msgstr "Vergeet"
-
 #. Button in remember/forget dialog
-#: views/modal/forget.wipe.html:16
-msgctxt "forget-button"
-msgid "Forget (recommended)"
-msgstr "Vergeet (aanbevolen)"
+#: views/modal/forget.requested.html:1
+msgctxt "button"
+msgid "Forget"
+msgstr ""
 
-#: views/nav/device.html:87
-msgid "Forget this device"
-msgstr "Vergeet dit apparaat"
+#: views/nav/device.html:1
+msgctxt "button"
+msgid "Forget device"
+msgstr ""
 
-#: views/modal/forget.requested.html:7
+#. Forget (device label)?
+#: views/modal/forget.disconnected.html:1 views/modal/forget.requested.html:1
+msgctxt "heading"
+msgid "Forget {{label}}?"
+msgstr ""
+
+#: views/modal/forget.requested.html:1
 msgid ""
 "Forgetting only removes the device from the list on the left, your bitcoins "
 "are still safe and you can access them by reconnecting your TREZOR again."
@@ -891,106 +1134,121 @@ msgstr ""
 "bitcoins zijn nog steeds veilig en kunt u ze weer gebruiken door uw TREZOR "
 "opnieuw aan te sluiten."
 
-#: views/account/receive/index.html:81
+#: views/account/receive/index.html:4
 msgid "Fresh address"
 msgstr "Nieuw adres"
 
-#: views/account/transactions/summary.html:8
-msgid "From"
-msgstr "Van"
-
 #. Part of a long text about Dropbox and labeling
-#: views/modal/dropbox.html:24
+#: views/modal/dropbox.html:1
 msgid "From that moment on you can:"
 msgstr "Vanaf dat moment kunt u het volgende doen:"
 
-#: views/device/homescreen.html:88
+#: views/device/homescreen.html:4
 msgid "Gallery selection"
 msgstr "Galerij selectie"
 
-#. Whole sentence: 'Don't have a TREZOR? Get one.'
-#: views/install/main.html:20 views/jumbotrons/start.html:9
-msgid "Get one"
-msgstr "Haal er een"
-
-#: views/modal/backendwarnings/bcash.html:21
-msgid "Go back"
-msgstr "Ga terug"
-
-#: views/modal/backendwarnings/ethwallet.html:19
-msgid ""
-"Go to\n"
-"        MyEtherWallet"
+#. call to action button of the android trezor manager promo
+#: views/promos/android.html:1
+msgctxt "promos-android"
+msgid "Get started"
 msgstr ""
-"Ga naar\n"
-"        MyEtherWallet"
 
-#: views/modal/beta.html:18
+#. call to action button of the trezor password manager promo
+#: views/promos/tpm.html:1
+msgctxt "promos-passmanager"
+msgid "Get started"
+msgstr ""
+
+#: views/modal/backendwarnings/bcash.html:1
+msgctxt "button"
+msgid "Go back"
+msgstr ""
+
+#: views/modal/backendwarnings/ethwallet.html:1
+msgctxt "button"
+msgid "Go to MyEtherWallet"
+msgstr ""
+
+#: views/modal/beta.html:1
+msgctxt "button"
 msgid "Go to TREZOR Wallet"
-msgstr "Ga naar TREZOR Wallet"
+msgstr ""
 
-#: views/account/receive/index.html:41 views/account/receive/index.html:59
+#. button that hides the top part of Transactions page (Balance/Rate/In/Out + graph)
+#: views/account/transactions/summary.html:3
+msgctxt "button"
+msgid "Hide Summary"
+msgstr ""
+
+#: views/account/receive/index.html:4
 msgid "Hide previous"
 msgstr "Vorige verbergen"
 
-#: views/account/transactions/index.html:47
+#: views/account/transactions/index.html:2
 msgid "Hide this account"
 msgstr "Dit account verbergen"
 
 #. Transaction fee size menu
-#: views/account/send/fees.html:17
+#: views/account/send/fees.html:1
 msgctxt "transaction-fee"
 msgid "High"
 msgstr "Hoog"
 
 #. This is shown on the header Basic/Homescreen/Advanced
-#: views/device/nav.html:14
-msgctxt "header"
+#: views/device/nav.html:1
+msgctxt "button"
 msgid "Homescreen"
-msgstr "Welkomscherm"
+msgstr ""
 
-#: views/debug.html:39
+#: views/debug.html:1
+msgctxt "error-message"
 msgid "Homescreen change failed."
-msgstr "Wijzigen welkomscherm is mislukt."
+msgstr ""
 
-#: views/device/homescreen.html:10
+#: views/device/homescreen.html:1
 msgid "Homescreen setup"
 msgstr "Startscherm setup"
 
-#: views/debug.html:120
+#: views/debug.html:1
+msgctxt "success-message"
 msgid "Homescreen was successfully changed."
-msgstr "Welkomscherm is gewijzigd."
+msgstr ""
 
 #: views/account/transactions/welcomes/bitcoin.html:1
 msgid "How about buying some bitcoins?"
 msgstr "Wat dacht u van wat bitcoins kopen?"
 
-#: views/modal/firmware.html:400
+#. Length is important here! Full sentence: *How strong is your* PIN? Check out some of our tips!
+#: views/promos/pin.html:1
+msgctxt "promos-pin"
+msgid "How strong is your"
+msgstr ""
+
+#: views/modal/firmware.html:7
 msgid "If asked, please confirm the update on your device."
 msgstr "Indien gevraagd, bevestig de update op uw apparaat."
 
-#: views/modal/button.html:69
+#: views/modal/button.html:1
 msgid ""
 "If the address matches your TREZOR display, you can be sure it is genuine."
 msgstr ""
 "Wanneer het adres overeenkomt met uw TREZOR display, kunt u er zeker van te "
 "zijn dat het echt is."
 
-#. Start of sentence: 'If the problem persists, please run our support center[its link]'
-#: views/debug.html:91
-msgid "If the problem persists, please run our"
-msgstr "Als het probleem zich blijft voortdoen, voer alstublieft onze"
-
-#: views/device/load.html:10
-msgid ""
-"If you are a common user and want to setup or recover your TREZOR device, "
-"please continue to TREZOR Setup."
+#. This is a warning when user sets up their own fee
+#: views/account/send/inside.html:1
+msgctxt "warning-message"
+msgid "If the fee is too low, the transaction might not occur at all."
 msgstr ""
-"Als u een standaard gebruiker bent en u wilt uw TREZOR installeren of "
-"herstellen, ga dan naar TREZOR Setup."
+
+#. includes link to trezor.io support (Support Center)
+#: views/debug.html:1
+msgctxt "text-with-link"
+msgid "If the problem persists, please run our <a>Support Center</a>"
+msgstr ""
 
 #. Whole text: If you disable the passphrase encryption, your current funds will not appear. You will have to enable the passphrase encryption again to see your current wallet.
-#: views/device/advanced.html:82
+#: views/device/advanced.html:5
 msgid ""
 "If you disable the passphrase encryption, your current funds will not appear."
 msgstr ""
@@ -998,17 +1256,18 @@ msgstr ""
 "niet worden weergegeven."
 
 #. Part of a long text about Dropbox and labeling
-#: views/modal/dropbox.html:14
+#: views/modal/dropbox.html:1
 msgid "If you don't have a Dropbox account yet, create one before you log in."
 msgstr ""
 "Als u nog geen Dropbox-account heeft, moet u er een aanmaken voordat u zich "
 "aanmeldt."
 
-#: views/modal/button.html:101
+#: views/modal/button.html:1
+msgctxt "warning-message"
 msgid "If you forget your passphrase, you will lose your coins."
-msgstr "Als u uw wachtwoordzin vergeet, bent u uw coins kwijt."
+msgstr ""
 
-#: views/device/advanced.html:43
+#: views/device/advanced.html:1
 msgid ""
 "If you forget your passphrase, your wallet is lost for good. There is no way "
 "to recover your funds."
@@ -1016,37 +1275,33 @@ msgstr ""
 "Als u uw wachtwoordzin vergeet, is uw portemonnee voorgoed verloren. Er is "
 "geen manier om uw rekeningen te herstellen."
 
-#: views/modal/firmware.html:285
-msgid "If you have TREZOR set up already,"
-msgstr "Als u TREZOR al ingesteld heeft,"
-
-#. This is a warning when user sets up his own fee
-#: views/account/send/fees.html:149
-msgid "If you set too low fee, it might get stuck forever."
+#: views/modal/firmware.html:7
+msgid ""
+"If you have TREZOR set up already, <strong>have your Recovery seed ready "
+"before updating the firmware</strong>!"
 msgstr ""
-"Als u de vergoeding te laag ingeeft, kan het zijn dat het voor altijd blijft "
-"hangen."
 
-#: views/modal/firmware.html:281
+#: views/install/main.html:1
+msgid ""
+"If you want to use TREZOR with different browsers, please install TREZOR "
+"Bridge."
+msgstr ""
+
+#: views/modal/firmware.html:7
 msgid ""
 "If your TREZOR has not been set up yet (fresh out of the box), you do not "
-"need to\n"
-"                            have a Recovery seed."
+"need to have a Recovery seed."
 msgstr ""
-"Als uw TREZOR nog niet gebruikt is (nieuw uit de doos), heeft u geen\n"
-"                            Recovery seed nodig."
 
-#: views/modal/firmware.html:189
+#: views/modal/firmware.html:7
 msgid ""
 "If your TREZOR is already initialized, always have your Recovery seed with "
-"you\n"
-"                    before updating the firmware!"
+"you before updating the firmware!"
 msgstr ""
-"Als uw TREZOR al geïnitialiseerd is, houd dan altijd uw Recovery seed bij de "
-"hand\n"
-"                    voordat u de firmware update!"
+"Als uw TREZOR al is geïnitialiseerd, zorg dat u uw herstel-reeks bij de hand "
+"heeft vóór het bijwerken van de firmware!"
 
-#: views/device/homescreen.html:80
+#: views/device/homescreen.html:4
 msgid ""
 "Image must be 128 px wide and 64 px high, and using only black and white "
 "(not grayscale)."
@@ -1054,44 +1309,39 @@ msgstr ""
 "Afbeelding moet 128 px breed en 64 px hoog zijn en gebruik alleen zwart/wit "
 "(geen grijswaarden)."
 
-#: views/modal/csv.html:46
+#: views/modal/csv.html:8
+msgctxt "button"
 msgid "Import"
-msgstr "Importeren"
+msgstr ""
 
-#: views/modal/csv.html:6
+#: views/modal/csv.html:1
+msgctxt "heading"
 msgid "Import addresses from CSV"
-msgstr "Adressen importeren uit CSV"
+msgstr ""
 
-#: views/account/send/buttonBar.html:32
+#: views/account/send/buttonBar.html:1
 msgid "Import from CSV"
 msgstr "Importeren uit CSV"
 
-#: views/modal/beta.html:9
-msgid "In contrast,"
-msgstr "In tegenstelling,"
-
-#: views/jumbotrons/udev-note.html:13
-msgid ""
-"In some cases, Linux users need to install udev rules to access the device.\n"
-"                Please, install the following package and reconnect your "
-"TREZOR."
+#. Heading above total amount received by the account in selected time period
+#: views/account/transactions/summary.html:3
+msgid "In"
 msgstr ""
-"In sommige gevallen moeten Linux gebruikers udev regels installeren om het "
-"apparaat te kunnen benaderen.\n"
-"                Installeer alstublieft het volgende pakket en verbind uw "
-"TREZOR opnieuw."
 
-#: views/modal/firmware.html:191 views/modal/firmware.html:45
+#: views/modal/beta.html:1
 msgid ""
-"In very rare cases, a firmware update might result in the need to recover "
-"the wallet from\n"
-"                    Recovery seed."
+"In contrast, <i>TREZOR Wallet</i> is feature-conservative, making sure that "
+"its functionality is maximally reliable and dependable for the general "
+"public."
 msgstr ""
-"In zeer zeldzame gevallen zorgt een firmware update ervoor dat u uw "
-"portemonnee moet herstellen met behulp van uw\n"
-"                    Recovery seed."
 
-#: views/modal/firmware.html:291
+#: views/jumbotrons/udev-note.html:1
+msgid ""
+"In some cases, Linux users need to install udev rules to access the device. "
+"Please, install the following package and reconnect your TREZOR."
+msgstr ""
+
+#: views/modal/firmware.html:7
 msgid ""
 "In very rare cases, a firmware update might result in the need to recover "
 "the wallet from Recovery seed."
@@ -1099,29 +1349,28 @@ msgstr ""
 "In zeer zeldzame gevallen kan bij een firmware-update het herstellen van de "
 "portefeuille met behulp van de herstel-reeks nodig zijn ."
 
-#: views/account/transactions/summary.html:46
-msgid "Income"
-msgstr "Inkomsten"
+#. Length is important here! Full sentence: Trezor Apps - *Independent services<br> with TREZOR support.*
+#: views/promos/apps.html:1
+msgctxt "promos-apps"
+msgid "Independent services<br>with TREZOR support."
+msgstr ""
 
 #. Inputs of a transaction
-#: views/account/send/txPrepared.html:26
+#: views/account/send/txPrepared.html:1
+msgctxt "heading"
 msgid "Inputs:"
-msgstr "Invoer:"
+msgstr ""
 
-#: views/account/transactions/table.html:105
-#: views/account/transactions/table.html:106
+#: views/account/transactions/table.html:13
 msgid "Insight Transaction info"
 msgstr "Inzicht Transactie info"
 
-#: views/install/main.html:14
+#: views/install/main.html:1
+msgctxt "button"
 msgid "Install Extension"
-msgstr "Extensie Installeren"
+msgstr ""
 
-#: views/install/main.html:75
-msgid "Install TREZOR Chrome Extension"
-msgstr "TREZOR Chrome extensie installeren"
-
-#: views/install/main.html:7
+#: views/install/main.html:1
 msgid ""
 "Install TREZOR Chrome Extension to allow TREZOR Wallet to talk with your "
 "device."
@@ -1130,342 +1379,446 @@ msgstr ""
 "communiceren met uw apparaat."
 
 #. This is displayed on Android.
-#: views/install/mobile.android.html:8
+#: views/install/mobile.android.html:1
 msgid "Install the native app!"
 msgstr "Installeer de native app!"
 
-#: views/modal/firmware.html:247
-msgid "Interested in best security practices?"
-msgstr "Geïnteresseerd in de beste beveiligingspraktijken?"
+#. Interested in best security practices? (link to TREZOR documentation)
+#: views/modal/firmware.html:7
+msgctxt "text-with-link"
+msgid "Interested in best security practices? <a>Learn more</a>"
+msgstr ""
 
-#: views/otherStrings.html:82
-msgid "Invalid signature"
-msgstr "Ongeldige handtekening"
+#. error while trying to verify message - signature does not match
+#: views/otherStrings.html:7
+msgctxt "error-message"
+msgid "Invalid signature."
+msgstr ""
 
 #. PIN strength
-#: views/modal/pin.html:95
+#: views/modal/pin.html:1
+msgctxt "warning-message"
 msgid "It's fine."
-msgstr "Redelijk."
+msgstr ""
 
-#: views/modal/firmware.html:238
+#: views/modal/firmware.html:7
+msgctxt "heading"
 msgid "It's time to install firmware."
-msgstr "Het is tijd om firmware te installeren."
+msgstr ""
 
 #. This is a short label in the device Basic page
-#: views/device/index.basic.html:23
+#: views/device/index.basic.html:1
 msgctxt "basic-label"
 msgid "Label"
 msgstr "Label"
 
-#: views/debug.html:123
+#: views/debug.html:1
+msgctxt "success-message"
 msgid "Label was successfully changed."
-msgstr "Label is succesvol gewijzigd."
+msgstr ""
 
-#: views/debug.html:57
+#: views/debug.html:1
+msgctxt "error-message"
 msgid "Labeling error."
-msgstr "Fout bij labelen."
+msgstr ""
 
-#: views/date.selection.html:33
+#: views/date.selection.html:8
+msgctxt "date"
 msgid "Last 2 Months"
-msgstr "Laatste 2 Maanden"
+msgstr ""
 
-#: views/date.selection.html:21
+#: views/date.selection.html:8
+msgctxt "date"
 msgid "Last 2 Weeks"
-msgstr "Laatste 2 Weken"
+msgstr ""
 
-#: views/date.selection.html:45
+#: views/date.selection.html:8
+msgctxt "date"
 msgid "Last 2 Years"
-msgstr "Laatste 2 Jaar"
+msgstr ""
 
-#: views/modal/firmware.html:322 views/modal/firmware.html:84
+#: views/modal/firmware.html:7
+msgctxt "heading"
 msgid "Latest"
-msgstr "Nieuwste"
+msgstr ""
 
-#: views/account/transactions/legacynote.html:10
-#: views/device/index.basic.html:213 views/device/index.setup.html:11
-#: views/modal/pin.html:30 views/modal/pinguide.html:13
+#. call to action button of the show on trezor promo
+#: views/promos/show.html:1
+msgctxt "promos-show"
 msgid "Learn more"
-msgstr "Meer informatie"
+msgstr ""
 
-#: views/modal/recovery.html:64
-msgid "Learn more about"
-msgstr "Leer meer over"
+#. link to Trezor documentation about segwit / legacy accounts
+#: views/account/transactions/legacynote.html:1
+msgctxt "button"
+msgid "Learn more"
+msgstr ""
 
-#: views/nav/index.html:37
+#. call to action button of the PIN promo
+#: views/promos/pin.html:1
+msgctxt "promos-pin"
+msgid "Learn more"
+msgstr ""
+
+#. call to action button of the 2 factor authentication promo
+#: views/promos/2fa.html:1
+msgctxt "promos-2fa"
+msgid "Learn more"
+msgstr ""
+
+#. call to action button of the labeling promo
+#: views/promos/labeling.html:1
+msgctxt "promos-labeling"
+msgid "Learn more"
+msgstr ""
+
+#. call to action button of the malware promo
+#: views/promos/malware.html:1
+msgctxt "promos-malware"
+msgid "Learn more"
+msgstr ""
+
+#. Learn more about (link to Advanced recovery section of TREZOR documentation)
+#: views/modal/recovery.html:1
+msgctxt "text-with-link"
+msgid "Learn more about <a>Advanced recovery</a>"
+msgstr ""
+
+#: views/nav/index.html:1 views/nav/legacy-accounts.html:1
+msgctxt "button"
 msgid "Learn more about Legacy accounts."
-msgstr "Lees meer over Legacy accounts."
+msgstr ""
 
-#: views/device/recovery.html:203
+#: views/device/recovery.html:1
+msgctxt "button"
 msgid "Learn more about Recovery"
-msgstr "Leer meer over Herstellen"
+msgstr ""
 
-#. Part of a long text about Dropbox and labeling
-#: views/modal/dropbox.html:49
+#. Part of a long text about Dropbox and labeling, link to trezor documentation
+#: views/modal/dropbox.html:1
+msgctxt "button"
 msgid "Learn more about TREZOR Wallet labeling"
-msgstr "Leer meer over TREZOR Portemonnee labeling"
+msgstr ""
 
-#. This text is displayed, when the amount is too high. Its goal is to get user to re-check the address. This is the fourth line, and a link to our manual.
-#: views/account/send/inside.html:71
-msgid "Learn more about phishing…"
-msgstr "Leer meer over phishing…"
+#. This text is displayed, when the send transaction amount is high. Link leads to Trezor documentation on phishing.
+#: views/account/send/inside.html:1
+msgctxt "warning-message"
+msgid "Learn more about phishing..."
+msgstr ""
 
-#: views/device/advanced.html:46 views/device/advanced.html:93
+#: views/device/advanced.html:1 views/device/advanced.html:5
 msgid "Learn more in user manual"
 msgstr "Leer meer in de gebruikershandleiding"
 
 #. If coin has segwit enabled, non-segwit accounts are 'Legacy Accounts'. The accounts are named *Legacy Account* #1, *Legacy Account* #2 etc.
-#: views/otherStrings.html:24
+#: views/otherStrings.html:7
 #, fuzzy
 msgctxt "default-name"
 msgid "Legacy Account"
 msgstr "Legacy Account"
 
 #. This is shown on the header of legacy note
-#: views/account/transactions/legacynote.html:3
+#: views/account/transactions/legacynote.html:1
 msgid "Legacy account"
 msgstr "Legacy account"
 
-#: views/import.html:51
-#, fuzzy
-msgid "Legacy account XPUBs"
-msgstr "Legacy account XPUBs"
+#: views/import.html:1
+msgctxt "form-label"
+msgid "Legacy account XPUBs <small>(1 per row)</small>"
+msgstr ""
 
-#: views/device/index.basic.html:159
+#: views/nav/legacy-accounts.html:1
+msgctxt "heading"
+msgid "Legacy accounts"
+msgstr ""
+
+#: views/device/index.basic.html:5
 #, fuzzy
 msgid "Legacy accounts (BIP 44)"
 msgstr "Legacy accounts (BIP 44)"
 
-#: views/import.html:60
-#, fuzzy
-msgid "Legacy metadata keys"
-msgstr "Legacy metadata keys"
+#: views/import.html:1
+msgctxt "form-label"
+msgid "Legacy metadata keys <small>(1 per row)</small>"
+msgstr ""
 
-#: config.sample.js:19
-msgid "Litecoin changed the format of addresses."
-msgstr "Litecoin heeft het adresformat veranderd."
-
-#: views/jumbotrons/loading.html:4 views/nav/account.html:23
-#: views/nav/account.html:6
+#: views/jumbotrons/loading.html:1 views/main.wrapper.html:1
+msgctxt "heading"
 msgid "Loading"
-msgstr "Laden"
+msgstr ""
 
-#. Is displayed when TREZOR is loading, in the left column
-#: views/nav/device.html:17
-msgid "Loading ..."
-msgstr "Laden ..."
+#: views/nav/settings-buttons.html:1
+msgctxt "tooltip"
+msgid "Loading Dropbox status."
+msgstr ""
 
-#: views/nav/device-buttons.html:5
+#: views/nav/device-buttons.html:1
 msgid "Loading accounts..."
 msgstr "Accounts worden geladen..."
 
-#: views/debug.html:45
+#: views/debug.html:1
+msgctxt "error-message"
 msgid "Loading failed."
-msgstr "Laden mislukt."
+msgstr ""
 
-#: views/device/index.basic.html:6
+#: views/device/index.basic.html:1
 msgid "Loading of accounts failed."
 msgstr "Laden van accounts is mislukt."
 
-#: views/account/transactions/index.html:56
+#: views/account/transactions/index.html:2
 msgid "Loading transactions"
 msgstr "Laden van transacties"
 
-#: views/device/index.basic.html:130
+#: views/device/index.basic.html:3
 msgid "Loading..."
 msgstr "Bezig met laden..."
 
-#: views/account/transactions/welcomes/bitcoin.html:3
-msgid "Local traders:"
-msgstr "Lokale handelaren:"
+#. Is displayed when TREZOR is loading, in the left column
+#: views/nav/device.html:1
+msgctxt "device-state"
+msgid "Loading..."
+msgstr ""
 
-#: views/nav/device.html:68
-msgid "Lock this device"
-msgstr "Dit apparaat vergrendelen"
+#: views/nav/account.html:1
+msgctxt "tooltip"
+msgid "Loading..."
+msgstr ""
 
-#: views/debug.log.html:10
+#. Loading (123 transactions)
+#: views/nav/account.html:1
+msgid "Loading... ({{count}} transactions)"
+msgstr ""
+
+#. Displayed on a Bitcoin account with no transactions to help user get Bitcoin (link to LocalBitcoins)
+#: views/account/transactions/welcomes/bitcoin.html:1
+msgid "Local traders: <a>LocalBitcoins</a>"
+msgstr ""
+
+#. tooltip on the lock device button
+#: views/otherStrings.html:7
+msgctxt "button"
+msgid "Lock device<br>(automatically in {{time}})"
+msgstr ""
+
+#. application event and error log
+#: views/debug.log.html:1
+msgctxt "heading"
 msgid "Log"
-msgstr "Logboek"
+msgstr ""
 
 #. Transaction fee size menu
-#: views/account/send/fees.html:29
+#: views/account/send/fees.html:1
 msgctxt "transaction-fee"
 msgid "Low"
 msgstr "Laag"
 
-#: views/modal/button.html:34
+#: views/modal/button.html:1
+msgctxt "warning-message"
 msgid ""
 "Make sure the address displayed on TREZOR is correct.<br>To prevent malware "
 "attacks, double-check the address with the recipient."
 msgstr ""
-"Zorg ervoor dat het adres op de TREZOR correct is.<br>Dubbel-check het adres "
-"met de ontvanger om malware aanvallen te voorkomen."
 
-#: views/modal/firmware.html:410
+#: views/modal/firmware.html:7
 msgid "Make sure the same fingerprint is displayed on the device screen."
 msgstr ""
 "Controleer of de zelfde vingerafdruk wordt weergegeven op het apparaatscherm."
 
-#: views/jumbotrons/udev-note.html:42
+#. User put their own 'BITCORE SERVER URL' in the Application Settings
+#: views/otherStrings.html:7
+msgctxt "form-label"
+msgid "Manual Configuration"
+msgstr ""
+
+#: views/jumbotrons/udev-note.html:6
+msgctxt "button"
 msgid "Manual configuration (advanced)"
-msgstr "Handmatige configuratie (geavanceerd)"
+msgstr ""
 
 #. Add your signature that you would like to be credited as. Write 'Many thanks to ...' in your language in front of your and others co-translators signature - after the ones, which already exist.
-#: views/footer.html:29
-msgid ""
-"Many thanks to our translators for their <a href=\"http://doc.satoshilabs."
-"com/trezor-tech/translating.html\" class=\"arrow\">contribution</a>"
+#: views/footer.html:1
+msgctxt "text-with-link"
+msgid "Many thanks to our translators for their <a>contribution</a>"
 msgstr ""
-"Veel dank aan onze vertalers voor hun <a href=\"http://doc.satoshilabs.com/"
-"trezor-tech/translating.html\" class=\"arrow\">contributie</a>"
 
-#: views/account/sign/inside.html:180 views/account/sign/inside.html:39
+#: views/account/sign/inside.html:1 views/account/sign/inside.html:5
 msgid "Maximal message length is 255 letters long."
 msgstr "Maximale lengte van een bericht is 255 tekens."
 
-#: views/account/transactions/summary.html:22
+#: views/account/transactions/summary.html:1
 msgid "Maximal spendable"
 msgstr "Maximaal spendeerbaar"
 
-#: views/account/sign/inside.html:161 views/account/sign/inside.html:23
+#: views/account/sign/inside.html:1 views/account/sign/inside.html:4
 msgid "Message"
 msgstr "Bericht"
 
-#: views/otherStrings.html:84
+#. on successful verify message form submit
+#: views/otherStrings.html:7
+msgctxt "success-message"
 msgid "Message verified."
-msgstr "Bericht geverifieerd."
+msgstr ""
 
 #. This is on a hidden site, 99.99% of people will not see it
-#: views/device/metadata.html:38
+#: views/device/metadata.html:4
 #, fuzzy
 msgid "Metadata API keys - legacy"
 msgstr "Metadata API keys - legacy"
 
 #. This is on a hidden site, 99.99% of people will not see it
-#: views/device/metadata.html:9
+#: views/device/metadata.html:1
 #, fuzzy
 msgid "Metadata API keys - segwit"
 msgstr "Metadata API keys - segwit"
 
-#: views/import.html:69
+#: views/import.html:1
 msgid ""
 "Metadata keys are necessary only if you want to enable labels and comments."
 msgstr ""
 "Metagegevens zijn alleen nodig als u labels en opmerkingen wilt inschakelen."
 
-#. This is on a hidden site, 99.99% of people will not see it
-#: views/device/nav.html:35
-msgid "Metadata setup"
-msgstr "Metagegevens setup"
-
-#: views/account/receive/index.html:102
+#: views/account/receive/index.html:4
 msgid "More addresses"
 msgstr "Meer adressen"
 
 #. Literally 'my TREZOR (device)'. Used as a default device name. It HAS to be ASCII only and it HAS to be less than 16 letters long
-#: views/device/index.setup.html:18 views/device/load.html:26
-#: views/device/recovery.html:107 views/import.html:23
-#: views/otherStrings.html:12
+#: views/device/index.setup.html:1 views/device/load.html:1
+#: views/device/recovery.html:1 views/import.html:1 views/otherStrings.html:7
 msgctxt "default-name"
 msgid "My TREZOR"
 msgstr "Mijn TREZOR"
 
-#: views/device/index.basic.html:227 views/device/index.basic.html:288
-#, fuzzy
-msgctxt "xpub-text"
-msgid "Mycelium"
-msgstr "Mycelium"
+#. Displayed on a Bitcoin account with no transactions to help user get Bitcoin (link to CoinAtmRadar)
+#: views/account/transactions/welcomes/bitcoin.html:2
+msgid "Nearest ATM: <a>CoinAtmRadar</a>"
+msgstr ""
 
-#: views/account/transactions/welcomes/bitcoin.html:5
-msgid "Nearest ATM:"
-msgstr "Dichtstbijzijnde ATM:"
-
-#: views/modal/firmware.html:108 views/modal/firmware.html:137
-#: views/modal/firmware.html:209 views/modal/firmware.html:250
-#: views/modal/firmware.html:343 views/modal/pinguide.html:17
+#: views/modal/firmware.html:7
 msgid "Need help?"
 msgstr "Hulp nodig?"
 
-#: views/modal/button.html:93
+#. Leads to trezor support
+#: views/modal/firmware.html:7 views/modal/pinguide.html:1
+msgctxt "button"
+msgid "Need help?"
+msgstr ""
+
+#: views/modal/button.html:1
+msgctxt "warning-message"
 msgid ""
 "Never do this action with TREZOR holding coins unless you have your recovery "
 "seed at hand."
 msgstr ""
-"Doe dit nooit wanneer u coins op uw TREZOR heeft staan, tenzij u uw herstel-"
-"reeks bij de hand heeft."
 
-#: views/device/custom-firmware.html:13 views/device/load.html:11
+#: views/modal/setup.html:1
+msgid ""
+"Never make a digital copy of your recovery seed and never upload it online. "
+"Keep your recovery seed in a safe place. TREZOR cannot be held liable for "
+"financial losses incurred through the client’s improper care of sensitive "
+"information."
+msgstr ""
+
+#: views/device/custom-firmware.html:1
 msgid "Never use this process unless you REALLY know what you are doing!"
 msgstr "NIET DOEN, tenzij u ècht weet wat u doet!"
 
-#: views/import.html:12
+#: views/import.html:1
+msgctxt "warning-message"
 msgid "Never use this process unless you really know what you are doing!"
-msgstr "Niet doen tenzij u echt weet wat u doet!"
+msgstr ""
 
-#: views/alertbars/bridge.html:7
+#: views/alertbars/bridge.html:4
 msgid "New TREZOR Bridge is available."
 msgstr "Er is een nieuwe versie van TREZOR-bridge beschikbaar."
 
-#: views/alertbars/firmware.html:9
+#: views/alertbars/firmware.html:5
 msgid "New TREZOR firmware is available."
 msgstr "Er is nieuwe TREZOR firmware beschikbaar."
 
-#: views/modal/_header.html:5
+#: views/modal/_header.html:1
+msgctxt "heading"
 msgid "New device setup"
-msgstr "Nieuw apparaat instaleren"
+msgstr ""
 
-#: views/account/transactions/summary.html:79
+#: views/promos/index.html:1
+msgctxt "tooltip"
+msgid "Next tip"
+msgstr ""
+
+#: views/account/transactions/summary.html:3
 msgid "No Transactions Yet."
 msgstr "Nog Geen Transacties."
 
-#: views/jumbotrons/noaccounts.html:4
+#: views/jumbotrons/noaccounts.html:1
+msgctxt "heading"
 msgid "No accounts"
-msgstr "Geen accounts"
-
-#: views/device/load.html:12
-msgid ""
-"No checks are performed on the provided seed, so it can be binary sequence, "
-"dice-throw sequence or a random sentence. Valid BIP32 XPRV keys are "
-"interpreted prior loading to the device."
 msgstr ""
-"De ingevoerde herstel-reeks wordt niet gecontroleerd, dus het kan een "
-"binaire rij, dobbelstenenworp of een willekeurige zin zijn. Geldige BIP32 "
-"XPRV sleutels worden bekeken vóór het uploaden naar het apparaat."
 
-#: views/account/transactions/index.html:34
+#. error while trying to sign message - address field is empty
+#: views/otherStrings.html:7
+msgctxt "error-message"
+msgid "No address entered."
+msgstr ""
+
+#: views/account/transactions/summary.html:3
+msgid "No data"
+msgstr ""
+
+#. error while trying to sign message - message field is empty
+#: views/otherStrings.html:7
+msgctxt "error-message"
+msgid "No message entered."
+msgstr ""
+
+#. error while trying to sign message - signature field is empty
+#: views/otherStrings.html:7
+msgctxt "error-message"
+msgid "No signature entered."
+msgstr ""
+
+#: views/account/transactions/index.html:1
 msgid "No transactions, yet."
 msgstr "Nog geen transacties."
 
 #. Transaction fee size menu
-#: views/account/send/fees.html:21
+#: views/account/send/fees.html:1
 msgctxt "transaction-fee"
 msgid "Normal"
 msgstr "Normaal"
 
-#: views/account/send/txAddress.html:42
+#: views/account/send/txAddress.html:9
+msgctxt "error-message"
 msgid "Not a valid address"
-msgstr "Geen geldig adres"
+msgstr ""
 
-#: views/account/send/fees.html:97
+#: views/account/send/txAmount.html:1
+msgctxt "error-message"
 msgid "Not enough funds"
-msgstr "Niet genoeg geld"
+msgstr ""
 
-#: views/modal/pin.html:30
-msgid "Not sure how PIN works?"
-msgstr "Niet zeker hoe PIN werkt?"
+#. This is an error when user tries to send more than their account balance
+#: views/account/send/inside.html:1
+msgctxt "error-message"
+msgid "Not enough funds."
+msgstr ""
 
-#: views/modal/passphrase.html:30
+#. Not sure how PIN works? (link to TREZOR documentation)
+#: views/modal/pin.html:1
+msgctxt "text-with-link"
+msgid "Not sure how PIN works? <a>Learn more</a>"
+msgstr ""
+
+#: views/modal/passphrase.html:1
+msgctxt "warning-message"
 msgid "Note that passphrase is case-sensitive."
-msgstr "Merk op dat de wachtwoordzin hoofdlettergevoelig is."
+msgstr ""
 
-#: views/modal/pin.html:28
+#: views/modal/pin.html:1
+msgctxt "warning-message"
 msgid "Note that the number layout displayed on TREZOR has changed!"
-msgstr "Let op dat de nummer indeling op de TREZOR gewijzigd is!"
+msgstr ""
 
-#: config.sample.js:19
-msgid "Note:"
-msgstr "Noot:"
-
-#: views/modal/firmware.html:125
+#: views/modal/firmware.html:7
 msgid ""
 "Now plug your device in with <strong>both device buttons pressed</strong>."
 msgstr ""
@@ -1473,21 +1826,27 @@ msgstr ""
 "strong>."
 
 #. This is a short label in the device recovery page
-#: views/device/recovery.html:113
+#: views/device/recovery.html:1
 msgctxt "recovery-label"
 msgid "Number of words in your recovery seed"
 msgstr "Aantal woorden in uw herstelreeks"
 
-#: views/modal/backendwarnings/bcash.html:16
+#: views/modal/backendwarnings/bcash.html:1
+msgctxt "button"
 msgid "OK"
-msgstr "OK"
+msgstr ""
 
-#: views/device/advanced.html:102 views/device/advanced.html:52
-#: views/modal/beta.html:13 views/modal/pinguide.html:19
+#: views/device/advanced.html:1 views/device/advanced.html:5
 msgid "OK, I understand"
 msgstr "Ok, ik begrijp het"
 
-#: views/modal/setup.html:10
+#. User wants to use TREZOR Beta Wallet
+#: views/modal/beta.html:1 views/modal/pinguide.html:1
+msgctxt "button"
+msgid "OK, I understand"
+msgstr ""
+
+#: views/modal/setup.html:1
 msgid ""
 "On your TREZOR, you will now see a unique combination of 24 words, which "
 "will allow you to recover your accounts in case you lose your device. The "
@@ -1497,46 +1856,66 @@ msgstr ""
 "kunnen zorgen dat u uw accounts kunt herstellen in het geval dat u uw "
 "apparaat kwijtraakt. De volgorde van deze woorden is zeer belangrijk."
 
-#. Outputs of a transaction
-#: views/account/send/txPrepared.html:33
-msgid "Outputs:"
-msgstr "Uitvoer:"
+#. Heading above total amount spent by the account in selected time period
+#: views/account/transactions/summary.html:3
+msgid "Out"
+msgstr ""
 
-#. Enter [device_name] PIN
-#: views/device/load.html:46 views/modal/pin.html:15 views/modal/pin.html:23
-#: views/modal/pin.html:27
+#. Outputs of a transaction
+#: views/account/send/txPrepared.html:1
+msgctxt "heading"
+msgid "Outputs:"
+msgstr ""
+
+#: views/device/load.html:1
 msgid "PIN"
 msgstr "PINcode"
 
-#: views/debug.html:33
+#: views/debug.html:1
+msgctxt "error-message"
 msgid "PIN change failed."
-msgstr "PINcode wijzigen is mislukt."
+msgstr ""
 
 #. This is a short label in the device Basic page
-#: views/device/index.basic.html:52
+#: views/device/index.basic.html:1
 msgctxt "basic-label"
 msgid "PIN protection"
 msgstr "PINcode-beveiliging"
 
-#: views/debug.html:117
+#: views/debug.html:1
+msgctxt "success-message"
 msgid "PIN was successfully changed."
-msgstr "PINcode is gewijzigd."
+msgstr ""
 
-#: views/debug.html:114
+#: views/debug.html:1
+msgctxt "success-message"
 msgid "PIN was successfully removed."
-msgstr "PINcode is verwijderd."
+msgstr ""
+
+#. Length is important here! Full sentence: How strong is your *PIN?* Check out some of our tips!
+#: views/promos/pin.html:1
+msgctxt "promos-pin"
+msgid "PIN?"
+msgstr ""
 
 #. This is a short label in the device Advanced page
-#: views/device/advanced.html:28
+#: views/device/advanced.html:1
 msgctxt "advanced-label"
 msgid "Passphrase"
 msgstr "Wachtwoordzin"
 
-#: views/debug.html:36
-msgid "Passphrase change failed."
-msgstr "Wachtwoordzin wijziging is mislukt."
+#. Length is important here! Full sentence: Use hidden wallets with *Passphrase Encryption* - But first, get to know how it works!
+#: views/promos/passphrase.html:1
+msgctxt "promos-passphrase"
+msgid "Passphrase Encryption"
+msgstr ""
 
-#: views/device/advanced.html:39
+#: views/debug.html:1
+msgctxt "error-message"
+msgid "Passphrase change failed."
+msgstr ""
+
+#: views/device/advanced.html:1
 msgid ""
 "Passphrase encryption allows you to access new wallets, each hidden behind a "
 "particular passphrase. Your old accounts will be accessible behind an empty "
@@ -1546,24 +1925,34 @@ msgstr ""
 "verborgen achter een eigen wachtwoordzin. Uw oude accounts zullen "
 "toegankelijk zijn zonder dat u een wachtwoordzin invoert."
 
-#: views/modal/passphrase.html:46
+#: views/modal/passphrase.html:1
+msgctxt "error-message"
 msgid "Passphrase is too long!"
-msgstr "Wachtwoordzin is te lang!"
+msgstr ""
 
-#: views/modal/passphrase.html:42
+#. Length is important here! Full sentence: Use hidden wallets with *Passphrase<br/>Encryption* - But first, get to know<br/>how it works!
+#: views/promos/passphrase.html:1
+msgctxt "promos-passphrase"
+msgid "Passphrase<br>Encryption"
+msgstr ""
+
+#: views/modal/passphrase.html:1
+msgctxt "error-message"
 msgid "Passphrases do not match!"
-msgstr "Wachtwoordzinnen komen niet overeen!"
+msgstr ""
 
-#: views/modal/csv.html:37
+#: views/modal/csv.html:8
+msgctxt "form-label"
 msgid "Paste the CSV here:"
-msgstr "Plak de CSV hier:"
+msgstr ""
 
 #. PIN strength
-#: views/modal/pin.html:97
+#: views/modal/pin.html:1
+msgctxt "success-message"
 msgid "Perfect, impossible to guess!"
-msgstr "Perfect, onmogelijk om te raden!"
+msgstr ""
 
-#: views/modal/backendwarnings/bcash.html:8
+#: views/modal/backendwarnings/bcash.html:1
 msgid ""
 "Please be advised that this is not your Bitcoin wallet. BTC and BCH share "
 "the same address format and can be potentially mixed up. Make sure that you "
@@ -1573,159 +1962,177 @@ msgstr ""
 "adresformat en kunnen door elkaar worden gehaald. Zorg ervoor dat u munten "
 "verstuurt en ontvangt in de wallets die daarvoor bedoeld zijn."
 
-#: views/modal/setup.html:26
-msgid ""
-"Please check carefully that\n"
-"            you wrote them down correctly."
-msgstr ""
-"Zorg ervoor dat\n"
-"            u ze correct heeft opgeschreven."
+#: views/modal/setup.html:1
+msgid "Please check carefully that you wrote them down correctly."
+msgstr "Controleer alstublieft zorgvuldig dat u ze correct heeft opgeschreven."
 
-#: views/modal/setup.wordCheck.html:12
+#: views/modal/setup.wordCheck.html:1
 msgid "Please check the 10th word of your recovery seed."
 msgstr "Controleer het 10de woord van uw herstelreeks."
 
-#: views/modal/setup.wordCheck.html:13
+#: views/modal/setup.wordCheck.html:1
 msgid "Please check the 11th word of your recovery seed."
 msgstr "Controleer het 11de woord van uw herstelreeks."
 
-#: views/modal/setup.wordCheck.html:14
+#: views/modal/setup.wordCheck.html:1
 msgid "Please check the 12th word of your recovery seed."
 msgstr "Controleer het 12de woord van uw herstelreeks."
 
-#: views/modal/setup.wordCheck.html:15
+#: views/modal/setup.wordCheck.html:1
 msgid "Please check the 13th word of your recovery seed."
 msgstr "Controleer het 13de woord van uw herstelreeks."
 
-#: views/modal/setup.wordCheck.html:16
+#: views/modal/setup.wordCheck.html:1
 msgid "Please check the 14th word of your recovery seed."
 msgstr "Controleer het 14de woord van uw herstelreeks."
 
-#: views/modal/setup.wordCheck.html:17
+#: views/modal/setup.wordCheck.html:1
 msgid "Please check the 15th word of your recovery seed."
 msgstr "Controleer het 15de woord van uw herstelreeks."
 
-#: views/modal/setup.wordCheck.html:18
+#: views/modal/setup.wordCheck.html:1
 msgid "Please check the 16th word of your recovery seed."
 msgstr "Controleer het 16de woord van uw herstelreeks."
 
-#: views/modal/setup.wordCheck.html:19
+#: views/modal/setup.wordCheck.html:1
 msgid "Please check the 17th word of your recovery seed."
 msgstr "Controleer het 17de woord van uw herstelreeks."
 
-#: views/modal/setup.wordCheck.html:20
+#: views/modal/setup.wordCheck.html:1
 msgid "Please check the 18th word of your recovery seed."
 msgstr "Controleer het 18de woord van uw herstelreeks."
 
-#: views/modal/setup.wordCheck.html:21
+#: views/modal/setup.wordCheck.html:1
 msgid "Please check the 19th word of your recovery seed."
 msgstr "Controleer het 19de woord van uw herstelreeks."
 
-#: views/modal/setup.wordCheck.html:3
+#: views/modal/setup.wordCheck.html:1
 msgid "Please check the 1st word of your recovery seed."
 msgstr "Controleer het 1ste woord van uw herstelreeks."
 
-#: views/modal/setup.wordCheck.html:22
+#: views/modal/setup.wordCheck.html:1
 msgid "Please check the 20th word of your recovery seed."
 msgstr "Controleer het 20ste woord van uw herstelreeks."
 
-#: views/modal/setup.wordCheck.html:23
+#: views/modal/setup.wordCheck.html:1
 msgid "Please check the 21st word of your recovery seed."
 msgstr "Controleer het 21ste woord van uw herstelreeks."
 
-#: views/modal/setup.wordCheck.html:24
+#: views/modal/setup.wordCheck.html:1
 msgid "Please check the 22nd word of your recovery seed."
 msgstr "Controleer het 22ste woord van uw herstelreeks."
 
-#: views/modal/setup.wordCheck.html:25
+#: views/modal/setup.wordCheck.html:1
 msgid "Please check the 23rd word of your recovery seed."
 msgstr "Controleer het 23ste woord van uw herstelreeks."
 
-#: views/modal/setup.wordCheck.html:26
+#: views/modal/setup.wordCheck.html:1
 msgid "Please check the 24th word of your recovery seed."
 msgstr "Controleer het 24ste woord van uw herstelreeks."
 
-#: views/modal/setup.wordCheck.html:4
+#: views/modal/setup.wordCheck.html:1
 msgid "Please check the 2nd word of your recovery seed."
 msgstr "Controleer het 2de woord van uw herstelreeks."
 
-#: views/modal/setup.wordCheck.html:5
+#: views/modal/setup.wordCheck.html:1
 msgid "Please check the 3rd word of your recovery seed."
 msgstr "Controleer het 3de woord van uw herstelreeks."
 
-#: views/modal/setup.wordCheck.html:6
+#: views/modal/setup.wordCheck.html:1
 msgid "Please check the 4th word of your recovery seed."
 msgstr "Controleer het 4de woord van uw herstelreeks."
 
-#: views/modal/setup.wordCheck.html:7
+#: views/modal/setup.wordCheck.html:1
 msgid "Please check the 5th word of your recovery seed."
 msgstr "Controleer het 5de woord van uw herstelreeks."
 
-#: views/modal/setup.wordCheck.html:8
+#: views/modal/setup.wordCheck.html:1
 msgid "Please check the 6th word of your recovery seed."
 msgstr "Controleer het 6de woord van uw herstelreeks."
 
-#: views/modal/setup.wordCheck.html:9
+#: views/modal/setup.wordCheck.html:1
 msgid "Please check the 7th word of your recovery seed."
 msgstr "Controleer het 7de woord van uw herstelreeks."
 
-#: views/modal/setup.wordCheck.html:10
+#: views/modal/setup.wordCheck.html:1
 msgid "Please check the 8th word of your recovery seed."
 msgstr "Controleer het 8ste woord van uw herstelreeks."
 
-#: views/modal/setup.wordCheck.html:11
+#: views/modal/setup.wordCheck.html:1
 msgid "Please check the 9th word of your recovery seed."
 msgstr "Controleer het 9de woord van uw herstelreeks."
 
-#: views/modal/firmware.html:409
+#: views/modal/firmware.html:7
+msgctxt "heading"
 msgid "Please confirm the firmware fingerprint."
-msgstr "Bevestig de vingerafdruk van de firmware."
+msgstr ""
 
-#: views/device/custom-firmware.html:4 views/device/load.html:4
-#: views/device/recovery.html:5
+#: views/device/custom-firmware.html:1 views/device/load.html:1
+#: views/device/recovery.html:1
 msgid "Please connect your device to access this section."
 msgstr "Sluit uw apparaat aan om toegang te krijgen tot deze sectie."
 
-#: views/otherStrings.html:41
-msgctxt "send-button-tooltip"
+#. Explains why Send transaction button is disabled
+#: views/otherStrings.html:7
+msgctxt "tooltip"
 msgid "Please connect your device to send coins."
-msgstr "Sluit uw apparaat aan om munten te verzenden."
+msgstr ""
 
-#: views/otherStrings.html:66
-msgctxt "sign-button-tooltip"
+#. Explains why Sign message button is disabled
+#: views/otherStrings.html:7
+msgctxt "tooltip"
 msgid "Please connect your device to sign messages."
-msgstr "Sluit uw apparaat aan om berichten te ondertekenen."
+msgstr ""
 
-#: views/modal/disconnect.wipe.html:8
+#: views/modal/disconnect.wipe.html:1
 msgid "Please disconnect it now."
 msgstr "Verbreek de verbinding nu."
 
-#: views/modal/label.html:7
+#: views/modal/label.html:1
+msgctxt "heading"
 msgid "Please enter the device label"
-msgstr "Voer het label van het apparaat in"
+msgstr ""
 
-#: views/otherStrings.html:46
-msgctxt "send-button-tooltip"
+#. Explains why Send transaction button is disabled
+#: views/otherStrings.html:7
+msgctxt "tooltip"
 msgid "Please fill in address"
-msgstr "Vul het adres in"
+msgstr ""
 
-#: views/otherStrings.html:51
-msgctxt "send-button-tooltip"
+#. Explains why Send transaction button is disabled
+#: views/otherStrings.html:7
+msgctxt "tooltip"
 msgid "Please fill in amount"
-msgstr "Vul het bedrag in"
+msgstr ""
 
-#: views/otherStrings.html:61
-msgctxt "sign-button-tooltip"
+#. Explains why Sign message button is disabled
+#: views/otherStrings.html:7
+msgctxt "tooltip"
 msgid "Please fill in message and address."
-msgstr "Vul het bericht en het adres in."
+msgstr ""
 
-#: views/install/main.html:47
+#. Send form -> add recipient -> import csv -> no .csv content pasted
+#: views/otherStrings.html:7
+msgctxt "error-message"
+msgid "Please fill the CSV."
+msgstr ""
+
+#. Please follow .... (link to trezor blog about MyEtherWallet)
+#: views/modal/backendwarnings/ethwallet.html:1
+msgctxt "text-with-link"
+msgid ""
+"Please follow the link below to access your Ethereum (ETH/ETC) wallet. Make "
+"sure that you select the correct currency in the upper-right corner of "
+"MyEtherWallet. <a>Learn more</a>"
+msgstr ""
+
+#: views/install/main.html:5
 msgid ""
 "Please install TREZOR Bridge to allow TREZOR Wallet to talk with your device."
 msgstr ""
 "Installeer de TREZOR-bridge zodat TREZOR Wallet kan praten met uw apparaat."
 
-#: views/modal/firmware.html:377
+#: views/modal/firmware.html:7
 msgid ""
 "Please reconnect it <strong>while pressing both buttons simultaneously.</"
 "strong>"
@@ -1733,420 +2140,544 @@ msgstr ""
 "Maak opnieuw verbinding <strong>terwijl u beide knoppen tegelijkertijd "
 "ingedrukt houdt.</strong>"
 
-#: views/modal/firmware.html:430
+#: views/modal/firmware.html:7
 msgid "Please reconnect the device now."
 msgstr "Sluit uw apparaat nu opnieuw aan."
 
-#: views/otherStrings.html:71
-msgctxt "send-button-tooltip"
+#. Explains why Send transaction button is disabled
+#: views/otherStrings.html:7
+msgctxt "tooltip"
 msgid "Please reload the page to send money."
-msgstr "Herlaad de pagina om geld te versturen."
+msgstr ""
 
-#: views/alertbars/offline.html:7
+#: views/alertbars/offline.html:1
 msgid "Please reload the page."
 msgstr "Herlaad de pagina."
 
-#: views/modal/firmware.html:155
+#: views/modal/firmware.html:7
+msgctxt "error-message"
 msgid ""
-"Please try again. You need to make sure<strong>both device buttons are "
-"pressed, as you plug in\n"
-"                the device.</strong>"
+"Please try again. You need to make sure <strong>both device buttons are "
+"pressed, as you plug in the device.</strong>"
 msgstr ""
-"Probeer het opnieuw. U moet er zeker van zijn dat<strong>beide apparaat "
-"knoppen ingedrukt zijn zodra u\n"
-"                het apparaat aansluit.</strong>"
 
-#: views/modal/firmware.html:440
+#: views/modal/firmware.html:7
 msgid "Please unplug the device now."
 msgstr "Koppel het apparaat nu los."
 
-#: views/account/receive/address.html:64
+#: views/account/receive/address.html:16
 msgid "Please wait"
 msgstr "Een ogenblik geduld"
 
-#: views/otherStrings.html:56
-msgctxt "send-button-tooltip"
+#. Explains why Send transaction button is disabled
+#: views/otherStrings.html:7
+msgctxt "tooltip"
 msgid "Please wait a few seconds..."
-msgstr "Wacht een paar seconden..."
+msgstr ""
 
-#: views/otherStrings.html:36
-msgctxt "button-tooltip"
+#. Explains why Send transaction button is disabled
+#: views/otherStrings.html:7
+msgctxt "tooltip"
 msgid "Please wait."
-msgstr "Even geduld aub."
+msgstr ""
 
-#: views/account/sign/inside.html:90
+#: views/account/sign/inside.html:4
 msgid "Please wait..."
 msgstr "Een ogenblik geduld..."
 
-#: views/modal/setup.html:11
+#: views/modal/setup.html:1
 msgid "Please write down all these words carefully."
 msgstr "Schrijf al deze woorden zorgvuldig op."
 
-#: views/modal/pin.html:20
+#: views/modal/pin.html:1
+msgctxt "error-message"
 msgid "Please, re-enter correct PIN."
-msgstr "Gelieve de PIN opnieuw in te voeren."
+msgstr ""
 
-#: views/modal/pinguide.html:8
+#: views/modal/pinguide.html:1
 msgid ""
 "Please, watch the following video, which will explain how PIN works in "
 "detail."
 msgstr ""
 "Bekijk alstublieft de volgende video, die uitlegt hoe de PIN in detail werkt."
 
-#: views/account/receive/index.html:70
+#. Length is important here! Full sentence: *Prevent phishing* - Show on TREZOR - Click on eye icon<br/>in the Receive tab.
+#: views/promos/show.html:1
+msgctxt "promos-show"
+msgid "Prevent phishing"
+msgstr ""
+
+#. Length is important here! Full sentence: *Prevent phishing with* Show on TREZOR - Click on eye icon<br/>in the Receive tab.
+#: views/promos/show.html:1
+msgctxt "promos-show"
+msgid "Prevent phishing with"
+msgstr ""
+
+#: views/account/receive/index.html:4
 msgid "Previous addresses"
 msgstr "Eerder gebruikte adressen"
 
-#: views/jumbotrons/landing/landing.heading.html:2
+#: views/jumbotrons/landing/landing.heading.html:1
+msgctxt "heading"
 msgid "Private bank in your hands."
-msgstr "Privé bank in uw handen."
+msgstr ""
 
-#: views/device/recovery.html:49
+#: views/device/recovery.html:1
 msgid "Processing..."
 msgstr "Wordt verwerkt..."
 
-#: views/debug.html:24
+#: views/debug.html:1
+msgctxt "error-message"
 msgid "QR scanning failed."
-msgstr "Scannen van de QR-code is mislukt."
+msgstr ""
 
-#: views/account/transactions/summary.html:36
+#. Heading above current ($, €, ...)/(BTC, LTC, ...) rate
+#: views/account/transactions/summary.html:3
 msgid "Rate"
 msgstr "Tarief"
 
-#. In the bottom footer. 'Exchange rates by Bitpay'.
-#: views/footer.html:12
-msgid "Rates by"
-msgstr "Tarieven door"
+#. In the bottom footer. 'Rates by (link to Bitpay)'.
+#: views/footer.html:1
+msgctxt "text-with-link"
+msgid "Rates by <a>Bitpay</a>"
+msgstr ""
 
-#: views/debug.html:78
+#: views/debug.html:1
+msgctxt "heading"
 msgid "Raw transaction in hex format:"
-msgstr "Raw transactie in hex formaat:"
+msgstr ""
 
-#. Re-enter new [device_name] PIN
-#: views/modal/pin.html:27
-msgid "Re-enter new"
-msgstr "Voer opnieuw in"
+#. Re-enter new (device label) PIN
+#: views/modal/pin.html:1
+msgctxt "heading"
+msgid "Re-enter new {{label}} PIN"
+msgstr ""
 
-#: views/modal/passphrase.html:22
+#: views/modal/passphrase.html:1
 msgid "Re-type for control"
 msgstr "Typ nogmaals voor controle"
 
-#: views/debug.html:51
+#. call to action button of the passphrase promo
+#: views/promos/passphrase.html:1
+msgctxt "promos-passphrase"
+msgid "Read more"
+msgstr ""
+
+#: views/debug.html:1
+msgctxt "error-message"
 msgid "Reading of accounts failed."
-msgstr "Lezen van accounts is mislukt."
+msgstr ""
+
+#. Really send <br> 100 BTC <br> from your wallet? <br> Fee included: <br> 0.01 BTC
+#: views/modal/button.html:1
+msgid ""
+"Really send<br>{{total}} BTC<br>from your wallet?<br>Fee included:"
+"<br>{{fee}} BTC"
+msgstr ""
+
+#: views/account/receive/index.html:1
+msgid "Receive"
+msgstr ""
 
 #. This is shown on the header Send/Receive/Transactions/...
-#: views/account/nav.html:13
+#: views/account/nav.html:1
 msgctxt "header"
 msgid "Receive"
 msgstr "Ontvangen"
 
-#: views/account/receive/index.html:14
-msgid "Receive payment"
-msgstr "Betaling ontvangen"
-
-#: views/device/recovery.html:76
+#: views/device/recovery.html:1
 msgid "Recovered seed words:"
 msgstr "Herstelde reeks-woorden:"
 
-#: views/debug.html:54
+#: views/debug.html:1
+msgctxt "error-message"
 msgid "Recovery failed."
-msgstr "Herstel is mislukt."
+msgstr ""
 
-#: views/device/load.html:33
+#: views/device/load.html:1
+msgctxt "form-label"
 msgid "Recovery seed or XPRV private key"
-msgstr "Herstelreeks of de XPRV persoonlijke sleutel"
+msgstr ""
 
-#: views/modal/setup.html:4
+#: views/modal/setup.html:1
+msgctxt "heading"
 msgid "Recovery seed setup"
-msgstr "Herstelreeks setup"
+msgstr ""
 
-#: views/modal/firmware.html:301 views/modal/firmware.html:55
+#: views/modal/firmware.html:7
+msgctxt "button"
 msgid "Release notes"
-msgstr "Release-opmerkingen"
+msgstr ""
 
-#: views/alertbars/offline.html:11
+#: views/alertbars/offline.html:1
 msgid "Reload"
 msgstr "Herladen"
 
 #. Button in remember/forget dialog
-#: views/modal/forget.disconnected.html:10 views/modal/forget.wipe.html:12
+#: views/modal/forget.disconnected.html:1
 msgctxt "forget-button"
 msgid "Remember"
 msgstr "Onthoud"
 
-#: views/account/send/buttonBar.html:37
+#: views/modal/setup.html:1
+msgid ""
+"Remember, never make a digital copy of your recovery seed and never upload "
+"it online. Keep your recovery seed in a safe place. TREZOR cannot be held "
+"liable for financial losses incurred through the client’s improper care of "
+"sensitive information."
+msgstr ""
+
+#: views/account/send/buttonBar.html:1
 msgid "Remove all recipients"
 msgstr "Alle geadresseerden verwijderen"
 
-#: views/account/send/txRemoveOutput.html:6
+#. tooltip on the X button which will remove entry from the Send form
+#: views/otherStrings.html:7
+msgctxt "tooltip"
 msgid "Remove recipient"
-msgstr "Ontvanger verwijderen"
+msgstr ""
 
-#: views/modal/account_label.html:6
+#: views/modal/account_label.html:1
+msgctxt "heading"
 msgid "Rename account"
-msgstr "Account-naam wijzigen"
+msgstr ""
 
-#: views/nav/account.html:47
-msgid "Rename this account"
-msgstr "Account-naam wijzigen"
+#: views/nav/account.html:4
+msgctxt "button"
+msgid "Rename account"
+msgstr ""
 
-#: views/settings.html:90
+#. tooltip on the X button which will reset Send form to empty state
+#: views/otherStrings.html:7
+msgctxt "tooltip"
+msgid "Reset form"
+msgstr ""
+
+#: views/settings.html:1
+msgctxt "button"
 msgid "Save &amp; Reload"
-msgstr "Opslaan &amp; Herladen"
+msgstr ""
 
-#: views/account/send/txAddress.html:35
+#: views/account/send/txAddress.html:9
 msgid "Scan QR code"
 msgstr "Scan de QR-code"
 
-#: views/modal/qr.html:7
+#: views/modal/qr.html:1
+msgctxt "heading"
 msgid "Scan address from a QR code"
-msgstr "Adres dmw een QR-code scannen"
+msgstr ""
 
-#. Whole text: *Scan it into an application that supports XPUBs such as* Mycelium or Sentinel for Android. Then, you can watch your transactions and receive payments everywhere without carrying your TREZOR.
-#: views/device/index.basic.html:223 views/device/index.basic.html:284
-msgctxt "xpub-text"
-msgid "Scan it into an application that supports XPUBs such as"
-msgstr "Scannen naar een toepassing die XPUBs ondersteunt zoals"
-
-#: views/account/transactions/table.html:47
+#: views/account/transactions/table.html:13
 msgid "Search for address, date or amount"
 msgstr "Zoek op adres, datum of bedrag"
 
-#: views/device/recovery.html:19
+#: views/device/recovery.html:1
+msgctxt "heading"
 msgid "Seed recovery"
-msgstr "Herstelreeks"
+msgstr ""
 
-#: views/import.html:32
-#, fuzzy
-msgid "Segwit account XPUBs"
-msgstr "Segwit account XPUBs"
+#: views/import.html:1
+msgctxt "form-label"
+msgid "Segwit account XPUBs <small>(1 per row)</small>"
+msgstr ""
 
-#: views/import.html:41
-#, fuzzy
-msgid "Segwit metadata keys"
-msgstr "Segwit metadata keys"
+#: views/import.html:1
+msgctxt "form-label"
+msgid "Segwit metadata keys <small>(1 per row)</small>"
+msgstr ""
 
-#: views/install/main.html:30 views/install/main.html:54
-msgid "Select platform..."
-msgstr "Kies platform..."
+#: views/modal/recovery.html:1
+msgctxt "heading"
+msgid "Select letters for {{position}} word."
+msgstr ""
 
-#. This is shown on the main, big Send button
-#: views/account/send/buttonBar.html:10
+#: views/install/main.html:1 views/install/main.html:5
 msgctxt "button"
-msgid "Send"
-msgstr "Verzenden"
+msgid "Select platform..."
+msgstr ""
 
 #. This is shown on the header Send/Receive/Transactions/...
-#: views/account/nav.html:21
+#: views/account/nav.html:1
 msgctxt "header"
 msgid "Send"
 msgstr "Verzenden"
 
-#: views/account/send/index.html:17
-msgid "Send payment"
-msgstr "Stuur betaling"
+#: views/account/send/index.html:1
+msgid "Send"
+msgstr ""
 
-#: config.sample.js:22
+#. This is shown on the main, big Send button
+#: views/account/send/buttonBar.html:1
+msgctxt "button"
+msgid "Send {{amount}}"
+msgstr ""
+
+#: views/notices.html:1
+msgctxt "text-with-link"
 msgid ""
 "Sending a transaction to an address starting with <strong>3</strong>? "
-"Please, <a href=\"https://litecoin-project.github.io/p2sh-convert/\" target="
-"\"_blank\">convert it first to an address starting with M</a>"
+"Please, <a>convert it first to an address starting with M</a>"
 msgstr ""
 
-#: config.sample.js:25
+#: views/notices.html:1
+msgctxt "text-with-link"
 msgid ""
-"Sending litecoins to TREZOR? M-address refused? Please, <a href=\"https://"
-"litecoin-project.github.io/p2sh-convert/\" target=\"_blank\">convert it "
-"first to an address starting with 3</a>"
+"Sending litecoins to TREZOR? M-address refused? Please, <a>convert it first "
+"to an address starting with 3</a>"
 msgstr ""
 
-#. This is shown in the transaction list when the transaction is to the user himseld.
-#: views/account/transactions/txAddress.html:29
+#. Length is important here! Full sentence: *Sending money to the right person?* - Double check the address with the other party<br/>and prevent malware attacks!
+#: views/promos/malware.html:1
+msgctxt "promos-malware"
+msgid "Sending money to the right person?"
+msgstr ""
+
+#. This is shown in the transaction list when the transaction is to the user himself.
+#: views/account/transactions/txAddress.html:1
 msgid "Sent to myself"
 msgstr "Naar mijzelf verzonden"
 
 #. This is on a button, clicking it will set as homescreen
-#: views/device/homescreen.html:51
+#: views/device/homescreen.html:1
 msgctxt "button"
 msgid "Set as homescreen"
 msgstr "Instellen als beginscherm"
 
-#: views/account/send/txAmount.html:32
-msgid "Set maximum possible amount"
-msgstr "Stel maximale bedrag in"
-
-#. This is a warning when user sets up his own fee
-#: views/account/send/fees.html:141
+#. This is a warning when user sets up their own fee
+#: views/account/send/inside.html:1
+msgctxt "warning-message"
 msgid "Setting custom fee is not recommended."
-msgstr "Het is niet aan te raden zelf uw vergoeding in te stellen."
-
-#: views/device/index.setup.html:10
-msgid ""
-"Setting up your TREZOR will take only a few minutes.\n"
-"                    When you're done, you can start using your TREZOR."
 msgstr ""
-"Uw TREZOR instellen zal maar een paar minuten duren.\n"
-"                    Wanneer u klaar bent, kunt u TREZOR gebruiken."
 
-#: views/debug.html:30
+#. Setting up your TREZOR will take only a few minutes. When you're done, you can start using your TREZOR. (Learn more - link to trezor documentation)
+#: views/device/index.setup.html:1
+msgid ""
+"Setting up your TREZOR will take only a few minutes. When you're done, you "
+"can start using your TREZOR. <a tooltip=\"Learn more about TREZOR Setup from "
+"User Manual\">Learn more</a>"
+msgstr ""
+
+#. Length is important here! Full sentence: *Setup TREZOR<br>on your phone.* TREZOR Manager<br>for Android
+#: views/promos/android.html:1
+msgctxt "promos-android"
+msgid "Setup TREZOR<br>on your phone."
+msgstr ""
+
+#. Length is important here! Full sentence: *Setup and manage TREZOR<br>on your phone.* TREZOR Manager<br>for Android
+#: views/promos/android.html:1
+msgctxt "promos-android"
+msgid "Setup and manage TREZOR<br>on your phone."
+msgstr ""
+
+#: views/debug.html:1
+msgctxt "error-message"
 msgid "Setup failed."
-msgstr "De installatie is mislukt."
+msgstr ""
 
-#: views/device/index.basic.html:153
+#. button that displays the top part of Transactions page (Balance/Rate/In/Out + graph)
+#: views/account/transactions/summary.html:3
+msgctxt "button"
+msgid "Show Summary"
+msgstr ""
+
+#: views/device/index.basic.html:3
+msgctxt "button"
 msgid "Show XPUBs"
-msgstr "Toon XPUB's"
+msgstr ""
 
-#: views/modal/firmware.html:38
+#. Shows the changelog of latest TREZOR firmware
+#: views/modal/firmware.html:7
+msgctxt "button"
 msgid "Show changes"
-msgstr "Wijzigingen weergeven"
+msgstr ""
 
-#: views/alertbars/bridge.html:9 views/alertbars/firmware.html:11
+#: views/alertbars/bridge.html:4 views/alertbars/firmware.html:5
+msgctxt "button"
 msgid "Show details"
-msgstr "Toon details"
+msgstr ""
 
-#: views/account/transactions/txAddress.html:15
+#. Hides transaction details
+#: views/account/transactions/txAddress.html:1
+msgctxt "button"
 msgid "Show less"
-msgstr "Toon minder"
+msgstr ""
 
-#: views/debug.button.html:5 views/debug.button.html:7 views/footer.html:23
+#: views/debug.button.html:1
+msgctxt "tooltip"
 msgid "Show log"
-msgstr "Logboek tonen"
+msgstr ""
 
-#: views/account/transactions/txAddress.html:12
-#: views/device/index.basic.html:273
+#. application event and error log
+#: views/debug.button.html:1 views/footer.html:1
+msgctxt "button"
+msgid "Show log"
+msgstr ""
+
+#. Shows transaction details
+#. displays detailed explanation on how to use XPUBs
+#: views/account/transactions/txAddress.html:1 views/device/index.basic.html:7
+msgctxt "button"
 msgid "Show more"
-msgstr "Toon meer"
+msgstr ""
 
-#: views/account/receive/address.html:82
+#. Length is important here! Full sentence: Prevent phishing with *Show on TREZOR* - Click on eye icon<br/>in the Receive tab.
+#: views/promos/show.html:1
+msgctxt "promos-show"
+msgid "Show on TREZOR"
+msgstr ""
+
+#: views/account/receive/address.html:16
 msgid "Show on TREZOR"
 msgstr "Toon op TREZOR"
 
-#: views/modal/passphrase.html:38
+#: views/modal/passphrase.html:1
+msgctxt "button"
 msgid "Show passphrase"
-msgstr "Toon wachtwoordzin"
+msgstr ""
 
-#: views/account/receive/index.html:35 views/account/receive/index.html:50
+#: views/account/receive/index.html:4
 msgid "Show previous"
 msgstr "Toon vorige"
 
 #. Little link, that will display 'nerdy' transaction details to user
-#: views/account/send/txPrepared.html:4
+#: views/account/send/txPrepared.html:1
+msgctxt "button"
 msgid "Show transaction details"
-msgstr "Transactiedetails weergeven"
+msgstr ""
 
 #. This is on a button in the sign/verify form.
-#: views/account/sign/inside.html:115
+#: views/account/sign/inside.html:4
 msgctxt "button"
 msgid "Sign"
 msgstr "Ondertekenen"
 
 #. This is shown on the header Send/Receive/Transactions/...
-#: views/account/nav.html:32
+#: views/account/nav.html:1
 msgctxt "header"
 msgid "Sign &amp; Verify"
 msgstr "Ondertekenen"
 
 #. This is a header in the sign window
-#: views/account/sign/inside.html:8
+#: views/account/sign/inside.html:1
 msgctxt "header"
 msgid "Sign message"
 msgstr "Onderteken dit bericht"
 
 #. This is a label to the sign/verify form.
-#: views/account/sign/inside.html:216 views/account/sign/inside.html:97
+#: views/account/sign/inside.html:4 views/account/sign/inside.html:6
 msgctxt "sign"
 msgid "Signature"
 msgstr "Handtekening"
 
-#: views/otherStrings.html:78
+#. on successful sign message form submit
+#: views/otherStrings.html:7
+msgctxt "success-message"
 msgid "Signed successfully."
-msgstr "Succesvol ondertekend."
+msgstr ""
 
 #. This is shown when the signing is in progress.
-#: views/account/send/inside.html:102
-msgid "Signing and sending transaction&hellip;"
-msgstr "Ondertekenen en verzenden van transactie &hellip;"
+#: views/account/send/inside.html:1
+msgctxt "heading"
+msgid "Signing and sending transaction..."
+msgstr ""
 
-#. Size of a transaction
-#: views/account/send/txPrepared.html:18
-msgid "Size:"
-msgstr "Grootte:"
+#. Size (in kB) of a transaction - for example 10 kB
+#: views/account/send/txPrepared.html:1
+msgid "Size: {{size}} kB"
+msgstr ""
 
-#: views/device/load.html:41
+#: views/device/load.html:1
+msgctxt "form-label"
 msgid "Skip mnemonic checksum"
-msgstr "Sla mnemonic checksum over"
-
-#: views/account/send/fees.html:94
-msgid "Some fields are incorrect."
-msgstr "Sommige velden zijn onjuist."
+msgstr ""
 
 #. This will be shown if user does a mistake in the, slightly complicated, firmware upgrade process.
-#: views/modal/firmware.html:157
+#: views/modal/firmware.html:7
 msgid "Sorry that we make it so hard!"
 msgstr "Sorry dat we het zo lastig maken!"
 
-#: views/device/index.basic.html:164
+#: views/device/index.basic.html:3
 #, fuzzy
 msgid "Standard accounts (BIP49)"
 msgstr "Standard accounts (BIP49)"
 
-#: views/modal/pinguide.html:13
-msgid "Still confused how PIN works?"
-msgstr "Nog steeds verward hoe PIN werkt?"
+#. Still confused how PIN works? (link to TREZOR documentation)
+#: views/modal/pinguide.html:1
+msgctxt "text-with-link"
+msgid "Still confused how PIN works? <a>Learn more</a>"
+msgstr ""
 
 #. PIN strength
-#: views/modal/pin.html:96
+#: views/modal/pin.html:1
+msgctxt "success-message"
 msgid "Strong enough!"
-msgstr "Sterk genoeg!"
+msgstr ""
 
 #. This is displayed on top when any action successfully finishes
-#: views/debug.html:103
-msgctxt "flash"
+#: views/debug.html:1
+msgctxt "heading"
 msgid "Success"
-msgstr "Succes"
+msgstr ""
 
-#: index.html:47 views/top.nav.html:15
+#. link in top navigation bar
+#: views/top.nav.html:1
+msgctxt "button"
+msgid "Support"
+msgstr ""
+
+#: index.html:1
 msgid "Support"
 msgstr "Ondersteuning"
 
-#: views/debug.html:91
-msgid "Support Center"
-msgstr "Support"
-
-#: views/modal/firmware.html:169
+#: views/modal/firmware.html:7
+msgctxt "button"
 msgid "Support needed?"
-msgstr "Ondersteuning nodig?"
+msgstr ""
 
-#: views/modal/backendwarnings/bcash.html:2
+#: views/modal/backendwarnings/bcash.html:1
+msgctxt "heading"
 msgid "Switching to Bitcoin Cash"
-msgstr "Switch naar Bitcoin Cash"
+msgstr ""
 
-#: index.html:35 views/top.nav.html:3
+#: index.html:1
 msgid "TREZOR"
 msgstr "TREZOR"
 
-#: views/modal/beta.html:6
-#, fuzzy
-msgid "TREZOR Beta Wallet"
-msgstr "TREZOR Beta Wallet"
+#. link in top navigation bar
+#: views/top.nav.html:1
+msgctxt "button"
+msgid "TREZOR"
+msgstr ""
 
-#: views/install/bridge.force.html:10
+#. Length is important here! Full sentence: *Trezor Apps* - Independent services<br> with TREZOR support.
+#: views/promos/apps.html:1
+msgctxt "promos-apps"
+msgid "TREZOR Apps"
+msgstr ""
+
+#: views/install/bridge.force.html:1
+msgctxt "heading"
 msgid "TREZOR Bridge update"
-msgstr "TREZOR Bridge-update"
+msgstr ""
+
+#. Length is important here! Full sentence: Setup and manage TREZOR<br>on your phone. *TREZOR Manager<br>for Android*
+#: views/promos/android.html:1
+msgctxt "promos-android"
+msgid "TREZOR Manager<br>for Android"
+msgstr ""
 
 #. This is on a button; clicking it will start TREZOR recovery.
-#: views/device/index.html:13
+#: views/device/index.html:1
 msgctxt "button"
 msgid "TREZOR Recovery"
 msgstr "TREZOR herstel"
 
-#: views/modal/beta.html:6 views/modal/beta.html:9
-#, fuzzy
+#: views/top.bar.html:1
+msgctxt "image-alt"
 msgid "TREZOR Wallet"
-msgstr "TREZOR Wallet"
+msgstr ""
 
-#: views/jumbotrons/landing/landing.heading.html:3
+#: views/jumbotrons/landing/landing.heading.html:1
 msgid ""
 "TREZOR Wallet is an easy-to-use interface for your TREZOR device. From this "
 "Wallet, you can easily control your coins, manage your balance and initiate "
@@ -2156,115 +2687,134 @@ msgstr ""
 "apparaat. Vanaf deze Portemonnee kunt u uw munten controleren, uw balans "
 "beheren en betalingen verrichten."
 
-#: views/jumbotrons/loading.html:5
+#: views/jumbotrons/loading.html:1
 msgid "TREZOR Wallet is loading accounts"
 msgstr "TREZOR Portemonnee is accounts aan het laden"
 
-#: views/modal/dropbox.html:2
-msgid "TREZOR Wallet labeling"
-msgstr "TREZOR Wallet labels"
+#: views/main.wrapper.html:1
+msgid "TREZOR Wallet is starting"
+msgstr ""
 
-#: views/modal/disconnect.html:10
+#: views/modal/dropbox.html:1
+msgctxt "heading"
+msgid "TREZOR Wallet labeling"
+msgstr ""
+
+#: views/modal/disconnect.html:1
 msgid "TREZOR Wallet will forget your TREZOR right after you disconnect it."
 msgstr ""
 "TREZOR Wallet zal uw TREZOR direct vergeten zodra u het heeft losgekoppeld."
 
-#: views/account/sign/inside.html:189 views/account/sign/inside.html:47
+#: views/account/sign/inside.html:1 views/account/sign/inside.html:6
 msgid "TREZOR can show only 64 letters on the display."
 msgstr "TREZOR kan slechts 64 tekens weergeven op het display."
 
-#: views/account/sign/inside.html:54
-msgid "TREZOR cannot sign non-ASCII characters."
-msgstr "TREZOR kan geen niet-ASCII-tekens weergeven."
+#. Displayed if mesage in Sign & Verify tab contains invalid characters
+#: views/account/sign/inside.html:1 views/account/sign/inside.html:6
+msgid ""
+"TREZOR cannot sign non-ASCII characters. {{invalid}} in your message is not "
+"an ASCII character."
+msgstr ""
 
-#: views/account/sign/inside.html:196
-msgid "TREZOR cannot verify non-ASCII characters."
-msgstr "TREZOR kan niet-ASCII-tekens niet controleren."
-
-#: views/error.html:7
+#: views/error.html:1
+msgctxt "error-message"
 msgid "TREZOR loading failed"
-msgstr "TREZOR laden mislukt"
+msgstr ""
 
-#: views/jumbotrons/udev-note.html:7
+#: views/jumbotrons/udev-note.html:1
 msgid "TREZOR not recognized?"
 msgstr "TREZOR niet herkend?"
 
-#: views/account/transactions/table.html:11
+#. Length is important here! Full sentence: *TREZOR security<br/>for your passwords!* TREZOR<br/>Password<br/>Manager
+#: views/promos/tpm.html:1
+msgctxt "promos-passmanager"
+msgid "TREZOR security<br>for your passwords!"
+msgstr ""
+
+#. Displayed when the web browser offers user to register TREZOR web wallet as bitcoin:... url handler. Full sentence is: Add *TREZOR: Send bitcoins to address* (wallet.trezor.io) as an application for bitcoin links.
+#: views/otherStrings.html:7
+msgctxt "uri-handler"
+msgid "TREZOR: Send Bitcoins to address"
+msgstr ""
+
+#. Length is important here! Full sentence: Enjoy TREZOR security<br/>for your passwords too! *TREZOR<br/>Password Manager*
+#: views/promos/tpm.html:1
+msgctxt "promos-passmanager"
+msgid "TREZOR<br>Password Manager"
+msgstr ""
+
+#. Length is important here! Full sentence: TREZOR security<br/>for your passwords! *TREZOR<br/>Password<br/>Manager*
+#: views/promos/tpm.html:1
+msgctxt "promos-passmanager"
+msgid "TREZOR<br>Password<br>Manager"
+msgstr ""
+
+#: views/account/transactions/table.html:1
 #, fuzzy
 msgid "TX id"
 msgstr "TX id"
 
-#: views/account/transactions/table.html:16
+#: views/account/transactions/table.html:1
 msgid "TX total"
 msgstr "TX totaal"
 
-#: views/account/transactions/table.html:12
+#: views/account/transactions/table.html:1
 msgid "TX type"
 msgstr "TX soort"
 
-#. In the bottom footer.
-#: views/footer.html:7
+#. As in Terms and Conditions, In the bottom footer.
+#: views/footer.html:1
+msgctxt "button"
 msgid "Terms"
-msgstr "Termen"
-
-#: views/modal/firmware.html:244
-msgid ""
-"The authenticity of the installed firmware is checked during start up.\n"
-"                        If the firmware was not provided by SatoshiLabs, the "
-"device will display a warning when you\n"
-"                        start it."
 msgstr ""
-"De echtheid van de geïnstalleerde firmware wordt gecheckt tijdens het "
-"starten.\n"
-"                        Als de firmware niet door SatoshiLabs is geleverd, "
-"zal het apparaat een waarschuwing weergeven zodra u\n"
-"                        deze start."
 
-#: views/settings.html:13
+#: views/modal/firmware.html:7
+msgid ""
+"The authenticity of the installed firmware is checked during start up. If "
+"the firmware was not provided by SatoshiLabs, the device will display a "
+"warning when you start it."
+msgstr ""
+
+#: views/settings.html:1
+msgctxt "error-message"
 msgid "The bitcore server doesn't seem to reply. Please select another server."
 msgstr ""
-"De bitcore server lijkt niet te antwoorden. Selecteer een andere server."
 
-#: views/account/send/txPrepared.html:14
+#: views/account/send/txPrepared.html:1
+msgctxt "tooltip"
 msgid ""
 "The final size can differ a few bytes, since the transaction is created on "
 "TREZOR."
 msgstr ""
-"Omdat de transactie op TREZOR is gemaakt kan de uiteindelijke grootte kan "
-"een paar bytes verschillen, ."
 
-#: views/modal/pin.html:16
+#. pin matrix layout
+#: views/modal/pin.html:1
+msgctxt "warning-message"
 msgid "The layout is displayed on your TREZOR."
-msgstr "De layout is weergegeven op uw TREZOR."
-
-#. This text is displayed, when the fee is too high.
-#: views/account/send/inside.html:14
-msgid "The transaction fee is unexpectedly high."
-msgstr "De transactievergoeding is onverwacht hoog."
-
-#. Whole text: Scan it into an application that supports XPUBs such as Mycelium or Sentinel for Android. *Then, you can watch your transactions and receive payments everywhere without carrying your TREZOR.*
-#: views/device/index.basic.html:241 views/device/index.basic.html:301
-msgctxt "xpub-text"
-msgid ""
-"Then, you can watch your transactions and receive payments everywhere "
-"without carrying your TREZOR."
 msgstr ""
-"Daarna kunt u uw transacties en ontvangen betalingen overal bekijken zonder "
-"uw TREZOR bij u te hebben."
 
-#: views/date.selection.html:28
+#. This text is displayed when the fee is too high.
+#: views/account/send/inside.html:1
+msgctxt "warning-message"
+msgid "The transaction fee is unexpectedly high."
+msgstr ""
+
+#: views/date.selection.html:8
+msgctxt "date"
 msgid "This Month"
-msgstr "Deze Maand"
+msgstr ""
 
-#: views/date.selection.html:16
+#: views/date.selection.html:8
+msgctxt "date"
 msgid "This Week"
-msgstr "Deze Week"
+msgstr ""
 
-#: views/date.selection.html:40
+#: views/date.selection.html:8
+msgctxt "date"
 msgid "This Year"
-msgstr "Dit Jaar"
+msgstr ""
 
-#: views/modal/button.html:92
+#: views/modal/button.html:1
 msgid ""
 "This action cannot be undone. Please <strong>confirm on your device</strong>."
 msgstr ""
@@ -2272,7 +2822,7 @@ msgstr ""
 "apparaat</strong>."
 
 #. This is shown as header of legacy note
-#: views/account/transactions/legacynote.html:5
+#: views/account/transactions/legacynote.html:1
 msgid ""
 "This is a legacy account on your TREZOR. If you want to fully benefit from "
 "new features, please move your coins from your legacy accounts to your "
@@ -2282,47 +2832,35 @@ msgstr ""
 "van de nieuwe functies, verhuis dan s.v.p. uw munten van uw legacy accounts "
 "naar uw standaard accounts."
 
-#: views/device/custom-firmware.html:9 views/device/load.html:9
+#: views/device/custom-firmware.html:1
 msgid "This is an advanced interface intended for EXPERT use only!"
 msgstr ""
 "Dit is een geavanceerde interface uitsluitend bedoeld voor gebruik door "
 "EXERTS!"
 
-#: views/import.html:11
+#: views/import.html:1
+msgctxt "warning-message"
 msgid "This is an advanced interface intended for developer use only!"
 msgstr ""
-"Dit is een geavanceerde interface uitsluitend bedoeld voor gebruik door de "
-"ontwikkelaar!"
 
-#: config.sample.js:6
+#: views/notices.html:1
+msgctxt "warning-message"
 msgid ""
 "This is your Bitcoin Cash (BCH) wallet. Do not receive bitcoins to the "
 "addresses in this wallet."
 msgstr ""
-"Dit is uw Bitcoin Cash (BCH) wallet. Ontvang geen bitcoins op de adressen in "
-"deze wallet."
 
-#: views/account/transactions/table.html:10
+#: views/account/transactions/table.html:1
 msgid "Time"
 msgstr "Tijd"
 
 #. Used as a suggested name for a transaction. *To* Account #2
-#: views/otherStrings.html:30
+#: views/otherStrings.html:7
 msgctxt "address-suggest"
 msgid "To"
 msgstr "Naar"
 
-#: views/account/receive/index.html:117
-msgid ""
-"To access subsequent addresses, please use some of the listed addresses in "
-"a\n"
-"                                    transaction."
-msgstr ""
-"Gebruik enkele van de genoemde adressen in een transactie om toegang te "
-"krijgen tot volgende\n"
-"                                    adressen."
-
-#: views/account/receive/index.html:93
+#: views/account/receive/index.html:4
 msgid ""
 "To access subsequent addresses, please use some of the listed addresses in a "
 "transaction."
@@ -2330,29 +2868,29 @@ msgstr ""
 "Voor toegang tot de daaropvolgende adressen, gebruik u enkele van de "
 "genoemde adressen in een transactie."
 
-#: views/account/receive/index.html:110
+#: views/account/receive/index.html:4
 msgid ""
 "To access subsequent addresses, please wait for confirmation on transaction "
-"on some of the\n"
-"                                    previous addresses."
+"on some of the previous addresses."
 msgstr ""
-"Wacht op de bevestiging van transacties van vorige adressen om toegang te "
-"krijgen tot volgende\n"
-"                                    adressen."
 
-#: views/nav/device-buttons.html:11
+#: views/nav/device-buttons.html:1
+msgctxt "tooltip"
+msgid "To add a new account, last account must have some transactions."
+msgstr ""
+
+#: views/nav/device-buttons.html:1
+msgctxt "tooltip"
+msgid "To add accounts, make sure your device is connected."
+msgstr ""
+
+#: views/notices.html:1
+msgctxt "text-with-link"
 msgid ""
-"To add accounts, make sure your device is connected and the last account is "
-"not empty."
+"To claim your Bitcoin Cash coins, please use our <a>coin-splitting tool</a>"
 msgstr ""
-"Controleer of uw apparaat is aangesloten en het laatste account niet leeg is "
-"om accounts toe te voegen."
 
-#: config.sample.js:8
-msgid "To claim your Bitcoin Cash coins, please use our"
-msgstr "Om uw Bitcoins Cash munten te claimen, gebruik s.v.p. onze"
-
-#: views/modal/firmware.html:37
+#: views/modal/firmware.html:7
 msgid ""
 "To enjoy full functionality and security of your device, we strongly "
 "recommend you to update."
@@ -2360,132 +2898,167 @@ msgstr ""
 "Om de volledige functionaliteit en beveiliging van uw apparaat te gebruiken, "
 "adviseren we de update."
 
-#: views/modal/firmware.html:21
+#: views/modal/firmware.html:7
 msgid "To update the firmware:"
 msgstr "Om de firmware bij te werken:"
 
-#: views/account/transactions/table.html:60
+#: views/account/transactions/table.html:13 views/otherStrings.html:7
+msgctxt "date"
 msgid "Today"
-msgstr "Vandaag"
+msgstr ""
 
 #. This is a short label in the device Basic page
-#: views/device/index.basic.html:117
+#: views/device/index.basic.html:3
 msgctxt "basic-label"
 msgid "Total balance"
 msgstr "Totaalsaldo"
 
-#: views/account/receive/address.html:39
+#: views/account/receive/address.html:16
 msgid "Total received:"
 msgstr "Totaal ontvangen:"
 
-#. The whole sentence: *Transaction* 1234567890abcdef was successfully sent.
-#: views/debug.html:127
-msgctxt "send-done"
-msgid "Transaction"
-msgstr "Transactie"
+#. includes link to insight (link text is transaction hash)
+#: views/debug.html:1
+msgctxt "text-with-link"
+msgid "Transaction <a>{{hash}}</a> was successfully sent."
+msgstr ""
+
+#: views/account/transactions/table.html:1
+msgid "Transactions"
+msgstr "Transacties"
 
 #. This is shown on the header Send/Receive/Transactions/...
-#: views/account/nav.html:5
+#: views/account/nav.html:1
 msgctxt "header"
 msgid "Transactions"
 msgstr "Transacties"
 
-#: views/account/transactions/table.html:4
-msgid "Transactions"
-msgstr "Transacties"
-
-#: views/account/transactions/summary.html:76
+#: views/account/transactions/summary.html:3
 msgid "Transactions are loading ..."
 msgstr "Transacties zijn aan het laden ..."
 
-#: views/device/index.basic.html:7
+#. Try to load accounts again after intial loading fails
+#: views/device/index.basic.html:1
+msgctxt "button"
 msgid "Try again"
-msgstr "Probeer opnieuw"
+msgstr ""
 
-#: views/jumbotrons/udev-note.html:8
+#: views/jumbotrons/udev-note.html:1
+msgctxt "button"
 msgid "Try installing udev rules."
-msgstr "Probeer udev regels te installeren."
+msgstr ""
 
-#: views/settings.html:67
+#: views/settings.html:1
+msgctxt "error-message"
 msgid "URL needs to start with https://"
-msgstr "URL moet beginnen met https://"
+msgstr ""
 
-#: views/settings.html:72
+#: views/settings.html:1
+msgctxt "error-message"
 msgid "URL needs to start with https:// or http://"
-msgstr "URL moet beginnen met https:// of http://"
+msgstr ""
 
-#: views/account/transactions/table.html:67
+#: views/settings.html:1
+msgctxt "text-with-link"
+msgid "Unable to load data from <a>bitpay.com</a>"
+msgstr ""
+
+#. Send form -> add recipient -> import csv -> wrongly formatted .csv content pasted
+#: views/otherStrings.html:7
+msgctxt "error-message"
+msgid "Unable to parse the CSV."
+msgstr ""
+
+#. as in unconfirmed transaction, date of confirmation is not known yet
+#: views/account/transactions/table.html:13
+msgctxt "date"
 msgid "Unconfirmed"
-msgstr "Niet bevestigd"
+msgstr ""
 
-#. This text is displayed, when the amount is too high. Its goal is to get user to re-check the address. This is the second line.
-#: views/account/send/inside.html:56
+#. This text is displayed, when the send transaction amount is high. Its goal is to get user to re-check the address.
+#: views/account/send/inside.html:1
+msgctxt "warning-message"
 msgid ""
 "Unlike your TREZOR, computers are not safe. Malware might replace bitcoin "
 "addresses you see."
 msgstr ""
-"In tegenstelling tot uw TREZOR zijn computers niet veilig. Malware kan "
-"namelijk bitcoin adressen wijzigen."
 
 #. PIN strength
-#: views/modal/pin.html:93
+#: views/modal/pin.html:1
+msgctxt "error-message"
 msgid "Unnecessarily too long."
-msgstr "Onnodig te lang."
+msgstr ""
 
 #. Shown in the list of addresses, the small comment below an address
-#: views/account/receive/address.html:48
+#: views/account/receive/address.html:16
 msgid "Unused address"
 msgstr "Ongebruikt adres"
 
-#: views/modal/firmware.html:184
+#: views/modal/firmware.html:7
+msgctxt "heading"
 msgid "Update device firmware?"
-msgstr "Update apparaat firmware?"
+msgstr ""
 
-#: views/modal/firmware.html:438
+#: views/modal/firmware.html:7
+msgctxt "heading"
 msgid "Update failed"
-msgstr "Update is mislukt"
+msgstr ""
 
-#: views/device/recovery.html:181
+#: views/device/recovery.html:1
 msgid "Update firmware first to use Advanced Recovery"
 msgstr "Update eerst de firmware om Geavanceerde Herstel te gebruiken"
 
-#: views/modal/firmware.html:429
+#: views/modal/firmware.html:7
+msgctxt "heading"
 msgid "Update was successful"
-msgstr "Update is gelukt"
+msgstr ""
 
-#: views/modal/firmware.html:101 views/modal/firmware.html:205
-#: views/modal/firmware.html:339
-#, fuzzy
+#. Button to start Bridge upgrade
+#: views/modal/firmware.html:7
+msgctxt "button"
 msgid "Upgrade"
-msgstr "Upgrade"
+msgstr ""
 
-#: views/install/bridge.force.html:12
-msgid "Upgrade for the newest features and bug fixes."
-msgstr "Upgrade van de laatste functies en bug fixes."
+#: views/install/bridge.force.html:1
+msgid "Upgrade for the newest features."
+msgstr ""
 
-#. Upgrade refers to bridge upgrade
-#: views/alertbars/bridge.html:8
+#. Upgrade refers to Trezor Bridge upgrade
+#: views/alertbars/bridge.html:4
 msgctxt "bridge-update"
-msgid "Upgrade for the newest features and bug fixes."
-msgstr "Upgrade voor de nieuwe functies en bugfixes."
+msgid "Upgrade for the newest features."
+msgstr ""
 
-#. Upgrade refers to bridge upgrade
-#: views/alertbars/firmware.html:10
+#. Upgrade refers to Trezor firmware upgrade
+#: views/alertbars/firmware.html:5
 msgctxt "firmware-update"
-msgid "Upgrade for the newest features and bug fixes."
-msgstr "Upgrade voor nieuwe functies en bugfixes."
+msgid "Upgrade for the newest features."
+msgstr ""
 
 #. This is on a button, for browsing images for homescreen tab
-#: views/device/homescreen.html:25
+#: views/device/homescreen.html:1
 msgctxt "button"
 msgid "Upload image"
 msgstr "Upload afbeelding"
 
-#: views/modal/firmware.html:399
+#: views/modal/firmware.html:7
+msgctxt "heading"
 msgid "Uploading firmware..."
-msgstr "Firmware uploaden..."
+msgstr ""
 
-#: views/device/advanced.html:186
+#. Length is important here! Full sentence: *Use Labeling* - Add transaction comments,<br/>rename accounts or addresses. - Click on Dropbox icon on the bottom.
+#: views/promos/labeling.html:1
+msgctxt "promos-labeling"
+msgid "Use Labeling"
+msgstr ""
+
+#. Length is important here! Full sentence: *Use hidden wallets with* Passphrase Encryption - But first, get to know how it works!
+#: views/promos/passphrase.html:1
+msgctxt "promos-passphrase"
+msgid "Use hidden wallets with"
+msgstr ""
+
+#: views/device/advanced.html:8
 msgid ""
 "Use this feature only if you have your Recovery Seed or you don't have any "
 "coins on your device."
@@ -2493,22 +3066,12 @@ msgstr ""
 "Gebruik deze functie alleen als u uw herstelreeks bij de hand hebt of "
 "wanneer er geen coins op uw apparaat staan opgeslagen."
 
-#: views/nav/device.html:21 views/nav/unacquired.html:14
+#: views/nav/device.html:1 views/nav/unacquired.html:1
+msgctxt "device-state"
 msgid "Used in other window"
-msgstr "Gebruikt in een ander venster"
-
-#: views/device/index.basic.html:110
-msgid ""
-"Using PIN protection is highly recommended. PIN prevents unauthorized "
-"persons from stealing your\n"
-"                bitcoins even when they get physical access to your device."
 msgstr ""
-"Het gebruik van PIN bescherming is sterk aangeraden. PIN voorkomt dat "
-"onbevoegde personen uw\n"
-"                bitcoins stelen ook al hebben ze fysieke toegang tot uw "
-"apparaat."
 
-#: views/device/advanced.html:165
+#: views/device/advanced.html:8 views/device/index.basic.html:3
 msgid ""
 "Using PIN protection is highly recommended. PIN prevents unauthorized "
 "persons from stealing your bitcoins even when they get physical access to "
@@ -2519,63 +3082,71 @@ msgstr ""
 "fysieke toegang tot uw apparaat."
 
 #. This is displayed on Android.
-#: views/install/mobile.android.html:5
+#: views/install/mobile.android.html:1
 msgid "Using TREZOR with your Android?"
 msgstr "Gebruikt u TREZOR met uw Android?"
 
 #. This is on a hidden page.
-#: views/device/custom-firmware.html:10
+#: views/device/custom-firmware.html:1
 msgid "Using this process might make your TREZOR unusable."
 msgstr ""
 "Het gebruik van dit proces kan ervoor zorgen dat uw TREZOR onbruikbaar wordt."
 
-#: views/account/transactions/table.html:15
+#: views/account/transactions/table.html:1
 msgid "Value"
 msgstr "Waarde"
 
 #. This is on a button in the sign/verify form.
-#: views/account/sign/inside.html:234
+#: views/account/sign/inside.html:6
 msgctxt "button"
 msgid "Verify"
 msgstr "Controleer"
 
 #. This is a header in the sign window
-#: views/account/sign/inside.html:147
+#: views/account/sign/inside.html:4
 msgctxt "header"
 msgid "Verify message"
 msgstr "Controleer bericht"
 
-#: views/modal/firmware.html:317 views/modal/firmware.html:72
+#: views/modal/firmware.html:7
+msgctxt "heading"
 msgid "Versions"
-msgstr "Versies"
+msgstr ""
 
-#: views/account/receive/address.html:176 views/account/receive/address.html:43
+#: views/account/receive/address.html:16 views/account/receive/address.html:26
 msgid "View address at block explorer"
 msgstr "Toon adres in blok verkenner"
 
-#: views/modal/qr.html:10
-msgid "Waiting for camera&hellip;"
-msgstr "Wachten op camera &hellip;"
+#: views/modal/qr.html:1
+msgctxt "warning-message"
+msgid "Waiting for camera..."
+msgstr ""
 
-#: views/account/receive/index.html:128 views/account/send/index.html:28
-#: views/account/sign/index.html:20
+#: views/account/receive/index.html:4 views/account/send/index.html:1
+#: views/account/sign/index.html:1
 msgid "Waiting for transaction history"
 msgstr "Wachten op transactie-historie"
 
-#: index.html:38 views/top.nav.html:6
+#: index.html:1
 msgid "Wallet"
 msgstr "Portemonnee"
 
-#: views/device/index.html:12
+#. link in top navigation bar
+#: views/top.nav.html:1
+msgctxt "button"
+msgid "Wallet"
+msgstr ""
+
+#: views/device/index.html:1
 msgid "Want to restore your wallet from recovery seed?"
 msgstr "Wilt u uw portemonnee met behulp van de herstelreeks herstellen?"
 
-#: views/account/sign/inside.html:179 views/account/sign/inside.html:188
-#: views/account/sign/inside.html:38 views/account/sign/inside.html:46
+#: views/account/sign/inside.html:1 views/account/sign/inside.html:5
+#: views/account/sign/inside.html:6
 msgid "Warning:"
 msgstr "Waarschuwing:"
 
-#: views/install/mobile.html:4
+#: views/install/mobile.html:1
 msgid ""
 "We are sorry, TREZOR Wallet is not yet supported on iOS and Windows Phone "
 "devices. Please use a computer with Windows, macOS, Linux operating system, "
@@ -2585,28 +3156,34 @@ msgstr ""
 "Windows Phone apparaten. Gebruik alstublieft een computer met Windows, "
 "macOS, Linux of gebruik een Android apparaat."
 
-#. This text is displayed, when the amount is too high. Its goal is to get user to re-check the address. This is the third line.
-#: views/account/send/inside.html:63
+#: views/modal/backendwarnings/ethwallet.html:1
+msgid ""
+"We have partnered up with MyEtherWallet to provide you with a full-fledged "
+"Ethereum Wallet."
+msgstr ""
+
+#. This text is displayed, when the send transaction amount is high. Its goal is to get user to re-check the address.
+#: views/account/send/inside.html:1
+msgctxt "warning-message"
 msgid ""
 "We recommend you to verify the payment address through independent "
 "communication channels such as a phone call or a text message."
 msgstr ""
-"We raden u om het betalingsadres te controleren via onafhankelijke "
-"communicatiekanalen zoals een telefoongesprek of een SMS-bericht."
 
-#: views/modal/setup.html:26
+#: views/modal/setup.html:1
 msgid "We will now show you the 24 words again."
 msgstr "We laten u de 24 woorden opnieuw zien."
 
-#: views/device/index.setup.html:4
+#: views/device/index.setup.html:1
 msgid "Welcome to TREZOR Setup!"
 msgstr "Welkom bij TREZOR Setup!"
 
-#: views/account/transactions/index.html:36
-msgid "What's next?"
-msgstr "Wat is het volgende?"
+#. Displayed on Transactions page if no transactions are present. Most likely a brand new account. - What's next? (Explore functions - link to trezor.io)
+#: views/account/transactions/index.html:1
+msgid "What's next? <a>Explore functions</a>"
+msgstr ""
 
-#: views/device/index.basic.html:212 views/device/index.basic.html:272
+#: views/device/index.basic.html:7
 msgid ""
 "When you give them to a third party, you allow it to see your whole "
 "transaction history."
@@ -2614,43 +3191,45 @@ msgstr ""
 "Wanneer u ze aan een anderen geeft, laat u daarmee uw hele "
 "transactiegeschiedenis bekijken."
 
-#. This is a short label in the device Advanced page
-#: views/device/advanced.html:177
-msgctxt "advanced-label"
-msgid "Wipe device"
-msgstr "Apparaat leegmaken"
-
 #. This is written on a button, clicking it will wipe the device
-#: views/device/advanced.html:201
+#: views/device/advanced.html:9
 msgctxt "button"
 msgid "Wipe device"
 msgstr "Apparaat leegmaken"
 
-#: views/debug.html:48
+#. This is a short label in the device Advanced page
+#: views/device/advanced.html:8
+msgctxt "advanced-label"
+msgid "Wipe device"
+msgstr "Apparaat leegmaken"
+
+#: views/debug.html:1
+msgctxt "error-message"
 msgid "Wipe failed."
-msgstr "Leegmaken is mislukt."
+msgstr ""
 
-#: views/modal/disconnect.wipe.html:4 views/modal/forget.wipe.html:4
+#: views/modal/disconnect.wipe.html:1
+msgctxt "heading"
 msgid "Wipe finished"
-msgstr "Leegmaken is klaar"
+msgstr ""
 
-#: views/device/advanced.html:185
-msgid "Wiping the device <span>removes all its information.</span>"
-msgstr "Het apparaat wissen <span>verwijderd al zijn informatie.</span>"
+#: views/device/advanced.html:8
+msgid "Wiping the device removes all its information."
+msgstr ""
 
-#: views/install/main.html:75
+#. With TREZOR Chrome Extension ... (link to TREZOR Chrome Extension)
+#: views/install/main.html:10
+msgctxt "text-with-link"
 msgid ""
 "With TREZOR Chrome Extension you can use TREZOR Wallet in Chrome without "
-"installing any other software."
+"installing any other software. <a>Install TREZOR Chrome Extension</a>"
 msgstr ""
-"Met de TREZOR Chrome extensie kunt u TREZOR Wallet in Chrome gebruiken "
-"zonder andere software te installeren."
 
-#: views/device/recovery.html:33
+#: views/device/recovery.html:1
 msgid "Words are going to be entered in shuffled order."
 msgstr "De woorden zullen worden ingevoerd in willekeurige volgorde."
 
-#: views/modal/forget.disconnected.html:7
+#: views/modal/forget.disconnected.html:1
 msgid ""
 "Would you like TREZOR Wallet to forget your device or to remember it, so "
 "that it is still visible even while disconnected?"
@@ -2658,159 +3237,163 @@ msgstr ""
 "Wilt u TREZOR Wallet uw apparaat laten vergeten of blijven onthouden, zodat "
 "het is nog steeds zichtbaar is, zelfs als terwijl de verbinding verbroken is?"
 
-#: views/modal/forget.wipe.html:9
-msgid ""
-"Would you like TREZOR Wallet to forget your old device with the old data or "
-"to remember it?"
-msgstr ""
-"Wilt u dat TREZOR Wallet uw oude apparaat met de oude gegevens vergeet of "
-"onthoudt?"
-
-#: views/modal/setup.wordWrite.html:12
+#: views/modal/setup.wordWrite.html:1
 msgid "Write down the 10th word from TREZOR into the recovery seed card."
 msgstr "Schrijf het 10e woord van TREZOR op in het recovery seed kaartje."
 
-#: views/modal/setup.wordWrite.html:13
+#: views/modal/setup.wordWrite.html:1
 msgid "Write down the 11th word from TREZOR into the recovery seed card."
 msgstr "Schrijf het 11e woord van TREZOR op in het recovery seed kaartje."
 
-#: views/modal/setup.wordWrite.html:14
+#: views/modal/setup.wordWrite.html:1
 msgid "Write down the 12th word from TREZOR into the recovery seed card."
 msgstr "Schrijf het 12e woord van TREZOR op in het recovery seed kaartje."
 
-#: views/modal/setup.wordWrite.html:15
+#: views/modal/setup.wordWrite.html:1
 msgid "Write down the 13th word from TREZOR into the recovery seed card."
 msgstr "Schrijf het 13e woord van TREZOR op in het recovery seed kaartje."
 
-#: views/modal/setup.wordWrite.html:16
+#: views/modal/setup.wordWrite.html:1
 msgid "Write down the 14th word from TREZOR into the recovery seed card."
 msgstr "Schrijf het 14e woord van TREZOR op in het recovery seed kaartje."
 
-#: views/modal/setup.wordWrite.html:17
+#: views/modal/setup.wordWrite.html:1
 msgid "Write down the 15th word from TREZOR into the recovery seed card."
 msgstr "Schrijf het 15e woord van TREZOR op in het recovery seed kaartje."
 
-#: views/modal/setup.wordWrite.html:18
+#: views/modal/setup.wordWrite.html:1
 msgid "Write down the 16th word from TREZOR into the recovery seed card."
 msgstr "Schrijf het 16e woord van TREZOR op in het recovery seed kaartje."
 
-#: views/modal/setup.wordWrite.html:19
+#: views/modal/setup.wordWrite.html:1
 msgid "Write down the 17th word from TREZOR into the recovery seed card."
 msgstr "Schrijf het 17e woord van TREZOR op in het recovery seed kaartje."
 
-#: views/modal/setup.wordWrite.html:20
+#: views/modal/setup.wordWrite.html:1
 msgid "Write down the 18th word from TREZOR into the recovery seed card."
 msgstr "Schrijf het 18e woord van TREZOR op in het recovery seed kaartje."
 
-#: views/modal/setup.wordWrite.html:21
+#: views/modal/setup.wordWrite.html:1
 msgid "Write down the 19th word from TREZOR into the recovery seed card."
 msgstr "Schrijf het 19e woord van TREZOR op in het recovery seed kaartje."
 
-#: views/modal/setup.wordWrite.html:3
+#: views/modal/setup.wordWrite.html:1
 msgid "Write down the 1st word from TREZOR into the recovery seed card."
 msgstr "Schrijf het 1e woord van TREZOR op in het recovery seed kaartje."
 
-#: views/modal/setup.wordWrite.html:22
+#: views/modal/setup.wordWrite.html:1
 msgid "Write down the 20th word from TREZOR into the recovery seed card."
 msgstr "Schrijf het 20e woord van TREZOR op in het recovery seed kaartje."
 
-#: views/modal/setup.wordWrite.html:23
+#: views/modal/setup.wordWrite.html:1
 msgid "Write down the 21st word from TREZOR into the recovery seed card."
 msgstr "Schrijf het 21e woord van TREZOR op in het recovery seed kaartje."
 
-#: views/modal/setup.wordWrite.html:24
+#: views/modal/setup.wordWrite.html:1
 msgid "Write down the 22nd word from TREZOR into the recovery seed card."
 msgstr "Schrijf het 22e woord van TREZOR op in het recovery seed kaartje."
 
-#: views/modal/setup.wordWrite.html:25
+#: views/modal/setup.wordWrite.html:1
 msgid "Write down the 23rd word from TREZOR into the recovery seed card."
 msgstr "Schrijf het 23e woord van TREZOR op in het recovery seed kaartje."
 
-#: views/modal/setup.wordWrite.html:26
+#: views/modal/setup.wordWrite.html:1
 msgid "Write down the 24th word from TREZOR into the recovery seed card."
 msgstr "Schrijf het 24e woord van TREZOR op in het recovery seed kaartje."
 
-#: views/modal/setup.wordWrite.html:4
+#: views/modal/setup.wordWrite.html:1
 msgid "Write down the 2nd word from TREZOR into the recovery seed card."
 msgstr "Schrijf het 2e woord van TREZOR op in het recovery seed kaartje."
 
-#: views/modal/setup.wordWrite.html:5
+#: views/modal/setup.wordWrite.html:1
 msgid "Write down the 3rd word from TREZOR into the recovery seed card."
 msgstr "Schrijf het 3e woord van TREZOR op in het recovery seed kaartje."
 
-#: views/modal/setup.wordWrite.html:6
+#: views/modal/setup.wordWrite.html:1
 msgid "Write down the 4th word from TREZOR into the recovery seed card."
 msgstr "Schrijf het 4e woord van TREZOR op in het recovery seed kaartje."
 
-#: views/modal/setup.wordWrite.html:7
+#: views/modal/setup.wordWrite.html:1
 msgid "Write down the 5th word from TREZOR into the recovery seed card."
 msgstr "Schrijf het 5e woord van TREZOR op in het recovery seed kaartje."
 
-#: views/modal/setup.wordWrite.html:8
+#: views/modal/setup.wordWrite.html:1
 msgid "Write down the 6th word from TREZOR into the recovery seed card."
 msgstr "Schrijf het 6e woord van TREZOR op in het recovery seed kaartje."
 
-#: views/modal/setup.wordWrite.html:9
+#: views/modal/setup.wordWrite.html:1
 msgid "Write down the 7th word from TREZOR into the recovery seed card."
 msgstr "Schrijf het 7e woord van TREZOR op in het recovery seed kaartje."
 
-#: views/modal/setup.wordWrite.html:10
+#: views/modal/setup.wordWrite.html:1
 msgid "Write down the 8th word from TREZOR into the recovery seed card."
 msgstr "Schrijf het 8e woord van TREZOR op in het recovery seed kaartje."
 
-#: views/modal/setup.wordWrite.html:11
+#: views/modal/setup.wordWrite.html:1
 msgid "Write down the 9th word from TREZOR into the recovery seed card."
 msgstr "Schrijf het 9e woord van TREZOR op in het recovery seed kaartje."
 
-#: views/modal/button.html:63
+#: views/modal/button.html:1
+msgctxt "heading"
 msgid "Write down the recovery seed from your device."
-msgstr "Schrijf de recovery seed van uw apparaat op."
+msgstr ""
 
-#. Wrong [device_name] PIN
-#: views/modal/pin.html:19
-msgid "Wrong PIN on"
-msgstr "Verkeerde PIN op"
+#. Wrong (device label) PIN
+#: views/modal/pin.html:1
+msgctxt "heading"
+msgid "Wrong {{label}} PIN"
+msgstr ""
 
-#: views/modal/firmware.html:252
+#: views/modal/firmware.html:7
+msgctxt "button"
 msgid "Yes, install"
-msgstr "Ja, installeer"
+msgstr ""
 
-#: views/modal/firmware.html:211 views/modal/firmware.html:345
+#: views/modal/firmware.html:7
+msgctxt "button"
 msgid "Yes, update"
-msgstr "Ja, update"
+msgstr ""
 
-#: views/account/transactions/table.html:63
+#: views/account/transactions/table.html:13 views/otherStrings.html:7
+msgctxt "date"
 msgid "Yesterday"
-msgstr "Gisteren"
+msgstr ""
 
-#. This text is displayed, when the fee is too high. *You are about to pay* $20 to send this transaction.
-#: views/account/send/inside.html:23
-msgid "You are about to pay"
-msgstr "U gaat nu een betaling verrichten"
+#. This text is displayed when the fee is too high.
+#: views/account/send/inside.html:1
+msgctxt "warning-message"
+msgid "You are about to pay {{fee}} to send this transaction."
+msgstr ""
 
-#: views/modal/backendwarnings/bcash.html:5
+#: views/modal/backendwarnings/bcash.html:1
 msgid "You are now switching to the Bitcoin Cash (BCH) wallet."
 msgstr "U gaat nu naar uw Bitcoin Cash (BCH) wallet."
 
-#: views/modal/beta.html:2
+#: views/modal/beta.html:1
+msgctxt "heading"
 msgid "You are opening TREZOR Beta Wallet"
-msgstr "U opent uw TREZOR Beta Wallet"
+msgstr ""
 
 #. This is displayed on Android.
-#: views/install/mobile.android.html:19
+#: views/install/mobile.android.html:1
+msgctxt "button"
 msgid "You can also download and install the APK directly."
-msgstr "U kunt ook direct de APK downloaden en installeren."
+msgstr ""
 
-#. Blockchain.info link follows
-#: views/debug.html:81
-msgid "You can try to resend this transaction using"
-msgstr "U kunt proberen deze transactie opnieuw te verzenden met behulp van"
+#. includes link to Blockchain.info (external Broadcast Transaction tool)
+#: views/debug.html:1
+msgctxt "text-with-link"
+msgid ""
+"You can try to resend this transaction using <a>external Broadcast "
+"Transaction tool</a>"
+msgstr ""
 
-#: views/nav/device-buttons.html:46
+#: views/nav/device-buttons.html:1
+msgctxt "tooltip"
 msgid "You cannot add more than 10 accounts."
-msgstr "U kunt niet meer dan 10 accounts toevoegen."
+msgstr ""
 
-#: views/device/recovery.html:36
+#: views/device/recovery.html:1
 msgid ""
 "You might be asked to retype some words that are not part of your recovery "
 "seed."
@@ -2818,12 +3401,12 @@ msgstr ""
 "Mogelijk wordt u gevraagd sommige woorden, die geen deel van uw herstelreeks "
 "uitmaken, opnieuw in te voeren."
 
-#: views/alertbars/offline.html:6
+#: views/alertbars/offline.html:1
 msgid "You were disconnected."
 msgstr "U bent losgekoppeld."
 
 #. Whole text: If you disable the passphrase encryption, your current funds will not appear. You will have to enable the passphrase encryption again to see your current wallet.
-#: views/device/advanced.html:86
+#: views/device/advanced.html:5
 msgid ""
 "You will have to enable the passphrase encryption again to see your current "
 "wallet."
@@ -2831,235 +3414,1407 @@ msgstr ""
 "U moet de wachtwoordzin-encryptie opnieuw inschakelen om uw huidige "
 "portemonnee te kunnen inzien."
 
-#. This text is displayed, when the amount is too high. Its goal is to get user to re-check the address. This is the first line.
-#: views/account/send/inside.html:48
+#. This text is displayed, when the send transaction amount is high. Its goal is to get user to re-check the address.
+#: views/account/send/inside.html:1
+msgctxt "warning-message"
 msgid "You're about to send a lot of money!"
-msgstr "U gaat een heleboel geld versturen!"
+msgstr ""
 
-#: views/modal/pinguide.html:5
+#: views/modal/pinguide.html:1
+msgctxt "heading"
 msgid "Your PINs were not matching"
-msgstr "Uw PINs kwamen niet overeen"
+msgstr ""
 
-#: views/modal/firmware.html:43
+#: views/modal/firmware.html:7
 msgid ""
 "Your TREZOR is already initialized. Check that you have your Recovery seed "
-"with you\n"
-"                    before updating the firmware!"
+"with you before updating the firmware!"
 msgstr ""
-"Uw TREZOR is al geïnitialiseerd. Controleer of u uw Recovery seed bij u "
-"heeft\n"
-"                    voordat u de firmware update!"
+"Uw TREZOR is al geïnitialiseerd. Zorg  dat u uw herstelreeks bij de hand "
+"heeft vóór het bijwerken van de firmware!"
 
-#: views/modal/firmware.html:376
+#: views/modal/firmware.html:7
+msgctxt "heading"
 msgid "Your TREZOR is not in the firmware update mode."
-msgstr "Uw TREZOR is niet in firmware-update modus."
+msgstr ""
 
-#: views/modal/disconnect.wipe.html:7 views/modal/forget.wipe.html:7
+#: views/modal/disconnect.wipe.html:1
 msgid "Your TREZOR was successfully wiped."
 msgstr "Uw TREZOR is leeggemaakt; alle data is verwijderd."
 
-#: views/modal/firmware.html:122 views/modal/firmware.html:371
+#: views/modal/firmware.html:7
+msgctxt "heading"
 msgid "Your device firmware is outdated"
-msgstr "De firmware van uw apparaat is verouderd"
+msgstr ""
 
-#: views/modal/firmware.html:152
+#: views/modal/firmware.html:7
+msgctxt "heading"
 msgid "Your device firmware is outdated."
-msgstr "De firmware van uw apparaat is verouderd."
+msgstr ""
 
-#: views/jumbotrons/noaccounts.html:5
+#: views/jumbotrons/noaccounts.html:1
 msgid "Your device is not fully loaded. Reconnect it to use it."
 msgstr ""
 "Uw apparaat is niet volledig geladen. Opnieuw aansluiten om het te kunnen "
 "gebruiken."
 
-#: views/device/homescreen.html:109
+#: views/device/homescreen.html:4
 msgid "Your images"
 msgstr "Uw afbeeldingen"
 
-#: views/modal/firmware.html:203 views/modal/firmware.html:337
-#: views/modal/firmware.html:99
+#: views/modal/firmware.html:7
 msgid "Your installation of TREZOR Bridge needs to be upgraded first."
 msgstr "Uw TREZOR-bridge moet eerst worden bijgewerkt."
 
-#. This will always be singular, and > 200.
-#: views/account/sign/inside.html:40 views/account/sign/inside.html:48
-msgid ""
-"Your message is {{accountSignCtrl.signMessage.message.length}} letters long."
+#: views/modal/firmware.html:7
+msgctxt "warning-message"
+msgid "Your installation of TREZOR Bridge needs to be upgraded first."
 msgstr ""
-"Uw bericht is {{accountSignCtrl.signMessage.message.length}} tekens lang."
 
 #. This will always be singular, and > 200.
-#: views/account/sign/inside.html:181
-msgid ""
-"Your message is {{accountSignCtrl.verifyMessage.message.length}} letters "
-"long."
+#: views/account/sign/inside.html:1 views/account/sign/inside.html:5
+#: views/account/sign/inside.html:6
+msgid "Your message is {{length}} letters long."
 msgstr ""
-"Uw bericht is {{accountSignCtrl.verifyMessage.message.length}} tekens lang."
 
 #. Part of a long text about Dropbox and labeling
-#: views/modal/dropbox.html:30
+#: views/modal/dropbox.html:1
 msgid "add your comments to transactions"
 msgstr "voeg uw opmerkingen toe aan transacties"
 
+#: views/modal/csv.html:4
+msgid ""
+"address,amount,currency\n"
+"{{exampleAddress}},0.31337,{{shortcut}}"
+msgstr ""
+
+#: views/modal/csv.html:6
+msgid ""
+"address,amount,currency\n"
+"{{exampleAddress}},0.31337,{{shortcut}}\n"
+"1Hs1pKYW9qZwY2DfSPFGVDKCqCJSDUqYfA,0.1,USD"
+msgstr ""
+
+#: views/modal/csv.html:1
+msgid ""
+"address,amount,currency,label\n"
+"{{exampleAddress}},0.31337,{{shortcut}},for Alice"
+msgstr ""
+
+#: views/modal/csv.html:2
+msgid ""
+"address,amount,currency,label\n"
+"{{exampleAddress}},0.31337,{{shortcut}},for Alice\n"
+"1Hs1pKYW9qZwY2DfSPFGVDKCqCJSDUqYfA,0.1,USD,for Bob"
+msgstr ""
+
 #. Attribution of picture, in the footer of Homepage. Don't translate the name of the picture or the author.
-#: views/device/homescreen.html:134
+#: views/device/homescreen.html:4
 msgid "coffee by jen is licenced under CC BY 2.0"
 msgstr "coffee by jen is gelicenseerd onder CC BY 2.0"
 
-#: config.sample.js:9
-msgid "coin-splitting tool"
-msgstr "coin-splitsing tool"
+#. Used when estimating transaction time (Expected time: 5 *days*)
+#: views/account/send/fees.html:1
+msgctxt "transaction-time"
+msgid "day"
+msgid_plural "days"
+msgstr[0] ""
+msgstr[1] ""
 
-#: views/nav/settings-buttons.html:40
-msgid "connected"
-msgstr "verbonden"
-
-#: views/account/send/txAmount.html:24 views/account/send/txAmount.html:81
-msgid "counting..."
-msgstr "bewerken..."
-
-#: views/modal/firmware.html:23
+#. to update the firmware...
+#: views/modal/firmware.html:7
 msgid "disconnect the device"
 msgstr "Koppel het apparaat los"
 
-#: views/debug.html:85
-msgid "external Broadcast Transaction tool"
-msgstr "externe Broadcast Transactie hulpmiddel"
+#. Length is important here! Full sentence: Discover TREZOR's new 2-factor authentication *for secure login to Gmail, Google Drive, Dropbox, Dashlane, and more...*
+#: views/promos/2fa.html:1
+msgctxt "promos-2fa"
+msgid "for secure login to Gmail, Google Drive, Dropbox, Dashlane, and more..."
+msgstr ""
+
+#. Length is important here! Full sentence: Discover TREZOR's 2F authentication *for secure login to<br>Google, Dropbox,<br>and more...*
+#: views/promos/2fa.html:1
+msgctxt "promos-2fa"
+msgid "for secure login to<br>Google, Dropbox,<br>and more..."
+msgstr ""
 
 #. This is shown in the 'hinting' in send dialogue. It means the shown address is an address, to which a user already sent something.
-#: views/account/send/txTypeAhead.html:18
+#: views/account/send/txTypeAhead.html:4
 msgctxt "typeahead"
 msgid "from history"
 msgstr "uit historie"
 
-#: views/modal/firmware.html:287
-msgid ""
-"have\n"
-"                                your Recovery seed ready before updating the "
-"firmware"
-msgstr ""
-"Heb\n"
-"                                uw Recovery seed klaarstaan voordat u de "
-"firmware update"
-
-#: views/device/homescreen.html:34
-msgid "homescreen editor"
-msgstr "thuisscherm editor"
-
 #. Used when estimating transaction time (Expected time: 5 *hours*)
-#: views/account/send/fees.html:59
+#: views/account/send/fees.html:1
 msgctxt "transaction-time"
 msgid "hour"
 msgid_plural "hours"
 msgstr[0] "uur"
 msgstr[1] "uren"
 
-#. Preceding is a non-ascii character in quotes.
-#: views/account/sign/inside.html:197 views/account/sign/inside.html:55
-msgid "in your message is not an ASCII character."
-msgstr "in uw bericht staat een niet ASCII-teken."
-
-#: views/modal/beta.html:6
-msgid "is a public feature-testing version of the"
-msgstr "is een publieke versie die de functies test van de"
-
-#: views/modal/beta.html:9
-msgid ""
-"is feature-conservative, making sure that its functionality is maximally "
-"reliable and dependable for the general public."
-msgstr ""
-"is functiegetrouw, waardoor zeker is dat de functionaliteit maximaal "
-"betrouwbaar is voor het algemene publiek."
-
 #. Part of a long text about Dropbox and labeling
-#: views/modal/dropbox.html:33
+#: views/modal/dropbox.html:1
 msgid "label addresses"
 msgstr "Adressen labelen"
 
 #. Refers to PIN input
-#: views/device/load.html:46
+#: views/device/load.html:1
 msgid "leave empty to keep PIN protection disabled"
 msgstr "laat leeg om de PINcode-beveiliging uitgeschakeld te laten"
 
+#. (fee is) less than 0.01 USD
+#: views/otherStrings.html:7
+msgid "less than {{amount}}"
+msgstr ""
+
 #. Used when estimating transaction time (Expected time: 5 *minutes*)
-#: views/account/send/fees.html:72
+#: views/account/send/fees.html:1
 msgctxt "transaction-time"
 msgid "minute"
 msgid_plural "minutes"
 msgstr[0] "minuut"
 msgstr[1] "minuten"
 
-#. This is on a hidden site, 99.99% of people will not see it
-#: views/device/metadata.html:26 views/device/metadata.html:55
+#. This is on a hidden site, 99.99% of people will not see it; means there is no metadata API key to display
+#: views/device/metadata.html:4 views/device/metadata.html:7
 msgid "not set"
 msgstr "niet ingesteld"
 
-#. Whole text: Scan it into an application that supports XPUBs such as Mycelium *or* Sentinel for Android. Then, you can watch your transactions and receive payments everywhere without carrying your TREZOR.
-#: views/device/index.basic.html:230
-msgctxt "xpub-text"
-msgid "or"
-msgstr "of"
+#. (uploader button before this) or use (link to homescreen editor)
+#: views/device/homescreen.html:1
+msgid "or use <a>homescreen editor</a>"
+msgstr ""
 
-#: views/account/transactions/welcomes/bitcoin.html:4
-msgid "or"
-msgstr "of"
-
-#: views/account/send/inside.html:114
-msgid "phase"
-msgstr "fase"
-
-#: views/modal/firmware.html:24
+#. to update the firmware...
+#: views/modal/firmware.html:7
 msgid "plug it in while holding both device buttons pressed"
 msgstr "sluit het aan terwijl u tegelijk beide knoppen op het apparaat indrukt"
 
 #. Part of a long text about Dropbox and labeling
-#: views/modal/dropbox.html:27
+#: views/modal/dropbox.html:1
 msgid "rename accounts"
 msgstr "account-namen wijzigen"
 
-#. displayed on the bottom in the TX
-#: views/account/send/txPrepared.html:44
-msgid "the change address"
-msgstr "het wisselgeld adres"
+#. Length is important here! Full sentence: Sending money to the right person? - Double check *the address with the other party<br/> and prevent malware attacks!*
+#: views/promos/malware.html:1
+msgctxt "promos-malware"
+msgid "the address with the other party<br>and prevent malware attacks!"
+msgstr ""
 
-#. Clicking here will lead the user to our manual.
-#: views/modal/firmware.html:29
-msgid "the user manual"
-msgstr "de gebruikershandleiding"
-
-#: views/account/transactions/summary.html:8
-msgid "to"
-msgstr "naar"
-
-#. This text is displayed, when the fee is too high. You are about to pay $20 *to send this transaction.*
-#: views/account/send/inside.html:34
-msgid "to send this transaction."
-msgstr "om deze transactie te verzenden."
-
-#. In text: 'Loading (123 transactions)', it is always plural
-#: views/nav/account.html:26
-msgctxt "loading"
-msgid "transaction"
-msgid_plural "transactions"
-msgstr[0] "transactie"
-msgstr[1] "transacties"
+#. as in unconfirmed transaction, date of confirmation is not known yet
+#: views/otherStrings.html:7
+msgctxt "date"
+msgid "unconfirmed"
+msgstr ""
 
 #. Part of a long text about Dropbox and labeling
-#: views/modal/dropbox.html:36
+#: views/modal/dropbox.html:1
 msgid "use the full-text search"
 msgstr "Gebruik de vol-tekst zoekacties"
 
-#. The whole sentence: Transaction 1234567890abcdef *was successfully sent.*
-#: views/debug.html:141
-msgctxt "send-done"
-msgid "was successfully sent."
-msgstr "is verzonden."
-
 #. This is shown in the 'hinting' in send dialogue. It means the shown address is an address of a different user's account.
-#: views/account/send/txTypeAhead.html:25
+#: views/account/send/txTypeAhead.html:4
 msgctxt "typeahead"
 msgid "your account"
 msgstr "uw account"
+
+#. displayed on the bottom in the TX
+#: views/account/send/txPrepared.html:1
+msgid "{{address}} (the change address)"
+msgstr ""
+
+#. 100 BTC <br> to <br> (first half of address) <br> (second half of address)
+#: views/modal/button.html:1
+msgid "{{amount}} {{currency}}<br>to<br>{{addr1}}<br>{{addr2}}"
+msgstr ""
+
+#. Send form -> add recipient -> import csv -> invalid currency shortcut in the Currency column
+#: views/otherStrings.html:7
+msgctxt "error-message"
+msgid "{{currency}} is not a valid currency"
+msgstr ""
+
+#. Displayed while signing a transaction. (current output count) / (total output count), phase (1 or 2) / 2
+#: views/account/send/inside.html:1
+msgid "{{current}} / {{total}}, phase {{phase}} / 2"
+msgstr ""
+
+#. (dropbox user) is currently connected
+#: views/nav/settings-buttons.html:1
+msgid "{{user}} connected"
+msgstr ""
+
+#~ msgid "(automatically in"
+#~ msgstr "(automatisch in"
+
+#~ msgid ""
+#~ ", offering the newest features before they are available to the general "
+#~ "public."
+#~ msgstr ""
+#~ ", met de nieuwste toepassingen voordat deze beschikbaar zijn voor het "
+#~ "algemene publiek."
+
+#~ msgid "1 per row"
+#~ msgstr "1 per rij"
+
+#~ msgid ""
+#~ "<hr>\n"
+#~ "                If you want to use TREZOR with different browsers, please "
+#~ "install TREZOR Bridge."
+#~ msgstr ""
+#~ "<hr>\n"
+#~ "                Als u TREZOR met verschillende browsers wilt gebruiker, "
+#~ "installeert u TREZOR Bridge."
+
+#~ msgid "?"
+#~ msgstr "?"
+
+#~ msgid "Action was interrupted"
+#~ msgstr "Actie is onderbroken"
+
+#~ msgid "Add account"
+#~ msgstr "Account toevoegen"
+
+#~ msgid "Add legacy account"
+#~ msgstr "Voeg legacy account toe"
+
+#~ msgctxt "send"
+#~ msgid "Address"
+#~ msgstr "Adres"
+
+#~ msgid "Address is required."
+#~ msgstr "Adres is verplicht."
+
+#~ msgid "Address verification failed."
+#~ msgstr "Adresverificatie is mislukt."
+
+#~ msgctxt "header"
+#~ msgid "Advanced"
+#~ msgstr "Extra"
+
+#~ msgid "Advanced recovery"
+#~ msgstr "Geavanceerde herstel"
+
+#~ msgid "All data on your device will be deleted."
+#~ msgstr "Alle gegevens op uw apparaat zullen worden verwijderd."
+
+#~ msgid "All time"
+#~ msgstr "Altijd"
+
+#~ msgid "Amount"
+#~ msgstr "Bedrag"
+
+#~ msgid "Amount has too many decimals"
+#~ msgstr "Bedrag heeft teveel cijfers achter de komma"
+
+#~ msgid "Amount is not a number"
+#~ msgstr "Bedrag is geen getal"
+
+#~ msgid "Amount is required."
+#~ msgstr "Bedrag is verplicht."
+
+#~ msgid "Amount is too low"
+#~ msgstr "Bedrag is te laag"
+
+#~ msgid "App Settings"
+#~ msgstr "App Instellingen"
+
+#~ msgid "Application Settings"
+#~ msgstr "Programma-instellingen"
+
+#~ msgid "Backspace"
+#~ msgstr "Backspace"
+
+#~ msgctxt "header"
+#~ msgid "Basic"
+#~ msgstr "Basis"
+
+#~ msgid "Bitcore Server URL"
+#~ msgstr "Bitcore Server-URL"
+
+#~ msgid "Bitcore server failed."
+#~ msgstr "Bitcore server mislukt."
+
+#~ msgid "Bootloader mode"
+#~ msgstr "Bootloader modus"
+
+#~ msgid "Careful, It's too easy to guess."
+#~ msgstr "Voorzichtig, het is te makkelijk te raden."
+
+#~ msgid "Caution!"
+#~ msgstr "Let op!"
+
+#~ msgid "Cell delimiter"
+#~ msgstr "Cel scheidingsteken"
+
+#~ msgid "Change"
+#~ msgstr "Wijzigen"
+
+#~ msgid "Changelog"
+#~ msgstr "Log van wijzigingen"
+
+#~ msgid "Check address on TREZOR display"
+#~ msgstr "Controleer het adres op het TREZOR display"
+
+#~ msgid ""
+#~ "Choose a strong PIN to protect your device from unauthorized access. The "
+#~ "layout is displayed on your TREZOR."
+#~ msgstr ""
+#~ "Kies een sterke PIN om uw apparaat te beschermen tegen onbevoegde "
+#~ "toegang. De layout is weergegeven op uw TREZOR."
+
+#~ msgid "Click on XPUB to show its QR code."
+#~ msgstr "Klik op XPUB om de QR-code te zien."
+
+#~ msgid "Comment"
+#~ msgstr "Opmerking"
+
+#~ msgid "Confirm action on your TREZOR device."
+#~ msgstr "Bevestig actie op uw TREZOR apparaat."
+
+#~ msgid "Confirm passphrase encryption"
+#~ msgstr "Bevestig de wachtwoordzin encryptie"
+
+#~ msgid "Confirm provided information."
+#~ msgstr "Bevestig verstrekte informatie."
+
+#~ msgid "Congratulations! Your device is now ready to use."
+#~ msgstr "Gefeliciteerd! Uw apparaat is nu klaar voor gebruik."
+
+#~ msgid "Connect to Dropbox"
+#~ msgstr "Verbinden met Dropbox"
+
+#~ msgid "Connected device"
+#~ msgstr "Aangesloten apparaat"
+
+#~ msgid "Currency backend"
+#~ msgstr "Valuta backend"
+
+#~ msgid "Custom"
+#~ msgstr "Handmatig"
+
+#~ msgctxt "send"
+#~ msgid "Custom fee"
+#~ msgstr ""
+#~ "Dit een een label voor het verzendformulier. (Adres/bedrag/opmerking)"
+
+#~ msgid "Device"
+#~ msgstr "Apparaat"
+
+#~ msgid "Device ID"
+#~ msgstr "Apparaat-ID"
+
+#~ msgid "Device firmware is outdated."
+#~ msgstr "Apparaat firmware is verouderd."
+
+#~ msgid "Device is updated in other window"
+#~ msgstr "Apparaat wordt bijgewerkt in een ander venster"
+
+#~ msgid "Disconnect"
+#~ msgstr "Verbreek"
+
+#~ msgid "Disconnect your TREZOR now"
+#~ msgstr "Verbreek nu de verbinding met uw TREZOR"
+
+#~ msgid "Disconnected device"
+#~ msgstr "Losgekoppeld apparaat"
+
+#~ msgid "Display transaction on explorer"
+#~ msgstr "Toon transactie op verkenner"
+
+#~ msgid "Do you want to update the device firmware?"
+#~ msgstr "Wilt u de firmware van het apparaat bijwerken?"
+
+#~ msgctxt "forget-button"
+#~ msgid "Don't forget"
+#~ msgstr "Niet vergeten"
+
+#~ msgid "Don't have a TREZOR?"
+#~ msgstr "Heeft u geen TREZOR?"
+
+#~ msgid "Download"
+#~ msgstr "Downloaden"
+
+#~ msgid "Download TREZOR Manager App on Google Play."
+#~ msgstr "Download de TREZOR Manager App van Google Play."
+
+#~ msgid "Downloading firmware..."
+#~ msgstr "Firmware downloaden..."
+
+#~ msgid "ETH / ETC Wallet"
+#~ msgstr "ETH / ETC Portemonnee"
+
+#~ msgid "Edit Device basics"
+#~ msgstr "Wijzig Apparaat standaarden"
+
+#~ msgid "Enable Labeling"
+#~ msgstr "Labeling Inschakelen"
+
+#~ msgid "Enable labeling"
+#~ msgstr "Gebruik van labels Inschakelen"
+
+#~ msgid "Enable labeling on"
+#~ msgstr "Labeling inschakelen op"
+
+#~ msgctxt "pin-button"
+#~ msgid "Enter"
+#~ msgstr "Enter"
+
+#~ msgid "Enter"
+#~ msgstr "Voer"
+
+#~ msgctxt "passphrase-button"
+#~ msgid "Enter"
+#~ msgstr "Enter"
+
+#~ msgid "Enter passphrase for"
+#~ msgstr "Voer passphrase in voor"
+
+#~ msgid "Enter your new"
+#~ msgstr "Voer uw nieuwe"
+
+#~ msgid "Error details:"
+#~ msgstr "Foutdetails:"
+
+#~ msgid "Ethereum Wallet"
+#~ msgstr "Ethereum Portemonnee"
+
+#~ msgid "Exchange:"
+#~ msgstr "Uitwisseling:"
+
+#~ msgid "Expense"
+#~ msgstr "Kosten"
+
+#~ msgid "Explorer URL"
+#~ msgstr "Verkenner URL"
+
+#~ msgid "Failed to add account."
+#~ msgstr "Account toevoegen mislukt."
+
+#~ msgid "Failed to change the device label."
+#~ msgstr "Labelwijziging van het apparaat mislukt."
+
+#~ msgid "Failed to renew session."
+#~ msgstr "Vernieuwen van deze sessie mislukt."
+
+#~ msgid "Failed to send transaction"
+#~ msgstr "Verzenden transactie mislukt"
+
+#~ msgid "Failed to sign message"
+#~ msgstr "Bericht ondertekenen is mislukt"
+
+#~ msgid "Failed to verify message"
+#~ msgstr "Bericht verifiëren is mislukt"
+
+#~ msgid "Fee is over threshold."
+#~ msgstr "Vergoeding is boven de drempelwaarde."
+
+#~ msgid "Fee/kB:"
+#~ msgstr "Vergoeding/kB:"
+
+#~ msgid "Fee:"
+#~ msgstr "Vergoeding:"
+
+#~ msgid "Fiat Currency"
+#~ msgstr "Fiat Valuta"
+
+#~ msgid "First row is header"
+#~ msgstr "Eerste rij is kop"
+
+#~ msgid ""
+#~ "Follow the instructions on your\n"
+#~ "                                                    device."
+#~ msgstr ""
+#~ "Volg de instructies op uw\n"
+#~ "                                                    apparaat."
+
+#~ msgid "For more information, please refer to"
+#~ msgstr "Voor meer informatie, verwijs naar"
+
+#~ msgid "For more information, visit the user manual."
+#~ msgstr "Kijk voor meer informatie in de gebruikershandleiding."
+
+#~ msgid ""
+#~ "For security reasons, TREZOR is shipped without firmware installed. This "
+#~ "is to ensure that your\n"
+#~ "                        firmware will be up-to-date at the time of "
+#~ "initialization."
+#~ msgstr ""
+#~ "Om beveiligingsredenen wordt TREZOR verscheept zonder firmware. Dit doen "
+#~ "we zodat\n"
+#~ "                        uw firmware up-to-date is op het moment van "
+#~ "initialisatie."
+
+#~ msgid ""
+#~ "For testing purposes, Wallet uses the same dollar rates for testnet coins "
+#~ "as for bitcoin."
+#~ msgstr ""
+#~ "Voor testdoeleinden gebruikt de Wallet dezelfde dollarkoersen voor "
+#~ "testnet en voor bitcoin."
+
+#~ msgid "Forget"
+#~ msgstr "Vergeet"
+
+#~ msgctxt "forget-button"
+#~ msgid "Forget (recommended)"
+#~ msgstr "Vergeet (aanbevolen)"
+
+#~ msgid "Forget this device"
+#~ msgstr "Vergeet dit apparaat"
+
+#~ msgid "From"
+#~ msgstr "Van"
+
+#~ msgid "Get one"
+#~ msgstr "Haal er een"
+
+#~ msgid "Go back"
+#~ msgstr "Ga terug"
+
+#~ msgid ""
+#~ "Go to\n"
+#~ "        MyEtherWallet"
+#~ msgstr ""
+#~ "Ga naar\n"
+#~ "        MyEtherWallet"
+
+#~ msgid "Go to TREZOR Wallet"
+#~ msgstr "Ga naar TREZOR Wallet"
+
+#~ msgctxt "header"
+#~ msgid "Homescreen"
+#~ msgstr "Welkomscherm"
+
+#~ msgid "Homescreen change failed."
+#~ msgstr "Wijzigen welkomscherm is mislukt."
+
+#~ msgid "Homescreen was successfully changed."
+#~ msgstr "Welkomscherm is gewijzigd."
+
+#~ msgid "If the problem persists, please run our"
+#~ msgstr "Als het probleem zich blijft voortdoen, voer alstublieft onze"
+
+#~ msgid ""
+#~ "If you are a common user and want to setup or recover your TREZOR device, "
+#~ "please continue to TREZOR Setup."
+#~ msgstr ""
+#~ "Als u een standaard gebruiker bent en u wilt uw TREZOR installeren of "
+#~ "herstellen, ga dan naar TREZOR Setup."
+
+#~ msgid "If you forget your passphrase, you will lose your coins."
+#~ msgstr "Als u uw wachtwoordzin vergeet, bent u uw coins kwijt."
+
+#~ msgid "If you have TREZOR set up already,"
+#~ msgstr "Als u TREZOR al ingesteld heeft,"
+
+#~ msgid "If you set too low fee, it might get stuck forever."
+#~ msgstr ""
+#~ "Als u de vergoeding te laag ingeeft, kan het zijn dat het voor altijd "
+#~ "blijft hangen."
+
+#~ msgid ""
+#~ "If your TREZOR has not been set up yet (fresh out of the box), you do not "
+#~ "need to\n"
+#~ "                            have a Recovery seed."
+#~ msgstr ""
+#~ "Als uw TREZOR nog niet gebruikt is (nieuw uit de doos), heeft u geen\n"
+#~ "                            Recovery seed nodig."
+
+#~ msgid ""
+#~ "If your TREZOR is already initialized, always have your Recovery seed "
+#~ "with you\n"
+#~ "                    before updating the firmware!"
+#~ msgstr ""
+#~ "Als uw TREZOR al geïnitialiseerd is, houd dan altijd uw Recovery seed bij "
+#~ "de hand\n"
+#~ "                    voordat u de firmware update!"
+
+#~ msgid "Import"
+#~ msgstr "Importeren"
+
+#~ msgid "Import addresses from CSV"
+#~ msgstr "Adressen importeren uit CSV"
+
+#~ msgid "In contrast,"
+#~ msgstr "In tegenstelling,"
+
+#~ msgid ""
+#~ "In some cases, Linux users need to install udev rules to access the "
+#~ "device.\n"
+#~ "                Please, install the following package and reconnect your "
+#~ "TREZOR."
+#~ msgstr ""
+#~ "In sommige gevallen moeten Linux gebruikers udev regels installeren om "
+#~ "het apparaat te kunnen benaderen.\n"
+#~ "                Installeer alstublieft het volgende pakket en verbind uw "
+#~ "TREZOR opnieuw."
+
+#~ msgid ""
+#~ "In very rare cases, a firmware update might result in the need to recover "
+#~ "the wallet from\n"
+#~ "                    Recovery seed."
+#~ msgstr ""
+#~ "In zeer zeldzame gevallen zorgt een firmware update ervoor dat u uw "
+#~ "portemonnee moet herstellen met behulp van uw\n"
+#~ "                    Recovery seed."
+
+#~ msgid "Income"
+#~ msgstr "Inkomsten"
+
+#~ msgid "Inputs:"
+#~ msgstr "Invoer:"
+
+#~ msgid "Install Extension"
+#~ msgstr "Extensie Installeren"
+
+#~ msgid "Install TREZOR Chrome Extension"
+#~ msgstr "TREZOR Chrome extensie installeren"
+
+#~ msgid "Interested in best security practices?"
+#~ msgstr "Geïnteresseerd in de beste beveiligingspraktijken?"
+
+#~ msgid "Invalid signature"
+#~ msgstr "Ongeldige handtekening"
+
+#~ msgid "It's fine."
+#~ msgstr "Redelijk."
+
+#~ msgid "It's time to install firmware."
+#~ msgstr "Het is tijd om firmware te installeren."
+
+#~ msgid "Label was successfully changed."
+#~ msgstr "Label is succesvol gewijzigd."
+
+#~ msgid "Labeling error."
+#~ msgstr "Fout bij labelen."
+
+#~ msgid "Last 2 Months"
+#~ msgstr "Laatste 2 Maanden"
+
+#~ msgid "Last 2 Weeks"
+#~ msgstr "Laatste 2 Weken"
+
+#~ msgid "Last 2 Years"
+#~ msgstr "Laatste 2 Jaar"
+
+#~ msgid "Latest"
+#~ msgstr "Nieuwste"
+
+#~ msgid "Learn more"
+#~ msgstr "Meer informatie"
+
+#~ msgid "Learn more about"
+#~ msgstr "Leer meer over"
+
+#~ msgid "Learn more about Legacy accounts."
+#~ msgstr "Lees meer over Legacy accounts."
+
+#~ msgid "Learn more about Recovery"
+#~ msgstr "Leer meer over Herstellen"
+
+#~ msgid "Learn more about TREZOR Wallet labeling"
+#~ msgstr "Leer meer over TREZOR Portemonnee labeling"
+
+#~ msgid "Learn more about phishing…"
+#~ msgstr "Leer meer over phishing…"
+
+#, fuzzy
+#~ msgid "Legacy account XPUBs"
+#~ msgstr "Legacy account XPUBs"
+
+#, fuzzy
+#~ msgid "Legacy metadata keys"
+#~ msgstr "Legacy metadata keys"
+
+#~ msgid "Litecoin changed the format of addresses."
+#~ msgstr "Litecoin heeft het adresformat veranderd."
+
+#~ msgid "Loading"
+#~ msgstr "Laden"
+
+#~ msgid "Loading ..."
+#~ msgstr "Laden ..."
+
+#~ msgid "Loading failed."
+#~ msgstr "Laden mislukt."
+
+#~ msgid "Local traders:"
+#~ msgstr "Lokale handelaren:"
+
+#~ msgid "Lock this device"
+#~ msgstr "Dit apparaat vergrendelen"
+
+#~ msgid "Log"
+#~ msgstr "Logboek"
+
+#~ msgid ""
+#~ "Make sure the address displayed on TREZOR is correct.<br>To prevent "
+#~ "malware attacks, double-check the address with the recipient."
+#~ msgstr ""
+#~ "Zorg ervoor dat het adres op de TREZOR correct is.<br>Dubbel-check het "
+#~ "adres met de ontvanger om malware aanvallen te voorkomen."
+
+#~ msgid "Manual configuration (advanced)"
+#~ msgstr "Handmatige configuratie (geavanceerd)"
+
+#~ msgid ""
+#~ "Many thanks to our translators for their <a href=\"http://doc.satoshilabs."
+#~ "com/trezor-tech/translating.html\" class=\"arrow\">contribution</a>"
+#~ msgstr ""
+#~ "Veel dank aan onze vertalers voor hun <a href=\"http://doc.satoshilabs."
+#~ "com/trezor-tech/translating.html\" class=\"arrow\">contributie</a>"
+
+#~ msgid "Message verified."
+#~ msgstr "Bericht geverifieerd."
+
+#~ msgid "Metadata setup"
+#~ msgstr "Metagegevens setup"
+
+#, fuzzy
+#~ msgctxt "xpub-text"
+#~ msgid "Mycelium"
+#~ msgstr "Mycelium"
+
+#~ msgid "Nearest ATM:"
+#~ msgstr "Dichtstbijzijnde ATM:"
+
+#~ msgid ""
+#~ "Never do this action with TREZOR holding coins unless you have your "
+#~ "recovery seed at hand."
+#~ msgstr ""
+#~ "Doe dit nooit wanneer u coins op uw TREZOR heeft staan, tenzij u uw "
+#~ "herstel-reeks bij de hand heeft."
+
+#~ msgid "Never use this process unless you really know what you are doing!"
+#~ msgstr "Niet doen tenzij u echt weet wat u doet!"
+
+#~ msgid "New device setup"
+#~ msgstr "Nieuw apparaat instaleren"
+
+#~ msgid "No accounts"
+#~ msgstr "Geen accounts"
+
+#~ msgid ""
+#~ "No checks are performed on the provided seed, so it can be binary "
+#~ "sequence, dice-throw sequence or a random sentence. Valid BIP32 XPRV keys "
+#~ "are interpreted prior loading to the device."
+#~ msgstr ""
+#~ "De ingevoerde herstel-reeks wordt niet gecontroleerd, dus het kan een "
+#~ "binaire rij, dobbelstenenworp of een willekeurige zin zijn. Geldige BIP32 "
+#~ "XPRV sleutels worden bekeken vóór het uploaden naar het apparaat."
+
+#~ msgid "Not a valid address"
+#~ msgstr "Geen geldig adres"
+
+#~ msgid "Not enough funds"
+#~ msgstr "Niet genoeg geld"
+
+#~ msgid "Not sure how PIN works?"
+#~ msgstr "Niet zeker hoe PIN werkt?"
+
+#~ msgid "Note that passphrase is case-sensitive."
+#~ msgstr "Merk op dat de wachtwoordzin hoofdlettergevoelig is."
+
+#~ msgid "Note that the number layout displayed on TREZOR has changed!"
+#~ msgstr "Let op dat de nummer indeling op de TREZOR gewijzigd is!"
+
+#~ msgid "Note:"
+#~ msgstr "Noot:"
+
+#~ msgid "OK"
+#~ msgstr "OK"
+
+#~ msgid "Outputs:"
+#~ msgstr "Uitvoer:"
+
+#~ msgid "PIN change failed."
+#~ msgstr "PINcode wijzigen is mislukt."
+
+#~ msgid "PIN was successfully changed."
+#~ msgstr "PINcode is gewijzigd."
+
+#~ msgid "PIN was successfully removed."
+#~ msgstr "PINcode is verwijderd."
+
+#~ msgid "Passphrase change failed."
+#~ msgstr "Wachtwoordzin wijziging is mislukt."
+
+#~ msgid "Passphrase is too long!"
+#~ msgstr "Wachtwoordzin is te lang!"
+
+#~ msgid "Passphrases do not match!"
+#~ msgstr "Wachtwoordzinnen komen niet overeen!"
+
+#~ msgid "Paste the CSV here:"
+#~ msgstr "Plak de CSV hier:"
+
+#~ msgid "Perfect, impossible to guess!"
+#~ msgstr "Perfect, onmogelijk om te raden!"
+
+#~ msgid ""
+#~ "Please check carefully that\n"
+#~ "            you wrote them down correctly."
+#~ msgstr ""
+#~ "Zorg ervoor dat\n"
+#~ "            u ze correct heeft opgeschreven."
+
+#~ msgid "Please confirm the firmware fingerprint."
+#~ msgstr "Bevestig de vingerafdruk van de firmware."
+
+#~ msgctxt "send-button-tooltip"
+#~ msgid "Please connect your device to send coins."
+#~ msgstr "Sluit uw apparaat aan om munten te verzenden."
+
+#~ msgctxt "sign-button-tooltip"
+#~ msgid "Please connect your device to sign messages."
+#~ msgstr "Sluit uw apparaat aan om berichten te ondertekenen."
+
+#~ msgid "Please enter the device label"
+#~ msgstr "Voer het label van het apparaat in"
+
+#~ msgctxt "send-button-tooltip"
+#~ msgid "Please fill in address"
+#~ msgstr "Vul het adres in"
+
+#~ msgctxt "send-button-tooltip"
+#~ msgid "Please fill in amount"
+#~ msgstr "Vul het bedrag in"
+
+#~ msgctxt "sign-button-tooltip"
+#~ msgid "Please fill in message and address."
+#~ msgstr "Vul het bericht en het adres in."
+
+#~ msgctxt "send-button-tooltip"
+#~ msgid "Please reload the page to send money."
+#~ msgstr "Herlaad de pagina om geld te versturen."
+
+#~ msgid ""
+#~ "Please try again. You need to make sure<strong>both device buttons are "
+#~ "pressed, as you plug in\n"
+#~ "                the device.</strong>"
+#~ msgstr ""
+#~ "Probeer het opnieuw. U moet er zeker van zijn dat<strong>beide apparaat "
+#~ "knoppen ingedrukt zijn zodra u\n"
+#~ "                het apparaat aansluit.</strong>"
+
+#~ msgctxt "send-button-tooltip"
+#~ msgid "Please wait a few seconds..."
+#~ msgstr "Wacht een paar seconden..."
+
+#~ msgctxt "button-tooltip"
+#~ msgid "Please wait."
+#~ msgstr "Even geduld aub."
+
+#~ msgid "Please, re-enter correct PIN."
+#~ msgstr "Gelieve de PIN opnieuw in te voeren."
+
+#~ msgid "Private bank in your hands."
+#~ msgstr "Privé bank in uw handen."
+
+#~ msgid "QR scanning failed."
+#~ msgstr "Scannen van de QR-code is mislukt."
+
+#~ msgid "Rates by"
+#~ msgstr "Tarieven door"
+
+#~ msgid "Raw transaction in hex format:"
+#~ msgstr "Raw transactie in hex formaat:"
+
+#~ msgid "Re-enter new"
+#~ msgstr "Voer opnieuw in"
+
+#~ msgid "Reading of accounts failed."
+#~ msgstr "Lezen van accounts is mislukt."
+
+#~ msgid "Receive payment"
+#~ msgstr "Betaling ontvangen"
+
+#~ msgid "Recovery failed."
+#~ msgstr "Herstel is mislukt."
+
+#~ msgid "Recovery seed or XPRV private key"
+#~ msgstr "Herstelreeks of de XPRV persoonlijke sleutel"
+
+#~ msgid "Recovery seed setup"
+#~ msgstr "Herstelreeks setup"
+
+#~ msgid "Release notes"
+#~ msgstr "Release-opmerkingen"
+
+#~ msgid "Remove recipient"
+#~ msgstr "Ontvanger verwijderen"
+
+#~ msgid "Rename account"
+#~ msgstr "Account-naam wijzigen"
+
+#~ msgid "Rename this account"
+#~ msgstr "Account-naam wijzigen"
+
+#~ msgid "Save &amp; Reload"
+#~ msgstr "Opslaan &amp; Herladen"
+
+#~ msgid "Scan address from a QR code"
+#~ msgstr "Adres dmw een QR-code scannen"
+
+#~ msgctxt "xpub-text"
+#~ msgid "Scan it into an application that supports XPUBs such as"
+#~ msgstr "Scannen naar een toepassing die XPUBs ondersteunt zoals"
+
+#~ msgid "Seed recovery"
+#~ msgstr "Herstelreeks"
+
+#, fuzzy
+#~ msgid "Segwit account XPUBs"
+#~ msgstr "Segwit account XPUBs"
+
+#, fuzzy
+#~ msgid "Segwit metadata keys"
+#~ msgstr "Segwit metadata keys"
+
+#~ msgid "Select platform..."
+#~ msgstr "Kies platform..."
+
+#~ msgctxt "button"
+#~ msgid "Send"
+#~ msgstr "Verzenden"
+
+#~ msgid "Send payment"
+#~ msgstr "Stuur betaling"
+
+#~ msgid "Set maximum possible amount"
+#~ msgstr "Stel maximale bedrag in"
+
+#~ msgid "Setting custom fee is not recommended."
+#~ msgstr "Het is niet aan te raden zelf uw vergoeding in te stellen."
+
+#~ msgid ""
+#~ "Setting up your TREZOR will take only a few minutes.\n"
+#~ "                    When you're done, you can start using your TREZOR."
+#~ msgstr ""
+#~ "Uw TREZOR instellen zal maar een paar minuten duren.\n"
+#~ "                    Wanneer u klaar bent, kunt u TREZOR gebruiken."
+
+#~ msgid "Setup failed."
+#~ msgstr "De installatie is mislukt."
+
+#~ msgid "Show XPUBs"
+#~ msgstr "Toon XPUB's"
+
+#~ msgid "Show changes"
+#~ msgstr "Wijzigingen weergeven"
+
+#~ msgid "Show details"
+#~ msgstr "Toon details"
+
+#~ msgid "Show less"
+#~ msgstr "Toon minder"
+
+#~ msgid "Show log"
+#~ msgstr "Logboek tonen"
+
+#~ msgid "Show more"
+#~ msgstr "Toon meer"
+
+#~ msgid "Show passphrase"
+#~ msgstr "Toon wachtwoordzin"
+
+#~ msgid "Show transaction details"
+#~ msgstr "Transactiedetails weergeven"
+
+#~ msgid "Signed successfully."
+#~ msgstr "Succesvol ondertekend."
+
+#~ msgid "Signing and sending transaction&hellip;"
+#~ msgstr "Ondertekenen en verzenden van transactie &hellip;"
+
+#~ msgid "Size:"
+#~ msgstr "Grootte:"
+
+#~ msgid "Skip mnemonic checksum"
+#~ msgstr "Sla mnemonic checksum over"
+
+#~ msgid "Some fields are incorrect."
+#~ msgstr "Sommige velden zijn onjuist."
+
+#~ msgid "Still confused how PIN works?"
+#~ msgstr "Nog steeds verward hoe PIN werkt?"
+
+#~ msgid "Strong enough!"
+#~ msgstr "Sterk genoeg!"
+
+#~ msgctxt "flash"
+#~ msgid "Success"
+#~ msgstr "Succes"
+
+#~ msgid "Support Center"
+#~ msgstr "Support"
+
+#~ msgid "Support needed?"
+#~ msgstr "Ondersteuning nodig?"
+
+#~ msgid "Switching to Bitcoin Cash"
+#~ msgstr "Switch naar Bitcoin Cash"
+
+#, fuzzy
+#~ msgid "TREZOR Beta Wallet"
+#~ msgstr "TREZOR Beta Wallet"
+
+#~ msgid "TREZOR Bridge update"
+#~ msgstr "TREZOR Bridge-update"
+
+#, fuzzy
+#~ msgid "TREZOR Wallet"
+#~ msgstr "TREZOR Wallet"
+
+#~ msgid "TREZOR Wallet labeling"
+#~ msgstr "TREZOR Wallet labels"
+
+#~ msgid "TREZOR cannot sign non-ASCII characters."
+#~ msgstr "TREZOR kan geen niet-ASCII-tekens weergeven."
+
+#~ msgid "TREZOR cannot verify non-ASCII characters."
+#~ msgstr "TREZOR kan niet-ASCII-tekens niet controleren."
+
+#~ msgid "TREZOR loading failed"
+#~ msgstr "TREZOR laden mislukt"
+
+#~ msgid "Terms"
+#~ msgstr "Termen"
+
+#~ msgid ""
+#~ "The authenticity of the installed firmware is checked during start up.\n"
+#~ "                        If the firmware was not provided by SatoshiLabs, "
+#~ "the device will display a warning when you\n"
+#~ "                        start it."
+#~ msgstr ""
+#~ "De echtheid van de geïnstalleerde firmware wordt gecheckt tijdens het "
+#~ "starten.\n"
+#~ "                        Als de firmware niet door SatoshiLabs is "
+#~ "geleverd, zal het apparaat een waarschuwing weergeven zodra u\n"
+#~ "                        deze start."
+
+#~ msgid ""
+#~ "The bitcore server doesn't seem to reply. Please select another server."
+#~ msgstr ""
+#~ "De bitcore server lijkt niet te antwoorden. Selecteer een andere server."
+
+#~ msgid ""
+#~ "The final size can differ a few bytes, since the transaction is created "
+#~ "on TREZOR."
+#~ msgstr ""
+#~ "Omdat de transactie op TREZOR is gemaakt kan de uiteindelijke grootte kan "
+#~ "een paar bytes verschillen, ."
+
+#~ msgid "The layout is displayed on your TREZOR."
+#~ msgstr "De layout is weergegeven op uw TREZOR."
+
+#~ msgid "The transaction fee is unexpectedly high."
+#~ msgstr "De transactievergoeding is onverwacht hoog."
+
+#~ msgctxt "xpub-text"
+#~ msgid ""
+#~ "Then, you can watch your transactions and receive payments everywhere "
+#~ "without carrying your TREZOR."
+#~ msgstr ""
+#~ "Daarna kunt u uw transacties en ontvangen betalingen overal bekijken "
+#~ "zonder uw TREZOR bij u te hebben."
+
+#~ msgid "This Month"
+#~ msgstr "Deze Maand"
+
+#~ msgid "This Week"
+#~ msgstr "Deze Week"
+
+#~ msgid "This Year"
+#~ msgstr "Dit Jaar"
+
+#~ msgid "This is an advanced interface intended for developer use only!"
+#~ msgstr ""
+#~ "Dit is een geavanceerde interface uitsluitend bedoeld voor gebruik door "
+#~ "de ontwikkelaar!"
+
+#~ msgid ""
+#~ "This is your Bitcoin Cash (BCH) wallet. Do not receive bitcoins to the "
+#~ "addresses in this wallet."
+#~ msgstr ""
+#~ "Dit is uw Bitcoin Cash (BCH) wallet. Ontvang geen bitcoins op de adressen "
+#~ "in deze wallet."
+
+#~ msgid ""
+#~ "To access subsequent addresses, please use some of the listed addresses "
+#~ "in a\n"
+#~ "                                    transaction."
+#~ msgstr ""
+#~ "Gebruik enkele van de genoemde adressen in een transactie om toegang te "
+#~ "krijgen tot volgende\n"
+#~ "                                    adressen."
+
+#~ msgid ""
+#~ "To access subsequent addresses, please wait for confirmation on "
+#~ "transaction on some of the\n"
+#~ "                                    previous addresses."
+#~ msgstr ""
+#~ "Wacht op de bevestiging van transacties van vorige adressen om toegang te "
+#~ "krijgen tot volgende\n"
+#~ "                                    adressen."
+
+#~ msgid ""
+#~ "To add accounts, make sure your device is connected and the last account "
+#~ "is not empty."
+#~ msgstr ""
+#~ "Controleer of uw apparaat is aangesloten en het laatste account niet leeg "
+#~ "is om accounts toe te voegen."
+
+#~ msgid "To claim your Bitcoin Cash coins, please use our"
+#~ msgstr "Om uw Bitcoins Cash munten te claimen, gebruik s.v.p. onze"
+
+#~ msgid "Today"
+#~ msgstr "Vandaag"
+
+#~ msgctxt "send-done"
+#~ msgid "Transaction"
+#~ msgstr "Transactie"
+
+#~ msgid "Try again"
+#~ msgstr "Probeer opnieuw"
+
+#~ msgid "Try installing udev rules."
+#~ msgstr "Probeer udev regels te installeren."
+
+#~ msgid "URL needs to start with https://"
+#~ msgstr "URL moet beginnen met https://"
+
+#~ msgid "URL needs to start with https:// or http://"
+#~ msgstr "URL moet beginnen met https:// of http://"
+
+#~ msgid "Unconfirmed"
+#~ msgstr "Niet bevestigd"
+
+#~ msgid ""
+#~ "Unlike your TREZOR, computers are not safe. Malware might replace bitcoin "
+#~ "addresses you see."
+#~ msgstr ""
+#~ "In tegenstelling tot uw TREZOR zijn computers niet veilig. Malware kan "
+#~ "namelijk bitcoin adressen wijzigen."
+
+#~ msgid "Unnecessarily too long."
+#~ msgstr "Onnodig te lang."
+
+#~ msgid "Update device firmware?"
+#~ msgstr "Update apparaat firmware?"
+
+#~ msgid "Update failed"
+#~ msgstr "Update is mislukt"
+
+#~ msgid "Update was successful"
+#~ msgstr "Update is gelukt"
+
+#, fuzzy
+#~ msgid "Upgrade"
+#~ msgstr "Upgrade"
+
+#~ msgid "Upgrade for the newest features and bug fixes."
+#~ msgstr "Upgrade van de laatste functies en bug fixes."
+
+#~ msgctxt "bridge-update"
+#~ msgid "Upgrade for the newest features and bug fixes."
+#~ msgstr "Upgrade voor de nieuwe functies en bugfixes."
+
+#~ msgctxt "firmware-update"
+#~ msgid "Upgrade for the newest features and bug fixes."
+#~ msgstr "Upgrade voor nieuwe functies en bugfixes."
+
+#~ msgid "Uploading firmware..."
+#~ msgstr "Firmware uploaden..."
+
+#~ msgid "Used in other window"
+#~ msgstr "Gebruikt in een ander venster"
+
+#~ msgid ""
+#~ "Using PIN protection is highly recommended. PIN prevents unauthorized "
+#~ "persons from stealing your\n"
+#~ "                bitcoins even when they get physical access to your "
+#~ "device."
+#~ msgstr ""
+#~ "Het gebruik van PIN bescherming is sterk aangeraden. PIN voorkomt dat "
+#~ "onbevoegde personen uw\n"
+#~ "                bitcoins stelen ook al hebben ze fysieke toegang tot uw "
+#~ "apparaat."
+
+#~ msgid "Versions"
+#~ msgstr "Versies"
+
+#~ msgid "Waiting for camera&hellip;"
+#~ msgstr "Wachten op camera &hellip;"
+
+#~ msgid ""
+#~ "We recommend you to verify the payment address through independent "
+#~ "communication channels such as a phone call or a text message."
+#~ msgstr ""
+#~ "We raden u om het betalingsadres te controleren via onafhankelijke "
+#~ "communicatiekanalen zoals een telefoongesprek of een SMS-bericht."
+
+#~ msgid "What's next?"
+#~ msgstr "Wat is het volgende?"
+
+#~ msgid "Wipe failed."
+#~ msgstr "Leegmaken is mislukt."
+
+#~ msgid "Wipe finished"
+#~ msgstr "Leegmaken is klaar"
+
+#~ msgid "Wiping the device <span>removes all its information.</span>"
+#~ msgstr "Het apparaat wissen <span>verwijderd al zijn informatie.</span>"
+
+#~ msgid ""
+#~ "With TREZOR Chrome Extension you can use TREZOR Wallet in Chrome without "
+#~ "installing any other software."
+#~ msgstr ""
+#~ "Met de TREZOR Chrome extensie kunt u TREZOR Wallet in Chrome gebruiken "
+#~ "zonder andere software te installeren."
+
+#~ msgid ""
+#~ "Would you like TREZOR Wallet to forget your old device with the old data "
+#~ "or to remember it?"
+#~ msgstr ""
+#~ "Wilt u dat TREZOR Wallet uw oude apparaat met de oude gegevens vergeet of "
+#~ "onthoudt?"
+
+#~ msgid "Write down the recovery seed from your device."
+#~ msgstr "Schrijf de recovery seed van uw apparaat op."
+
+#~ msgid "Wrong PIN on"
+#~ msgstr "Verkeerde PIN op"
+
+#~ msgid "Yes, install"
+#~ msgstr "Ja, installeer"
+
+#~ msgid "Yes, update"
+#~ msgstr "Ja, update"
+
+#~ msgid "Yesterday"
+#~ msgstr "Gisteren"
+
+#~ msgid "You are about to pay"
+#~ msgstr "U gaat nu een betaling verrichten"
+
+#~ msgid "You are opening TREZOR Beta Wallet"
+#~ msgstr "U opent uw TREZOR Beta Wallet"
+
+#~ msgid "You can also download and install the APK directly."
+#~ msgstr "U kunt ook direct de APK downloaden en installeren."
+
+#~ msgid "You can try to resend this transaction using"
+#~ msgstr "U kunt proberen deze transactie opnieuw te verzenden met behulp van"
+
+#~ msgid "You cannot add more than 10 accounts."
+#~ msgstr "U kunt niet meer dan 10 accounts toevoegen."
+
+#~ msgid "You're about to send a lot of money!"
+#~ msgstr "U gaat een heleboel geld versturen!"
+
+#~ msgid "Your PINs were not matching"
+#~ msgstr "Uw PINs kwamen niet overeen"
+
+#~ msgid ""
+#~ "Your TREZOR is already initialized. Check that you have your Recovery "
+#~ "seed with you\n"
+#~ "                    before updating the firmware!"
+#~ msgstr ""
+#~ "Uw TREZOR is al geïnitialiseerd. Controleer of u uw Recovery seed bij u "
+#~ "heeft\n"
+#~ "                    voordat u de firmware update!"
+
+#~ msgid "Your TREZOR is not in the firmware update mode."
+#~ msgstr "Uw TREZOR is niet in firmware-update modus."
+
+#~ msgid "Your device firmware is outdated"
+#~ msgstr "De firmware van uw apparaat is verouderd"
+
+#~ msgid "Your device firmware is outdated."
+#~ msgstr "De firmware van uw apparaat is verouderd."
+
+#~ msgid ""
+#~ "Your message is {{accountSignCtrl.signMessage.message.length}} letters "
+#~ "long."
+#~ msgstr ""
+#~ "Uw bericht is {{accountSignCtrl.signMessage.message.length}} tekens lang."
+
+#~ msgid ""
+#~ "Your message is {{accountSignCtrl.verifyMessage.message.length}} letters "
+#~ "long."
+#~ msgstr ""
+#~ "Uw bericht is {{accountSignCtrl.verifyMessage.message.length}} tekens "
+#~ "lang."
+
+#~ msgid "coin-splitting tool"
+#~ msgstr "coin-splitsing tool"
+
+#~ msgid "connected"
+#~ msgstr "verbonden"
+
+#~ msgid "counting..."
+#~ msgstr "bewerken..."
+
+#~ msgid "external Broadcast Transaction tool"
+#~ msgstr "externe Broadcast Transactie hulpmiddel"
+
+#~ msgid ""
+#~ "have\n"
+#~ "                                your Recovery seed ready before updating "
+#~ "the firmware"
+#~ msgstr ""
+#~ "Heb\n"
+#~ "                                uw Recovery seed klaarstaan voordat u de "
+#~ "firmware update"
+
+#~ msgid "homescreen editor"
+#~ msgstr "thuisscherm editor"
+
+#~ msgid "in your message is not an ASCII character."
+#~ msgstr "in uw bericht staat een niet ASCII-teken."
+
+#~ msgid "is a public feature-testing version of the"
+#~ msgstr "is een publieke versie die de functies test van de"
+
+#~ msgid ""
+#~ "is feature-conservative, making sure that its functionality is maximally "
+#~ "reliable and dependable for the general public."
+#~ msgstr ""
+#~ "is functiegetrouw, waardoor zeker is dat de functionaliteit maximaal "
+#~ "betrouwbaar is voor het algemene publiek."
+
+#~ msgctxt "xpub-text"
+#~ msgid "or"
+#~ msgstr "of"
+
+#~ msgid "or"
+#~ msgstr "of"
+
+#~ msgid "phase"
+#~ msgstr "fase"
+
+#~ msgid "the change address"
+#~ msgstr "het wisselgeld adres"
+
+#~ msgid "the user manual"
+#~ msgstr "de gebruikershandleiding"
+
+#~ msgid "to"
+#~ msgstr "naar"
+
+#~ msgid "to send this transaction."
+#~ msgstr "om deze transactie te verzenden."
+
+#~ msgctxt "loading"
+#~ msgid "transaction"
+#~ msgid_plural "transactions"
+#~ msgstr[0] "transactie"
+#~ msgstr[1] "transacties"
+
+#~ msgctxt "send-done"
+#~ msgid "was successfully sent."
+#~ msgstr "is verzonden."
 
 #~ msgid "Troubleshooter"
 #~ msgstr "Probleemoplosser"
@@ -3111,22 +4866,11 @@ msgstr "uw account"
 #~ msgid "Account balance information is inconsistent."
 #~ msgstr "Accountgegevens zijn niet consistent."
 
-#~ msgid ""
-#~ "If your TREZOR is already initialized, always have your Recovery seed "
-#~ "with you before updating the firmware!"
-#~ msgstr ""
-#~ "Als uw TREZOR al is geïnitialiseerd, zorg dat u uw herstel-reeks bij de "
-#~ "hand heeft vóór het bijwerken van de firmware!"
-
 #~ msgid "Look at the device for number positions."
 #~ msgstr "Kijk op het apparaat voor de nummer posities."
 
 #~ msgid "Note that the positions of numbers shown on the device have changed!"
 #~ msgstr "Let op. De plaatsen van de cijfers op het apparaat zijn gewijzigd!"
-
-#~ msgid "Please check carefully that you wrote them down correctly."
-#~ msgstr ""
-#~ "Controleer alstublieft zorgvuldig dat u ze correct heeft opgeschreven."
 
 #~ msgid ""
 #~ "Please try again. You need to make sure<strong>both device buttons are "
@@ -3227,13 +4971,6 @@ msgstr "uw account"
 #~ msgstr ""
 #~ "We laten u nu 24 woorden zien waarmee u uw accounts kunt herstellen in "
 #~ "het geval dat u uw apparaat verliest."
-
-#~ msgid ""
-#~ "Your TREZOR is already initialized. Check that you have your Recovery "
-#~ "seed with you before updating the firmware!"
-#~ msgstr ""
-#~ "Uw TREZOR is al geïnitialiseerd. Zorg  dat u uw herstelreeks bij de hand "
-#~ "heeft vóór het bijwerken van de firmware!"
 
 #~ msgid "Connect your TREZOR device to the computer."
 #~ msgstr "Verbind uw TREZOR met de computer."
