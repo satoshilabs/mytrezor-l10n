@@ -96,6 +96,10 @@ msgctxt "error-message"
 msgid "Action was interrupted"
 msgstr ""
 
+#: views/account/send/buttonBar.html:1
+msgid "Add OP_RETURN"
+msgstr ""
+
 #: views/nav/device-buttons.html:1
 msgctxt "button"
 msgid "Add account"
@@ -114,6 +118,10 @@ msgstr ""
 #: views/nav/device-buttons.html:1
 msgctxt "button"
 msgid "Add legacy account"
+msgstr ""
+
+#: views/account/send/buttonBar.html:1
+msgid "Add locktime"
 msgstr ""
 
 #: views/account/send/buttonBar.html:1
@@ -137,14 +145,14 @@ msgctxt "recovery-label"
 msgid "Additional passphrase encryption"
 msgstr ""
 
-#: views/account/transactions/table.html:1
-msgid "Address"
-msgstr ""
-
 #. This is a label to the sign/verify form.
 #: views/account/sign/inside.html:1
 #: views/account/sign/inside.html:6
 msgctxt "sign"
+msgid "Address"
+msgstr ""
+
+#: views/account/transactions/table.html:1
 msgid "Address"
 msgstr ""
 
@@ -296,13 +304,13 @@ msgctxt "error-message"
 msgid "Bitcore server failed."
 msgstr ""
 
-#: index.html:1
-msgid "Blog"
-msgstr ""
-
 #. link in top navigation bar
 #: views/top.nav.html:1
 msgctxt "button"
+msgid "Blog"
+msgstr ""
+
+#: index.html:1
 msgid "Blog"
 msgstr ""
 
@@ -441,6 +449,11 @@ msgstr ""
 msgid "Click to show address"
 msgstr ""
 
+#: views/debug.html:1
+msgctxt "tooltip"
+msgid "Close"
+msgstr ""
+
 #: views/debug.log.html:1
 #: views/modal/backendwarnings/ethwallet.html:1
 #: views/modal/csv.html:8
@@ -459,11 +472,6 @@ msgstr ""
 msgid "Close"
 msgstr ""
 
-#: views/debug.html:1
-msgctxt "tooltip"
-msgid "Close"
-msgstr ""
-
 #. This is a label to the sending form. (Address/amount/comment)
 #: views/account/send/txLabel.html:1
 msgctxt "form-label"
@@ -476,11 +484,11 @@ msgid "Confirm action on your TREZOR device."
 msgstr ""
 
 #: views/modal/button.html:1
+msgctxt "heading"
 msgid "Confirm action on your device."
 msgstr ""
 
 #: views/modal/button.html:1
-msgctxt "heading"
 msgid "Confirm action on your device."
 msgstr ""
 
@@ -562,15 +570,15 @@ msgstr ""
 msgid "Connecting ..."
 msgstr ""
 
+#: views/device/custom-firmware.html:1
+msgid "Continue"
+msgstr ""
+
 #: views/device/index.setup.html:1
 #: views/device/load.html:1
 #: views/device/recovery.html:1
 #: views/import.html:1
 msgctxt "button"
-msgid "Continue"
-msgstr ""
-
-#: views/device/custom-firmware.html:1
 msgid "Continue"
 msgstr ""
 
@@ -585,15 +593,15 @@ msgctxt "error-message"
 msgid "Currency not found in the header"
 msgstr ""
 
-#. Transaction fee size menu
-#: views/account/send/fees.html:1
-msgctxt "transaction-fee"
-msgid "Custom"
-msgstr ""
-
 #. select custom time period
 #: views/date.selection.html:8
 msgctxt "date"
+msgid "Custom"
+msgstr ""
+
+#. Transaction fee size menu
+#: views/account/send/fees.html:1
+msgctxt "transaction-fee"
 msgid "Custom"
 msgstr ""
 
@@ -607,6 +615,23 @@ msgstr ""
 #: views/device/homescreen.html:1
 msgctxt "label"
 msgid "Custom image"
+msgstr ""
+
+#. This is a label to the sending form. (Address/amount/comment)
+#: views/account/send/txOpReturnOutput.html:1
+msgctxt "form-label"
+msgid "Data (hex)"
+msgstr ""
+
+#. This is a label to the sending form. (Address/amount/comment)
+#: views/account/send/txOpReturnOutput.html:1
+msgctxt "form-label"
+msgid "Data (text)"
+msgstr ""
+
+#: views/account/send/txOpReturnOutput.html:1
+msgctxt "error-message"
+msgid "Data invalid"
 msgstr ""
 
 #: views/account/transactions/table.html:1
@@ -653,9 +678,18 @@ msgctxt "error-message"
 msgid "Device is updated in other window"
 msgstr ""
 
+#: views/device/index.setup.html:1
+msgid "Device label"
+msgstr ""
+
 #. This is a short label in the device recovery page
 #: views/device/recovery.html:1
 msgctxt "recovery-label"
+msgid "Device label"
+msgstr ""
+
+#: views/import.html:1
+msgctxt "form-label"
 msgid "Device label"
 msgstr ""
 
@@ -665,28 +699,19 @@ msgctxt "load-label"
 msgid "Device label"
 msgstr ""
 
-#: views/import.html:1
-msgctxt "form-label"
-msgid "Device label"
-msgstr ""
-
-#: views/device/index.setup.html:1
-msgid "Device label"
-msgstr ""
-
 #: views/device/advanced.html:8
 msgid "Device needs to be connected in order to wipe it."
-msgstr ""
-
-#. This is a short label in the device Advanced page
-#: views/device/advanced.html:8
-msgctxt "advanced-label"
-msgid "Disable PIN"
 msgstr ""
 
 #. This is written on a button, clicking it will disable PIN
 #: views/device/advanced.html:8
 msgctxt "button"
+msgid "Disable PIN"
+msgstr ""
+
+#. This is a short label in the device Advanced page
+#: views/device/advanced.html:8
+msgctxt "advanced-label"
 msgid "Disable PIN"
 msgstr ""
 
@@ -757,13 +782,13 @@ msgctxt "heading"
 msgid "Do you want to update the device firmware?"
 msgstr ""
 
-#. link in top navigation bar
-#: views/top.nav.html:1
-msgctxt "button"
+#: index.html:1
 msgid "Docs"
 msgstr ""
 
-#: index.html:1
+#. link in top navigation bar
+#: views/top.nav.html:1
+msgctxt "button"
 msgid "Docs"
 msgstr ""
 
@@ -978,14 +1003,14 @@ msgctxt "error-message"
 msgid "Failed to verify message:"
 msgstr ""
 
-#: views/account/send/fees.html:1
-#: views/account/transactions/table.html:1
-msgid "Fee"
-msgstr ""
-
 #. This is a label to the sending form. (Address/amount/comment)
 #: views/account/send/fees.html:1
 msgctxt "send"
+msgid "Fee"
+msgstr ""
+
+#: views/account/send/fees.html:1
+#: views/account/transactions/table.html:1
 msgid "Fee"
 msgstr ""
 
@@ -1109,15 +1134,15 @@ msgstr ""
 msgid "Gallery selection"
 msgstr ""
 
-#. call to action button of the android trezor manager promo
-#: views/promos/android.html:1
-msgctxt "promos-android"
-msgid "Get started"
-msgstr ""
-
 #. call to action button of the trezor password manager promo
 #: views/promos/tpm.html:1
 msgctxt "promos-passmanager"
+msgid "Get started"
+msgstr ""
+
+#. call to action button of the android trezor manager promo
+#: views/promos/android.html:1
+msgctxt "promos-android"
 msgid "Get started"
 msgstr ""
 
@@ -1371,15 +1396,9 @@ msgctxt "promos-show"
 msgid "Learn more"
 msgstr ""
 
-#. link to Trezor documentation about segwit / legacy accounts
-#: views/account/transactions/legacynote.html:1
-msgctxt "button"
-msgid "Learn more"
-msgstr ""
-
-#. call to action button of the PIN promo
-#: views/promos/pin.html:1
-msgctxt "promos-pin"
+#. call to action button of the labeling promo
+#: views/promos/labeling.html:1
+msgctxt "promos-labeling"
 msgid "Learn more"
 msgstr ""
 
@@ -1389,15 +1408,21 @@ msgctxt "promos-2fa"
 msgid "Learn more"
 msgstr ""
 
-#. call to action button of the labeling promo
-#: views/promos/labeling.html:1
-msgctxt "promos-labeling"
+#. link to Trezor documentation about segwit / legacy accounts
+#: views/account/transactions/legacynote.html:1
+msgctxt "button"
 msgid "Learn more"
 msgstr ""
 
 #. call to action button of the malware promo
 #: views/promos/malware.html:1
 msgctxt "promos-malware"
+msgid "Learn more"
+msgstr ""
+
+#. call to action button of the PIN promo
+#: views/promos/pin.html:1
+msgctxt "promos-pin"
 msgid "Learn more"
 msgstr ""
 
@@ -1493,13 +1518,13 @@ msgstr ""
 msgid "Loading transactions"
 msgstr ""
 
-#: views/device/index.basic.html:3
-msgid "Loading..."
-msgstr ""
-
 #. Is displayed when TREZOR is loading, in the left column
 #: views/nav/device.html:1
 msgctxt "device-state"
+msgid "Loading..."
+msgstr ""
+
+#: views/device/index.basic.html:3
 msgid "Loading..."
 msgstr ""
 
@@ -1522,6 +1547,17 @@ msgstr ""
 #: views/otherStrings.html:7
 msgctxt "button"
 msgid "Lock device<br>(automatically in {{time}})"
+msgstr ""
+
+#. This is a label to the sending form. (Address/amount/comment)
+#: views/account/send/inside.html:1
+msgctxt "form-label"
+msgid "Locktime"
+msgstr ""
+
+#: views/account/send/inside.html:1
+msgctxt "error-message"
+msgid "Locktime invalid"
 msgstr ""
 
 #. application event and error log
@@ -1615,14 +1651,14 @@ msgstr ""
 msgid "Nearest ATM: <a>CoinAtmRadar</a>"
 msgstr ""
 
-#: views/modal/firmware.html:7
-msgid "Need help?"
-msgstr ""
-
 #. Leads to trezor support
 #: views/modal/firmware.html:7
 #: views/modal/pinguide.html:1
 msgctxt "button"
+msgid "Need help?"
+msgstr ""
+
+#: views/modal/firmware.html:7
 msgid "Need help?"
 msgstr ""
 
@@ -1750,15 +1786,15 @@ msgctxt "button"
 msgid "OK"
 msgstr ""
 
-#: views/device/advanced.html:1
-#: views/device/advanced.html:5
-msgid "OK, I understand"
-msgstr ""
-
 #. User wants to use TREZOR Beta Wallet
 #: views/modal/beta.html:1
 #: views/modal/pinguide.html:1
 msgctxt "button"
+msgid "OK, I understand"
+msgstr ""
+
+#: views/device/advanced.html:1
+#: views/device/advanced.html:5
 msgid "OK, I understand"
 msgstr ""
 
@@ -2121,12 +2157,6 @@ msgstr ""
 msgid "Rate"
 msgstr ""
 
-#. In the bottom footer. 'Rates by (link to Bitpay)'.
-#: views/footer.html:1
-msgctxt "text-with-link"
-msgid "Rates by <a>Bitpay</a>"
-msgstr ""
-
 #: views/debug.html:1
 msgctxt "heading"
 msgid "Raw transaction in hex format:"
@@ -2158,13 +2188,13 @@ msgstr ""
 msgid "Really send<br>{{total}} BTC<br>from your wallet?<br>Fee included:<br>{{fee}} BTC"
 msgstr ""
 
-#: views/account/receive/index.html:1
-msgid "Receive"
-msgstr ""
-
 #. This is shown on the header Send/Receive/Transactions/...
 #: views/account/nav.html:1
 msgctxt "header"
+msgid "Receive"
+msgstr ""
+
+#: views/account/receive/index.html:1
 msgid "Receive"
 msgstr ""
 
@@ -2208,6 +2238,11 @@ msgstr ""
 
 #: views/account/send/buttonBar.html:1
 msgid "Remove all recipients"
+msgstr ""
+
+#: views/account/send/inside.html:1
+msgctxt "tooltip"
+msgid "Remove locktime"
 msgstr ""
 
 #. tooltip on the X button which will remove entry from the Send form
@@ -2396,13 +2431,13 @@ msgctxt "button"
 msgid "Show more"
 msgstr ""
 
-#. Length is important here! Full sentence: Prevent phishing with *Show on TREZOR* - Click on eye icon<br/>in the Receive tab.
-#: views/promos/show.html:1
-msgctxt "promos-show"
+#: views/account/receive/address.html:16
 msgid "Show on TREZOR"
 msgstr ""
 
-#: views/account/receive/address.html:16
+#. Length is important here! Full sentence: Prevent phishing with *Show on TREZOR* - Click on eye icon<br/>in the Receive tab.
+#: views/promos/show.html:1
+msgctxt "promos-show"
 msgid "Show on TREZOR"
 msgstr ""
 
@@ -2437,6 +2472,10 @@ msgstr ""
 #: views/account/sign/inside.html:1
 msgctxt "header"
 msgid "Sign message"
+msgstr ""
+
+#: views/account/send/buttonBar.html:1
+msgid "Sign without sending"
 msgstr ""
 
 #. This is a label to the sign/verify form.
@@ -2515,13 +2554,13 @@ msgctxt "heading"
 msgid "Switching to Bitcoin Cash"
 msgstr ""
 
-#: index.html:1
-msgid "TREZOR"
-msgstr ""
-
 #. link in top navigation bar
 #: views/top.nav.html:1
 msgctxt "button"
+msgid "TREZOR"
+msgstr ""
+
+#: index.html:1
 msgid "TREZOR"
 msgstr ""
 
@@ -2662,6 +2701,10 @@ msgctxt "warning-message"
 msgid "The transaction fee is unexpectedly high."
 msgstr ""
 
+#: views/settings.html:1
+msgid "There was a problem downloading currency exchange rates."
+msgstr ""
+
 #: views/date.selection.html:8
 msgctxt "date"
 msgid "This Month"
@@ -2798,11 +2841,6 @@ msgctxt "error-message"
 msgid "URL needs to start with https:// or http://"
 msgstr ""
 
-#: views/settings.html:1
-msgctxt "text-with-link"
-msgid "Unable to load data from <a>bitpay.com</a>"
-msgstr ""
-
 #. Send form -> add recipient -> import csv -> wrongly formatted .csv content pasted
 #: views/otherStrings.html:7
 msgctxt "error-message"
@@ -2857,7 +2895,9 @@ msgctxt "button"
 msgid "Upgrade"
 msgstr ""
 
-#: views/install/bridge.force.html:1
+#. Upgrade refers to Trezor firmware upgrade
+#: views/alertbars/firmware.html:5
+msgctxt "firmware-update"
 msgid "Upgrade for the newest features."
 msgstr ""
 
@@ -2867,9 +2907,7 @@ msgctxt "bridge-update"
 msgid "Upgrade for the newest features."
 msgstr ""
 
-#. Upgrade refers to Trezor firmware upgrade
-#: views/alertbars/firmware.html:5
-msgctxt "firmware-update"
+#: views/install/bridge.force.html:1
 msgid "Upgrade for the newest features."
 msgstr ""
 
@@ -2958,13 +2996,13 @@ msgstr ""
 msgid "Waiting for transaction history"
 msgstr ""
 
-#: index.html:1
-msgid "Wallet"
-msgstr ""
-
 #. link in top navigation bar
 #: views/top.nav.html:1
 msgctxt "button"
+msgid "Wallet"
+msgstr ""
+
+#: index.html:1
 msgid "Wallet"
 msgstr ""
 
@@ -3009,15 +3047,15 @@ msgstr ""
 msgid "When you give them to a third party, you allow it to see your whole transaction history."
 msgstr ""
 
-#. This is written on a button, clicking it will wipe the device
-#: views/device/advanced.html:9
-msgctxt "button"
-msgid "Wipe device"
-msgstr ""
-
 #. This is a short label in the device Advanced page
 #: views/device/advanced.html:8
 msgctxt "advanced-label"
+msgid "Wipe device"
+msgstr ""
+
+#. This is written on a button, clicking it will wipe the device
+#: views/device/advanced.html:9
+msgctxt "button"
 msgid "Wipe device"
 msgstr ""
 
@@ -3260,11 +3298,11 @@ msgid "Your images"
 msgstr ""
 
 #: views/modal/firmware.html:7
+msgctxt "warning-message"
 msgid "Your installation of TREZOR Bridge needs to be upgraded first."
 msgstr ""
 
 #: views/modal/firmware.html:7
-msgctxt "warning-message"
 msgid "Your installation of TREZOR Bridge needs to be upgraded first."
 msgstr ""
 

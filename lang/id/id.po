@@ -62,7 +62,7 @@ msgstr "3. Nikmati keamanan dan privasi TREZOR yang hebat."
 #: views/notices.html:1
 msgctxt "text-with-link"
 msgid "<b>Note: </b>Litecoin changed the format of addresses. <a>More info</a>"
-msgstr ""
+msgstr "Litecoin mengubah format alamat."
 
 #: views/account/transactions/tooBigAccount.html:1
 msgctxt "text-with-link"
@@ -83,6 +83,8 @@ msgid ""
 "<i>TREZOR Wallet</i>, offering the newest features before they are available "
 "to the general public."
 msgstr ""
+", menawarkan fitur terbaru sebelum mereka tersedia untuk umum.\n"
+"."
 
 #. contains link to device setup
 #: views/device/load.html:1
@@ -118,12 +120,16 @@ msgstr "Akun public keys (XPUB)"
 #: views/debug.html:1
 msgctxt "error-message"
 msgid "Action was interrupted"
+msgstr "Langkah mengalami gangguan"
+
+#: views/account/send/buttonBar.html:1
+msgid "Add OP_RETURN"
 msgstr ""
 
 #: views/nav/device-buttons.html:1
 msgctxt "button"
 msgid "Add account"
-msgstr ""
+msgstr "Tambahkan akun"
 
 #: views/account/transactions/txAddressLabel.html:1
 msgid "Add comment"
@@ -133,12 +139,16 @@ msgstr "Tambahkan komentar"
 #: views/promos/labeling.html:1
 msgctxt "promos-labeling"
 msgid "Add comments,<br>rename accounts."
-msgstr ""
+msgstr "ubah nama akun"
 
 #: views/nav/device-buttons.html:1
 msgctxt "button"
 msgid "Add legacy account"
-msgstr ""
+msgstr "Tambahkan akun legacy"
+
+#: views/account/send/buttonBar.html:1
+msgid "Add locktime"
+msgstr "Tambahkan komentar"
 
 #: views/account/send/buttonBar.html:1
 msgid "Add recipient"
@@ -160,13 +170,13 @@ msgctxt "recovery-label"
 msgid "Additional passphrase encryption"
 msgstr "Tambahan enkripsi passphrase"
 
-#: views/account/transactions/table.html:1
-msgid "Address"
-msgstr "Alamat"
-
 #. This is a label to the sign/verify form.
 #: views/account/sign/inside.html:1 views/account/sign/inside.html:6
 msgctxt "sign"
+msgid "Address"
+msgstr "Alamat"
+
+#: views/account/transactions/table.html:1
 msgid "Address"
 msgstr "Alamat"
 
@@ -174,7 +184,7 @@ msgstr "Alamat"
 #: views/account/send/txAddress.html:5
 msgctxt "form-label"
 msgid "Address"
-msgstr ""
+msgstr "Alamat"
 
 #: views/account/transactions/table.html:1
 msgid "Address Label"
@@ -189,13 +199,13 @@ msgstr ""
 #: views/debug.html:1
 msgctxt "error-message"
 msgid "Address verification failed."
-msgstr ""
+msgstr "Verifikasi alamat gagal."
 
 #. This is shown on the header Basic/Homescreen/Advanced
 #: views/device/nav.html:1
 msgctxt "button"
 msgid "Advanced"
-msgstr ""
+msgstr "Tingkat lanjut"
 
 #. This is a label to a checkbox in the device recovery page
 #: views/device/recovery.html:1
@@ -210,7 +220,7 @@ msgstr "Pengaturan tingkat lanjut"
 #: views/modal/button.html:1
 msgctxt "heading"
 msgid "All data on your device will be deleted."
-msgstr ""
+msgstr "Semua data pada perangkat anda akan dihapus."
 
 #. Part of a long text about Dropbox and labeling
 #: views/modal/dropbox.html:1
@@ -229,33 +239,33 @@ msgstr ""
 #: views/date.selection.html:8
 msgctxt "date"
 msgid "All time"
-msgstr ""
+msgstr "Sepanjang waktu"
 
 #. This is a label to the sending form. (Address/amount/comment)
 #: views/account/send/txAmount.html:1
 msgctxt "form-label"
 msgid "Amount"
-msgstr ""
+msgstr "Jumlah"
 
 #: views/account/send/txAmount.html:1
 msgctxt "error-message"
 msgid "Amount has too many decimals"
-msgstr ""
+msgstr "Jumlah memiliki terlalu banyak desimal"
 
 #: views/account/send/txAmount.html:1
 msgctxt "error-message"
 msgid "Amount is missing"
-msgstr ""
+msgstr "Jumlah diperlukan."
 
 #: views/account/send/txAmount.html:1
 msgctxt "error-message"
 msgid "Amount is not a number"
-msgstr ""
+msgstr "Jumlah bukan sebuah angka"
 
 #: views/account/send/txAmount.html:1
 msgctxt "error-message"
 msgid "Amount is too low"
-msgstr ""
+msgstr "Jumlahnya terlalu rendah"
 
 #. Send form -> add recipient -> import csv -> missing Amount column header
 #: views/otherStrings.html:7
@@ -266,18 +276,18 @@ msgstr ""
 #: views/footer.html:1 views/nav/settings-buttons.html:1
 msgctxt "button"
 msgid "App Settings"
-msgstr ""
+msgstr "Pengaturan App"
 
 #: views/settings.html:1
 msgctxt "heading"
 msgid "Application Settings"
-msgstr ""
+msgstr "Pengaturan Aplikasi"
 
 #. something went wrong while the application was starting up
 #: views/otherStrings.html:7
 msgctxt "error-message"
 msgid "Application loading failed"
-msgstr ""
+msgstr "Pengaturan Aplikasi"
 
 #. Length is important here! Full sentence: *Are you sending money to the right person?* - Double check the address with the other party<br/>and prevent malware attacks!
 #: views/promos/malware.html:1
@@ -300,7 +310,7 @@ msgstr "Jalur BIP32:"
 #: views/modal/recovery.html:1
 msgctxt "button"
 msgid "Backspace"
-msgstr ""
+msgstr "Menghapus"
 
 #. Heading above account balance total
 #: views/account/transactions/summary.html:3
@@ -312,7 +322,7 @@ msgstr "Saldo"
 #: views/device/nav.html:1
 msgctxt "button"
 msgid "Basic"
-msgstr ""
+msgstr "Dasar"
 
 #: views/device/index.basic.html:7
 msgid "Be careful with your XPUBs."
@@ -321,27 +331,27 @@ msgstr "Hati-hati dengan XPUBs anda."
 #: views/settings.html:1
 msgctxt "form-label"
 msgid "Bitcore Server URL"
-msgstr ""
+msgstr "URL Server Bitcore"
 
 #: views/debug.html:1
 msgctxt "error-message"
 msgid "Bitcore server failed."
-msgstr ""
-
-#: index.html:1
-msgid "Blog"
-msgstr "Blog"
+msgstr "Server Bitcore gagal."
 
 #. link in top navigation bar
 #: views/top.nav.html:1
 msgctxt "button"
 msgid "Blog"
-msgstr ""
+msgstr "Blog"
+
+#: index.html:1
+msgid "Blog"
+msgstr "Blog"
 
 #: views/modal/_header.html:1
 msgctxt "heading"
 msgid "Bootloader mode"
-msgstr ""
+msgstr "Mode bootloader"
 
 #. Length is important here! Full sentence: Use hidden wallets with Passphrase Encryption - *But first, get to know how it works!*
 #: views/promos/passphrase.html:1
@@ -358,7 +368,7 @@ msgstr ""
 #: views/device/load.html:1 views/device/recovery.html:1 views/import.html:1
 msgctxt "button"
 msgid "Cancel"
-msgstr ""
+msgstr "Batal"
 
 #: views/device/custom-firmware.html:1
 msgid "Cancel"
@@ -368,23 +378,23 @@ msgstr "Batal"
 #: views/modal/pin.html:1
 msgctxt "error-message"
 msgid "Careful, It's too easy to guess."
-msgstr ""
+msgstr "Hati-hati, terlalu mudah ditebak."
 
 #: views/modal/firmware.html:7
 msgctxt "heading"
 msgid "Caution!"
-msgstr ""
+msgstr "Peringatan!"
 
 #. separates .csv data columns
 #: views/modal/csv.html:8
 msgctxt "form-label"
 msgid "Cell delimiter"
-msgstr ""
+msgstr "Pembatasan sel"
 
 #: views/modal/label.html:1
 msgctxt "button"
 msgid "Change"
-msgstr ""
+msgstr "Ganti"
 
 #. This is on a button, that will change the PIN once clicked
 #: views/device/index.basic.html:1
@@ -405,12 +415,12 @@ msgstr "Ganti label"
 #: views/modal/firmware.html:7
 msgctxt "heading"
 msgid "Changelog"
-msgstr ""
+msgstr "Changelog"
 
 #: views/modal/button.html:1
 msgctxt "heading"
 msgid "Check address on TREZOR display"
-msgstr ""
+msgstr "Periksa alamat pada layar TREZOR"
 
 #. Length is important here! Full sentence: How strong is your PIN? *Check out some of our tips!*
 #: views/promos/pin.html:1
@@ -424,6 +434,8 @@ msgid ""
 "Choose a strong PIN to protect your device from unauthorized access. The "
 "layout is displayed on your TREZOR."
 msgstr ""
+"Gunakan PIN yang kuat untuk mengamankan perangkat anda dari akses "
+"tersembunyi. Petunjuk telah ada di TREZOR anda."
 
 #. This is on a button in the sign/verify form.
 #: views/account/sign/inside.html:4 views/account/sign/inside.html:6
@@ -466,7 +478,7 @@ msgstr "Klik untuk menyembunyikan alamat"
 #: views/nav/device.html:1
 msgctxt "button"
 msgid "Click to renew session"
-msgstr ""
+msgstr "Klik untuk memperbarui sesi"
 
 #: views/nav/unacquired.html:1
 msgid "Click to renew session"
@@ -476,6 +488,11 @@ msgstr "Klik untuk memperbarui sesi"
 msgid "Click to show address"
 msgstr "Klik untuk melihat alamat"
 
+#: views/debug.html:1
+msgctxt "tooltip"
+msgid "Close"
+msgstr "Tutup"
+
 #: views/debug.log.html:1 views/modal/backendwarnings/ethwallet.html:1
 #: views/modal/csv.html:8 views/modal/disconnect.html:1
 #: views/modal/disconnect.passphrase_disable.html:1
@@ -483,36 +500,31 @@ msgstr "Klik untuk melihat alamat"
 #: views/modal/firmware.html:7 views/modal/qr.html:1 views/settings.html:1
 msgctxt "button"
 msgid "Close"
-msgstr ""
+msgstr "Tutup"
 
 #: views/debug.html:1
 msgid "Close"
 msgstr "Tutup"
 
-#: views/debug.html:1
-msgctxt "tooltip"
-msgid "Close"
-msgstr ""
-
 #. This is a label to the sending form. (Address/amount/comment)
 #: views/account/send/txLabel.html:1
 msgctxt "form-label"
 msgid "Comment"
-msgstr ""
+msgstr "Komentar"
 
 #: views/modal/button.html:1
 msgctxt "heading"
 msgid "Confirm action on your TREZOR device."
-msgstr ""
-
-#: views/modal/button.html:1
-msgid "Confirm action on your device."
-msgstr "Konfirmasi langkah pada perangkat anda."
+msgstr "Konfirmasi langkah pada perangkat TREZOR anda."
 
 #: views/modal/button.html:1
 msgctxt "heading"
 msgid "Confirm action on your device."
-msgstr ""
+msgstr "Konfirmasi langkah pada perangkat anda."
+
+#: views/modal/button.html:1
+msgid "Confirm action on your device."
+msgstr "Konfirmasi langkah pada perangkat anda."
 
 #: views/device/recovery.html:1
 msgid "Confirm choice by pressing enter."
@@ -521,12 +533,12 @@ msgstr "Tekan enter untuk mengkonfirmasi."
 #: views/modal/button.html:1
 msgctxt "heading"
 msgid "Confirm passphrase encryption"
-msgstr ""
+msgstr "Konfirmasi enkripsi passphrase"
 
 #: views/modal/button.html:1
 msgctxt "heading"
 msgid "Confirm provided information."
-msgstr ""
+msgstr "Konfirmasikan informasi anda."
 
 #. We cannot estimate transaction confirmation time
 #: views/account/send/fees.html:1
@@ -536,7 +548,7 @@ msgstr "Waktu konfirmasinya tidak dapat diperkirakan."
 #: views/debug.html:1
 msgctxt "success-message"
 msgid "Congratulations! Your device is now ready to use."
-msgstr ""
+msgstr "Selamat! Perangkat anda sekarang siap digunakan."
 
 #: views/jumbotrons/start.html:1
 msgid "Connect TREZOR to continue"
@@ -573,7 +585,7 @@ msgstr "Hubungkan perangkat untuk mengatur homescreen."
 #: views/modal/dropbox.html:1
 msgctxt "button"
 msgid "Connect to Dropbox"
-msgstr ""
+msgstr "Hubungkan ke Dropbox"
 
 #: views/nav/settings-buttons.html:1
 msgid ""
@@ -590,26 +602,26 @@ msgstr "Hubungkan TREZOR anda untuk menampilkan address ini"
 #: views/nav/device.html:1
 msgctxt "device-state"
 msgid "Connected device"
-msgstr ""
+msgstr "Perangkat yang terhubung"
 
 #: views/nav/settings-buttons.html:1
 msgid "Connecting ..."
 msgstr "Menghubungkan ..."
 
+#: views/device/custom-firmware.html:1
+msgid "Continue"
+msgstr "Lanjutkan"
+
 #: views/device/index.setup.html:1 views/device/load.html:1
 #: views/device/recovery.html:1 views/import.html:1
 msgctxt "button"
-msgid "Continue"
-msgstr ""
-
-#: views/device/custom-firmware.html:1
 msgid "Continue"
 msgstr "Lanjutkan"
 
 #: views/settings.html:1
 msgctxt "form-label"
 msgid "Currency backend"
-msgstr ""
+msgstr "Backend mata uang"
 
 #. Send form -> add recipient -> import csv -> missing Currency column header
 #: views/otherStrings.html:7
@@ -617,29 +629,46 @@ msgctxt "error-message"
 msgid "Currency not found in the header"
 msgstr ""
 
+#. select custom time period
+#: views/date.selection.html:8
+msgctxt "date"
+msgid "Custom"
+msgstr "Custom"
+
 #. Transaction fee size menu
 #: views/account/send/fees.html:1
 msgctxt "transaction-fee"
 msgid "Custom"
 msgstr "Kostum"
 
-#. select custom time period
-#: views/date.selection.html:8
-msgctxt "date"
-msgid "Custom"
-msgstr ""
-
 #. User put their own 'BITCORE SERVER URL' in the Application Settings, now they see this in top left currency selector instead of Bitcoin (BTC) etc.
 #: views/otherStrings.html:7
 msgctxt "form-label"
 msgid "Custom Backend"
-msgstr ""
+msgstr "Gambar custom"
 
 #. This is a small label in the Homescreen tab
 #: views/device/homescreen.html:1
 msgctxt "label"
 msgid "Custom image"
 msgstr "Gambar custom"
+
+#. This is a label to the sending form. (Address/amount/comment)
+#: views/account/send/txOpReturnOutput.html:1
+msgctxt "form-label"
+msgid "Data (hex)"
+msgstr ""
+
+#. This is a label to the sending form. (Address/amount/comment)
+#: views/account/send/txOpReturnOutput.html:1
+msgctxt "form-label"
+msgid "Data (text)"
+msgstr ""
+
+#: views/account/send/txOpReturnOutput.html:1
+msgctxt "error-message"
+msgid "Data invalid"
+msgstr ""
 
 #: views/account/transactions/table.html:1
 msgid "Date"
@@ -659,12 +688,12 @@ msgstr "Rincian"
 #: views/modal/firmware.html:7
 msgctxt "heading"
 msgid "Device"
-msgstr ""
+msgstr "Perangkat"
 
 #: views/import.html:1
 msgctxt "form-label"
 msgid "Device ID"
-msgstr ""
+msgstr "ID Perangkat"
 
 #: views/device/index.basic.html:1
 msgid "Device basics"
@@ -674,7 +703,7 @@ msgstr "Dasar perangkat"
 #: views/modal/firmware.html:7
 msgctxt "heading"
 msgid "Device firmware is outdated."
-msgstr ""
+msgstr "Firmware perangkat kadaluarsa."
 
 #: views/device/recovery.html:1
 msgid "Device has to be wiped before recovery."
@@ -683,11 +712,20 @@ msgstr "Perangkat harus dihapus sebelum dilakukan pemulihan."
 #: views/modal/firmware.html:7
 msgctxt "error-message"
 msgid "Device is updated in other window"
-msgstr ""
+msgstr "Perangkat sedang diperbarui di jendela lain"
+
+#: views/device/index.setup.html:1
+msgid "Device label"
+msgstr "Label Perangkat"
 
 #. This is a short label in the device recovery page
 #: views/device/recovery.html:1
 msgctxt "recovery-label"
+msgid "Device label"
+msgstr "Label Perangkat"
+
+#: views/import.html:1
+msgctxt "form-label"
 msgid "Device label"
 msgstr "Label Perangkat"
 
@@ -697,28 +735,19 @@ msgctxt "load-label"
 msgid "Device label"
 msgstr "Label Perangkat"
 
-#: views/import.html:1
-msgctxt "form-label"
-msgid "Device label"
-msgstr ""
-
-#: views/device/index.setup.html:1
-msgid "Device label"
-msgstr "Label Perangkat"
-
 #: views/device/advanced.html:8
 msgid "Device needs to be connected in order to wipe it."
 msgstr "Perangkat perlu tetap terhubung agar dapat dihapus."
 
-#. This is a short label in the device Advanced page
-#: views/device/advanced.html:8
-msgctxt "advanced-label"
-msgid "Disable PIN"
-msgstr "Nonaktifkan PIN"
-
 #. This is written on a button, clicking it will disable PIN
 #: views/device/advanced.html:8
 msgctxt "button"
+msgid "Disable PIN"
+msgstr "Nonaktifkan PIN"
+
+#. This is a short label in the device Advanced page
+#: views/device/advanced.html:8
+msgctxt "advanced-label"
 msgid "Disable PIN"
 msgstr "Nonaktifkan PIN"
 
@@ -739,7 +768,7 @@ msgstr "Nonaktif"
 #: views/modal/disconnect.passphrase_enable.html:1
 msgctxt "heading"
 msgid "Disconnect your TREZOR now"
-msgstr ""
+msgstr "Putuskan sambungan TREZOR sekarang"
 
 #: views/modal/disconnect.passphrase_disable.html:1
 msgid "Disconnect your TREZOR to disable passphrase."
@@ -752,29 +781,29 @@ msgstr "Putuskan sambungan TREZOR anda untuk aktifkan passphrase."
 #: views/nav/settings-buttons.html:1
 msgctxt "button"
 msgid "Disconnect {{user}}"
-msgstr ""
+msgstr "Memutuskan"
 
 #: views/nav/device.html:1
 msgctxt "device-state"
 msgid "Disconnected device"
-msgstr ""
+msgstr "Putuskan sambungan perangkat"
 
 #. Length is important here! Full sentence: *Discover TREZOR's* 2F authentication for secure login to<br>Google, Dropbox,<br>and more...
 #: views/promos/2fa.html:1
 msgctxt "promos-2fa"
 msgid "Discover TREZOR's"
-msgstr ""
+msgstr "Putuskan sambungan TREZOR sekarang"
 
 #. Length is important here! Full sentence: *Discover TREZOR's new* 2-factor authentication for secure login to Gmail, Google Drive, Dropbox, Dashlane, and more...
 #: views/promos/2fa.html:1
 msgctxt "promos-2fa"
 msgid "Discover TREZOR's new"
-msgstr ""
+msgstr "Putuskan sambungan TREZOR sekarang"
 
 #: views/debug.html:1
 msgctxt "tooltip"
 msgid "Display transaction on explorer"
-msgstr ""
+msgstr "Lihat transaksi di exploler"
 
 #: views/modal/backendwarnings/bcash.html:1
 msgid ""
@@ -791,15 +820,15 @@ msgstr "Apakah anda menggunakan Google Chrome di komputer ini?"
 #: views/modal/firmware.html:7
 msgctxt "heading"
 msgid "Do you want to update the device firmware?"
-msgstr ""
+msgstr "Apakah anda ingin memperbarui firmware perangkat?"
+
+#: index.html:1
+msgid "Docs"
+msgstr "Docs"
 
 #. link in top navigation bar
 #: views/top.nav.html:1
 msgctxt "button"
-msgid "Docs"
-msgstr ""
-
-#: index.html:1
 msgid "Docs"
 msgstr "Docs"
 
@@ -807,7 +836,7 @@ msgstr "Docs"
 #: views/modal/forget.requested.html:1
 msgctxt "button"
 msgid "Don't forget"
-msgstr ""
+msgstr "Jangan Lupa"
 
 #: views/account/send/txAddress.html:5
 msgid "Don't forget to double check the address ..."
@@ -818,7 +847,7 @@ msgstr "Jangan lupa untuk kroscek alamat ..."
 #: views/install/main.html:1 views/jumbotrons/start.html:1
 msgctxt "text-with-link"
 msgid "Don't have a TREZOR? <a>Get one</a>"
-msgstr ""
+msgstr "Belum punya TREZOR?"
 
 #. Length is important here! Full sentence: Sending money to the right person? - *Double check* the address with the other party<br/> and prevent malware attacks!
 #: views/promos/malware.html:1
@@ -831,23 +860,23 @@ msgstr ""
 #: views/install/main.html:5 views/jumbotrons/udev-note.html:6
 msgctxt "button"
 msgid "Download"
-msgstr ""
+msgstr "Unduh"
 
 #. This is displayed on Android.
 #: views/install/mobile.android.html:1
 msgctxt "button"
 msgid "Download TREZOR Manager App on Google Play."
-msgstr ""
+msgstr "Unduh TREZOR Manager App di Google Play."
 
 #: views/modal/firmware.html:7
 msgctxt "heading"
 msgid "Downloading firmware..."
-msgstr ""
+msgstr "Mengunduh firmware..."
 
 #: views/modal/backendwarnings/ethwallet.html:1
 msgctxt "heading"
 msgid "ETH / ETC Wallet"
-msgstr ""
+msgstr "Dompet ETH / ETC"
 
 #. Transaction fee size menu
 #: views/account/send/fees.html:1
@@ -858,7 +887,7 @@ msgstr "Ekonomis"
 #: views/nav/device.html:1
 msgctxt "button"
 msgid "Edit Device basics"
-msgstr ""
+msgstr "Ubah Perangkat dasar"
 
 #: views/account/receive/address.html:26
 msgid "Edit label"
@@ -867,7 +896,7 @@ msgstr "Ubah label"
 #: views/nav/settings-buttons.html:1
 msgctxt "button"
 msgid "Enable Labeling"
-msgstr ""
+msgstr "Aktifkan menamai label"
 
 #. This is on a button, that will change the PIN once clicked
 #: views/device/index.basic.html:1
@@ -884,13 +913,13 @@ msgstr "Aktifkan proteksi PIN"
 #: views/modal/dropbox.html:1
 msgctxt "heading"
 msgid "Enable labeling"
-msgstr ""
+msgstr "Aktifkan menamai label"
 
 #. Enable labeling on (device label)?
 #: views/modal/button.html:1
 msgctxt "heading"
 msgid "Enable labeling on {{label}}?"
-msgstr ""
+msgstr "Aktifkan menamai label pada"
 
 #. This is written on a button, clicking it will enable passphrase
 #: views/device/advanced.html:5
@@ -915,7 +944,7 @@ msgstr ""
 #: views/modal/passphrase.html:1 views/modal/pin.html:1
 msgctxt "button"
 msgid "Enter"
-msgstr ""
+msgstr "Enter"
 
 #: views/device/recovery.html:1
 msgid "Enter seed word"
@@ -925,29 +954,29 @@ msgstr "Masukkan kata seed"
 #: views/modal/pin.html:1
 msgctxt "heading"
 msgid "Enter your new {{label}} PIN"
-msgstr ""
+msgstr "Masukkan yang baru"
 
 #. Enter (device label) PIN
 #: views/modal/pin.html:1
 msgctxt "heading"
 msgid "Enter {{label}} PIN"
-msgstr ""
+msgstr "Aktifkan PIN"
 
 #. Enter (device label) passphrase
 #: views/modal/passphrase.html:1
 msgctxt "heading"
 msgid "Enter {{label}} passphrase"
-msgstr ""
+msgstr "Masukkan passphrase untuk"
 
 #: views/debug.html:1
 msgctxt "error-message"
 msgid "Error details: {{error}}"
-msgstr ""
+msgstr "Rincian kesalahan:"
 
 #: views/modal/backendwarnings/ethwallet.html:1
 msgctxt "heading"
 msgid "Ethereum Wallet"
-msgstr ""
+msgstr "Dompet Ethereum"
 
 #. Example of CSV input
 #: views/modal/csv.html:1
@@ -967,52 +996,48 @@ msgstr "Perkiraan waktu konfirmasi"
 #: views/promos/apps.html:1
 msgctxt "promos-apps"
 msgid "Explore now"
-msgstr ""
+msgstr "URL Explorer"
 
 #: views/settings.html:1
 msgctxt "form-label"
 msgid "Explorer URL"
-msgstr ""
+msgstr "URL Explorer"
 
 #: views/account/transactions/table.html:1
 msgid "Export transactions as .csv"
-msgstr ""
+msgstr "Belum ada transaksi."
 
 #: views/debug.html:1
 msgctxt "error-message"
 msgid "Failed to add account."
-msgstr ""
+msgstr "Gagal menambahkan akun."
 
 #: views/debug.html:1
 msgctxt "error-message"
 msgid "Failed to change the device label."
-msgstr ""
+msgstr "Gagal merubah nama label perangkat."
 
 #: views/debug.html:1
 msgctxt "error-message"
 msgid "Failed to renew session."
-msgstr ""
+msgstr "Gagal memperbarui sesi."
 
 #: views/debug.html:1
 msgctxt "error-message"
 msgid "Failed to send transaction"
-msgstr ""
+msgstr "Gagal mengirim transaksi"
 
 #. error while trying to sign message, error details follow
 #: views/otherStrings.html:7
 msgctxt "error-message"
 msgid "Failed to sign message:"
-msgstr ""
+msgstr "Gagal menandatangani pesan"
 
 #. error while trying to verify message, error details follow
 #: views/otherStrings.html:7
 msgctxt "error-message"
 msgid "Failed to verify message:"
-msgstr ""
-
-#: views/account/send/fees.html:1 views/account/transactions/table.html:1
-msgid "Fee"
-msgstr "Biaya"
+msgstr "Gagal memverifikasi pesan"
 
 #. This is a label to the sending form. (Address/amount/comment)
 #: views/account/send/fees.html:1
@@ -1020,9 +1045,13 @@ msgctxt "send"
 msgid "Fee"
 msgstr "Biaya"
 
+#: views/account/send/fees.html:1 views/account/transactions/table.html:1
+msgid "Fee"
+msgstr "Biaya"
+
 #: views/account/send/fees.html:1
 msgid "Fee is not a natural number."
-msgstr ""
+msgstr "Biaya bukan angka."
 
 #: views/account/send/fees.html:1
 msgid "Fee is not a number."
@@ -1031,7 +1060,7 @@ msgstr "Biaya bukan angka."
 #: views/modal/button.html:1
 msgctxt "warning-message"
 msgid "Fee is over threshold."
-msgstr ""
+msgstr "Biaya melebihi batas."
 
 #: views/account/send/fees.html:1
 msgid "Fee is too low."
@@ -1045,7 +1074,7 @@ msgstr ""
 #: views/settings.html:1
 msgctxt "form-label"
 msgid "Fiat Currency"
-msgstr ""
+msgstr "Mata uang FIAT"
 
 #. Final fee of a transaction - for example 100 sat/B (sat/B is a unit)
 #: views/account/send/txPrepared.html:1
@@ -1062,7 +1091,7 @@ msgstr "Firmware"
 #: views/modal/csv.html:8
 msgctxt "form-label"
 msgid "First row is header"
-msgstr ""
+msgstr "Header baris pertama"
 
 #. Attribution of picture, in the footer of Homepage. Don't translate the name of the picture or the author.
 #: views/device/homescreen.html:4
@@ -1073,24 +1102,24 @@ msgstr ""
 
 #: views/device/recovery.html:1
 msgid "Follow the instructions on your device."
-msgstr ""
+msgstr "Konfirmasi langkah pada perangkat anda."
 
 #: views/notices.html:1
 msgctxt "text-with-link"
 msgid "For more information, please refer to <a>our guide</a>"
-msgstr ""
+msgstr "Untuk informasi lebih lanjut, silakan lihat"
 
 #. For more information, visit (TREZOR documentation link)
 #: views/modal/firmware.html:7
 msgctxt "text-with-link"
 msgid "For more information, visit <a>the user manual</a>"
-msgstr ""
+msgstr "Untuk informasi lebih lanjut, lihat di user manual."
 
 #. Clicking here will lead the user to our manual.
 #: views/modal/firmware.html:7
 msgctxt "button"
 msgid "For more information, visit the user manual."
-msgstr ""
+msgstr "Untuk informasi lebih lanjut, lihat di user manual."
 
 #: views/modal/firmware.html:7
 msgid ""
@@ -1098,6 +1127,10 @@ msgid ""
 "to ensure that your firmware will be up-to-date at the time of "
 "initialization."
 msgstr ""
+"Untuk alasan keamanan, TREZOR dikirim tanpa instalasi firmware terlebih "
+"dahulu. Hal ini untuk meyakinkan bahwa\n"
+"                        firmware anda akan tetap 'up to date' saat inisasi "
+"awal."
 
 #: views/notices.html:1
 msgctxt "warning-message"
@@ -1105,6 +1138,8 @@ msgid ""
 "For testing purposes, Wallet uses the same dollar rates for testnet coins as "
 "for bitcoin."
 msgstr ""
+"Untuk tujuan pengujian, Wallet menggunakan harga dolar yang sama untuk koin "
+"testnet seperti untuk bitcoin."
 
 #. Button in remember/forget dialog
 #: views/modal/forget.disconnected.html:1
@@ -1116,12 +1151,12 @@ msgstr "Lupa"
 #: views/modal/forget.requested.html:1
 msgctxt "button"
 msgid "Forget"
-msgstr ""
+msgstr "Lupa"
 
 #: views/nav/device.html:1
 msgctxt "button"
 msgid "Forget device"
-msgstr ""
+msgstr "Hapus perangkat ini"
 
 #. Forget (device label)?
 #: views/modal/forget.disconnected.html:1 views/modal/forget.requested.html:1
@@ -1151,32 +1186,34 @@ msgstr "Pada situasi ini anda dapat:"
 msgid "Gallery selection"
 msgstr "Pilihan galeri"
 
-#. call to action button of the android trezor manager promo
-#: views/promos/android.html:1
-msgctxt "promos-android"
-msgid "Get started"
-msgstr ""
-
 #. call to action button of the trezor password manager promo
 #: views/promos/tpm.html:1
 msgctxt "promos-passmanager"
 msgid "Get started"
 msgstr ""
 
+#. call to action button of the android trezor manager promo
+#: views/promos/android.html:1
+msgctxt "promos-android"
+msgid "Get started"
+msgstr ""
+
 #: views/modal/backendwarnings/bcash.html:1
 msgctxt "button"
 msgid "Go back"
-msgstr ""
+msgstr "Kembali"
 
 #: views/modal/backendwarnings/ethwallet.html:1
 msgctxt "button"
 msgid "Go to MyEtherWallet"
 msgstr ""
+"Pergi ke\n"
+"        MyEtherWallet"
 
 #: views/modal/beta.html:1
 msgctxt "button"
 msgid "Go to TREZOR Wallet"
-msgstr ""
+msgstr "Buka Dompet TREZOR"
 
 #. button that hides the top part of Transactions page (Balance/Rate/In/Out + graph)
 #: views/account/transactions/summary.html:3
@@ -1202,12 +1239,12 @@ msgstr "Tinggi"
 #: views/device/nav.html:1
 msgctxt "button"
 msgid "Homescreen"
-msgstr ""
+msgstr "Homescreen"
 
 #: views/debug.html:1
 msgctxt "error-message"
 msgid "Homescreen change failed."
-msgstr ""
+msgstr "Perubahan homescreen gagal."
 
 #: views/device/homescreen.html:1
 msgid "Homescreen setup"
@@ -1216,7 +1253,7 @@ msgstr "Pengaturan homescreen"
 #: views/debug.html:1
 msgctxt "success-message"
 msgid "Homescreen was successfully changed."
-msgstr ""
+msgstr "Berhasil merubah homescreen."
 
 #: views/account/transactions/welcomes/bitcoin.html:1
 msgid "How about buying some bitcoins?"
@@ -1249,7 +1286,7 @@ msgstr ""
 #: views/debug.html:1
 msgctxt "text-with-link"
 msgid "If the problem persists, please run our <a>Support Center</a>"
-msgstr ""
+msgstr "Jika masalah tetap ada, mohon jalankan"
 
 #. Whole text: If you disable the passphrase encryption, your current funds will not appear. You will have to enable the passphrase encryption again to see your current wallet.
 #: views/device/advanced.html:5
@@ -1269,7 +1306,7 @@ msgstr ""
 #: views/modal/button.html:1
 msgctxt "warning-message"
 msgid "If you forget your passphrase, you will lose your coins."
-msgstr ""
+msgstr "Jika anda lupa passphrase anda, maka koin anda akan hilang."
 
 #: views/device/advanced.html:1
 msgid ""
@@ -1284,24 +1321,36 @@ msgid ""
 "If you have TREZOR set up already, <strong>have your Recovery seed ready "
 "before updating the firmware</strong>!"
 msgstr ""
+"Jika TREZOR anda telah diinisiasikan, harap selalu membuat langkah "
+"pemulihan\n"
+"                    sebelum anda melakukan pembaruan firmware!"
 
 #: views/install/main.html:1
 msgid ""
 "If you want to use TREZOR with different browsers, please install TREZOR "
 "Bridge."
 msgstr ""
+"<hr>\n"
+"                Jika anda ingin menggunakan TREZOR pada browser yang "
+"berbeda, install TREZOR Bridge terlebih dahulu."
 
 #: views/modal/firmware.html:7
 msgid ""
 "If your TREZOR has not been set up yet (fresh out of the box), you do not "
 "need to have a Recovery seed."
 msgstr ""
+"Jika TREZOR masih belum dilakukan pengaturan awal (masih baru dibuka), anda "
+"tidak perlu \n"
+"                            melakukan pemulihan apapun."
 
 #: views/modal/firmware.html:7
 msgid ""
 "If your TREZOR is already initialized, always have your Recovery seed with "
 "you before updating the firmware!"
 msgstr ""
+"Jika TREZOR anda telah diinisiasikan, harap selalu membuat langkah "
+"pemulihan\n"
+"                    sebelum anda melakukan pembaruan firmware!"
 
 #: views/device/homescreen.html:4
 msgid ""
@@ -1314,12 +1363,12 @@ msgstr ""
 #: views/modal/csv.html:8
 msgctxt "button"
 msgid "Import"
-msgstr ""
+msgstr "Import"
 
 #: views/modal/csv.html:1
 msgctxt "heading"
 msgid "Import addresses from CSV"
-msgstr ""
+msgstr "Import alamat dari file CSV"
 
 #: views/account/send/buttonBar.html:1
 msgid "Import from CSV"
@@ -1336,12 +1385,17 @@ msgid ""
 "its functionality is maximally reliable and dependable for the general "
 "public."
 msgstr ""
+"adalah fitur konservarif, untuk memastikan fungsinya secara maksimal berguna "
+"untuk masyarakat umum."
 
 #: views/jumbotrons/udev-note.html:1
 msgid ""
 "In some cases, Linux users need to install udev rules to access the device. "
 "Please, install the following package and reconnect your TREZOR."
 msgstr ""
+"Pada beberapa kondisi, pengguna Linux akan memerlukan untuk menginstal "
+"\"udev rules\" agar  dapat mengakses perangkat.\n"
+"                Mohon instal paket berikut dan hubungkan kembali TREZOR anda."
 
 #: views/modal/firmware.html:7
 msgid ""
@@ -1361,7 +1415,7 @@ msgstr ""
 #: views/account/send/txPrepared.html:1
 msgctxt "heading"
 msgid "Inputs:"
-msgstr ""
+msgstr "Input:"
 
 #: views/account/transactions/table.html:13
 msgid "Insight Transaction info"
@@ -1370,7 +1424,7 @@ msgstr "Detail informasi Transaksi"
 #: views/install/main.html:1
 msgctxt "button"
 msgid "Install Extension"
-msgstr ""
+msgstr "Pasang ekstensi"
 
 #: views/install/main.html:1
 msgid ""
@@ -1389,24 +1443,24 @@ msgstr "Instal app asli!"
 #: views/modal/firmware.html:7
 msgctxt "text-with-link"
 msgid "Interested in best security practices? <a>Learn more</a>"
-msgstr ""
+msgstr "Tertarik dengan praktik keamanan terbaik?"
 
 #. error while trying to verify message - signature does not match
 #: views/otherStrings.html:7
 msgctxt "error-message"
 msgid "Invalid signature."
-msgstr ""
+msgstr "Tanda tangan tidak valid"
 
 #. PIN strength
 #: views/modal/pin.html:1
 msgctxt "warning-message"
 msgid "It's fine."
-msgstr ""
+msgstr "Tidak apa-apa."
 
 #: views/modal/firmware.html:7
 msgctxt "heading"
 msgid "It's time to install firmware."
-msgstr ""
+msgstr "Sudah waktunya menginstal firmware."
 
 #. This is a short label in the device Basic page
 #: views/device/index.basic.html:1
@@ -1417,96 +1471,96 @@ msgstr "Label"
 #: views/debug.html:1
 msgctxt "success-message"
 msgid "Label was successfully changed."
-msgstr ""
+msgstr "Nama label berhasil dirubah."
 
 #: views/debug.html:1
 msgctxt "error-message"
 msgid "Labeling error."
-msgstr ""
+msgstr "Pemberian nama label error."
 
 #: views/date.selection.html:8
 msgctxt "date"
 msgid "Last 2 Months"
-msgstr ""
+msgstr "2 Bulan Terakhir"
 
 #: views/date.selection.html:8
 msgctxt "date"
 msgid "Last 2 Weeks"
-msgstr ""
+msgstr "2 Minggu Terakhir"
 
 #: views/date.selection.html:8
 msgctxt "date"
 msgid "Last 2 Years"
-msgstr ""
+msgstr "2 Tahun Terakhir"
 
 #: views/modal/firmware.html:7
 msgctxt "heading"
 msgid "Latest"
-msgstr ""
+msgstr "Terbaru"
 
 #. call to action button of the show on trezor promo
 #: views/promos/show.html:1
 msgctxt "promos-show"
 msgid "Learn more"
-msgstr ""
-
-#. link to Trezor documentation about segwit / legacy accounts
-#: views/account/transactions/legacynote.html:1
-msgctxt "button"
-msgid "Learn more"
-msgstr ""
-
-#. call to action button of the PIN promo
-#: views/promos/pin.html:1
-msgctxt "promos-pin"
-msgid "Learn more"
-msgstr ""
-
-#. call to action button of the 2 factor authentication promo
-#: views/promos/2fa.html:1
-msgctxt "promos-2fa"
-msgid "Learn more"
-msgstr ""
+msgstr "Belajarlah lebih lanjut"
 
 #. call to action button of the labeling promo
 #: views/promos/labeling.html:1
 msgctxt "promos-labeling"
 msgid "Learn more"
-msgstr ""
+msgstr "Belajarlah lebih lanjut"
+
+#. call to action button of the 2 factor authentication promo
+#: views/promos/2fa.html:1
+msgctxt "promos-2fa"
+msgid "Learn more"
+msgstr "Belajarlah lebih lanjut"
+
+#. link to Trezor documentation about segwit / legacy accounts
+#: views/account/transactions/legacynote.html:1
+msgctxt "button"
+msgid "Learn more"
+msgstr "Belajarlah lebih lanjut"
 
 #. call to action button of the malware promo
 #: views/promos/malware.html:1
 msgctxt "promos-malware"
 msgid "Learn more"
-msgstr ""
+msgstr "Belajarlah lebih lanjut"
+
+#. call to action button of the PIN promo
+#: views/promos/pin.html:1
+msgctxt "promos-pin"
+msgid "Learn more"
+msgstr "Belajarlah lebih lanjut"
 
 #. Learn more about (link to Advanced recovery section of TREZOR documentation)
 #: views/modal/recovery.html:1
 msgctxt "text-with-link"
 msgid "Learn more about <a>Advanced recovery</a>"
-msgstr ""
+msgstr "Belajar lebih lanjut tentang Pemulihan"
 
 #: views/nav/index.html:1 views/nav/legacy-accounts.html:1
 msgctxt "button"
 msgid "Learn more about Legacy accounts."
-msgstr ""
+msgstr "Pelajari lebih lanjut tentang akun Legacy."
 
 #: views/device/recovery.html:1
 msgctxt "button"
 msgid "Learn more about Recovery"
-msgstr ""
+msgstr "Belajar lebih lanjut tentang Pemulihan"
 
 #. Part of a long text about Dropbox and labeling, link to trezor documentation
 #: views/modal/dropbox.html:1
 msgctxt "button"
 msgid "Learn more about TREZOR Wallet labeling"
-msgstr ""
+msgstr "Belajar lebih lanjut tentang pemberian nama Dompet TREZOR"
 
 #. This text is displayed, when the send transaction amount is high. Link leads to Trezor documentation on phishing.
 #: views/account/send/inside.html:1
 msgctxt "warning-message"
 msgid "Learn more about phishing..."
-msgstr ""
+msgstr "Belajar lebih lanjut tentang phishing…"
 
 #: views/device/advanced.html:1 views/device/advanced.html:5
 msgid "Learn more in user manual"
@@ -1531,7 +1585,7 @@ msgstr ""
 #: views/nav/legacy-accounts.html:1
 msgctxt "heading"
 msgid "Legacy accounts"
-msgstr ""
+msgstr "Akun lawas"
 
 #: views/device/index.basic.html:5
 msgid "Legacy accounts (BIP 44)"
@@ -1545,12 +1599,12 @@ msgstr ""
 #: views/jumbotrons/loading.html:1 views/main.wrapper.html:1
 msgctxt "heading"
 msgid "Loading"
-msgstr ""
+msgstr "Memuat"
 
 #: views/nav/settings-buttons.html:1
 msgctxt "tooltip"
 msgid "Loading Dropbox status."
-msgstr ""
+msgstr "Memuat transaksi"
 
 #: views/nav/device-buttons.html:1
 msgid "Loading accounts..."
@@ -1559,7 +1613,7 @@ msgstr "Memuat akun..."
 #: views/debug.html:1
 msgctxt "error-message"
 msgid "Loading failed."
-msgstr ""
+msgstr "Gagal memuat."
 
 #: views/device/index.basic.html:1
 msgid "Loading of accounts failed."
@@ -1569,25 +1623,25 @@ msgstr "Gagal memuat akun."
 msgid "Loading transactions"
 msgstr "Memuat transaksi"
 
-#: views/device/index.basic.html:3
-msgid "Loading..."
-msgstr "Memuat..."
-
 #. Is displayed when TREZOR is loading, in the left column
 #: views/nav/device.html:1
 msgctxt "device-state"
 msgid "Loading..."
-msgstr ""
+msgstr "Memuat..."
+
+#: views/device/index.basic.html:3
+msgid "Loading..."
+msgstr "Memuat..."
 
 #: views/nav/account.html:1
 msgctxt "tooltip"
 msgid "Loading..."
-msgstr ""
+msgstr "Memuat..."
 
 #. Loading (123 transactions)
 #: views/nav/account.html:1
 msgid "Loading... ({{count}} transactions)"
-msgstr ""
+msgstr "Memuat transaksi"
 
 #. Displayed on a Bitcoin account with no transactions to help user get Bitcoin (link to LocalBitcoins)
 #: views/account/transactions/welcomes/bitcoin.html:1
@@ -1600,11 +1654,22 @@ msgctxt "button"
 msgid "Lock device<br>(automatically in {{time}})"
 msgstr ""
 
+#. This is a label to the sending form. (Address/amount/comment)
+#: views/account/send/inside.html:1
+msgctxt "form-label"
+msgid "Locktime"
+msgstr ""
+
+#: views/account/send/inside.html:1
+msgctxt "error-message"
+msgid "Locktime invalid"
+msgstr ""
+
 #. application event and error log
 #: views/debug.log.html:1
 msgctxt "heading"
 msgid "Log"
-msgstr ""
+msgstr "Log"
 
 #. Transaction fee size menu
 #: views/account/send/fees.html:1
@@ -1618,6 +1683,8 @@ msgid ""
 "Make sure the address displayed on TREZOR is correct.<br>To prevent malware "
 "attacks, double-check the address with the recipient."
 msgstr ""
+"Pastikan bahwa alamat yang ditampilkan di TREZOR tepat dan benar.<br>Untuk "
+"menjaga terjadi serangan malware, kroscek lagi alamat dengan penerima."
 
 #: views/modal/firmware.html:7
 msgid "Make sure the same fingerprint is displayed on the device screen."
@@ -1627,18 +1694,21 @@ msgstr "Pastikan sidikjari yang ditampilkan pada layar perangkat sama."
 #: views/otherStrings.html:7
 msgctxt "form-label"
 msgid "Manual Configuration"
-msgstr ""
+msgstr "Konfigurasi manual (tingkat lanjut)"
 
 #: views/jumbotrons/udev-note.html:6
 msgctxt "button"
 msgid "Manual configuration (advanced)"
-msgstr ""
+msgstr "Konfigurasi manual (tingkat lanjut)"
 
 #. Add your signature that you would like to be credited as. Write 'Many thanks to ...' in your language in front of your and others co-translators signature - after the ones, which already exist.
 #: views/footer.html:1
 msgctxt "text-with-link"
 msgid "Many thanks to our translators for their <a>contribution</a>"
 msgstr ""
+"Terima kasih banyak untuk para translator kami atas <a href=\"http://doc."
+"satoshilabs.com/trezor-tech/translating.html\" class=\"arrow"
+"\">kontribusinya</a>"
 
 #: views/account/sign/inside.html:1 views/account/sign/inside.html:5
 msgid "Maximal message length is 255 letters long."
@@ -1656,7 +1726,7 @@ msgstr "Pesan"
 #: views/otherStrings.html:7
 msgctxt "success-message"
 msgid "Message verified."
-msgstr ""
+msgstr "Pesan telah diverifikasi."
 
 #. This is on a hidden site, 99.99% of people will not see it
 #: views/device/metadata.html:4
@@ -1691,15 +1761,15 @@ msgstr "TREZOR Saya"
 msgid "Nearest ATM: <a>CoinAtmRadar</a>"
 msgstr ""
 
-#: views/modal/firmware.html:7
-msgid "Need help?"
-msgstr "Butuh bantuan?"
-
 #. Leads to trezor support
 #: views/modal/firmware.html:7 views/modal/pinguide.html:1
 msgctxt "button"
 msgid "Need help?"
-msgstr ""
+msgstr "Butuh bantuan?"
+
+#: views/modal/firmware.html:7
+msgid "Need help?"
+msgstr "Butuh bantuan?"
 
 #: views/modal/button.html:1
 msgctxt "warning-message"
@@ -1707,6 +1777,8 @@ msgid ""
 "Never do this action with TREZOR holding coins unless you have your recovery "
 "seed at hand."
 msgstr ""
+"Jangan pernah lakukan langkah ini pada TREZOR yang mempunyai sejumlah koin "
+"didalamnya, kecuali anda telah mempunyai recovery seed."
 
 #: views/modal/setup.html:1
 msgid ""
@@ -1726,6 +1798,8 @@ msgstr ""
 msgctxt "warning-message"
 msgid "Never use this process unless you really know what you are doing!"
 msgstr ""
+"Jangan pernah melakukan proses ini kecuali anda BENAR-BENAR mengetahui apa "
+"yang sedang anda lakukan!"
 
 #: views/alertbars/bridge.html:4
 msgid "New TREZOR Bridge is available."
@@ -1738,7 +1812,7 @@ msgstr "TREZOR firmware baru telah tersedia."
 #: views/modal/_header.html:1
 msgctxt "heading"
 msgid "New device setup"
-msgstr ""
+msgstr "Pengaturan perangkat baru"
 
 #: views/promos/index.html:1
 msgctxt "tooltip"
@@ -1752,13 +1826,13 @@ msgstr "Belum ada transaksi."
 #: views/jumbotrons/noaccounts.html:1
 msgctxt "heading"
 msgid "No accounts"
-msgstr ""
+msgstr "Tidak ada akun"
 
 #. error while trying to sign message - address field is empty
 #: views/otherStrings.html:7
 msgctxt "error-message"
 msgid "No address entered."
-msgstr ""
+msgstr "Alamat diperlukan."
 
 #: views/account/transactions/summary.html:3
 msgid "No data"
@@ -1768,7 +1842,7 @@ msgstr ""
 #: views/otherStrings.html:7
 msgctxt "error-message"
 msgid "No message entered."
-msgstr ""
+msgstr "Pesan telah diverifikasi."
 
 #. error while trying to sign message - signature field is empty
 #: views/otherStrings.html:7
@@ -1789,34 +1863,36 @@ msgstr "Normal"
 #: views/account/send/txAddress.html:9
 msgctxt "error-message"
 msgid "Not a valid address"
-msgstr ""
+msgstr "Bukan alamat yang valid"
 
 #: views/account/send/txAmount.html:1
 msgctxt "error-message"
 msgid "Not enough funds"
-msgstr ""
+msgstr "Dana tidak mencukupi"
 
 #. This is an error when user tries to send more than their account balance
 #: views/account/send/inside.html:1
 msgctxt "error-message"
 msgid "Not enough funds."
-msgstr ""
+msgstr "Dana tidak mencukupi"
 
 #. Not sure how PIN works? (link to TREZOR documentation)
 #: views/modal/pin.html:1
 msgctxt "text-with-link"
 msgid "Not sure how PIN works? <a>Learn more</a>"
-msgstr ""
+msgstr "Ragu bagaimana cara kerja PIN?"
 
 #: views/modal/passphrase.html:1
 msgctxt "warning-message"
 msgid "Note that passphrase is case-sensitive."
-msgstr ""
+msgstr "Perlu dicatat bahwa passphrase bersifat \"case-sensitive\"."
 
 #: views/modal/pin.html:1
 msgctxt "warning-message"
 msgid "Note that the number layout displayed on TREZOR has changed!"
 msgstr ""
+"Perlu dicatat bahwa nomor rancangan tata letak yang ditampilkan pada TRAZOR "
+"telah berubah!"
 
 #: views/modal/firmware.html:7
 msgid ""
@@ -1833,17 +1909,17 @@ msgstr "Jumlah kata pada seed recovery anda"
 #: views/modal/backendwarnings/bcash.html:1
 msgctxt "button"
 msgid "OK"
-msgstr ""
-
-#: views/device/advanced.html:1 views/device/advanced.html:5
-msgid "OK, I understand"
-msgstr "OK, Saya mengerti"
+msgstr "OK"
 
 #. User wants to use TREZOR Beta Wallet
 #: views/modal/beta.html:1 views/modal/pinguide.html:1
 msgctxt "button"
 msgid "OK, I understand"
-msgstr ""
+msgstr "OK, Saya mengerti"
+
+#: views/device/advanced.html:1 views/device/advanced.html:5
+msgid "OK, I understand"
+msgstr "OK, Saya mengerti"
 
 #: views/modal/setup.html:1
 msgid ""
@@ -1864,7 +1940,7 @@ msgstr ""
 #: views/account/send/txPrepared.html:1
 msgctxt "heading"
 msgid "Outputs:"
-msgstr ""
+msgstr "Output:"
 
 #: views/device/load.html:1
 msgid "PIN"
@@ -1873,7 +1949,7 @@ msgstr "PIN"
 #: views/debug.html:1
 msgctxt "error-message"
 msgid "PIN change failed."
-msgstr ""
+msgstr "Perubahan PIN gagal."
 
 #. This is a short label in the device Basic page
 #: views/device/index.basic.html:1
@@ -1884,12 +1960,12 @@ msgstr "Proteksi PIN"
 #: views/debug.html:1
 msgctxt "success-message"
 msgid "PIN was successfully changed."
-msgstr ""
+msgstr "PIN berhasil dirubah."
 
 #: views/debug.html:1
 msgctxt "success-message"
 msgid "PIN was successfully removed."
-msgstr ""
+msgstr "PIN berhasil dihapus."
 
 #. Length is important here! Full sentence: How strong is your *PIN?* Check out some of our tips!
 #: views/promos/pin.html:1
@@ -1907,12 +1983,12 @@ msgstr "Passphrase"
 #: views/promos/passphrase.html:1
 msgctxt "promos-passphrase"
 msgid "Passphrase Encryption"
-msgstr ""
+msgstr "Aktifkan enksripsi passphrase"
 
 #: views/debug.html:1
 msgctxt "error-message"
 msgid "Passphrase change failed."
-msgstr ""
+msgstr "Passphrase gagal dirubah."
 
 #: views/device/advanced.html:1
 msgid ""
@@ -1927,29 +2003,29 @@ msgstr ""
 #: views/modal/passphrase.html:1
 msgctxt "error-message"
 msgid "Passphrase is too long!"
-msgstr ""
+msgstr "Passphrase terlalu panjang!"
 
 #. Length is important here! Full sentence: Use hidden wallets with *Passphrase<br/>Encryption* - But first, get to know<br/>how it works!
 #: views/promos/passphrase.html:1
 msgctxt "promos-passphrase"
 msgid "Passphrase<br>Encryption"
-msgstr ""
+msgstr "Aktifkan enksripsi passphrase"
 
 #: views/modal/passphrase.html:1
 msgctxt "error-message"
 msgid "Passphrases do not match!"
-msgstr ""
+msgstr "Passphrase tidak cocok!"
 
 #: views/modal/csv.html:8
 msgctxt "form-label"
 msgid "Paste the CSV here:"
-msgstr ""
+msgstr "Paste CSV disini:"
 
 #. PIN strength
 #: views/modal/pin.html:1
 msgctxt "success-message"
 msgid "Perfect, impossible to guess!"
-msgstr ""
+msgstr "Sempurna, tidak mungkin dapat ditebak!"
 
 #: views/modal/backendwarnings/bcash.html:1
 msgid ""
@@ -1964,6 +2040,8 @@ msgstr ""
 #: views/modal/setup.html:1
 msgid "Please check carefully that you wrote them down correctly."
 msgstr ""
+"Mohon cek ulang dengan seksama\n"
+"            apakah anda telah menuliskannya dengan tepat."
 
 #: views/modal/setup.wordCheck.html:1
 msgid "Please check the 10th word of your recovery seed."
@@ -2064,7 +2142,7 @@ msgstr "Silahkan periksa kembali kata ke 9 dari seed recovery anda."
 #: views/modal/firmware.html:7
 msgctxt "heading"
 msgid "Please confirm the firmware fingerprint."
-msgstr ""
+msgstr "Silahkan konfirmasikan sidikjari firmware."
 
 #: views/device/custom-firmware.html:1 views/device/load.html:1
 #: views/device/recovery.html:1
@@ -2075,13 +2153,13 @@ msgstr "Silahkan hubungkan perangkat anda untuk mengakses bagian ini."
 #: views/otherStrings.html:7
 msgctxt "tooltip"
 msgid "Please connect your device to send coins."
-msgstr ""
+msgstr "Silahkan hubungkan perangkat anda untuk dapat mengirim koin."
 
 #. Explains why Sign message button is disabled
 #: views/otherStrings.html:7
 msgctxt "tooltip"
 msgid "Please connect your device to sign messages."
-msgstr ""
+msgstr "Silahkan hubungkan perangkat anda untuk dapat menandatangani pesan."
 
 #: views/modal/disconnect.wipe.html:1
 msgid "Please disconnect it now."
@@ -2090,31 +2168,31 @@ msgstr "Silahkan putuskan hubungan sekarang juga."
 #: views/modal/label.html:1
 msgctxt "heading"
 msgid "Please enter the device label"
-msgstr ""
+msgstr "Silahkan masukkan nama label perangkat"
 
 #. Explains why Send transaction button is disabled
 #: views/otherStrings.html:7
 msgctxt "tooltip"
 msgid "Please fill in address"
-msgstr ""
+msgstr "Silahkan isikan alamat"
 
 #. Explains why Send transaction button is disabled
 #: views/otherStrings.html:7
 msgctxt "tooltip"
 msgid "Please fill in amount"
-msgstr ""
+msgstr "Silahkan isikan jumlah"
 
 #. Explains why Sign message button is disabled
 #: views/otherStrings.html:7
 msgctxt "tooltip"
 msgid "Please fill in message and address."
-msgstr ""
+msgstr "Silahkan isikan pada pesan dan alamat."
 
 #. Send form -> add recipient -> import csv -> no .csv content pasted
 #: views/otherStrings.html:7
 msgctxt "error-message"
 msgid "Please fill the CSV."
-msgstr ""
+msgstr "Silahkan muat kembali halaman."
 
 #. Please follow .... (link to trezor blog about MyEtherWallet)
 #: views/modal/backendwarnings/ethwallet.html:1
@@ -2148,7 +2226,7 @@ msgstr "Silahkan hubungkan kembali perangkat sekarang juga."
 #: views/otherStrings.html:7
 msgctxt "tooltip"
 msgid "Please reload the page to send money."
-msgstr ""
+msgstr "Silahkan muat kembali halaman untuk mengirim uang."
 
 #: views/alertbars/offline.html:1
 msgid "Please reload the page."
@@ -2160,6 +2238,9 @@ msgid ""
 "Please try again. You need to make sure <strong>both device buttons are "
 "pressed, as you plug in the device.</strong>"
 msgstr ""
+"Silahkan coba lagi. Anda perlu memastikan bahwa<strong>kedua tombol pada "
+"perangkat telah ditekan, saat anda memasang\n"
+"                perangkat.</strong>"
 
 #: views/modal/firmware.html:7
 msgid "Please unplug the device now."
@@ -2173,13 +2254,13 @@ msgstr "Silahkan tunggu"
 #: views/otherStrings.html:7
 msgctxt "tooltip"
 msgid "Please wait a few seconds..."
-msgstr ""
+msgstr "Silahkan tunggu beberapa detik..."
 
 #. Explains why Send transaction button is disabled
 #: views/otherStrings.html:7
 msgctxt "tooltip"
 msgid "Please wait."
-msgstr ""
+msgstr "Silahkan tunggu."
 
 #: views/account/sign/inside.html:4
 msgid "Please wait..."
@@ -2192,7 +2273,7 @@ msgstr "Silahkan tuliskan semua kata berikut dengan hati-hati."
 #: views/modal/pin.html:1
 msgctxt "error-message"
 msgid "Please, re-enter correct PIN."
-msgstr ""
+msgstr "Silahkan, masukkan kembali PIN yang benar."
 
 #: views/modal/pinguide.html:1
 msgid ""
@@ -2220,7 +2301,7 @@ msgstr "Alamat sebelumnya"
 #: views/jumbotrons/landing/landing.heading.html:1
 msgctxt "heading"
 msgid "Private bank in your hands."
-msgstr ""
+msgstr "Bank pribadi dalam genggaman anda."
 
 #: views/device/recovery.html:1
 msgid "Processing..."
@@ -2229,29 +2310,23 @@ msgstr "Dalam proses..."
 #: views/debug.html:1
 msgctxt "error-message"
 msgid "QR scanning failed."
-msgstr ""
+msgstr "Scan QR gagal."
 
 #. Heading above current ($, €, ...)/(BTC, LTC, ...) rate
 #: views/account/transactions/summary.html:3
 msgid "Rate"
 msgstr "Kurs"
 
-#. In the bottom footer. 'Rates by (link to Bitpay)'.
-#: views/footer.html:1
-msgctxt "text-with-link"
-msgid "Rates by <a>Bitpay</a>"
-msgstr ""
-
 #: views/debug.html:1
 msgctxt "heading"
 msgid "Raw transaction in hex format:"
-msgstr ""
+msgstr "Raw transaksi dalam format hex:"
 
 #. Re-enter new (device label) PIN
 #: views/modal/pin.html:1
 msgctxt "heading"
 msgid "Re-enter new {{label}} PIN"
-msgstr ""
+msgstr "Ulangi masukan baru"
 
 #: views/modal/passphrase.html:1
 msgid "Re-type for control"
@@ -2261,12 +2336,12 @@ msgstr "Ulangi tipe untuk kontrol"
 #: views/promos/passphrase.html:1
 msgctxt "promos-passphrase"
 msgid "Read more"
-msgstr ""
+msgstr "Belajarlah lebih lanjut"
 
 #: views/debug.html:1
 msgctxt "error-message"
 msgid "Reading of accounts failed."
-msgstr ""
+msgstr "Pembacaan akun gagal."
 
 #. Really send <br> 100 BTC <br> from your wallet? <br> Fee included: <br> 0.01 BTC
 #: views/modal/button.html:1
@@ -2275,13 +2350,13 @@ msgid ""
 "<br>{{fee}} BTC"
 msgstr ""
 
-#: views/account/receive/index.html:1
-msgid "Receive"
-msgstr ""
-
 #. This is shown on the header Send/Receive/Transactions/...
 #: views/account/nav.html:1
 msgctxt "header"
+msgid "Receive"
+msgstr "Menerima"
+
+#: views/account/receive/index.html:1
 msgid "Receive"
 msgstr "Menerima"
 
@@ -2292,22 +2367,22 @@ msgstr "Pemulihan kata seed:"
 #: views/debug.html:1
 msgctxt "error-message"
 msgid "Recovery failed."
-msgstr ""
+msgstr "Pemulihan gagal."
 
 #: views/device/load.html:1
 msgctxt "form-label"
 msgid "Recovery seed or XPRV private key"
-msgstr ""
+msgstr "Recovery seed atau kunci pribadi XPRV"
 
 #: views/modal/setup.html:1
 msgctxt "heading"
 msgid "Recovery seed setup"
-msgstr ""
+msgstr "Pengaturan Recovery seed"
 
 #: views/modal/firmware.html:7
 msgctxt "button"
 msgid "Release notes"
-msgstr ""
+msgstr "Catatan rilis"
 
 #: views/alertbars/offline.html:1
 msgid "Reload"
@@ -2331,21 +2406,26 @@ msgstr ""
 msgid "Remove all recipients"
 msgstr "Hapus semua penerima"
 
+#: views/account/send/inside.html:1
+msgctxt "tooltip"
+msgid "Remove locktime"
+msgstr "Hapus penerima"
+
 #. tooltip on the X button which will remove entry from the Send form
 #: views/otherStrings.html:7
 msgctxt "tooltip"
 msgid "Remove recipient"
-msgstr ""
+msgstr "Hapus penerima"
 
 #: views/modal/account_label.html:1
 msgctxt "heading"
 msgid "Rename account"
-msgstr ""
+msgstr "Ubah nama akun"
 
 #: views/nav/account.html:4
 msgctxt "button"
 msgid "Rename account"
-msgstr ""
+msgstr "Ubah nama akun"
 
 #. tooltip on the X button which will reset Send form to empty state
 #: views/otherStrings.html:7
@@ -2356,7 +2436,7 @@ msgstr ""
 #: views/settings.html:1
 msgctxt "button"
 msgid "Save &amp; Reload"
-msgstr ""
+msgstr "Simpan &amp; Reload"
 
 #: views/account/send/txAddress.html:9
 msgid "Scan QR code"
@@ -2365,7 +2445,7 @@ msgstr "Pindai kode QR"
 #: views/modal/qr.html:1
 msgctxt "heading"
 msgid "Scan address from a QR code"
-msgstr ""
+msgstr "Pindai alamat dari kode QR"
 
 #: views/account/transactions/table.html:13
 msgid "Search for address, date or amount"
@@ -2374,7 +2454,7 @@ msgstr "Cari alamat, tanggal atau jumlah"
 #: views/device/recovery.html:1
 msgctxt "heading"
 msgid "Seed recovery"
-msgstr ""
+msgstr "Pemulihan seed"
 
 #: views/import.html:1
 msgctxt "form-label"
@@ -2394,7 +2474,7 @@ msgstr ""
 #: views/install/main.html:1 views/install/main.html:5
 msgctxt "button"
 msgid "Select platform..."
-msgstr ""
+msgstr "Pilih platfrom..."
 
 #. This is shown on the header Send/Receive/Transactions/...
 #: views/account/nav.html:1
@@ -2404,13 +2484,13 @@ msgstr "Kirim"
 
 #: views/account/send/index.html:1
 msgid "Send"
-msgstr ""
+msgstr "Kirim"
 
 #. This is shown on the main, big Send button
 #: views/account/send/buttonBar.html:1
 msgctxt "button"
 msgid "Send {{amount}}"
-msgstr ""
+msgstr "Kirim pembayaran"
 
 #: views/notices.html:1
 msgctxt "text-with-link"
@@ -2418,6 +2498,10 @@ msgid ""
 "Sending a transaction to an address starting with <strong>3</strong>? "
 "Please, <a>convert it first to an address starting with M</a>"
 msgstr ""
+"Mengirimkan transaksi ke alamat yang dimulai dengan <strong>3</strong>? "
+"Tolong, \n"
+"<a href=\"https://litecoin-project.github.io/p2sh-convert/\" target=\"_blank"
+"\">ubah dulu ke alamat yang dimulai dengan M</a>"
 
 #: views/notices.html:1
 msgctxt "text-with-link"
@@ -2425,6 +2509,9 @@ msgid ""
 "Sending litecoins to TREZOR? M-address refused? Please, <a>convert it first "
 "to an address starting with 3</a>"
 msgstr ""
+"Mengirim litecoin ke TREZOR? M-address menolak? Tolong, <a href=\"https://"
+"litecoin-project.github.io/p2sh-convert/\" target=\"_blank\"> ubah dulu ke "
+"alamat yang dimulai dengan 3</a>"
 
 #. Length is important here! Full sentence: *Sending money to the right person?* - Double check the address with the other party<br/>and prevent malware attacks!
 #: views/promos/malware.html:1
@@ -2447,7 +2534,7 @@ msgstr "Tetapkan sebagai homescreen"
 #: views/account/send/inside.html:1
 msgctxt "warning-message"
 msgid "Setting custom fee is not recommended."
-msgstr ""
+msgstr "Tidak disarankan menetapkan biaya khusus."
 
 #. Setting up your TREZOR will take only a few minutes. When you're done, you can start using your TREZOR. (Learn more - link to trezor documentation)
 #: views/device/index.setup.html:1
@@ -2456,6 +2543,9 @@ msgid ""
 "can start using your TREZOR. <a tooltip=\"Learn more about TREZOR Setup from "
 "User Manual\">Learn more</a>"
 msgstr ""
+"Pengaturan TREZOR anda hanya membutuhkan waktu beberapa menit.\n"
+"                    Jika telah selesai, anda dapat mulai menggunakan TREZOR "
+"anda."
 
 #. Length is important here! Full sentence: *Setup TREZOR<br>on your phone.* TREZOR Manager<br>for Android
 #: views/promos/android.html:1
@@ -2472,68 +2562,68 @@ msgstr ""
 #: views/debug.html:1
 msgctxt "error-message"
 msgid "Setup failed."
-msgstr ""
+msgstr "Pengaturan gagal."
 
 #. button that displays the top part of Transactions page (Balance/Rate/In/Out + graph)
 #: views/account/transactions/summary.html:3
 msgctxt "button"
 msgid "Show Summary"
-msgstr ""
+msgstr "Lihat lainnya"
 
 #: views/device/index.basic.html:3
 msgctxt "button"
 msgid "Show XPUBs"
-msgstr ""
+msgstr "Lihat XPUBs"
 
 #. Shows the changelog of latest TREZOR firmware
 #: views/modal/firmware.html:7
 msgctxt "button"
 msgid "Show changes"
-msgstr ""
+msgstr "Lihat perubahan"
 
 #: views/alertbars/bridge.html:4 views/alertbars/firmware.html:5
 msgctxt "button"
 msgid "Show details"
-msgstr ""
+msgstr "Lihat rincian"
 
 #. Hides transaction details
 #: views/account/transactions/txAddress.html:1
 msgctxt "button"
 msgid "Show less"
-msgstr ""
+msgstr "Lihat kebih ringkas"
 
 #: views/debug.button.html:1
 msgctxt "tooltip"
 msgid "Show log"
-msgstr ""
+msgstr "Lihat log"
 
 #. application event and error log
 #: views/debug.button.html:1 views/footer.html:1
 msgctxt "button"
 msgid "Show log"
-msgstr ""
+msgstr "Lihat log"
 
 #. Shows transaction details
 #. displays detailed explanation on how to use XPUBs
 #: views/account/transactions/txAddress.html:1 views/device/index.basic.html:7
 msgctxt "button"
 msgid "Show more"
-msgstr ""
+msgstr "Lihat lainnya"
+
+#: views/account/receive/address.html:16
+msgid "Show on TREZOR"
+msgstr "Lihat di TREZOR"
 
 #. Length is important here! Full sentence: Prevent phishing with *Show on TREZOR* - Click on eye icon<br/>in the Receive tab.
 #: views/promos/show.html:1
 msgctxt "promos-show"
-msgid "Show on TREZOR"
-msgstr ""
-
-#: views/account/receive/address.html:16
 msgid "Show on TREZOR"
 msgstr "Lihat di TREZOR"
 
 #: views/modal/passphrase.html:1
 msgctxt "button"
 msgid "Show passphrase"
-msgstr ""
+msgstr "Lihat passphrase"
 
 #: views/account/receive/index.html:4
 msgid "Show previous"
@@ -2543,7 +2633,7 @@ msgstr "Lihat sebelumnya"
 #: views/account/send/txPrepared.html:1
 msgctxt "button"
 msgid "Show transaction details"
-msgstr ""
+msgstr "Lihat rincian transaksi"
 
 #. This is on a button in the sign/verify form.
 #: views/account/sign/inside.html:4
@@ -2563,6 +2653,10 @@ msgctxt "header"
 msgid "Sign message"
 msgstr "Tandatangani Pesan"
 
+#: views/account/send/buttonBar.html:1
+msgid "Sign without sending"
+msgstr ""
+
 #. This is a label to the sign/verify form.
 #: views/account/sign/inside.html:4 views/account/sign/inside.html:6
 msgctxt "sign"
@@ -2573,13 +2667,13 @@ msgstr "Tanda tangan"
 #: views/otherStrings.html:7
 msgctxt "success-message"
 msgid "Signed successfully."
-msgstr ""
+msgstr "Berhasil ditandatangani."
 
 #. This is shown when the signing is in progress.
 #: views/account/send/inside.html:1
 msgctxt "heading"
 msgid "Signing and sending transaction..."
-msgstr ""
+msgstr "Menandatangani dan mengirim transaksi&hellip;"
 
 #. Size (in kB) of a transaction - for example 10 kB
 #: views/account/send/txPrepared.html:1
@@ -2589,7 +2683,7 @@ msgstr ""
 #: views/device/load.html:1
 msgctxt "form-label"
 msgid "Skip mnemonic checksum"
-msgstr ""
+msgstr "Lewati mnemonic checksum"
 
 #. This will be shown if user does a mistake in the, slightly complicated, firmware upgrade process.
 #: views/modal/firmware.html:7
@@ -2604,25 +2698,25 @@ msgstr "Akun Standar (BIP49)"
 #: views/modal/pinguide.html:1
 msgctxt "text-with-link"
 msgid "Still confused how PIN works? <a>Learn more</a>"
-msgstr ""
+msgstr "Masih bingung bagaimana PIN bekerja?"
 
 #. PIN strength
 #: views/modal/pin.html:1
 msgctxt "success-message"
 msgid "Strong enough!"
-msgstr ""
+msgstr "Cukup kuat!"
 
 #. This is displayed on top when any action successfully finishes
 #: views/debug.html:1
 msgctxt "heading"
 msgid "Success"
-msgstr ""
+msgstr "Sukses"
 
 #. link in top navigation bar
 #: views/top.nav.html:1
 msgctxt "button"
 msgid "Support"
-msgstr ""
+msgstr "Bantuan"
 
 #: index.html:1
 msgid "Support"
@@ -2631,33 +2725,33 @@ msgstr "Bantuan"
 #: views/modal/firmware.html:7
 msgctxt "button"
 msgid "Support needed?"
-msgstr ""
+msgstr "Butuh bantuan?"
 
 #: views/modal/backendwarnings/bcash.html:1
 msgctxt "heading"
 msgid "Switching to Bitcoin Cash"
-msgstr ""
-
-#: index.html:1
-msgid "TREZOR"
-msgstr "TREZOR"
+msgstr "Beralih ke Bitcoin Cash"
 
 #. link in top navigation bar
 #: views/top.nav.html:1
 msgctxt "button"
 msgid "TREZOR"
-msgstr ""
+msgstr "TREZOR"
+
+#: index.html:1
+msgid "TREZOR"
+msgstr "TREZOR"
 
 #. Length is important here! Full sentence: *Trezor Apps* - Independent services<br> with TREZOR support.
 #: views/promos/apps.html:1
 msgctxt "promos-apps"
 msgid "TREZOR Apps"
-msgstr ""
+msgstr "TREZOR"
 
 #: views/install/bridge.force.html:1
 msgctxt "heading"
 msgid "TREZOR Bridge update"
-msgstr ""
+msgstr "Perbarui TREZOR Bridge"
 
 #. Length is important here! Full sentence: Setup and manage TREZOR<br>on your phone. *TREZOR Manager<br>for Android*
 #: views/promos/android.html:1
@@ -2674,7 +2768,7 @@ msgstr "Pemulihan TREZOR"
 #: views/top.bar.html:1
 msgctxt "image-alt"
 msgid "TREZOR Wallet"
-msgstr ""
+msgstr "Dompet TREZOR"
 
 #: views/jumbotrons/landing/landing.heading.html:1
 msgid ""
@@ -2692,12 +2786,12 @@ msgstr "Dompet TREZOR sedang memuat akun"
 
 #: views/main.wrapper.html:1
 msgid "TREZOR Wallet is starting"
-msgstr ""
+msgstr "Menamai Dompet TREZOR"
 
 #: views/modal/dropbox.html:1
 msgctxt "heading"
 msgid "TREZOR Wallet labeling"
-msgstr ""
+msgstr "Menamai Dompet TREZOR"
 
 #: views/modal/disconnect.html:1
 msgid "TREZOR Wallet will forget your TREZOR right after you disconnect it."
@@ -2714,12 +2808,12 @@ msgstr "TREZOR hanya dapat menampilkan 64 karakter huruf."
 msgid ""
 "TREZOR cannot sign non-ASCII characters. {{invalid}} in your message is not "
 "an ASCII character."
-msgstr ""
+msgstr "pesan anda bukan merupakan karakter ASCII."
 
 #: views/error.html:1
 msgctxt "error-message"
 msgid "TREZOR loading failed"
-msgstr ""
+msgstr "TREZOR gagal memuat"
 
 #: views/jumbotrons/udev-note.html:1
 msgid "TREZOR not recognized?"
@@ -2765,7 +2859,7 @@ msgstr "Tipe TX"
 #: views/footer.html:1
 msgctxt "button"
 msgid "Terms"
-msgstr ""
+msgstr "Persyaratan Layanan"
 
 #: views/modal/firmware.html:7
 msgid ""
@@ -2773,11 +2867,15 @@ msgid ""
 "the firmware was not provided by SatoshiLabs, the device will display a "
 "warning when you start it."
 msgstr ""
+"Authentikasi instalasi firmware dilakukan saat menjalankan pertama kali.\n"
+"                        Jika firmware tidak berasal dari SatoshiLabs, pada "
+"perangkat anda akan muncul peringatan saat anda\n"
+"                        menjalankannya."
 
 #: views/settings.html:1
 msgctxt "error-message"
 msgid "The bitcore server doesn't seem to reply. Please select another server."
-msgstr ""
+msgstr "Server bitcore nampak tidak merespon. Silahkan pilih server lain."
 
 #: views/account/send/txPrepared.html:1
 msgctxt "tooltip"
@@ -2785,33 +2883,39 @@ msgid ""
 "The final size can differ a few bytes, since the transaction is created on "
 "TREZOR."
 msgstr ""
+"Total ukuran akhir mungkin saja berbeda beberapa byte, sejak transaksi "
+"tersebut dibuat melalui TREZOR."
 
 #. pin matrix layout
 #: views/modal/pin.html:1
 msgctxt "warning-message"
 msgid "The layout is displayed on your TREZOR."
-msgstr ""
+msgstr "Tata letak ditampilkan pada TREZOR anda."
 
 #. This text is displayed when the fee is too high.
 #: views/account/send/inside.html:1
 msgctxt "warning-message"
 msgid "The transaction fee is unexpectedly high."
+msgstr "Biaya transaksi tiba-tiba tinggi."
+
+#: views/settings.html:1
+msgid "There was a problem downloading currency exchange rates."
 msgstr ""
 
 #: views/date.selection.html:8
 msgctxt "date"
 msgid "This Month"
-msgstr ""
+msgstr "Bulan ini"
 
 #: views/date.selection.html:8
 msgctxt "date"
 msgid "This Week"
-msgstr ""
+msgstr "Minggu ini"
 
 #: views/date.selection.html:8
 msgctxt "date"
 msgid "This Year"
-msgstr ""
+msgstr "Tahun ini"
 
 #: views/modal/button.html:1
 msgid ""
@@ -2838,7 +2942,7 @@ msgstr "Ini adalah interface tingkat lanjut untuk pengguna AHLI saja!"
 #: views/import.html:1
 msgctxt "warning-message"
 msgid "This is an advanced interface intended for developer use only!"
-msgstr ""
+msgstr "Ini adalah interface tingkat lanjut untuk para developer saja!"
 
 #: views/notices.html:1
 msgctxt "warning-message"
@@ -2846,6 +2950,8 @@ msgid ""
 "This is your Bitcoin Cash (BCH) wallet. Do not receive bitcoins to the "
 "addresses in this wallet."
 msgstr ""
+"Ini adalah dompet Bitcoin Cash (BCH) anda. Jangan menerima bitcoin ke alamat "
+"di dompet ini."
 
 #: views/account/transactions/table.html:1
 msgid "Time"
@@ -2870,6 +2976,9 @@ msgid ""
 "To access subsequent addresses, please wait for confirmation on transaction "
 "on some of the previous addresses."
 msgstr ""
+"Untuk dapat mengakses address berikutnya, silahkan tunggu konfirmasi "
+"transaksi pada beberapa \n"
+"                                    address sebelumnya."
 
 #: views/nav/device-buttons.html:1
 msgctxt "tooltip"
@@ -2880,12 +2989,14 @@ msgstr ""
 msgctxt "tooltip"
 msgid "To add accounts, make sure your device is connected."
 msgstr ""
+"Untuk menambah akun, pastikan perangkat anda terhubung dan akun terakhir "
+"tidak kosong."
 
 #: views/notices.html:1
 msgctxt "text-with-link"
 msgid ""
 "To claim your Bitcoin Cash coins, please use our <a>coin-splitting tool</a>"
-msgstr ""
+msgstr "Untuk mengklaim koin Bitcoin Cash anda, silakan gunakan"
 
 #: views/modal/firmware.html:7
 msgid ""
@@ -2902,7 +3013,7 @@ msgstr "Untuk memperbarui firmware:"
 #: views/account/transactions/table.html:13 views/otherStrings.html:7
 msgctxt "date"
 msgid "Today"
-msgstr ""
+msgstr "Hari ini"
 
 #. This is a short label in the device Basic page
 #: views/device/index.basic.html:3
@@ -2918,7 +3029,7 @@ msgstr "Total diterima:"
 #: views/debug.html:1
 msgctxt "text-with-link"
 msgid "Transaction <a>{{hash}}</a> was successfully sent."
-msgstr ""
+msgstr "berhasil dikirim."
 
 #: views/account/transactions/table.html:1
 msgid "Transactions"
@@ -2938,27 +3049,22 @@ msgstr "Transaksi sedang dimuat ..."
 #: views/device/index.basic.html:1
 msgctxt "button"
 msgid "Try again"
-msgstr ""
+msgstr "Coba lagi"
 
 #: views/jumbotrons/udev-note.html:1
 msgctxt "button"
 msgid "Try installing udev rules."
-msgstr ""
+msgstr "Coba install udev rules."
 
 #: views/settings.html:1
 msgctxt "error-message"
 msgid "URL needs to start with https://"
-msgstr ""
+msgstr "URL perlu dimulai dengan https://"
 
 #: views/settings.html:1
 msgctxt "error-message"
 msgid "URL needs to start with https:// or http://"
-msgstr ""
-
-#: views/settings.html:1
-msgctxt "text-with-link"
-msgid "Unable to load data from <a>bitpay.com</a>"
-msgstr ""
+msgstr "URL perlu dimulai dengan https:// atau http://"
 
 #. Send form -> add recipient -> import csv -> wrongly formatted .csv content pasted
 #: views/otherStrings.html:7
@@ -2970,7 +3076,7 @@ msgstr ""
 #: views/account/transactions/table.html:13
 msgctxt "date"
 msgid "Unconfirmed"
-msgstr ""
+msgstr "Belum dikonfirmasi"
 
 #. This text is displayed, when the send transaction amount is high. Its goal is to get user to re-check the address.
 #: views/account/send/inside.html:1
@@ -2979,12 +3085,14 @@ msgid ""
 "Unlike your TREZOR, computers are not safe. Malware might replace bitcoin "
 "addresses you see."
 msgstr ""
+"Tidak sama seperti TREZOR, komputer tidak aman. Malware mungkin dapat "
+"mengganti alamat bitcoin yang anda lihat."
 
 #. PIN strength
 #: views/modal/pin.html:1
 msgctxt "error-message"
 msgid "Unnecessarily too long."
-msgstr ""
+msgstr "Tidak perlu terlalu lama."
 
 #. Shown in the list of addresses, the small comment below an address
 #: views/account/receive/address.html:16
@@ -2994,12 +3102,12 @@ msgstr "Alamat yang tidak terpakai"
 #: views/modal/firmware.html:7
 msgctxt "heading"
 msgid "Update device firmware?"
-msgstr ""
+msgstr "Update firmware perangkat?"
 
 #: views/modal/firmware.html:7
 msgctxt "heading"
 msgid "Update failed"
-msgstr ""
+msgstr "Update gagal"
 
 #: views/device/recovery.html:1
 msgid "Update firmware first to use Advanced Recovery"
@@ -3009,29 +3117,29 @@ msgstr ""
 #: views/modal/firmware.html:7
 msgctxt "heading"
 msgid "Update was successful"
-msgstr ""
+msgstr "Update berhasil"
 
 #. Button to start Bridge upgrade
 #: views/modal/firmware.html:7
 msgctxt "button"
 msgid "Upgrade"
-msgstr ""
-
-#: views/install/bridge.force.html:1
-msgid "Upgrade for the newest features."
-msgstr ""
-
-#. Upgrade refers to Trezor Bridge upgrade
-#: views/alertbars/bridge.html:4
-msgctxt "bridge-update"
-msgid "Upgrade for the newest features."
-msgstr ""
+msgstr "Upgrade"
 
 #. Upgrade refers to Trezor firmware upgrade
 #: views/alertbars/firmware.html:5
 msgctxt "firmware-update"
 msgid "Upgrade for the newest features."
-msgstr ""
+msgstr "Upgrade untuk fitur terbaru dan perbaikan bug."
+
+#. Upgrade refers to Trezor Bridge upgrade
+#: views/alertbars/bridge.html:4
+msgctxt "bridge-update"
+msgid "Upgrade for the newest features."
+msgstr "Upgrade untuk fitur terbaru dan perbaikan bug."
+
+#: views/install/bridge.force.html:1
+msgid "Upgrade for the newest features."
+msgstr "Upgrade untuk fitur terbaru dan perbaikan bug."
 
 #. This is on a button, for browsing images for homescreen tab
 #: views/device/homescreen.html:1
@@ -3042,13 +3150,13 @@ msgstr "Unggah gambar"
 #: views/modal/firmware.html:7
 msgctxt "heading"
 msgid "Uploading firmware..."
-msgstr ""
+msgstr "Unggah firmware..."
 
 #. Length is important here! Full sentence: *Use Labeling* - Add transaction comments,<br/>rename accounts or addresses. - Click on Dropbox icon on the bottom.
 #: views/promos/labeling.html:1
 msgctxt "promos-labeling"
 msgid "Use Labeling"
-msgstr ""
+msgstr "Nonaktifkan Pelabelan"
 
 #. Length is important here! Full sentence: *Use hidden wallets with* Passphrase Encryption - But first, get to know how it works!
 #: views/promos/passphrase.html:1
@@ -3067,7 +3175,7 @@ msgstr ""
 #: views/nav/device.html:1 views/nav/unacquired.html:1
 msgctxt "device-state"
 msgid "Used in other window"
-msgstr ""
+msgstr "Digunakan di jendela lain"
 
 #: views/device/advanced.html:8 views/device/index.basic.html:3
 msgid ""
@@ -3110,7 +3218,7 @@ msgstr "Verifikasi Pesan"
 #: views/modal/firmware.html:7
 msgctxt "heading"
 msgid "Versions"
-msgstr ""
+msgstr "Versi"
 
 #: views/account/receive/address.html:16 views/account/receive/address.html:26
 msgid "View address at block explorer"
@@ -3119,22 +3227,22 @@ msgstr "Lihat alamat di block exploler"
 #: views/modal/qr.html:1
 msgctxt "warning-message"
 msgid "Waiting for camera..."
-msgstr ""
+msgstr "Menunggu kamera&hellip;"
 
 #: views/account/receive/index.html:4 views/account/send/index.html:1
 #: views/account/sign/index.html:1
 msgid "Waiting for transaction history"
 msgstr "Menunggu riwayat transaksi"
 
-#: index.html:1
-msgid "Wallet"
-msgstr "Dompet"
-
 #. link in top navigation bar
 #: views/top.nav.html:1
 msgctxt "button"
 msgid "Wallet"
-msgstr ""
+msgstr "Dompet"
+
+#: index.html:1
+msgid "Wallet"
+msgstr "Dompet"
 
 #: views/device/index.html:1
 msgid "Want to restore your wallet from recovery seed?"
@@ -3168,6 +3276,8 @@ msgid ""
 "We recommend you to verify the payment address through independent "
 "communication channels such as a phone call or a text message."
 msgstr ""
+"Kami sarankan anda untuk memverifikasi alamat pembayaran melalui channel "
+"komunikasi independen seperi panggilan telephone atau pesan text."
 
 #: views/modal/setup.html:1
 msgid "We will now show you the 24 words again."
@@ -3190,31 +3300,31 @@ msgstr ""
 "Jika anda berniat untuk memberikannya pada pihak ketiga, anda "
 "memperbolehkannya untuk melihat keseluruhan sejarah transaksi."
 
-#. This is written on a button, clicking it will wipe the device
-#: views/device/advanced.html:9
-msgctxt "button"
-msgid "Wipe device"
-msgstr "Hapus perangkat"
-
 #. This is a short label in the device Advanced page
 #: views/device/advanced.html:8
 msgctxt "advanced-label"
 msgid "Wipe device"
 msgstr "Hapus perangkat"
 
+#. This is written on a button, clicking it will wipe the device
+#: views/device/advanced.html:9
+msgctxt "button"
+msgid "Wipe device"
+msgstr "Hapus perangkat"
+
 #: views/debug.html:1
 msgctxt "error-message"
 msgid "Wipe failed."
-msgstr ""
+msgstr "Gagal menghapus."
 
 #: views/modal/disconnect.wipe.html:1
 msgctxt "heading"
 msgid "Wipe finished"
-msgstr ""
+msgstr "Selesai menghapus"
 
 #: views/device/advanced.html:8
 msgid "Wiping the device removes all its information."
-msgstr ""
+msgstr "Menghapus perangkat<span>menghapus seluruh informasi.</span>"
 
 #. With TREZOR Chrome Extension ... (link to TREZOR Chrome Extension)
 #: views/install/main.html:10
@@ -3223,6 +3333,8 @@ msgid ""
 "With TREZOR Chrome Extension you can use TREZOR Wallet in Chrome without "
 "installing any other software. <a>Install TREZOR Chrome Extension</a>"
 msgstr ""
+"Dengan ekstensi TREZOR Chrome anda dapar menggunakan Dompet TREZOR tanpa "
+"perlu menginstall perangkat lunak lainnya."
 
 #: views/device/recovery.html:1
 msgid "Words are going to be entered in shuffled order."
@@ -3335,7 +3447,7 @@ msgstr "Tuliskan kata ke 9 dari TREZOR kedalam kartu recovery seed."
 #: views/modal/button.html:1
 msgctxt "heading"
 msgid "Write down the recovery seed from your device."
-msgstr ""
+msgstr "Tuliskan recovery seed dari perangkat anda."
 
 #. Wrong (device label) PIN
 #: views/modal/pin.html:1
@@ -3346,23 +3458,23 @@ msgstr ""
 #: views/modal/firmware.html:7
 msgctxt "button"
 msgid "Yes, install"
-msgstr ""
+msgstr "Ya, install"
 
 #: views/modal/firmware.html:7
 msgctxt "button"
 msgid "Yes, update"
-msgstr ""
+msgstr "Ya, update"
 
 #: views/account/transactions/table.html:13 views/otherStrings.html:7
 msgctxt "date"
 msgid "Yesterday"
-msgstr ""
+msgstr "Kemarin"
 
 #. This text is displayed when the fee is too high.
 #: views/account/send/inside.html:1
 msgctxt "warning-message"
 msgid "You are about to pay {{fee}} to send this transaction."
-msgstr ""
+msgstr "Anda dapat mencoba mengirim ulang transaksi ini menggunakan"
 
 #: views/modal/backendwarnings/bcash.html:1
 msgid "You are now switching to the Bitcoin Cash (BCH) wallet."
@@ -3371,13 +3483,13 @@ msgstr "Anda sekarang beralih ke dompet Bitcoin Cash (BCH)."
 #: views/modal/beta.html:1
 msgctxt "heading"
 msgid "You are opening TREZOR Beta Wallet"
-msgstr ""
+msgstr "Anda membuka TREZOR Beta Wallet"
 
 #. This is displayed on Android.
 #: views/install/mobile.android.html:1
 msgctxt "button"
 msgid "You can also download and install the APK directly."
-msgstr ""
+msgstr "Anda juga dapat mendownload dan menginstal APK secara langsung."
 
 #. includes link to Blockchain.info (external Broadcast Transaction tool)
 #: views/debug.html:1
@@ -3385,12 +3497,12 @@ msgctxt "text-with-link"
 msgid ""
 "You can try to resend this transaction using <a>external Broadcast "
 "Transaction tool</a>"
-msgstr ""
+msgstr "Anda dapat mencoba mengirim ulang transaksi ini menggunakan"
 
 #: views/nav/device-buttons.html:1
 msgctxt "tooltip"
 msgid "You cannot add more than 10 accounts."
-msgstr ""
+msgstr "Anda tidak dapat menambahkan lebih dari 10 akun."
 
 #: views/device/recovery.html:1
 msgid ""
@@ -3417,23 +3529,26 @@ msgstr ""
 #: views/account/send/inside.html:1
 msgctxt "warning-message"
 msgid "You're about to send a lot of money!"
-msgstr ""
+msgstr "Anda akan mengirim banyak uang!"
 
 #: views/modal/pinguide.html:1
 msgctxt "heading"
 msgid "Your PINs were not matching"
-msgstr ""
+msgstr "PIN anda tidak sesuai"
 
 #: views/modal/firmware.html:7
 msgid ""
 "Your TREZOR is already initialized. Check that you have your Recovery seed "
 "with you before updating the firmware!"
 msgstr ""
+"TREZOR anda berhasil diinisiasi. Lakukan cek apakah anda telah mempunyai "
+"Recovery Seed sebelum anda\n"
+"                    memperbarui firmware!"
 
 #: views/modal/firmware.html:7
 msgctxt "heading"
 msgid "Your TREZOR is not in the firmware update mode."
-msgstr ""
+msgstr "TREZOR anda tidak dalam mode perbarui firmware."
 
 #: views/modal/disconnect.wipe.html:1
 msgid "Your TREZOR was successfully wiped."
@@ -3442,12 +3557,12 @@ msgstr "TREZOR anda berhasil dihapus."
 #: views/modal/firmware.html:7
 msgctxt "heading"
 msgid "Your device firmware is outdated"
-msgstr ""
+msgstr "Firmware perangkat anda sudah usang"
 
 #: views/modal/firmware.html:7
 msgctxt "heading"
 msgid "Your device firmware is outdated."
-msgstr ""
+msgstr "Firmware perangkat anda sudah usang."
 
 #: views/jumbotrons/noaccounts.html:1
 msgid "Your device is not fully loaded. Reconnect it to use it."
@@ -3460,19 +3575,19 @@ msgid "Your images"
 msgstr "Gambar anda"
 
 #: views/modal/firmware.html:7
+msgctxt "warning-message"
 msgid "Your installation of TREZOR Bridge needs to be upgraded first."
 msgstr "Instalasi TREZOR Bridge anda perlu diperbarui terlebih dahulu."
 
 #: views/modal/firmware.html:7
-msgctxt "warning-message"
 msgid "Your installation of TREZOR Bridge needs to be upgraded first."
-msgstr ""
+msgstr "Instalasi TREZOR Bridge anda perlu diperbarui terlebih dahulu."
 
 #. This will always be singular, and > 200.
 #: views/account/sign/inside.html:1 views/account/sign/inside.html:5
 #: views/account/sign/inside.html:6
 msgid "Your message is {{length}} letters long."
-msgstr ""
+msgstr "Panjang pesan maksimal adalah 255 huruf."
 
 #. Part of a long text about Dropbox and labeling
 #: views/modal/dropbox.html:1
@@ -3515,7 +3630,7 @@ msgstr "Kopi oleh jen dengan lisensi dibawah CC BY 2.0"
 msgctxt "transaction-time"
 msgid "day"
 msgid_plural "days"
-msgstr[0] ""
+msgstr[0] "Hari ini"
 
 #. to update the firmware...
 #: views/modal/firmware.html:7
@@ -3560,7 +3675,7 @@ msgstr "biarkan kosong agar proteksi PIN dinonaktifkan"
 #. (fee is) less than 0.01 USD
 #: views/otherStrings.html:7
 msgid "less than {{amount}}"
-msgstr ""
+msgstr "kurang dari"
 
 #. Used when estimating transaction time (Expected time: 5 *minutes*)
 #: views/account/send/fees.html:1
@@ -3577,7 +3692,7 @@ msgstr "tidak diatur"
 #. (uploader button before this) or use (link to homescreen editor)
 #: views/device/homescreen.html:1
 msgid "or use <a>homescreen editor</a>"
-msgstr ""
+msgstr "editor homescreen"
 
 #. to update the firmware...
 #: views/modal/firmware.html:7
@@ -3599,7 +3714,7 @@ msgstr ""
 #: views/otherStrings.html:7
 msgctxt "date"
 msgid "unconfirmed"
-msgstr ""
+msgstr "Belum dikonfirmasi"
 
 #. Part of a long text about Dropbox and labeling
 #: views/modal/dropbox.html:1
@@ -3615,7 +3730,7 @@ msgstr "akun anda"
 #. displayed on the bottom in the TX
 #: views/account/send/txPrepared.html:1
 msgid "{{address}} (the change address)"
-msgstr ""
+msgstr "alamat pengganti"
 
 #. 100 BTC <br> to <br> (first half of address) <br> (second half of address)
 #: views/modal/button.html:1
@@ -3636,223 +3751,32 @@ msgstr ""
 #. (dropbox user) is currently connected
 #: views/nav/settings-buttons.html:1
 msgid "{{user}} connected"
-msgstr ""
+msgstr "terhubung"
 
 #~ msgid "(automatically in"
 #~ msgstr "(masuk secara otomatis"
 
-#~ msgid ""
-#~ ", offering the newest features before they are available to the general "
-#~ "public."
-#~ msgstr ""
-#~ ", menawarkan fitur terbaru sebelum mereka tersedia untuk umum.\n"
-#~ "."
-
 #~ msgid "1 per row"
 #~ msgstr "1 per baris"
 
-#~ msgid ""
-#~ "<hr>\n"
-#~ "                If you want to use TREZOR with different browsers, please "
-#~ "install TREZOR Bridge."
-#~ msgstr ""
-#~ "<hr>\n"
-#~ "                Jika anda ingin menggunakan TREZOR pada browser yang "
-#~ "berbeda, install TREZOR Bridge terlebih dahulu."
-
 #~ msgid "?"
 #~ msgstr "?"
-
-#~ msgid "Action was interrupted"
-#~ msgstr "Langkah mengalami gangguan"
-
-#~ msgid "Add account"
-#~ msgstr "Tambahkan akun"
-
-#~ msgid "Add legacy account"
-#~ msgstr "Tambahkan akun legacy"
 
 #~ msgctxt "send"
 #~ msgid "Address"
 #~ msgstr "Alamat"
 
-#~ msgid "Address is required."
-#~ msgstr "Alamat diperlukan."
-
-#~ msgid "Address verification failed."
-#~ msgstr "Verifikasi alamat gagal."
-
-#~ msgctxt "header"
-#~ msgid "Advanced"
-#~ msgstr "Tingkat lanjut"
-
 #~ msgid "Advanced recovery"
 #~ msgstr "Pemulihan tingkat lanjut"
 
-#~ msgid "All data on your device will be deleted."
-#~ msgstr "Semua data pada perangkat anda akan dihapus."
-
-#~ msgid "All time"
-#~ msgstr "Sepanjang waktu"
-
-#~ msgid "Amount"
-#~ msgstr "Jumlah"
-
-#~ msgid "Amount has too many decimals"
-#~ msgstr "Jumlah memiliki terlalu banyak desimal"
-
-#~ msgid "Amount is not a number"
-#~ msgstr "Jumlah bukan sebuah angka"
-
-#~ msgid "Amount is required."
-#~ msgstr "Jumlah diperlukan."
-
-#~ msgid "Amount is too low"
-#~ msgstr "Jumlahnya terlalu rendah"
-
-#~ msgid "App Settings"
-#~ msgstr "Pengaturan App"
-
-#~ msgid "Application Settings"
-#~ msgstr "Pengaturan Aplikasi"
-
-#~ msgid "Backspace"
-#~ msgstr "Menghapus"
-
-#~ msgctxt "header"
-#~ msgid "Basic"
-#~ msgstr "Dasar"
-
-#~ msgid "Bitcore Server URL"
-#~ msgstr "URL Server Bitcore"
-
-#~ msgid "Bitcore server failed."
-#~ msgstr "Server Bitcore gagal."
-
-#~ msgid "Bootloader mode"
-#~ msgstr "Mode bootloader"
-
-#~ msgid "Careful, It's too easy to guess."
-#~ msgstr "Hati-hati, terlalu mudah ditebak."
-
-#~ msgid "Caution!"
-#~ msgstr "Peringatan!"
-
-#~ msgid "Cell delimiter"
-#~ msgstr "Pembatasan sel"
-
-#~ msgid "Change"
-#~ msgstr "Ganti"
-
-#~ msgid "Changelog"
-#~ msgstr "Changelog"
-
-#~ msgid "Check address on TREZOR display"
-#~ msgstr "Periksa alamat pada layar TREZOR"
-
-#~ msgid ""
-#~ "Choose a strong PIN to protect your device from unauthorized access. The "
-#~ "layout is displayed on your TREZOR."
-#~ msgstr ""
-#~ "Gunakan PIN yang kuat untuk mengamankan perangkat anda dari akses "
-#~ "tersembunyi. Petunjuk telah ada di TREZOR anda."
-
 #~ msgid "Click on XPUB to show its QR code."
 #~ msgstr "Klik pada XPUB untuk menampilkan kode QR-nya."
-
-#~ msgid "Comment"
-#~ msgstr "Komentar"
-
-#~ msgid "Confirm action on your TREZOR device."
-#~ msgstr "Konfirmasi langkah pada perangkat TREZOR anda."
-
-#~ msgid "Confirm passphrase encryption"
-#~ msgstr "Konfirmasi enkripsi passphrase"
-
-#~ msgid "Confirm provided information."
-#~ msgstr "Konfirmasikan informasi anda."
-
-#~ msgid "Congratulations! Your device is now ready to use."
-#~ msgstr "Selamat! Perangkat anda sekarang siap digunakan."
-
-#~ msgid "Connect to Dropbox"
-#~ msgstr "Hubungkan ke Dropbox"
-
-#~ msgid "Connected device"
-#~ msgstr "Perangkat yang terhubung"
-
-#~ msgid "Currency backend"
-#~ msgstr "Backend mata uang"
-
-#~ msgid "Custom"
-#~ msgstr "Custom"
 
 #~ msgctxt "send"
 #~ msgid "Custom fee"
 #~ msgstr "Biaya khusus"
 
-#~ msgid "Device"
-#~ msgstr "Perangkat"
-
-#~ msgid "Device ID"
-#~ msgstr "ID Perangkat"
-
-#~ msgid "Device firmware is outdated."
-#~ msgstr "Firmware perangkat kadaluarsa."
-
-#~ msgid "Device is updated in other window"
-#~ msgstr "Perangkat sedang diperbarui di jendela lain"
-
-#~ msgid "Disconnect"
-#~ msgstr "Memutuskan"
-
-#~ msgid "Disconnect your TREZOR now"
-#~ msgstr "Putuskan sambungan TREZOR sekarang"
-
-#~ msgid "Disconnected device"
-#~ msgstr "Putuskan sambungan perangkat"
-
-#~ msgid "Display transaction on explorer"
-#~ msgstr "Lihat transaksi di exploler"
-
-#~ msgid "Do you want to update the device firmware?"
-#~ msgstr "Apakah anda ingin memperbarui firmware perangkat?"
-
-#~ msgctxt "forget-button"
-#~ msgid "Don't forget"
-#~ msgstr "Jangan Lupa"
-
-#~ msgid "Don't have a TREZOR?"
-#~ msgstr "Belum punya TREZOR?"
-
-#~ msgid "Download"
-#~ msgstr "Unduh"
-
-#~ msgid "Download TREZOR Manager App on Google Play."
-#~ msgstr "Unduh TREZOR Manager App di Google Play."
-
-#~ msgid "Downloading firmware..."
-#~ msgstr "Mengunduh firmware..."
-
-#~ msgid "ETH / ETC Wallet"
-#~ msgstr "Dompet ETH / ETC"
-
-#~ msgid "Edit Device basics"
-#~ msgstr "Ubah Perangkat dasar"
-
-#~ msgid "Enable Labeling"
-#~ msgstr "Aktifkan menamai label"
-
-#~ msgid "Enable labeling"
-#~ msgstr "Aktifkan menamai label"
-
-#~ msgid "Enable labeling on"
-#~ msgstr "Aktifkan menamai label pada"
-
 #~ msgctxt "pin-button"
-#~ msgid "Enter"
-#~ msgstr "Enter"
-
 #~ msgid "Enter"
 #~ msgstr "Enter"
 
@@ -3860,59 +3784,17 @@ msgstr ""
 #~ msgid "Enter"
 #~ msgstr "Enter"
 
-#~ msgid "Enter passphrase for"
-#~ msgstr "Masukkan passphrase untuk"
-
-#~ msgid "Enter your new"
-#~ msgstr "Masukkan yang baru"
-
-#~ msgid "Error details:"
-#~ msgstr "Rincian kesalahan:"
-
-#~ msgid "Ethereum Wallet"
-#~ msgstr "Dompet Ethereum"
-
 #~ msgid "Exchange:"
 #~ msgstr "Bursa:"
 
 #~ msgid "Expense"
 #~ msgstr "Biaya"
 
-#~ msgid "Explorer URL"
-#~ msgstr "URL Explorer"
-
-#~ msgid "Failed to add account."
-#~ msgstr "Gagal menambahkan akun."
-
-#~ msgid "Failed to change the device label."
-#~ msgstr "Gagal merubah nama label perangkat."
-
-#~ msgid "Failed to renew session."
-#~ msgstr "Gagal memperbarui sesi."
-
-#~ msgid "Failed to send transaction"
-#~ msgstr "Gagal mengirim transaksi"
-
-#~ msgid "Failed to sign message"
-#~ msgstr "Gagal menandatangani pesan"
-
-#~ msgid "Failed to verify message"
-#~ msgstr "Gagal memverifikasi pesan"
-
-#~ msgid "Fee is over threshold."
-#~ msgstr "Biaya melebihi batas."
-
 #~ msgid "Fee/kB:"
 #~ msgstr "Biaya/KB:"
 
 #~ msgid "Fee:"
 #~ msgstr "Biaya:"
-
-#~ msgid "Fiat Currency"
-#~ msgstr "Mata uang FIAT"
-
-#~ msgid "First row is header"
-#~ msgstr "Header baris pertama"
 
 #~ msgid ""
 #~ "Follow the instructions on your\n"
@@ -3921,39 +3803,9 @@ msgstr ""
 #~ "Ikuti petunjuk pada\n"
 #~ "                                                    perangkat anda."
 
-#~ msgid "For more information, please refer to"
-#~ msgstr "Untuk informasi lebih lanjut, silakan lihat"
-
-#~ msgid "For more information, visit the user manual."
-#~ msgstr "Untuk informasi lebih lanjut, lihat di user manual."
-
-#~ msgid ""
-#~ "For security reasons, TREZOR is shipped without firmware installed. This "
-#~ "is to ensure that your\n"
-#~ "                        firmware will be up-to-date at the time of "
-#~ "initialization."
-#~ msgstr ""
-#~ "Untuk alasan keamanan, TREZOR dikirim tanpa instalasi firmware terlebih "
-#~ "dahulu. Hal ini untuk meyakinkan bahwa\n"
-#~ "                        firmware anda akan tetap 'up to date' saat "
-#~ "inisasi awal."
-
-#~ msgid ""
-#~ "For testing purposes, Wallet uses the same dollar rates for testnet coins "
-#~ "as for bitcoin."
-#~ msgstr ""
-#~ "Untuk tujuan pengujian, Wallet menggunakan harga dolar yang sama untuk "
-#~ "koin testnet seperti untuk bitcoin."
-
-#~ msgid "Forget"
-#~ msgstr "Lupa"
-
 #~ msgctxt "forget-button"
 #~ msgid "Forget (recommended)"
 #~ msgstr "Lupa (disarankan)"
-
-#~ msgid "Forget this device"
-#~ msgstr "Hapus perangkat ini"
 
 #~ msgid "From"
 #~ msgstr "Dari"
@@ -3961,41 +3813,12 @@ msgstr ""
 #~ msgid "Get one"
 #~ msgstr "Beli satu"
 
-#~ msgid "Go back"
-#~ msgstr "Kembali"
-
-#~ msgid ""
-#~ "Go to\n"
-#~ "        MyEtherWallet"
-#~ msgstr ""
-#~ "Pergi ke\n"
-#~ "        MyEtherWallet"
-
-#~ msgid "Go to TREZOR Wallet"
-#~ msgstr "Buka Dompet TREZOR"
-
-#~ msgctxt "header"
-#~ msgid "Homescreen"
-#~ msgstr "Homescreen"
-
-#~ msgid "Homescreen change failed."
-#~ msgstr "Perubahan homescreen gagal."
-
-#~ msgid "Homescreen was successfully changed."
-#~ msgstr "Berhasil merubah homescreen."
-
-#~ msgid "If the problem persists, please run our"
-#~ msgstr "Jika masalah tetap ada, mohon jalankan"
-
 #~ msgid ""
 #~ "If you are a common user and want to setup or recover your TREZOR device, "
 #~ "please continue to TREZOR Setup."
 #~ msgstr ""
 #~ "Jika anda adalah pengguna biasa dan berniat melakukan pengaturan atau "
 #~ "memulihkan perangkat TREZOR anda, silahkan lanjutkan pengaturan TREZOR."
-
-#~ msgid "If you forget your passphrase, you will lose your coins."
-#~ msgstr "Jika anda lupa passphrase anda, maka koin anda akan hilang."
 
 #~ msgid "If you have TREZOR set up already,"
 #~ msgstr "Jika anda telah melakukan pengaturan TREZOR,"
@@ -4005,43 +3828,8 @@ msgstr ""
 #~ "Jika anda menetapkan biaya yang terlalu rendah, mungkin akan macet "
 #~ "selamanya."
 
-#~ msgid ""
-#~ "If your TREZOR has not been set up yet (fresh out of the box), you do not "
-#~ "need to\n"
-#~ "                            have a Recovery seed."
-#~ msgstr ""
-#~ "Jika TREZOR masih belum dilakukan pengaturan awal (masih baru dibuka), "
-#~ "anda tidak perlu \n"
-#~ "                            melakukan pemulihan apapun."
-
-#~ msgid ""
-#~ "If your TREZOR is already initialized, always have your Recovery seed "
-#~ "with you\n"
-#~ "                    before updating the firmware!"
-#~ msgstr ""
-#~ "Jika TREZOR anda telah diinisiasikan, harap selalu membuat langkah "
-#~ "pemulihan\n"
-#~ "                    sebelum anda melakukan pembaruan firmware!"
-
-#~ msgid "Import"
-#~ msgstr "Import"
-
-#~ msgid "Import addresses from CSV"
-#~ msgstr "Import alamat dari file CSV"
-
 #~ msgid "In contrast,"
 #~ msgstr "Sebaliknya,"
-
-#~ msgid ""
-#~ "In some cases, Linux users need to install udev rules to access the "
-#~ "device.\n"
-#~ "                Please, install the following package and reconnect your "
-#~ "TREZOR."
-#~ msgstr ""
-#~ "Pada beberapa kondisi, pengguna Linux akan memerlukan untuk menginstal "
-#~ "\"udev rules\" agar  dapat mengakses perangkat.\n"
-#~ "                Mohon instal paket berikut dan hubungkan kembali TREZOR "
-#~ "anda."
 
 #~ msgid ""
 #~ "In very rare cases, a firmware update might result in the need to recover "
@@ -4055,62 +3843,11 @@ msgstr ""
 #~ msgid "Income"
 #~ msgstr "Pemasukan"
 
-#~ msgid "Inputs:"
-#~ msgstr "Input:"
-
-#~ msgid "Install Extension"
-#~ msgstr "Pasang ekstensi"
-
 #~ msgid "Install TREZOR Chrome Extension"
 #~ msgstr "Pasang Ekstensi Chrome TREZOR"
 
-#~ msgid "Interested in best security practices?"
-#~ msgstr "Tertarik dengan praktik keamanan terbaik?"
-
-#~ msgid "Invalid signature"
-#~ msgstr "Tanda tangan tidak valid"
-
-#~ msgid "It's fine."
-#~ msgstr "Tidak apa-apa."
-
-#~ msgid "It's time to install firmware."
-#~ msgstr "Sudah waktunya menginstal firmware."
-
-#~ msgid "Label was successfully changed."
-#~ msgstr "Nama label berhasil dirubah."
-
-#~ msgid "Labeling error."
-#~ msgstr "Pemberian nama label error."
-
-#~ msgid "Last 2 Months"
-#~ msgstr "2 Bulan Terakhir"
-
-#~ msgid "Last 2 Weeks"
-#~ msgstr "2 Minggu Terakhir"
-
-#~ msgid "Last 2 Years"
-#~ msgstr "2 Tahun Terakhir"
-
-#~ msgid "Latest"
-#~ msgstr "Terbaru"
-
-#~ msgid "Learn more"
-#~ msgstr "Belajarlah lebih lanjut"
-
 #~ msgid "Learn more about"
 #~ msgstr "Belajar lebih lanjut tentang"
-
-#~ msgid "Learn more about Legacy accounts."
-#~ msgstr "Pelajari lebih lanjut tentang akun Legacy."
-
-#~ msgid "Learn more about Recovery"
-#~ msgstr "Belajar lebih lanjut tentang Pemulihan"
-
-#~ msgid "Learn more about TREZOR Wallet labeling"
-#~ msgstr "Belajar lebih lanjut tentang pemberian nama Dompet TREZOR"
-
-#~ msgid "Learn more about phishing…"
-#~ msgstr "Belajar lebih lanjut tentang phishing…"
 
 #~ msgid "Legacy account XPUBs"
 #~ msgstr "XPUBs akun legacy"
@@ -4118,48 +3855,14 @@ msgstr ""
 #~ msgid "Legacy metadata keys"
 #~ msgstr "Kunci metadata legacy"
 
-#~ msgid "Litecoin changed the format of addresses."
-#~ msgstr "Litecoin mengubah format alamat."
-
-#~ msgid "Loading"
-#~ msgstr "Memuat"
-
 #~ msgid "Loading ..."
 #~ msgstr "Memuat ..."
-
-#~ msgid "Loading failed."
-#~ msgstr "Gagal memuat."
 
 #~ msgid "Local traders:"
 #~ msgstr "Trader lokal:"
 
 #~ msgid "Lock this device"
 #~ msgstr "Kunci perangkat ini"
-
-#~ msgid "Log"
-#~ msgstr "Log"
-
-#~ msgid ""
-#~ "Make sure the address displayed on TREZOR is correct.<br>To prevent "
-#~ "malware attacks, double-check the address with the recipient."
-#~ msgstr ""
-#~ "Pastikan bahwa alamat yang ditampilkan di TREZOR tepat dan benar."
-#~ "<br>Untuk menjaga terjadi serangan malware, kroscek lagi alamat dengan "
-#~ "penerima."
-
-#~ msgid "Manual configuration (advanced)"
-#~ msgstr "Konfigurasi manual (tingkat lanjut)"
-
-#~ msgid ""
-#~ "Many thanks to our translators for their <a href=\"http://doc.satoshilabs."
-#~ "com/trezor-tech/translating.html\" class=\"arrow\">contribution</a>"
-#~ msgstr ""
-#~ "Terima kasih banyak untuk para translator kami atas <a href=\"http://doc."
-#~ "satoshilabs.com/trezor-tech/translating.html\" class=\"arrow"
-#~ "\">kontribusinya</a>"
-
-#~ msgid "Message verified."
-#~ msgstr "Pesan telah diverifikasi."
 
 #~ msgid "Metadata setup"
 #~ msgstr "Pengaturan metadata"
@@ -4172,24 +3875,6 @@ msgstr ""
 #~ msgstr "ATM terdekat:"
 
 #~ msgid ""
-#~ "Never do this action with TREZOR holding coins unless you have your "
-#~ "recovery seed at hand."
-#~ msgstr ""
-#~ "Jangan pernah lakukan langkah ini pada TREZOR yang mempunyai sejumlah "
-#~ "koin didalamnya, kecuali anda telah mempunyai recovery seed."
-
-#~ msgid "Never use this process unless you really know what you are doing!"
-#~ msgstr ""
-#~ "Jangan pernah melakukan proses ini kecuali anda BENAR-BENAR mengetahui "
-#~ "apa yang sedang anda lakukan!"
-
-#~ msgid "New device setup"
-#~ msgstr "Pengaturan perangkat baru"
-
-#~ msgid "No accounts"
-#~ msgstr "Tidak ada akun"
-
-#~ msgid ""
 #~ "No checks are performed on the provided seed, so it can be binary "
 #~ "sequence, dice-throw sequence or a random sentence. Valid BIP32 XPRV keys "
 #~ "are interpreted prior loading to the device."
@@ -4198,167 +3883,21 @@ msgstr ""
 #~ "deretan binari, deret acak atau kalimat acak. Kunci XPRV BIP32 yang valid "
 #~ "akan selalu diprioritaskan untuk di interpretasi saat pemuatan perangkat."
 
-#~ msgid "Not a valid address"
-#~ msgstr "Bukan alamat yang valid"
-
-#~ msgid "Not enough funds"
-#~ msgstr "Dana tidak mencukupi"
-
-#~ msgid "Not sure how PIN works?"
-#~ msgstr "Ragu bagaimana cara kerja PIN?"
-
-#~ msgid "Note that passphrase is case-sensitive."
-#~ msgstr "Perlu dicatat bahwa passphrase bersifat \"case-sensitive\"."
-
-#~ msgid "Note that the number layout displayed on TREZOR has changed!"
-#~ msgstr ""
-#~ "Perlu dicatat bahwa nomor rancangan tata letak yang ditampilkan pada "
-#~ "TRAZOR telah berubah!"
-
 #~ msgid "Note:"
 #~ msgstr "Catatan:"
-
-#~ msgid "OK"
-#~ msgstr "OK"
-
-#~ msgid "Outputs:"
-#~ msgstr "Output:"
-
-#~ msgid "PIN change failed."
-#~ msgstr "Perubahan PIN gagal."
-
-#~ msgid "PIN was successfully changed."
-#~ msgstr "PIN berhasil dirubah."
-
-#~ msgid "PIN was successfully removed."
-#~ msgstr "PIN berhasil dihapus."
-
-#~ msgid "Passphrase change failed."
-#~ msgstr "Passphrase gagal dirubah."
-
-#~ msgid "Passphrase is too long!"
-#~ msgstr "Passphrase terlalu panjang!"
-
-#~ msgid "Passphrases do not match!"
-#~ msgstr "Passphrase tidak cocok!"
-
-#~ msgid "Paste the CSV here:"
-#~ msgstr "Paste CSV disini:"
-
-#~ msgid "Perfect, impossible to guess!"
-#~ msgstr "Sempurna, tidak mungkin dapat ditebak!"
-
-#~ msgid ""
-#~ "Please check carefully that\n"
-#~ "            you wrote them down correctly."
-#~ msgstr ""
-#~ "Mohon cek ulang dengan seksama\n"
-#~ "            apakah anda telah menuliskannya dengan tepat."
-
-#~ msgid "Please confirm the firmware fingerprint."
-#~ msgstr "Silahkan konfirmasikan sidikjari firmware."
-
-#~ msgctxt "send-button-tooltip"
-#~ msgid "Please connect your device to send coins."
-#~ msgstr "Silahkan hubungkan perangkat anda untuk dapat mengirim koin."
-
-#~ msgctxt "sign-button-tooltip"
-#~ msgid "Please connect your device to sign messages."
-#~ msgstr "Silahkan hubungkan perangkat anda untuk dapat menandatangani pesan."
-
-#~ msgid "Please enter the device label"
-#~ msgstr "Silahkan masukkan nama label perangkat"
-
-#~ msgctxt "send-button-tooltip"
-#~ msgid "Please fill in address"
-#~ msgstr "Silahkan isikan alamat"
-
-#~ msgctxt "send-button-tooltip"
-#~ msgid "Please fill in amount"
-#~ msgstr "Silahkan isikan jumlah"
-
-#~ msgctxt "sign-button-tooltip"
-#~ msgid "Please fill in message and address."
-#~ msgstr "Silahkan isikan pada pesan dan alamat."
-
-#~ msgctxt "send-button-tooltip"
-#~ msgid "Please reload the page to send money."
-#~ msgstr "Silahkan muat kembali halaman untuk mengirim uang."
-
-#~ msgid ""
-#~ "Please try again. You need to make sure<strong>both device buttons are "
-#~ "pressed, as you plug in\n"
-#~ "                the device.</strong>"
-#~ msgstr ""
-#~ "Silahkan coba lagi. Anda perlu memastikan bahwa<strong>kedua tombol pada "
-#~ "perangkat telah ditekan, saat anda memasang\n"
-#~ "                perangkat.</strong>"
-
-#~ msgctxt "send-button-tooltip"
-#~ msgid "Please wait a few seconds..."
-#~ msgstr "Silahkan tunggu beberapa detik..."
-
-#~ msgctxt "button-tooltip"
-#~ msgid "Please wait."
-#~ msgstr "Silahkan tunggu."
-
-#~ msgid "Please, re-enter correct PIN."
-#~ msgstr "Silahkan, masukkan kembali PIN yang benar."
-
-#~ msgid "Private bank in your hands."
-#~ msgstr "Bank pribadi dalam genggaman anda."
-
-#~ msgid "QR scanning failed."
-#~ msgstr "Scan QR gagal."
 
 #~ msgid "Rates by"
 #~ msgstr "Kurs oleh"
 
-#~ msgid "Raw transaction in hex format:"
-#~ msgstr "Raw transaksi dalam format hex:"
-
-#~ msgid "Re-enter new"
-#~ msgstr "Ulangi masukan baru"
-
-#~ msgid "Reading of accounts failed."
-#~ msgstr "Pembacaan akun gagal."
-
 #~ msgid "Receive payment"
 #~ msgstr "Menerima pembayaran"
-
-#~ msgid "Recovery failed."
-#~ msgstr "Pemulihan gagal."
-
-#~ msgid "Recovery seed or XPRV private key"
-#~ msgstr "Recovery seed atau kunci pribadi XPRV"
-
-#~ msgid "Recovery seed setup"
-#~ msgstr "Pengaturan Recovery seed"
-
-#~ msgid "Release notes"
-#~ msgstr "Catatan rilis"
-
-#~ msgid "Remove recipient"
-#~ msgstr "Hapus penerima"
-
-#~ msgid "Rename account"
-#~ msgstr "Ubah nama akun"
 
 #~ msgid "Rename this account"
 #~ msgstr "Ubah nama akun ini"
 
-#~ msgid "Save &amp; Reload"
-#~ msgstr "Simpan &amp; Reload"
-
-#~ msgid "Scan address from a QR code"
-#~ msgstr "Pindai alamat dari kode QR"
-
 #~ msgctxt "xpub-text"
 #~ msgid "Scan it into an application that supports XPUBs such as"
 #~ msgstr "Pindai melalui sebuah aplikasi yang telah mendukung XPUBs seperti"
-
-#~ msgid "Seed recovery"
-#~ msgstr "Pemulihan seed"
 
 #~ msgid "Segwit account XPUBs"
 #~ msgstr "XPUBs akun segwit"
@@ -4366,161 +3905,26 @@ msgstr ""
 #~ msgid "Segwit metadata keys"
 #~ msgstr "Kunci metadata segwit"
 
-#~ msgid "Select platform..."
-#~ msgstr "Pilih platfrom..."
-
-#~ msgctxt "button"
-#~ msgid "Send"
-#~ msgstr "Kirim"
-
-#~ msgid "Send payment"
-#~ msgstr "Kirim pembayaran"
-
-#~ msgid ""
-#~ "Sending a transaction to an address starting with <strong>3</strong>? "
-#~ "Please, <a href=\"https://litecoin-project.github.io/p2sh-convert/\" "
-#~ "target=\"_blank\">convert it first to an address starting with M</a>"
-#~ msgstr ""
-#~ "Mengirimkan transaksi ke alamat yang dimulai dengan <strong>3</strong>? "
-#~ "Tolong, \n"
-#~ "<a href=\"https://litecoin-project.github.io/p2sh-convert/\" target="
-#~ "\"_blank\">ubah dulu ke alamat yang dimulai dengan M</a>"
-
-#~ msgid ""
-#~ "Sending litecoins to TREZOR? M-address refused? Please, <a href=\"https://"
-#~ "litecoin-project.github.io/p2sh-convert/\" target=\"_blank\">convert it "
-#~ "first to an address starting with 3</a>"
-#~ msgstr ""
-#~ "Mengirim litecoin ke TREZOR? M-address menolak? Tolong, <a href=\"https://"
-#~ "litecoin-project.github.io/p2sh-convert/\" target=\"_blank\"> ubah dulu "
-#~ "ke alamat yang dimulai dengan 3</a>"
-
 #~ msgid "Set maximum possible amount"
 #~ msgstr "Atur jumlah maksimum"
-
-#~ msgid "Setting custom fee is not recommended."
-#~ msgstr "Tidak disarankan menetapkan biaya khusus."
-
-#~ msgid ""
-#~ "Setting up your TREZOR will take only a few minutes.\n"
-#~ "                    When you're done, you can start using your TREZOR."
-#~ msgstr ""
-#~ "Pengaturan TREZOR anda hanya membutuhkan waktu beberapa menit.\n"
-#~ "                    Jika telah selesai, anda dapat mulai menggunakan "
-#~ "TREZOR anda."
-
-#~ msgid "Setup failed."
-#~ msgstr "Pengaturan gagal."
-
-#~ msgid "Show XPUBs"
-#~ msgstr "Lihat XPUBs"
-
-#~ msgid "Show changes"
-#~ msgstr "Lihat perubahan"
-
-#~ msgid "Show details"
-#~ msgstr "Lihat rincian"
-
-#~ msgid "Show less"
-#~ msgstr "Lihat kebih ringkas"
-
-#~ msgid "Show log"
-#~ msgstr "Lihat log"
-
-#~ msgid "Show more"
-#~ msgstr "Lihat lainnya"
-
-#~ msgid "Show passphrase"
-#~ msgstr "Lihat passphrase"
-
-#~ msgid "Show transaction details"
-#~ msgstr "Lihat rincian transaksi"
-
-#~ msgid "Signed successfully."
-#~ msgstr "Berhasil ditandatangani."
-
-#~ msgid "Signing and sending transaction&hellip;"
-#~ msgstr "Menandatangani dan mengirim transaksi&hellip;"
 
 #~ msgid "Size:"
 #~ msgstr "Ukuran:"
 
-#~ msgid "Skip mnemonic checksum"
-#~ msgstr "Lewati mnemonic checksum"
-
 #~ msgid "Some fields are incorrect."
 #~ msgstr "Beberapa kolom masih tidak tepat."
-
-#~ msgid "Still confused how PIN works?"
-#~ msgstr "Masih bingung bagaimana PIN bekerja?"
-
-#~ msgid "Strong enough!"
-#~ msgstr "Cukup kuat!"
-
-#~ msgctxt "flash"
-#~ msgid "Success"
-#~ msgstr "Sukses"
 
 #~ msgid "Support Center"
 #~ msgstr "Pusat Layanan"
 
-#~ msgid "Support needed?"
-#~ msgstr "Butuh bantuan?"
-
-#~ msgid "Switching to Bitcoin Cash"
-#~ msgstr "Beralih ke Bitcoin Cash"
-
 #~ msgid "TREZOR Beta Wallet"
 #~ msgstr "TREZOR Beta Wallet"
-
-#~ msgid "TREZOR Bridge update"
-#~ msgstr "Perbarui TREZOR Bridge"
-
-#~ msgid "TREZOR Wallet"
-#~ msgstr "Dompet TREZOR"
-
-#~ msgid "TREZOR Wallet labeling"
-#~ msgstr "Menamai Dompet TREZOR"
 
 #~ msgid "TREZOR cannot sign non-ASCII characters."
 #~ msgstr "TREZOR tidak dapat menandatangani karakter non-ASCII."
 
 #~ msgid "TREZOR cannot verify non-ASCII characters."
 #~ msgstr "TREZOR tidak dapat memverifikasi karakter non-ASCII."
-
-#~ msgid "TREZOR loading failed"
-#~ msgstr "TREZOR gagal memuat"
-
-#~ msgid "Terms"
-#~ msgstr "Persyaratan Layanan"
-
-#~ msgid ""
-#~ "The authenticity of the installed firmware is checked during start up.\n"
-#~ "                        If the firmware was not provided by SatoshiLabs, "
-#~ "the device will display a warning when you\n"
-#~ "                        start it."
-#~ msgstr ""
-#~ "Authentikasi instalasi firmware dilakukan saat menjalankan pertama kali.\n"
-#~ "                        Jika firmware tidak berasal dari SatoshiLabs, "
-#~ "pada perangkat anda akan muncul peringatan saat anda\n"
-#~ "                        menjalankannya."
-
-#~ msgid ""
-#~ "The bitcore server doesn't seem to reply. Please select another server."
-#~ msgstr "Server bitcore nampak tidak merespon. Silahkan pilih server lain."
-
-#~ msgid ""
-#~ "The final size can differ a few bytes, since the transaction is created "
-#~ "on TREZOR."
-#~ msgstr ""
-#~ "Total ukuran akhir mungkin saja berbeda beberapa byte, sejak transaksi "
-#~ "tersebut dibuat melalui TREZOR."
-
-#~ msgid "The layout is displayed on your TREZOR."
-#~ msgstr "Tata letak ditampilkan pada TREZOR anda."
-
-#~ msgid "The transaction fee is unexpectedly high."
-#~ msgstr "Biaya transaksi tiba-tiba tinggi."
 
 #~ msgctxt "xpub-text"
 #~ msgid ""
@@ -4529,25 +3933,6 @@ msgstr ""
 #~ msgstr ""
 #~ "Selanjutnya, anda dapat melihat transaksi anda dan menerima pembayaran "
 #~ "dari manapun meskipun tanpa membawa TREZOR anda."
-
-#~ msgid "This Month"
-#~ msgstr "Bulan ini"
-
-#~ msgid "This Week"
-#~ msgstr "Minggu ini"
-
-#~ msgid "This Year"
-#~ msgstr "Tahun ini"
-
-#~ msgid "This is an advanced interface intended for developer use only!"
-#~ msgstr "Ini adalah interface tingkat lanjut untuk para developer saja!"
-
-#~ msgid ""
-#~ "This is your Bitcoin Cash (BCH) wallet. Do not receive bitcoins to the "
-#~ "addresses in this wallet."
-#~ msgstr ""
-#~ "Ini adalah dompet Bitcoin Cash (BCH) anda. Jangan menerima bitcoin ke "
-#~ "alamat di dompet ini."
 
 #~ msgid ""
 #~ "To access subsequent addresses, please use some of the listed addresses "
@@ -4558,71 +3943,9 @@ msgstr ""
 #~ "pada sebuah \n"
 #~ "                                    transaksi."
 
-#~ msgid ""
-#~ "To access subsequent addresses, please wait for confirmation on "
-#~ "transaction on some of the\n"
-#~ "                                    previous addresses."
-#~ msgstr ""
-#~ "Untuk dapat mengakses address berikutnya, silahkan tunggu konfirmasi "
-#~ "transaksi pada beberapa \n"
-#~ "                                    address sebelumnya."
-
-#~ msgid ""
-#~ "To add accounts, make sure your device is connected and the last account "
-#~ "is not empty."
-#~ msgstr ""
-#~ "Untuk menambah akun, pastikan perangkat anda terhubung dan akun terakhir "
-#~ "tidak kosong."
-
-#~ msgid "To claim your Bitcoin Cash coins, please use our"
-#~ msgstr "Untuk mengklaim koin Bitcoin Cash anda, silakan gunakan"
-
-#~ msgid "Today"
-#~ msgstr "Hari ini"
-
 #~ msgctxt "send-done"
 #~ msgid "Transaction"
 #~ msgstr "Transaksi"
-
-#~ msgid "Try again"
-#~ msgstr "Coba lagi"
-
-#~ msgid "Try installing udev rules."
-#~ msgstr "Coba install udev rules."
-
-#~ msgid "URL needs to start with https://"
-#~ msgstr "URL perlu dimulai dengan https://"
-
-#~ msgid "URL needs to start with https:// or http://"
-#~ msgstr "URL perlu dimulai dengan https:// atau http://"
-
-#~ msgid "Unconfirmed"
-#~ msgstr "Belum dikonfirmasi"
-
-#~ msgid ""
-#~ "Unlike your TREZOR, computers are not safe. Malware might replace bitcoin "
-#~ "addresses you see."
-#~ msgstr ""
-#~ "Tidak sama seperti TREZOR, komputer tidak aman. Malware mungkin dapat "
-#~ "mengganti alamat bitcoin yang anda lihat."
-
-#~ msgid "Unnecessarily too long."
-#~ msgstr "Tidak perlu terlalu lama."
-
-#~ msgid "Update device firmware?"
-#~ msgstr "Update firmware perangkat?"
-
-#~ msgid "Update failed"
-#~ msgstr "Update gagal"
-
-#~ msgid "Update was successful"
-#~ msgstr "Update berhasil"
-
-#~ msgid "Upgrade"
-#~ msgstr "Upgrade"
-
-#~ msgid "Upgrade for the newest features and bug fixes."
-#~ msgstr "Upgrade untuk fitur terbaru dan perbaikan bug."
 
 #~ msgctxt "bridge-update"
 #~ msgid "Upgrade for the newest features and bug fixes."
@@ -4631,12 +3954,6 @@ msgstr ""
 #~ msgctxt "firmware-update"
 #~ msgid "Upgrade for the newest features and bug fixes."
 #~ msgstr "Upgrade untuk fitur terbaru dan perbaikan bug."
-
-#~ msgid "Uploading firmware..."
-#~ msgstr "Unggah firmware..."
-
-#~ msgid "Used in other window"
-#~ msgstr "Digunakan di jendela lain"
 
 #~ msgid ""
 #~ "Using PIN protection is highly recommended. PIN prevents unauthorized "
@@ -4649,37 +3966,8 @@ msgstr ""
 #~ "                bitcoin anda, meskipun dia mendapatkan akses fisik dari "
 #~ "perangkat anda."
 
-#~ msgid "Versions"
-#~ msgstr "Versi"
-
-#~ msgid "Waiting for camera&hellip;"
-#~ msgstr "Menunggu kamera&hellip;"
-
-#~ msgid ""
-#~ "We recommend you to verify the payment address through independent "
-#~ "communication channels such as a phone call or a text message."
-#~ msgstr ""
-#~ "Kami sarankan anda untuk memverifikasi alamat pembayaran melalui channel "
-#~ "komunikasi independen seperi panggilan telephone atau pesan text."
-
 #~ msgid "What's next?"
 #~ msgstr "Apa berikutnya?"
-
-#~ msgid "Wipe failed."
-#~ msgstr "Gagal menghapus."
-
-#~ msgid "Wipe finished"
-#~ msgstr "Selesai menghapus"
-
-#~ msgid "Wiping the device <span>removes all its information.</span>"
-#~ msgstr "Menghapus perangkat<span>menghapus seluruh informasi.</span>"
-
-#~ msgid ""
-#~ "With TREZOR Chrome Extension you can use TREZOR Wallet in Chrome without "
-#~ "installing any other software."
-#~ msgstr ""
-#~ "Dengan ekstensi TREZOR Chrome anda dapar menggunakan Dompet TREZOR tanpa "
-#~ "perlu menginstall perangkat lunak lainnya."
 
 #~ msgid ""
 #~ "Would you like TREZOR Wallet to forget your old device with the old data "
@@ -4688,59 +3976,11 @@ msgstr ""
 #~ "Apakah anda ingin Dompet TREZOR untuk menghapus perangkat lama anda "
 #~ "beserta datanya atau tetap menyimpannya?"
 
-#~ msgid "Write down the recovery seed from your device."
-#~ msgstr "Tuliskan recovery seed dari perangkat anda."
-
 #~ msgid "Wrong PIN on"
 #~ msgstr "PIN salah"
 
-#~ msgid "Yes, install"
-#~ msgstr "Ya, install"
-
-#~ msgid "Yes, update"
-#~ msgstr "Ya, update"
-
-#~ msgid "Yesterday"
-#~ msgstr "Kemarin"
-
 #~ msgid "You are about to pay"
 #~ msgstr "Anda akan membayar"
-
-#~ msgid "You are opening TREZOR Beta Wallet"
-#~ msgstr "Anda membuka TREZOR Beta Wallet"
-
-#~ msgid "You can also download and install the APK directly."
-#~ msgstr "Anda juga dapat mendownload dan menginstal APK secara langsung."
-
-#~ msgid "You can try to resend this transaction using"
-#~ msgstr "Anda dapat mencoba mengirim ulang transaksi ini menggunakan"
-
-#~ msgid "You cannot add more than 10 accounts."
-#~ msgstr "Anda tidak dapat menambahkan lebih dari 10 akun."
-
-#~ msgid "You're about to send a lot of money!"
-#~ msgstr "Anda akan mengirim banyak uang!"
-
-#~ msgid "Your PINs were not matching"
-#~ msgstr "PIN anda tidak sesuai"
-
-#~ msgid ""
-#~ "Your TREZOR is already initialized. Check that you have your Recovery "
-#~ "seed with you\n"
-#~ "                    before updating the firmware!"
-#~ msgstr ""
-#~ "TREZOR anda berhasil diinisiasi. Lakukan cek apakah anda telah mempunyai "
-#~ "Recovery Seed sebelum anda\n"
-#~ "                    memperbarui firmware!"
-
-#~ msgid "Your TREZOR is not in the firmware update mode."
-#~ msgstr "TREZOR anda tidak dalam mode perbarui firmware."
-
-#~ msgid "Your device firmware is outdated"
-#~ msgstr "Firmware perangkat anda sudah usang"
-
-#~ msgid "Your device firmware is outdated."
-#~ msgstr "Firmware perangkat anda sudah usang."
 
 #~ msgid ""
 #~ "Your message is {{accountSignCtrl.signMessage.message.length}} letters "
@@ -4757,9 +3997,6 @@ msgstr ""
 #~ msgid "coin-splitting tool"
 #~ msgstr "Alat pemisah-koin"
 
-#~ msgid "connected"
-#~ msgstr "terhubung"
-
 #~ msgid "counting..."
 #~ msgstr "menghitung..."
 
@@ -4775,21 +4012,8 @@ msgstr ""
 #~ "                               Recovery seed anda telah disiapkan sebelum "
 #~ "mulai perbarui firmware"
 
-#~ msgid "homescreen editor"
-#~ msgstr "editor homescreen"
-
-#~ msgid "in your message is not an ASCII character."
-#~ msgstr "pesan anda bukan merupakan karakter ASCII."
-
 #~ msgid "is a public feature-testing version of the"
 #~ msgstr "adalah versi pengujian-fitur publik dari"
-
-#~ msgid ""
-#~ "is feature-conservative, making sure that its functionality is maximally "
-#~ "reliable and dependable for the general public."
-#~ msgstr ""
-#~ "adalah fitur konservarif, untuk memastikan fungsinya secara maksimal "
-#~ "berguna untuk masyarakat umum."
 
 #~ msgctxt "xpub-text"
 #~ msgid "or"
@@ -4800,9 +4024,6 @@ msgstr ""
 
 #~ msgid "phase"
 #~ msgstr "tahap"
-
-#~ msgid "the change address"
-#~ msgstr "alamat pengganti"
 
 #~ msgid "the user manual"
 #~ msgstr "panduan pengguna"
@@ -4818,10 +4039,6 @@ msgstr ""
 #~ msgid_plural "transactions"
 #~ msgstr[0] "transaksi"
 
-#~ msgctxt "send-done"
-#~ msgid "was successfully sent."
-#~ msgstr "berhasil dikirim."
-
 #~ msgid "Troubleshooter"
 #~ msgstr "Pemecah masalah"
 
@@ -4833,9 +4050,6 @@ msgstr ""
 
 #~ msgid "Backend server is down."
 #~ msgstr "Server Backend sedang down."
-
-#~ msgid "Disable Labeling"
-#~ msgstr "Nonaktifkan Pelabelan"
 
 #~ msgid "Don't worry, your funds are safe."
 #~ msgstr "Jangan khawatir, dana anda aman."
@@ -4887,7 +4101,3 @@ msgstr ""
 
 #~ msgid "Metadata keys"
 #~ msgstr "Kunci Metadata"
-
-#~ msgctxt "transaction-time"
-#~ msgid "less than"
-#~ msgstr "kurang dari"
