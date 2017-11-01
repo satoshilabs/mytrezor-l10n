@@ -1,10 +1,10 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"PO-Revision-Date: 2017-10-17 10:47+0000\n"
-"Last-Translator: Adam Nohejl <adam@nohejl.name>\n"
-"Language-Team: Japanese <https://hosted.weblate.org/projects/satoshilabs/"
-"mytrezor/ja/>\n"
+"Project-Id-Version: trezor-wallet\n"
+"PO-Revision-Date: 2017-11-01 11:51+0000\n"
+"Last-Translator: Martin Sip <m.sip@volny.cz>\n"
+"Language-Team: Japanese "
+"<https://hosted.weblate.org/projects/satoshilabs/mytrezor/ja/>\n"
 "Language: ja\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -51,7 +51,7 @@ msgstr "24単語"
 #: views/promos/2fa.html:1
 msgctxt "promos-2fa"
 msgid "2F authentication"
-msgstr ""
+msgstr "二要素認証"
 
 #. Part of a long text about Dropbox and labeling
 #: views/modal/dropbox.html:1
@@ -62,7 +62,7 @@ msgstr ""
 #: views/notices.html:1
 msgctxt "text-with-link"
 msgid "<b>Note: </b>Litecoin changed the format of addresses. <a>More info</a>"
-msgstr "ライトコインのアドレス形式が変更になりました。"
+msgstr "<b>注意:</b> ライトコインのアドレス形式が変更になりました。<a>詳細情報</a>"
 
 #: views/account/transactions/tooBigAccount.html:1
 msgctxt "text-with-link"
@@ -75,7 +75,7 @@ msgstr ""
 #. From (date) to (date)
 #: views/account/transactions/summary.html:1
 msgid "<i>From</i> {{from}} <i>to</i> {{to}}"
-msgstr ""
+msgstr "{{from}}<i>から</i>{{to}}<i>まで</i>"
 
 #: views/modal/beta.html:1
 msgid ""
@@ -95,6 +95,10 @@ msgid ""
 "sentence. Valid BIP32 XPRV keys are interpreted prior loading to the device."
 "</p>"
 msgstr ""
+"<p>熟練者向けの高度なインターフェースです！</p><p>初めてTREZORデバイスを利用してセットアップやリカバリを行う場合は、<a>TREZORのセ"
+"ットアップ</a>に進んでください。</p><p>ご自分が何をされているか本当に理解されている場合のみこのプロセスを行ってください。</p><p>バイナリ"
+"配列や、サイコロ配列、ランダム配列などになるように、生成されたシードに対するチェックは行われません。有効なBIP32 "
+"XPRVキーがデバイスに読み込まれる前に解読されます。</p>"
 
 #. This is on a hidden site, 99.99% of people will not see it
 #: views/device/metadata.html:7
@@ -120,7 +124,7 @@ msgstr "作業が中断されました"
 
 #: views/account/send/buttonBar.html:1
 msgid "Add OP_RETURN"
-msgstr ""
+msgstr "OP_RETURNを追加"
 
 #: views/nav/device-buttons.html:1
 msgctxt "button"
@@ -135,7 +139,7 @@ msgstr "コメントを追加"
 #: views/promos/labeling.html:1
 msgctxt "promos-labeling"
 msgid "Add comments,<br>rename accounts."
-msgstr ""
+msgstr "口座の名前を変更できます"
 
 #: views/nav/device-buttons.html:1
 msgctxt "button"
@@ -144,7 +148,7 @@ msgstr "レガシーの口座を追加"
 
 #: views/account/send/buttonBar.html:1
 msgid "Add locktime"
-msgstr ""
+msgstr "コメントを追加"
 
 #: views/account/send/buttonBar.html:1
 msgid "Add recipient"
@@ -190,7 +194,7 @@ msgstr "アドレスのラベル"
 #: views/otherStrings.html:7
 msgctxt "error-message"
 msgid "Address not found in the header"
-msgstr ""
+msgstr "ヘッダーにはアドレスが見つかりません"
 
 #: views/debug.html:1
 msgctxt "error-message"
@@ -250,7 +254,7 @@ msgstr "金額に含まれる少数点が多すぎます"
 #: views/account/send/txAmount.html:1
 msgctxt "error-message"
 msgid "Amount is missing"
-msgstr "金額は必要です。"
+msgstr "金額は入力されていません"
 
 #: views/account/send/txAmount.html:1
 msgctxt "error-message"
@@ -282,7 +286,7 @@ msgstr "アプリケーション設定"
 #: views/otherStrings.html:7
 msgctxt "error-message"
 msgid "Application loading failed"
-msgstr ""
+msgstr "アプリケーションの読み込みに失敗しました"
 
 #. Length is important here! Full sentence: *Are you sending money to the right person?* - Double check the address with the other party<br/>and prevent malware attacks!
 #: views/promos/malware.html:1
@@ -295,9 +299,7 @@ msgctxt "warning-message"
 msgid ""
 "Attention: The log contains your XPUBs. Anyone with your XPUBs can see your "
 "account history."
-msgstr ""
-"警告: ログにはXPUBファイルのデータが含まれています。第三者にデータが渡ってし"
-"まうと、すべてのトランザクション履歴が閲覧可能になります。"
+msgstr "警告: ログにはあなたのXPUBが含まれています。第三者にデータが渡ってしまうと、すべての取引履歴が閲覧可能になります。"
 
 #: views/account/receive/address.html:26
 msgid "BIP32 Path:"
@@ -460,6 +462,9 @@ msgid ""
 "watch your transactions and receive payments everywhere without carrying "
 "your TREZOR."
 msgstr ""
+"XPUBをクリックするとQRコードが表示されます。<a>Mycelium</a>または<a>Sentinel for Android</a>のようなXPU"
+"Bをサポートしたアプリケーションにスキャンしてデータを取り込んでください。そして、TREZORなしでも、どこでも過去の取引情報の閲覧と支払いの受付けができ"
+"るようになります。"
 
 #. Length is important here! Full sentence: Prevent phishing with Show on TREZOR - *Click on eye icon<br/>in the Receive tab.*
 #: views/promos/show.html:1
@@ -642,7 +647,7 @@ msgstr "カスタム"
 #: views/otherStrings.html:7
 msgctxt "form-label"
 msgid "Custom Backend"
-msgstr ""
+msgstr "カスタムのバックエンド"
 
 #. This is a small label in the Homescreen tab
 #: views/device/homescreen.html:1
@@ -675,7 +680,7 @@ msgstr "日付"
 #: views/otherStrings.html:7
 msgctxt "error-message"
 msgid "Deriving not done."
-msgstr ""
+msgstr "派生は行われていません。"
 
 #. Transaction details, Unconfirmed transaction will have this instead of date.
 #: views/account/transactions/table.html:13
@@ -780,7 +785,7 @@ msgstr ""
 #: views/nav/settings-buttons.html:1
 msgctxt "button"
 msgid "Disconnect {{user}}"
-msgstr ""
+msgstr "接続が解除されました"
 
 #: views/nav/device.html:1
 msgctxt "device-state"
@@ -791,13 +796,13 @@ msgstr "未接続のデバイス"
 #: views/promos/2fa.html:1
 msgctxt "promos-2fa"
 msgid "Discover TREZOR's"
-msgstr ""
+msgstr "TREZORを取り外してください"
 
 #. Length is important here! Full sentence: *Discover TREZOR's new* 2-factor authentication for secure login to Gmail, Google Drive, Dropbox, Dashlane, and more...
 #: views/promos/2fa.html:1
 msgctxt "promos-2fa"
 msgid "Discover TREZOR's new"
-msgstr ""
+msgstr "TREZORを取り外してください"
 
 #: views/debug.html:1
 msgctxt "tooltip"
@@ -846,7 +851,7 @@ msgstr "アドレスを十分に確認してください..."
 #: views/install/main.html:1 views/jumbotrons/start.html:1
 msgctxt "text-with-link"
 msgid "Don't have a TREZOR? <a>Get one</a>"
-msgstr ""
+msgstr "TREZORは持っていませんか？"
 
 #. Length is important here! Full sentence: Sending money to the right person? - *Double check* the address with the other party<br/> and prevent malware attacks!
 #: views/promos/malware.html:1
@@ -918,7 +923,7 @@ msgstr "ラベリングを有効にする"
 #: views/modal/button.html:1
 msgctxt "heading"
 msgid "Enable labeling on {{label}}?"
-msgstr ""
+msgstr "“{{label}}”でラベリングを有効にしますか？"
 
 #. This is written on a button, clicking it will enable passphrase
 #: views/device/advanced.html:5
@@ -953,24 +958,24 @@ msgstr "シードの単語を入力してください"
 #: views/modal/pin.html:1
 msgctxt "heading"
 msgid "Enter your new {{label}} PIN"
-msgstr ""
+msgstr "“{{label}}”の新しいPINを入力してください"
 
 #. Enter (device label) PIN
 #: views/modal/pin.html:1
 msgctxt "heading"
 msgid "Enter {{label}} PIN"
-msgstr ""
+msgstr "“{{label}}”のPINを入力してください"
 
 #. Enter (device label) passphrase
 #: views/modal/passphrase.html:1
 msgctxt "heading"
 msgid "Enter {{label}} passphrase"
-msgstr ""
+msgstr "“{{label}}”のパスフレーズを入力してください"
 
 #: views/debug.html:1
 msgctxt "error-message"
 msgid "Error details: {{error}}"
-msgstr ""
+msgstr "エラーの詳細:"
 
 #: views/modal/backendwarnings/ethwallet.html:1
 msgctxt "heading"
@@ -985,7 +990,7 @@ msgstr "例:"
 #. Displayed on a Bitcoin account with no transactions to help user get Bitcoin (link to coinbase, link to Coinmama)
 #: views/account/transactions/welcomes/bitcoin.html:1
 msgid "Exchange: <a>Coinbase</a> or <a>Coinmama</a>"
-msgstr ""
+msgstr "取引所: <a>Coinbase</a> または <a>Coinmama</a>"
 
 #: views/account/send/fees.html:1
 msgid "Expected confirmation time"
@@ -995,7 +1000,7 @@ msgstr "予想される承認時間"
 #: views/promos/apps.html:1
 msgctxt "promos-apps"
 msgid "Explore now"
-msgstr ""
+msgstr "ブロックエクスプローラーURL"
 
 #: views/settings.html:1
 msgctxt "form-label"
@@ -1004,7 +1009,7 @@ msgstr "ブロックエクスプローラーURL"
 
 #: views/account/transactions/table.html:1
 msgid "Export transactions as .csv"
-msgstr ""
+msgstr "取引はまだありません。"
 
 #: views/debug.html:1
 msgctxt "error-message"
@@ -1106,13 +1111,13 @@ msgstr "端末に表示された手順に従ってください。"
 #: views/notices.html:1
 msgctxt "text-with-link"
 msgid "For more information, please refer to <a>our guide</a>"
-msgstr ""
+msgstr "詳しい情報は、ユーザーマニュアルをご覧ください。"
 
 #. For more information, visit (TREZOR documentation link)
 #: views/modal/firmware.html:7
 msgctxt "text-with-link"
 msgid "For more information, visit <a>the user manual</a>"
-msgstr ""
+msgstr "詳しい情報は、ユーザーマニュアルをご覧ください。"
 
 #. Clicking here will lead the user to our manual.
 #: views/modal/firmware.html:7
@@ -1159,7 +1164,7 @@ msgstr "端末を忘れますか?"
 #: views/modal/forget.disconnected.html:1 views/modal/forget.requested.html:1
 msgctxt "heading"
 msgid "Forget {{label}}?"
-msgstr ""
+msgstr "“{{label}}”を忘れてもよろしいですか？"
 
 #: views/modal/forget.requested.html:1
 msgid ""
@@ -1207,13 +1212,13 @@ msgstr "MyEtherWalletへ移動"
 #: views/modal/beta.html:1
 msgctxt "button"
 msgid "Go to TREZOR Wallet"
-msgstr ""
+msgstr "TREZORのセットアップにようこそ!"
 
 #. button that hides the top part of Transactions page (Balance/Rate/In/Out + graph)
 #: views/account/transactions/summary.html:3
 msgctxt "button"
 msgid "Hide Summary"
-msgstr ""
+msgstr "概要を隠す"
 
 #: views/account/receive/index.html:4
 msgid "Hide previous"
@@ -1365,7 +1370,7 @@ msgstr "CSVファイルから読み込む"
 #. Heading above total amount received by the account in selected time period
 #: views/account/transactions/summary.html:3
 msgid "In"
-msgstr ""
+msgstr "収入"
 
 #: views/modal/beta.html:1
 msgid ""
@@ -1523,7 +1528,7 @@ msgstr "もっと詳しく知る"
 #: views/modal/recovery.html:1
 msgctxt "text-with-link"
 msgid "Learn more about <a>Advanced recovery</a>"
-msgstr ""
+msgstr "リカバリについてもっと詳しく知る"
 
 #: views/nav/index.html:1 views/nav/legacy-accounts.html:1
 msgctxt "button"
@@ -1589,7 +1594,7 @@ msgstr "読み込み中"
 #: views/nav/settings-buttons.html:1
 msgctxt "tooltip"
 msgid "Loading Dropbox status."
-msgstr ""
+msgstr "取引を読み込み中"
 
 #: views/nav/device-buttons.html:1
 msgid "Loading accounts..."
@@ -1626,12 +1631,12 @@ msgstr "読み込み中..."
 #. Loading (123 transactions)
 #: views/nav/account.html:1
 msgid "Loading... ({{count}} transactions)"
-msgstr ""
+msgstr "取引を読み込み中"
 
 #. Displayed on a Bitcoin account with no transactions to help user get Bitcoin (link to LocalBitcoins)
 #: views/account/transactions/welcomes/bitcoin.html:1
 msgid "Local traders: <a>LocalBitcoins</a>"
-msgstr ""
+msgstr "近くのトレーダー: <a>LocalBitcoins</a>"
 
 #. tooltip on the lock device button
 #: views/otherStrings.html:7
@@ -1741,7 +1746,7 @@ msgstr "自分のTREZOR"
 #. Displayed on a Bitcoin account with no transactions to help user get Bitcoin (link to CoinAtmRadar)
 #: views/account/transactions/welcomes/bitcoin.html:2
 msgid "Nearest ATM: <a>CoinAtmRadar</a>"
-msgstr ""
+msgstr "最寄りのATM: <a>CoinAtmRadar</a>"
 
 #. Leads to trezor support
 #: views/modal/firmware.html:7 views/modal/pinguide.html:1
@@ -1817,13 +1822,13 @@ msgstr "アドレスは必要です。"
 
 #: views/account/transactions/summary.html:3
 msgid "No data"
-msgstr ""
+msgstr "データがありません。"
 
 #. error while trying to sign message - message field is empty
 #: views/otherStrings.html:7
 msgctxt "error-message"
 msgid "No message entered."
-msgstr ""
+msgstr "メッセージは検証されました。"
 
 #. error while trying to sign message - signature field is empty
 #: views/otherStrings.html:7
@@ -1912,7 +1917,7 @@ msgstr ""
 #. Heading above total amount spent by the account in selected time period
 #: views/account/transactions/summary.html:3
 msgid "Out"
-msgstr ""
+msgstr "支出"
 
 #. Outputs of a transaction
 #: views/account/send/txPrepared.html:1
@@ -1961,7 +1966,7 @@ msgstr "パスフレーズ"
 #: views/promos/passphrase.html:1
 msgctxt "promos-passphrase"
 msgid "Passphrase Encryption"
-msgstr ""
+msgstr "パスフレーズによる暗号化を有効にする"
 
 #: views/debug.html:1
 msgctxt "error-message"
@@ -1987,7 +1992,7 @@ msgstr "パスフレーズが長すぎます!"
 #: views/promos/passphrase.html:1
 msgctxt "promos-passphrase"
 msgid "Passphrase<br>Encryption"
-msgstr ""
+msgstr "パスフレーズによる暗号化を有効にする"
 
 #: views/modal/passphrase.html:1
 msgctxt "error-message"
@@ -2168,7 +2173,7 @@ msgstr "メッセージとアドレスを書き込んでください"
 #: views/otherStrings.html:7
 msgctxt "error-message"
 msgid "Please fill the CSV."
-msgstr ""
+msgstr "ページを再読み込みしてください。"
 
 #. Please follow .... (link to trezor blog about MyEtherWallet)
 #: views/modal/backendwarnings/ethwallet.html:1
@@ -2298,7 +2303,7 @@ msgstr "hexフォーマットの生の取引:"
 #: views/modal/pin.html:1
 msgctxt "heading"
 msgid "Re-enter new {{label}} PIN"
-msgstr ""
+msgstr "“{{label}}”の新しいPINを再入力してください"
 
 #: views/modal/passphrase.html:1
 msgid "Re-type for control"
@@ -2381,7 +2386,7 @@ msgstr "すべての受信者を削除"
 #: views/account/send/inside.html:1
 msgctxt "tooltip"
 msgid "Remove locktime"
-msgstr ""
+msgstr "受信者を削除"
 
 #. tooltip on the X button which will remove entry from the Send form
 #: views/otherStrings.html:7
@@ -2706,7 +2711,7 @@ msgstr "TREZOR"
 #: views/promos/apps.html:1
 msgctxt "promos-apps"
 msgid "TREZOR Apps"
-msgstr ""
+msgstr "TREZOR"
 
 #: views/install/bridge.force.html:1
 msgctxt "heading"
@@ -2728,7 +2733,7 @@ msgstr "TREZORリカバリ"
 #: views/top.bar.html:1
 msgctxt "image-alt"
 msgid "TREZOR Wallet"
-msgstr ""
+msgstr "TREZOR Walletのラベリング"
 
 #: views/jumbotrons/landing/landing.heading.html:1
 msgid ""
@@ -2745,7 +2750,7 @@ msgstr "TREZOR Walletは口座を読み込んでいます"
 
 #: views/main.wrapper.html:1
 msgid "TREZOR Wallet is starting"
-msgstr ""
+msgstr "TREZOR Walletのラベリング"
 
 #: views/modal/dropbox.html:1
 msgctxt "heading"
@@ -2858,7 +2863,7 @@ msgstr ""
 #: views/date.selection.html:8
 msgctxt "date"
 msgid "This Month"
-msgstr ""
+msgstr "1ヶ月以内"
 
 #: views/date.selection.html:8
 msgctxt "date"
@@ -2979,7 +2984,7 @@ msgstr "受信金額合計:"
 #: views/debug.html:1
 msgctxt "text-with-link"
 msgid "Transaction <a>{{hash}}</a> was successfully sent."
-msgstr ""
+msgstr "正常に送信されました。"
 
 #: views/account/transactions/table.html:1
 msgid "Transactions"
@@ -3106,7 +3111,7 @@ msgstr "ファームウェアをアップロード中..."
 #: views/promos/labeling.html:1
 msgctxt "promos-labeling"
 msgid "Use Labeling"
-msgstr ""
+msgstr "ラベリングを有効にする"
 
 #. Length is important here! Full sentence: *Use hidden wallets with* Passphrase Encryption - But first, get to know how it works!
 #: views/promos/passphrase.html:1
@@ -3398,7 +3403,7 @@ msgstr "お持ちのデバイスからリカバリシードを書き写してく
 #: views/modal/pin.html:1
 msgctxt "heading"
 msgid "Wrong {{label}} PIN"
-msgstr ""
+msgstr "誤った“{{label}}”のPIN"
 
 #: views/modal/firmware.html:7
 msgctxt "button"
@@ -3419,7 +3424,7 @@ msgstr "昨日"
 #: views/account/send/inside.html:1
 msgctxt "warning-message"
 msgid "You are about to pay {{fee}} to send this transaction."
-msgstr ""
+msgstr "を使用してこのトランザクションを再送信できます"
 
 #: views/modal/backendwarnings/bcash.html:1
 msgid "You are now switching to the Bitcoin Cash (BCH) wallet."
@@ -3529,7 +3534,7 @@ msgstr "TREZOR Bridgeをインストールするには、アップグレード�
 #: views/account/sign/inside.html:1 views/account/sign/inside.html:5
 #: views/account/sign/inside.html:6
 msgid "Your message is {{length}} letters long."
-msgstr ""
+msgstr "メッセージは最大255文字まで入力できます。"
 
 #. Part of a long text about Dropbox and labeling
 #: views/modal/dropbox.html:1
@@ -3541,6 +3546,8 @@ msgid ""
 "address,amount,currency\n"
 "{{exampleAddress}},0.31337,{{shortcut}}"
 msgstr ""
+"アドレス,金額,通過\n"
+"{{exampleAddress}},0.31337,{{shortcut}}"
 
 #: views/modal/csv.html:6
 msgid ""
@@ -3548,12 +3555,17 @@ msgid ""
 "{{exampleAddress}},0.31337,{{shortcut}}\n"
 "1Hs1pKYW9qZwY2DfSPFGVDKCqCJSDUqYfA,0.1,USD"
 msgstr ""
+"アドレス,金額,通過\n"
+"{{exampleAddress}},0.31337,{{shortcut}}\n"
+"1Hs1pKYW9qZwY2DfSPFGVDKCqCJSDUqYfA,0.1,USD"
 
 #: views/modal/csv.html:1
 msgid ""
 "address,amount,currency,label\n"
 "{{exampleAddress}},0.31337,{{shortcut}},for Alice"
 msgstr ""
+"アドレス,金額,通過,ラベル\n"
+"{{exampleAddress}},0.31337,{{shortcut}},Aliceへ"
 
 #: views/modal/csv.html:2
 msgid ""
@@ -3561,6 +3573,9 @@ msgid ""
 "{{exampleAddress}},0.31337,{{shortcut}},for Alice\n"
 "1Hs1pKYW9qZwY2DfSPFGVDKCqCJSDUqYfA,0.1,USD,for Bob"
 msgstr ""
+"アドレス,金額,通過,ラベル\n"
+"{{exampleAddress}},0.31337,{{shortcut}},Aliceへ\n"
+"1Hs1pKYW9qZwY2DfSPFGVDKCqCJSDUqYfA,0.1,USD,Bobへ"
 
 #. Attribution of picture, in the footer of Homepage. Don't translate the name of the picture or the author.
 #: views/device/homescreen.html:4
@@ -3572,7 +3587,7 @@ msgstr "coffee by jen は、CC BY 2.0 によってライセンスされていま
 msgctxt "transaction-time"
 msgid "day"
 msgid_plural "days"
-msgstr[0] "今日"
+msgstr[0] "日"
 
 #. to update the firmware...
 #: views/modal/firmware.html:7
@@ -3617,7 +3632,7 @@ msgstr "PIN保護機能を無効にする場合は空欄にしてください"
 #. (fee is) less than 0.01 USD
 #: views/otherStrings.html:7
 msgid "less than {{amount}}"
-msgstr ""
+msgstr "より少ない"
 
 #. Used when estimating transaction time (Expected time: 5 *minutes*)
 #: views/account/send/fees.html:1
@@ -3634,7 +3649,7 @@ msgstr "セットされていません"
 #. (uploader button before this) or use (link to homescreen editor)
 #: views/device/homescreen.html:1
 msgid "or use <a>homescreen editor</a>"
-msgstr ""
+msgstr "ホーム画面のエディター"
 
 #. to update the firmware...
 #: views/modal/firmware.html:7
@@ -3672,12 +3687,12 @@ msgstr "自分の口座"
 #. displayed on the bottom in the TX
 #: views/account/send/txPrepared.html:1
 msgid "{{address}} (the change address)"
-msgstr ""
+msgstr "{{address}} (お釣り用アドレス)"
 
 #. 100 BTC <br> to <br> (first half of address) <br> (second half of address)
 #: views/modal/button.html:1
 msgid "{{amount}} {{currency}}<br>to<br>{{addr1}}<br>{{addr2}}"
-msgstr ""
+msgstr "{{amount}} {{currency}}<br>送信先:<br>{{addr1}}<br>{{addr2}}"
 
 #. Send form -> add recipient -> import csv -> invalid currency shortcut in the Currency column
 #: views/otherStrings.html:7
@@ -3693,7 +3708,7 @@ msgstr ""
 #. (dropbox user) is currently connected
 #: views/nav/settings-buttons.html:1
 msgid "{{user}} connected"
-msgstr ""
+msgstr "{{user}} (接続済み)"
 
 #~ msgid "1 per row"
 #~ msgstr "行あたり1つ"
