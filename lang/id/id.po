@@ -176,13 +176,13 @@ msgctxt "sign"
 msgid "Address"
 msgstr "Alamat"
 
-#: views/account/transactions/table.html:1
-msgid "Address"
-msgstr "Alamat"
-
 #. This is a label to the sending form. (Address/amount/comment)
 #: views/account/send/txAddress.html:5
 msgctxt "form-label"
+msgid "Address"
+msgstr "Alamat"
+
+#: views/account/transactions/table.html:1
 msgid "Address"
 msgstr "Alamat"
 
@@ -313,7 +313,7 @@ msgid "Backspace"
 msgstr "Menghapus"
 
 #. Heading above account balance total
-#: views/account/transactions/summary.html:3
+#: views/account/transactions/summary.html:1
 #: views/account/transactions/table.html:1
 msgid "Balance"
 msgstr "Saldo"
@@ -344,10 +344,6 @@ msgctxt "button"
 msgid "Blog"
 msgstr "Blog"
 
-#: index.html:1
-msgid "Blog"
-msgstr "Blog"
-
 #: views/modal/_header.html:1
 msgctxt "heading"
 msgid "Bootloader mode"
@@ -365,12 +361,9 @@ msgctxt "promos-passphrase"
 msgid "But first, get to know<br>how it works!"
 msgstr ""
 
-#: views/device/load.html:1 views/device/recovery.html:1 views/import.html:1
+#: views/device/custom-firmware.html:1 views/device/load.html:1
+#: views/device/recovery.html:1 views/import.html:1
 msgctxt "button"
-msgid "Cancel"
-msgstr "Batal"
-
-#: views/device/custom-firmware.html:1
 msgid "Cancel"
 msgstr "Batal"
 
@@ -475,12 +468,8 @@ msgstr ""
 msgid "Click to hide address"
 msgstr "Klik untuk menyembunyikan alamat"
 
-#: views/nav/device.html:1
+#: views/nav/device.html:1 views/nav/unacquired.html:1
 msgctxt "button"
-msgid "Click to renew session"
-msgstr "Klik untuk memperbarui sesi"
-
-#: views/nav/unacquired.html:1
 msgid "Click to renew session"
 msgstr "Klik untuk memperbarui sesi"
 
@@ -502,10 +491,6 @@ msgctxt "button"
 msgid "Close"
 msgstr "Tutup"
 
-#: views/debug.html:1
-msgid "Close"
-msgstr "Tutup"
-
 #. This is a label to the sending form. (Address/amount/comment)
 #: views/account/send/txLabel.html:1
 msgctxt "form-label"
@@ -519,10 +504,6 @@ msgstr "Konfirmasi langkah pada perangkat TREZOR anda."
 
 #: views/modal/button.html:1
 msgctxt "heading"
-msgid "Confirm action on your device."
-msgstr "Konfirmasi langkah pada perangkat anda."
-
-#: views/modal/button.html:1
 msgid "Confirm action on your device."
 msgstr "Konfirmasi langkah pada perangkat anda."
 
@@ -608,12 +589,8 @@ msgstr "Perangkat yang terhubung"
 msgid "Connecting ..."
 msgstr "Menghubungkan ..."
 
-#: views/device/custom-firmware.html:1
-msgid "Continue"
-msgstr "Lanjutkan"
-
-#: views/device/index.setup.html:1 views/device/load.html:1
-#: views/device/recovery.html:1 views/import.html:1
+#: views/device/custom-firmware.html:1 views/device/index.setup.html:1
+#: views/device/load.html:1 views/device/recovery.html:1 views/import.html:1
 msgctxt "button"
 msgid "Continue"
 msgstr "Lanjutkan"
@@ -714,24 +691,15 @@ msgctxt "error-message"
 msgid "Device is updated in other window"
 msgstr "Perangkat sedang diperbarui di jendela lain"
 
-#: views/device/index.setup.html:1
+#. This is a short label in the normally hidden, advanced Load page
+#: views/device/index.setup.html:1 views/device/load.html:1 views/import.html:1
+msgctxt "form-label"
 msgid "Device label"
 msgstr "Label Perangkat"
 
 #. This is a short label in the device recovery page
 #: views/device/recovery.html:1
 msgctxt "recovery-label"
-msgid "Device label"
-msgstr "Label Perangkat"
-
-#: views/import.html:1
-msgctxt "form-label"
-msgid "Device label"
-msgstr "Label Perangkat"
-
-#. This is a short label in the normally hidden, advanced Load page
-#: views/device/load.html:1
-msgctxt "load-label"
 msgid "Device label"
 msgstr "Label Perangkat"
 
@@ -821,10 +789,6 @@ msgstr "Apakah anda menggunakan Google Chrome di komputer ini?"
 msgctxt "heading"
 msgid "Do you want to update the device firmware?"
 msgstr "Apakah anda ingin memperbarui firmware perangkat?"
-
-#: index.html:1
-msgid "Docs"
-msgstr "Docs"
 
 #. link in top navigation bar
 #: views/top.nav.html:1
@@ -1041,9 +1005,9 @@ msgstr "Gagal memverifikasi pesan"
 
 #. This is a label to the sending form. (Address/amount/comment)
 #: views/account/send/fees.html:1
-msgctxt "send"
+msgctxt "form-label"
 msgid "Fee"
-msgstr "Biaya"
+msgstr ""
 
 #: views/account/send/fees.html:1 views/account/transactions/table.html:1
 msgid "Fee"
@@ -1142,13 +1106,7 @@ msgstr ""
 "testnet seperti untuk bitcoin."
 
 #. Button in remember/forget dialog
-#: views/modal/forget.disconnected.html:1
-msgctxt "forget-button"
-msgid "Forget"
-msgstr "Lupa"
-
-#. Button in remember/forget dialog
-#: views/modal/forget.requested.html:1
+#: views/modal/forget.disconnected.html:1 views/modal/forget.requested.html:1
 msgctxt "button"
 msgid "Forget"
 msgstr "Lupa"
@@ -1186,15 +1144,15 @@ msgstr "Pada situasi ini anda dapat:"
 msgid "Gallery selection"
 msgstr "Pilihan galeri"
 
-#. call to action button of the trezor password manager promo
-#: views/promos/tpm.html:1
-msgctxt "promos-passmanager"
-msgid "Get started"
-msgstr ""
-
 #. call to action button of the android trezor manager promo
 #: views/promos/android.html:1
 msgctxt "promos-android"
+msgid "Get started"
+msgstr ""
+
+#. call to action button of the trezor password manager promo
+#: views/promos/tpm.html:1
+msgctxt "promos-passmanager"
 msgid "Get started"
 msgstr ""
 
@@ -1216,7 +1174,7 @@ msgid "Go to TREZOR Wallet"
 msgstr ""
 
 #. button that hides the top part of Transactions page (Balance/Rate/In/Out + graph)
-#: views/account/transactions/summary.html:3
+#: views/account/transactions/summary.html:1
 msgctxt "button"
 msgid "Hide Summary"
 msgstr ""
@@ -1375,7 +1333,7 @@ msgid "Import from CSV"
 msgstr "Import dari CSV"
 
 #. Heading above total amount received by the account in selected time period
-#: views/account/transactions/summary.html:3
+#: views/account/transactions/summary.html:1
 msgid "In"
 msgstr ""
 
@@ -1498,15 +1456,9 @@ msgctxt "heading"
 msgid "Latest"
 msgstr "Terbaru"
 
-#. call to action button of the show on trezor promo
-#: views/promos/show.html:1
-msgctxt "promos-show"
-msgid "Learn more"
-msgstr "Belajarlah lebih lanjut"
-
-#. call to action button of the labeling promo
-#: views/promos/labeling.html:1
-msgctxt "promos-labeling"
+#. call to action button of the malware promo
+#: views/promos/malware.html:1
+msgctxt "promos-malware"
 msgid "Learn more"
 msgstr "Belajarlah lebih lanjut"
 
@@ -1516,21 +1468,27 @@ msgctxt "promos-2fa"
 msgid "Learn more"
 msgstr "Belajarlah lebih lanjut"
 
-#. link to Trezor documentation about segwit / legacy accounts
-#: views/account/transactions/legacynote.html:1
-msgctxt "button"
+#. call to action button of the labeling promo
+#: views/promos/labeling.html:1
+msgctxt "promos-labeling"
 msgid "Learn more"
 msgstr "Belajarlah lebih lanjut"
 
-#. call to action button of the malware promo
-#: views/promos/malware.html:1
-msgctxt "promos-malware"
+#. call to action button of the show on trezor promo
+#: views/promos/show.html:1
+msgctxt "promos-show"
 msgid "Learn more"
 msgstr "Belajarlah lebih lanjut"
 
 #. call to action button of the PIN promo
 #: views/promos/pin.html:1
 msgctxt "promos-pin"
+msgid "Learn more"
+msgstr "Belajarlah lebih lanjut"
+
+#. link to Trezor documentation about segwit / legacy accounts
+#: views/account/transactions/legacynote.html:1
+msgctxt "button"
 msgid "Learn more"
 msgstr "Belajarlah lebih lanjut"
 
@@ -1623,18 +1581,18 @@ msgstr "Gagal memuat akun."
 msgid "Loading transactions"
 msgstr "Memuat transaksi"
 
-#. Is displayed when TREZOR is loading, in the left column
-#: views/nav/device.html:1
-msgctxt "device-state"
-msgid "Loading..."
-msgstr "Memuat..."
-
 #: views/device/index.basic.html:3
 msgid "Loading..."
 msgstr "Memuat..."
 
 #: views/nav/account.html:1
 msgctxt "tooltip"
+msgid "Loading..."
+msgstr "Memuat..."
+
+#. Is displayed when TREZOR is loading, in the left column
+#: views/nav/device.html:1
+msgctxt "device-state"
 msgid "Loading..."
 msgstr "Memuat..."
 
@@ -1711,12 +1669,8 @@ msgstr ""
 "\">kontribusinya</a>"
 
 #: views/account/sign/inside.html:1 views/account/sign/inside.html:5
-msgid "Maximal message length is 255 letters long."
-msgstr "Panjang pesan maksimal adalah 255 huruf."
-
-#: views/account/transactions/summary.html:1
-msgid "Maximal spendable"
-msgstr "Maksimal yang bisa digunakan"
+msgid "Maximum message length is 255 letters long."
+msgstr ""
 
 #: views/account/sign/inside.html:1 views/account/sign/inside.html:4
 msgid "Message"
@@ -1764,10 +1718,6 @@ msgstr ""
 #. Leads to trezor support
 #: views/modal/firmware.html:7 views/modal/pinguide.html:1
 msgctxt "button"
-msgid "Need help?"
-msgstr "Butuh bantuan?"
-
-#: views/modal/firmware.html:7
 msgid "Need help?"
 msgstr "Butuh bantuan?"
 
@@ -1819,7 +1769,7 @@ msgctxt "tooltip"
 msgid "Next tip"
 msgstr ""
 
-#: views/account/transactions/summary.html:3
+#: views/account/transactions/summary.html:1
 msgid "No Transactions Yet."
 msgstr "Belum ada transaksi."
 
@@ -1834,7 +1784,7 @@ msgctxt "error-message"
 msgid "No address entered."
 msgstr "Alamat diperlukan."
 
-#: views/account/transactions/summary.html:3
+#: views/account/transactions/summary.html:1
 msgid "No data"
 msgstr ""
 
@@ -1932,7 +1882,7 @@ msgstr ""
 "anda. Susunan kata-kata tersebut cukup penting."
 
 #. Heading above total amount spent by the account in selected time period
-#: views/account/transactions/summary.html:3
+#: views/account/transactions/summary.html:1
 msgid "Out"
 msgstr ""
 
@@ -2313,7 +2263,7 @@ msgid "QR scanning failed."
 msgstr "Scan QR gagal."
 
 #. Heading above current ($, €, ...)/(BTC, LTC, ...) rate
-#: views/account/transactions/summary.html:3
+#: views/account/transactions/summary.html:1
 msgid "Rate"
 msgstr "Kurs"
 
@@ -2390,9 +2340,9 @@ msgstr "Ulangi Kembali"
 
 #. Button in remember/forget dialog
 #: views/modal/forget.disconnected.html:1
-msgctxt "forget-button"
+msgctxt "button"
 msgid "Remember"
-msgstr "Ingat"
+msgstr ""
 
 #: views/modal/setup.html:1
 msgid ""
@@ -2536,6 +2486,14 @@ msgctxt "warning-message"
 msgid "Setting custom fee is not recommended."
 msgstr "Tidak disarankan menetapkan biaya khusus."
 
+#. Setting up your TREZOR will take only a few minutes. When you're done, you can start using your TREZOR. (Learn more - link to trezor documentation)
+#: views/device/index.setup.html:1
+msgid ""
+"Setting up your TREZOR will take only a few minutes. When you're done, you "
+"can start using your TREZOR. <a tooltip=\"Learn more about TREZOR Setup from "
+"User Manual\">Learn more</a>"
+msgstr ""
+
 #. Length is important here! Full sentence: *Setup TREZOR<br>on your phone.* TREZOR Manager<br>for Android
 #: views/promos/android.html:1
 msgctxt "promos-android"
@@ -2554,7 +2512,7 @@ msgid "Setup failed."
 msgstr "Pengaturan gagal."
 
 #. button that displays the top part of Transactions page (Balance/Rate/In/Out + graph)
-#: views/account/transactions/summary.html:3
+#: views/account/transactions/summary.html:1
 msgctxt "button"
 msgid "Show Summary"
 msgstr "Lihat lainnya"
@@ -2707,10 +2665,6 @@ msgctxt "button"
 msgid "Support"
 msgstr "Bantuan"
 
-#: index.html:1
-msgid "Support"
-msgstr "Bantuan"
-
 #: views/modal/firmware.html:7
 msgctxt "button"
 msgid "Support needed?"
@@ -2724,10 +2678,6 @@ msgstr "Beralih ke Bitcoin Cash"
 #. link in top navigation bar
 #: views/top.nav.html:1
 msgctxt "button"
-msgid "TREZOR"
-msgstr "TREZOR"
-
-#: index.html:1
 msgid "TREZOR"
 msgstr "TREZOR"
 
@@ -3020,17 +2970,17 @@ msgctxt "text-with-link"
 msgid "Transaction <a>{{hash}}</a> was successfully sent."
 msgstr ""
 
-#: views/account/transactions/table.html:1
-msgid "Transactions"
-msgstr "Transaksi"
-
 #. This is shown on the header Send/Receive/Transactions/...
 #: views/account/nav.html:1
 msgctxt "header"
 msgid "Transactions"
 msgstr "Transaksi"
 
-#: views/account/transactions/summary.html:3
+#: views/account/transactions/table.html:1
+msgid "Transactions"
+msgstr "Transaksi"
+
+#: views/account/transactions/summary.html:1
 msgid "Transactions are loading ..."
 msgstr "Transaksi sedang dimuat ..."
 
@@ -3114,12 +3064,6 @@ msgctxt "button"
 msgid "Upgrade"
 msgstr "Upgrade"
 
-#. Upgrade refers to Trezor firmware upgrade
-#: views/alertbars/firmware.html:5
-msgctxt "firmware-update"
-msgid "Upgrade for the newest features."
-msgstr "Upgrade untuk fitur terbaru dan perbaikan bug."
-
 #. Upgrade refers to Trezor Bridge upgrade
 #: views/alertbars/bridge.html:4
 msgctxt "bridge-update"
@@ -3127,6 +3071,12 @@ msgid "Upgrade for the newest features."
 msgstr "Upgrade untuk fitur terbaru dan perbaikan bug."
 
 #: views/install/bridge.force.html:1
+msgid "Upgrade for the newest features."
+msgstr "Upgrade untuk fitur terbaru dan perbaikan bug."
+
+#. Upgrade refers to Trezor firmware upgrade
+#: views/alertbars/firmware.html:5
+msgctxt "firmware-update"
 msgid "Upgrade for the newest features."
 msgstr "Upgrade untuk fitur terbaru dan perbaikan bug."
 
@@ -3226,10 +3176,6 @@ msgstr "Menunggu riwayat transaksi"
 #. link in top navigation bar
 #: views/top.nav.html:1
 msgctxt "button"
-msgid "Wallet"
-msgstr "Dompet"
-
-#: index.html:1
 msgid "Wallet"
 msgstr "Dompet"
 
@@ -3564,11 +3510,11 @@ msgid "Your images"
 msgstr "Gambar anda"
 
 #: views/modal/firmware.html:7
-msgctxt "warning-message"
 msgid "Your installation of TREZOR Bridge needs to be upgraded first."
 msgstr "Instalasi TREZOR Bridge anda perlu diperbarui terlebih dahulu."
 
 #: views/modal/firmware.html:7
+msgctxt "warning-message"
 msgid "Your installation of TREZOR Bridge needs to be upgraded first."
 msgstr "Instalasi TREZOR Bridge anda perlu diperbarui terlebih dahulu."
 
@@ -3741,6 +3687,64 @@ msgstr ""
 #: views/nav/settings-buttons.html:1
 msgid "{{user}} connected"
 msgstr ""
+
+#~ msgid "Blog"
+#~ msgstr "Blog"
+
+#~ msgid "Cancel"
+#~ msgstr "Batal"
+
+#~ msgid "Click to renew session"
+#~ msgstr "Klik untuk memperbarui sesi"
+
+#~ msgid "Close"
+#~ msgstr "Tutup"
+
+#~ msgid "Confirm action on your device."
+#~ msgstr "Konfirmasi langkah pada perangkat anda."
+
+#~ msgid "Continue"
+#~ msgstr "Lanjutkan"
+
+#~ msgid "Device label"
+#~ msgstr "Label Perangkat"
+
+#~ msgctxt "load-label"
+#~ msgid "Device label"
+#~ msgstr "Label Perangkat"
+
+#~ msgid "Docs"
+#~ msgstr "Docs"
+
+#~ msgctxt "send"
+#~ msgid "Fee"
+#~ msgstr "Biaya"
+
+#~ msgctxt "forget-button"
+#~ msgid "Forget"
+#~ msgstr "Lupa"
+
+#~ msgid "Maximal message length is 255 letters long."
+#~ msgstr "Panjang pesan maksimal adalah 255 huruf."
+
+#~ msgid "Maximal spendable"
+#~ msgstr "Maksimal yang bisa digunakan"
+
+#~ msgid "Need help?"
+#~ msgstr "Butuh bantuan?"
+
+#~ msgctxt "forget-button"
+#~ msgid "Remember"
+#~ msgstr "Ingat"
+
+#~ msgid "Support"
+#~ msgstr "Bantuan"
+
+#~ msgid "TREZOR"
+#~ msgstr "TREZOR"
+
+#~ msgid "Wallet"
+#~ msgstr "Dompet"
 
 #~ msgid "(automatically in"
 #~ msgstr "(masuk secara otomatis"

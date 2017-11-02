@@ -176,15 +176,15 @@ msgctxt "sign"
 msgid "Address"
 msgstr "Адреса"
 
-#: views/account/transactions/table.html:1
-msgid "Address"
-msgstr ""
-
 #. This is a label to the sending form. (Address/amount/comment)
 #: views/account/send/txAddress.html:5
 msgctxt "form-label"
 msgid "Address"
 msgstr "Адреса"
+
+#: views/account/transactions/table.html:1
+msgid "Address"
+msgstr ""
 
 #: views/account/transactions/table.html:1
 msgid "Address Label"
@@ -317,7 +317,7 @@ msgid "Backspace"
 msgstr ""
 
 #. Heading above account balance total
-#: views/account/transactions/summary.html:3
+#: views/account/transactions/summary.html:1
 #: views/account/transactions/table.html:1
 msgid "Balance"
 msgstr ""
@@ -348,10 +348,6 @@ msgctxt "button"
 msgid "Blog"
 msgstr ""
 
-#: index.html:1
-msgid "Blog"
-msgstr ""
-
 #: views/modal/_header.html:1
 msgctxt "heading"
 msgid "Bootloader mode"
@@ -369,12 +365,9 @@ msgctxt "promos-passphrase"
 msgid "But first, get to know<br>how it works!"
 msgstr ""
 
-#: views/device/load.html:1 views/device/recovery.html:1 views/import.html:1
+#: views/device/custom-firmware.html:1 views/device/load.html:1
+#: views/device/recovery.html:1 views/import.html:1
 msgctxt "button"
-msgid "Cancel"
-msgstr "Скасувати"
-
-#: views/device/custom-firmware.html:1
 msgid "Cancel"
 msgstr "Скасувати"
 
@@ -477,12 +470,8 @@ msgstr ""
 msgid "Click to hide address"
 msgstr "Натисніть, щоб приховати адресу"
 
-#: views/nav/device.html:1
+#: views/nav/device.html:1 views/nav/unacquired.html:1
 msgctxt "button"
-msgid "Click to renew session"
-msgstr "Натисніть кнопку, щоб відновити сеанс"
-
-#: views/nav/unacquired.html:1
 msgid "Click to renew session"
 msgstr "Натисніть кнопку, щоб відновити сеанс"
 
@@ -504,10 +493,6 @@ msgctxt "button"
 msgid "Close"
 msgstr "Закрити"
 
-#: views/debug.html:1
-msgid "Close"
-msgstr "Закрити"
-
 #. This is a label to the sending form. (Address/amount/comment)
 #: views/account/send/txLabel.html:1
 msgctxt "form-label"
@@ -523,10 +508,6 @@ msgstr "Підтвердіть дію на Вашому пристрої."
 msgctxt "heading"
 msgid "Confirm action on your device."
 msgstr "Підтвердіть дію на Вашому пристрої."
-
-#: views/modal/button.html:1
-msgid "Confirm action on your device."
-msgstr ""
 
 #: views/device/recovery.html:1
 msgid "Confirm choice by pressing enter."
@@ -610,12 +591,8 @@ msgstr "від'єднайте пристрій"
 msgid "Connecting ..."
 msgstr ""
 
-#: views/device/custom-firmware.html:1
-msgid "Continue"
-msgstr "Продовжити"
-
-#: views/device/index.setup.html:1 views/device/load.html:1
-#: views/device/recovery.html:1 views/import.html:1
+#: views/device/custom-firmware.html:1 views/device/index.setup.html:1
+#: views/device/load.html:1 views/device/recovery.html:1 views/import.html:1
 msgctxt "button"
 msgid "Continue"
 msgstr "Продовжити"
@@ -716,24 +693,15 @@ msgctxt "error-message"
 msgid "Device is updated in other window"
 msgstr "Пристрій оновлюється в іншому вікні"
 
-#: views/device/index.setup.html:1
+#. This is a short label in the normally hidden, advanced Load page
+#: views/device/index.setup.html:1 views/device/load.html:1 views/import.html:1
+msgctxt "form-label"
 msgid "Device label"
 msgstr "Позначення пристрою"
 
 #. This is a short label in the device recovery page
 #: views/device/recovery.html:1
 msgctxt "recovery-label"
-msgid "Device label"
-msgstr "Позначення пристрою"
-
-#: views/import.html:1
-msgctxt "form-label"
-msgid "Device label"
-msgstr "Позначення пристрою"
-
-#. This is a short label in the normally hidden, advanced Load page
-#: views/device/load.html:1
-msgctxt "load-label"
 msgid "Device label"
 msgstr "Позначення пристрою"
 
@@ -821,10 +789,6 @@ msgstr "Ви користуєтеся Google Chrome на цьому комп'ю�
 msgctxt "heading"
 msgid "Do you want to update the device firmware?"
 msgstr "Бажаєте оновити прошивку пристрою?"
-
-#: index.html:1
-msgid "Docs"
-msgstr ""
 
 #. link in top navigation bar
 #: views/top.nav.html:1
@@ -1041,9 +1005,9 @@ msgstr "Не вдалося перевірити повідомлення"
 
 #. This is a label to the sending form. (Address/amount/comment)
 #: views/account/send/fees.html:1
-msgctxt "send"
+msgctxt "form-label"
 msgid "Fee"
-msgstr "Комісія"
+msgstr ""
 
 #: views/account/send/fees.html:1 views/account/transactions/table.html:1
 msgid "Fee"
@@ -1137,13 +1101,7 @@ msgid ""
 msgstr ""
 
 #. Button in remember/forget dialog
-#: views/modal/forget.disconnected.html:1
-msgctxt "forget-button"
-msgid "Forget"
-msgstr "Забути"
-
-#. Button in remember/forget dialog
-#: views/modal/forget.requested.html:1
+#: views/modal/forget.disconnected.html:1 views/modal/forget.requested.html:1
 msgctxt "button"
 msgid "Forget"
 msgstr "Забути"
@@ -1181,15 +1139,15 @@ msgstr "З цього моменту Ви можете:"
 msgid "Gallery selection"
 msgstr ""
 
-#. call to action button of the trezor password manager promo
-#: views/promos/tpm.html:1
-msgctxt "promos-passmanager"
-msgid "Get started"
-msgstr "Розпочати роботу!"
-
 #. call to action button of the android trezor manager promo
 #: views/promos/android.html:1
 msgctxt "promos-android"
+msgid "Get started"
+msgstr "Розпочати роботу!"
+
+#. call to action button of the trezor password manager promo
+#: views/promos/tpm.html:1
+msgctxt "promos-passmanager"
 msgid "Get started"
 msgstr "Розпочати роботу!"
 
@@ -1209,7 +1167,7 @@ msgid "Go to TREZOR Wallet"
 msgstr ""
 
 #. button that hides the top part of Transactions page (Balance/Rate/In/Out + graph)
-#: views/account/transactions/summary.html:3
+#: views/account/transactions/summary.html:1
 msgctxt "button"
 msgid "Hide Summary"
 msgstr ""
@@ -1361,7 +1319,7 @@ msgid "Import from CSV"
 msgstr "Імпортувати з CSV"
 
 #. Heading above total amount received by the account in selected time period
-#: views/account/transactions/summary.html:3
+#: views/account/transactions/summary.html:1
 msgid "In"
 msgstr ""
 
@@ -1477,15 +1435,9 @@ msgctxt "heading"
 msgid "Latest"
 msgstr "Останні"
 
-#. call to action button of the show on trezor promo
-#: views/promos/show.html:1
-msgctxt "promos-show"
-msgid "Learn more"
-msgstr "Дізнатися більше"
-
-#. call to action button of the labeling promo
-#: views/promos/labeling.html:1
-msgctxt "promos-labeling"
+#. call to action button of the malware promo
+#: views/promos/malware.html:1
+msgctxt "promos-malware"
 msgid "Learn more"
 msgstr "Дізнатися більше"
 
@@ -1495,21 +1447,27 @@ msgctxt "promos-2fa"
 msgid "Learn more"
 msgstr "Дізнатися більше"
 
-#. link to Trezor documentation about segwit / legacy accounts
-#: views/account/transactions/legacynote.html:1
-msgctxt "button"
+#. call to action button of the labeling promo
+#: views/promos/labeling.html:1
+msgctxt "promos-labeling"
 msgid "Learn more"
 msgstr "Дізнатися більше"
 
-#. call to action button of the malware promo
-#: views/promos/malware.html:1
-msgctxt "promos-malware"
+#. call to action button of the show on trezor promo
+#: views/promos/show.html:1
+msgctxt "promos-show"
 msgid "Learn more"
 msgstr "Дізнатися більше"
 
 #. call to action button of the PIN promo
 #: views/promos/pin.html:1
 msgctxt "promos-pin"
+msgid "Learn more"
+msgstr "Дізнатися більше"
+
+#. link to Trezor documentation about segwit / legacy accounts
+#: views/account/transactions/legacynote.html:1
+msgctxt "button"
 msgid "Learn more"
 msgstr "Дізнатися більше"
 
@@ -1602,18 +1560,18 @@ msgstr "Не вдалося виконати завантаження рахун
 msgid "Loading transactions"
 msgstr "Завантаження транзакцій"
 
-#. Is displayed when TREZOR is loading, in the left column
-#: views/nav/device.html:1
-msgctxt "device-state"
-msgid "Loading..."
-msgstr "Завантаження..."
-
 #: views/device/index.basic.html:3
 msgid "Loading..."
 msgstr "Завантаження..."
 
 #: views/nav/account.html:1
 msgctxt "tooltip"
+msgid "Loading..."
+msgstr "Завантаження..."
+
+#. Is displayed when TREZOR is loading, in the left column
+#: views/nav/device.html:1
+msgctxt "device-state"
 msgid "Loading..."
 msgstr "Завантаження..."
 
@@ -1687,11 +1645,7 @@ msgid "Many thanks to our translators for their <a>contribution</a>"
 msgstr ""
 
 #: views/account/sign/inside.html:1 views/account/sign/inside.html:5
-msgid "Maximal message length is 255 letters long."
-msgstr "Максимальна довжина повідомлення складає 255 букв."
-
-#: views/account/transactions/summary.html:1
-msgid "Maximal spendable"
+msgid "Maximum message length is 255 letters long."
 msgstr ""
 
 #: views/account/sign/inside.html:1 views/account/sign/inside.html:4
@@ -1743,10 +1697,6 @@ msgctxt "button"
 msgid "Need help?"
 msgstr ""
 
-#: views/modal/firmware.html:7
-msgid "Need help?"
-msgstr ""
-
 #: views/modal/button.html:1
 msgctxt "warning-message"
 msgid ""
@@ -1795,7 +1745,7 @@ msgctxt "tooltip"
 msgid "Next tip"
 msgstr ""
 
-#: views/account/transactions/summary.html:3
+#: views/account/transactions/summary.html:1
 msgid "No Transactions Yet."
 msgstr ""
 
@@ -1810,7 +1760,7 @@ msgctxt "error-message"
 msgid "No address entered."
 msgstr "Потрібно вписати адресу."
 
-#: views/account/transactions/summary.html:3
+#: views/account/transactions/summary.html:1
 msgid "No data"
 msgstr ""
 
@@ -1905,7 +1855,7 @@ msgid ""
 msgstr ""
 
 #. Heading above total amount spent by the account in selected time period
-#: views/account/transactions/summary.html:3
+#: views/account/transactions/summary.html:1
 msgid "Out"
 msgstr ""
 
@@ -2280,7 +2230,7 @@ msgid "QR scanning failed."
 msgstr "QR сканування не вдалося."
 
 #. Heading above current ($, €, ...)/(BTC, LTC, ...) rate
-#: views/account/transactions/summary.html:3
+#: views/account/transactions/summary.html:1
 msgid "Rate"
 msgstr ""
 
@@ -2357,9 +2307,9 @@ msgstr ""
 
 #. Button in remember/forget dialog
 #: views/modal/forget.disconnected.html:1
-msgctxt "forget-button"
+msgctxt "button"
 msgid "Remember"
-msgstr "Запам'ятати"
+msgstr ""
 
 #: views/modal/setup.html:1
 msgid ""
@@ -2496,6 +2446,14 @@ msgctxt "warning-message"
 msgid "Setting custom fee is not recommended."
 msgstr ""
 
+#. Setting up your TREZOR will take only a few minutes. When you're done, you can start using your TREZOR. (Learn more - link to trezor documentation)
+#: views/device/index.setup.html:1
+msgid ""
+"Setting up your TREZOR will take only a few minutes. When you're done, you "
+"can start using your TREZOR. <a tooltip=\"Learn more about TREZOR Setup from "
+"User Manual\">Learn more</a>"
+msgstr ""
+
 #. Length is important here! Full sentence: *Setup TREZOR<br>on your phone.* TREZOR Manager<br>for Android
 #: views/promos/android.html:1
 msgctxt "promos-android"
@@ -2514,7 +2472,7 @@ msgid "Setup failed."
 msgstr "Виконання установки не вдалося."
 
 #. button that displays the top part of Transactions page (Balance/Rate/In/Out + graph)
-#: views/account/transactions/summary.html:3
+#: views/account/transactions/summary.html:1
 msgctxt "button"
 msgid "Show Summary"
 msgstr ""
@@ -2667,10 +2625,6 @@ msgctxt "button"
 msgid "Support"
 msgstr "Підтримка"
 
-#: index.html:1
-msgid "Support"
-msgstr "Підтримка"
-
 #: views/modal/firmware.html:7
 msgctxt "button"
 msgid "Support needed?"
@@ -2686,10 +2640,6 @@ msgstr ""
 msgctxt "button"
 msgid "TREZOR"
 msgstr "Мій TREZOR"
-
-#: index.html:1
-msgid "TREZOR"
-msgstr ""
 
 #. Length is important here! Full sentence: *Trezor Apps* - Independent services<br> with TREZOR support.
 #: views/promos/apps.html:1
@@ -2965,17 +2915,17 @@ msgctxt "text-with-link"
 msgid "Transaction <a>{{hash}}</a> was successfully sent."
 msgstr ""
 
-#: views/account/transactions/table.html:1
-msgid "Transactions"
-msgstr ""
-
 #. This is shown on the header Send/Receive/Transactions/...
 #: views/account/nav.html:1
 msgctxt "header"
 msgid "Transactions"
 msgstr "Транзакції"
 
-#: views/account/transactions/summary.html:3
+#: views/account/transactions/table.html:1
+msgid "Transactions"
+msgstr ""
+
+#: views/account/transactions/summary.html:1
 msgid "Transactions are loading ..."
 msgstr ""
 
@@ -3058,12 +3008,6 @@ msgctxt "button"
 msgid "Upgrade"
 msgstr "Оновити"
 
-#. Upgrade refers to Trezor firmware upgrade
-#: views/alertbars/firmware.html:5
-msgctxt "firmware-update"
-msgid "Upgrade for the newest features."
-msgstr "Оновити, аби мати доступ до найновіших функцій та виправлень."
-
 #. Upgrade refers to Trezor Bridge upgrade
 #: views/alertbars/bridge.html:4
 msgctxt "bridge-update"
@@ -3071,6 +3015,12 @@ msgid "Upgrade for the newest features."
 msgstr "Оновити, аби мати доступ до найновіших функцій та виправлень."
 
 #: views/install/bridge.force.html:1
+msgid "Upgrade for the newest features."
+msgstr "Оновити, аби мати доступ до найновіших функцій та виправлень."
+
+#. Upgrade refers to Trezor firmware upgrade
+#: views/alertbars/firmware.html:5
+msgctxt "firmware-update"
 msgid "Upgrade for the newest features."
 msgstr "Оновити, аби мати доступ до найновіших функцій та виправлень."
 
@@ -3169,10 +3119,6 @@ msgstr "Очікування історії транзакцій"
 #. link in top navigation bar
 #: views/top.nav.html:1
 msgctxt "button"
-msgid "Wallet"
-msgstr ""
-
-#: index.html:1
 msgid "Wallet"
 msgstr ""
 
@@ -3501,11 +3447,11 @@ msgid "Your images"
 msgstr "Ваші зображення"
 
 #: views/modal/firmware.html:7
-msgctxt "warning-message"
 msgid "Your installation of TREZOR Bridge needs to be upgraded first."
 msgstr "Спочатку потрібно оновити установки TREZOR Bridge."
 
 #: views/modal/firmware.html:7
+msgctxt "warning-message"
 msgid "Your installation of TREZOR Bridge needs to be upgraded first."
 msgstr "Спочатку потрібно оновити установки TREZOR Bridge."
 
@@ -3684,6 +3630,43 @@ msgstr ""
 #: views/nav/settings-buttons.html:1
 msgid "{{user}} connected"
 msgstr ""
+
+#~ msgid "Cancel"
+#~ msgstr "Скасувати"
+
+#~ msgid "Click to renew session"
+#~ msgstr "Натисніть кнопку, щоб відновити сеанс"
+
+#~ msgid "Close"
+#~ msgstr "Закрити"
+
+#~ msgid "Continue"
+#~ msgstr "Продовжити"
+
+#~ msgid "Device label"
+#~ msgstr "Позначення пристрою"
+
+#~ msgctxt "load-label"
+#~ msgid "Device label"
+#~ msgstr "Позначення пристрою"
+
+#~ msgctxt "send"
+#~ msgid "Fee"
+#~ msgstr "Комісія"
+
+#~ msgctxt "forget-button"
+#~ msgid "Forget"
+#~ msgstr "Забути"
+
+#~ msgid "Maximal message length is 255 letters long."
+#~ msgstr "Максимальна довжина повідомлення складає 255 букв."
+
+#~ msgctxt "forget-button"
+#~ msgid "Remember"
+#~ msgstr "Запам'ятати"
+
+#~ msgid "Support"
+#~ msgstr "Підтримка"
 
 #~ msgid "(automatically in"
 #~ msgstr "(автоматично в"

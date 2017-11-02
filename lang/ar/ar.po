@@ -4,8 +4,8 @@ msgstr ""
 "POT-Creation-Date: \n"
 "PO-Revision-Date: 2017-10-30 12:14+0000\n"
 "Last-Translator: Salah Alsuwaidi <asdfff@gmail.com>\n"
-"Language-Team: Arabic "
-"<https://hosted.weblate.org/projects/satoshilabs/mytrezor/ar/>\n"
+"Language-Team: Arabic <https://hosted.weblate.org/projects/satoshilabs/"
+"mytrezor/ar/>\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -87,8 +87,8 @@ msgid ""
 "<i>TREZOR Wallet</i>, offering the newest features before they are available "
 "to the general public."
 msgstr ""
-"<i>محفظة تريزور بيتا</i> هي نسخة اختبار عامة لاحدث ميزات <i>محفظة تريزور</i>،"
-" قبل أن تصبح متاحة لعامة الجمهور."
+"<i>محفظة تريزور بيتا</i> هي نسخة اختبار عامة لاحدث ميزات <i>محفظة تريزور</"
+"i>، قبل أن تصبح متاحة لعامة الجمهور."
 
 #. contains link to device setup
 #: views/device/load.html:1
@@ -178,13 +178,13 @@ msgctxt "sign"
 msgid "Address"
 msgstr "العنوان"
 
-#: views/account/transactions/table.html:1
-msgid "Address"
-msgstr "العنوان"
-
 #. This is a label to the sending form. (Address/amount/comment)
 #: views/account/send/txAddress.html:5
 msgctxt "form-label"
+msgid "Address"
+msgstr "العنوان"
+
+#: views/account/transactions/table.html:1
 msgid "Address"
 msgstr "العنوان"
 
@@ -316,7 +316,7 @@ msgid "Backspace"
 msgstr "مسافة للخلف"
 
 #. Heading above account balance total
-#: views/account/transactions/summary.html:3
+#: views/account/transactions/summary.html:1
 #: views/account/transactions/table.html:1
 msgid "Balance"
 msgstr "الرصيد"
@@ -347,10 +347,6 @@ msgctxt "button"
 msgid "Blog"
 msgstr "مدوّنة"
 
-#: index.html:1
-msgid "Blog"
-msgstr "مدوّنة"
-
 #: views/modal/_header.html:1
 msgctxt "heading"
 msgid "Bootloader mode"
@@ -368,12 +364,9 @@ msgctxt "promos-passphrase"
 msgid "But first, get to know<br>how it works!"
 msgstr "ولكن أولا، تعرف على<br>كيفية عمله!"
 
-#: views/device/load.html:1 views/device/recovery.html:1 views/import.html:1
+#: views/device/custom-firmware.html:1 views/device/load.html:1
+#: views/device/recovery.html:1 views/import.html:1
 msgctxt "button"
-msgid "Cancel"
-msgstr "إلغاء"
-
-#: views/device/custom-firmware.html:1
 msgid "Cancel"
 msgstr "إلغاء"
 
@@ -478,12 +471,8 @@ msgstr "انقر على أيقونة العين <br>في علامة التبوي
 msgid "Click to hide address"
 msgstr "إضغط لإخفاء العنوان"
 
-#: views/nav/device.html:1
+#: views/nav/device.html:1 views/nav/unacquired.html:1
 msgctxt "button"
-msgid "Click to renew session"
-msgstr "إضغط لتجديد الدورة"
-
-#: views/nav/unacquired.html:1
 msgid "Click to renew session"
 msgstr "إضغط لتجديد الدورة"
 
@@ -505,10 +494,6 @@ msgctxt "button"
 msgid "Close"
 msgstr "إغلاق"
 
-#: views/debug.html:1
-msgid "Close"
-msgstr "إغلاق"
-
 #. This is a label to the sending form. (Address/amount/comment)
 #: views/account/send/txLabel.html:1
 msgctxt "form-label"
@@ -522,10 +507,6 @@ msgstr "أكد الإجراء على جهاز TREZOR."
 
 #: views/modal/button.html:1
 msgctxt "heading"
-msgid "Confirm action on your device."
-msgstr "أكد الإجراء على جهازك."
-
-#: views/modal/button.html:1
 msgid "Confirm action on your device."
 msgstr "أكد الإجراء على جهازك."
 
@@ -611,12 +592,8 @@ msgstr "الجهاز متصل"
 msgid "Connecting ..."
 msgstr "جاري الاتصال ..."
 
-#: views/device/custom-firmware.html:1
-msgid "Continue"
-msgstr "استمر"
-
-#: views/device/index.setup.html:1 views/device/load.html:1
-#: views/device/recovery.html:1 views/import.html:1
+#: views/device/custom-firmware.html:1 views/device/index.setup.html:1
+#: views/device/load.html:1 views/device/recovery.html:1 views/import.html:1
 msgctxt "button"
 msgid "Continue"
 msgstr "استمر"
@@ -717,24 +694,15 @@ msgctxt "error-message"
 msgid "Device is updated in other window"
 msgstr "يتم تحديث الجهاز في نافذة أخرى"
 
-#: views/device/index.setup.html:1
+#. This is a short label in the normally hidden, advanced Load page
+#: views/device/index.setup.html:1 views/device/load.html:1 views/import.html:1
+msgctxt "form-label"
 msgid "Device label"
 msgstr "تصنيف الجهاز"
 
 #. This is a short label in the device recovery page
 #: views/device/recovery.html:1
 msgctxt "recovery-label"
-msgid "Device label"
-msgstr "تصنيف الجهاز"
-
-#: views/import.html:1
-msgctxt "form-label"
-msgid "Device label"
-msgstr "تصنيف الجهاز"
-
-#. This is a short label in the normally hidden, advanced Load page
-#: views/device/load.html:1
-msgctxt "load-label"
 msgid "Device label"
 msgstr "تصنيف الجهاز"
 
@@ -824,10 +792,6 @@ msgstr "هل تستعمل جوجل كروم على هذا النظام؟"
 msgctxt "heading"
 msgid "Do you want to update the device firmware?"
 msgstr "هل تريد تحديث البرنامج الثابت فيرموير للجهاز؟"
-
-#: index.html:1
-msgid "Docs"
-msgstr "مستندات"
 
 #. link in top navigation bar
 #: views/top.nav.html:1
@@ -1044,9 +1008,9 @@ msgstr "فشل التحقق من الرسالة:"
 
 #. This is a label to the sending form. (Address/amount/comment)
 #: views/account/send/fees.html:1
-msgctxt "send"
+msgctxt "form-label"
 msgid "Fee"
-msgstr "رسوم"
+msgstr ""
 
 #: views/account/send/fees.html:1 views/account/transactions/table.html:1
 msgid "Fee"
@@ -1141,13 +1105,7 @@ msgstr ""
 "لأغراض الاختبار، المحفظة تستخدم نفس سعر الدولار للبيتكوين و لعملات التيستنيت."
 
 #. Button in remember/forget dialog
-#: views/modal/forget.disconnected.html:1
-msgctxt "forget-button"
-msgid "Forget"
-msgstr "نسيان"
-
-#. Button in remember/forget dialog
-#: views/modal/forget.requested.html:1
+#: views/modal/forget.disconnected.html:1 views/modal/forget.requested.html:1
 msgctxt "button"
 msgid "Forget"
 msgstr "نسيان"
@@ -1184,15 +1142,15 @@ msgstr "يمكنك اعتبارا من تلك اللحظة:"
 msgid "Gallery selection"
 msgstr "اختيار المعرض"
 
-#. call to action button of the trezor password manager promo
-#: views/promos/tpm.html:1
-msgctxt "promos-passmanager"
-msgid "Get started"
-msgstr "ابدأ"
-
 #. call to action button of the android trezor manager promo
 #: views/promos/android.html:1
 msgctxt "promos-android"
+msgid "Get started"
+msgstr "ابدأ"
+
+#. call to action button of the trezor password manager promo
+#: views/promos/tpm.html:1
+msgctxt "promos-passmanager"
 msgid "Get started"
 msgstr "ابدأ"
 
@@ -1214,7 +1172,7 @@ msgid "Go to TREZOR Wallet"
 msgstr ""
 
 #. button that hides the top part of Transactions page (Balance/Rate/In/Out + graph)
-#: views/account/transactions/summary.html:3
+#: views/account/transactions/summary.html:1
 msgctxt "button"
 msgid "Hide Summary"
 msgstr "إخفاء الملخص"
@@ -1363,7 +1321,7 @@ msgid "Import from CSV"
 msgstr "استيراد من CSV"
 
 #. Heading above total amount received by the account in selected time period
-#: views/account/transactions/summary.html:3
+#: views/account/transactions/summary.html:1
 msgid "In"
 msgstr "في"
 
@@ -1484,15 +1442,9 @@ msgctxt "heading"
 msgid "Latest"
 msgstr "أحدث"
 
-#. call to action button of the show on trezor promo
-#: views/promos/show.html:1
-msgctxt "promos-show"
-msgid "Learn more"
-msgstr "التعرف على المزيد"
-
-#. call to action button of the labeling promo
-#: views/promos/labeling.html:1
-msgctxt "promos-labeling"
+#. call to action button of the malware promo
+#: views/promos/malware.html:1
+msgctxt "promos-malware"
 msgid "Learn more"
 msgstr "التعرف على المزيد"
 
@@ -1502,21 +1454,27 @@ msgctxt "promos-2fa"
 msgid "Learn more"
 msgstr "التعرف على المزيد"
 
-#. link to Trezor documentation about segwit / legacy accounts
-#: views/account/transactions/legacynote.html:1
-msgctxt "button"
+#. call to action button of the labeling promo
+#: views/promos/labeling.html:1
+msgctxt "promos-labeling"
 msgid "Learn more"
 msgstr "التعرف على المزيد"
 
-#. call to action button of the malware promo
-#: views/promos/malware.html:1
-msgctxt "promos-malware"
+#. call to action button of the show on trezor promo
+#: views/promos/show.html:1
+msgctxt "promos-show"
 msgid "Learn more"
 msgstr "التعرف على المزيد"
 
 #. call to action button of the PIN promo
 #: views/promos/pin.html:1
 msgctxt "promos-pin"
+msgid "Learn more"
+msgstr "التعرف على المزيد"
+
+#. link to Trezor documentation about segwit / legacy accounts
+#: views/account/transactions/legacynote.html:1
+msgctxt "button"
 msgid "Learn more"
 msgstr "التعرف على المزيد"
 
@@ -1609,18 +1567,18 @@ msgstr "فشل تحميل الحسابات."
 msgid "Loading transactions"
 msgstr "تحميل المعاملات"
 
-#. Is displayed when TREZOR is loading, in the left column
-#: views/nav/device.html:1
-msgctxt "device-state"
-msgid "Loading..."
-msgstr "جار التحميل…"
-
 #: views/device/index.basic.html:3
 msgid "Loading..."
 msgstr "جار التحميل…"
 
 #: views/nav/account.html:1
 msgctxt "tooltip"
+msgid "Loading..."
+msgstr "جار التحميل…"
+
+#. Is displayed when TREZOR is loading, in the left column
+#: views/nav/device.html:1
+msgctxt "device-state"
 msgid "Loading..."
 msgstr "جار التحميل…"
 
@@ -1696,12 +1654,8 @@ msgstr ""
 "translating.html\" class=\"arrow\">لإسهاماتهم</a>"
 
 #: views/account/sign/inside.html:1 views/account/sign/inside.html:5
-msgid "Maximal message length is 255 letters long."
-msgstr "طول الرسالة الأقصى 255 حرفاً."
-
-#: views/account/transactions/summary.html:1
-msgid "Maximal spendable"
-msgstr "الحد الأقصى للإنفاق"
+msgid "Maximum message length is 255 letters long."
+msgstr ""
 
 #: views/account/sign/inside.html:1 views/account/sign/inside.html:4
 msgid "Message"
@@ -1752,10 +1706,6 @@ msgctxt "button"
 msgid "Need help?"
 msgstr "تحتاج مساعدة؟"
 
-#: views/modal/firmware.html:7
-msgid "Need help?"
-msgstr "تحتاج مساعدة؟"
-
 #: views/modal/button.html:1
 msgctxt "warning-message"
 msgid ""
@@ -1800,7 +1750,7 @@ msgctxt "tooltip"
 msgid "Next tip"
 msgstr "التلميح التالي"
 
-#: views/account/transactions/summary.html:3
+#: views/account/transactions/summary.html:1
 msgid "No Transactions Yet."
 msgstr "لا معاملات بعد."
 
@@ -1815,7 +1765,7 @@ msgctxt "error-message"
 msgid "No address entered."
 msgstr "مطلوب عنوان."
 
-#: views/account/transactions/summary.html:3
+#: views/account/transactions/summary.html:1
 msgid "No data"
 msgstr "لا توجد بيانات"
 
@@ -1909,7 +1859,7 @@ msgstr ""
 "لاسترداد حساباتك في حال فقدت جهازك. ترتيب الكلمات مهم جدا."
 
 #. Heading above total amount spent by the account in selected time period
-#: views/account/transactions/summary.html:3
+#: views/account/transactions/summary.html:1
 msgid "Out"
 msgstr ""
 
@@ -2288,7 +2238,7 @@ msgid "QR scanning failed."
 msgstr "فشل في مسح رمز الاستجابة السريع QR."
 
 #. Heading above current ($, €, ...)/(BTC, LTC, ...) rate
-#: views/account/transactions/summary.html:3
+#: views/account/transactions/summary.html:1
 msgid "Rate"
 msgstr "السعر"
 
@@ -2365,9 +2315,9 @@ msgstr "أعد التحميل"
 
 #. Button in remember/forget dialog
 #: views/modal/forget.disconnected.html:1
-msgctxt "forget-button"
+msgctxt "button"
 msgid "Remember"
-msgstr "تذكّر"
+msgstr ""
 
 #: views/modal/setup.html:1
 msgid ""
@@ -2540,7 +2490,7 @@ msgid "Setup failed."
 msgstr "فشل برنامج الإعداد."
 
 #. button that displays the top part of Transactions page (Balance/Rate/In/Out + graph)
-#: views/account/transactions/summary.html:3
+#: views/account/transactions/summary.html:1
 msgctxt "button"
 msgid "Show Summary"
 msgstr "عرض المزيد"
@@ -2693,10 +2643,6 @@ msgctxt "button"
 msgid "Support"
 msgstr "الدعم"
 
-#: index.html:1
-msgid "Support"
-msgstr "الدعم"
-
 #: views/modal/firmware.html:7
 msgctxt "button"
 msgid "Support needed?"
@@ -2710,10 +2656,6 @@ msgstr "التحول إلى البايتكونكاش"
 #. link in top navigation bar
 #: views/top.nav.html:1
 msgctxt "button"
-msgid "TREZOR"
-msgstr "تريزور"
-
-#: index.html:1
 msgid "TREZOR"
 msgstr "تريزور"
 
@@ -2997,17 +2939,17 @@ msgctxt "text-with-link"
 msgid "Transaction <a>{{hash}}</a> was successfully sent."
 msgstr ""
 
-#: views/account/transactions/table.html:1
-msgid "Transactions"
-msgstr "المعاملات"
-
 #. This is shown on the header Send/Receive/Transactions/...
 #: views/account/nav.html:1
 msgctxt "header"
 msgid "Transactions"
 msgstr "المعاملات"
 
-#: views/account/transactions/summary.html:3
+#: views/account/transactions/table.html:1
+msgid "Transactions"
+msgstr "المعاملات"
+
+#: views/account/transactions/summary.html:1
 msgid "Transactions are loading ..."
 msgstr "جار تحميل المعاملات ..."
 
@@ -3090,12 +3032,6 @@ msgctxt "button"
 msgid "Upgrade"
 msgstr "ترقية"
 
-#. Upgrade refers to Trezor firmware upgrade
-#: views/alertbars/firmware.html:5
-msgctxt "firmware-update"
-msgid "Upgrade for the newest features."
-msgstr "الترقية لأحدث المميزات بدون أخطاء."
-
 #. Upgrade refers to Trezor Bridge upgrade
 #: views/alertbars/bridge.html:4
 msgctxt "bridge-update"
@@ -3103,6 +3039,12 @@ msgid "Upgrade for the newest features."
 msgstr "الترقية لأحدث المميزات بدون أخطاء."
 
 #: views/install/bridge.force.html:1
+msgid "Upgrade for the newest features."
+msgstr "الترقية لأحدث المميزات بدون أخطاء."
+
+#. Upgrade refers to Trezor firmware upgrade
+#: views/alertbars/firmware.html:5
+msgctxt "firmware-update"
 msgid "Upgrade for the newest features."
 msgstr "الترقية لأحدث المميزات بدون أخطاء."
 
@@ -3199,10 +3141,6 @@ msgstr "في انتظار سجل المعاملة"
 #. link in top navigation bar
 #: views/top.nav.html:1
 msgctxt "button"
-msgid "Wallet"
-msgstr "المحفظة"
-
-#: index.html:1
 msgid "Wallet"
 msgstr "المحفظة"
 
@@ -3532,11 +3470,11 @@ msgid "Your images"
 msgstr "صورك"
 
 #: views/modal/firmware.html:7
-msgctxt "warning-message"
 msgid "Your installation of TREZOR Bridge needs to be upgraded first."
 msgstr "مثبت جسر تريزور يحتاج إلى ترقية أولاً."
 
 #: views/modal/firmware.html:7
+msgctxt "warning-message"
 msgid "Your installation of TREZOR Bridge needs to be upgraded first."
 msgstr "مثبت جسر تريزور يحتاج إلى ترقية أولاً."
 
@@ -3724,6 +3662,64 @@ msgstr ""
 #: views/nav/settings-buttons.html:1
 msgid "{{user}} connected"
 msgstr ""
+
+#~ msgid "Blog"
+#~ msgstr "مدوّنة"
+
+#~ msgid "Cancel"
+#~ msgstr "إلغاء"
+
+#~ msgid "Click to renew session"
+#~ msgstr "إضغط لتجديد الدورة"
+
+#~ msgid "Close"
+#~ msgstr "إغلاق"
+
+#~ msgid "Confirm action on your device."
+#~ msgstr "أكد الإجراء على جهازك."
+
+#~ msgid "Continue"
+#~ msgstr "استمر"
+
+#~ msgid "Device label"
+#~ msgstr "تصنيف الجهاز"
+
+#~ msgctxt "load-label"
+#~ msgid "Device label"
+#~ msgstr "تصنيف الجهاز"
+
+#~ msgid "Docs"
+#~ msgstr "مستندات"
+
+#~ msgctxt "send"
+#~ msgid "Fee"
+#~ msgstr "رسوم"
+
+#~ msgctxt "forget-button"
+#~ msgid "Forget"
+#~ msgstr "نسيان"
+
+#~ msgid "Maximal message length is 255 letters long."
+#~ msgstr "طول الرسالة الأقصى 255 حرفاً."
+
+#~ msgid "Maximal spendable"
+#~ msgstr "الحد الأقصى للإنفاق"
+
+#~ msgid "Need help?"
+#~ msgstr "تحتاج مساعدة؟"
+
+#~ msgctxt "forget-button"
+#~ msgid "Remember"
+#~ msgstr "تذكّر"
+
+#~ msgid "Support"
+#~ msgstr "الدعم"
+
+#~ msgid "TREZOR"
+#~ msgstr "تريزور"
+
+#~ msgid "Wallet"
+#~ msgstr "المحفظة"
 
 #~ msgid "(automatically in"
 #~ msgstr "(تلقائياً في"

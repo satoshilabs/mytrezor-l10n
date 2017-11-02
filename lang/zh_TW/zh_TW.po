@@ -170,13 +170,13 @@ msgctxt "sign"
 msgid "Address"
 msgstr "地址"
 
-#: views/account/transactions/table.html:1
-msgid "Address"
-msgstr "地址"
-
 #. This is a label to the sending form. (Address/amount/comment)
 #: views/account/send/txAddress.html:5
 msgctxt "form-label"
+msgid "Address"
+msgstr "地址"
+
+#: views/account/transactions/table.html:1
 msgid "Address"
 msgstr "地址"
 
@@ -305,7 +305,7 @@ msgid "Backspace"
 msgstr "退格(Backspace)"
 
 #. Heading above account balance total
-#: views/account/transactions/summary.html:3
+#: views/account/transactions/summary.html:1
 #: views/account/transactions/table.html:1
 msgid "Balance"
 msgstr "收支總和"
@@ -336,10 +336,6 @@ msgctxt "button"
 msgid "Blog"
 msgstr "部落格"
 
-#: index.html:1
-msgid "Blog"
-msgstr "部落格"
-
 #: views/modal/_header.html:1
 msgctxt "heading"
 msgid "Bootloader mode"
@@ -357,12 +353,9 @@ msgctxt "promos-passphrase"
 msgid "But first, get to know<br>how it works!"
 msgstr ""
 
-#: views/device/load.html:1 views/device/recovery.html:1 views/import.html:1
+#: views/device/custom-firmware.html:1 views/device/load.html:1
+#: views/device/recovery.html:1 views/import.html:1
 msgctxt "button"
-msgid "Cancel"
-msgstr "取消"
-
-#: views/device/custom-firmware.html:1
 msgid "Cancel"
 msgstr "取消"
 
@@ -467,12 +460,8 @@ msgstr ""
 msgid "Click to hide address"
 msgstr "點一下隱藏地址"
 
-#: views/nav/device.html:1
+#: views/nav/device.html:1 views/nav/unacquired.html:1
 msgctxt "button"
-msgid "Click to renew session"
-msgstr "點一下重載連線"
-
-#: views/nav/unacquired.html:1
 msgid "Click to renew session"
 msgstr "點一下重載連線"
 
@@ -494,10 +483,6 @@ msgctxt "button"
 msgid "Close"
 msgstr "關閉"
 
-#: views/debug.html:1
-msgid "Close"
-msgstr "關閉"
-
 #. This is a label to the sending form. (Address/amount/comment)
 #: views/account/send/txLabel.html:1
 msgctxt "form-label"
@@ -511,10 +496,6 @@ msgstr "請在你的TREZOR上確認操作。"
 
 #: views/modal/button.html:1
 msgctxt "heading"
-msgid "Confirm action on your device."
-msgstr "請在你的裝置上確認操作。"
-
-#: views/modal/button.html:1
 msgid "Confirm action on your device."
 msgstr "請在你的裝置上確認操作。"
 
@@ -600,12 +581,8 @@ msgstr "已連接的裝置"
 msgid "Connecting ..."
 msgstr "連接中..."
 
-#: views/device/custom-firmware.html:1
-msgid "Continue"
-msgstr "繼續"
-
-#: views/device/index.setup.html:1 views/device/load.html:1
-#: views/device/recovery.html:1 views/import.html:1
+#: views/device/custom-firmware.html:1 views/device/index.setup.html:1
+#: views/device/load.html:1 views/device/recovery.html:1 views/import.html:1
 msgctxt "button"
 msgid "Continue"
 msgstr "繼續"
@@ -706,24 +683,15 @@ msgctxt "error-message"
 msgid "Device is updated in other window"
 msgstr "裝置已在其他的視窗中完成更新"
 
-#: views/device/index.setup.html:1
+#. This is a short label in the normally hidden, advanced Load page
+#: views/device/index.setup.html:1 views/device/load.html:1 views/import.html:1
+msgctxt "form-label"
 msgid "Device label"
 msgstr "裝置標籤"
 
 #. This is a short label in the device recovery page
 #: views/device/recovery.html:1
 msgctxt "recovery-label"
-msgid "Device label"
-msgstr "裝置標籤"
-
-#: views/import.html:1
-msgctxt "form-label"
-msgid "Device label"
-msgstr "裝置標籤"
-
-#. This is a short label in the normally hidden, advanced Load page
-#: views/device/load.html:1
-msgctxt "load-label"
 msgid "Device label"
 msgstr "裝置標籤"
 
@@ -811,10 +779,6 @@ msgstr "你在這台電腦使用Google Chrome嗎?"
 msgctxt "heading"
 msgid "Do you want to update the device firmware?"
 msgstr "是否要更新裝置的韌體？"
-
-#: index.html:1
-msgid "Docs"
-msgstr "文件"
 
 #. link in top navigation bar
 #: views/top.nav.html:1
@@ -1031,9 +995,9 @@ msgstr "訊息驗證失敗"
 
 #. This is a label to the sending form. (Address/amount/comment)
 #: views/account/send/fees.html:1
-msgctxt "send"
+msgctxt "form-label"
 msgid "Fee"
-msgstr "手續費"
+msgstr ""
 
 #: views/account/send/fees.html:1 views/account/transactions/table.html:1
 msgid "Fee"
@@ -1126,13 +1090,7 @@ msgid ""
 msgstr "為了測試目的，錢包使用跟測試網路幣一樣的匯率來計算比特幣的匯率。"
 
 #. Button in remember/forget dialog
-#: views/modal/forget.disconnected.html:1
-msgctxt "forget-button"
-msgid "Forget"
-msgstr "不要記住"
-
-#. Button in remember/forget dialog
-#: views/modal/forget.requested.html:1
+#: views/modal/forget.disconnected.html:1 views/modal/forget.requested.html:1
 msgctxt "button"
 msgid "Forget"
 msgstr "不要記住"
@@ -1169,15 +1127,15 @@ msgstr "從此之後，你可以："
 msgid "Gallery selection"
 msgstr "選擇圖片"
 
-#. call to action button of the trezor password manager promo
-#: views/promos/tpm.html:1
-msgctxt "promos-passmanager"
-msgid "Get started"
-msgstr "開始！"
-
 #. call to action button of the android trezor manager promo
 #: views/promos/android.html:1
 msgctxt "promos-android"
+msgid "Get started"
+msgstr "開始！"
+
+#. call to action button of the trezor password manager promo
+#: views/promos/tpm.html:1
+msgctxt "promos-passmanager"
 msgid "Get started"
 msgstr "開始！"
 
@@ -1197,7 +1155,7 @@ msgid "Go to TREZOR Wallet"
 msgstr ""
 
 #. button that hides the top part of Transactions page (Balance/Rate/In/Out + graph)
-#: views/account/transactions/summary.html:3
+#: views/account/transactions/summary.html:1
 msgctxt "button"
 msgid "Hide Summary"
 msgstr ""
@@ -1336,7 +1294,7 @@ msgid "Import from CSV"
 msgstr "從CSV導入"
 
 #. Heading above total amount received by the account in selected time period
-#: views/account/transactions/summary.html:3
+#: views/account/transactions/summary.html:1
 msgid "In"
 msgstr ""
 
@@ -1452,15 +1410,9 @@ msgctxt "heading"
 msgid "Latest"
 msgstr "最新"
 
-#. call to action button of the show on trezor promo
-#: views/promos/show.html:1
-msgctxt "promos-show"
-msgid "Learn more"
-msgstr "了解更多"
-
-#. call to action button of the labeling promo
-#: views/promos/labeling.html:1
-msgctxt "promos-labeling"
+#. call to action button of the malware promo
+#: views/promos/malware.html:1
+msgctxt "promos-malware"
 msgid "Learn more"
 msgstr "了解更多"
 
@@ -1470,21 +1422,27 @@ msgctxt "promos-2fa"
 msgid "Learn more"
 msgstr "了解更多"
 
-#. link to Trezor documentation about segwit / legacy accounts
-#: views/account/transactions/legacynote.html:1
-msgctxt "button"
+#. call to action button of the labeling promo
+#: views/promos/labeling.html:1
+msgctxt "promos-labeling"
 msgid "Learn more"
 msgstr "了解更多"
 
-#. call to action button of the malware promo
-#: views/promos/malware.html:1
-msgctxt "promos-malware"
+#. call to action button of the show on trezor promo
+#: views/promos/show.html:1
+msgctxt "promos-show"
 msgid "Learn more"
 msgstr "了解更多"
 
 #. call to action button of the PIN promo
 #: views/promos/pin.html:1
 msgctxt "promos-pin"
+msgid "Learn more"
+msgstr "了解更多"
+
+#. link to Trezor documentation about segwit / legacy accounts
+#: views/account/transactions/legacynote.html:1
+msgctxt "button"
 msgid "Learn more"
 msgstr "了解更多"
 
@@ -1577,18 +1535,18 @@ msgstr "載入帳戶失敗。"
 msgid "Loading transactions"
 msgstr "交易載入中"
 
-#. Is displayed when TREZOR is loading, in the left column
-#: views/nav/device.html:1
-msgctxt "device-state"
-msgid "Loading..."
-msgstr "載入中……"
-
 #: views/device/index.basic.html:3
 msgid "Loading..."
 msgstr "載入中……"
 
 #: views/nav/account.html:1
 msgctxt "tooltip"
+msgid "Loading..."
+msgstr "載入中……"
+
+#. Is displayed when TREZOR is loading, in the left column
+#: views/nav/device.html:1
+msgctxt "device-state"
 msgid "Loading..."
 msgstr "載入中……"
 
@@ -1664,12 +1622,8 @@ msgstr ""
 "translating.html\" class=\"arrow\">貢獻</a>"
 
 #: views/account/sign/inside.html:1 views/account/sign/inside.html:5
-msgid "Maximal message length is 255 letters long."
-msgstr "訊息最長不可超過255個字母。"
-
-#: views/account/transactions/summary.html:1
-msgid "Maximal spendable"
-msgstr "最多可花費"
+msgid "Maximum message length is 255 letters long."
+msgstr ""
 
 #: views/account/sign/inside.html:1 views/account/sign/inside.html:4
 msgid "Message"
@@ -1718,10 +1672,6 @@ msgctxt "button"
 msgid "Need help?"
 msgstr "需要幫忙?"
 
-#: views/modal/firmware.html:7
-msgid "Need help?"
-msgstr "需要幫忙?"
-
 #: views/modal/button.html:1
 msgctxt "warning-message"
 msgid ""
@@ -1764,7 +1714,7 @@ msgctxt "tooltip"
 msgid "Next tip"
 msgstr ""
 
-#: views/account/transactions/summary.html:3
+#: views/account/transactions/summary.html:1
 msgid "No Transactions Yet."
 msgstr "還沒有任何交易。"
 
@@ -1779,7 +1729,7 @@ msgctxt "error-message"
 msgid "No address entered."
 msgstr "請填寫地址。"
 
-#: views/account/transactions/summary.html:3
+#: views/account/transactions/summary.html:1
 msgid "No data"
 msgstr ""
 
@@ -1873,7 +1823,7 @@ msgstr ""
 "你將會需要這個恢復種子來恢復你的帳戶。單字的順序很重要。"
 
 #. Heading above total amount spent by the account in selected time period
-#: views/account/transactions/summary.html:3
+#: views/account/transactions/summary.html:1
 msgid "Out"
 msgstr ""
 
@@ -2241,7 +2191,7 @@ msgid "QR scanning failed."
 msgstr "二維碼掃描失敗。"
 
 #. Heading above current ($, €, ...)/(BTC, LTC, ...) rate
-#: views/account/transactions/summary.html:3
+#: views/account/transactions/summary.html:1
 msgid "Rate"
 msgstr "匯率"
 
@@ -2318,9 +2268,9 @@ msgstr "重新載入"
 
 #. Button in remember/forget dialog
 #: views/modal/forget.disconnected.html:1
-msgctxt "forget-button"
+msgctxt "button"
 msgid "Remember"
-msgstr "記住"
+msgstr ""
 
 #: views/modal/setup.html:1
 msgid ""
@@ -2461,6 +2411,14 @@ msgctxt "warning-message"
 msgid "Setting custom fee is not recommended."
 msgstr "不建議使用自訂手續費。"
 
+#. Setting up your TREZOR will take only a few minutes. When you're done, you can start using your TREZOR. (Learn more - link to trezor documentation)
+#: views/device/index.setup.html:1
+msgid ""
+"Setting up your TREZOR will take only a few minutes. When you're done, you "
+"can start using your TREZOR. <a tooltip=\"Learn more about TREZOR Setup from "
+"User Manual\">Learn more</a>"
+msgstr ""
+
 #. Length is important here! Full sentence: *Setup TREZOR<br>on your phone.* TREZOR Manager<br>for Android
 #: views/promos/android.html:1
 msgctxt "promos-android"
@@ -2479,7 +2437,7 @@ msgid "Setup failed."
 msgstr "設定失敗."
 
 #. button that displays the top part of Transactions page (Balance/Rate/In/Out + graph)
-#: views/account/transactions/summary.html:3
+#: views/account/transactions/summary.html:1
 msgctxt "button"
 msgid "Show Summary"
 msgstr "顯示更多"
@@ -2632,10 +2590,6 @@ msgctxt "button"
 msgid "Support"
 msgstr "技術支持"
 
-#: index.html:1
-msgid "Support"
-msgstr "技術支持"
-
 #: views/modal/firmware.html:7
 msgctxt "button"
 msgid "Support needed?"
@@ -2649,10 +2603,6 @@ msgstr ""
 #. link in top navigation bar
 #: views/top.nav.html:1
 msgctxt "button"
-msgid "TREZOR"
-msgstr "TREZOR"
-
-#: index.html:1
 msgid "TREZOR"
 msgstr "TREZOR"
 
@@ -2927,17 +2877,17 @@ msgctxt "text-with-link"
 msgid "Transaction <a>{{hash}}</a> was successfully sent."
 msgstr ""
 
-#: views/account/transactions/table.html:1
-msgid "Transactions"
-msgstr "交易"
-
 #. This is shown on the header Send/Receive/Transactions/...
 #: views/account/nav.html:1
 msgctxt "header"
 msgid "Transactions"
 msgstr "交易"
 
-#: views/account/transactions/summary.html:3
+#: views/account/transactions/table.html:1
+msgid "Transactions"
+msgstr "交易"
+
+#: views/account/transactions/summary.html:1
 msgid "Transactions are loading ..."
 msgstr "載入交易中..."
 
@@ -3018,12 +2968,6 @@ msgctxt "button"
 msgid "Upgrade"
 msgstr "升級"
 
-#. Upgrade refers to Trezor firmware upgrade
-#: views/alertbars/firmware.html:5
-msgctxt "firmware-update"
-msgid "Upgrade for the newest features."
-msgstr "升級後可以使用新特性或修補漏洞。"
-
 #. Upgrade refers to Trezor Bridge upgrade
 #: views/alertbars/bridge.html:4
 msgctxt "bridge-update"
@@ -3031,6 +2975,12 @@ msgid "Upgrade for the newest features."
 msgstr "升級後可以使用新特性或修補漏洞。"
 
 #: views/install/bridge.force.html:1
+msgid "Upgrade for the newest features."
+msgstr "升級後可以使用新特性或修補漏洞。"
+
+#. Upgrade refers to Trezor firmware upgrade
+#: views/alertbars/firmware.html:5
+msgctxt "firmware-update"
 msgid "Upgrade for the newest features."
 msgstr "升級後可以使用新特性或修補漏洞。"
 
@@ -3125,10 +3075,6 @@ msgstr "等待交易紀錄中"
 #. link in top navigation bar
 #: views/top.nav.html:1
 msgctxt "button"
-msgid "Wallet"
-msgstr "錢包"
-
-#: index.html:1
 msgid "Wallet"
 msgstr "錢包"
 
@@ -3447,11 +3393,11 @@ msgid "Your images"
 msgstr "你的圖片"
 
 #: views/modal/firmware.html:7
-msgctxt "warning-message"
 msgid "Your installation of TREZOR Bridge needs to be upgraded first."
 msgstr "你的 TREZOR Bridge 需要先更新。"
 
 #: views/modal/firmware.html:7
+msgctxt "warning-message"
 msgid "Your installation of TREZOR Bridge needs to be upgraded first."
 msgstr "你的 TREZOR Bridge 需要先更新。"
 
@@ -3624,6 +3570,64 @@ msgstr ""
 #: views/nav/settings-buttons.html:1
 msgid "{{user}} connected"
 msgstr ""
+
+#~ msgid "Blog"
+#~ msgstr "部落格"
+
+#~ msgid "Cancel"
+#~ msgstr "取消"
+
+#~ msgid "Click to renew session"
+#~ msgstr "點一下重載連線"
+
+#~ msgid "Close"
+#~ msgstr "關閉"
+
+#~ msgid "Confirm action on your device."
+#~ msgstr "請在你的裝置上確認操作。"
+
+#~ msgid "Continue"
+#~ msgstr "繼續"
+
+#~ msgid "Device label"
+#~ msgstr "裝置標籤"
+
+#~ msgctxt "load-label"
+#~ msgid "Device label"
+#~ msgstr "裝置標籤"
+
+#~ msgid "Docs"
+#~ msgstr "文件"
+
+#~ msgctxt "send"
+#~ msgid "Fee"
+#~ msgstr "手續費"
+
+#~ msgctxt "forget-button"
+#~ msgid "Forget"
+#~ msgstr "不要記住"
+
+#~ msgid "Maximal message length is 255 letters long."
+#~ msgstr "訊息最長不可超過255個字母。"
+
+#~ msgid "Maximal spendable"
+#~ msgstr "最多可花費"
+
+#~ msgid "Need help?"
+#~ msgstr "需要幫忙?"
+
+#~ msgctxt "forget-button"
+#~ msgid "Remember"
+#~ msgstr "記住"
+
+#~ msgid "Support"
+#~ msgstr "技術支持"
+
+#~ msgid "TREZOR"
+#~ msgstr "TREZOR"
+
+#~ msgid "Wallet"
+#~ msgstr "錢包"
 
 #~ msgid "(automatically in"
 #~ msgstr "(自動在"
